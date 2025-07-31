@@ -9,9 +9,9 @@ dayjs.extend(timezone);
 
 const CONFIG = {
   date: dayjs().tz("Asia/Kolkata").format("YYYY-MM-DD"),
-  contentId: "196147",
-  movieCode: "K5ih5j~m7F",
-  cutoffMins: 5
+  contentId: "173914",
+  movieCode: "TxctnBmoW",
+  cutoffMins: 60
 };
 
 (async () => {
