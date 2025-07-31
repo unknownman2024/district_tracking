@@ -14,41 +14,6 @@ const CONFIG = {
   cutoffMins: 5
 };
 
-// Title case helper
-function toTitleCase(str) {
-  return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
-}
-
-// Clean venue name for deduplication
-function cleanVenueSimple(name) {
-  return name
-    .replace(/[^a-zA-Z0-9]/g, "")
-    .replace(/(cinemas?|movieplex|plex|theatre|theater|screen|audi)/gi, "")
-    .toLowerCase();
-}
-
-// Dedupe by venue, keep consistent city name
-function deduplicateSameVenueAcrossCities(data) {
-  const grouped = {};
-  for (const entry of data) {
-    const key = cleanVenueSimple(entry.venue);
-    if (!grouped[key]) grouped[key] = [];
-    grouped[key].push(entry);
-  }
-
-  const final = [];
-  for (const group of Object.values(grouped)) {
-    const resolvedCity = group[0].city;
-    const resolvedState = group[0].state || "";
-    for (const entry of group) {
-      entry.city = resolvedCity;
-      entry.state = resolvedState;
-      final.push(entry);
-    }
-  }
-  return final;
-}
-
 (async () => {
   const now = dayjs().tz("Asia/Kolkata");
   const folder = `districtdata/${CONFIG.date}`;
@@ -57,7 +22,7 @@ function deduplicateSameVenueAcrossCities(data) {
   const seenKeys = new Set();
   const result = [];
 
-  // Load existing entries
+  // 🔁 Load existing data (if exists)
   if (fs.existsSync(filePath)) {
     const existing = JSON.parse(fs.readFileSync(filePath, "utf-8"));
     for (const v of existing.venues || []) {
@@ -70,30 +35,23 @@ function deduplicateSameVenueAcrossCities(data) {
   const cities = await fetch("https://boxoffice24.pages.dev/TrackIndia/matchedcities.json")
     .then(res => res.json());
 
-  const validCities = cities.filter(c => c.citycode);
-
-  const tasks = validCities.map(city => (async () => {
-    const cityParam = city.citycode;
-    const url = `https://district.text2024mail.workers.dev/?city=${cityParam}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
+  const tasks = cities.map(city => (async () => {
+    const url = `https://district.text2024mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
 
     try {
-      const res = await fetch(url);
-      const data = await res.json();
+const res = await fetch(url, {
+  headers: {
+    "User-Agent": "BOXOFFICE24"
+  }
+});
+      const json = await res.json();
 
-      const showDates = data?.meta?.showDates || [];
-      if (!showDates.includes(CONFIG.date)) {
-        console.log(`⛔ Skipping ${city.RegionName} — ${CONFIG.date} not in showDates`);
-        return;
-      }
-
-      const cinemas = [...(data.pageData?.nearbyCinemas || []), ...(data.pageData?.farCinemas || [])];
+      const cinemas = [...(json.pageData?.nearbyCinemas || []), ...(json.pageData?.farCinemas || [])];
 
       for (const cinema of cinemas) {
-        const venueName = cinema.cinemaInfo?.name || "Unknown Venue";
-        const realCity = toTitleCase((cinema.cinemaInfo?.city || "").trim());
-        const realState = toTitleCase((cinema.cinemaInfo?.state || "").trim());
-
+        const venueName = cinema.cinemaInfo.name;
         const shows = cinema.sessions || [];
+
         for (const session of shows) {
           const showTime = dayjs(session.showTime).tz("Asia/Kolkata");
           const minutesLeft = showTime.diff(now, "minute");
@@ -115,8 +73,7 @@ function deduplicateSameVenueAcrossCities(data) {
           const sig = `${venueName}_${timeStr}`;
 
           const newEntry = {
-            city: realCity || city.RegionName,
-            state: realState,
+            city: city.RegionName,
             venue: venueName,
             time: timeStr,
             totalSeats: total,
@@ -135,26 +92,24 @@ function deduplicateSameVenueAcrossCities(data) {
             const existing = result[existingIndex];
             if (newEntry.gross > existing.gross || newEntry.sold > existing.sold) {
               result[existingIndex] = newEntry;
-              console.log(`🔁 Updated: [${realCity}] ${venueName} → ${timeStr} (gross/sold increased)`);
+              console.log(`🔁 Updated: [${city.RegionName}] ${venueName} → ${timeStr} (gross/sold increased)`);
             }
           } else {
             seenKeys.add(sig);
             result.push(newEntry);
-            console.log(`➕ Added: [${realCity}] ${venueName} → ${timeStr}`);
+            console.log(`➕ Added: [${city.RegionName}] ${venueName} → ${timeStr}`);
           }
         }
       }
 
     } catch (err) {
-      console.error(`❌ [${city.RegionName}] failed: ${err.message}`);
+      console.error(`❌ ${city.RegionName} failed: ${err.message}`);
     }
   })());
 
   await Promise.all(tasks);
 
-  const finalData = deduplicateSameVenueAcrossCities(result);
-
   fs.mkdirSync(folder, { recursive: true });
-  fs.writeFileSync(filePath, JSON.stringify({ date: CONFIG.date, venues: finalData }, null, 2));
-  console.log(`✅ Done. Final total shows stored: ${finalData.length} → ${filePath}`);
+  fs.writeFileSync(filePath, JSON.stringify({ date: CONFIG.date, venues: result }, null, 2));
+  console.log(`✅ Done. Final total shows stored: ${result.length} → ${filePath}`);
 })();
