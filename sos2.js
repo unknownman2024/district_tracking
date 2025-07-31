@@ -11,7 +11,7 @@ const CONFIG = {
   date: dayjs().tz("Asia/Kolkata").format("YYYY-MM-DD"),
   contentId: "194117",
   movieCode: "MJ0RB1ZpBw",
-  cutoffMins: 5
+  cutoffMins: 60
 };
 
 (async () => {
