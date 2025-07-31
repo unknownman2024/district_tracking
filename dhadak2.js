@@ -53,7 +53,6 @@ date: dayjs().tz("Asia/Kolkata").format("YYYY-MM-DD"),
       for (const cinema of cinemas) {
         const venueName = cinema.cinemaInfo.name;
         const venueAddress = cinema.cinemaInfo.address || "";
-        const state = cinema.cinemaInfo.state || "";
         const shows = cinema.sessions || [];
 
         for (const session of shows) {
@@ -77,9 +76,9 @@ date: dayjs().tz("Asia/Kolkata").format("YYYY-MM-DD"),
           const sig = `${venueName}_${timeStr}`;
 
           const newEntry = {
-            source: "bms",
+            source: "district",
             city: city.RegionName,
-            state: state,
+            state: city.StateName,
             venue: venueName,
             address: venueAddress,
             time: timeStr,
