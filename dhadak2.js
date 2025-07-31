@@ -10,8 +10,8 @@ dayjs.extend(timezone);
 // ✅ Get tomorrow's date in IST
 const CONFIG = {
   date: dayjs().tz("Asia/Kolkata").add(1, "day").format("YYYY-MM-DD"),
-  contentId: "194117",
-  movieCode: "MJ0RB1ZpBw",
+  contentId: "173914",
+  movieCode: "TxctnBmoW",
   cutoffMins: 60
 };
 
