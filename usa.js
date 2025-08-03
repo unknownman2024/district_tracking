@@ -1,10 +1,10 @@
-// Required packages: axios, fs/promises, p-limit
-// Install via: npm install axios p-limit
+// Required packages: axios, fs/promises, p-limit@2
+// Install via: npm install axios p-limit@2
 
 const axios = require('axios');
 const fs = require('fs/promises');
 const path = require('path');
-const pLimit = require('p-limit');
+const pLimit = require('p-limit'); // v2
 
 const CONFIG = {
   DATE: '2025-08-13',
@@ -40,12 +40,12 @@ async function getTheaters(zip, date) {
     const res = await axios.get(url, { params });
     return res.data;
   } catch (err) {
-    console.warn(`ZIP ${zip} failed: ${err.message}`);
+    console.warn(`❌ ZIP ${zip} failed: ${err.message}`);
     return {};
   }
 }
 
-function extractLanguage(amenities) {
+function extractLanguage(amenities = []) {
   const known = ['English', 'Hindi', 'Tamil', 'Telugu', 'Kannada', 'Malayalam', 'Punjabi', 'Gujarati', 'Marathi', 'Bengali'];
   for (const item of amenities) {
     const lower = item.toLowerCase();
@@ -57,7 +57,7 @@ function extractLanguage(amenities) {
   return 'Unknown';
 }
 
-function extractFormat(amenities, defFormat) {
+function extractFormat(amenities = [], defFormat) {
   const keywords = ['RPX', 'D-Box', 'IMAX', 'EMX', 'Sony Digital Cinema', '4DX', 'ScreenX', 'Dolby Cinema'];
   for (const keyword of keywords) {
     if (amenities.some(a => a.toLowerCase().includes(keyword.toLowerCase()))) return keyword;
@@ -95,6 +95,7 @@ async function fetchSeat(show) {
     const available = d.totalAvailableSeatCount || 0;
     const total = d.totalSeatCount || 0;
     const sold = total - available;
+
     show.totalSeatSold = sold;
     show.occupancy = total ? +(sold / total * 100).toFixed(2) : 0.0;
     show.totalAvailableSeatCount = available;
@@ -111,19 +112,34 @@ async function fetchSeat(show) {
         break;
       }
     }
+
+    if (show.adultTicketPrice === 0 && ticketInfo.length) {
+      const price = parseFloat(ticketInfo[0].price || '0');
+      show.adultTicketPrice = price;
+      show.grossRevenueUSD = +(price * sold).toFixed(2);
+    }
   } catch (err) {
-    show.error = { status: err.response?.status || 0, message: err.message };
+    show.error = {
+      status: err.response?.status || 0,
+      message: err.message
+    };
   }
 }
 
 async function main() {
-  const zipcodes = (await fs.readFile(CONFIG.ZIP_FILE, 'utf-8')).split('\n').filter(Boolean);
-  console.log(`Loaded ${zipcodes.length} ZIPs.`);
+  const zipcodes = (await fs.readFile(CONFIG.ZIP_FILE, 'utf-8'))
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean);
+
+  console.log(`📦 Loaded ${zipcodes.length} ZIPs...`);
 
   const allShowtimes = [];
+
   for (const zip of zipcodes) {
     const data = await getTheaters(zip, CONFIG.DATE);
     const theaters = data.theaters || [];
+
     for (const t of theaters) {
       for (const m of t.movies || []) {
         if (m.id === CONFIG.TARGET_MOVIE_ID) {
@@ -144,7 +160,8 @@ async function main() {
     }
   }
 
-  console.log(`Found ${allShowtimes.length} showtimes.`);
+  console.log(`🎟️ Found ${allShowtimes.length} showtimes. Fetching seat maps...`);
+
   const limit = pLimit(CONFIG.CONCURRENCY);
   await Promise.all(allShowtimes.map(show => limit(() => fetchSeat(show))));
 
