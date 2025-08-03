@@ -1,11 +1,10 @@
 {
   "name": "movie-tracking",
   "version": "1.0.0",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "axios": "^1.6.8",
     "dayjs": "^1.11.10",
-    "node-fetch": "^2.6.7",
     "p-limit": "^4.0.0"
   }
 }
