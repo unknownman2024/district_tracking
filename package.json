@@ -1,9 +1,10 @@
 {
-  "name": "district-tracking",
+  "name": "movie-tracking",
   "version": "1.0.0",
   "type": "commonjs",
   "dependencies": {
     "dayjs": "^1.11.10",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "p-limit": "^4.0.0"
   }
 }
