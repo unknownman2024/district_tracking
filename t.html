@@ -560,26 +560,28 @@ function updateHeadingTitle(movie, date, venues, lastUpdatedFromJson, movieObj) 
     document.getElementById("pageTitle").textContent =
         `${movie} - ${readableDate} - Live Box-office Tracking - ${cityCount} Cities - ${totalShows} Shows - Last Updated: ${finalTimeDisplay}`;
 
-    let estLine = "";
-    if (movieObj && movieObj.multiplier) {
-        const multiplier = parseFloat(movieObj.multiplier) || 1;
-        const estGross = totalGross * multiplier;
-        const adjATP = Math.round(atp * 0.9);
-        const estTickets = adjATP > 0 ? Math.round(estGross / adjATP) : 0;
+let estLine = "";
+if (movieObj && movieObj.multiplier) {
+    const multiplier = parseFloat(movieObj.multiplier) || 1;
+    const estGross = totalGross * multiplier;
+    const estNett = estGross * 0.847;
+    const adjATP = Math.round(atp * 0.9);
+    const estTickets = adjATP > 0 ? Math.round(estGross / adjATP) : 0;
 
-        const estGrossDisplay = estGross >= 1e7 ?
-            `₹${(estGross / 1e7).toFixed(2)} Cr` :
-            estGross >= 1e5 ?
-            `₹${(estGross / 1e5).toFixed(2)} Lakh` :
-            `₹${estGross.toLocaleString()}`;
+    const formatCurrency = (amount) => {
+        if (amount >= 1e7) return `₹${(amount / 1e7).toFixed(2)} Cr`;
+        if (amount >= 1e5) return `₹${(amount / 1e5).toFixed(2)} Lakh`;
+        return `₹${amount.toLocaleString()}`;
+    };
 
-        estLine = `\n📊 Est. Actuals: ${estGrossDisplay} | ${estTickets.toLocaleString()} Tickets | ATP: ₹${adjATP}`;
-    }
+    const estGrossDisplay = formatCurrency(estGross);
+    const estNettDisplay = formatCurrency(estNett);
 
-    document.getElementById("metaSummary").textContent =
-        `🎟️ ${grossDisplay} | ${totalSold.toLocaleString()} Tickets Sold | ${occupancy}% Occupancy | ATP: ₹${atp} | FF: ${ffShows} | HF: ${hfShows}${estLine}`;
-
+    estLine = `\n📊 Est. Gross: ${estGrossDisplay} | ${estNettDisplay} Nett | ${estTickets.toLocaleString()} Tickets | ATP: ₹${adjATP}`;
 }
+
+document.getElementById("metaSummary").innerHTML =
+    `🎟️ ${grossDisplay} | ${totalSold.toLocaleString()} Tickets Sold | ${occupancy}% Occupancy | ATP: ₹${atp} | FF: ${ffShows} | HF: ${hfShows}<br>${estLine}`;
 
 function renderStateTable(stateSummaries) {
     const stateSection = document.createElement("div");
