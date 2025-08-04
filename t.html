@@ -583,6 +583,7 @@ if (movieObj && movieObj.multiplier) {
 document.getElementById("metaSummary").innerHTML =
     `🎟️ ${grossDisplay} | ${totalSold.toLocaleString()} Tickets Sold | ${occupancy}% Occupancy | ATP: ₹${atp} | FF: ${ffShows} | HF: ${hfShows}<br>${estLine}`;
 
+}
 function renderStateTable(stateSummaries) {
     const stateSection = document.createElement("div");
     const heading = document.createElement("h2");
@@ -1191,7 +1192,6 @@ function enableSorting(table, dataRows, staticRowCount = 0, rowHTMLFn) {
             });
         });
     }
-
     // Initial render
     render();
 } 
