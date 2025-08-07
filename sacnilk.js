@@ -138,9 +138,11 @@ const timeStr = now.format("HH:mm:ss");
 
     if (!existingMap[movieName]) existingMap[movieName] = [];
 
-    const isDuplicate = existingMap[movieName].some(
-      d => d.date === dataPoint.date && d.time === dataPoint.time
-    );
+    const currentHour = now.format("HH");
+const isDuplicate = existingMap[movieName].some(
+  d => d.date === dataPoint.date && d.time.startsWith(currentHour + ":")
+);
+
 
     if (!isDuplicate) {
       console.log(`✅ ${movieName} (${dataPoint.day}) - ₹${amount} Cr`);
