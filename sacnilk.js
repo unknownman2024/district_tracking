@@ -73,7 +73,7 @@ async function extractMovieLinks() {
   const finalMovies = [];
   Object.values(movieMap).forEach(entries => {
     entries.sort((a, b) => b.day - a.day);
-    if (entries[0].day <= 10) {
+    if (entries[0].day <= 30) {
       finalMovies.push(entries[0]);
     }
   });
