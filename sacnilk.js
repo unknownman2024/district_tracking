@@ -6,7 +6,7 @@ const BASE_URL = "https://www.sacnilk.com";
 const MAIN_URL = `${BASE_URL}/metasection/box_office`;
 const OUTPUT_DIR = "data";
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "data.json");
-const DEBUG_HTML = path.join(OUTPUT_DIR, "debug.html");
+const HTML_DUMP = path.join(OUTPUT_DIR, "debug.html");
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR);
@@ -40,28 +40,28 @@ async function fetchHTML(url) {
 
 async function extractMovieLinks() {
   const html = await fetchHTML(MAIN_URL);
-  const movieMap = {};
+  fs.writeFileSync(HTML_DUMP, html); // ✅ Save full HTML dump for debugging
 
-  const regex = /<a\s+href="([^"]+)"[^>]*>\s*<b>([^<]+)<\/b>\s*<\/a>/g;
+  const movieMap = {};
+  const regex = /<a\s+href="(\/quicknews\/[^"]+)"\s+title="([^"]*Box Office Collection Day\s+\d+)"/gi;
+
   let match;
   while ((match = regex.exec(html))) {
     const href = match[1];
     const fullTitle = match[2].trim();
 
-    if (/Box Office/i.test(fullTitle)) {
-      const dayMatch = fullTitle.match(/^(.*?) Box Office Collection Day (\d+)/i);
-      if (dayMatch) {
-        const rawTitle = dayMatch[1].trim();
-        const day = parseInt(dayMatch[2], 10);
-        const normalized = normalizeTitle(rawTitle);
+    const dayMatch = fullTitle.match(/^(.*?) Box Office Collection Day (\d+)/i);
+    if (dayMatch) {
+      const rawTitle = dayMatch[1].trim();
+      const day = parseInt(dayMatch[2], 10);
+      const normalized = normalizeTitle(rawTitle);
 
-        if (!movieMap[normalized]) movieMap[normalized] = [];
-        movieMap[normalized].push({
-          name: fullTitle,
-          link: BASE_URL + href,
-          day
-        });
-      }
+      if (!movieMap[normalized]) movieMap[normalized] = [];
+      movieMap[normalized].push({
+        name: fullTitle,
+        link: BASE_URL + href,
+        day
+      });
     }
   }
 
@@ -73,23 +73,21 @@ async function extractMovieLinks() {
     }
   });
 
-  if (finalMovies.length === 0) {
-    fs.writeFileSync(DEBUG_HTML, html);
-    console.warn("⚠️ No movie links found. HTML dumped to debug.html");
-  }
-
   return finalMovies;
 }
 
 async function extractAmountCr(url) {
-  const html = await fetchHTML(url);
+  try {
+    const html = await fetchHTML(url);
+    const hrIndex = html.indexOf('<hr id="hrstart">');
+    if (hrIndex === -1) return null;
 
-  const hrIndex = html.indexOf('<hr id="hrstart">');
-  if (hrIndex === -1) return null;
-
-  const snippet = html.slice(hrIndex, hrIndex + 500);
-  const match = snippet.match(/around\s+([\d.]+)\s+Cr/i);
-  if (match) return parseFloat(match[1]);
+    const snippet = html.slice(hrIndex, hrIndex + 1000);
+    const match = snippet.match(/around\s+([\d.]+)\s+Cr/i);
+    if (match) return parseFloat(match[1]);
+  } catch (e) {
+    console.error("❌ Error fetching amount from:", url, e.message);
+  }
 
   return null;
 }
@@ -114,9 +112,13 @@ async function main() {
 
   for (const movie of movies) {
     const amount = await extractAmountCr(movie.link);
-    if (!amount) continue;
-
     const movieName = cleanMovieTitle(movie.name);
+
+    if (!amount) {
+      console.log(`⚠️ Failed to extract amount for ${movieName}`);
+      continue;
+    }
+
     const now = new Date();
     const dateStr = now.toISOString().split("T")[0];
     const timeStr = now.toTimeString().split(" ")[0];
@@ -152,6 +154,6 @@ async function main() {
 }
 
 main().catch(err => {
-  console.error("❌ Error:", err.message);
+  console.error("❌ Script crashed:", err.message);
   process.exit(1);
 });
