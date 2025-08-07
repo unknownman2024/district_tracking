@@ -1,6 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");
+const dayjs = require("dayjs");
+const utc = require("dayjs/plugin/utc");
+const timezone = require("dayjs/plugin/timezone");
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 const BASE_URL = "https://www.sacnilk.com";
 const MAIN_URL = `${BASE_URL}/metasection/box_office`;
@@ -119,9 +124,10 @@ async function main() {
       continue;
     }
 
-    const now = new Date();
-    const dateStr = now.toISOString().split("T")[0];
-    const timeStr = now.toTimeString().split(" ")[0];
+const now = dayjs().tz("Asia/Kolkata");
+const dateStr = now.format("YYYY-MM-DD");
+const timeStr = now.format("HH:mm:ss");
+
 
     const dataPoint = {
       date: dateStr,
