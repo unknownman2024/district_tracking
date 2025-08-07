@@ -120,7 +120,7 @@ async function main() {
     const movieName = cleanMovieTitle(movie.name);
 
     if (!amount) {
-      console.log(`⚠️ Failed to extract amount for ${movieName}`);
+      console.log(`⚠️ Failed to extract amount for ${movieName} → ${movie.link}`);
       continue;
     }
 
