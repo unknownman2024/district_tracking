@@ -6,6 +6,7 @@ const BASE_URL = "https://www.sacnilk.com";
 const MAIN_URL = `${BASE_URL}/metasection/box_office`;
 const OUTPUT_DIR = "data";
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "data.json");
+const DEBUG_HTML = path.join(OUTPUT_DIR, "debug.html");
 
 if (!fs.existsSync(OUTPUT_DIR)) {
   fs.mkdirSync(OUTPUT_DIR);
@@ -71,6 +72,11 @@ async function extractMovieLinks() {
       finalMovies.push(entries[0]);
     }
   });
+
+  if (finalMovies.length === 0) {
+    fs.writeFileSync(DEBUG_HTML, html);
+    console.warn("⚠️ No movie links found. HTML dumped to debug.html");
+  }
 
   return finalMovies;
 }
