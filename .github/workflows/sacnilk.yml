@@ -2,7 +2,7 @@ name: Sacnilk Auto Tracker
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # Runs every 30 minutes (UTC)
+    - cron: "40 * * * *"
   workflow_dispatch:         # Manual trigger if needed
 
 jobs:
