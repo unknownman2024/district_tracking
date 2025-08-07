@@ -26,7 +26,7 @@ jobs:
       - name: 🚀 Run Sacnilk Tracker
         run: |
           set -e
-          node sos2.js
+          node sacnilk.js
 
       - name: 💾 Commit & Push JSON
         run: |
