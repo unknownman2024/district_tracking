@@ -25,7 +25,7 @@ const CONFIG = {
   name: "Coolie Tamil",
   date: targetDate.format("YYYY-MM-DD"), // dynamic target
   contentId: "172677",
-  movieCode: "",
+  movieCode: "ZcW3aqXSzc",
   cutoffMins: 60
 };
 
