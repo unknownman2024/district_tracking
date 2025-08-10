@@ -81,9 +81,9 @@ if (
   expectedLang &&
   !allowedLangs.map(l => l.toLowerCase()).includes(expectedLang)
 ) {
-  console.log(
-    `⛔ Skipping ${city.RegionName} — ${CONFIG.language} not in ${allowedLangs.join(", ")}`
-  );
+console.log(
+  `⛔ Skipping ${city.RegionName} — Expected "${CONFIG.language}", got: ${allowedLangs.length ? allowedLangs.join(", ") : "none"}`
+);
   return;
 }
 
