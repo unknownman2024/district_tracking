@@ -23,7 +23,7 @@ if (todayIST.isBefore(RELEASE_DATE, "day")) {
 
 const CONFIG = {
   name: "War 2 Telugu",
-  name: "telugu",
+  language: "telugu",
   date: targetDate.format("YYYY-MM-DD"), // dynamic target
   contentId: "161358",
   movieCode: "zfRPkPvClVf",
