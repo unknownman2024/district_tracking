@@ -11,19 +11,18 @@ dayjs.extend(timezone);
 const RELEASE_DATE = dayjs("2025-08-14").tz("Asia/Kolkata");
 // Get today's date/time in IST
 const todayIST = dayjs().tz("Asia/Kolkata");
+
 // Decide target date
 let targetDate;
 if (todayIST.isBefore(RELEASE_DATE, "day")) {
-  // Before release day → track for release day
   targetDate = RELEASE_DATE;
 } else {
-  // On or after release day → track for next day
   targetDate = todayIST.add(1, "day");
 }
 
 const CONFIG = {
   name: "War 2 Telugu",
-  date: targetDate.format("YYYY-MM-DD"), // dynamic target
+  date: targetDate.format("YYYY-MM-DD"),
   contentId: "161358",
   movieCode: "zfRPkPvClVf",
   cutoffMins: 60
@@ -39,13 +38,23 @@ console.log(`🎯 Tracking date: ${CONFIG.date} (today: ${todayIST.format("YYYY-
   const seenKeys = new Set();
   const result = [];
 
-  // 🔁 Load existing data (if exists)
+  // 🔁 Load existing data safely
   if (fs.existsSync(filePath)) {
-    const existing = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    for (const v of existing.venues || []) {
-      const sig = `${v.venue}_${v.time}`;
-      seenKeys.add(sig);
-      result.push(v);
+    try {
+      const fileContent = fs.readFileSync(filePath, "utf-8");
+      if (fileContent.trim()) {
+        const existing = JSON.parse(fileContent);
+        for (const v of existing.venues || []) {
+          const sig = `${v.venue}_${v.time}`;
+          seenKeys.add(sig);
+          result.push(v);
+        }
+        console.log(`📂 Loaded ${result.length} existing entries from ${filePath}`);
+      } else {
+        console.warn(`⚠ File exists but empty: ${filePath}`);
+      }
+    } catch (err) {
+      console.warn(`⚠ Could not parse existing JSON (${filePath}): ${err.message}`);
     }
   }
 
@@ -161,10 +170,15 @@ console.log(`🧹 Deduplicated shows: ${result.length} → ${dedupedResult.lengt
   const output = {
     date: CONFIG.date,
     lastUpdated: now.format("hh:mm A, DD MMMM YYYY"),
-    venues: dedupedResult
+    venues: result // you'll replace with dedupedResult later
   };
 
   fs.mkdirSync(folder, { recursive: true });
-  fs.writeFileSync(filePath, JSON.stringify(output, null, 2));
-  console.log(`✅ Done. Final total shows stored: ${dedupedResult.length} → ${filePath}`);
+
+  // ✨ Atomic write to avoid corrupt files
+  const tmpPath = `${filePath}.tmp`;
+  fs.writeFileSync(tmpPath, JSON.stringify(output, null, 2));
+  fs.renameSync(tmpPath, filePath);
+
+  console.log(`✅ Done. Final total shows stored: ${result.length} → ${filePath}`);
 })();
