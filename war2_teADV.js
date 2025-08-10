@@ -26,7 +26,7 @@ const CONFIG = {
   language: "telugu",
   date: targetDate.format("YYYY-MM-DD"), // dynamic target
   contentId: "161358",
-  movieCode: "zfRPkPvClVf",
+  movieCode: "Vce5NbdeI_",
   cutoffMins: 60
 };
 
