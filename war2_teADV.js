@@ -57,6 +57,7 @@ console.log(`🎯 Tracking date: ${CONFIG.date} (today: ${todayIST.format("YYYY-
     if (!city.citycode) return;
 
     const url = `https://district.text2025mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
+    console.log(`🌐 Requesting: ${url}`);
 
     try {
       const res = await fetch(url, {
