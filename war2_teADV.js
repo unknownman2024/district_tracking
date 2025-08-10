@@ -23,6 +23,7 @@ if (todayIST.isBefore(RELEASE_DATE, "day")) {
 
 const CONFIG = {
   name: "War 2 Telugu",
+  name: "telugu",
   date: targetDate.format("YYYY-MM-DD"), // dynamic target
   contentId: "161358",
   movieCode: "zfRPkPvClVf",
@@ -66,9 +67,23 @@ console.log(`🎯 Tracking date: ${CONFIG.date} (today: ${todayIST.format("YYYY-
 
     const json = await res.json();
 
+// Inside the try block, right after fetching `json` and before processing cinemas
+const allowedLangs = json?.meta?.movie?.languages || [];
+const expectedLang = CONFIG.language?.toLowerCase(); // add `language` field in CONFIG
+
 // 🚫 Skip this city if target date not in showDates
 if (!json?.meta?.showDates?.includes(CONFIG.date)) {
   console.log(`⏭ Skipping ${city.RegionName} — ${CONFIG.date} not in showDates`);
+  return;
+}
+
+if (
+  expectedLang &&
+  !allowedLangs.map(l => l.toLowerCase()).includes(expectedLang)
+) {
+  console.log(
+    `⛔ Skipping ${city.RegionName} — ${CONFIG.language} not in ${allowedLangs.join(", ")}`
+  );
   return;
 }
 
