@@ -25,7 +25,7 @@ const CONFIG = {
   name: "War 2 Hindi",
   date: targetDate.format("YYYY-MM-DD"), // dynamic target
   contentId: "161358",
-  movieCode: "i_Xloyqka",
+  movieCode: "sbGuGSyELy",
   cutoffMins: 60
 };
 
