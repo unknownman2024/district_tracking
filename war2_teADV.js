@@ -38,6 +38,54 @@ function randomIP() {
   return Array(4).fill(0).map(() => Math.floor(Math.random() * 256)).join(".");
 }
 
+function randomUserAgent() {
+  const platforms = [
+    () => `Mozilla/5.0 (iPhone; CPU iPhone OS ${rand(14, 17)}_${rand(0, 6)} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/${rand(14, 17)}.0 Mobile/${randStr(2).toUpperCase()}${randNum(4)} Safari/604.1`,
+    () => `Mozilla/5.0 (Linux; Android ${rand(9, 14)}; ${randomAndroidModel()}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${rand(90, 127)}.0.${randNum(4)}.0 Mobile Safari/537.36`,
+    () => `Mozilla/5.0 (Windows NT ${rand(6, 10)}.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/${rand(90, 127)}.0.${randNum(4)}.0 Safari/537.36`
+  ];
+  return platforms[Math.floor(Math.random() * platforms.length)]();
+}
+
+function rand(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+function randNum(length) {
+  return Math.floor(Math.random() * Math.pow(10, length))
+    .toString()
+    .padStart(length, "0");
+}
+function randStr(length) {
+  const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  return Array.from({ length }, () => chars[Math.floor(Math.random() * chars.length)]).join("");
+}
+function randomAndroidModel() {
+  const brands = ["SM-M115F", "Redmi Note 10", "OnePlus 9R", "Pixel 7", "Realme GT"];
+  return brands[Math.floor(Math.random() * brands.length)];
+}
+
+
+async function fetchWithRetry(url, options, maxRetries = 5) {
+  let attempt = 0;
+  while (attempt < maxRetries) {
+    attempt++;
+    try {
+      const res = await fetch(url, options);
+      if (res.status === 200 || res.status === 500) {
+        return res; // valid response
+      } else {
+        console.warn(`⚠️ Attempt ${attempt} failed with status ${res.status}, retrying...`);
+      }
+    } catch (err) {
+      console.warn(`⚠️ Attempt ${attempt} failed: ${err.message}, retrying...`);
+    }
+    if (attempt < maxRetries) {
+      await new Promise(r => setTimeout(r, 1000 * attempt)); // backoff
+    }
+  }
+  throw new Error(`Failed after ${maxRetries} attempts`);
+}
+
 async function fetchDistrictData(movieCode, cityKey, contentId, date) {
   const latitude = "17.39784178559756";
   const longitude = "78.47682085228203";
@@ -45,13 +93,8 @@ async function fetchDistrictData(movieCode, cityKey, contentId, date) {
   const deviceId = crypto.randomUUID();
   const guestToken = `${Date.now()}_${Math.floor(Math.random() * 1e18)}_ax${Math.random().toString(36).substring(2, 10)}`;
   const spoofedIP = randomIP();
+  const userAgent = randomUserAgent();
 
-  const userAgents = [
-    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
-    "Mozilla/5.0 (Linux; Android 11; SM-M115F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-  ];
-  const userAgent = userAgents[Math.floor(Math.random() * userAgents.length)];
 
   const url = `https://www.district.in/gw/consumer/movies/v5/movie?version=3&site_id=1&channel=ANDROIDAPPINSIDER&child_site_id=1&platform=district&latitude=${latitude}&longitude=${longitude}&cinemaOrderLogic=3&movieCode=${movieCode}&city_key=${cityKey}&content_id=${contentId}&date=${date}`;
 
@@ -74,7 +117,7 @@ async function fetchDistrictData(movieCode, cityKey, contentId, date) {
   };
 
   const start = Date.now();
-  const res = await fetch(url, { headers });
+  const res = await fetchWithRetry(url, { headers });
   const data = await res.json();
   data._debug = { fetched_in_ms: Date.now() - start };
 
