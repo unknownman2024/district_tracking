@@ -81,16 +81,6 @@ async function fetchDistrictData(movieCode, cityKey, contentId, date) {
   return data;
 }
 
-// ✅ Fixed release date in IST
-const RELEASE_DATE = dayjs("2025-08-14").tz("Asia/Kolkata");
-const todayIST = dayjs().tz("Asia/Kolkata");
-
-let targetDate;
-if (todayIST.isBefore(RELEASE_DATE, "day")) {
-  targetDate = RELEASE_DATE;
-} else {
-  targetDate = todayIST.add(1, "day");
-}
 
 console.log(`🎯 Tracking date: ${CONFIG.date} (today: ${todayIST.format("YYYY-MM-DD")})`);
 
