@@ -1,6 +1,6 @@
 {
   "date": "2025-08-14",
-  "lastUpdated": "03:10 AM, 12 August 2025",
+  "lastUpdated": "04:13 AM, 12 August 2025",
   "venues": [
     {
       "source": "district",
@@ -26,11 +26,11 @@
       "time": "10:25 AM",
       "audi": "AUDI 06",
       "totalSeats": 144,
-      "available": 142,
-      "sold": 2,
-      "gross": 500,
-      "occupancy": "1.39%",
-      "minsLeft": 3962
+      "available": 140,
+      "sold": 4,
+      "gross": 1000,
+      "occupancy": "2.78%",
+      "minsLeft": 3251
     },
     {
       "source": "district",
@@ -386,11 +386,11 @@
       "time": "12:40 PM",
       "audi": "SCREEN 8",
       "totalSeats": 218,
-      "available": 38,
-      "sold": 180,
-      "gross": 31718.800000000003,
-      "occupancy": "82.57%",
-      "minsLeft": 3449
+      "available": 36,
+      "sold": 182,
+      "gross": 32123.78,
+      "occupancy": "83.49%",
+      "minsLeft": 3386
     },
     {
       "source": "district",
@@ -1931,11 +1931,11 @@
       "time": "09:40 AM",
       "audi": "Srinivasa",
       "totalSeats": 500,
-      "available": 34,
-      "sold": 466,
-      "gross": 116500,
-      "occupancy": "93.20%",
-      "minsLeft": 3390
+      "available": 33,
+      "sold": 467,
+      "gross": 116750,
+      "occupancy": "93.40%",
+      "minsLeft": 3206
     },
     {
       "source": "district",
@@ -1991,11 +1991,11 @@
       "time": "10:30 PM",
       "audi": "Sandhya 4K",
       "totalSeats": 756,
-      "available": 189,
-      "sold": 567,
-      "gross": 175000,
-      "occupancy": "75.00%",
-      "minsLeft": 4039
+      "available": 188,
+      "sold": 568,
+      "gross": 175200,
+      "occupancy": "75.13%",
+      "minsLeft": 3976
     },
     {
       "source": "district",
@@ -2426,11 +2426,11 @@
       "time": "10:15 AM",
       "audi": "SCREEN 2",
       "totalSeats": 104,
-      "available": 98,
-      "sold": 6,
-      "gross": 2400,
-      "occupancy": "5.77%",
-      "minsLeft": 3470
+      "available": 96,
+      "sold": 8,
+      "gross": 3200,
+      "occupancy": "7.69%",
+      "minsLeft": 3241
     },
     {
       "source": "district",
@@ -2561,11 +2561,11 @@
       "time": "08:00 AM",
       "audi": "IMAX 5",
       "totalSeats": 319,
-      "available": 319,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 3335
+      "available": 318,
+      "sold": 1,
+      "gross": 699,
+      "occupancy": "0.31%",
+      "minsLeft": 3106
     },
     {
       "source": "district",
@@ -2716,6 +2716,51 @@
       "gross": 12149.400000000001,
       "occupancy": "24.59%",
       "minsLeft": 4094
+    },
+    {
+      "source": "district",
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "address": "Providence Mall, 4th and 5th Floor, Venkatasubba Reddiyar Salai via Cuddalore Road, Near Malai Malar, Pondicherry, Tamil Nadu 605001,India",
+      "time": "06:15 PM",
+      "audi": "SCREEN-5",
+      "totalSeats": 183,
+      "available": 182,
+      "sold": 1,
+      "gross": 170,
+      "occupancy": "0.55%",
+      "minsLeft": 3721
+    },
+    {
+      "source": "district",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "INOX The Marina Mall OMR, Egatoor, Chennai",
+      "address": "3rd Floor, The Marina Mall, Old Mahabalipuram Road, Egatoor, Chennai, Tami Nadu 603103, India",
+      "time": "04:20 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 230,
+      "available": 162,
+      "sold": 68,
+      "gross": 10987.32,
+      "occupancy": "29.57%",
+      "minsLeft": 3606
+    },
+    {
+      "source": "district",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "address": "3rd Floor, VR Mall, Singayana Palya, Main Whitefield Road, Mahadevpura, Bengaluru, Karnataka 560048, India",
+      "time": "08:20 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 261,
+      "available": 261,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 3126
     }
   ]
 }
