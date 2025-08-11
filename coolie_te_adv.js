@@ -9,6 +9,21 @@ const crypto = require("crypto");
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
+
+// ✅ Fixed release date in IST
+const RELEASE_DATE = dayjs("2025-08-14").tz("Asia/Kolkata");
+// Get today's date/time in IST
+const todayIST = dayjs().tz("Asia/Kolkata");
+// Decide target date
+let targetDate;
+if (todayIST.isBefore(RELEASE_DATE, "day")) {
+  // Before release day → track for release day
+  targetDate = RELEASE_DATE;
+} else {
+  // On or after release day → track for next day
+  targetDate = todayIST.add(1, "day");
+}
+
 const CONFIG = {
   name: "Coolie Telugu",
   language: "telugu",
@@ -17,6 +32,7 @@ const CONFIG = {
   movieCode: "rF_IgPQApY",
   cutoffMins: 60
 };
+
 
 function randomIP() {
   return Array(4).fill(0).map(() => Math.floor(Math.random() * 256)).join(".");
