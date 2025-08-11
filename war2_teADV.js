@@ -92,14 +92,22 @@ console.log(`🎯 Tracking date: ${CONFIG.date} (today: ${todayIST.format("YYYY-
   const seenKeys = new Set();
   const result = [];
 
-  if (fs.existsSync(filePath)) {
-    const existing = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+let existing = {};
+if (fs.existsSync(filePath)) {
+  const raw = fs.readFileSync(filePath, "utf-8").trim();
+  if (raw) {
+    try {
+      existing = JSON.parse(raw);
+    } catch (err) {
+      console.warn(`⚠️ Skipping invalid JSON in ${filePath}: ${err.message}`);
+    }
+  }
+}
     for (const v of existing.venues || []) {
       const sig = `${v.venue}_${v.time}`;
       seenKeys.add(sig);
       result.push(v);
     }
-  }
 
   const cities = await fetch("https://boxoffice24.pages.dev/TrackIndia/matchedcities.json", {
     headers: { "User-Agent": "BOXOFFICE24" }
