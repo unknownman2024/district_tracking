@@ -10,7 +10,7 @@ dayjs.extend(timezone);
 
 const KEY_FILE = "districttrack/key.json";
 const DISTRICT_DIR = "districttrack";
-const ROTATE_INTERVAL_DAYS = 7; // change if needed
+const ROTATE_INTERVAL_DAYS = 99999999999999; // change if needed
 
 function loadKeyData() {
   if (!fs.existsSync(KEY_FILE)) {
