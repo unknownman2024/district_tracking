@@ -8,28 +8,27 @@ const timezone = require("dayjs/plugin/timezone");
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
+const KEY_FILE = "districttrack/key.json";
 const DISTRICT_DIR = "districttrack";
+const ROTATE_INTERVAL_DAYS = 7; // change if needed
 
-function loadKeyData(date) {
-  const keyFile = `${DISTRICT_DIR}/${date}/key.json`;
-  if (!fs.existsSync(keyFile)) {
-    console.log(`🔑 No key found for ${date} — generating new one.`);
+function loadKeyData() {
+  if (!fs.existsSync(KEY_FILE)) {
+    console.log("🔑 No key found — generating new one.");
     const keyData = {
       key: crypto.randomBytes(32).toString("hex"),
       lastRotated: dayjs().toISOString()
     };
-    fs.mkdirSync(`${DISTRICT_DIR}/${date}`, { recursive: true });
-    fs.writeFileSync(keyFile, JSON.stringify(keyData, null, 2));
+    fs.mkdirSync(DISTRICT_DIR, { recursive: true });
+    fs.writeFileSync(KEY_FILE, JSON.stringify(keyData, null, 2));
     return keyData;
   }
-  return JSON.parse(fs.readFileSync(keyFile, "utf-8"));
+  return JSON.parse(fs.readFileSync(KEY_FILE, "utf-8"));
 }
 
-function saveKeyData(date, keyData) {
-  const keyFile = `${DISTRICT_DIR}/${date}/key.json`;
-  fs.writeFileSync(keyFile, JSON.stringify(keyData, null, 2));
+function saveKeyData(keyData) {
+  fs.writeFileSync(KEY_FILE, JSON.stringify(keyData, null, 2));
 }
-
 
 function encryptData(key, data) {
   const iv = crypto.randomBytes(16);
@@ -47,6 +46,39 @@ function decryptData(key, encrypted) {
   return JSON.parse(decrypted);
 }
 
+function rotateKeyIfNeeded() {
+  let keyData = loadKeyData();
+  const lastRotated = dayjs(keyData.lastRotated);
+  const now = dayjs();
+
+  if (now.diff(lastRotated, "day") >= ROTATE_INTERVAL_DAYS) {
+    console.log(`🔄 Rotating key after ${now.diff(lastRotated, "day")} days...`);
+    const oldKey = keyData.key;
+    const newKey = crypto.randomBytes(32).toString("hex");
+
+    const files = fs.readdirSync(DISTRICT_DIR).filter(f => f.endsWith(".json") && f !== "key.json");
+    for (const file of files) {
+      const filePath = `${DISTRICT_DIR}/${file}`;
+      try {
+        const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        const decrypted = decryptData(oldKey, content);
+        const reEncrypted = encryptData(newKey, decrypted);
+        fs.writeFileSync(filePath, JSON.stringify(reEncrypted, null, 2));
+        console.log(`♻ Re-encrypted: ${file}`);
+      } catch (e) {
+        console.error(`❌ Failed to re-encrypt ${file}: ${e.message}`);
+      }
+    }
+
+    keyData = { key: newKey, lastRotated: now.toISOString() };
+    saveKeyData(keyData);
+    console.log(`✅ Key rotation complete.`);
+  } else {
+    console.log(`⏩ Key not due for rotation. Last rotated ${now.diff(lastRotated, "day")} days ago.`);
+  }
+
+  return keyData.key;
+}
 
 // ------------------ TRACKER LOGIC ------------------
 const todayIST = dayjs().tz("Asia/Kolkata");
@@ -112,27 +144,30 @@ const MOVIES = [
 ];
 
 
-// Main tracker for a single movie 
-async function runTrackerForMovie(CONFIG) {
+// Main tracker for a single movie
+async function runTrackerForMovie(CONFIG, key) {
   console.log(`\n🎯 Tracking ${CONFIG.name} — Date: ${CONFIG.date}`);
-  const nowIST = dayjs().tz("Asia/Kolkata");
+  const now = dayjs().tz("Asia/Kolkata");
   const folder = `${DISTRICT_DIR}/${CONFIG.date}`;
   const filePath = `${folder}/${CONFIG.movieCode}_${CONFIG.contentId}.json`;
 
-  // Step 1: Load old key & old data
-  const oldKeyData = loadKeyData(CONFIG.date);
-  let result = [];
+  const seenKeys = new Set();
+  const result = [];
 
+  // Load old data if exists
   if (fs.existsSync(filePath)) {
     try {
-      const existing = decryptData(oldKeyData.key, JSON.parse(fs.readFileSync(filePath, "utf-8")));
-      result = existing.venues || [];
+      const existing = decryptData(key, JSON.parse(fs.readFileSync(filePath, "utf-8")));
+      for (const v of existing.venues || []) {
+        const sig = `${v.venue}_${v.time}`;
+        seenKeys.add(sig);
+        result.push(v);
+      }
     } catch (e) {
       console.error(`⚠ Failed to decrypt existing file for ${CONFIG.name}: ${e.message}`);
     }
   }
 
-  // Step 2: Fetch latest data
   const cities = await fetch("https://boxoffice24.pages.dev/TrackIndia/matchedcities.json", {
     headers: { "User-Agent": "BOXOFFICE24" }
   }).then(res => res.json());
@@ -140,7 +175,7 @@ async function runTrackerForMovie(CONFIG) {
   const tasks = cities.map(city => (async () => {
     if (!city.citycode) return;
 
-    const url = `https://district.text2026mail.workers.dev/?city=${city.citycode}&contentId=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
+    const url = `https://district.text2026mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
     console.log(`🌐 Requesting: ${url}`);
 
     try {
@@ -160,7 +195,7 @@ async function runTrackerForMovie(CONFIG) {
 
         for (const session of shows) {
           const showTime = dayjs(session.showTime).tz("Asia/Kolkata");
-          const minutesLeft = showTime.diff(nowIST, "minute");
+          const minutesLeft = showTime.diff(now, "minute");
           if (minutesLeft >= CONFIG.cutoffMins) continue;
 
           const total = session.total;
@@ -175,6 +210,7 @@ async function runTrackerForMovie(CONFIG) {
 
           const occ = total ? ((sold / total) * 100).toFixed(2) + "%" : "0.00%";
           const timeStr = showTime.format("hh:mm A");
+          const sig = `${venueName}_${timeStr}`;
 
           const newEntry = {
             source: "district",
@@ -202,6 +238,7 @@ async function runTrackerForMovie(CONFIG) {
               result[existingIndex] = newEntry;
             }
           } else {
+            seenKeys.add(sig);
             result.push(newEntry);
           }
         }
@@ -213,7 +250,6 @@ async function runTrackerForMovie(CONFIG) {
 
   await Promise.all(tasks);
 
-  // Step 3: Deduplicate
   const uniqueShowsMap = new Map();
   for (const show of result) {
     const keyStr = `${show.venue}__${show.address}__${show.time}__${show.audi}`;
@@ -228,49 +264,42 @@ async function runTrackerForMovie(CONFIG) {
   }
   const dedupedResult = Array.from(uniqueShowsMap.values());
 
-  // Step 4: Always generate a new key
-  const newKeyData = {
-    key: crypto.randomBytes(32).toString("hex"),
-    lastRotated: nowIST.toISOString()
-  };
-
-  // Step 5: Encrypt with new key
   const output = {
     date: CONFIG.date,
-    lastUpdated: nowIST.format("hh:mm A, DD MMMM YYYY"),
+    lastUpdated: now.format("hh:mm A, DD MMMM YYYY"),
     venues: dedupedResult
   };
+
   fs.mkdirSync(folder, { recursive: true });
-  fs.writeFileSync(filePath, JSON.stringify(encryptData(newKeyData.key, output), null, 2));
-
-  // Step 6: Save new key
-  saveKeyData(CONFIG.date, newKeyData);
-
+  fs.writeFileSync(filePath, JSON.stringify(encryptData(key, output), null, 2));
   console.log(`✅ ${CONFIG.name} — Shows stored: ${dedupedResult.length}`);
 }
-
-// Updated runAllMovies — IST safe
+// Run all movies with single key rotation
 async function runAllMovies(movies) {
   console.log("🎬 Starting tracker for multiple movies...");
-  const nowIST = dayjs().tz("Asia/Kolkata").startOf("day");
+  const key = rotateKeyIfNeeded();
+  const now = dayjs().tz("Asia/Kolkata");
 
   for (const movie of movies) {
-    const releaseDateIST = dayjs.tz(movie.releaseDate, "Asia/Kolkata").startOf("day");
+    const releaseDate = dayjs(movie.releaseDate).tz("Asia/Kolkata");
 
-    if (nowIST.isBefore(releaseDateIST)) {
-      console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDateIST.format("DD MMM YYYY")}`);
+    // Skip movies that haven't released yet
+    if (now.isBefore(releaseDate, "day")) {
+      console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDate.format("DD MMM YYYY")}`);
       continue;
     }
 
-    const targetDateIST = nowIST.isSame(releaseDateIST, "day")
-      ? releaseDateIST
-      : nowIST;
+    // On release day → run for release date
+    // After release day → run for today
+    const targetDate = now.isSame(releaseDate, "day")
+      ? releaseDate
+      : now;
 
     await runTrackerForMovie(
-      { ...movie, date: targetDateIST.format("YYYY-MM-DD") }
+      { ...movie, date: targetDate.format("YYYY-MM-DD") },
+      key
     );
   }
 }
-
 
 runAllMovies(MOVIES);
