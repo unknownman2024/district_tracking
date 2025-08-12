@@ -81,35 +81,41 @@ function rotateKeyIfNeeded() {
 }
 
 // ------------------ TRACKER LOGIC ------------------
-const RELEASE_DATE = dayjs("2025-08-12").tz("Asia/Kolkata");
 const todayIST = dayjs().tz("Asia/Kolkata");
 
-let targetDate;
-if (todayIST.isBefore(RELEASE_DATE, "day")) {
-  targetDate = RELEASE_DATE;
-} else {
-  targetDate = todayIST;
-}
+// List of movies
+const MOVIES = [
+  {
+    name: "MAN Hindi",
+    language: "hindi",
+    releaseDate: "2025-08-12",  // individual release date
+    date: targetDate.format("YYYY-MM-DD"),
+    contentId: "183788",
+    movieCode: "2_WBDghspW",
+    cutoffMins: 60
+  },
+  {
+    name: "Coolie Tamil",
+    language: "tamil",
+    releaseDate: "2025-08-14",  // individual release date
+    date: targetDate.format("YYYY-MM-DD"),
+    contentId: "112233",
+    movieCode: "4_QWEabcDE",
+    cutoffMins: 60
+  }
+];
 
-const CONFIG = {
-  name: "MAN Hindi",
-  language: "hindi",
-  date: targetDate.format("YYYY-MM-DD"),
-  contentId: "183788",
-  movieCode: "2_WBDghspW",
-  cutoffMins: 60
-};
-
-async function runTracker() {
-  console.log(`🎯 Tracking date: ${CONFIG.date}`);
+// Main tracker for a single movie
+async function runTrackerForMovie(CONFIG, key) {
+  console.log(`\n🎯 Tracking ${CONFIG.name} — Date: ${CONFIG.date}`);
   const now = dayjs().tz("Asia/Kolkata");
   const folder = `${DISTRICT_DIR}/${CONFIG.date}`;
   const filePath = `${folder}/${CONFIG.movieCode}_${CONFIG.contentId}.json`;
 
-  const key = rotateKeyIfNeeded(); // 🔹 Auto-rotate key here
   const seenKeys = new Set();
   const result = [];
 
+  // Load old data if exists
   if (fs.existsSync(filePath)) {
     try {
       const existing = decryptData(key, JSON.parse(fs.readFileSync(filePath, "utf-8")));
@@ -119,7 +125,7 @@ async function runTracker() {
         result.push(v);
       }
     } catch (e) {
-      console.error(`⚠ Failed to decrypt existing file: ${e.message}`);
+      console.error(`⚠ Failed to decrypt existing file for ${CONFIG.name}: ${e.message}`);
     }
   }
 
@@ -227,8 +233,33 @@ async function runTracker() {
 
   fs.mkdirSync(folder, { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(encryptData(key, output), null, 2));
-  console.log(`✅ Final total shows stored: ${dedupedResult.length}`);
+  console.log(`✅ ${CONFIG.name} — Shows stored: ${dedupedResult.length}`);
 }
 
-// Run tracker
-runTracker();
+// Run all movies with single key rotation
+async function runAllMovies(movies) {
+  console.log("🎬 Starting tracker for multiple movies...");
+  const key = rotateKeyIfNeeded();
+  const now = dayjs().tz("Asia/Kolkata");
+
+  for (const movie of movies) {
+    const releaseDate = dayjs(movie.releaseDate).tz("Asia/Kolkata");
+
+    if (now.isBefore(releaseDate, "day")) {
+      console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDate.format("DD MMM YYYY")}`);
+      continue;
+    }
+
+    const targetDate = now.isBefore(releaseDate, "day")
+      ? releaseDate
+      : now;
+
+    await runTrackerForMovie(
+      { ...movie, date: targetDate.format("YYYY-MM-DD") },
+      key
+    );
+  }
+}
+
+
+runAllMovies(MOVIES);
