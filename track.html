@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <!-- Primary Meta Tags -->
+    <title>Track Advance Box Office | BFilmy</title>
+    <meta name="title" content="Track  Advance Box Office | BFilmy">
+    <meta name="description" content="Live advance tracking for . Updated daily with real-time gross, show count, and premiere links.">
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/logo192.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="Advance/">
+    <meta property="og:title" content="Track  Advance Box Office | BFilmy">
+    <meta property="og:description" content="Live advance tracking for . Updated daily with real-time gross, show count, and premiere links.">
+    <meta property="og:image" content="/banner.jpg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="/_Advance/">
+    <meta name="twitter:title" content="Track  Advance Box Office | BFilmy">
+    <meta name="twitter:description" content="Live advance tracking for . Updated daily with real-time gross, show count, and premiere links.">
+    <meta name="twitter:image" content="/banner.jpg">
+    <!-- Additional SEO -->
+    <meta name="keywords" content=" Advance Booking, , Box Office, live tracking, BFilmy, premiere show data, gross collections, movie advance report">
+    <meta name="author" content="BFilmy Team">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Roboto, sans-serif;
+        background: var(--bg, #f7f7f7);
+        color: var(--text-dark, #222);
+        padding: 2rem;
+        transition: transform 0.3s ease;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      /* === Table Styles === */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        background: #fff;
+      }
+
+      th,
+      td {
+        padding: 14px 12px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: #111;
+        border: 1px solid #ccc;
+        position: relative;
+      }
+
+      table th,
+      table td {
+        padding: 14px 12px;
+        text-align: center;
+        border-bottom: 1px solid #e5e7eb;
+        font-size: 14px;
+      }
+
+      td:not(:last-child),
+      th:not(:last-child) {
+        border-right: 2px solid #bbb;
+      }
+
+      th {
+        background-color: #1e88e5;
+        color: white;
+      }
+
+      tr:hover td {
+        background-color: #f3fbff;
+        transition: background 0.2s ease;
+      }
+
+      tr.divider-row {
+        background-color: #f3f3f3;
+        text-align: center;
+        color: #555;
+      }
+
+      /* Sort Arrows */
+      th.sort-asc::after {
+        content: " ▲";
+        position: absolute;
+        right: 8px;
+      }
+
+      th.sort-desc::after {
+        content: " ▼";
+        position: absolute;
+        right: 8px;
+      }
+
+      /* Utility Classes */
+      .high-occ {
+        background: #d6f5e9 !important;
+      }
+
+      .mid-occ {
+        background: #fffbcf !important;
+      }
+
+      .low-occ {
+        background: #ffe5e5 !important;
+      }
+
+      .ff {
+        background: #fef4d6 !important;
+      }
+
+      .hf {
+        background: #fcdede !important;
+      }
+
+      .badge {
+        padding: 2px 6px;
+        border-radius: 4px;
+        margin-right: 5px;
+        font-size: 0.9em;
+      }
+
+      /* Titles */
+      #titleWrap {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      #pageTitle {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #222;
+      }
+
+      #metaSummary {
+        margin-top: 6px;
+        font-size: 1.1em;
+        color: #333;
+        background: #fffbe6;
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .page-title {
+        font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #333;
+        background: #fff;
+        padding: 14px 24px;
+        margin: 30px auto;
+        border-radius: 12px;
+        text-align: center;
+        max-width: 960px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        line-height: 1.6;
+      }
+
+      /* Search */
+      .search-container {
+        text-align: center;
+        margin: 20px 10px;
+      }
+
+      .search-input {
+        padding: 12px 18px;
+        font-size: 1rem;
+        width: 90%;
+        max-width: 420px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+
+      .search-input:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+      }
+
+      /* Export Button */
+      #exportWrap {
+        text-align: center;
+        margin: 10px 0 30px;
+      }
+
+      #exportBtn {
+        background: #28a745;
+        color: white;
+        font-size: 1em;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background 0.3s;
+      }
+
+      #exportBtn:hover {
+        background: #218838;
+      }
+
+      #exportBtn:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.4);
+      }
+
+      /* Load More */
+      .loadmore-container {
+        text-align: center;
+        margin: 20px;
+      }
+
+      .loadmore-button {
+        padding: 12px 24px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.25s ease;
+        display: none;
+      }
+
+      .loadmore-button:hover {
+        background-color: #0056b3;
+      }
+
+      .loadmore-button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+      }
+
+      /* Responsive Design */
+      @media (max-width: 1200px) {
+        .container {
+          padding: 15px;
+        }
+
+        header {
+          font-size: 2.2em;
+        }
+
+        .section-title {
+          font-size: 1.5em;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .container {
+          padding: 10px;
+        }
+
+        header {
+          font-size: 1.8em;
+        }
+
+        .section-title {
+          font-size: 1.3em;
+        }
+
+        th,
+        td {
+          font-size: 0.9rem;
+          padding: 10px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 1rem;
+        }
+
+        header {
+          font-size: 1.5em;
+        }
+
+        .section-title {
+          font-size: 1.2em;
+        }
+
+        th,
+        td {
+          font-size: 0.75rem;
+          padding: 8px;
+        }
+
+        #pageTitle {
+          font-size: 1.4em;
+        }
+
+        .search-input {
+          font-size: 0.9rem;
+          padding: 10px 14px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        header {
+          font-size: 1.2em;
+        }
+
+        .section-title {
+          font-size: 1em;
+        }
+
+        th,
+        td {
+          font-size: 0.65rem;
+          padding: 6px;
+        }
+
+        #pageTitle {
+          font-size: 1.2em;
+        }
+
+        .search-input {
+          font-size: 0.85rem;
+          padding: 8px 12px;
+        }
+      }
+
+      .bold-text {
+        font-weight: 600;
+        /* or 700 for full bold */
+      }
+
+      .highlight-click {
+        font-weight: 600;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .highlight-click:hover {
+        color: #000;
+        text-decoration-color: #FF0000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="titleWrap">
+      <h2 id="pageTitle" class="page-title"></h2>
+      <div id="metaSummary">⏳ Loading metrics...</div>
+      <div id="exportWrap">
+        <button id="exportBtn">📤 Export to CSV</button>
+      </div>
+    </div>
+    <div id="stateSummary"></div>
+    <div id="summary"></div>
+    <div hidden="">
+      <center>
+        <script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script>
+        <script type="text/javascript">
+          sc_online_i(1717836, "ffffff", "e61c1c");
+        </script>
+        <!-- END: Powered by Supercounters.com -->
+      </center>
+    </div>
+    <!-- 🔍 Search Input -->
+    <div class="search-container">
+      <input id="venueSearch" type="text" placeholder="🔍 Search by venue..." class="search-input">
+    </div>
+    <!-- ⬇️ Load More Button -->
+    <div class="loadmore-container">
+      <button id="loadMoreBtn" class="loadmore-button"> ⬇️ Load More </button>
+    </div>
+    <h2>🎫 All Shows</h2>
+    <table id="mainTable">
+      <thead>
+        <tr>
+          <th data-key="city">City</th>
+          <th data-key="venue">Venue</th>
+          <th data-key="time">Time</th>
+          <th data-key="totalSeats">Total</th>
+          <th data-key="available">Available</th>
+          <th data-key="sold">Sold</th>
+          <th data-key="gross">Gross</th>
+          <th data-key="occupancy">Occupancy</th>
+          <!-- ✅ key added -->
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script>
+async function loadData() {
+    const params = new URLSearchParams(window.location.search);
+    const date = params.get("date");
+    const movie = params.get("movie");
+
+    if (!date || !movie) {
+        window.location.href = "/index.html";
+        return;
+    }
+
+    try {
+        // Step 1: Load movies.json
+        const movies = await fetch("/movies.json").then(r => r.json());
+
+        // Step 2: Find matching movie object
+        const movieObj = movies.find(m => m.movie === movie);
+        if (!movieObj || !movieObj.content_id) {
+            throw new Error("❌ Movie not found in movies.json");
+        }
+
+        // Step 3: Build path to encrypted file
+        const path = `/districttrack/${date}/${movieObj.movieCode}_${movieObj.content_id}.json`;
+
+        // Step 4: Fetch encryption key
+        const keyData = await fetch("https://district24.pages.dev/districttrack/key.json").then(r => r.json());
+        const keyHex = keyData.key;
+        const keyBytes = CryptoJS.enc.Hex.parse(keyHex);
+
+        // Step 5: Fetch encrypted data
+        const encryptedJson = await fetch(path).then(r => r.json());
+
+        // Step 6: Decrypt
+        const ivBytes = CryptoJS.enc.Hex.parse(encryptedJson.iv);
+        const decrypted = CryptoJS.AES.decrypt(
+            { ciphertext: CryptoJS.enc.Hex.parse(encryptedJson.data) },
+            keyBytes,
+            { iv: ivBytes, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 }
+        );
+        const decodedStr = decrypted.toString(CryptoJS.enc.Utf8);
+        const data = JSON.parse(decodedStr);
+
+        // Step 7: Render
+        const venues = data.venues || [];
+        window.cachedData = venues;
+        updateHeadingTitle(movie, date, venues, data.lastUpdated, movieObj);
+        renderSummaries(venues);
+        renderMainTable(venues, true);
+
+        // 🔍 Search filter
+        const searchInput = document.getElementById("venueSearch");
+        if (searchInput) {
+            searchInput.addEventListener("input", (e) => {
+                const q = e.target.value.toLowerCase();
+                const filtered = window.cachedData.filter(r =>
+                    r.venue.toLowerCase().includes(q) ||
+                    r.city.toLowerCase().includes(q) ||
+                    r.state?.toLowerCase().includes(q)
+                );
+                renderMainTable(filtered, true);
+            });
+        }
+
+    } catch (err) {
+        console.error(err);
+        alert("❌ Failed to load data");
+    }
+}
+
+function updateHeadingTitle(movie, date, venues, lastUpdatedFromJson, movieObj) {
+    const uniqueCities = new Set(venues.map(v => v.city));
+    const cityCount = uniqueCities.size;
+
+    // Helper to parse time string (AM/PM or 24hr) into Date object using tracking date
+    function parseTimeToDate(timeStr) {
+        const hasAMPM = /AM|PM/i.test(timeStr);
+        let h, m;
+
+        if (hasAMPM) {
+            const [t, modifier] = timeStr.split(" ");
+            [h, m] = t.split(":").map(Number);
+            if (modifier.toUpperCase() === "PM" && h !== 12) h += 12;
+            if (modifier.toUpperCase() === "AM" && h === 12) h = 0;
+        } else {
+            [h, m] = timeStr.split(":").map(Number);
+        }
+
+        const [yyyy, mm, dd] = date.split("-").map(Number); // expects YYYY-MM-DD
+        return new Date(yyyy, mm - 1, dd, h, m, 0, 0);
+    }
+
+    let finalTimeDisplay = lastUpdatedFromJson || "Unknown";
+
+    if (lastUpdatedFromJson) {
+        const match = lastUpdatedFromJson.match(/(\d{1,2}):(\d{2}) (AM|PM), (\d{1,2}) (\w+) (\d{4})/);
+        if (match) {
+            let [, hh, mm, meridian, dd, monthName, yyyy] = match;
+            const months = {
+                January: 0,
+                February: 1,
+                March: 2,
+                April: 3,
+                May: 4,
+                June: 5,
+                July: 6,
+                August: 7,
+                September: 8,
+                October: 9,
+                November: 10,
+                December: 11
+            };
+            hh = parseInt(hh, 10);
+            if (meridian === "PM" && hh !== 12) hh += 12;
+            if (meridian === "AM" && hh === 12) hh = 0;
+
+            const updatedDate = new Date(+yyyy, months[monthName], +dd, hh, +mm);
+            const now = new Date();
+            const diffMs = now - updatedDate;
+            const diffMins = Math.floor(diffMs / 60000);
+            const diffHours = Math.floor(diffMins / 60);
+            const diffDays = Math.floor(diffMins / 1440);
+
+            let agoStr = "";
+            if (diffMins < 1) {
+                agoStr = "Just Now";
+            } else if (diffMins < 60) {
+                agoStr = `${diffMins} Min${diffMins === 1 ? "" : "s"} Ago`;
+            } else if (diffHours < 24) {
+                agoStr = `${diffHours} Hour${diffHours === 1 ? "" : "s"} Ago`;
+            } else {
+                agoStr = diffDays === 1 ? "Yesterday" : `${diffDays} Days Ago`;
+            }
+            finalTimeDisplay = `${lastUpdatedFromJson} | ${agoStr}`;
+        }
+    }
+
+    // Step 5: Summary stats
+    const totalShows = venues.length;
+    const totalGross = venues.reduce((sum, r) => sum + r.gross, 0);
+    const totalSold = venues.reduce((sum, r) => sum + r.sold, 0);
+    const totalSeats = venues.reduce((sum, r) => sum + r.totalSeats, 0);
+    const occupancy = totalSeats ? ((totalSold / totalSeats) * 100).toFixed(1) : "0.0";
+    const atp = totalSold ? Math.round(totalGross / totalSold) : 0;
+    const ffShows = venues.filter(v => {
+        const occ = parseFloat(v.occupancy);
+        return occ >= 50 && occ < 98;
+    }).length;
+
+    const hfShows = venues.filter(v => {
+        const occ = parseFloat(v.occupancy);
+        return occ >= 98;
+    }).length;
+    const grossDisplay = totalGross >= 1e7 ?
+        `₹${(totalGross / 1e7).toFixed(2)} Cr` :
+        totalGross >= 1e5 ?
+        `₹${(totalGross / 1e5).toFixed(2)} Lakh` :
+        `₹${totalGross.toLocaleString()}`;
+
+    const readableDate = new Date(date).toLocaleDateString("en-IN", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric"
+    });
+
+    // Step 6: Update DOM
+    document.getElementById("pageTitle").textContent =
+        `${movie} - ${readableDate} - Live Box-office Tracking - ${cityCount} Cities - ${totalShows} Shows - Last Updated: ${finalTimeDisplay}`;
+
+let estLine = "";
+if (movieObj && movieObj.multiplier) {
+    const multiplier = parseFloat(movieObj.multiplier) || 1;
+    const estGross = totalGross * multiplier;
+    const estNett = estGross * 0.847;
+    const adjATP = Math.round(atp * 0.9);
+    const estTickets = adjATP > 0 ? Math.round(estGross / adjATP) : 0;
+
+    const formatCurrency = (amount) => {
+        if (amount >= 1e7) return `₹${(amount / 1e7).toFixed(2)} Cr`;
+        if (amount >= 1e5) return `₹${(amount / 1e5).toFixed(2)} Lakh`;
+        return `₹${amount.toLocaleString()}`;
+    };
+
+    const estGrossDisplay = formatCurrency(estGross);
+    const estNettDisplay = formatCurrency(estNett);
+
+    estLine = `\n📊 Est. Gross: ${estGrossDisplay} | ${estNettDisplay} Nett | ${estTickets.toLocaleString()} Tickets | ATP: ₹${adjATP}`;
+}
+
+document.getElementById("metaSummary").innerHTML =
+    `🎟️ ${grossDisplay} | ${totalSold.toLocaleString()} Tickets Sold | ${occupancy}% Occupancy | ATP: ₹${atp} | FF: ${ffShows} | HF: ${hfShows}<br>${estLine}`;
+
+}
+function renderStateTable(stateSummaries) {
+    const stateSection = document.createElement("div");
+    const heading = document.createElement("h2");
+    heading.textContent = "🌐 State-wise Summary";
+    stateSection.appendChild(heading);
+
+    const table = document.createElement("table");
+    table.innerHTML = `
+			    <thead>
+			      <tr>
+			        <th data-sort="group">State</th>
+			        <th data-sort="shows">Shows</th>
+			        <th data-sort="ff">FF</th>
+			        <th data-sort="hf">HF</th>
+			        <th data-sort="total">Total</th>
+			        <th data-sort="sold">Sold</th>
+			        <th data-sort="available">Available</th>
+			        <th data-sort="occupancy">Occupancy</th>
+			        <th data-sort="gross">Gross</th>
+			      </tr>
+			    </thead>
+			  `;
+
+    const tbody = document.createElement("tbody");
+    tbody.innerHTML = stateSummaries.map(rowHTMLState).join("");
+    table.appendChild(tbody);
+    stateSection.appendChild(table);
+
+    // Append to summary section
+    document.getElementById("stateSummary").appendChild(stateSection);
+
+    enableSorting(table, stateSummaries, 0, rowHTMLState);
+}
+
+document.addEventListener("click", function(e) {
+    const td = e.target.closest("td.expandable");
+    if (!td) return;
+
+    const tr = td.closest("tr");
+    const table = tr.closest("table");
+    const group = td.dataset.group;
+    const type = td.dataset.type;
+
+    const next = tr.nextElementSibling;
+    if (next && next.classList.contains("expand-row")) {
+        next.remove();
+        return;
+    }
+
+    table.querySelectorAll(".expand-row").forEach(row => row.remove());
+
+    const data = window.cachedData || [];
+    let filtered = [];
+
+    if (type === "city") {
+        filtered = data.filter(r => r.city === group);
+    } else if (type === "state") {
+        filtered = data.filter(r => r.state === group);
+    } else if (type === "chain" || type === "group") {
+        const chain = group.toUpperCase();
+
+        if (chain === "PIC TOTAL") {
+            filtered = data.filter(r => {
+                const name = r.venue.toUpperCase();
+                return name.includes("PVR") || name.includes("INOX") || name.includes("CINEPOLIS");
+            });
+        } else {
+            filtered = data.filter(r => r.venue.toUpperCase().includes(chain));
+        }
+    }
+
+
+    if (!filtered.length) return;
+
+    const id = `expand-${Math.random().toString(36).slice(2)}`; // unique id for table
+
+    const detailHTML = `
+			        <tr class="expand-row">
+			          <td colspan="9" style="background: #f9f9f9;">
+			            <table id="${id}" style="width:100%; border-collapse: collapse; margin-top: 10px;">
+			              <thead>
+			                <tr>
+			                  <th data-sort="city">City</th>
+			                  <th data-sort="venue">Venue</th>
+			                  <th data-sort="time">Time</th>
+			                  <th data-sort="totalSeats">Total</th>
+			                  <th data-sort="available">Available</th>
+			                  <th data-sort="sold">Sold</th>
+			                  <th data-sort="gross">Gross</th>
+			                  <th data-sort="occupancy">Occupancy</th>
+			                </tr>
+			              </thead>
+			              <tbody>
+			                ${filtered.map(r => {
+			  const occ = parseFloat(r.occupancy) || 0;
+			  const cls = occ >= 80 ? 'high-occ' : occ >= 50 ? 'mid-occ' : 'low-occ';
+			  return `
+			    <tr class="${cls}">
+			      <td>${r.city}</td>
+			      <td>${r.venue}</td>
+			      <td>${r.time}</td>
+			      <td>${r.totalSeats}</td>
+			      <td>${r.available}</td>
+			      <td>${r.sold}</td>
+			      <td>₹${r.gross.toLocaleString()}</td>
+			      <td>${r.occupancy}</td>
+			    </tr>`;
+			}).join("")}
+			              </tbody>
+			            </table>
+			          </td>
+			        </tr>
+			    `;
+
+    tr.insertAdjacentHTML("afterend", detailHTML);
+
+    // Sorting logic for expanded table
+    const miniTable = document.getElementById(id);
+    const tbody = miniTable.querySelector("tbody");
+
+    miniTable.querySelectorAll("th").forEach(th => {
+        th.addEventListener("click", () => {
+            const key = th.dataset.sort;
+            if (!key) return;
+
+            let ascending = !th.classList.contains("sort-asc");
+
+            miniTable.querySelectorAll("th").forEach(h => h.classList.remove("sort-asc", "sort-desc"));
+            th.classList.add(ascending ? "sort-asc" : "sort-desc");
+
+            const parse = v => {
+                if (key === "gross") return parseFloat(v.replace(/[₹,]/g, "")) || 0;
+                if (key === "occupancy") return parseFloat(v.replace("%", "")) || 0;
+                if (["totalSeats", "available", "sold"].includes(key)) return parseInt(v, 10) || 0;
+                return v.toLowerCase();
+            };
+
+            const rows = Array.from(tbody.querySelectorAll("tr"));
+            rows.sort((a, b) => {
+                const av = parse(a.children[th.cellIndex].textContent);
+                const bv = parse(b.children[th.cellIndex].textContent);
+                return ascending ? av > bv ? 1 : av < bv ? -1 : 0 : av < bv ? 1 : av > bv ? -1 : 0;
+            });
+
+            tbody.innerHTML = "";
+            rows.forEach(row => tbody.appendChild(row));
+        });
+    });
+});
+
+
+
+function rowHTML(obj) {
+    if (!obj || typeof obj !== "object") return ""; // safeguard
+
+    if (obj.type === "divider") {
+        return `<tr><td colspan="9"><strong>${obj.group}</strong></td></tr>`;
+    }
+
+    return `<tr>
+			<td class="bold-text expandable highlight-click" data-group="${obj.group}" data-type="${obj.type === 'fixed' ? 'chain' : obj.type || 'group'}">${obj.group}</td>
+			        <td>${obj.shows}</td>
+			        <td><span class="badge ff">${obj.ff}</span></td>
+			        <td><span class="badge hf">${obj.hf}</span></td>
+			        <td>${obj.total}</td>
+			        <td>${obj.sold}</td>
+			        <td>${obj.available}</td>
+			        <td>${parseFloat(obj.occupancy).toFixed(2)}%</td>
+			        <td>₹${obj.gross.toLocaleString()}</td>
+			    </tr>`;
+}
+
+
+// move here — above renderSummaries
+function rowHTMLState(obj) {
+    if (!obj || typeof obj !== "object" || !obj.group) return ""; // defensive check
+
+    return `<tr>
+			        <td class="bold-text expandable highlight-click" data-group="${obj.group}" data-type="${obj.type || 'group'}">${obj.group}</td>
+			        <td>${obj.shows}</td>
+			        <td><span class="badge ff">${obj.ff}</span></td>
+			        <td><span class="badge hf">${obj.hf}</span></td>
+			        <td>${obj.total}</td>
+			        <td>${obj.sold}</td>
+			        <td>${obj.available}</td>
+			        <td>${parseFloat(obj.occupancy).toFixed(2)}%</td>
+			        <td>₹${obj.gross.toLocaleString()}</td>
+			    </tr>`;
+}
+
+
+// then renderSummaries() follows
+
+
+function renderSummaries(data) {
+    const params = new URLSearchParams(window.location.search);
+    const extraChains = (params.get("chains") || "")
+        .split(",")
+        .map(s => decodeURIComponent(s.trim()))
+        .filter(Boolean);
+
+    const cityMap = {};
+    const stateMap = {};
+
+    // ✅ Initialize these FIRST
+    const chainMap = {
+        "PVR": [],
+        "INOX": [],
+        "CINEPOLIS": []
+    };
+    const extraChainMap = {};
+    for (const name of extraChains) {
+        extraChainMap[name.toUpperCase()] = [];
+    }
+
+    // ✅ Now safe to use chainMap and extraChainMap here
+    for (const r of data) {
+        // 🌆 City mapping
+        cityMap[r.city] = cityMap[r.city] || [];
+        cityMap[r.city].push(r);
+
+        // 🗺️ State mapping
+        stateMap[r.state] = stateMap[r.state] || [];
+        stateMap[r.state].push(r);
+
+        // 🎦 Chain grouping
+        for (const chain in chainMap) {
+            if (r.venue.toUpperCase().includes(chain)) {
+                chainMap[chain].push(r);
+            }
+        }
+
+        // ➕ Extra chain grouping
+        for (const chain in extraChainMap) {
+            if (r.venue.toUpperCase().includes(chain)) {
+                extraChainMap[chain].push(r);
+            }
+        }
+    }
+
+
+
+    function summarize(groupName, rows) {
+        const total = rows.reduce((acc, r) => {
+            acc.total += r.totalSeats;
+            acc.sold += r.sold;
+            acc.available += r.available;
+            acc.gross += r.gross;
+            if (parseFloat(r.occupancy) >= 98) acc.hf++;
+            else if (parseFloat(r.occupancy) >= 50) acc.ff++;
+            return acc;
+        }, {
+            total: 0,
+            sold: 0,
+            available: 0,
+            gross: 0,
+            ff: 0,
+            hf: 0
+        });
+
+        const occ = total.total ? ((total.sold / total.total) * 100).toFixed(2) : "0.00";
+        return {
+            group: groupName,
+            shows: rows.length,
+            ff: total.ff,
+            hf: total.hf,
+            total: total.total,
+            sold: total.sold,
+            available: total.available,
+            occupancy: parseFloat(occ),
+            gross: total.gross
+        };
+    }
+
+
+
+    // --- Group Summary ---
+    const pvr = summarize("PVR", chainMap["PVR"]);
+    const inox = summarize("INOX", chainMap["INOX"]);
+    const cinepolis = summarize("CINEPOLIS", chainMap["CINEPOLIS"]);
+    const picTotal = summarize("PIC TOTAL", [
+        ...chainMap["PVR"],
+        ...chainMap["INOX"],
+        ...chainMap["CINEPOLIS"]
+    ]);
+
+    const fixedSummaries = [{
+            ...pvr,
+            type: "fixed"
+        },
+        {
+            ...inox,
+            type: "fixed"
+        },
+        {
+            ...cinepolis,
+            type: "fixed"
+        },
+        {
+            ...picTotal,
+            type: "fixed"
+        }
+    ];
+
+    const chainSummaries = Object.entries(extraChainMap).map(([chain, rows]) => {
+        return {
+            ...summarize(chain, rows),
+            type: "chain"
+        };
+    });
+
+    const citySummaries = Object.entries(cityMap).map(([city, rows]) => {
+        return {
+            ...summarize(city, rows),
+            type: "city"
+        };
+    });
+    const stateSummaries = Object.entries(stateMap).map(([state, rows]) => {
+        return {
+            ...summarize(state, rows),
+            type: "state"
+        };
+    });
+
+    const dividerRow = {
+        group: "--- Cities ---",
+        shows: "",
+        ff: "",
+        hf: "",
+        total: "",
+        sold: "",
+        available: "",
+        occupancy: 0,
+        gross: 0,
+        type: "divider"
+    };
+
+    const rawGroupSummaries = [...fixedSummaries, ...chainSummaries, dividerRow, ...citySummaries];
+
+    const seenGroups = new Set();
+    const groupSummaries = rawGroupSummaries.filter(row => {
+        if (typeof row.group !== "string") return true;
+        if (seenGroups.has(row.group)) return false;
+        seenGroups.add(row.group);
+        return true;
+    });
+
+    // --- Build Table ---
+    const groupTable = document.createElement("table");
+    groupTable.innerHTML = `
+						    <thead>
+						      <tr>
+						        <th data-sort="group">Group</th>
+						        <th data-sort="shows">Shows</th>
+						        <th data-sort="ff">FF</th>
+						        <th data-sort="hf">HF</th>
+						        <th data-sort="total">Total</th>
+						        <th data-sort="sold">Sold</th>
+						        <th data-sort="available">Available</th>
+						        <th data-sort="occupancy">Occupancy</th>
+						        <th data-sort="gross">Gross</th>
+						      </tr>
+						    </thead>`;
+    const groupTbody = document.createElement("tbody");
+    groupTbody.innerHTML = groupSummaries.map(rowHTML).join("");
+    groupTable.appendChild(groupTbody);
+
+    // --- Render ---
+    const summaryEl = document.getElementById("summary");
+    while (summaryEl.firstChild) {
+        summaryEl.removeChild(summaryEl.firstChild);
+    }
+
+    const groupSection = document.createElement("div");
+
+    const h2 = document.createElement("h2");
+    h2.textContent = "🏢 Group Summary";
+
+    const link = document.createElement("a");
+    link.href = "https://x.com/BFilmyOfficiaI";
+    link.textContent = "";
+    link.target = "_blank";
+    link.style = "color: blue; text-decoration: underline;";
+
+    h2.appendChild(link);
+    groupSection.appendChild(h2);
+    groupSection.appendChild(groupTable);
+
+    groupSection.appendChild(groupTable);
+
+    summaryEl.appendChild(groupSection);
+    renderStateTable(stateSummaries);
+
+    // Enable sorting only on group table
+    enableSorting(groupTable, groupSummaries, 4, rowHTML);
+}
+
+
+
+
+function parseShowTimeToDate(timeStr) {
+    const hasAMPM = /AM|PM/i.test(timeStr);
+    let h, m;
+
+    if (hasAMPM) {
+        const [t, modifier] = timeStr.split(" ");
+        [h, m] = t.split(":").map(Number);
+        if (modifier.toUpperCase() === "PM" && h !== 12) h += 12;
+        if (modifier.toUpperCase() === "AM" && h === 12) h = 0;
+    } else {
+        [h, m] = timeStr.split(":").map(Number);
+    }
+
+    const d = new Date();
+    d.setHours(h, m, 0, 0);
+    return d;
+}
+
+
+let currentPage = 1;
+const pageSize = 50;
+let currentSort = {
+    key: "time",
+    dir: "asc"
+};
+
+function renderMainTable(data, resetPage = false) {
+    const tbody = document.querySelector("#mainTable tbody");
+    if (resetPage) currentPage = 1;
+
+    const sorted = [...data].sort((a, b) => {
+        const key = currentSort.key;
+        const dir = currentSort.dir === "asc" ? 1 : -1;
+
+        if (key === "time") {
+            const parseTime = t => {
+                const [time, modifier] = t.split(" ");
+                let [hours, minutes] = time.split(":").map(Number);
+                if (modifier === "PM" && hours !== 12) hours += 12;
+                if (modifier === "AM" && hours === 12) hours = 0;
+                return new Date(1970, 0, 1, hours, minutes);
+            };
+            return dir * (parseTime(a.time) - parseTime(b.time));
+        }
+
+        if (["totalSeats", "available", "sold", "gross", "occupancy"].includes(key)) {
+            return dir * ((parseFloat(a[key]) || 0) - (parseFloat(b[key]) || 0));
+        }
+
+        return dir * String(a[key]).localeCompare(String(b[key]));
+    });
+
+    const paginated = sorted.slice(0, currentPage * pageSize);
+
+    tbody.innerHTML = paginated.map(r => {
+        const occ = parseFloat(r.occupancy) || 0;
+        const cls = occ >= 80 ? 'high-occ' : occ >= 50 ? 'mid-occ' : 'low-occ';
+        return `<tr class="${cls}">
+						      <td>${r.city}</td>
+						      <td>${r.venue}</td>
+						      <td>${r.time}</td>
+						      <td>${r.totalSeats}</td>
+						      <td>${r.available}</td>
+						      <td>${r.sold}</td>
+						      <td>₹${r.gross.toLocaleString()}</td>
+						      <td>${r.occupancy}</td>
+						    </tr>`;
+    }).join("\n");
+
+    // Show/hide Load More button
+    const btn = document.getElementById("loadMoreBtn");
+    if (btn) {
+        btn.style.display = (currentPage * pageSize < sorted.length) ? "inline-block" : "none";
+        btn.onclick = () => {
+            currentPage++;
+            renderMainTable(data, false);
+        };
+    }
+}
+
+// 🔃 Column sorting by click
+document.querySelectorAll("#mainTable th").forEach(th => {
+    th.addEventListener("click", () => {
+        const key = th.dataset.key;
+        if (!key) return;
+
+        if (currentSort.key === key) {
+            currentSort.dir = currentSort.dir === "asc" ? "desc" : "asc";
+        } else {
+            currentSort.key = key;
+            currentSort.dir = "asc";
+        }
+
+        renderMainTable(window.cachedData, true);
+    });
+});
+
+// 📥 CSV Export
+document.getElementById("exportBtn").addEventListener("click", () => {
+    const rows = Array.from(document.querySelectorAll("#mainTable tbody tr")).map(tr =>
+        Array.from(tr.querySelectorAll("td")).map(td => td.textContent.trim())
+    );
+    const csv = [
+        ["City", "Venue", "Time", "Total", "Available", "Sold", "Gross", "Occupancy"],
+        ...rows
+    ].map(r => r.join(",")).join("\n");
+
+    const blob = new Blob([csv], {
+        type: "text/csv"
+    });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "data.csv";
+    link.click();
+});
+
+// ✅ Load on first visit
+if (!window._alreadyLoaded) {
+    window._alreadyLoaded = true;
+    loadData();
+}
+
+
+function enableSorting(table, dataRows, staticRowCount = 0, rowHTMLFn) {
+    const sortState = {
+        key: "",
+        dir: "desc"
+    };
+
+    const parseValue = (val) => {
+        if (val === undefined || val === null || val === "") return Number.NEGATIVE_INFINITY;
+        if (typeof val === "number") return val;
+        const num = parseFloat(val.toString().replace(/[^0-9.-]+/g, ''));
+        return isNaN(num) ? val.toString().toLowerCase() : num;
+    };
+
+    const render = () => {
+        const tbody = table.querySelector("tbody");
+
+        let rowsToRender;
+
+        // 👉 Apply fixed 4-row logic ONLY for Group Summary (staticRowCount > 0)
+        if (staticRowCount > 0) {
+            const dividerIndex = dataRows.findIndex(
+                r => typeof r.group === "string" && r.group.startsWith("---")
+            );
+
+            const group1 = dataRows.slice(0, staticRowCount); // fixed
+            const group2 = dataRows.slice(staticRowCount, dividerIndex); // dynamic chains
+            const dividerRow = dataRows[dividerIndex]; // --- Cities ---
+            const group3 = dataRows.slice(dividerIndex + 1); // cities
+
+            const sortFn = (a, b) => {
+                const aVal = parseValue(a[sortState.key]);
+                const bVal = parseValue(b[sortState.key]);
+
+                if (typeof aVal === "string" && typeof bVal === "string") {
+                    return sortState.dir === "asc" ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                } else {
+                    return sortState.dir === "asc" ? aVal - bVal : bVal - aVal;
+                }
+            };
+
+            const sorted1 = [...group1]; // fixed rows stay in order
+            const sorted2 = [...group2].sort(sortFn);
+            const sorted3 = [...group3].sort(sortFn);
+
+            rowsToRender = [...sorted1, ...sorted2, dividerRow, ...sorted3];
+        } else {
+            // 🔁 Default sorting (e.g. for State Summary)
+            const sortFn = (a, b) => {
+                const aVal = parseValue(a[sortState.key]);
+                const bVal = parseValue(b[sortState.key]);
+
+                if (typeof aVal === "string" && typeof bVal === "string") {
+                    return sortState.dir === "asc" ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+                } else {
+                    return sortState.dir === "asc" ? aVal - bVal : bVal - aVal;
+                }
+            };
+            rowsToRender = [...dataRows].sort(sortFn);
+        }
+
+        tbody.innerHTML = rowsToRender.map(rowHTMLFn).join("");
+
+        // UI arrows
+        table.querySelectorAll("th").forEach(th =>
+            th.classList.remove("sort-asc", "sort-desc")
+        );
+        const th = table.querySelector(`th[data-sort="${sortState.key}"]`);
+        if (th) th.classList.add(sortState.dir === "asc" ? "sort-asc" : "sort-desc");
+    };
+
+    // Prevent multiple listener attachment
+    if (!table.dataset.sortedInitialized) {
+        table.dataset.sortedInitialized = "true";
+
+        table.querySelectorAll("th").forEach(th => {
+            const key = th.dataset.sort;
+            if (!key) return;
+
+            th.addEventListener("click", () => {
+                sortState.dir = (sortState.key === key && sortState.dir === "desc") ? "asc" : "desc";
+                sortState.key = key;
+                render();
+            });
+        });
+    }
+    // Initial render
+    render();
+} 
+</script> 
+<script>
+    window.addEventListener('load', () => {
+        const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+        if (isMobile) {
+            // Simulate zoom out using scale
+            document.body.style.transform = 'scale(0.70)';
+            document.body.style.transformOrigin = 'top left';
+            document.body.style.width = '142.85%'; // 1 / 0.70
+        }
+    });
+    </script>
+  </body>
+</html>
