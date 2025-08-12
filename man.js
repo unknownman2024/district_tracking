@@ -48,36 +48,33 @@ function decryptData(key, encrypted) {
 
 function rotateKeyIfNeeded() {
   let keyData = loadKeyData();
-  const lastRotated = dayjs(keyData.lastRotated);
+  const oldKey = keyData.key;
+  const newKey = crypto.randomBytes(32).toString("hex");
   const now = dayjs();
 
-  if (now.diff(lastRotated, "day") >= ROTATE_INTERVAL_DAYS) {
-    console.log(`🔄 Rotating key after ${now.diff(lastRotated, "day")} days...`);
-    const oldKey = keyData.key;
-    const newKey = crypto.randomBytes(32).toString("hex");
+  console.log(`🔄 Rotating key (forced)...`);
 
-    const files = fs.readdirSync(DISTRICT_DIR).filter(f => f.endsWith(".json") && f !== "key.json");
-    for (const file of files) {
-      const filePath = `${DISTRICT_DIR}/${file}`;
-      try {
-        const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-        const decrypted = decryptData(oldKey, content);
-        const reEncrypted = encryptData(newKey, decrypted);
-        fs.writeFileSync(filePath, JSON.stringify(reEncrypted, null, 2));
-        console.log(`♻ Re-encrypted: ${file}`);
-      } catch (e) {
-        console.error(`❌ Failed to re-encrypt ${file}: ${e.message}`);
-      }
+  const files = fs.readdirSync(DISTRICT_DIR)
+    .filter(f => f.endsWith(".json") && f !== "key.json");
+
+  for (const file of files) {
+    const filePath = `${DISTRICT_DIR}/${file}`;
+    try {
+      const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      const decrypted = decryptData(oldKey, content);
+      const reEncrypted = encryptData(newKey, decrypted);
+      fs.writeFileSync(filePath, JSON.stringify(reEncrypted, null, 2));
+      console.log(`♻ Re-encrypted: ${file}`);
+    } catch (e) {
+      console.error(`❌ Failed to re-encrypt ${file}: ${e.message}`);
     }
-
-    keyData = { key: newKey, lastRotated: now.toISOString() };
-    saveKeyData(keyData);
-    console.log(`✅ Key rotation complete.`);
-  } else {
-    console.log(`⏩ Key not due for rotation. Last rotated ${now.diff(lastRotated, "day")} days ago.`);
   }
 
-  return keyData.key;
+  keyData = { key: newKey, lastRotated: now.toISOString() };
+  saveKeyData(keyData);
+  console.log(`✅ Key rotation complete.`);
+
+  return newKey;
 }
 
 // ------------------ TRACKER LOGIC ------------------
@@ -237,29 +234,30 @@ async function runTrackerForMovie(CONFIG, key) {
 // Run all movies with single key rotation
 async function runAllMovies(movies) {
   console.log("🎬 Starting tracker for multiple movies...");
-  const key = rotateKeyIfNeeded();
+  
+  // 1️⃣ Load old key first
+  const { key: oldKey } = loadKeyData();
   const now = dayjs().tz("Asia/Kolkata");
 
+  // 2️⃣ Run tracker using the old key
   for (const movie of movies) {
     const releaseDate = dayjs(movie.releaseDate).tz("Asia/Kolkata");
 
-    // Skip movies that haven't released yet
     if (now.isBefore(releaseDate, "day")) {
       console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDate.format("DD MMM YYYY")}`);
       continue;
     }
 
-    // On release day → run for release date
-    // After release day → run for today
-    const targetDate = now.isSame(releaseDate, "day")
-      ? releaseDate
-      : now;
+    const targetDate = now.isSame(releaseDate, "day") ? releaseDate : now;
 
     await runTrackerForMovie(
       { ...movie, date: targetDate.format("YYYY-MM-DD") },
-      key
+      oldKey
     );
   }
+
+  // 3️⃣ Rotate key after all tracking is done
+  rotateKeyIfNeeded();
 }
 
 runAllMovies(MOVIES);
