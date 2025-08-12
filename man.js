@@ -46,36 +46,18 @@ function decryptData(key, encrypted) {
   return JSON.parse(decrypted);
 }
 
-function rotateKeyIfNeeded() {
-  let keyData = loadKeyData();
-  const oldKey = keyData.key;
+function forceRotateKey() {
   const newKey = crypto.randomBytes(32).toString("hex");
   const now = dayjs();
 
-  console.log(`🔄 Rotating key (forced)...`);
-
-  const files = fs.readdirSync(DISTRICT_DIR)
-    .filter(f => f.endsWith(".json") && f !== "key.json");
-
-  for (const file of files) {
-    const filePath = `${DISTRICT_DIR}/${file}`;
-    try {
-      const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-      const decrypted = decryptData(oldKey, content);
-      const reEncrypted = encryptData(newKey, decrypted);
-      fs.writeFileSync(filePath, JSON.stringify(reEncrypted, null, 2));
-      console.log(`♻ Re-encrypted: ${file}`);
-    } catch (e) {
-      console.error(`❌ Failed to re-encrypt ${file}: ${e.message}`);
-    }
-  }
-
-  keyData = { key: newKey, lastRotated: now.toISOString() };
+  const keyData = { key: newKey, lastRotated: now.toISOString() };
+  fs.mkdirSync(DISTRICT_DIR, { recursive: true });
   saveKeyData(keyData);
-  console.log(`✅ Key rotation complete.`);
 
+  console.log(`🔄 Key forcibly rotated — new key active.`);
   return newKey;
 }
+
 
 // ------------------ TRACKER LOGIC ------------------
 const todayIST = dayjs().tz("Asia/Kolkata");
@@ -231,18 +213,67 @@ async function runTrackerForMovie(CONFIG, key) {
   fs.writeFileSync(filePath, JSON.stringify(encryptData(key, output), null, 2));
   console.log(`✅ ${CONFIG.name} — Shows stored: ${dedupedResult.length}`);
 }
-// Run all movies with single key rotation
+
+
+
+
+// ------------------ RUN ALL MOVIES ------------------
+function loadCurrentKey() {
+  if (!fs.existsSync(KEY_FILE)) {
+    // No key at all → generate new
+    console.log("🔑 No key found — generating new one.");
+    const keyData = {
+      key: crypto.randomBytes(32).toString("hex"),
+      lastRotated: dayjs().toISOString()
+    };
+    fs.mkdirSync(DISTRICT_DIR, { recursive: true });
+    fs.writeFileSync(KEY_FILE, JSON.stringify(keyData, null, 2));
+    return keyData.key;
+  }
+  return JSON.parse(fs.readFileSync(KEY_FILE, "utf-8")).key;
+}
+
+function mergeShowData(oldData, newData) {
+  const seen = new Map();
+  const merged = [];
+
+  const addOrUpdate = (show) => {
+    const sig = `${show.venue}__${show.address}__${show.time}__${show.audi}`;
+    if (!seen.has(sig)) {
+      seen.set(sig, show);
+      merged.push(show);
+    } else {
+      const existing = seen.get(sig);
+      if (show.gross > existing.gross || show.sold > existing.sold) {
+        seen.set(sig, show);
+        const idx = merged.findIndex(s => `${s.venue}__${s.address}__${s.time}__${s.audi}` === sig);
+        merged[idx] = show;
+      }
+    }
+  };
+
+  (oldData.venues || []).forEach(addOrUpdate);
+  (newData.venues || []).forEach(addOrUpdate);
+
+  return {
+    date: newData.date || oldData.date,
+    lastUpdated: dayjs().tz("Asia/Kolkata").format("hh:mm A, DD MMMM YYYY"),
+    venues: merged
+  };
+}
+
 async function runAllMovies(movies) {
   console.log("🎬 Starting tracker for multiple movies...");
-  
-  // 1️⃣ Load old key first
-  const { key: oldKey } = loadKeyData();
+
+  // 1️⃣ Load the old key
+  const oldKey = loadCurrentKey();
   const now = dayjs().tz("Asia/Kolkata");
 
-  // 2️⃣ Run tracker using the old key
+  const mergedResults = {};
+
+  // 2️⃣ Process each movie with old key for reading
   for (const movie of movies) {
     const releaseDate = dayjs(movie.releaseDate).tz("Asia/Kolkata");
-
     if (now.isBefore(releaseDate, "day")) {
       console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDate.format("DD MMM YYYY")}`);
       continue;
@@ -250,14 +281,47 @@ async function runAllMovies(movies) {
 
     const targetDate = now.isSame(releaseDate, "day") ? releaseDate : now;
 
+    const folder = `${DISTRICT_DIR}/${targetDate.format("YYYY-MM-DD")}`;
+    const filePath = `${folder}/${movie.movieCode}_${movie.contentId}.json`;
+
+    // Load old data if present
+    let oldData = { venues: [] };
+    if (fs.existsSync(filePath)) {
+      try {
+        const parsed = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        oldData = decryptData(oldKey, parsed);
+      } catch (e) {
+        console.warn(`⚠ Could not decrypt old data for ${movie.name}: ${e.message}`);
+      }
+    }
+
+    // Fetch new data (still using old key so tracker can read old encrypted file)
     await runTrackerForMovie(
       { ...movie, date: targetDate.format("YYYY-MM-DD") },
       oldKey
     );
+
+    // Reload after tracker (it saved encrypted with old key)
+    let newData = { venues: [] };
+    try {
+      const parsed = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      newData = decryptData(oldKey, parsed);
+    } catch (e) {
+      console.warn(`⚠ Could not read new data for ${movie.name}: ${e.message}`);
+    }
+
+    mergedResults[filePath] = mergeShowData(oldData, newData);
   }
 
-  // 3️⃣ Rotate key after all tracking is done
-  rotateKeyIfNeeded();
-}
+  // 3️⃣ Rotate key AFTER merge
+  const newKey = forceRotateKey();
 
-runAllMovies(MOVIES);
+  // 4️⃣ Save merged data with NEW key
+  for (const [filePath, finalData] of Object.entries(mergedResults)) {
+    const encrypted = encryptData(newKey, finalData);
+    fs.mkdirSync(filePath.split("/").slice(0, -1).join("/"), { recursive: true });
+    fs.writeFileSync(filePath, JSON.stringify(encrypted, null, 2));
+  }
+
+  console.log("✅ All movies processed, merged, and re-encrypted with NEW key.");
+}
