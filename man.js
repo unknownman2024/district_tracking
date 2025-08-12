@@ -238,25 +238,24 @@ async function runTrackerForMovie(CONFIG, key) {
 async function runAllMovies(movies) {
   console.log("🎬 Starting tracker for multiple movies...");
   const key = rotateKeyIfNeeded();
-  const now = dayjs().tz("Asia/Kolkata");
+  const nowIST = dayjs().tz("Asia/Kolkata").startOf("day"); // always IST midnight base
 
   for (const movie of movies) {
-    const releaseDate = dayjs(movie.releaseDate).tz("Asia/Kolkata");
+    const releaseDateIST = dayjs.tz(movie.releaseDate, "Asia/Kolkata").startOf("day");
 
-    // Skip movies that haven't released yet
-    if (now.isBefore(releaseDate, "day")) {
-      console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDate.format("DD MMM YYYY")}`);
+    if (nowIST.isBefore(releaseDateIST)) {
+      console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDateIST.format("DD MMM YYYY")}`);
       continue;
     }
 
-    // On release day → run for release date
-    // After release day → run for today
-    const targetDate = now.isSame(releaseDate, "day")
-      ? releaseDate
-      : now;
+    // On release day → track releaseDate
+    // After release day → track today
+    const targetDateIST = nowIST.isSame(releaseDateIST, "day")
+      ? releaseDateIST
+      : nowIST;
 
     await runTrackerForMovie(
-      { ...movie, date: targetDate.format("YYYY-MM-DD") },
+      { ...movie, date: targetDateIST.format("YYYY-MM-DD") },
       key
     );
   }
