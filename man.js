@@ -10,20 +10,24 @@ dayjs.extend(timezone);
 
 const KEY_FILE = "districttrack/key.json";
 const DISTRICT_DIR = "districttrack";
+const ROTATE_INTERVAL_DAYS = 7; // change if needed
 
-function loadKey() {
+function loadKeyData() {
   if (!fs.existsSync(KEY_FILE)) {
     console.log("🔑 No key found — generating new one.");
-    const key = crypto.randomBytes(32).toString("hex");
+    const keyData = {
+      key: crypto.randomBytes(32).toString("hex"),
+      lastRotated: dayjs().toISOString()
+    };
     fs.mkdirSync(DISTRICT_DIR, { recursive: true });
-    fs.writeFileSync(KEY_FILE, JSON.stringify({ key }, null, 2));
-    return key;
+    fs.writeFileSync(KEY_FILE, JSON.stringify(keyData, null, 2));
+    return keyData;
   }
-  return JSON.parse(fs.readFileSync(KEY_FILE, "utf-8")).key;
+  return JSON.parse(fs.readFileSync(KEY_FILE, "utf-8"));
 }
 
-function saveKey(newKey) {
-  fs.writeFileSync(KEY_FILE, JSON.stringify({ key: newKey }, null, 2));
+function saveKeyData(keyData) {
+  fs.writeFileSync(KEY_FILE, JSON.stringify(keyData, null, 2));
 }
 
 function encryptData(key, data) {
@@ -42,32 +46,41 @@ function decryptData(key, encrypted) {
   return JSON.parse(decrypted);
 }
 
-function rotateKey() {
-  const oldKey = loadKey();
-  const newKey = crypto.randomBytes(32).toString("hex");
-  console.log(`🔄 Rotating key...`);
+function rotateKeyIfNeeded() {
+  let keyData = loadKeyData();
+  const lastRotated = dayjs(keyData.lastRotated);
+  const now = dayjs();
 
-  const files = fs.readdirSync(DISTRICT_DIR).filter(f => f.endsWith(".json") && f !== "key.json");
+  if (now.diff(lastRotated, "day") >= ROTATE_INTERVAL_DAYS) {
+    console.log(`🔄 Rotating key after ${now.diff(lastRotated, "day")} days...`);
+    const oldKey = keyData.key;
+    const newKey = crypto.randomBytes(32).toString("hex");
 
-  for (const file of files) {
-    const filePath = `${DISTRICT_DIR}/${file}`;
-    try {
-      const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-      const decrypted = decryptData(oldKey, content);
-      const reEncrypted = encryptData(newKey, decrypted);
-      fs.writeFileSync(filePath, JSON.stringify(reEncrypted, null, 2));
-      console.log(`♻ Re-encrypted: ${file}`);
-    } catch (e) {
-      console.error(`❌ Failed to re-encrypt ${file}: ${e.message}`);
+    const files = fs.readdirSync(DISTRICT_DIR).filter(f => f.endsWith(".json") && f !== "key.json");
+    for (const file of files) {
+      const filePath = `${DISTRICT_DIR}/${file}`;
+      try {
+        const content = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        const decrypted = decryptData(oldKey, content);
+        const reEncrypted = encryptData(newKey, decrypted);
+        fs.writeFileSync(filePath, JSON.stringify(reEncrypted, null, 2));
+        console.log(`♻ Re-encrypted: ${file}`);
+      } catch (e) {
+        console.error(`❌ Failed to re-encrypt ${file}: ${e.message}`);
+      }
     }
+
+    keyData = { key: newKey, lastRotated: now.toISOString() };
+    saveKeyData(keyData);
+    console.log(`✅ Key rotation complete.`);
+  } else {
+    console.log(`⏩ Key not due for rotation. Last rotated ${now.diff(lastRotated, "day")} days ago.`);
   }
 
-  saveKey(newKey);
-  console.log(`✅ Key rotation complete.`);
+  return keyData.key;
 }
 
 // ------------------ TRACKER LOGIC ------------------
-
 const RELEASE_DATE = dayjs("2025-08-14").tz("Asia/Kolkata");
 const todayIST = dayjs().tz("Asia/Kolkata");
 
@@ -93,7 +106,7 @@ async function runTracker() {
   const folder = `${DISTRICT_DIR}/${CONFIG.date}`;
   const filePath = `${folder}/${CONFIG.movieCode}_${CONFIG.contentId}.json`;
 
-  const key = loadKey();
+  const key = rotateKeyIfNeeded(); // 🔹 Auto-rotate key here
   const seenKeys = new Set();
   const result = [];
 
@@ -217,9 +230,5 @@ async function runTracker() {
   console.log(`✅ Final total shows stored: ${dedupedResult.length}`);
 }
 
-// ------------------ MAIN ------------------
-if (process.argv.includes("--rotate")) {
-  rotateKey();
-} else {
-  runTracker();
-}
+// Run tracker
+runTracker();
