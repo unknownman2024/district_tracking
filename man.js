@@ -88,8 +88,7 @@ const MOVIES = [
   {
     name: "MAN Hindi",
     language: "hindi",
-    releaseDate: "2025-08-12",  // individual release date
-    date: targetDate.format("YYYY-MM-DD"),
+    releaseDate: "2025-08-12",
     contentId: "183788",
     movieCode: "2_WBDghspW",
     cutoffMins: 60
@@ -97,13 +96,13 @@ const MOVIES = [
   {
     name: "Coolie Tamil",
     language: "tamil",
-    releaseDate: "2025-08-14",  // individual release date
-    date: targetDate.format("YYYY-MM-DD"),
+    releaseDate: "2025-08-14",  
     contentId: "112233",
     movieCode: "4_QWEabcDE",
     cutoffMins: 60
   }
 ];
+
 
 // Main tracker for a single movie
 async function runTrackerForMovie(CONFIG, key) {
@@ -244,14 +243,14 @@ async function runAllMovies(movies) {
   for (const movie of movies) {
     const releaseDate = dayjs(movie.releaseDate).tz("Asia/Kolkata");
 
-    // If movie is in the future, just skip
+    // Skip movies that haven't released yet
     if (now.isBefore(releaseDate, "day")) {
       console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDate.format("DD MMM YYYY")}`);
       continue;
     }
 
-    // If today is the release day → pick release date
-    // Otherwise → pick today's date
+    // On release day → run for release date
+    // After release day → run for today
     const targetDate = now.isSame(releaseDate, "day")
       ? releaseDate
       : now;
