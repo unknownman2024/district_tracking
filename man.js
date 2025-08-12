@@ -235,7 +235,6 @@ async function runTrackerForMovie(CONFIG, key) {
   fs.writeFileSync(filePath, JSON.stringify(encryptData(key, output), null, 2));
   console.log(`✅ ${CONFIG.name} — Shows stored: ${dedupedResult.length}`);
 }
-
 // Run all movies with single key rotation
 async function runAllMovies(movies) {
   console.log("🎬 Starting tracker for multiple movies...");
@@ -245,12 +244,15 @@ async function runAllMovies(movies) {
   for (const movie of movies) {
     const releaseDate = dayjs(movie.releaseDate).tz("Asia/Kolkata");
 
+    // If movie is in the future, just skip
     if (now.isBefore(releaseDate, "day")) {
       console.log(`⏩ Skipping ${movie.name} — releasing on ${releaseDate.format("DD MMM YYYY")}`);
       continue;
     }
 
-    const targetDate = now.isBefore(releaseDate, "day")
+    // If today is the release day → pick release date
+    // Otherwise → pick today's date
+    const targetDate = now.isSame(releaseDate, "day")
       ? releaseDate
       : now;
 
@@ -260,6 +262,5 @@ async function runAllMovies(movies) {
     );
   }
 }
-
 
 runAllMovies(MOVIES);
