@@ -81,7 +81,7 @@ function rotateKeyIfNeeded() {
 }
 
 // ------------------ TRACKER LOGIC ------------------
-const RELEASE_DATE = dayjs("2025-08-14").tz("Asia/Kolkata");
+const RELEASE_DATE = dayjs("2025-08-12").tz("Asia/Kolkata");
 const todayIST = dayjs().tz("Asia/Kolkata");
 
 let targetDate;
