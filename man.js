@@ -12,23 +12,26 @@ const KEY_FILE = "districttrack/key.json";
 const DISTRICT_DIR = "districttrack";
 const ROTATE_INTERVAL_DAYS = 7; // change if needed
 
-function loadKeyData() {
-  if (!fs.existsSync(KEY_FILE)) {
-    console.log("🔑 No key found — generating new one.");
+function loadKeyData(date) {
+  const keyFile = `${DISTRICT_DIR}/${date}/key.json`;
+  if (!fs.existsSync(keyFile)) {
+    console.log(`🔑 No key found for ${date} — generating new one.`);
     const keyData = {
       key: crypto.randomBytes(32).toString("hex"),
       lastRotated: dayjs().toISOString()
     };
-    fs.mkdirSync(DISTRICT_DIR, { recursive: true });
-    fs.writeFileSync(KEY_FILE, JSON.stringify(keyData, null, 2));
+    fs.mkdirSync(`${DISTRICT_DIR}/${date}`, { recursive: true });
+    fs.writeFileSync(keyFile, JSON.stringify(keyData, null, 2));
     return keyData;
   }
-  return JSON.parse(fs.readFileSync(KEY_FILE, "utf-8"));
+  return JSON.parse(fs.readFileSync(keyFile, "utf-8"));
 }
 
-function saveKeyData(keyData) {
-  fs.writeFileSync(KEY_FILE, JSON.stringify(keyData, null, 2));
+function saveKeyData(date, keyData) {
+  const keyFile = `${DISTRICT_DIR}/${date}/key.json`;
+  fs.writeFileSync(keyFile, JSON.stringify(keyData, null, 2));
 }
+
 
 function encryptData(key, data) {
   const iv = crypto.randomBytes(16);
@@ -79,7 +82,7 @@ async function runTrackerForMovie(CONFIG) {
   const filePath = `${folder}/${CONFIG.movieCode}_${CONFIG.contentId}.json`;
 
   // Step 1: Load old key & old data
-  const oldKeyData = loadKeyData();
+  const oldKeyData = loadKeyData(CONFIG.date);
   let result = [];
 
   if (fs.existsSync(filePath)) {
@@ -203,7 +206,7 @@ async function runTrackerForMovie(CONFIG) {
   fs.writeFileSync(filePath, JSON.stringify(encryptData(newKeyData.key, output), null, 2));
 
   // Step 6: Save new key
-  saveKeyData(newKeyData);
+  saveKeyData(CONFIG.date, newKeyData);
 
   console.log(`✅ ${CONFIG.name} — Shows stored: ${dedupedResult.length}`);
 }
