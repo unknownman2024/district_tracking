@@ -8,9 +8,7 @@ const timezone = require("dayjs/plugin/timezone");
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-const KEY_FILE = "districttrack/key.json";
 const DISTRICT_DIR = "districttrack";
-const ROTATE_INTERVAL_DAYS = 7; // change if needed
 
 function loadKeyData(date) {
   const keyFile = `${DISTRICT_DIR}/${date}/key.json`;
@@ -63,6 +61,14 @@ const MOVIES = [
     movieCode: "2_WBDghspW",
     cutoffMins: 60
   },
+    {
+    name: "Saiyaara Hindi",
+    language: "hindi",
+    releaseDate: "2025-07-18",
+    contentId: "196147",
+    movieCode: "K5ih5j~m7F",
+    cutoffMins: 60
+  },
   {
     name: "Coolie Tamil",
     language: "tamil",
@@ -70,7 +76,39 @@ const MOVIES = [
     contentId: "112233",
     movieCode: "4_QWEabcDE",
     cutoffMins: 60
-  }
+  },
+  {
+    name: "War 2 Hindi",
+    language: "hindi",
+    releaseDate: "2025-08-14",
+    movieCode: "sbGuGSyELy",
+    contentId: "161358",
+    cutoffMins: 60
+  },
+  {
+    name: "Coolie Hindi",
+    language: "hindi",
+    releaseDate: "2025-08-14",
+    movieCode: "lgqLlP0Wf6",
+    contentId: "201522",
+    cutoffMins: 60
+  },
+    {
+    name: "War 2 Telugu",
+    language: "telugu",
+    releaseDate: "2025-08-14",
+    movieCode: "Vce5NbdeI_",
+    contentId: "161358",
+    cutoffMins: 60
+  },
+  {
+    name: "Coolie Telugu",
+    language: "telugu",
+    releaseDate: "2025-08-14",
+    movieCode: "rF_IgPQApY",
+    contentId: "172677",
+    cutoffMins: 60
+  },
 ];
 
 
@@ -102,7 +140,7 @@ async function runTrackerForMovie(CONFIG) {
   const tasks = cities.map(city => (async () => {
     if (!city.citycode) return;
 
-    const url = `https://district.text2026mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
+    const url = `https://district.text2026mail.workers.dev/?city=${city.citycode}&contentId=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
     console.log(`🌐 Requesting: ${url}`);
 
     try {
