@@ -37,7 +37,7 @@ console.log(`🎯 Tracking date: ${CONFIG.date} (today: ${todayIST.format("YYYY-
 
 (async () => {
   const now = dayjs().tz("Asia/Kolkata");
-  const folder = `districtdata/${CONFIG.date}`;
+  const folder = `districttrack/${CONFIG.date}`;
   const filePath = `${folder}/${CONFIG.movieCode}_${CONFIG.contentId}.json`;
 
   const seenKeys = new Set();
@@ -60,7 +60,7 @@ console.log(`🎯 Tracking date: ${CONFIG.date} (today: ${todayIST.format("YYYY-
   const tasks = cities.map(city => (async () => {
     if (!city.citycode) return;
 
-    const url = `https://district.text2024mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
+    const url = `https://district.text2026mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
     console.log(`🌐 Requesting: ${url}`);
 
     try {
