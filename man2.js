@@ -100,7 +100,7 @@ const MOVIES = [
     releaseDate: "2025-08-14",
     movieCode: "sbGuGSyELy",
     contentId: "161358",
-    cutoffMins: 60
+    cutoffMins: 100
   },
   
     {
@@ -111,6 +111,7 @@ const MOVIES = [
     movieCode: "2_WBDghspW",
     cutoffMins: 100
   },
+];
 
 
 // Main tracker for a single movie
