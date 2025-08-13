@@ -91,8 +91,8 @@ const MOVIES = [
     name: "Coolie Tamil",
     language: "tamil",
     releaseDate: "2025-08-14",  
-    contentId: "112233",
-    movieCode: "4_QWEabcDE",
+    contentId: "172677",
+    movieCode: "ZcW3aqXSzc",
     cutoffMins: 100
   },
   {
