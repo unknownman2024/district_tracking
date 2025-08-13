@@ -144,7 +144,7 @@ async function runTrackerForMovie(CONFIG, key) {
   const tasks = cities.map(city => (async () => {
     if (!city.citycode) return;
 
-    const url = `https://district.text2026mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
+    const url = `https://district.text2027mail.workers.dev/?city=${city.citycode}&content_id=${CONFIG.contentId}&date=${CONFIG.date}&movieCode=${CONFIG.movieCode}`;
     console.log(`🌐 Requesting: ${url}`);
 
     try {
