@@ -91,23 +91,16 @@ const MOVIES = [
     releaseDate: "2025-08-12",
     contentId: "183788",
     movieCode: "2_WBDghspW",
-    cutoffMins: 60
+    cutoffMins: 100
   },
-    {
-    name: "Saiyaara Hindi",
-    language: "hindi",
-    releaseDate: "2025-07-18",
-    contentId: "196147",
-    movieCode: "K5ih5j~m7F",
-    cutoffMins: 60
-  },
+
   {
     name: "Coolie Tamil",
     language: "tamil",
     releaseDate: "2025-08-14",  
     contentId: "112233",
     movieCode: "4_QWEabcDE",
-    cutoffMins: 60
+    cutoffMins: 100
   },
   {
     name: "War 2 Hindi",
@@ -123,7 +116,7 @@ const MOVIES = [
     releaseDate: "2025-08-14",
     movieCode: "lgqLlP0Wf6",
     contentId: "201522",
-    cutoffMins: 60
+    cutoffMins: 100
   },
     {
     name: "War 2 Telugu",
@@ -131,7 +124,7 @@ const MOVIES = [
     releaseDate: "2025-08-14",
     movieCode: "Vce5NbdeI_",
     contentId: "161358",
-    cutoffMins: 60
+    cutoffMins: 100
   },
   {
     name: "Coolie Telugu",
@@ -139,7 +132,7 @@ const MOVIES = [
     releaseDate: "2025-08-14",
     movieCode: "rF_IgPQApY",
     contentId: "172677",
-    cutoffMins: 60
+    cutoffMins: 100
   },
 ];
 
