@@ -85,14 +85,7 @@ const todayIST = dayjs().tz("Asia/Kolkata");
 
 // List of movies
 const MOVIES = [
-  {
-    name: "MAN Hindi",
-    language: "hindi",
-    releaseDate: "2025-08-12",
-    contentId: "183788",
-    movieCode: "2_WBDghspW",
-    cutoffMins: 100
-  },
+
 
   {
     name: "Coolie Tamil",
@@ -103,27 +96,11 @@ const MOVIES = [
     cutoffMins: 100
   },
   {
-    name: "War 2 Hindi",
-    language: "hindi",
-    releaseDate: "2025-08-14",
-    movieCode: "sbGuGSyELy",
-    contentId: "161358",
-    cutoffMins: 60
-  },
-  {
     name: "Coolie Hindi",
     language: "hindi",
     releaseDate: "2025-08-14",
     movieCode: "lgqLlP0Wf6",
     contentId: "201522",
-    cutoffMins: 100
-  },
-    {
-    name: "War 2 Telugu",
-    language: "telugu",
-    releaseDate: "2025-08-14",
-    movieCode: "Vce5NbdeI_",
-    contentId: "161358",
     cutoffMins: 100
   },
   {
