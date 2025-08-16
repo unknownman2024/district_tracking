@@ -104,11 +104,11 @@ const MOVIES = [
   },
   
     {
-    name: "MAN Hindi",
-    language: "hindi",
-    releaseDate: "2025-08-12",
-    contentId: "183788",
-    movieCode: "2_WBDghspW",
+    name: "Dhumketu Bengali",
+    language: "bengali",
+    releaseDate: "2025-08-14",
+    contentId: "201964",
+    movieCode: "Yg~qtiH5PK",
     cutoffMins: 100
   },
 ];
