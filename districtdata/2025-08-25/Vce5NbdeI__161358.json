@@ -1,6 +1,6 @@
 {
   "date": "2025-08-25",
-  "lastUpdated": "12:15 AM, 24 August 2025",
+  "lastUpdated": "01:08 AM, 24 August 2025",
   "venues": [
     {
       "source": "district",
@@ -5471,11 +5471,11 @@
       "time": "12:45 PM",
       "audi": "SCREEN 2",
       "totalSeats": 279,
-      "available": 279,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2189
+      "available": 277,
+      "sold": 2,
+      "gross": 354,
+      "occupancy": "0.72%",
+      "minsLeft": 2136
     },
     {
       "source": "district",
@@ -7441,6 +7441,66 @@
       "gross": 0,
       "occupancy": "0.00%",
       "minsLeft": 2744
+    },
+    {
+      "source": "district",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "address": "Ascendas Park Square Mall, ITP, Whitefield Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066, India",
+      "time": "11:40 AM",
+      "audi": "SCREEN-2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 2071
+    },
+    {
+      "source": "district",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "address": "Ascendas Park Square Mall, ITP, Whitefield Rd, Pattandur Agrahara, Whitefield, Bengaluru, Karnataka 560066, India",
+      "time": "06:40 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 2491
+    },
+    {
+      "source": "district",
+      "city": "Kadthal",
+      "state": "Telangana",
+      "venue": "PVR Panjagutta, Central Mall, Hyderabad",
+      "address": "5th Floor, Hyderabad Central Mall, Punjagutta Cross Road, Hyderabad, Telangana 500082, India",
+      "time": "10:00 AM",
+      "audi": "AUDI 2",
+      "totalSeats": 215,
+      "available": 215,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 1971
+    },
+    {
+      "source": "district",
+      "city": "Kadthal",
+      "state": "Telangana",
+      "venue": "Cinepolis Mantra Mall, Upparpally, Hyderabad",
+      "address": "Mantra Mall, Inner Ring Road, Royal Colony, Upparpally, Hyderabad, Telangana 500030, India",
+      "time": "04:30 PM",
+      "audi": "AUDI 2",
+      "totalSeats": 215,
+      "available": 205,
+      "sold": 10,
+      "gross": 2950,
+      "occupancy": "4.65%",
+      "minsLeft": 2361
     }
   ]
 }
