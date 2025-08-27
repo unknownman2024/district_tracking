@@ -22,11 +22,11 @@ if (todayIST.isBefore(RELEASE_DATE, "day")) {
 }
 
 const CONFIG = {
-  name: "War 2 Telugu",
-  language: "telugu",
+  name: "Hridayapoorvam Malayalam",
+  language: "malayalam",
   date: targetDate.format("YYYY-MM-DD"), // dynamic target
-  contentId: "161358",
-  movieCode: "Vce5NbdeI_",
+  contentId: "202567",
+  movieCode: "A4r89MNoYJ",
   cutoffMins: 60
 };
 
