@@ -104,11 +104,11 @@ const MOVIES = [
   },
   
     {
-    name: "Dhumketu Bengali",
-    language: "bengali",
-    releaseDate: "2025-08-14",
-    contentId: "201964",
-    movieCode: "Yg~qtiH5PK",
+    name: "Hridayapoorvam Malayalam",
+    language: "malayalam",
+    releaseDate: "2025-08-28",
+    contentId: "202567",
+    movieCode: "A4r89MNoYJ",
     cutoffMins: 100
   },
 ];
