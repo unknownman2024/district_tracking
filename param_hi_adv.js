@@ -8,7 +8,7 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 
 // ✅ Fixed release date in IST
-const RELEASE_DATE = dayjs("2025-08-14").tz("Asia/Kolkata");
+const RELEASE_DATE = dayjs("2025-08-29").tz("Asia/Kolkata");
 // Get today's date/time in IST
 const todayIST = dayjs().tz("Asia/Kolkata");
 // Decide target date
@@ -22,11 +22,11 @@ if (todayIST.isBefore(RELEASE_DATE, "day")) {
 }
 
 const CONFIG = {
-  name: "Coolie Hindi",
+  name: "Param Sundari Hindi",
   language: "hindi",
   date: targetDate.format("YYYY-MM-DD"), // dynamic target
-  contentId: "201522",
-  movieCode: "lgqLlP0Wf6",
+  contentId: "186420",
+  movieCode: "qVNQxUQJl9",
   cutoffMins: 60
 };
 
