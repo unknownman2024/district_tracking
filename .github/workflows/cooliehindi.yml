@@ -1,4 +1,4 @@
-name: Coolie Hindi Auto Tracker
+name: Param Sundari Hindi Auto Tracker
 
 on:
   schedule:
@@ -23,10 +23,10 @@ jobs:
       - name: 📦 Install dependencies
         run: npm install --omit=dev
 
-      - name: 🚀 Run Coolie Hindi Tracker
+      - name: 🚀 Run ParamS Hindi Tracker
         run: |
           set -e
-          node coolie_hi_adv.js
+          node param_hi_adv.js
 
       - name: 💾 Commit & Push JSON
         run: |
