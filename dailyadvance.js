@@ -7,7 +7,7 @@ const timezone = require("dayjs/plugin/timezone");
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-// Today +1 day (in IST or system TZ)
+// Today +1 day (IST/system TZ)
 const DATE = dayjs().add(1, "day").format("YYYY-MM-DD");
 
 const API_URL = "https://districtvenues.text2027mail.workers.dev/?cinema_id={cid}&date={date}";
@@ -23,7 +23,6 @@ function formatChain(chainStr) {
   if (!chainStr || typeof chainStr !== "string") return "Unknown";
   return chainStr.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
-
 
 // ---- Fetch per cinema ----
 async function fetchVenueData(venue) {
@@ -56,7 +55,7 @@ async function fetchVenueData(venue) {
 // ---- Main ----
 async function main() {
   const summary = {};
-  const detailedOutput = {}; // <-- NEW
+  const detailedOutput = {};
 
   const results = await Promise.all(VENUES.map(fetchVenueData));
 
@@ -66,6 +65,7 @@ async function main() {
 
     const city = venue.city;
     const state = formatState(venue.state);
+    const chain = formatChain(venue.chainKey);
     const v_id = venue.id;
 
     const moviesMap = {};
@@ -79,7 +79,7 @@ async function main() {
       const lang = session.lang || movie.lang || "";
       const key = `${name} | ${lang}`;
 
-      // ---------- SUMMARY PART (same as before) ----------
+      // ---------- SUMMARY ----------
       if (!summary[key]) {
         summary[key] = {
           shows: 0, gross: 0, sold: 0, totalSeats: 0,
@@ -104,7 +104,7 @@ async function main() {
       const fastfilling = occupancy >= 50 && occupancy < 98 ? 1 : 0;
       const housefull = occupancy >= 98 ? 1 : 0;
 
-      // update summary totals
+      // update totals
       msum.shows++;
       msum.gross += gross;
       msum.sold += sold;
@@ -114,12 +114,54 @@ async function main() {
       msum.fastfilling += fastfilling;
       msum.housefull += housefull;
 
-      // city/state + chain details (same as before)...
-      // ---------------------------------------------------
+      // ---- City/State details update ----
+      const detKey = `${city}|${state}`;
+      if (!msum.details[detKey]) {
+        msum.details[detKey] = {
+          city,
+          state,
+          venues: new Set(),
+          shows: 0,
+          gross: 0,
+          sold: 0,
+          totalSeats: 0,
+          fastfilling: 0,
+          housefull: 0
+        };
+      }
+      const det = msum.details[detKey];
+      det.venues.add(v_id);
+      det.shows++;
+      det.gross += gross;
+      det.sold += sold;
+      det.totalSeats += total;
+      det.fastfilling += fastfilling;
+      det.housefull += housefull;
 
-      // ---------- DETAILED PART ----------
+      // ---- Chain details update ----
+      if (!msum.Chain_details[chain]) {
+        msum.Chain_details[chain] = {
+          chain,
+          venues: new Set(),
+          shows: 0,
+          gross: 0,
+          sold: 0,
+          totalSeats: 0,
+          fastfilling: 0,
+          housefull: 0
+        };
+      }
+      const cdet = msum.Chain_details[chain];
+      cdet.venues.add(v_id);
+      cdet.shows++;
+      cdet.gross += gross;
+      cdet.sold += sold;
+      cdet.totalSeats += total;
+      cdet.fastfilling += fastfilling;
+      cdet.housefull += housefull;
+
+      // ---------- DETAILED ----------
       if (!detailedOutput[key]) detailedOutput[key] = [];
-
       detailedOutput[key].push({
         city,
         state,
@@ -135,7 +177,7 @@ async function main() {
     }
   }
 
-  // finalize summary JSON
+  // ---------- FINALIZE SUMMARY ----------
   const output = {};
   for (const [movie, vals] of Object.entries(summary)) {
     const out = {
@@ -184,7 +226,7 @@ async function main() {
     output[movie] = out;
   }
 
-  // save outputs
+  // ---------- SAVE FILES ----------
   const outDir = "./Daily Advance";
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
