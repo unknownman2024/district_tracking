@@ -77,7 +77,7 @@ async function main() {
 
       const name = movie.name;
       const lang = session.lang || movie.lang || "";
-      const key = `${name} | Lang (${lang})`;
+      const key = `${name} | ${lang}`;
 
       if (!summary[key]) {
         summary[key] = {
