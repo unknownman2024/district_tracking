@@ -1,3 +1,58 @@
+const fs = require("fs");
+const fetch = require("node-fetch");
+const dayjs = require("dayjs");
+const utc = require("dayjs/plugin/utc");
+const timezone = require("dayjs/plugin/timezone");
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
+
+// Today +1 day (in IST or system TZ)
+const DATE = dayjs().add(1, "day").format("YYYY-MM-DD");
+
+const API_URL = "https://districtvenues.text2027mail.workers.dev/?cinema_id={cid}&date={date}";
+const VENUES = JSON.parse(fs.readFileSync("districtvenues.json", "utf-8"));
+
+// ---- Helpers ----
+function formatState(stateStr) {
+  if (!stateStr || typeof stateStr !== "string") return "Unknown";
+  return stateStr.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function formatChain(chainStr) {
+  if (!chainStr || typeof chainStr !== "string") return "Unknown";
+  return chainStr.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+
+// ---- Fetch per cinema ----
+async function fetchVenueData(venue) {
+  const url = API_URL.replace("{cid}", venue.id).replace("{date}", DATE);
+  const cid = venue.id;
+  try {
+    console.log(`➡️ Fetching cinema_id=${cid} (${venue.name})...`);
+    const resp = await fetch(url, { timeout: 20000 });
+    if (!resp.ok) {
+      console.log(`⚠️ Failed: cinema_id=${cid} (status=${resp.status})`);
+      return null;
+    }
+    const data = await resp.json();
+
+    // check if DATE available
+    const sessionDates = (data?.data?.sessionDates) || [];
+    if (!sessionDates.includes(DATE)) {
+      console.log(`⏭️ Skipped: cinema_id=${cid} (date ${DATE} not available)`);
+      return null;
+    }
+
+    console.log(`✅ Success: cinema_id=${cid}`);
+    return { venue, data };
+  } catch (err) {
+    console.log(`❌ Error for cinema_id=${cid}: ${err.message}`);
+    return null;
+  }
+}
+
 // ---- Main ----
 async function main() {
   const summary = {};
@@ -142,3 +197,5 @@ async function main() {
   console.log(`✅ Saved summary: ${outPath}`);
   console.log(`✅ Saved detailed: ${detailedPath}`);
 }
+
+main();
