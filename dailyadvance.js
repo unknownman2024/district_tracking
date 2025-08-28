@@ -11,7 +11,7 @@ dayjs.extend(timezone);
 const DATE = dayjs().add(1, "day").format("YYYY-MM-DD");
 
 const API_URL = "https://districtvenues.text2027mail.workers.dev/?cinema_id={cid}&date={date}";
-const VENUES = JSON.parse(fs.readFileSync("venues_output.json", "utf-8"));
+const VENUES = JSON.parse(fs.readFileSync("districtvenues.json", "utf-8"));
 
 // ---- Helpers ----
 function formatState(stateStr) {
