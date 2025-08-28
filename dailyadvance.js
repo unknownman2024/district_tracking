@@ -166,7 +166,9 @@ async function main() {
         city,
         state,
         venue: venue.name,
-        time: session.showTime || "",
+        time: session.showTime 
+    ? dayjs.utc(session.showTime).tz("Asia/Kolkata").format("hh:mm A")
+    : "",
         audi: session.audi || "",
         totalSeats: total,
         available: avail,
