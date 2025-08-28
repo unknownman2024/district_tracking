@@ -15,11 +15,15 @@ const VENUES = JSON.parse(fs.readFileSync("districtvenues.json", "utf-8"));
 
 // ---- Helpers ----
 function formatState(stateStr) {
+  if (!stateStr || typeof stateStr !== "string") return "Unknown";
   return stateStr.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
+
 function formatChain(chainStr) {
+  if (!chainStr || typeof chainStr !== "string") return "Unknown";
   return chainStr.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
+
 
 // ---- Fetch per cinema ----
 async function fetchVenueData(venue) {
