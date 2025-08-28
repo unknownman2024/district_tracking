@@ -226,18 +226,37 @@ async function main() {
     output[movie] = out;
   }
 
+// Add metadata
+const nowIST = dayjs().tz("Asia/Kolkata");
+const formattedLastUpdated = nowIST.format("hh:mm A, DD MMMM YYYY");
+
+// Wrap summary output
+const finalSummary = {
+  date: DATE,
+  lastUpdated: formattedLastUpdated,
+  ...output
+};
+
+// Wrap detailed output
+const finalDetailed = {
+  date: DATE,
+  lastUpdated: formattedLastUpdated,
+  ...detailedOutput
+};
+
   // ---------- SAVE FILES ----------
-  const outDir = "./Daily Advance";
-  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+const outDir = "./Daily Advance";
+if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
-  const outPath = `${outDir}/${DATE}.json`;
-  fs.writeFileSync(outPath, JSON.stringify(output, null, 2), "utf-8");
+const outPath = `${outDir}/${DATE}.json`;
+fs.writeFileSync(outPath, JSON.stringify(finalSummary, null, 2), "utf-8");
 
-  const detailedPath = `${outDir}/${DATE}_Detailed.json`;
-  fs.writeFileSync(detailedPath, JSON.stringify(detailedOutput, null, 2), "utf-8");
+const detailedPath = `${outDir}/${DATE}_Detailed.json`;
+fs.writeFileSync(detailedPath, JSON.stringify(finalDetailed, null, 2), "utf-8");
 
-  console.log(`✅ Saved summary: ${outPath}`);
-  console.log(`✅ Saved detailed: ${detailedPath}`);
+console.log(`✅ Saved summary: ${outPath}`);
+console.log(`✅ Saved detailed: ${detailedPath}`);
+
 }
 
 main();
