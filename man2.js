@@ -87,11 +87,11 @@ const todayIST = dayjs().tz("Asia/Kolkata");
 const MOVIES = [
 
      {
-    name: "War 2 Telugu",
-    language: "telugu",
-    releaseDate: "2025-08-14",
-    movieCode: "Vce5NbdeI_",
-    contentId: "161358",
+    name: "Param Sundari Hindi",
+    language: "hindi",
+    releaseDate: "2025-08-29",
+    movieCode: "qVNQxUQJl9",
+    contentId: "186420",
     cutoffMins: 100
   },
     {
