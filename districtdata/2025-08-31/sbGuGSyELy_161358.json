@@ -1,6 +1,6 @@
 {
   "date": "2025-08-31",
-  "lastUpdated": "02:09 AM, 30 August 2025",
+  "lastUpdated": "03:06 AM, 30 August 2025",
   "venues": [
     {
       "source": "district",
@@ -5501,11 +5501,11 @@
       "time": "04:15 PM",
       "audi": "AUDI 04",
       "totalSeats": 303,
-      "available": 303,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2398
+      "available": 300,
+      "sold": 3,
+      "gross": 1110,
+      "occupancy": "0.99%",
+      "minsLeft": 2228
     },
     {
       "source": "district",
@@ -6506,11 +6506,11 @@
       "time": "10:30 PM",
       "audi": "SCREEN 3",
       "totalSeats": 203,
-      "available": 203,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2773
+      "available": 202,
+      "sold": 1,
+      "gross": 220,
+      "occupancy": "0.49%",
+      "minsLeft": 2603
     },
     {
       "source": "district",
@@ -14546,11 +14546,11 @@
       "time": "09:30 AM",
       "audi": "AUDI 2",
       "totalSeats": 245,
-      "available": 231,
-      "sold": 14,
-      "gross": 2620,
-      "occupancy": "5.71%",
-      "minsLeft": 1993
+      "available": 230,
+      "sold": 15,
+      "gross": 2810,
+      "occupancy": "6.12%",
+      "minsLeft": 1823
     },
     {
       "source": "district",
@@ -20636,11 +20636,11 @@
       "time": "03:40 PM",
       "audi": "IMAX",
       "totalSeats": 241,
-      "available": 217,
-      "sold": 24,
-      "gross": 9840,
-      "occupancy": "9.96%",
-      "minsLeft": 2363
+      "available": 215,
+      "sold": 26,
+      "gross": 10620,
+      "occupancy": "10.79%",
+      "minsLeft": 2193
     },
     {
       "source": "district",
@@ -21796,6 +21796,36 @@
       "gross": 27800,
       "occupancy": "100.00%",
       "minsLeft": 2347
+    },
+    {
+      "source": "district",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "INOX Megaplex Phoenix Mall of the Millennium, Wakad, Pune",
+      "address": "3rd Floor, Pune PMC, Phoenix Mall of the Millennium, Behind Sayaji Hotel Pune, Banglore Highway Wakad, Pune, Maharashtra 411057, India",
+      "time": "02:55 PM",
+      "audi": "AUDI 9",
+      "totalSeats": 173,
+      "available": 0,
+      "sold": 173,
+      "gross": 34600,
+      "occupancy": "100.00%",
+      "minsLeft": 2148
+    },
+    {
+      "source": "district",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "INOX Megaplex Phoenix Mall of the Millennium, Wakad, Pune",
+      "address": "3rd Floor, Pune PMC, Phoenix Mall of the Millennium, Behind Sayaji Hotel Pune, Banglore Highway Wakad, Pune, Maharashtra 411057, India",
+      "time": "03:25 PM",
+      "audi": "AUDI 8",
+      "totalSeats": 174,
+      "available": 0,
+      "sold": 174,
+      "gross": 34800,
+      "occupancy": "100.00%",
+      "minsLeft": 2178
     }
   ]
 }
