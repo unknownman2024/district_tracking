@@ -1,6 +1,6 @@
 {
   "date": "2025-09-02",
-  "lastUpdated": "02:09 AM, 01 September 2025",
+  "lastUpdated": "03:06 AM, 01 September 2025",
   "venues": [
     {
       "source": "district",
@@ -2036,11 +2036,11 @@
       "time": "10:45 PM",
       "audi": "AUDI 1",
       "totalSeats": 202,
-      "available": 202,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2789
+      "available": 200,
+      "sold": 2,
+      "gross": 398,
+      "occupancy": "0.99%",
+      "minsLeft": 2618
     },
     {
       "source": "district",
@@ -6851,11 +6851,11 @@
       "time": "10:45 PM",
       "audi": "SCREEN 2",
       "totalSeats": 195,
-      "available": 195,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2789
+      "available": 193,
+      "sold": 2,
+      "gross": 198,
+      "occupancy": "1.03%",
+      "minsLeft": 2618
     },
     {
       "source": "district",
@@ -16526,11 +16526,11 @@
       "time": "06:10 PM",
       "audi": "AUDI 02",
       "totalSeats": 80,
-      "available": 71,
-      "sold": 9,
-      "gross": 1341,
-      "occupancy": "11.25%",
-      "minsLeft": 2462
+      "available": 67,
+      "sold": 13,
+      "gross": 1937,
+      "occupancy": "16.25%",
+      "minsLeft": 2343
     },
     {
       "source": "district",
@@ -18371,11 +18371,11 @@
       "time": "11:05 PM",
       "audi": "AUDI 1",
       "totalSeats": 284,
-      "available": 279,
-      "sold": 5,
-      "gross": 495,
-      "occupancy": "1.76%",
-      "minsLeft": 2809
+      "available": 274,
+      "sold": 10,
+      "gross": 1745,
+      "occupancy": "3.52%",
+      "minsLeft": 2638
     },
     {
       "source": "district",
@@ -19186,6 +19186,21 @@
       "gross": 0,
       "occupancy": "0.00%",
       "minsLeft": 2682
+    },
+    {
+      "source": "district",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "INOX Megaplex, Oberoi Sky City Mall, Mumbai",
+      "address": "INOX Megaplex, Oberoi Sky City Mall, Datta Pada Road, Borivali East, Devi Pada Metro Station, Mumbai, Maharashtra 400066, India",
+      "time": "07:00 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 261,
+      "available": 247,
+      "sold": 14,
+      "gross": 5586,
+      "occupancy": "5.36%",
+      "minsLeft": 2393
     }
   ]
 }
