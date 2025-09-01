@@ -1,6 +1,6 @@
 {
   "date": "2025-09-03",
-  "lastUpdated": "12:16 AM, 02 September 2025",
+  "lastUpdated": "01:07 AM, 02 September 2025",
   "venues": [
     {
       "source": "district",
@@ -11831,11 +11831,11 @@
       "time": "01:05 PM",
       "audi": "Wave 0.3",
       "totalSeats": 178,
-      "available": 178,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2208
+      "available": 176,
+      "sold": 2,
+      "gross": 360,
+      "occupancy": "1.12%",
+      "minsLeft": 2157
     },
     {
       "source": "district",
@@ -16541,11 +16541,11 @@
       "time": "03:45 PM",
       "audi": "AUDI 02 IMAX",
       "totalSeats": 294,
-      "available": 291,
-      "sold": 3,
-      "gross": 870,
-      "occupancy": "1.02%",
-      "minsLeft": 2368
+      "available": 290,
+      "sold": 4,
+      "gross": 1130,
+      "occupancy": "1.36%",
+      "minsLeft": 2317
     },
     {
       "source": "district",
@@ -16691,11 +16691,11 @@
       "time": "01:10 PM",
       "audi": "SCREEN 1 ONYX",
       "totalSeats": 159,
-      "available": 149,
-      "sold": 10,
-      "gross": 3400,
-      "occupancy": "6.29%",
-      "minsLeft": 2213
+      "available": 147,
+      "sold": 12,
+      "gross": 3900,
+      "occupancy": "7.55%",
+      "minsLeft": 2162
     },
     {
       "source": "district",
@@ -18511,6 +18511,36 @@
       "gross": 2650,
       "occupancy": "6.30%",
       "minsLeft": 2263
+    },
+    {
+      "source": "district",
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "PVR TransCube, Vadodara",
+      "address": "3rd Floor, 648/B, VED Transcube Plaza, Central Bus Stand, KG Patel Marg, Opp. Railway Station, Vadodara, Gujarat 390005, India",
+      "time": "12:40 PM",
+      "audi": "",
+      "totalSeats": 126,
+      "available": 126,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 2132
+    },
+    {
+      "source": "district",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Westend, Aundh, Pune",
+      "address": "5 , Gurukul Park Rd, Ward No. 8, Wireless Colony, Aundh, Pune, Maharashtra 411007, India",
+      "time": "10:30 AM",
+      "audi": "IMAX",
+      "totalSeats": 283,
+      "available": 271,
+      "sold": 12,
+      "gross": 3560,
+      "occupancy": "4.24%",
+      "minsLeft": 2002
     }
   ]
 }
