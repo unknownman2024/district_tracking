@@ -1,6 +1,6 @@
 {
   "date": "2025-09-05",
-  "lastUpdated": "01:07 AM, 04 September 2025",
+  "lastUpdated": "02:09 AM, 04 September 2025",
   "venues": [
     {
       "source": "district",
@@ -401,11 +401,11 @@
       "time": "11:00 AM",
       "audi": "SCREEN 2",
       "totalSeats": 190,
-      "available": 190,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2084
+      "available": 188,
+      "sold": 2,
+      "gross": 420,
+      "occupancy": "1.05%",
+      "minsLeft": 1970
     },
     {
       "source": "district",
@@ -646,6 +646,36 @@
       "gross": 3600,
       "occupancy": "15.58%",
       "minsLeft": 2102
+    },
+    {
+      "source": "district",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "venue": "PVR Treasure Island Mall, South Tukoganj, Indore",
+      "address": "4th Floor, Treasure Island Mall, 11 M.G.Road, South Tukoganj, Indore, Madhya Pradesh 452001, India",
+      "time": "12:45 PM",
+      "audi": "AUDI 7 - PLAY HOUSE",
+      "totalSeats": 65,
+      "available": 65,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 2075
+    },
+    {
+      "source": "district",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "venue": "PVR Treasure Island Mall, South Tukoganj, Indore",
+      "address": "4th Floor, Treasure Island Mall, 11 M.G.Road, South Tukoganj, Indore, Madhya Pradesh 452001, India",
+      "time": "09:50 PM",
+      "audi": "AUDI 7 - PLAY HOUSE",
+      "totalSeats": 65,
+      "available": 65,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 2620
     }
   ]
 }
