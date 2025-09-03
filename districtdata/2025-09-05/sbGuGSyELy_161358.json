@@ -1,6 +1,6 @@
 {
   "date": "2025-09-05",
-  "lastUpdated": "12:15 AM, 04 September 2025",
+  "lastUpdated": "01:07 AM, 04 September 2025",
   "venues": [
     {
       "source": "district",
@@ -371,11 +371,11 @@
       "time": "09:40 AM",
       "audi": "AUDI 12",
       "totalSeats": 139,
-      "available": 139,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2004
+      "available": 136,
+      "sold": 3,
+      "gross": 720,
+      "occupancy": "2.16%",
+      "minsLeft": 1952
     },
     {
       "source": "district",
@@ -631,6 +631,21 @@
       "gross": 1140,
       "occupancy": "3.68%",
       "minsLeft": 2594
+    },
+    {
+      "source": "district",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "PVR Palladium Mall, Thaltej, Ahmedabad",
+      "address": "4th floor, Palladium Mall, SG Highway, Thaltej, Ahmedabad, Gujarat 380054, India",
+      "time": "12:10 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 77,
+      "available": 65,
+      "sold": 12,
+      "gross": 3600,
+      "occupancy": "15.58%",
+      "minsLeft": 2102
     }
   ]
 }
