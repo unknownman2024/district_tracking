@@ -1,6 +1,6 @@
 {
   "date": "2025-09-05",
-  "lastUpdated": "03:09 PM, 04 September 2025",
+  "lastUpdated": "04:10 PM, 04 September 2025",
   "venues": [
     {
       "source": "district",
@@ -356,11 +356,11 @@
       "time": "09:55 AM",
       "audi": "AUDI 12",
       "totalSeats": 171,
-      "available": 137,
-      "sold": 34,
-      "gross": 5180,
-      "occupancy": "19.88%",
-      "minsLeft": 1125
+      "available": 135,
+      "sold": 36,
+      "gross": 5520,
+      "occupancy": "21.05%",
+      "minsLeft": 1064
     },
     {
       "source": "district",
@@ -431,11 +431,11 @@
       "time": "12:50 PM",
       "audi": "SCREEN 3",
       "totalSeats": 150,
-      "available": 150,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2194
+      "available": 148,
+      "sold": 2,
+      "gross": 540,
+      "occupancy": "1.33%",
+      "minsLeft": 1239
     },
     {
       "source": "district",
@@ -821,11 +821,71 @@
       "time": "01:30 PM",
       "audi": "SCREEN06",
       "totalSeats": 240,
-      "available": 223,
-      "sold": 17,
-      "gross": 3230,
-      "occupancy": "7.08%",
-      "minsLeft": 1340
+      "available": 221,
+      "sold": 19,
+      "gross": 3790,
+      "occupancy": "7.92%",
+      "minsLeft": 1279
+    },
+    {
+      "source": "district",
+      "city": "Bhagalpur",
+      "state": "Bihar",
+      "venue": "FM Cineplex, Barari, Bhagalpur",
+      "address": "Large Industrial Area, Barari, Bhagalpur, Bihar 812003, India",
+      "time": "07:45 PM",
+      "audi": "Audi 4",
+      "totalSeats": 53,
+      "available": 53,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 1654
+    },
+    {
+      "source": "district",
+      "city": "Surat",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Precia, Surat",
+      "address": "1st Floor, Rajhans Precia beside Rajhans Skylar, Near VR Mall, Udhana-Magdalla Road, Rundh-Vesu, Surat, Gujarat 395007, India",
+      "time": "01:00 PM",
+      "audi": "SCREEN02",
+      "totalSeats": 156,
+      "available": 132,
+      "sold": 24,
+      "gross": 6720,
+      "occupancy": "15.38%",
+      "minsLeft": 1249
+    },
+    {
+      "source": "district",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "PVR SUPERPLEX Lulu, Lulu Mall, Lucknow",
+      "address": "2nd Floor, Lulu Mall, Sushant Golf City, IBB-2T-5, Shaheed Path, Lucknow Tahsil, Lucknow, Uttar Pradesh 226030, India",
+      "time": "11:55 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 61,
+      "available": 61,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 1904
+    },
+    {
+      "source": "district",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis One Awadh Center Mall, Gomti Nagar, Lucknow",
+      "address": "Plot No 384, Vibhuti Khand, Gomtinagar, Lucknow, Uttar Pradesh 226010, India",
+      "time": "07:40 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 163,
+      "available": 157,
+      "sold": 6,
+      "gross": 1140,
+      "occupancy": "3.68%",
+      "minsLeft": 1649
     }
   ]
 }
