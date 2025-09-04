@@ -1,6 +1,6 @@
 {
   "date": "2025-09-05",
-  "lastUpdated": "07:13 PM, 04 September 2025",
+  "lastUpdated": "08:12 PM, 04 September 2025",
   "venues": [
     {
       "source": "district",
@@ -491,11 +491,11 @@
       "time": "12:25 PM",
       "audi": "AUDI 11",
       "totalSeats": 206,
-      "available": 192,
-      "sold": 14,
-      "gross": 4000,
-      "occupancy": "6.80%",
-      "minsLeft": 1031
+      "available": 191,
+      "sold": 15,
+      "gross": 4250,
+      "occupancy": "7.28%",
+      "minsLeft": 972
     },
     {
       "source": "district",
@@ -716,11 +716,11 @@
       "time": "04:10 PM",
       "audi": "Screen 1",
       "totalSeats": 178,
-      "available": 178,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 1623
+      "available": 175,
+      "sold": 3,
+      "gross": 930,
+      "occupancy": "1.69%",
+      "minsLeft": 1197
     },
     {
       "source": "district",
@@ -731,11 +731,11 @@
       "time": "04:00 PM",
       "audi": "SCREEN 4",
       "totalSeats": 129,
-      "available": 114,
-      "sold": 15,
-      "gross": 2700,
-      "occupancy": "11.63%",
-      "minsLeft": 1613
+      "available": 112,
+      "sold": 17,
+      "gross": 3300,
+      "occupancy": "13.18%",
+      "minsLeft": 1187
     },
     {
       "source": "district",
@@ -806,11 +806,11 @@
       "time": "10:50 PM",
       "audi": "SCREEN7",
       "totalSeats": 63,
-      "available": 54,
-      "sold": 9,
-      "gross": 2250,
-      "occupancy": "14.29%",
-      "minsLeft": 1900
+      "available": 52,
+      "sold": 11,
+      "gross": 2750,
+      "occupancy": "17.46%",
+      "minsLeft": 1597
     },
     {
       "source": "district",
@@ -881,11 +881,11 @@
       "time": "07:40 PM",
       "audi": "SCREEN 6",
       "totalSeats": 163,
-      "available": 152,
-      "sold": 11,
-      "gross": 2090,
-      "occupancy": "6.75%",
-      "minsLeft": 1466
+      "available": 150,
+      "sold": 13,
+      "gross": 2470,
+      "occupancy": "7.98%",
+      "minsLeft": 1407
     },
     {
       "source": "district",
@@ -961,6 +961,66 @@
       "gross": 0,
       "occupancy": "0.00%",
       "minsLeft": 1426
+    },
+    {
+      "source": "district",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "venue": "PVR Mall Of Dehradun",
+      "address": "PVR INOX, 2nd Floor, Mall of Dehradun, Mohkam Pur Khurd, Haridwar Road, Dehradun, Uttrakhand 248005, India",
+      "time": "04:50 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 226,
+      "available": 0,
+      "sold": 226,
+      "gross": 26000,
+      "occupancy": "100.00%",
+      "minsLeft": 1237
+    },
+    {
+      "source": "district",
+      "city": "Pithampur",
+      "state": "Madhya Pradesh",
+      "venue": "Ayou Cinemas, Bardari Gram, Pithampur",
+      "address": " S 24 Mall, Mhow Neemuch Road, Bardari Gram, Pithampur, Madhya Pradesh 454775, India",
+      "time": "12:00 PM",
+      "audi": "Screen 1",
+      "totalSeats": 187,
+      "available": 36,
+      "sold": 151,
+      "gross": 16610,
+      "occupancy": "80.75%",
+      "minsLeft": 947
+    },
+    {
+      "source": "district",
+      "city": "Pithampur",
+      "state": "Madhya Pradesh",
+      "venue": "Ayou Cinemas, Bardari Gram, Pithampur",
+      "address": " S 24 Mall, Mhow Neemuch Road, Bardari Gram, Pithampur, Madhya Pradesh 454775, India",
+      "time": "06:00 PM",
+      "audi": "Screen 1",
+      "totalSeats": 187,
+      "available": 36,
+      "sold": 151,
+      "gross": 16610,
+      "occupancy": "80.75%",
+      "minsLeft": 1307
+    },
+    {
+      "source": "district",
+      "city": "Satna",
+      "state": "Madhya Pradesh",
+      "venue": "Veer Cinemas, Virat Nagar, Satna",
+      "address": "2nd Floor, Sumeet Bazaar, GMS City Centre, NH75, Panna Khajuraho Road, Virat Nagar, Satna, Madhya Pradesh 485001, India",
+      "time": "12:00 PM",
+      "audi": "Screen 3",
+      "totalSeats": 174,
+      "available": 174,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 947
     }
   ]
 }
