@@ -1,6 +1,6 @@
 {
   "date": "2025-09-05",
-  "lastUpdated": "05:07 PM, 04 September 2025",
+  "lastUpdated": "06:31 PM, 04 September 2025",
   "venues": [
     {
       "source": "district",
@@ -131,11 +131,11 @@
       "time": "12:55 PM",
       "audi": "SCREEN 6",
       "totalSeats": 127,
-      "available": 127,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2199
+      "available": 125,
+      "sold": 2,
+      "gross": 460,
+      "occupancy": "1.57%",
+      "minsLeft": 1103
     },
     {
       "source": "district",
@@ -191,11 +191,11 @@
       "time": "11:55 AM",
       "audi": "AUDI 6",
       "totalSeats": 161,
-      "available": 159,
-      "sold": 2,
-      "gross": 520,
-      "occupancy": "1.24%",
-      "minsLeft": 1368
+      "available": 157,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "2.48%",
+      "minsLeft": 1043
     },
     {
       "source": "district",
@@ -266,11 +266,11 @@
       "time": "11:35 PM",
       "audi": "AUDI 9",
       "totalSeats": 177,
-      "available": 167,
-      "sold": 10,
-      "gross": 3200,
-      "occupancy": "5.65%",
-      "minsLeft": 2839
+      "available": 154,
+      "sold": 23,
+      "gross": 7100,
+      "occupancy": "12.99%",
+      "minsLeft": 1743
     },
     {
       "source": "district",
@@ -461,11 +461,11 @@
       "time": "01:20 PM",
       "audi": "Audi 04",
       "totalSeats": 212,
-      "available": 212,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2224
+      "available": 210,
+      "sold": 2,
+      "gross": 520,
+      "occupancy": "0.94%",
+      "minsLeft": 1128
     },
     {
       "source": "district",
@@ -506,11 +506,11 @@
       "time": "10:25 AM",
       "audi": "Screen 3",
       "totalSeats": 230,
-      "available": 228,
-      "sold": 2,
-      "gross": 576,
-      "occupancy": "0.87%",
-      "minsLeft": 1453
+      "available": 225,
+      "sold": 5,
+      "gross": 1296,
+      "occupancy": "2.17%",
+      "minsLeft": 953
     },
     {
       "source": "district",
@@ -916,6 +916,36 @@
       "gross": 2400,
       "occupancy": "10.34%",
       "minsLeft": 1777
+    },
+    {
+      "source": "district",
+      "city": "Jind",
+      "state": "Haryana",
+      "venue": "CSR Cinema, CSR Building, Jind",
+      "address": "CSR Building, Near Rani Talab, Jind, Haryana 126102, India",
+      "time": "09:40 AM",
+      "audi": "Screen 2",
+      "totalSeats": 120,
+      "available": 120,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 908
+    },
+    {
+      "source": "district",
+      "city": "Jind",
+      "state": "Haryana",
+      "venue": "CSR Cinema, CSR Building, Jind",
+      "address": "CSR Building, Near Rani Talab, Jind, Haryana 126102, India",
+      "time": "08:45 PM",
+      "audi": "Screen 2",
+      "totalSeats": 120,
+      "available": 120,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 1573
     }
   ]
 }
