@@ -1,6 +1,6 @@
 {
   "date": "2025-09-05",
-  "lastUpdated": "04:10 PM, 04 September 2025",
+  "lastUpdated": "05:07 PM, 04 September 2025",
   "venues": [
     {
       "source": "district",
@@ -446,11 +446,11 @@
       "time": "10:35 AM",
       "audi": "Screen 1",
       "totalSeats": 219,
-      "available": 218,
-      "sold": 1,
-      "gross": 190,
-      "occupancy": "0.46%",
-      "minsLeft": 2059
+      "available": 215,
+      "sold": 4,
+      "gross": 760,
+      "occupancy": "1.83%",
+      "minsLeft": 1047
     },
     {
       "source": "district",
@@ -701,11 +701,11 @@
       "time": "12:45 PM",
       "audi": "SCREEN7",
       "totalSeats": 163,
-      "available": 148,
-      "sold": 15,
-      "gross": 2400,
-      "occupancy": "9.20%",
-      "minsLeft": 1418
+      "available": 131,
+      "sold": 32,
+      "gross": 4910,
+      "occupancy": "19.63%",
+      "minsLeft": 1177
     },
     {
       "source": "district",
@@ -881,11 +881,41 @@
       "time": "07:40 PM",
       "audi": "SCREEN 6",
       "totalSeats": 163,
-      "available": 157,
+      "available": 155,
+      "sold": 8,
+      "gross": 1520,
+      "occupancy": "4.91%",
+      "minsLeft": 1592
+    },
+    {
+      "source": "district",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "US Cinema, Galaxy Blue Sapphire Plaza, Greater Noida ( West )",
+      "address": "4th floor, Galaxy Blue Sapphire, Noida Ext, Greater Noida, Uttar Pradesh 201309, India",
+      "time": "03:30 PM",
+      "audi": "EMINENCE CUT AUDI 7",
+      "totalSeats": 58,
+      "available": 52,
       "sold": 6,
-      "gross": 1140,
-      "occupancy": "3.68%",
-      "minsLeft": 1649
+      "gross": 2400,
+      "occupancy": "10.34%",
+      "minsLeft": 1342
+    },
+    {
+      "source": "district",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "US Cinema, Galaxy Blue Sapphire Plaza, Greater Noida ( West )",
+      "address": "4th floor, Galaxy Blue Sapphire, Noida Ext, Greater Noida, Uttar Pradesh 201309, India",
+      "time": "10:45 PM",
+      "audi": "EMINENCE CUT AUDI 7",
+      "totalSeats": 58,
+      "available": 52,
+      "sold": 6,
+      "gross": 2400,
+      "occupancy": "10.34%",
+      "minsLeft": 1777
     }
   ]
 }
