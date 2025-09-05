@@ -1,6 +1,6 @@
 {
   "date": "2025-09-06",
-  "lastUpdated": "03:09 PM, 05 September 2025",
+  "lastUpdated": "04:12 PM, 05 September 2025",
   "venues": [
     {
       "source": "district",
@@ -56,11 +56,11 @@
       "time": "11:55 AM",
       "audi": "AUDI 6",
       "totalSeats": 161,
-      "available": 142,
-      "sold": 19,
-      "gross": 5140,
-      "occupancy": "11.80%",
-      "minsLeft": 1299
+      "available": 139,
+      "sold": 22,
+      "gross": 5980,
+      "occupancy": "13.66%",
+      "minsLeft": 1182
     },
     {
       "source": "district",
@@ -401,11 +401,11 @@
       "time": "09:55 PM",
       "audi": "AUDI 01",
       "totalSeats": 61,
-      "available": 61,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%",
-      "minsLeft": 2731
+      "available": 55,
+      "sold": 6,
+      "gross": 1980,
+      "occupancy": "9.84%",
+      "minsLeft": 1782
     },
     {
       "source": "district",
@@ -901,6 +901,51 @@
       "gross": 1140,
       "occupancy": "3.68%",
       "minsLeft": 1901
+    },
+    {
+      "source": "district",
+      "city": "Jind",
+      "state": "Haryana",
+      "venue": "CSR Cinema, CSR Building, Jind",
+      "address": "CSR Building, Near Rani Talab, Jind, Haryana 126102, India",
+      "time": "09:40 AM",
+      "audi": "Screen 2",
+      "totalSeats": 120,
+      "available": 120,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 1047
+    },
+    {
+      "source": "district",
+      "city": "Jind",
+      "state": "Haryana",
+      "venue": "CSR Cinema, CSR Building, Jind",
+      "address": "CSR Building, Near Rani Talab, Jind, Haryana 126102, India",
+      "time": "08:45 PM",
+      "audi": "Screen 2",
+      "totalSeats": 120,
+      "available": 120,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 1712
+    },
+    {
+      "source": "district",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis One Awadh Center Mall, Gomti Nagar, Lucknow",
+      "address": "Plot No 384, Vibhuti Khand, Gomtinagar, Lucknow, Uttar Pradesh 226010, India",
+      "time": "08:10 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 163,
+      "available": 157,
+      "sold": 6,
+      "gross": 1140,
+      "occupancy": "3.68%",
+      "minsLeft": 1677
     }
   ]
 }
