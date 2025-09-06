@@ -209,18 +209,16 @@ async function main() {
         minsLeft: minutesLeft
       };
 
-      const existingIndex = detailedOutput[key].findIndex(
-        e => e.venue === venue.name && e.time === timeStr && e.audi === (session.audi || "")
-      );
+const existingIndex = detailedOutput[key].findIndex(
+  e => e.venue === venue.name && e.time === timeStr && e.audi === (session.audi || "")
+);
 
-      if (existingIndex !== -1) {
-        const oldEntry = detailedOutput[key][existingIndex];
-        if (newEntry.gross > oldEntry.gross || newEntry.sold > oldEntry.sold) {
-          detailedOutput[key][existingIndex] = newEntry;
-        }
-      } else {
-        detailedOutput[key].push(newEntry);
-      }
+if (existingIndex !== -1) {
+  // ✅ Always update with latest values
+  detailedOutput[key][existingIndex] = newEntry;
+} else {
+  detailedOutput[key].push(newEntry);
+}
     }
   }
 
