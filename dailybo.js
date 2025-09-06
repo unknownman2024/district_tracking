@@ -56,10 +56,24 @@ async function fetchVenueData(venue) {
 async function main() {
   const summary = {};
   const detailedOutput = {};
-  
-    // Current IST time
+
+  // Current IST time
   const now = dayjs().tz("Asia/Kolkata");
-  
+
+  // -------- Load old data (to preserve shows) --------
+  const outDir = "./Daily Boxoffice";
+  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+
+  const detailedPath = `${outDir}/${DATE}_Detailed.json`;
+  let oldDetailed = {};
+  if (fs.existsSync(detailedPath)) {
+    try {
+      oldDetailed = JSON.parse(fs.readFileSync(detailedPath, "utf-8"));
+    } catch (e) {
+      console.log("⚠️ Failed to parse old detailed file:", e.message);
+    }
+  }
+
   const results = await Promise.all(VENUES.map(fetchVenueData));
 
   for (const res of results) {
@@ -77,14 +91,14 @@ async function main() {
     for (const session of data.pageData?.sessions || []) {
       const movie = moviesMap[session.mid];
       if (!movie) continue;
-      
-        // --- Minutes Left Logic ---
-    const showTime = dayjs.utc(session.showTime).tz("Asia/Kolkata");
-    const minutesLeft = showTime.diff(now, "minute");
 
-    // cutoff check (example: 100 mins)
-    const cutoffMins = 100;
-    if (minutesLeft >= cutoffMins) continue;
+      // --- Minutes Left Logic ---
+      const showTime = dayjs.utc(session.showTime).tz("Asia/Kolkata");
+      const minutesLeft = showTime.diff(now, "minute");
+
+      // cutoff check (example: 100 mins)
+      const cutoffMins = 100;
+      if (minutesLeft >= cutoffMins) continue;
 
       const name = movie.name;
       const lang = session.lang || movie.lang || "";
@@ -93,10 +107,16 @@ async function main() {
       // ---------- SUMMARY ----------
       if (!summary[key]) {
         summary[key] = {
-          shows: 0, gross: 0, sold: 0, totalSeats: 0,
-          venues: new Set(), cities: new Set(),
-          fastfilling: 0, housefull: 0,
-          details: {}, Chain_details: {}
+          shows: 0,
+          gross: 0,
+          sold: 0,
+          totalSeats: 0,
+          venues: new Set(),
+          cities: new Set(),
+          fastfilling: 0,
+          housefull: 0,
+          details: {},
+          Chain_details: {}
         };
       }
       const msum = summary[key];
@@ -171,15 +191,15 @@ async function main() {
       cdet.fastfilling += fastfilling;
       cdet.housefull += housefull;
 
-      // ---------- DETAILED ----------
-      if (!detailedOutput[key]) detailedOutput[key] = [];
-      detailedOutput[key].push({
+      // ---------- DETAILED (with update logic) ----------
+      if (!detailedOutput[key]) detailedOutput[key] = oldDetailed[key] ? [...oldDetailed[key]] : [];
+
+      const timeStr = showTime.format("hh:mm A");
+      const newEntry = {
         city,
         state,
         venue: venue.name,
-        time: session.showTime 
-    ? dayjs.utc(session.showTime).tz("Asia/Kolkata").format("hh:mm A")
-    : "",
+        time: timeStr,
         audi: session.audi || "",
         totalSeats: total,
         available: avail,
@@ -187,7 +207,20 @@ async function main() {
         gross,
         occupancy: total ? `${((sold / total) * 100).toFixed(2)}%` : "0%",
         minsLeft: minutesLeft
-      });
+      };
+
+      const existingIndex = detailedOutput[key].findIndex(
+        e => e.venue === venue.name && e.time === timeStr && e.audi === (session.audi || "")
+      );
+
+      if (existingIndex !== -1) {
+        const oldEntry = detailedOutput[key][existingIndex];
+        if (newEntry.gross > oldEntry.gross || newEntry.sold > oldEntry.sold) {
+          detailedOutput[key][existingIndex] = newEntry;
+        }
+      } else {
+        detailedOutput[key].push(newEntry);
+      }
     }
   }
 
@@ -240,37 +273,32 @@ async function main() {
     output[movie] = out;
   }
 
-// Add metadata
-const nowIST = dayjs().tz("Asia/Kolkata");
-const formattedLastUpdated = nowIST.format("hh:mm A, DD MMMM YYYY");
+  // Add metadata
+  const nowIST = dayjs().tz("Asia/Kolkata");
+  const formattedLastUpdated = nowIST.format("hh:mm A, DD MMMM YYYY");
 
-// Wrap summary output
-const finalSummary = {
-  date: DATE,
-  lastUpdated: formattedLastUpdated,
-  ...output
-};
+  // Wrap summary output
+  const finalSummary = {
+    date: DATE,
+    lastUpdated: formattedLastUpdated,
+    ...output
+  };
 
-// Wrap detailed output
-const finalDetailed = {
-  date: DATE,
-  lastUpdated: formattedLastUpdated,
-  ...detailedOutput
-};
+  // Wrap detailed output
+  const finalDetailed = {
+    date: DATE,
+    lastUpdated: formattedLastUpdated,
+    ...detailedOutput
+  };
 
   // ---------- SAVE FILES ----------
-const outDir = "./Daily Boxoffice";
-if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+  const outPath = `${outDir}/${DATE}.json`;
+  fs.writeFileSync(outPath, JSON.stringify(finalSummary, null, 2), "utf-8");
 
-const outPath = `${outDir}/${DATE}.json`;
-fs.writeFileSync(outPath, JSON.stringify(finalSummary, null, 2), "utf-8");
+  fs.writeFileSync(detailedPath, JSON.stringify(finalDetailed, null, 2), "utf-8");
 
-const detailedPath = `${outDir}/${DATE}_Detailed.json`;
-fs.writeFileSync(detailedPath, JSON.stringify(finalDetailed, null, 2), "utf-8");
-
-console.log(`✅ Saved summary: ${outPath}`);
-console.log(`✅ Saved detailed: ${detailedPath}`);
-
+  console.log(`✅ Saved summary: ${outPath}`);
+  console.log(`✅ Saved detailed: ${detailedPath}`);
 }
 
 main();
