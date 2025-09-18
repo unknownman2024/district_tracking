@@ -1,5 +1,3 @@
-
-
 const fs = require("fs");
 const fetch = require("node-fetch");
 const dayjs = require("dayjs");
@@ -79,7 +77,7 @@ async function main() {
 
       const name = movie.name;
       const lang = session.lang || movie.lang || "";
-      const format = session.scrnFmt || "";  // e.g. "4DX-2D"
+      const format = session.scrnFmt || "";
       const formattedFormat = format ? format.replace(/-/g, " | ") : "";
       const key = formattedFormat ? `${name} [${formattedFormat} | ${lang}]` : `${name} | ${lang}`;
 
@@ -170,9 +168,10 @@ async function main() {
         city,
         state,
         venue: venue.name,
+        chain,   // ✅ add this
         time: session.showTime 
-    ? dayjs.utc(session.showTime).tz("Asia/Kolkata").format("hh:mm A")
-    : "",
+          ? dayjs.utc(session.showTime).tz("Asia/Kolkata").format("hh:mm A")
+          : "",
         audi: session.audi || "",
         totalSeats: total,
         available: avail,
@@ -232,37 +231,200 @@ async function main() {
     output[movie] = out;
   }
 
-// Add metadata
-const nowIST = dayjs().tz("Asia/Kolkata");
-const formattedLastUpdated = nowIST.format("hh:mm A, DD MMMM YYYY");
+  const nowIST = dayjs().tz("Asia/Kolkata");
+  const formattedLastUpdated = nowIST.format("hh:mm A, DD MMMM YYYY");
 
-// Wrap summary output
-const finalSummary = {
-  date: DATE,
-  lastUpdated: formattedLastUpdated,
-  ...output
-};
-
-// Wrap detailed output
-const finalDetailed = {
-  date: DATE,
-  lastUpdated: formattedLastUpdated,
-  ...detailedOutput
-};
-
-  // ---------- SAVE FILES ----------
+  // Wrap detailed output — ✅ ADD THIS BLOCK
+  const finalDetailed = {
+    date: DATE,
+    lastUpdated: formattedLastUpdated,
+    ...detailedOutput
+  };
+  
+// ---------- MERGE WITH EXISTING FILES ----------
 const outDir = "./Daily Advance";
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 const outPath = `${outDir}/${DATE}.json`;
-fs.writeFileSync(outPath, JSON.stringify(finalSummary, null, 2), "utf-8");
-
 const detailedPath = `${outDir}/${DATE}_Detailed.json`;
-fs.writeFileSync(detailedPath, JSON.stringify(finalDetailed, null, 2), "utf-8");
 
-console.log(`✅ Saved summary: ${outPath}`);
-console.log(`✅ Saved detailed: ${detailedPath}`);
+let existingSummary = {};
+let existingDetailed = {};
 
+if (fs.existsSync(outPath)) {
+  existingSummary = JSON.parse(fs.readFileSync(outPath, "utf-8"));
+}
+
+if (fs.existsSync(detailedPath)) {
+  existingDetailed = JSON.parse(fs.readFileSync(detailedPath, "utf-8"));
+}
+
+// ---------- 1) MERGE DETAILED DATA ----------
+for (const [movie, sessions] of Object.entries(finalDetailed)) {
+  if (movie === "date" || movie === "lastUpdated") continue; // ✅ skip metadata
+  if (!existingDetailed[movie]) {
+    existingDetailed[movie] = sessions;
+  } else {
+    const existingSessions = existingDetailed[movie];
+
+    sessions.forEach(newSession => {
+      const matchIndex = existingSessions.findIndex(
+        s =>
+          s.venue === newSession.venue &&
+          s.time === newSession.time &&
+          s.audi === newSession.audi
+      );
+
+      if (matchIndex !== -1) {
+        existingSessions[matchIndex] = newSession; // ✅ update
+      } else {
+        existingSessions.push(newSession); // ✅ add
+      }
+    });
+
+    // ✅ dedupe
+    const seen = new Set();
+    existingDetailed[movie] = existingSessions.filter(s => {
+      const key = `${s.venue}|${s.time}|${s.audi}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+}
+
+// ---------- 2) REBUILD SUMMARY FROM MERGED DETAILED ----------
+const rebuiltSummary = {};
+for (const [movie, sessions] of Object.entries(existingDetailed)) {
+  if (movie === "date" || movie === "lastUpdated") continue; // skip metadata
+
+  if (!rebuiltSummary[movie]) {
+    rebuiltSummary[movie] = {
+      shows: 0, gross: 0, sold: 0, totalSeats: 0,
+      venues: new Set(), cities: new Set(),
+      fastfilling: 0, housefull: 0,
+      details: {}, Chain_details: {}
+    };
+  }
+
+  const msum = rebuiltSummary[movie];
+
+  sessions.forEach(s => {
+    const total = s.totalSeats || 0;
+    const sold = s.sold || 0;
+    const gross = s.gross || 0;
+    const occupancy = total ? (sold / total) * 100 : 0;
+    const fastfilling = occupancy >= 50 && occupancy < 98 ? 1 : 0;
+    const housefull = occupancy >= 98 ? 1 : 0;
+
+    msum.shows++;
+    msum.gross += gross;
+    msum.sold += sold;
+    msum.totalSeats += total;
+    msum.venues.add(s.venue);
+    msum.cities.add(s.city);
+    msum.fastfilling += fastfilling;
+    msum.housefull += housefull;
+
+    // city/state
+    const detKey = `${s.city}|${s.state}`;
+    if (!msum.details[detKey]) {
+      msum.details[detKey] = {
+        city: s.city,
+        state: s.state,
+        venues: new Set(),
+        shows: 0,
+        gross: 0,
+        sold: 0,
+        totalSeats: 0,
+        fastfilling: 0,
+        housefull: 0
+      };
+    }
+    const det = msum.details[detKey];
+    det.venues.add(s.venue);
+    det.shows++;
+    det.gross += gross;
+    det.sold += sold;
+    det.totalSeats += total;
+    det.fastfilling += fastfilling;
+    det.housefull += housefull;
+
+    // chain
+    if (!msum.Chain_details[s.chain]) {
+      msum.Chain_details[s.chain] = {
+        chain: s.chain,
+        venues: new Set(),
+        shows: 0,
+        gross: 0,
+        sold: 0,
+        totalSeats: 0,
+        fastfilling: 0,
+        housefull: 0
+      };
+    }
+    const cdet = msum.Chain_details[s.chain];
+    cdet.venues.add(s.venue);
+    cdet.shows++;
+    cdet.gross += gross;
+    cdet.sold += sold;
+    cdet.totalSeats += total;
+    cdet.fastfilling += fastfilling;
+    cdet.housefull += housefull;
+  });
+}
+
+// flatten rebuilt summary
+const finalSummary = {};
+for (const [movie, vals] of Object.entries(rebuiltSummary)) {
+  finalSummary[movie] = {
+    shows: vals.shows,
+    gross: vals.gross,
+    sold: vals.sold,
+    totalSeats: vals.totalSeats,
+    venues: vals.venues.size,
+    cities: vals.cities.size,
+    fastfilling: vals.fastfilling,
+    housefull: vals.housefull,
+    occupancy: vals.totalSeats ? +(vals.sold / vals.totalSeats * 100).toFixed(2) : 0,
+    details: Object.values(vals.details).map(d => ({
+      city: d.city,
+      state: d.state,
+      venues: d.venues.size,
+      shows: d.shows,
+      gross: d.gross,
+      sold: d.sold,
+      totalSeats: d.totalSeats,
+      fastfilling: d.fastfilling,
+      housefull: d.housefull,
+      occupancy: d.totalSeats ? +(d.sold / d.totalSeats * 100).toFixed(2) : 0
+    })),
+    Chain_details: Object.values(vals.Chain_details).map(c => ({
+      chain: c.chain,
+      venues: c.venues.size,
+      shows: c.shows,
+      gross: c.gross,
+      sold: c.sold,
+      totalSeats: c.totalSeats,
+      fastfilling: c.fastfilling,
+      housefull: c.housefull,
+      occupancy: c.totalSeats ? +(c.sold / c.totalSeats * 100).toFixed(2) : 0
+    }))
+  };
+}
+
+// ---------- 3) ADD METADATA ----------
+finalSummary.date = DATE;
+finalSummary.lastUpdated = formattedLastUpdated;
+existingDetailed.date = DATE;
+existingDetailed.lastUpdated = formattedLastUpdated;
+
+// ---------- 4) SAVE ----------
+fs.writeFileSync(outPath, JSON.stringify(finalSummary, null, 2), "utf-8");
+fs.writeFileSync(detailedPath, JSON.stringify(existingDetailed, null, 2), "utf-8");
+
+  console.log(`✅ Updated summary: ${outPath}`);
+  console.log(`✅ Updated detailed: ${detailedPath}`);
 }
 
 main();
