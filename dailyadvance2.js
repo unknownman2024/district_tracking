@@ -261,36 +261,47 @@ if (fs.existsSync(detailedPath)) {
 
 // ---------- 1) MERGE DETAILED DATA ----------
 for (const [movie, sessions] of Object.entries(finalDetailed)) {
-  if (!existingDetailed[movie]) {
-    existingDetailed[movie] = sessions;
-  } else {
-    const existingSessions = existingDetailed[movie];
-
-    sessions.forEach(newSession => {
-      const matchIndex = existingSessions.findIndex(
-        s =>
-          s.venue === newSession.venue &&
-          s.time === newSession.time &&
-          s.audi === newSession.audi
-      );
-
-      if (matchIndex !== -1) {
-        existingSessions[matchIndex] = newSession; // ✅ update
-      } else {
-        existingSessions.push(newSession); // ✅ add
-      }
-    });
-
-    // ✅ dedupe
-    const seen = new Set();
-    existingDetailed[movie] = existingSessions.filter(s => {
-      const key = `${s.venue}|${s.time}|${s.audi}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
+  // skip metadata keys that are not arrays
+  if (movie === "date" || movie === "lastUpdated") continue;
+  if (!Array.isArray(sessions)) {
+    console.warn(`Skipping non-array detailed entry for "${movie}" (type: ${typeof sessions})`);
+    continue;
   }
+
+  if (!existingDetailed[movie]) {
+    // ensure stored value is an array copy
+    existingDetailed[movie] = Array.isArray(sessions) ? [...sessions] : [];
+    continue;
+  }
+
+  const existingSessions = Array.isArray(existingDetailed[movie]) ? existingDetailed[movie] : [];
+
+  // merge: update matching session or append new
+  for (const newSession of sessions) {
+    const matchIndex = existingSessions.findIndex(
+      s =>
+        s.venue === newSession.venue &&
+        s.time === newSession.time &&
+        s.audi === newSession.audi
+    );
+
+    if (matchIndex !== -1) {
+      existingSessions[matchIndex] = newSession;
+    } else {
+      existingSessions.push(newSession);
+    }
+  }
+
+  // dedupe
+  const seen = new Set();
+  existingDetailed[movie] = existingSessions.filter(s => {
+    const key = `${s.venue}|${s.time}|${s.audi}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
+
 
 // ---------- 2) REBUILD SUMMARY FROM MERGED DETAILED ----------
 const rebuiltSummary = {};
