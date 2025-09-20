@@ -2,7 +2,8 @@ name: 25sepadv Auto Tracker
 
 on:
   schedule:
-    - cron: "30 * * * *"  # Runs at the 30th minute of every hour (UTC)
+    - cron: "31 * * * *"  # Runs at the 31st minute of every hour (UTC)
+    - cron: "01 * * * *"  # Runs at the 1st minute of every hour (UTC)
   workflow_dispatch:         # Manual trigger if needed
 
 jobs:
