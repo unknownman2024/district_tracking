@@ -3,7 +3,7 @@ name: Daily Boxoffice Auto Tracker
 on:
   schedule:
     - cron: "30 * * * *"  # Runs at the 30th minute of every hour (UTC)
-  workflow_dispatch:         # Manual trigger if needed
+  workflow_dispatch:       # Manual trigger if needed
 
 jobs:
   track:
@@ -34,5 +34,5 @@ jobs:
           git config --global user.name "Auto Tracker Bot"
           git add "Daily Boxoffice/"
           git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M')" || echo "No changes"
-          git pull --rebase --autostash || echo "Pull failed"
-          git push || echo "Nothing to push"
+          git pull --rebase --autostash origin main || echo "Pull failed"
+          git push --force-with-lease origin main || echo "Nothing to push"
