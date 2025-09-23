@@ -7,9 +7,9 @@ const timezone = require("dayjs/plugin/timezone");
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-// Today +2 day (IST)
-const DATE2 = dayjs().tz("Asia/Kolkata").add(2, "day").format("YYYY-MM-DD");
-const DATE = "2025-09-25";
+// Today +3 day (IST)
+const DATE = dayjs().tz("Asia/Kolkata").add(3, "day").format("YYYY-MM-DD");
+const DATECustom = "2025-09-25";
 
 const API_URL = "https://districtvenues.text2025mail.workers.dev/?cinema_id={cid}&date={date}";
 const VENUES = JSON.parse(fs.readFileSync("districtvenues.json", "utf-8"));
