@@ -96,8 +96,8 @@ async function main() {
       const showTime = dayjs.utc(session.showTime).tz("Asia/Kolkata");
       const minutesLeft = showTime.diff(now, "minute");
 
-      // cutoff check (example: 100 mins)
-      const cutoffMins = 100;
+      // cutoff check (example: 200 mins)
+      const cutoffMins = 200;
       if (minutesLeft >= cutoffMins) continue;
 
       const name = movie.name;
