@@ -62,8 +62,8 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Chainsaw-Man---The-Movie--Reze-Arc-%20(1)-b69663c0-9ab6-11f0-a697-578ce98bf125.jpg",
-    "city": "Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chennai, Coimbatore, Delhi/NCR, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Visakhapatnam",
-    "cityCount": 19
+    "city": "Bangalore, Bengaluru, Bhopal, Chennai, Coimbatore, Delhi/NCR, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Visakhapatnam",
+    "cityCount": 18
   },
   {
     "movie": "Tara & Akash: Love Beyond Realms",
@@ -99,6 +99,17 @@
     "cityCount": 16
   },
   {
+    "movie": "They Call Him OG",
+    "language": "Hindi",
+    "movieCode": "yVr~zQOBiJ",
+    "id": 171668,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/the-call-him-OG-dc14c940-9aa0-11f0-be0a-8909774f1565.jpg",
+    "city": "Ahmedabad, Amritsar, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Goa, Jaipur, Kota, Mumbai, Nagpur, Nashik, Patna, Surat",
+    "cityCount": 14
+  },
+  {
     "movie": "DP World Asia Cup 2025 (India vs Pakistan)",
     "language": "English",
     "movieCode": "4iPC1JR86c",
@@ -129,17 +140,6 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Strangers---Chapter-2-f6f47780-9c3d-11f0-b6cc-5b9fb25f8c45.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kolkata, Mumbai, Visakhapatnam",
-    "cityCount": 13
-  },
-  {
-    "movie": "They Call Him OG",
-    "language": "Hindi",
-    "movieCode": "yVr~zQOBiJ",
-    "id": 171668,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/the-call-him-OG-dc14c940-9aa0-11f0-be0a-8909774f1565.jpg",
-    "city": "Ahmedabad, Amritsar, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Goa, Jaipur, Kota, Mumbai, Nagpur, Patna, Surat",
     "cityCount": 13
   },
   {
@@ -275,6 +275,17 @@
     "cityCount": 8
   },
   {
+    "movie": "Chainsaw Man - The Movie: Reze Arc",
+    "language": "Hindi",
+    "movieCode": "gZFq3_5e2dg",
+    "id": 199354,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chainsaw-Man---The-Movie--Reze-Arc-%20(1)-cfdb0c50-9ab6-11f0-be0a-8909774f1565.jpg",
+    "city": "Ahmedabad, Amritsar, Bhubaneswar, Chandigarh, Gandhinagar, Kota, Patna, Surat",
+    "cityCount": 8
+  },
+  {
     "movie": "Joto Kando Kolkatatei",
     "language": "Bengali",
     "movieCode": "_0BdTFdem",
@@ -306,28 +317,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Conjuring_Poster-86ebe5e0-7857-11f0-8de0-9d1c38983d05-8c5c0300-8727-11f0-8e2c-67968f98ef92.jpg",
     "city": "Ahmedabad, Amritsar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Nagpur, Surat",
     "cityCount": 8
-  },
-  {
-    "movie": "They Call Him OG",
-    "language": "Telugu",
-    "movieCode": "bCmG~IGca",
-    "id": 171668,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/the-call-him-OG-0a7b6f90-9a9d-11f0-af89-f5b2732bca3d.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Guntur, Hyderabad, Mangaluru, Nashik, Visakhapatnam",
-    "cityCount": 8
-  },
-  {
-    "movie": "Chainsaw Man - The Movie: Reze Arc",
-    "language": "Hindi",
-    "movieCode": "gZFq3_5e2dg",
-    "id": 199354,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chainsaw-Man---The-Movie--Reze-Arc-%20(1)-cfdb0c50-9ab6-11f0-be0a-8909774f1565.jpg",
-    "city": "Ahmedabad, Amritsar, Chandigarh, Gandhinagar, Kota, Patna, Surat",
-    "cityCount": 7
   },
   {
     "movie": "Heer Express",
@@ -395,13 +384,24 @@
     "cityCount": 7
   },
   {
+    "movie": "They Call Him OG",
+    "language": "Telugu",
+    "movieCode": "bCmG~IGca",
+    "id": 171668,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/the-call-him-OG-0a7b6f90-9a9d-11f0-af89-f5b2732bca3d.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Guntur, Hyderabad, Mangaluru, Visakhapatnam",
+    "cityCount": 7
+  },
+  {
     "movie": "F1 The Movie",
     "language": "English",
     "movieCode": "d0cX21TWuR",
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
     "city": "Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Hyderabad, Mumbai",
     "cityCount": 6
   },
@@ -456,7 +456,7 @@
     "id": 197127,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster%20Tanvi-The-Great-0dcd2140-36f5-11f0-b426-a50671acfc24.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tanvi-the-Great1_Poster-d9ee1b50-620e-11f0-a47d-892349f87030.jpg",
     "city": "Ahmedabad, Amritsar, Delhi/NCR, Gandhinagar, Mumbai, Surat",
     "cityCount": 6
   },
@@ -687,7 +687,7 @@
     "id": 188260,
     "runtime": 134,
     "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Vash-Level-2-cbbbce20-501a-11f0-a578-5d827ee44c2f.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Vash-Vivash-Level-2_Poster-7d921ce0-832d-11f0-b51f-25082d062fce.jpg",
     "city": "Ahmedabad, Gandhinagar, Mumbai, Surat",
     "cityCount": 4
   },
@@ -1589,7 +1589,7 @@
     "id": 194406,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/PhaphePH-fa6a1f40-7e8e-11f0-a1aa-71c423b1a75a.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/PhaphePH-77df4770-7e8f-11f0-aa21-2f361b147769.jpg",
     "city": "Amritsar, Chandigarh",
     "cityCount": 2
   },
@@ -1721,7 +1721,7 @@
     "id": 196147,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Siayaar2-2-a522dbb0-60a9-11f0-a47d-892349f87030.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Siayaar2-8da6be20-60a9-11f0-a47d-892349f87030.jpg",
     "city": "Bangalore, Bengaluru",
     "cityCount": 2
   },
@@ -2996,7 +2996,7 @@
     "id": 202567,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Hridayapoorvam12-f9071e90-8349-11f0-b130-cfb2690b2eb4.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Hridayapoorvam1-db212880-8349-11f0-8e76-170228bc2c23.jpg",
     "city": "Kochi",
     "cityCount": 1
   },
@@ -3326,7 +3326,7 @@
     "id": 185012,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/POSTER%20_0009_Lilo%20Stitch2-793d4d80-36d5-11f0-b426-a50671acfc24.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/POSTER%20_0008_Lilo2-56afa150-36d5-11f0-aa9f-8fefdb33bbbf.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
@@ -3359,7 +3359,7 @@
     "id": 138340,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootere-(1993)2-0f874920-136e-11f0-8549-2d451ec7c237.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootera3-a06bfa40-f9e6-11ef-b800-7bcf5dab3110.jpg",
     "city": "Mumbai",
     "cityCount": 1
   },
@@ -4019,7 +4019,7 @@
     "id": 172413,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bad-Guys2_Poster-f85fb760-72a8-11f0-81a2-95c24e20b386.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Bad-Guys2_1_Poster-302fc0f0-72ad-11f0-8de0-9d1c38983d05.jpg",
     "city": "Mumbai",
     "cityCount": 1
   },
