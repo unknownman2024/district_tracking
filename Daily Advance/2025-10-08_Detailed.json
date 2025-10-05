@@ -2088,10 +2088,10 @@
       "time": "01:05 PM",
       "audi": "SCREEN 4",
       "totalSeats": 58,
-      "available": 49,
-      "sold": 9,
-      "gross": 3150,
-      "occupancy": "15.52%"
+      "available": 58,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Hyderabad",
@@ -5416,10 +5416,10 @@
       "time": "07:10 PM",
       "audi": "AUDI 02",
       "totalSeats": 193,
-      "available": 180,
-      "sold": 13,
-      "gross": 4220,
-      "occupancy": "6.74%"
+      "available": 183,
+      "sold": 10,
+      "gross": 3170,
+      "occupancy": "5.18%"
     },
     {
       "city": "Hyderabad",
@@ -9018,6 +9018,84 @@
       "audi": "AUDI 2",
       "totalSeats": 297,
       "available": 297,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "venue": "Siri Multiplex, Ramji Nagar, Nellore",
+      "chain": "Justickets",
+      "time": "03:05 PM",
+      "audi": "Screen 1",
+      "totalSeats": 360,
+      "available": 332,
+      "sold": 28,
+      "gross": 5600,
+      "occupancy": "7.78%"
+    },
+    {
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "venue": "Siri Multiplex, Ramji Nagar, Nellore",
+      "chain": "Justickets",
+      "time": "11:45 AM",
+      "audi": "Screen 1",
+      "totalSeats": 360,
+      "available": 332,
+      "sold": 28,
+      "gross": 5600,
+      "occupancy": "7.78%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "02:35 PM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "06:20 PM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "11:15 AM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "09:45 PM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -17486,6 +17564,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "venue": "Siri Multiplex, Ramji Nagar, Nellore",
+      "chain": "Justickets",
+      "time": "12:00 PM",
+      "audi": "Screen 2",
+      "totalSeats": 269,
+      "available": 253,
+      "sold": 16,
+      "gross": 1600,
+      "occupancy": "5.95%"
     }
   ],
   "Mirai [2D | Telugu]": [
@@ -19750,6 +19841,32 @@
       "sold": -21,
       "gross": -3087,
       "occupancy": "-52.50%"
+    },
+    {
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "venue": "Siri Multiplex, Ramji Nagar, Nellore",
+      "chain": "Justickets",
+      "time": "03:00 PM",
+      "audi": "Screen 3 - Mini",
+      "totalSeats": 69,
+      "available": 69,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "venue": "Siri Multiplex, Ramji Nagar, Nellore",
+      "chain": "Justickets",
+      "time": "12:00 PM",
+      "audi": "Screen 3 - Mini",
+      "totalSeats": 69,
+      "available": 69,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Idli Kottu [2D | Telugu]": [
@@ -21741,6 +21858,19 @@
       "sold": 191,
       "gross": 23220,
       "occupancy": "39.79%"
+    },
+    {
+      "city": "Nellore",
+      "state": "Andhra Pradesh",
+      "venue": "Siri Multiplex, Ramji Nagar, Nellore",
+      "chain": "Justickets",
+      "time": "12:05 PM",
+      "audi": "Screen 4 - Mini",
+      "totalSeats": 65,
+      "available": 65,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Kantara: A Legend Chapter-1 [2D | Hindi]": [
@@ -34297,10 +34427,10 @@
       "time": "04:40 PM",
       "audi": "SCREEN 4",
       "totalSeats": 212,
-      "available": 212,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 210,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "0.94%"
     },
     {
       "city": "Mumbai",
@@ -34791,10 +34921,10 @@
       "time": "09:45 AM",
       "audi": "SCREEN3",
       "totalSeats": 257,
-      "available": 257,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 255,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "0.78%"
     },
     {
       "city": "Nagpur",
@@ -34843,10 +34973,10 @@
       "time": "09:00 AM",
       "audi": "SCREEN2",
       "totalSeats": 320,
-      "available": 320,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 318,
+      "sold": 2,
+      "gross": 380,
+      "occupancy": "0.63%"
     },
     {
       "city": "Nagpur",
@@ -37781,10 +37911,10 @@
       "time": "03:00 PM",
       "audi": "SCREEN 1",
       "totalSeats": 323,
-      "available": 313,
-      "sold": 10,
-      "gross": 2000,
-      "occupancy": "3.10%"
+      "available": 311,
+      "sold": 12,
+      "gross": 2400,
+      "occupancy": "3.72%"
     },
     {
       "city": "Patna",
@@ -46126,8 +46256,8 @@
       "chain": "PVR",
       "time": "11:50 AM",
       "audi": "SCREEN 4",
-      "totalSeats": 199,
-      "available": 199,
+      "totalSeats": 196,
+      "available": 196,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -46139,8 +46269,8 @@
       "chain": "PVR",
       "time": "10:15 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 199,
-      "available": 199,
+      "totalSeats": 196,
+      "available": 196,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -46152,11 +46282,11 @@
       "chain": "PVR",
       "time": "03:15 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 199,
-      "available": 197,
+      "totalSeats": 196,
+      "available": 194,
       "sold": 2,
       "gross": 720,
-      "occupancy": "1.01%"
+      "occupancy": "1.02%"
     },
     {
       "city": "Cuttack",
@@ -46217,8 +46347,8 @@
       "chain": "PVR",
       "time": "06:45 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 199,
-      "available": 199,
+      "totalSeats": 196,
+      "available": 196,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51456,8 +51586,8 @@
       "chain": "PVR",
       "time": "10:20 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 116,
-      "available": 116,
+      "totalSeats": 117,
+      "available": 117,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51469,8 +51599,8 @@
       "chain": "PVR",
       "time": "06:45 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 116,
-      "available": 116,
+      "totalSeats": 117,
+      "available": 117,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51482,8 +51612,8 @@
       "chain": "PVR",
       "time": "03:10 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 116,
-      "available": 116,
+      "totalSeats": 117,
+      "available": 117,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51495,8 +51625,8 @@
       "chain": "PVR",
       "time": "04:10 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 302,
-      "available": 302,
+      "totalSeats": 303,
+      "available": 303,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51508,8 +51638,8 @@
       "chain": "PVR",
       "time": "11:20 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 302,
-      "available": 302,
+      "totalSeats": 303,
+      "available": 303,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51521,8 +51651,8 @@
       "chain": "PVR",
       "time": "07:45 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 302,
-      "available": 302,
+      "totalSeats": 303,
+      "available": 303,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51534,8 +51664,8 @@
       "chain": "PVR",
       "time": "09:00 AM",
       "audi": "SCREEN 1",
-      "totalSeats": 302,
-      "available": 302,
+      "totalSeats": 303,
+      "available": 303,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51547,8 +51677,8 @@
       "chain": "PVR",
       "time": "11:35 AM",
       "audi": "SCREEN 3",
-      "totalSeats": 116,
-      "available": 116,
+      "totalSeats": 117,
+      "available": 117,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -51560,8 +51690,8 @@
       "chain": "PVR",
       "time": "12:35 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 302,
-      "available": 302,
+      "totalSeats": 303,
+      "available": 303,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -58997,10 +59127,10 @@
       "time": "09:45 AM",
       "audi": "SCREEN3",
       "totalSeats": 257,
-      "available": 257,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 255,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "0.78%"
     },
     {
       "city": "Nagpur",
@@ -59049,10 +59179,10 @@
       "time": "09:00 AM",
       "audi": "SCREEN2",
       "totalSeats": 320,
-      "available": 320,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 318,
+      "sold": 2,
+      "gross": 380,
+      "occupancy": "0.63%"
     },
     {
       "city": "Nagpur",
@@ -65254,6 +65384,162 @@
       "sold": 20,
       "gross": 4049.8,
       "occupancy": "6.73%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "09:30 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 202,
+      "available": 202,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "04:40 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 202,
+      "available": 202,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "08:30 AM",
+      "audi": "AUDI 01",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "12:05 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "03:40 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "10:50 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "09:50 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 201,
+      "available": 201,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "11:50 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 202,
+      "available": 202,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "01:05 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 202,
+      "available": 202,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "08:15 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 202,
+      "available": 202,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "Cinemarc VIP, Khodiyar Nagar Char Rasta, Vadodara",
+      "chain": "Cinemarc",
+      "time": "02:10 PM",
+      "audi": "Screen 4",
+      "totalSeats": 139,
+      "available": 139,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Jolly LLB 3 [2D | Hindi]": [
@@ -69841,10 +70127,10 @@
       "time": "07:10 PM",
       "audi": "AUDI 6",
       "totalSeats": 198,
-      "available": 186,
-      "sold": 12,
-      "gross": 2400,
-      "occupancy": "6.06%"
+      "available": 188,
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "5.05%"
     },
     {
       "city": "Noida",
@@ -71882,10 +72168,10 @@
       "time": "04:20 PM",
       "audi": "AUDI 02",
       "totalSeats": 121,
-      "available": 121,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 119,
+      "sold": 2,
+      "gross": 440,
+      "occupancy": "1.65%"
     },
     {
       "city": "Guwahati",
@@ -74665,6 +74951,19 @@
       "audi": "AUDI 4",
       "totalSeats": 242,
       "available": 242,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 201,
+      "available": 201,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -78735,10 +79034,10 @@
       "time": "12:15 PM",
       "audi": "EMINENCE CUT AUDI 7",
       "totalSeats": 58,
-      "available": 52,
-      "sold": 6,
-      "gross": 2400,
-      "occupancy": "10.34%"
+      "available": 50,
+      "sold": 8,
+      "gross": 3200,
+      "occupancy": "13.79%"
     },
     {
       "city": "Greater Noida",
@@ -92852,8 +93151,8 @@
       "chain": "PVR",
       "time": "09:00 AM",
       "audi": "SCREEN 4",
-      "totalSeats": 199,
-      "available": 199,
+      "totalSeats": 196,
+      "available": 196,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -103530,6 +103829,58 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "05:00 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "02:00 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "11:00 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Kantara: A Legend Chapter-1 [2D | Kannada]": [
@@ -103593,10 +103944,10 @@
       "time": "12:30 PM",
       "audi": "AUDI 08",
       "totalSeats": 24,
-      "available": 20,
-      "sold": 4,
-      "gross": 4000,
-      "occupancy": "16.67%"
+      "available": 17,
+      "sold": 7,
+      "gross": 7000,
+      "occupancy": "29.17%"
     },
     {
       "city": "Bengaluru",
@@ -103853,10 +104204,10 @@
       "time": "06:55 PM",
       "audi": "AUDI05",
       "totalSeats": 144,
-      "available": 131,
-      "sold": 13,
-      "gross": 5000,
-      "occupancy": "9.03%"
+      "available": 129,
+      "sold": 15,
+      "gross": 5600,
+      "occupancy": "10.42%"
     },
     {
       "city": "Bengaluru",
@@ -104178,10 +104529,10 @@
       "time": "07:05 PM",
       "audi": "AUDI 10 PXL",
       "totalSeats": 319,
-      "available": 292,
-      "sold": 27,
-      "gross": 18500,
-      "occupancy": "8.46%"
+      "available": 288,
+      "sold": 31,
+      "gross": 22300,
+      "occupancy": "9.72%"
     },
     {
       "city": "Bengaluru",
@@ -104295,10 +104646,10 @@
       "time": "10:45 AM",
       "audi": "AUDI 05",
       "totalSeats": 376,
-      "available": 370,
-      "sold": 6,
-      "gross": 2480,
-      "occupancy": "1.60%"
+      "available": 368,
+      "sold": 8,
+      "gross": 3380,
+      "occupancy": "2.13%"
     },
     {
       "city": "Bengaluru",
@@ -104503,10 +104854,10 @@
       "time": "06:35 PM",
       "audi": "MACRO XE",
       "totalSeats": 277,
-      "available": 267,
-      "sold": 10,
-      "gross": 4500,
-      "occupancy": "3.61%"
+      "available": 264,
+      "sold": 13,
+      "gross": 5520,
+      "occupancy": "4.69%"
     },
     {
       "city": "Bengaluru",
@@ -104529,10 +104880,10 @@
       "time": "03:55 PM",
       "audi": "SCREEN 01",
       "totalSeats": 135,
-      "available": 125,
-      "sold": 10,
-      "gross": 4500,
-      "occupancy": "7.41%"
+      "available": 121,
+      "sold": 14,
+      "gross": 6300,
+      "occupancy": "10.37%"
     },
     {
       "city": "Bengaluru",
@@ -104945,10 +105296,10 @@
       "time": "02:10 PM",
       "audi": "AUDI 12 GOLD",
       "totalSeats": 31,
-      "available": 31,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 29,
+      "sold": 2,
+      "gross": 1800,
+      "occupancy": "6.45%"
     },
     {
       "city": "Bengaluru",
@@ -105049,10 +105400,10 @@
       "time": "11:15 AM",
       "audi": "AUDI 03",
       "totalSeats": 185,
-      "available": 183,
-      "sold": 2,
-      "gross": 780,
-      "occupancy": "1.08%"
+      "available": 181,
+      "sold": 4,
+      "gross": 1560,
+      "occupancy": "2.16%"
     },
     {
       "city": "Bengaluru",
@@ -105335,10 +105686,10 @@
       "time": "11:15 AM",
       "audi": "AUDI 06",
       "totalSeats": 228,
-      "available": 224,
-      "sold": 4,
-      "gross": 1800,
-      "occupancy": "1.75%"
+      "available": 221,
+      "sold": 7,
+      "gross": 2820,
+      "occupancy": "3.07%"
     },
     {
       "city": "Bengaluru",
@@ -105348,10 +105699,10 @@
       "time": "07:05 PM",
       "audi": "AUDI 05 PXL",
       "totalSeats": 422,
-      "available": 316,
-      "sold": 106,
-      "gross": 52570,
-      "occupancy": "25.12%"
+      "available": 310,
+      "sold": 112,
+      "gross": 55330,
+      "occupancy": "26.54%"
     },
     {
       "city": "Bengaluru",
@@ -105452,10 +105803,10 @@
       "time": "09:30 PM",
       "audi": "AUDI 06",
       "totalSeats": 228,
-      "available": 226,
-      "sold": 2,
-      "gross": 920,
-      "occupancy": "0.88%"
+      "available": 222,
+      "sold": 6,
+      "gross": 2760,
+      "occupancy": "2.63%"
     },
     {
       "city": "Bengaluru",
@@ -105634,10 +105985,10 @@
       "time": "01:50 PM",
       "audi": "AUDI 01",
       "totalSeats": 244,
-      "available": 236,
-      "sold": 8,
-      "gross": 3360,
-      "occupancy": "3.28%"
+      "available": 234,
+      "sold": 10,
+      "gross": 4160,
+      "occupancy": "4.10%"
     },
     {
       "city": "Bengaluru",
@@ -105660,10 +106011,10 @@
       "time": "09:00 PM",
       "audi": "AUDI 01",
       "totalSeats": 244,
-      "available": 238,
-      "sold": 6,
-      "gross": 2640,
-      "occupancy": "2.46%"
+      "available": 236,
+      "sold": 8,
+      "gross": 3520,
+      "occupancy": "3.28%"
     },
     {
       "city": "Bengaluru",
@@ -105673,10 +106024,10 @@
       "time": "05:25 PM",
       "audi": "AUDI 01",
       "totalSeats": 244,
-      "available": 238,
-      "sold": 6,
-      "gross": 2520,
-      "occupancy": "2.46%"
+      "available": 236,
+      "sold": 8,
+      "gross": 3360,
+      "occupancy": "3.28%"
     },
     {
       "city": "Hyderabad",
@@ -107207,10 +107558,10 @@
       "time": "07:05 PM",
       "audi": "AUDI 04",
       "totalSeats": 188,
-      "available": 188,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 182,
+      "sold": 6,
+      "gross": 2700,
+      "occupancy": "3.19%"
     },
     {
       "city": "Bengaluru",
@@ -107246,10 +107597,10 @@
       "time": "12:15 PM",
       "audi": "AUDI 04",
       "totalSeats": 188,
-      "available": 188,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 186,
+      "sold": 2,
+      "gross": 900,
+      "occupancy": "1.06%"
     },
     {
       "city": "Bengaluru",
@@ -107519,10 +107870,10 @@
       "time": "09:25 AM",
       "audi": "SCREEN 1",
       "totalSeats": 248,
-      "available": 238,
-      "sold": 10,
-      "gross": 3900,
-      "occupancy": "4.03%"
+      "available": 236,
+      "sold": 12,
+      "gross": 4680,
+      "occupancy": "4.84%"
     },
     {
       "city": "Bengaluru",
@@ -107740,10 +108091,10 @@
       "time": "09:30 PM",
       "audi": "SCREEN 1",
       "totalSeats": 265,
-      "available": 265,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 261,
+      "sold": 4,
+      "gross": 1800,
+      "occupancy": "1.51%"
     },
     {
       "city": "Bengaluru",
@@ -107844,10 +108195,10 @@
       "time": "07:05 PM",
       "audi": "SCREEN 1",
       "totalSeats": 105,
-      "available": 105,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 101,
+      "sold": 4,
+      "gross": 1800,
+      "occupancy": "3.81%"
     },
     {
       "city": "Bengaluru",
@@ -108689,10 +109040,10 @@
       "time": "02:20 PM",
       "audi": "AUDI 4",
       "totalSeats": 203,
-      "available": 190,
-      "sold": 13,
-      "gross": 4550,
-      "occupancy": "6.40%"
+      "available": 193,
+      "sold": 10,
+      "gross": 3500,
+      "occupancy": "4.93%"
     },
     {
       "city": "Bengaluru",
@@ -108780,10 +109131,10 @@
       "time": "08:15 PM",
       "audi": "AUDI 5",
       "totalSeats": 236,
-      "available": 218,
-      "sold": 18,
-      "gross": 6300,
-      "occupancy": "7.63%"
+      "available": 216,
+      "sold": 20,
+      "gross": 7000,
+      "occupancy": "8.47%"
     },
     {
       "city": "Bengaluru",
@@ -108819,10 +109170,10 @@
       "time": "06:45 PM",
       "audi": "AUDI 6",
       "totalSeats": 227,
-      "available": 212,
-      "sold": 15,
-      "gross": 5250,
-      "occupancy": "6.61%"
+      "available": 209,
+      "sold": 18,
+      "gross": 6300,
+      "occupancy": "7.93%"
     },
     {
       "city": "Bengaluru",
@@ -108884,10 +109235,10 @@
       "time": "06:05 PM",
       "audi": "AUDI 07",
       "totalSeats": 177,
-      "available": 164,
-      "sold": 13,
-      "gross": 5720,
-      "occupancy": "7.34%"
+      "available": 160,
+      "sold": 17,
+      "gross": 7480,
+      "occupancy": "9.60%"
     },
     {
       "city": "Bengaluru",
@@ -109378,10 +109729,10 @@
       "time": "09:00 AM",
       "audi": "SCREEN 4",
       "totalSeats": 184,
-      "available": 184,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 181,
+      "sold": 3,
+      "gross": 600,
+      "occupancy": "1.63%"
     },
     {
       "city": "Dharwad",
@@ -109443,10 +109794,10 @@
       "time": "12:30 PM",
       "audi": "Screen2",
       "totalSeats": 350,
-      "available": 358,
-      "sold": -8,
-      "gross": -1600,
-      "occupancy": "-2.29%"
+      "available": 355,
+      "sold": -5,
+      "gross": -1000,
+      "occupancy": "-1.43%"
     },
     {
       "city": "Hosur",
@@ -109625,10 +109976,10 @@
       "time": "03:20 PM",
       "audi": "SCREEN 3",
       "totalSeats": 276,
-      "available": 258,
-      "sold": 18,
-      "gross": 5760,
-      "occupancy": "6.52%"
+      "available": 261,
+      "sold": 15,
+      "gross": 4800,
+      "occupancy": "5.43%"
     },
     {
       "city": "Hubli",
@@ -109651,10 +110002,10 @@
       "time": "11:45 AM",
       "audi": "SCREEN 3",
       "totalSeats": 276,
-      "available": 266,
-      "sold": 10,
-      "gross": 2400,
-      "occupancy": "3.62%"
+      "available": 262,
+      "sold": 14,
+      "gross": 3360,
+      "occupancy": "5.07%"
     },
     {
       "city": "Hubli",
@@ -109664,10 +110015,10 @@
       "time": "08:10 AM",
       "audi": "SCREEN 3",
       "totalSeats": 276,
-      "available": 264,
-      "sold": 12,
-      "gross": 2160,
-      "occupancy": "4.35%"
+      "available": 266,
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "3.62%"
     },
     {
       "city": "Hubli",
@@ -110262,10 +110613,10 @@
       "time": "06:35 PM",
       "audi": "AUDI 03",
       "totalSeats": 170,
-      "available": 162,
-      "sold": 8,
-      "gross": 2640,
-      "occupancy": "4.71%"
+      "available": 155,
+      "sold": 15,
+      "gross": 6340,
+      "occupancy": "8.82%"
     },
     {
       "city": "Mudhol",
@@ -110626,10 +110977,10 @@
       "time": "10:30 PM",
       "audi": "AUDI 01",
       "totalSeats": 323,
-      "available": 315,
-      "sold": 8,
-      "gross": 3500,
-      "occupancy": "2.48%"
+      "available": 313,
+      "sold": 10,
+      "gross": 4200,
+      "occupancy": "3.10%"
     },
     {
       "city": "Mysuru",
@@ -110769,10 +111120,10 @@
       "time": "06:05 PM",
       "audi": "SCREEN 3",
       "totalSeats": 123,
-      "available": 121,
-      "sold": 2,
-      "gross": 660,
-      "occupancy": "1.63%"
+      "available": 118,
+      "sold": 5,
+      "gross": 1650,
+      "occupancy": "4.07%"
     },
     {
       "city": "Mysuru",
@@ -111003,10 +111354,10 @@
       "time": "11:35 AM",
       "audi": "AUDI 01",
       "totalSeats": 111,
-      "available": 111,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 109,
+      "sold": 2,
+      "gross": 600,
+      "occupancy": "1.80%"
     },
     {
       "city": "Mysuru",
@@ -111094,10 +111445,10 @@
       "time": "06:35 PM",
       "audi": "AUDI 3",
       "totalSeats": 229,
-      "available": 208,
-      "sold": 21,
-      "gross": 6750,
-      "occupancy": "9.17%"
+      "available": 204,
+      "sold": 25,
+      "gross": 7950,
+      "occupancy": "10.92%"
     },
     {
       "city": "Mysuru",
@@ -111562,10 +111913,10 @@
       "time": "07:05 PM",
       "audi": "SCREEN 1",
       "totalSeats": 254,
-      "available": 234,
-      "sold": 20,
-      "gross": 7710,
-      "occupancy": "7.87%"
+      "available": 231,
+      "sold": 23,
+      "gross": 9810,
+      "occupancy": "9.06%"
     },
     {
       "city": "Tumakuru",
@@ -111692,10 +112043,10 @@
       "time": "11:45 AM",
       "audi": "SCREEN 2",
       "totalSeats": 312,
-      "available": 309,
-      "sold": 3,
-      "gross": 990,
-      "occupancy": "0.96%"
+      "available": 303,
+      "sold": 9,
+      "gross": 2970,
+      "occupancy": "2.88%"
     },
     {
       "city": "Tumakuru",
@@ -112823,10 +113174,10 @@
       "time": "11:00 AM",
       "audi": "screen1",
       "totalSeats": 797,
-      "available": 48,
-      "sold": 749,
-      "gross": 158950,
-      "occupancy": "93.98%"
+      "available": 56,
+      "sold": 741,
+      "gross": 157400,
+      "occupancy": "92.97%"
     },
     {
       "city": "Gundlupet",
@@ -113395,10 +113746,10 @@
       "time": "06:00 PM",
       "audi": "AUDI1_N",
       "totalSeats": 259,
-      "available": 225,
-      "sold": 34,
-      "gross": 12800,
-      "occupancy": "13.13%"
+      "available": 222,
+      "sold": 37,
+      "gross": 14000,
+      "occupancy": "14.29%"
     },
     {
       "city": "Davanagere",
@@ -113512,10 +113863,10 @@
       "time": "01:25 PM",
       "audi": "AUDI 6",
       "totalSeats": 162,
-      "available": 162,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 160,
+      "sold": 2,
+      "gross": 900,
+      "occupancy": "1.23%"
     },
     {
       "city": "Bengaluru",
@@ -116259,10 +116610,10 @@
       "time": "06:20 PM",
       "audi": "SCREEN 1",
       "totalSeats": 76,
-      "available": 76,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 75,
+      "sold": 1,
+      "gross": 310,
+      "occupancy": "1.32%"
     },
     {
       "city": "Bengaluru",
@@ -116885,10 +117236,10 @@
       "time": "09:10 AM",
       "audi": "AUDI 11",
       "totalSeats": 171,
-      "available": 158,
-      "sold": 13,
-      "gross": 1196,
-      "occupancy": "7.60%"
+      "available": 156,
+      "sold": 15,
+      "gross": 1380,
+      "occupancy": "8.77%"
     },
     {
       "city": "Pune",
@@ -117251,10 +117602,10 @@
       "time": "04:15 PM",
       "audi": "AUDI10",
       "totalSeats": 138,
-      "available": 127,
-      "sold": 11,
-      "gross": 2620,
-      "occupancy": "7.97%"
+      "available": 126,
+      "sold": 12,
+      "gross": 2840,
+      "occupancy": "8.70%"
     },
     {
       "city": "Bengaluru",
@@ -118674,10 +119025,10 @@
       "time": "06:50 PM",
       "audi": "AUDI 1",
       "totalSeats": 217,
-      "available": 207,
-      "sold": 10,
-      "gross": 3200,
-      "occupancy": "4.61%"
+      "available": 203,
+      "sold": 14,
+      "gross": 4480,
+      "occupancy": "6.45%"
     },
     {
       "city": "Bengaluru",
@@ -119091,8 +119442,8 @@
       "chain": "PVR",
       "time": "06:45 PM",
       "audi": "AUDI 07 4DX",
-      "totalSeats": 102,
-      "available": 102,
+      "totalSeats": 108,
+      "available": 108,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -119468,11 +119819,11 @@
       "chain": "Cinepolis",
       "time": "11:20 PM",
       "audi": "4DX",
-      "totalSeats": 107,
-      "available": 99,
+      "totalSeats": 108,
+      "available": 100,
       "sold": 8,
       "gross": 5600,
-      "occupancy": "7.48%"
+      "occupancy": "7.41%"
     },
     {
       "city": "Thane",
@@ -119481,11 +119832,11 @@
       "chain": "Cinepolis",
       "time": "07:40 PM",
       "audi": "4DX",
-      "totalSeats": 107,
-      "available": 97,
+      "totalSeats": 108,
+      "available": 98,
       "sold": 10,
       "gross": 7000,
-      "occupancy": "9.35%"
+      "occupancy": "9.26%"
     },
     {
       "city": "Thane",
@@ -119494,11 +119845,11 @@
       "chain": "Cinepolis",
       "time": "04:00 PM",
       "audi": "4DX",
-      "totalSeats": 107,
-      "available": 99,
+      "totalSeats": 108,
+      "available": 100,
       "sold": 8,
       "gross": 5600,
-      "occupancy": "7.48%"
+      "occupancy": "7.41%"
     },
     {
       "city": "Thane",
@@ -119507,11 +119858,11 @@
       "chain": "Cinepolis",
       "time": "12:20 PM",
       "audi": "4DX",
-      "totalSeats": 107,
-      "available": 95,
+      "totalSeats": 108,
+      "available": 96,
       "sold": 12,
       "gross": 7800,
-      "occupancy": "11.21%"
+      "occupancy": "11.11%"
     },
     {
       "city": "Thane",
@@ -119520,11 +119871,11 @@
       "chain": "Cinepolis",
       "time": "09:00 AM",
       "audi": "4DX",
-      "totalSeats": 107,
-      "available": 99,
+      "totalSeats": 108,
+      "available": 100,
       "sold": 8,
       "gross": 3200,
-      "occupancy": "7.48%"
+      "occupancy": "7.41%"
     },
     {
       "city": "Trivandrum",
@@ -119744,10 +120095,10 @@
       "time": "10:30 PM",
       "audi": "AUDI10",
       "totalSeats": 138,
-      "available": 128,
-      "sold": 10,
-      "gross": 2800,
-      "occupancy": "7.25%"
+      "available": 127,
+      "sold": 11,
+      "gross": 3080,
+      "occupancy": "7.97%"
     },
     {
       "city": "Bengaluru",
@@ -121644,10 +121995,10 @@
       "time": "01:25 PM",
       "audi": "SCREEN 5",
       "totalSeats": 169,
-      "available": 169,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 167,
+      "sold": 2,
+      "gross": 320,
+      "occupancy": "1.18%"
     },
     {
       "city": "Mumbai",
@@ -121697,6 +122048,19 @@
       "audi": "SCREEN 5",
       "totalSeats": 205,
       "available": 205,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Kumar Pacific Mall, Swar Gate, Pune",
+      "chain": "PVR",
+      "time": "03:20 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 201,
+      "available": 201,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -127095,10 +127459,10 @@
       "time": "07:05 PM",
       "audi": "SCREEN 1",
       "totalSeats": 122,
-      "available": 122,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 119,
+      "sold": 3,
+      "gross": 420,
+      "occupancy": "2.46%"
     },
     {
       "city": "Jaipur",
@@ -129372,10 +129736,10 @@
       "time": "03:40 PM",
       "audi": "SCREEN-1",
       "totalSeats": 486,
-      "available": 444,
-      "sold": 42,
-      "gross": 2282.7000000000003,
-      "occupancy": "8.64%"
+      "available": 442,
+      "sold": 44,
+      "gross": 2650.3,
+      "occupancy": "9.05%"
     },
     {
       "city": "Chennai",
@@ -133651,10 +134015,10 @@
       "time": "12:45 PM",
       "audi": "IMAX",
       "totalSeats": 227,
-      "available": 219,
-      "sold": 8,
-      "gross": 4000,
-      "occupancy": "3.52%"
+      "available": 221,
+      "sold": 6,
+      "gross": 3000,
+      "occupancy": "2.64%"
     },
     {
       "city": "Navi Mumbai",
@@ -134329,10 +134693,10 @@
       "time": "06:55 PM",
       "audi": "IMAX",
       "totalSeats": 241,
-      "available": 223,
-      "sold": 18,
-      "gross": 9600,
-      "occupancy": "7.47%"
+      "available": 220,
+      "sold": 21,
+      "gross": 11100,
+      "occupancy": "8.71%"
     },
     {
       "city": "Bengaluru",
@@ -135805,8 +136169,8 @@
       "chain": "PVR",
       "time": "10:10 PM",
       "audi": "AUDI 07 4DX",
-      "totalSeats": 102,
-      "available": 102,
+      "totalSeats": 108,
+      "available": 108,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -135818,11 +136182,11 @@
       "chain": "PVR",
       "time": "11:50 AM",
       "audi": "AUDI 07 4DX",
-      "totalSeats": 102,
-      "available": 100,
+      "totalSeats": 108,
+      "available": 106,
       "sold": 2,
       "gross": 1500,
-      "occupancy": "1.96%"
+      "occupancy": "1.85%"
     },
     {
       "city": "Bengaluru",
@@ -135831,8 +136195,8 @@
       "chain": "PVR",
       "time": "03:20 PM",
       "audi": "AUDI 07 4DX",
-      "totalSeats": 102,
-      "available": 102,
+      "totalSeats": 108,
+      "available": 108,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -135844,8 +136208,8 @@
       "chain": "PVR",
       "time": "08:30 AM",
       "audi": "AUDI 07 4DX",
-      "totalSeats": 102,
-      "available": 102,
+      "totalSeats": 108,
+      "available": 108,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -135936,10 +136300,10 @@
       "time": "06:45 PM",
       "audi": "AUDI 2 4DX",
       "totalSeats": 92,
-      "available": 92,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 87,
+      "sold": 5,
+      "gross": 3500,
+      "occupancy": "5.43%"
     },
     {
       "city": "Bengaluru",
@@ -136250,10 +136614,10 @@
       "time": "09:20 AM",
       "audi": "AUDI 07",
       "totalSeats": 225,
-      "available": 218,
-      "sold": 7,
-      "gross": 1330,
-      "occupancy": "3.11%"
+      "available": 215,
+      "sold": 10,
+      "gross": 1900,
+      "occupancy": "4.44%"
     },
     {
       "city": "Trivandrum",
@@ -137771,10 +138135,10 @@
       "time": "07:30 PM",
       "audi": "SCREEN 1",
       "totalSeats": 560,
-      "available": 226,
-      "sold": 334,
-      "gross": 50100,
-      "occupancy": "59.64%"
+      "available": 217,
+      "sold": 343,
+      "gross": 51450,
+      "occupancy": "61.25%"
     },
     {
       "city": "Perambra",
@@ -138070,10 +138434,10 @@
       "time": "06:00 PM",
       "audi": "SCREEN 1 4K ATMOS",
       "totalSeats": 350,
-      "available": 281,
-      "sold": 69,
-      "gross": 8956.2,
-      "occupancy": "19.71%"
+      "available": 277,
+      "sold": 73,
+      "gross": 9475.400000000001,
+      "occupancy": "20.86%"
     },
     {
       "city": "Mukkam",
@@ -138083,10 +138447,10 @@
       "time": "09:30 PM",
       "audi": "SCREEN 1 4K ATMOS",
       "totalSeats": 350,
-      "available": 268,
-      "sold": 82,
-      "gross": 10643.6,
-      "occupancy": "23.43%"
+      "available": 266,
+      "sold": 84,
+      "gross": 10903.2,
+      "occupancy": "24.00%"
     },
     {
       "city": "Mukkam",
@@ -139391,10 +139755,10 @@
       "time": "06:50 PM",
       "audi": "AUDI 6 FRAME",
       "totalSeats": 116,
-      "available": 97,
-      "sold": 19,
-      "gross": 2456.6000000000004,
-      "occupancy": "16.38%"
+      "available": 93,
+      "sold": 23,
+      "gross": 3191.8,
+      "occupancy": "19.83%"
     },
     {
       "city": "Chennai",
@@ -139456,10 +139820,10 @@
       "time": "07:00 PM",
       "audi": "SCREEN 5",
       "totalSeats": 148,
-      "available": 145,
-      "sold": 3,
-      "gross": 163.05,
-      "occupancy": "2.03%"
+      "available": 143,
+      "sold": 5,
+      "gross": 271.75,
+      "occupancy": "3.38%"
     },
     {
       "city": "Kochi",
@@ -140119,10 +140483,10 @@
       "time": "07:10 PM",
       "audi": "SANTHAM",
       "totalSeats": 488,
-      "available": 446,
-      "sold": 42,
-      "gross": 7719.6,
-      "occupancy": "8.61%"
+      "available": 442,
+      "sold": 46,
+      "gross": 8454.800000000001,
+      "occupancy": "9.43%"
     },
     {
       "city": "Chennai",
@@ -140405,10 +140769,10 @@
       "time": "06:45 PM",
       "audi": "AUDI 04",
       "totalSeats": 247,
-      "available": 179,
-      "sold": 68,
-      "gross": 8356,
-      "occupancy": "27.53%"
+      "available": 177,
+      "sold": 70,
+      "gross": 8723.6,
+      "occupancy": "28.34%"
     },
     {
       "city": "Chennai",
@@ -141640,10 +142004,10 @@
       "time": "12:00 PM",
       "audi": "SCREEN 1",
       "totalSeats": 218,
-      "available": 184,
-      "sold": 34,
-      "gross": 3401.3,
-      "occupancy": "15.60%"
+      "available": 186,
+      "sold": 32,
+      "gross": 3033.7,
+      "occupancy": "14.68%"
     },
     {
       "city": "Coimbatore",
@@ -143642,10 +144006,10 @@
       "time": "02:40 PM",
       "audi": "SCREEN 4",
       "totalSeats": 291,
-      "available": 268,
-      "sold": 23,
-      "gross": 1250.05,
-      "occupancy": "7.90%"
+      "available": 267,
+      "sold": 24,
+      "gross": 1433.85,
+      "occupancy": "8.25%"
     },
     {
       "city": "Madurai",
@@ -143733,10 +144097,10 @@
       "time": "03:50 PM",
       "audi": "AUDI 9",
       "totalSeats": 460,
-      "available": 399,
-      "sold": 61,
-      "gross": 11211.800000000001,
-      "occupancy": "13.26%"
+      "available": 397,
+      "sold": 63,
+      "gross": 11579.400000000001,
+      "occupancy": "13.70%"
     },
     {
       "city": "Chennai",
@@ -143746,10 +144110,10 @@
       "time": "07:20 PM",
       "audi": "AUDI 9",
       "totalSeats": 460,
-      "available": 367,
-      "sold": 93,
-      "gross": 17093.4,
-      "occupancy": "20.22%"
+      "available": 362,
+      "sold": 98,
+      "gross": 17882.95,
+      "occupancy": "21.30%"
     },
     {
       "city": "Chennai",
@@ -144389,10 +144753,10 @@
       "time": "12:30 PM",
       "audi": "IMAX 4",
       "totalSeats": 241,
-      "available": 241,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 240,
+      "sold": 1,
+      "gross": 270,
+      "occupancy": "0.41%"
     },
     {
       "city": "Lucknow",
@@ -144584,10 +144948,10 @@
       "time": "02:30 PM",
       "audi": "AUDI 5",
       "totalSeats": 433,
-      "available": 433,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 431,
+      "sold": 2,
+      "gross": 698,
+      "occupancy": "0.46%"
     }
   ],
   "Kantara: A Legend Chapter-1 [ICE 2D | Hindi]": [
@@ -144705,10 +145069,10 @@
       "time": "11:25 AM",
       "audi": "AUDI 12 ICE",
       "totalSeats": 227,
-      "available": 225,
-      "sold": 2,
-      "gross": 1000,
-      "occupancy": "0.88%"
+      "available": 223,
+      "sold": 4,
+      "gross": 2000,
+      "occupancy": "1.76%"
     },
     {
       "city": "Bengaluru",
@@ -145668,10 +146032,10 @@
       "time": "03:10 PM",
       "audi": "AUDI 04",
       "totalSeats": 120,
-      "available": 120,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 118,
+      "sold": 2,
+      "gross": 320,
+      "occupancy": "1.67%"
     },
     {
       "city": "Ahmedabad",
@@ -146155,10 +146519,10 @@
       "time": "12:00 PM",
       "audi": "AUDI 06",
       "totalSeats": 71,
-      "available": 71,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 65,
+      "sold": 6,
+      "gross": 326.1,
+      "occupancy": "8.45%"
     },
     {
       "city": "Chennai",
@@ -146168,10 +146532,10 @@
       "time": "03:30 PM",
       "audi": "AUDI 06",
       "totalSeats": 71,
-      "available": 71,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 65,
+      "sold": 6,
+      "gross": 326.1,
+      "occupancy": "8.45%"
     },
     {
       "city": "Chennai",
@@ -146181,10 +146545,10 @@
       "time": "07:00 PM",
       "audi": "AUDI 06",
       "totalSeats": 71,
-      "available": 71,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 65,
+      "sold": 6,
+      "gross": 326.1,
+      "occupancy": "8.45%"
     },
     {
       "city": "Chennai",
@@ -146194,10 +146558,10 @@
       "time": "09:50 PM",
       "audi": "AUDI 06",
       "totalSeats": 71,
-      "available": 71,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 65,
+      "sold": 6,
+      "gross": 326.1,
+      "occupancy": "8.45%"
     },
     {
       "city": "Coimbatore",
@@ -146538,10 +146902,10 @@
       "time": "11:15 AM",
       "audi": "SCREEN 1",
       "totalSeats": 414,
-      "available": 332,
-      "sold": 82,
-      "gross": 36203.82,
-      "occupancy": "19.81%"
+      "available": 330,
+      "sold": 84,
+      "gross": 37086.84,
+      "occupancy": "20.29%"
     },
     {
       "city": "Chennai",
@@ -146629,10 +146993,10 @@
       "time": "06:35 PM",
       "audi": "AUDI 5",
       "totalSeats": 433,
-      "available": 366,
-      "sold": 67,
-      "gross": 29581.17,
-      "occupancy": "15.47%"
+      "available": 353,
+      "sold": 80,
+      "gross": 35320.8,
+      "occupancy": "18.48%"
     },
     {
       "city": "Chennai",
@@ -146642,10 +147006,10 @@
       "time": "10:10 PM",
       "audi": "AUDI 5",
       "totalSeats": 433,
-      "available": 367,
-      "sold": 66,
-      "gross": 29139.66,
-      "occupancy": "15.24%"
+      "available": 363,
+      "sold": 70,
+      "gross": 30905.7,
+      "occupancy": "16.17%"
     },
     {
       "city": "Chennai",
@@ -151089,7 +151453,7 @@
     }
   ],
   "date": "2025-10-08",
-  "lastUpdated": "07:47 AM, 05 October 2025",
+  "lastUpdated": "08:46 AM, 05 October 2025",
   "Shinchan: Our Dinosaur Diary [2D | Hindi]": [
     {
       "city": "Mumbai",
