@@ -1,41 +1,386 @@
 {
   "date": "2025-10-08",
-  "lastUpdated": "04:05 AM, 08 October 2025",
+  "lastUpdated": "05:01 AM, 08 October 2025",
   "Kantara: A Legend Chapter-1 | Hindi": {
-    "shows": 2,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 306,
-    "venues": 2,
-    "cities": 1,
+    "shows": 12,
+    "gross": 23220,
+    "sold": 78,
+    "totalSeats": 2310,
+    "venues": 11,
+    "cities": 7,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 3.38,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 2,
+        "shows": 2,
+        "gross": 3850,
+        "sold": 11,
+        "totalSeats": 91,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.09
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 2,
+        "shows": 2,
+        "gross": 3650,
+        "sold": 9,
+        "totalSeats": 171,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.26
+      },
+      {
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 5000,
+        "sold": 20,
+        "totalSeats": 92,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 21.74
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "venues": 3,
+        "shows": 4,
+        "gross": 860,
+        "sold": 4,
+        "totalSeats": 1248,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.32
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
+        "gross": 6800,
+        "sold": 20,
+        "totalSeats": 282,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.09
+      },
+      {
+        "city": "Hubli",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 2760,
+        "sold": 12,
+        "totalSeats": 193,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.22
+      },
+      {
+        "city": "Nanded",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
+        "gross": 300,
+        "sold": 2,
+        "totalSeats": 233,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.86
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 20,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "PVR",
+        "venues": 6,
+        "shows": 6,
+        "gross": 13660,
+        "sold": 46,
+        "totalSeats": 826,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.57
+      },
+      {
+        "chain": "Maxus",
+        "venues": 2,
+        "shows": 3,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 989,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 2,
+        "shows": 2,
+        "gross": 9560,
+        "sold": 32,
+        "totalSeats": 475,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.74
+      }
+    ]
+  },
+  "Kantara: A Legend Chapter-1 | Kannada": {
+    "shows": 46,
+    "gross": 470856,
+    "sold": 1031,
+    "totalSeats": 8452,
+    "venues": 29,
+    "cities": 8,
+    "fastfilling": 3,
+    "housefull": 0,
+    "occupancy": 12.2,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 18,
+        "shows": 28,
+        "gross": 361810,
+        "sold": 599,
+        "totalSeats": 5225,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 11.46
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1716,
+        "sold": 14,
+        "totalSeats": 200,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "venues": 2,
+        "shows": 2,
+        "gross": 2740,
+        "sold": 14,
+        "totalSeats": 564,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.48
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 120,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Dharwad",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 24960,
+        "sold": 130,
+        "totalSeats": 181,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 71.82
+      },
+      {
+        "city": "Hubli",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 14180,
+        "sold": 62,
+        "totalSeats": 276,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 22.46
+      },
+      {
+        "city": "Kalaburagi",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 2,
+        "gross": 3920,
+        "sold": 20,
+        "totalSeats": 377,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.31
+      },
+      {
+        "city": "Mysuru",
+        "state": "Karnataka",
+        "venues": 4,
+        "shows": 10,
+        "gross": 61530,
+        "sold": 192,
+        "totalSeats": 1509,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.72
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 24,
+        "shows": 39,
+        "gross": 361916,
+        "sold": 806,
+        "totalSeats": 6792,
+        "fastfilling": 3,
+        "housefull": 0,
+        "occupancy": 11.87
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 4,
+        "shows": 6,
+        "gross": 107240,
+        "sold": 220,
+        "totalSeats": 1433,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.35
+      },
+      {
+        "chain": "Miraj",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1700,
+        "sold": 5,
+        "totalSeats": 227,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.2
+      }
+    ]
+  },
+  "Sunny Sanskari Ki Tulsi Kumari | Hindi": {
+    "shows": 5,
+    "gross": 2114,
+    "sold": 17,
+    "totalSeats": 851,
+    "venues": 5,
+    "cities": 4,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
         "venues": 2,
         "shows": 2,
+        "gross": 940,
+        "sold": 5,
+        "totalSeats": 424,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.18
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
         "gross": 0,
         "sold": 0,
-        "totalSeats": 306,
+        "totalSeats": 36,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
+        "gross": 184,
+        "sold": 2,
+        "totalSeats": 129,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.55
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "venues": 1,
+        "shows": 1,
+        "gross": 990,
+        "sold": 10,
+        "totalSeats": 262,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.82
       }
     ],
     "Chain_details": [
       {
+        "chain": "PVR",
+        "venues": 3,
+        "shows": 3,
+        "gross": 1124,
+        "sold": 7,
+        "totalSeats": 334,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.1
+      },
+      {
         "chain": "Maxus",
-        "venues": 2,
-        "shows": 2,
+        "venues": 1,
+        "shows": 1,
         "gross": 0,
         "sold": 0,
-        "totalSeats": 306,
+        "totalSeats": 255,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 1,
+        "gross": 990,
+        "sold": 10,
+        "totalSeats": 262,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.82
       }
     ]
   },
@@ -77,41 +422,117 @@
       }
     ]
   },
-  "Kantara: A Legend Chapter-1 | Kannada": {
-    "shows": 3,
-    "gross": 33200,
-    "sold": 105,
-    "totalSeats": 367,
-    "venues": 2,
+  "Kantara: A Legend Chapter-1  | Telugu": {
+    "shows": 1,
+    "gross": 2150,
+    "sold": 5,
+    "totalSeats": 118,
+    "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 28.61,
+    "occupancy": 4.24,
     "details": [
       {
-        "city": "Mysuru",
+        "city": "Bengaluru",
         "state": "Karnataka",
-        "venues": 2,
-        "shows": 3,
-        "gross": 33200,
-        "sold": 105,
-        "totalSeats": 367,
+        "venues": 1,
+        "shows": 1,
+        "gross": 2150,
+        "sold": 5,
+        "totalSeats": 118,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 28.61
+        "occupancy": 4.24
       }
     ],
     "Chain_details": [
       {
         "chain": "PVR",
-        "venues": 2,
-        "shows": 3,
-        "gross": 33200,
-        "sold": 105,
-        "totalSeats": 367,
+        "venues": 1,
+        "shows": 1,
+        "gross": 2150,
+        "sold": 5,
+        "totalSeats": 118,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 28.61
+        "occupancy": 4.24
+      }
+    ]
+  },
+  "Jolly LLB 3 | Hindi": {
+    "shows": 1,
+    "gross": 1089,
+    "sold": 11,
+    "totalSeats": 108,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.19,
+    "details": [
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1089,
+        "sold": 11,
+        "totalSeats": 108,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.19
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1089,
+        "sold": 11,
+        "totalSeats": 108,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.19
+      }
+    ]
+  },
+  "Raktabeej 2 | Bengali": {
+    "shows": 1,
+    "gross": 495,
+    "sold": 5,
+    "totalSeats": 284,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 1.76,
+    "details": [
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "venues": 1,
+        "shows": 1,
+        "gross": 495,
+        "sold": 5,
+        "totalSeats": 284,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.76
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 1,
+        "gross": 495,
+        "sold": 5,
+        "totalSeats": 284,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.76
       }
     ]
   }
