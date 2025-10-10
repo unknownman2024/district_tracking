@@ -1,136 +1,192 @@
 import json
 import requests
-from datetime import datetime, timedelta, date
-from collections import defaultdict
 import os
+from datetime import datetime, timedelta
+from collections import defaultdict
 
 BASE_URL = "https://district24.pages.dev/Daily%20Boxoffice"
 OUTPUT_DIR = "Monthly Database"
-
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def fetch_json(date_str):
-    url = f"{BASE_URL}/{date_str}.json"
+# -------------------------
+# Helper Functions
+# -------------------------
+def get_month(year_offset=0, month_offset=0):
+    """Return (year, month) tuple adjusted by offsets"""
+    today = datetime.now()
+    month = today.month + month_offset
+    year = today.year + year_offset
+    while month < 1:
+        month += 12
+        year -= 1
+    while month > 12:
+        month -= 12
+        year += 1
+    return year, month
+
+def month_str(year, month):
+    return f"{year}-{month:02d}"
+
+def fetch_json(date):
+    url = f"{BASE_URL}/{date}_Detailed.json"
     try:
-        r = requests.get(url, timeout=20)
-        r.raise_for_status()
-        return r.json()
-    except Exception:
-        return None
+        r = requests.get(url, timeout=15)
+        if r.status_code == 200:
+            return r.json()
+    except Exception as e:
+        print(f"⚠️ Error fetching {date}: {e}")
+    return None
 
-def month_start(year, month):
-    return date(year, month, 1)
+def process_movie_data(movie_data):
+    summary = defaultdict(float)
+    city_data = defaultdict(lambda: defaultdict(float))
+    state_data = defaultdict(lambda: defaultdict(float))
+    chain_data = defaultdict(lambda: defaultdict(float))
 
-def next_month(year, month):
-    return (year + (month // 12), 1 if month == 12 else month + 1)
+    for show in movie_data:
+        city = show.get("city", "Unknown")
+        state = show.get("state", "Unknown")
+        venue = show.get("venue", "")
+        totalSeats = show.get("totalSeats", 0) or 0
+        sold = show.get("sold", 0) or 0
+        gross = show.get("gross", 0) or 0
 
+        summary["shows"] += 1
+        summary["sold"] += sold
+        summary["totalSeats"] += totalSeats
+        summary["gross"] += gross
+
+        # City aggregation
+        city_data[city]["shows"] += 1
+        city_data[city]["sold"] += sold
+        city_data[city]["totalSeats"] += totalSeats
+        city_data[city]["gross"] += gross
+        city_data[city]["state"] = state
+
+        # State aggregation
+        state_data[state]["shows"] += 1
+        state_data[state]["sold"] += sold
+        state_data[state]["totalSeats"] += totalSeats
+        state_data[state]["gross"] += gross
+
+        # Detect chain name (first word in venue)
+        chain = venue.split()[0].replace(",", "")
+        chain_data[chain]["shows"] += 1
+        chain_data[chain]["sold"] += sold
+        chain_data[chain]["totalSeats"] += totalSeats
+        chain_data[chain]["gross"] += gross
+
+    # calculate occupancy
+    for dataset in (city_data, state_data, chain_data):
+        for k, v in dataset.items():
+            v["occupancy"] = round(100 * v["sold"] / v["totalSeats"], 2) if v["totalSeats"] else 0
+    summary["occupancy"] = round(100 * summary["sold"] / summary["totalSeats"], 2) if summary["totalSeats"] else 0
+
+    return summary, city_data, state_data, chain_data
+
+# -------------------------
+# Main Aggregation
+# -------------------------
 def aggregate_month(year, month):
-    start_date = month_start(year, month)
-    next_y, next_m = next_month(year, month)
-    end_date = month_start(next_y, next_m)
+    month_file = os.path.join(OUTPUT_DIR, f"{month_str(year, month)}.json")
+    print(f"📅 Aggregating {month_str(year, month)} → {month_file}")
+
+    # Load existing monthly data if exists (for appending)
+    monthly_data = {}
+    if os.path.exists(month_file):
+        try:
+            with open(month_file, "r", encoding="utf-8") as f:
+                monthly_data = json.load(f)
+            print("🔄 Loaded existing file, will append new days...")
+        except:
+            monthly_data = {}
+
+    start_date = datetime(year, month, 1)
+    # Last day of month
+    next_month = (month % 12) + 1
+    next_year = year + (month // 12)
+    end_date = datetime(next_year, next_month, 1) - timedelta(days=1)
     today = datetime.now().date()
+    if datetime(year, month, 1).month == today.month:
+        end_date = today
 
-    if end_date > today:
-        end_date = today + timedelta(days=1)
-
-    output_file = os.path.join(OUTPUT_DIR, f"{year}-{month:02d}.json")
-    monthly_data = {"month": f"{year}-{month:02d}"}
-
-    movie_data = defaultdict(lambda: {
-        "shows": 0,
-        "gross": 0.0,
-        "sold": 0,
-        "chains": defaultdict(lambda: {"gross": 0.0, "sold": 0}),
-        "cities": defaultdict(lambda: {"gross": 0.0, "sold": 0}),
-        "states": defaultdict(lambda: {"gross": 0.0, "sold": 0}),
-        "daily": {}
-    })
-
+    # Loop through all days of month
     current = start_date
-    while current < end_date:
-        date_str = current.isoformat()
+    while current.date() <= end_date:
+        date_str = current.strftime("%Y-%m-%d")
+        if any(date_str in movie.get("daily", {}) for movie in monthly_data.values()):
+            # Already processed
+            current += timedelta(days=1)
+            continue
+
         data = fetch_json(date_str)
         if not data:
             current += timedelta(days=1)
             continue
 
-        for movie_key, info in data.items():
-            if movie_key in ["date", "lastUpdated"]:
+        for movie, shows in data.items():
+            if movie in ["date", "lastUpdated"]:
                 continue
+            summary, cities, states, chains = process_movie_data(shows)
 
-            m = movie_data[movie_key]
-            m["shows"] += info.get("shows", 0)
-            m["gross"] += info.get("gross", 0)
-            m["sold"] += info.get("sold", 0)
+            if movie not in monthly_data:
+                monthly_data[movie] = {
+                    "summary": defaultdict(float),
+                    "cities": {},
+                    "states": {},
+                    "chains": {},
+                    "daily": {}
+                }
 
-            day_city = defaultdict(lambda: {"gross": 0.0, "sold": 0})
-            day_state = defaultdict(lambda: {"gross": 0.0, "sold": 0})
-            for d in info.get("details", []):
-                city, state = d.get("city"), d.get("state")
-                gross, sold = d.get("gross", 0), d.get("sold", 0)
-                if city:
-                    m["cities"][city]["gross"] += gross
-                    m["cities"][city]["sold"] += sold
-                    day_city[city]["gross"] += gross
-                    day_city[city]["sold"] += sold
-                if state:
-                    m["states"][state]["gross"] += gross
-                    m["states"][state]["sold"] += sold
-                    day_state[state]["gross"] += gross
-                    day_state[state]["sold"] += sold
+            m = monthly_data[movie]
+            # Merge totals
+            for k in ["shows", "sold", "totalSeats", "gross"]:
+                m["summary"][k] = m["summary"].get(k,0) + summary[k]
 
-            for c in info.get("Chain_details", []):
-                chain = c.get("chain")
-                if chain:
-                    m["chains"][chain]["gross"] += c.get("gross", 0)
-                    m["chains"][chain]["sold"] += c.get("sold", 0)
+            # Merge city/state/chain
+            for dataset, key in [(cities, "cities"), (states, "states"), (chains, "chains")]:
+                for k, v in dataset.items():
+                    if k not in m[key]:
+                        m[key][k] = v
+                    else:
+                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
+                            m[key][k][kk] = m[key][k].get(kk,0) + v[kk]
 
-            occ = round(info["sold"] / info["totalSeats"] * 100, 2) if info.get("totalSeats") else 0
-
-            def top_n(dct, n=3):
-                return [
-                    {"name": k, "gross": round(v["gross"], 2), "sold": v["sold"]}
-                    for k, v in sorted(dct.items(), key=lambda x: x[1]["gross"], reverse=True)[:n]
-                ]
-
-            m["daily"][date_str] = {
-                "gross": round(info.get("gross", 0), 2),
-                "sold": info.get("sold", 0),
-                "occupancy": occ,
-                "topCities": top_n(day_city, 3),
-                "topStates": top_n(day_state, 3)
-            }
+            # Add daily summary
+            m["daily"][date_str] = summary
 
         current += timedelta(days=1)
 
-    def top_list(data_dict, n=10):
-        items = sorted(data_dict.items(), key=lambda x: x[1]["gross"], reverse=True)[:n]
-        return [{"name": k, "gross": round(v["gross"], 2), "sold": v["sold"]} for k, v in items]
+    # Finalize top10 lists
+    for movie, m in monthly_data.items():
+        m["summary"]["occupancy"] = round(100 * m["summary"]["sold"] / m["summary"]["totalSeats"], 2) if m["summary"]["totalSeats"] else 0
+        for key in ["cities","states","chains"]:
+            top10 = dict(sorted(m[key].items(), key=lambda x:x[1]["gross"], reverse=True)[:10])
+            m[key] = top10
 
-    final_data = {"month": f"{year}-{month:02d}"}
-    for movie_key, info in movie_data.items():
-        occ_month = round(info["sold"] / (info["shows"] * 100 if info["shows"] else 1) * 100, 2)
-        final_data[movie_key] = {
-            "shows": info["shows"],
-            "gross": round(info["gross"], 2),
-            "sold": info["sold"],
-            "occupancy": occ_month,
-            "topCities": top_list(info["cities"]),
-            "topStates": top_list(info["states"]),
-            "topChains": top_list(info["chains"]),
-            "daywise": info["daily"]
-        }
+    # Save file
+    with open(month_file, "w", encoding="utf-8") as f:
+        json.dump(monthly_data, f, indent=2, ensure_ascii=False)
+    print(f"🎉 Saved {month_file}")
 
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(final_data, f, indent=2, ensure_ascii=False)
-    print(f"✅ Saved {output_file} ({len(final_data)-1} movies)")
 
-def auto_update():
-    now = datetime.now()
-    year, month = now.year, now.month
-    prev_year, prev_month = (year - 1, 12) if month == 1 else (year, month - 1)
-    aggregate_month(prev_year, prev_month)
-    aggregate_month(year, month)
+# -------------------------
+# Auto-run logic
+# -------------------------
+def main():
+    today = datetime.now()
+    prev_year, prev_month = get_month(month_offset=-1)
+    curr_year, curr_month = get_month()
+
+    # Only process prev month if file does NOT exist
+    prev_file = os.path.join(OUTPUT_DIR, f"{month_str(prev_year, prev_month)}.json")
+    if not os.path.exists(prev_file):
+        aggregate_month(prev_year, prev_month)
+    else:
+        print(f"⏭ Previous month file exists → skipping {month_str(prev_year, prev_month)}")
+
+    # Always update current month
+    aggregate_month(curr_year, curr_month)
 
 if __name__ == "__main__":
-    auto_update()
+    main()
