@@ -105,17 +105,17 @@ def aggregate_month(year, month):
     # Last day of month
     next_month = (month % 12) + 1
     next_year = year + (month // 12)
-    end_date = datetime(next_year, next_month, 1) - timedelta(days=1)
+    end_date = (datetime(next_year, next_month, 1) - timedelta(days=1)).date()
     today = datetime.now().date()
-    if datetime(year, month, 1).month == today.month:
+    if year == today.year and month == today.month:
         end_date = today
 
     # Loop through all days of month
     current = start_date
-    while current.date() <= end_date.date():  # ⚡ fixed
+    while current.date() <= end_date:  # ⚡ fixed
         date_str = current.strftime("%Y-%m-%d")
+        # Skip if daily already exists
         if any(date_str in movie.get("daily", {}) for movie in monthly_data.values()):
-            # Already processed
             current += timedelta(days=1)
             continue
 
