@@ -112,7 +112,7 @@ def aggregate_month(year, month):
 
     # Loop through all days of month
     current = start_date
-    while current.date() <= end_date:
+    while current.date() <= end_date.date():  # ⚡ fixed
         date_str = current.strftime("%Y-%m-%d")
         if any(date_str in movie.get("daily", {}) for movie in monthly_data.values()):
             # Already processed
