@@ -1,3 +1,5 @@
+check the code...
+
 import json
 import requests
 import os
@@ -131,6 +133,7 @@ def aggregate_month(year, month, force_today=False):
         for movie, shows in data.items():
             if movie in ["date", "lastUpdated"]:
                 continue
+
             summary, cities, states, chains = process_movie_data(shows)
 
             if movie not in monthly_data:
@@ -143,38 +146,61 @@ def aggregate_month(year, month, force_today=False):
                 }
 
             m = monthly_data[movie]
-            # Merge totals
-            for k in ["shows", "sold", "totalSeats", "gross"]:
-                m["summary"][k] = m["summary"].get(k, 0) + summary[k]
 
-            # Merge city/state/chain
-            for dataset, key in [(cities, "cities"), (states, "states"), (chains, "chains")]:
-                for k, v in dataset.items():
-                    if k not in m[key]:
-                        m[key][k] = v
-                    else:
-                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
-                            m[key][k][kk] = m[key][k].get(kk, 0) + v[kk]
-
-            # Add daily summary
+            # Add/Update daily summary
             m["daily"][date_str] = summary
 
-        current += timedelta(days=1)
+            # -----------------------------
+            # Rebuild totals from all daily summaries
+            # -----------------------------
+            total_summary = defaultdict(float)
+            total_cities = defaultdict(lambda: defaultdict(float))
+            total_states = defaultdict(lambda: defaultdict(float))
+            total_chains = defaultdict(lambda: defaultdict(float))
 
-    # Finalize top10 lists
-    for movie, m in monthly_data.items():
-        m["summary"]["occupancy"] = round(
-            100 * m["summary"]["sold"] / m["summary"]["totalSeats"], 2
-        ) if m["summary"]["totalSeats"] else 0
-        for key in ["cities", "states", "chains"]:
-            top10 = dict(sorted(m[key].items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
-            m[key] = top10
+            for day_summary_date, day_summary in m["daily"].items():
+                # Daily totals
+                for k in ["shows", "sold", "totalSeats", "gross"]:
+                    total_summary[k] += day_summary[k]
+
+            # Recalculate occupancy
+            total_summary["occupancy"] = round(
+                100 * total_summary["sold"] / total_summary["totalSeats"], 2
+            ) if total_summary["totalSeats"] else 0
+
+            # Aggregate city/state/chain from all days
+            for day_summary_date, day_summary in m["daily"].items():
+                # We need to rebuild cities/states/chains for this day
+                day_data = data if day_summary_date == date_str else fetch_json(day_summary_date)
+                if not day_data:
+                    continue
+                for movie_day, shows_day in day_data.items():
+                    if movie_day in ["date", "lastUpdated"]:
+                        continue
+                    summary_day, cities_day, states_day, chains_day = process_movie_data(shows_day)
+                    for k, v in cities_day.items():
+                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
+                            total_cities[k][kk] += v[kk]
+                        total_cities[k]["state"] = v.get("state", "")
+                    for k, v in states_day.items():
+                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
+                            total_states[k][kk] += v[kk]
+                    for k, v in chains_day.items():
+                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
+                            total_chains[k][kk] += v[kk]
+
+            # Keep top10 by gross
+            m["summary"] = total_summary
+            m["cities"] = dict(sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
+            m["states"] = dict(sorted(total_states.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
+            m["chains"] = dict(sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
+
+        current += timedelta(days=1)
 
     # Save file
     with open(month_file, "w", encoding="utf-8") as f:
         json.dump(monthly_data, f, indent=2, ensure_ascii=False)
     print(f"🎉 Saved {month_file}")
-
 
 # -------------------------
 # Auto-run logic
