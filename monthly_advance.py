@@ -1,3 +1,5 @@
+need total seats in this...
+
 import json
 import requests
 import os
@@ -86,25 +88,26 @@ def aggregate_month(year, month):
                 "sold": mdata.get("sold", 0),
                 "venues": mdata.get("venues", 0),
                 "cities": mdata.get("cities", 0),
-                "occupancy": mdata.get("occupancy", 0)
+                "occupancy": mdata.get("occupancy", 0),
+                "total_seats": mdata.get("total_seats", 0)  # NEW
             }
 
             # --- Summary totals ---
-            for key in ["shows", "gross", "sold"]:
+            for key in ["shows", "gross", "sold", "total_seats"]:
                 m["summary"][key] += mdata.get(key, 0)
 
             # --- City-level ---
             for d in mdata.get("details", []):
                 city = d.get("city", "Unknown")
                 state = d.get("state", "Unknown")
-                for key in ["shows", "gross", "sold"]:
+                for key in ["shows", "gross", "sold", "total_seats"]:
                     m["cities"][city][key] += d.get(key, 0)
                     m["states"][state][key] += d.get(key, 0)
 
             # --- Chain-level ---
             for d in mdata.get("Chain_details", []):
                 chain = d.get("chain", "Unknown")
-                for key in ["shows", "gross", "sold"]:
+                for key in ["shows", "gross", "sold", "total_seats"]:
                     m["chains"][chain][key] += d.get(key, 0)
 
         current += timedelta(days=1)
