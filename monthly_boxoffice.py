@@ -103,11 +103,11 @@ def aggregate_month(year, month, force_today=False):
             with open(month_file, "r", encoding="utf-8") as f:
                 monthly_data = json.load(f)
             print("🔄 Loaded existing file, will append new days...")
-        except:
+        except Exception as e:
+            print(f"⚠️ Failed to load existing month file: {e}")
             monthly_data = {}
 
     start_date = datetime(year, month, 1)
-    # Last day of month
     next_month = (month % 12) + 1
     next_year = year + (month // 12)
     end_date = (datetime(next_year, next_month, 1) - timedelta(days=1)).date()
@@ -116,7 +116,7 @@ def aggregate_month(year, month, force_today=False):
         end_date = today
 
     # Store raw daily shows to avoid refetching
-    daily_raw_data = {}  # date_str -> full data dict
+    daily_raw_data = {}
 
     # -------------------------
     # Loop through all days
@@ -127,7 +127,10 @@ def aggregate_month(year, month, force_today=False):
 
         # Skip previous days if they exist, but always process today if force_today=True
         if not (force_today and date_str == today.strftime("%Y-%m-%d")):
-            if any(date_str in movie.get("daily", {}) for movie in monthly_data.values()):
+            if any(
+                isinstance(movie, dict) and date_str in movie.get("daily", {})
+                for movie in monthly_data.values()
+            ):
                 current += timedelta(days=1)
                 continue
 
@@ -136,15 +139,27 @@ def aggregate_month(year, month, force_today=False):
             current += timedelta(days=1)
             continue
 
-        daily_raw_data[date_str] = data  # store raw data
+        daily_raw_data[date_str] = data
 
         for movie, shows in data.items():
             if movie in ["date", "lastUpdated"]:
                 continue
 
-            summary, cities, states, chains = process_movie_data(shows)
+            # Ensure shows is a list
+            if not isinstance(shows, list):
+                print(f"⚠️ Skipping invalid show list for movie '{movie}' on {date_str}: {shows}")
+                continue
 
-            if movie not in monthly_data:
+            # Filter valid show dicts only
+            valid_shows = [s for s in shows if isinstance(s, dict)]
+            if not valid_shows:
+                print(f"⚠️ No valid shows for movie '{movie}' on {date_str}")
+                continue
+
+            summary, cities, states, chains = process_movie_data(valid_shows)
+
+            # Ensure movie entry is a dict
+            if not isinstance(monthly_data.get(movie), dict):
                 monthly_data[movie] = {
                     "summary": defaultdict(float),
                     "cities": {},
@@ -156,36 +171,40 @@ def aggregate_month(year, month, force_today=False):
             m = monthly_data[movie]
 
             # Add/Update daily summary
-            m["daily"][date_str] = summary
+            m.setdefault("daily", {})[date_str] = summary
 
         current += timedelta(days=1)
 
     # -------------------------
-    # Rebuild totals from all daily summaries
-    # -------------------------
-    # -------------------------
-    # Rebuild totals from all daily summaries
+    # Rebuild totals safely
     # -------------------------
     for movie, m in monthly_data.items():
+        if not isinstance(m, dict):
+            print(f"⚠️ Skipping invalid movie entry: {movie}")
+            continue
+
         total_summary = defaultdict(float)
         total_cities = defaultdict(lambda: defaultdict(float))
         total_states = defaultdict(lambda: defaultdict(float))
         total_chains = defaultdict(lambda: defaultdict(float))
 
-        # ✅ Go through every day’s full raw data (so we don’t lose multi-day aggregation)
         for day_str in sorted(daily_raw_data.keys()):
             day_data = daily_raw_data[day_str]
             if not day_data or movie not in day_data:
                 continue
 
             shows_day = day_data[movie]
+            if not isinstance(shows_day, list):
+                continue
+            shows_day = [s for s in shows_day if isinstance(s, dict)]
+            if not shows_day:
+                continue
+
             s, cities_day, states_day, chains_day = process_movie_data(shows_day)
 
-            # Add to total summary
             for k in ["shows", "sold", "totalSeats", "gross"]:
                 total_summary[k] += s[k]
 
-            # ✅ Accumulate all cities/states/chains across days
             for k, v in cities_day.items():
                 for kk in ["shows", "sold", "totalSeats", "gross"]:
                     total_cities[k][kk] += v[kk]
@@ -199,21 +218,19 @@ def aggregate_month(year, month, force_today=False):
                 for kk in ["shows", "sold", "totalSeats", "gross"]:
                     total_chains[k][kk] += v[kk]
 
-        # ✅ Recalculate occupancy after full merge
+        # Recalculate occupancy
         total_summary["occupancy"] = (
             round(100 * total_summary["sold"] / total_summary["totalSeats"], 2)
-            if total_summary["totalSeats"]
-            else 0
+            if total_summary["totalSeats"] else 0
         )
         for dataset in [total_cities, total_states, total_chains]:
             for k, v in dataset.items():
                 v["occupancy"] = (
                     round(100 * v["sold"] / v["totalSeats"], 2)
-                    if v["totalSeats"]
-                    else 0
+                    if v["totalSeats"] else 0
                 )
 
-        # ✅ Keep top10 only now
+        # Keep top10 only
         m["summary"] = total_summary
         m["cities"] = dict(
             sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
@@ -225,18 +242,14 @@ def aggregate_month(year, month, force_today=False):
             sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
         )
 
-
-
     # Save file
-    # Add last updated timestamp in IST
     ist = pytz.timezone("Asia/Kolkata")
     now_ist = datetime.now(ist)
-    timestamp = now_ist.strftime("%I:%M %p, %d %B %Y")  # e.g. "02:08 PM, 11 October 2025"
+    timestamp = now_ist.strftime("%I:%M %p, %d %B %Y")
 
-    # Append to JSON structure without changing format
     monthly_data["lastUpdated"] = timestamp
 
-    # ✅ Convert defaultdicts to normal dicts (for clean JSON)
+    # Convert defaultdicts to dict
     def dictify(obj):
         if isinstance(obj, defaultdict):
             obj = {k: dictify(v) for k, v in obj.items()}
@@ -246,12 +259,10 @@ def aggregate_month(year, month, force_today=False):
 
     monthly_data = dictify(monthly_data)
 
-    # ✅ Save final monthly file
     with open(month_file, "w", encoding="utf-8") as f:
         json.dump(monthly_data, f, indent=2, ensure_ascii=False)
 
     print(f"🎉 Saved {month_file} (Last updated: {timestamp})")
-
 
 
 # -------------------------
