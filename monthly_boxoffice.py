@@ -3,6 +3,7 @@ import requests
 import os
 from datetime import datetime, timedelta
 from collections import defaultdict
+from zoneinfo import ZoneInfo  # Python 3.9+
 
 BASE_URL = "https://district24.pages.dev/Daily%20Boxoffice"
 OUTPUT_DIR = "Monthly Database"
@@ -13,7 +14,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # -------------------------
 def get_month(year_offset=0, month_offset=0):
     """Return (year, month) tuple adjusted by offsets"""
-    today = datetime.now()
+    today = datetime.now(ZoneInfo("Asia/Kolkata"))
     month = today.month + month_offset
     year = today.year + year_offset
     while month < 1:
@@ -102,12 +103,12 @@ def aggregate_month(year, month, force_today=False):
         except:
             monthly_data = {}
 
-    start_date = datetime(year, month, 1)
+    start_date = datetime(year, month, 1, tzinfo=ZoneInfo("Asia/Kolkata"))
     # Last day of month
     next_month = (month % 12) + 1
     next_year = year + (month // 12)
-    end_date = (datetime(next_year, next_month, 1) - timedelta(days=1)).date()
-    today = datetime.now().date()
+    end_date = (datetime(next_year, next_month, 1, tzinfo=ZoneInfo("Asia/Kolkata")) - timedelta(days=1)).date()
+    today = datetime.now(ZoneInfo("Asia/Kolkata")).date()
     if year == today.year and month == today.month:
         end_date = today
 
@@ -211,7 +212,7 @@ def aggregate_month(year, month, force_today=False):
 # Auto-run logic
 # -------------------------
 def main():
-    today = datetime.now()
+    today = datetime.now(ZoneInfo("Asia/Kolkata"))
     prev_year, prev_month = get_month(month_offset=-1)
     curr_year, curr_month = get_month()
 
