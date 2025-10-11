@@ -160,25 +160,29 @@ def aggregate_month(year, month, force_today=False):
     # -------------------------
     # Rebuild totals from all daily summaries
     # -------------------------
+    # -------------------------
+    # Rebuild totals from all daily summaries
+    # -------------------------
     for movie, m in monthly_data.items():
         total_summary = defaultdict(float)
         total_cities = defaultdict(lambda: defaultdict(float))
         total_states = defaultdict(lambda: defaultdict(float))
         total_chains = defaultdict(lambda: defaultdict(float))
 
-        for day_str, day_summary in m["daily"].items():
-            # Add daily summary totals
-            for k in ["shows", "sold", "totalSeats", "gross"]:
-                total_summary[k] += day_summary[k]
-
-            # ✅ Only rebuild cities/states/chains for *this* movie (not all)
-            day_data = daily_raw_data.get(day_str)
+        # ✅ Go through every day’s full raw data (so we don’t lose multi-day aggregation)
+        for day_str in sorted(daily_raw_data.keys()):
+            day_data = daily_raw_data[day_str]
             if not day_data or movie not in day_data:
                 continue
 
             shows_day = day_data[movie]
             s, cities_day, states_day, chains_day = process_movie_data(shows_day)
 
+            # Add to total summary
+            for k in ["shows", "sold", "totalSeats", "gross"]:
+                total_summary[k] += s[k]
+
+            # ✅ Accumulate all cities/states/chains across days
             for k, v in cities_day.items():
                 for kk in ["shows", "sold", "totalSeats", "gross"]:
                     total_cities[k][kk] += v[kk]
@@ -192,7 +196,7 @@ def aggregate_month(year, month, force_today=False):
                 for kk in ["shows", "sold", "totalSeats", "gross"]:
                     total_chains[k][kk] += v[kk]
 
-        # Recalculate occupancy
+        # ✅ Recalculate occupancy after full merge
         total_summary["occupancy"] = (
             round(100 * total_summary["sold"] / total_summary["totalSeats"], 2)
             if total_summary["totalSeats"]
@@ -206,7 +210,7 @@ def aggregate_month(year, month, force_today=False):
                     else 0
                 )
 
-        # Keep top10 by gross
+        # ✅ Keep top10 only now
         m["summary"] = total_summary
         m["cities"] = dict(
             sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
@@ -217,6 +221,7 @@ def aggregate_month(year, month, force_today=False):
         m["chains"] = dict(
             sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
         )
+
 
 
     # Save file
