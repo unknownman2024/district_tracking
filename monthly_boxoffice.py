@@ -2,7 +2,7 @@ import json
 import requests
 import os
 import pytz
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from collections import defaultdict
 
 BASE_URL = "https://district24.pages.dev/Daily%20Boxoffice"
@@ -90,23 +90,13 @@ def process_movie_data(movie_data):
     return summary, city_data, state_data, chain_data
 
 # -------------------------
-# Main Aggregation
+# Aggregate a month
 # -------------------------
-def aggregate_month(year, month, force_today=False):
+def aggregate_month(year, month):
     month_file = os.path.join(OUTPUT_DIR, f"{month_str(year, month)}.json")
-    print(f"📅 Aggregating {month_str(year, month)} → {month_file}")
+    print(f"📅 Aggregating full month {month_str(year, month)} → {month_file}")
 
-    # Load existing monthly data if exists
     monthly_data = {}
-    if os.path.exists(month_file):
-        try:
-            with open(month_file, "r", encoding="utf-8") as f:
-                monthly_data = json.load(f)
-            print("🔄 Loaded existing file, will append new days...")
-        except Exception as e:
-            print(f"⚠️ Failed to load existing month file: {e}")
-            monthly_data = {}
-
     start_date = datetime(year, month, 1)
     next_month = (month % 12) + 1
     next_year = year + (month // 12)
@@ -115,25 +105,14 @@ def aggregate_month(year, month, force_today=False):
     if year == today.year and month == today.month:
         end_date = today
 
-    # Store raw daily shows to avoid refetching
     daily_raw_data = {}
 
     # -------------------------
-    # Loop through all days
+    # Fetch all days
     # -------------------------
     current = start_date
     while current.date() <= end_date:
         date_str = current.strftime("%Y-%m-%d")
-
-        # Skip previous days if they exist, but always process today if force_today=True
-        if not (force_today and date_str == today.strftime("%Y-%m-%d")):
-            if any(
-                isinstance(movie, dict) and date_str in movie.get("daily", {})
-                for movie in monthly_data.values()
-            ):
-                current += timedelta(days=1)
-                continue
-
         data = fetch_json(date_str)
         if not data:
             current += timedelta(days=1)
@@ -146,58 +125,36 @@ def aggregate_month(year, month, force_today=False):
                 continue
 
             if not isinstance(shows, list):
-                print(f"⚠️ Skipping invalid show list for movie '{movie}' on {date_str}: {shows}")
                 continue
 
             valid_shows = [s for s in shows if isinstance(s, dict)]
             if not valid_shows:
-                print(f"⚠️ No valid shows for movie '{movie}' on {date_str}")
                 continue
 
-            summary, cities, states, chains = process_movie_data(valid_shows)
+            summary, _, _, _ = process_movie_data(valid_shows)
 
-            if not isinstance(monthly_data.get(movie), dict):
-                monthly_data[movie] = {
-                    "summary": defaultdict(float),
-                    "cities": {},
-                    "states": {},
-                    "chains": {},
-                    "daily": {}
-                }
+            if movie not in monthly_data or not isinstance(monthly_data.get(movie), dict):
+                monthly_data[movie] = {"summary": {}, "cities": {}, "states": {}, "chains": {}, "daily": {}}
 
-            m = monthly_data[movie]
-            m.setdefault("daily", {})[date_str] = summary
+            monthly_data[movie]["daily"][date_str] = summary
 
         current += timedelta(days=1)
 
     # -------------------------
-    # Rebuild totals safely
+    # Rebuild totals
     # -------------------------
     for movie, m in monthly_data.items():
         if not isinstance(m, dict):
-            print(f"⚠️ Skipping invalid movie entry: {movie}")
             continue
 
-        # 1️⃣ Total summary from daily
         total_summary = defaultdict(float)
-        for day_summary in m.get("daily", {}).values():
-            for k in ["shows", "sold", "totalSeats", "gross"]:
-                total_summary[k] += day_summary[k]
-
-        total_summary["occupancy"] = (
-            round(100 * total_summary["sold"] / total_summary["totalSeats"], 2)
-            if total_summary["totalSeats"] else 0
-        )
-        m["summary"] = total_summary
-
-        # 2️⃣ Merge cities, states, chains across all days
         total_cities = defaultdict(lambda: defaultdict(float))
         total_states = defaultdict(lambda: defaultdict(float))
         total_chains = defaultdict(lambda: defaultdict(float))
 
-        for day_str in sorted(m.get("daily", {})):
-            day_data = daily_raw_data.get(day_str, {}).get(movie, [])
-            valid_shows = [s for s in day_data if isinstance(s, dict)]
+        for day_str, day_data in daily_raw_data.items():
+            shows_day = day_data.get(movie, [])
+            valid_shows = [s for s in shows_day if isinstance(s, dict)]
             if not valid_shows:
                 continue
 
@@ -216,34 +173,30 @@ def aggregate_month(year, month, force_today=False):
                 for kk in ["shows", "sold", "totalSeats", "gross"]:
                     total_chains[k][kk] += v[kk]
 
-        # Recalculate occupancy
+            # Update total summary from daily
+            for k in ["shows", "sold", "totalSeats", "gross"]:
+                total_summary[k] += m.get("daily", {}).get(day_str, {}).get(k, 0)
+
+        total_summary["occupancy"] = round(100 * total_summary["sold"] / total_summary["totalSeats"], 2) if total_summary["totalSeats"] else 0
+        m["summary"] = total_summary
+
+        # Recalculate occupancy for cities/states/chains
         for dataset in [total_cities, total_states, total_chains]:
             for k, v in dataset.items():
-                v["occupancy"] = (
-                    round(100 * v["sold"] / v["totalSeats"], 2)
-                    if v["totalSeats"] else 0
-                )
+                v["occupancy"] = round(100 * v["sold"] / v["totalSeats"], 2) if v["totalSeats"] else 0
 
-        # Keep top10
-        m["cities"] = dict(
-            sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
-        )
-        m["states"] = dict(
-            sorted(total_states.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
-        )
-        m["chains"] = dict(
-            sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
-        )
+        # Keep top 10
+        m["cities"] = dict(sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
+        m["states"] = dict(sorted(total_states.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
+        m["chains"] = dict(sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
 
     # -------------------------
-    # Save file
+    # Save JSON
     # -------------------------
     ist = pytz.timezone("Asia/Kolkata")
-    now_ist = datetime.now(ist)
-    timestamp = now_ist.strftime("%I:%M %p, %d %B %Y")
+    timestamp = datetime.now(ist).strftime("%I:%M %p, %d %B %Y")
     monthly_data["lastUpdated"] = timestamp
 
-    # Convert defaultdicts to dict
     def dictify(obj):
         if isinstance(obj, defaultdict):
             obj = {k: dictify(v) for k, v in obj.items()}
@@ -256,12 +209,10 @@ def aggregate_month(year, month, force_today=False):
     with open(month_file, "w", encoding="utf-8") as f:
         json.dump(monthly_data, f, indent=2, ensure_ascii=False)
 
-    print(f"🎉 Saved {month_file} (Last updated: {timestamp})")
-
-
+    print(f"🎉 Saved full month file {month_file} (Last updated: {timestamp})")
 
 # -------------------------
-# Auto-run logic
+# Main
 # -------------------------
 def main():
     today = datetime.now()
@@ -278,16 +229,9 @@ def main():
         print(f"⏭ Previous month file exists → skipping {month_str(prev_year, prev_month)}")
 
     # ----------------------
-    # Current month
+    # Current month (full rewrite)
     # ----------------------
-    curr_file = os.path.join(OUTPUT_DIR, f"{month_str(curr_year, curr_month)}.json")
-    if os.path.exists(curr_file):
-        print(f"🔄 Current month file exists → updating today only")
-        aggregate_month(curr_year, curr_month, force_today=True)
-    else:
-        print(f"📅 Current month file does not exist → aggregating full month so far")
-        aggregate_month(curr_year, curr_month)
-
+    aggregate_month(curr_year, curr_month)
 
 if __name__ == "__main__":
     main()
