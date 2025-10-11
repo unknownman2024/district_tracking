@@ -84,28 +84,27 @@ def aggregate_month(year, month):
                 "shows": mdata.get("shows", 0),
                 "gross": mdata.get("gross", 0),
                 "sold": mdata.get("sold", 0),
-                "totalSeats": mdata.get("totalSeats", 0),
                 "venues": mdata.get("venues", 0),
                 "cities": mdata.get("cities", 0),
-                "occupancy": mdata.get("occupancy", 0),
+                "occupancy": mdata.get("occupancy", 0)
             }
 
             # --- Summary totals ---
-            for key in ["shows", "gross", "sold", "totalSeats"]:
+            for key in ["shows", "gross", "sold"]:
                 m["summary"][key] += mdata.get(key, 0)
 
             # --- City-level ---
             for d in mdata.get("details", []):
                 city = d.get("city", "Unknown")
                 state = d.get("state", "Unknown")
-                for key in ["shows", "gross", "sold", "totalSeats"]:
+                for key in ["shows", "gross", "sold"]:
                     m["cities"][city][key] += d.get(key, 0)
                     m["states"][state][key] += d.get(key, 0)
 
             # --- Chain-level ---
             for d in mdata.get("Chain_details", []):
                 chain = d.get("chain", "Unknown")
-                for key in ["shows", "gross", "sold", "totalSeats"]:
+                for key in ["shows", "gross", "sold"]:
                     m["chains"][chain][key] += d.get(key, 0)
 
         current += timedelta(days=1)
@@ -114,43 +113,21 @@ def aggregate_month(year, month):
     # Final calculations
     # -------------------------
     for movie, m in monthly_data.items():
-        # --- Summary occupancy ---
         s = m["summary"]
-        s["occupancy"] = round(100 * s["sold"] / s["totalSeats"], 2) if s["totalSeats"] else 0
+        s["occupancy"] = round(100 * s["sold"] / s["gross"], 2) if s["gross"] else 0
         m["summary"] = dict(s)
 
-        # --- City occupancies ---
-        m["cities"] = {
-            city: {
-                **vals,
-                "occupancy": round(100 * vals["sold"] / vals["totalSeats"], 2)
-                if vals["totalSeats"]
-                else 0,
+        # --- City / State / Chain sorting & occupancy ---
+        def finalize_block(block):
+            clean = {
+                name: {**vals}
+                for name, vals in sorted(block.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
             }
-            for city, vals in m["cities"].items()
-        }
+            return clean
 
-        # --- State occupancies ---
-        m["states"] = {
-            state: {
-                **vals,
-                "occupancy": round(100 * vals["sold"] / vals["totalSeats"], 2)
-                if vals["totalSeats"]
-                else 0,
-            }
-            for state, vals in m["states"].items()
-        }
-
-        # --- Chain occupancies ---
-        m["chains"] = {
-            chain: {
-                **vals,
-                "occupancy": round(100 * vals["sold"] / vals["totalSeats"], 2)
-                if vals["totalSeats"]
-                else 0,
-            }
-            for chain, vals in m["chains"].items()
-        }
+        m["cities"] = finalize_block(m["cities"])
+        m["states"] = finalize_block(m["states"])
+        m["chains"] = finalize_block(m["chains"])
 
     # -------------------------
     # Add timestamp & save
