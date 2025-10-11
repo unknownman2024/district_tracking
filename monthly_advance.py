@@ -1,5 +1,3 @@
-need total seats in this...
-
 import json
 import requests
 import os
