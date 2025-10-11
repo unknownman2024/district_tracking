@@ -1,7 +1,7 @@
 import json
 import requests
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from collections import defaultdict
 
 BASE_URL = "https://district24.pages.dev/Daily%20Boxoffice"
@@ -11,12 +11,13 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # -------------------------
 # Helper Functions
 # -------------------------
+IST = timezone(timedelta(hours=5, minutes=30))
+
 def log(msg):
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}")
+    print(f"[{datetime.now(IST).strftime('%H:%M:%S')}] {msg}")
 
 def get_month(year_offset=0, month_offset=0):
-    """Return (year, month) tuple adjusted by offsets"""
-    today = datetime.now()
+    today = datetime.now(IST)
     month = today.month + month_offset
     year = today.year + year_offset
     while month < 1:
@@ -62,27 +63,23 @@ def process_movie_data(movie_data):
         summary["totalSeats"] += totalSeats
         summary["gross"] += gross
 
-        # City aggregation
         city_data[city]["shows"] += 1
         city_data[city]["sold"] += sold
         city_data[city]["totalSeats"] += totalSeats
         city_data[city]["gross"] += gross
         city_data[city]["state"] = state
 
-        # State aggregation
         state_data[state]["shows"] += 1
         state_data[state]["sold"] += sold
         state_data[state]["totalSeats"] += totalSeats
         state_data[state]["gross"] += gross
 
-        # Detect chain name (first word in venue)
         chain = venue.split()[0].replace(",", "")
         chain_data[chain]["shows"] += 1
         chain_data[chain]["sold"] += sold
         chain_data[chain]["totalSeats"] += totalSeats
         chain_data[chain]["gross"] += gross
 
-    # calculate occupancy
     for dataset in (city_data, state_data, chain_data):
         for k, v in dataset.items():
             v["occupancy"] = round(100 * v["sold"] / v["totalSeats"], 2) if v["totalSeats"] else 0
@@ -112,19 +109,16 @@ def aggregate_month(year, month, force_today=False):
     next_year = year + (month // 12)
     end_date = (datetime(next_year, next_month, 1) - timedelta(days=1)).date()
 
-    today = datetime.now().date()
+    today = datetime.now(IST).date()
     if year == today.year and month == today.month:
         end_date = today - timedelta(days=1)
         if force_today:
             log("🟢 Forcing today's update as well")
             end_date = today
 
-    # Process day by day
     current = start_date
     while current.date() <= end_date:
         date_str = current.strftime("%Y-%m-%d")
-
-        # Skip if already added
         already = any(date_str in movie.get("daily", {}) for movie in monthly_data.values())
         if already and not (force_today and date_str == today.strftime("%Y-%m-%d")):
             log(f"⏭ Skipping {date_str} (already in monthly data)")
@@ -151,11 +145,9 @@ def aggregate_month(year, month, force_today=False):
                 }
 
             m = monthly_data[movie]
-            # Merge summary totals
             for k in ["shows", "sold", "totalSeats", "gross"]:
                 m["summary"][k] = m["summary"].get(k, 0) + summary[k]
 
-            # Merge city/state/chain
             for dataset, key in [(cities, "cities"), (states, "states"), (chains, "chains")]:
                 for k, v in dataset.items():
                     if k not in m[key]:
@@ -165,29 +157,30 @@ def aggregate_month(year, month, force_today=False):
                             m[key][k][kk] = m[key][k].get(kk, 0) + v[kk]
                         m[key][k]["occupancy"] = round(100 * m[key][k]["sold"] / m[key][k]["totalSeats"], 2) if m[key][k]["totalSeats"] else 0
 
-            # Daily summary
             m["daily"][date_str] = summary
 
         log(f"✅ Merged {date_str}")
         current += timedelta(days=1)
 
-    # Finalize top10 lists
     for movie, m in monthly_data.items():
         m["summary"]["occupancy"] = round(100 * m["summary"]["sold"] / m["summary"]["totalSeats"], 2) if m["summary"]["totalSeats"] else 0
         for key in ["cities", "states", "chains"]:
             top10 = dict(sorted(m[key].items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
             m[key] = top10
 
+    # 🕓 Add IST time update without changing structure
+    monthly_data["lastUpdated"] = datetime.now(IST).strftime("%I:%M %p, %d %B %Y")
+
     with open(month_file, "w", encoding="utf-8") as f:
         json.dump(monthly_data, f, indent=2, ensure_ascii=False)
-    log(f"🎉 Saved {month_file}")
+    log(f"🎉 Saved {month_file} (lastUpdated added)")
 
 
 # -------------------------
 # Auto-run Logic
 # -------------------------
 def main():
-    today = datetime.now()
+    today = datetime.now(IST)
     prev_year, prev_month = get_month(month_offset=-1)
     curr_year, curr_month = get_month()
 
@@ -198,7 +191,6 @@ def main():
     else:
         log(f"⏭ Previous month already exists → skipping {month_str(prev_year, prev_month)}")
 
-    # Always update current month (with today's forced refresh)
     aggregate_month(curr_year, curr_month, force_today=True)
 
 
