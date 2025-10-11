@@ -1,5 +1,3 @@
-check the code...
-
 import json
 import requests
 import os
@@ -40,6 +38,7 @@ def fetch_json(date):
     return None
 
 def process_movie_data(movie_data):
+    """Process shows for a single movie, return summary, cities, states, chains"""
     summary = defaultdict(float)
     city_data = defaultdict(lambda: defaultdict(float))
     state_data = defaultdict(lambda: defaultdict(float))
@@ -71,19 +70,19 @@ def process_movie_data(movie_data):
         state_data[state]["totalSeats"] += totalSeats
         state_data[state]["gross"] += gross
 
-        # Detect chain name (first word in venue)
+        # Chain aggregation
         chain = venue.split()[0].replace(",", "")
         chain_data[chain]["shows"] += 1
         chain_data[chain]["sold"] += sold
         chain_data[chain]["totalSeats"] += totalSeats
         chain_data[chain]["gross"] += gross
 
-    # calculate occupancy
+    # Calculate occupancy
     for dataset in (city_data, state_data, chain_data):
         for k, v in dataset.items():
             v["occupancy"] = round(100 * v["sold"] / v["totalSeats"], 2) if v["totalSeats"] else 0
-    summary["occupancy"] = round(100 * summary["sold"] / summary["totalSeats"], 2) if summary["totalSeats"] else 0
 
+    summary["occupancy"] = round(100 * summary["sold"] / summary["totalSeats"], 2) if summary["totalSeats"] else 0
     return summary, city_data, state_data, chain_data
 
 # -------------------------
@@ -112,6 +111,9 @@ def aggregate_month(year, month, force_today=False):
     if year == today.year and month == today.month:
         end_date = today
 
+    # Store raw daily shows to avoid refetching
+    daily_raw_data = {}  # date_str -> full data dict
+
     # -------------------------
     # Loop through all days
     # -------------------------
@@ -129,6 +131,8 @@ def aggregate_month(year, month, force_today=False):
         if not data:
             current += timedelta(days=1)
             continue
+
+        daily_raw_data[date_str] = data  # store raw data
 
         for movie, shows in data.items():
             if movie in ["date", "lastUpdated"]:
@@ -150,52 +154,53 @@ def aggregate_month(year, month, force_today=False):
             # Add/Update daily summary
             m["daily"][date_str] = summary
 
-            # -----------------------------
-            # Rebuild totals from all daily summaries
-            # -----------------------------
-            total_summary = defaultdict(float)
-            total_cities = defaultdict(lambda: defaultdict(float))
-            total_states = defaultdict(lambda: defaultdict(float))
-            total_chains = defaultdict(lambda: defaultdict(float))
-
-            for day_summary_date, day_summary in m["daily"].items():
-                # Daily totals
-                for k in ["shows", "sold", "totalSeats", "gross"]:
-                    total_summary[k] += day_summary[k]
-
-            # Recalculate occupancy
-            total_summary["occupancy"] = round(
-                100 * total_summary["sold"] / total_summary["totalSeats"], 2
-            ) if total_summary["totalSeats"] else 0
-
-            # Aggregate city/state/chain from all days
-            for day_summary_date, day_summary in m["daily"].items():
-                # We need to rebuild cities/states/chains for this day
-                day_data = data if day_summary_date == date_str else fetch_json(day_summary_date)
-                if not day_data:
-                    continue
-                for movie_day, shows_day in day_data.items():
-                    if movie_day in ["date", "lastUpdated"]:
-                        continue
-                    summary_day, cities_day, states_day, chains_day = process_movie_data(shows_day)
-                    for k, v in cities_day.items():
-                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
-                            total_cities[k][kk] += v[kk]
-                        total_cities[k]["state"] = v.get("state", "")
-                    for k, v in states_day.items():
-                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
-                            total_states[k][kk] += v[kk]
-                    for k, v in chains_day.items():
-                        for kk in ["shows", "sold", "totalSeats", "gross", "occupancy"]:
-                            total_chains[k][kk] += v[kk]
-
-            # Keep top10 by gross
-            m["summary"] = total_summary
-            m["cities"] = dict(sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
-            m["states"] = dict(sorted(total_states.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
-            m["chains"] = dict(sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
-
         current += timedelta(days=1)
+
+    # -------------------------
+    # Rebuild totals from all daily summaries
+    # -------------------------
+    for movie, m in monthly_data.items():
+        total_summary = defaultdict(float)
+        total_cities = defaultdict(lambda: defaultdict(float))
+        total_states = defaultdict(lambda: defaultdict(float))
+        total_chains = defaultdict(lambda: defaultdict(float))
+
+        for day_str, day_summary in m["daily"].items():
+            # Add daily summary totals
+            for k in ["shows", "sold", "totalSeats", "gross"]:
+                total_summary[k] += day_summary[k]
+
+            # Rebuild city/state/chain totals from raw daily shows
+            day_data = daily_raw_data.get(day_str) or fetch_json(day_str)
+            if not day_data:
+                continue
+            for movie_day, shows_day in day_data.items():
+                if movie_day in ["date", "lastUpdated"]:
+                    continue
+                s, cities_day, states_day, chains_day = process_movie_data(shows_day)
+
+                for k, v in cities_day.items():
+                    for kk in ["shows", "sold", "totalSeats", "gross"]:
+                        total_cities[k][kk] += v[kk]
+                    total_cities[k]["state"] = v.get("state", "")
+                for k, v in states_day.items():
+                    for kk in ["shows", "sold", "totalSeats", "gross"]:
+                        total_states[k][kk] += v[kk]
+                for k, v in chains_day.items():
+                    for kk in ["shows", "sold", "totalSeats", "gross"]:
+                        total_chains[k][kk] += v[kk]
+
+        # Recalculate occupancy
+        total_summary["occupancy"] = round(100 * total_summary["sold"] / total_summary["totalSeats"], 2) if total_summary["totalSeats"] else 0
+        for dataset in [total_cities, total_states, total_chains]:
+            for k, v in dataset.items():
+                v["occupancy"] = round(100 * v["sold"] / v["totalSeats"], 2) if v["totalSeats"] else 0
+
+        # Keep top10 by gross
+        m["summary"] = total_summary
+        m["cities"] = dict(sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
+        m["states"] = dict(sorted(total_states.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
+        m["chains"] = dict(sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
 
     # Save file
     with open(month_file, "w", encoding="utf-8") as f:
