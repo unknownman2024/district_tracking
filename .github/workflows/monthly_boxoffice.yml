@@ -2,7 +2,7 @@ name: Update Monthly BoxOffice Database
 
 on:
   schedule:
-    - cron: "0 * * * *"   # runs every hour
+    - cron: "*/40 * * * *"
   workflow_dispatch:       # allow manual run
 
 jobs:
