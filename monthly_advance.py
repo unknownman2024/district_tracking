@@ -84,28 +84,28 @@ def aggregate_month(year, month):
                 "shows": mdata.get("shows", 0),
                 "gross": mdata.get("gross", 0),
                 "sold": mdata.get("sold", 0),
+                "totalSeats": mdata.get("totalSeats", 0),
                 "venues": mdata.get("venues", 0),
                 "cities": mdata.get("cities", 0),
                 "occupancy": mdata.get("occupancy", 0),
-                "total_seats": mdata.get("total_seats", 0)  # NEW
             }
 
             # --- Summary totals ---
-            for key in ["shows", "gross", "sold", "total_seats"]:
+            for key in ["shows", "gross", "sold", "totalSeats"]:
                 m["summary"][key] += mdata.get(key, 0)
 
             # --- City-level ---
             for d in mdata.get("details", []):
                 city = d.get("city", "Unknown")
                 state = d.get("state", "Unknown")
-                for key in ["shows", "gross", "sold", "total_seats"]:
+                for key in ["shows", "gross", "sold", "totalSeats"]:
                     m["cities"][city][key] += d.get(key, 0)
                     m["states"][state][key] += d.get(key, 0)
 
             # --- Chain-level ---
             for d in mdata.get("Chain_details", []):
                 chain = d.get("chain", "Unknown")
-                for key in ["shows", "gross", "sold", "total_seats"]:
+                for key in ["shows", "gross", "sold", "totalSeats"]:
                     m["chains"][chain][key] += d.get(key, 0)
 
         current += timedelta(days=1)
@@ -114,21 +114,40 @@ def aggregate_month(year, month):
     # Final calculations
     # -------------------------
     for movie, m in monthly_data.items():
+        # --- Summary occupancy ---
         s = m["summary"]
-        s["occupancy"] = round(100 * s["sold"] / s["gross"], 2) if s["gross"] else 0
+        s["occupancy"] = round(100 * s["sold"] / s["totalSeats"], 2) if s["totalSeats"] else 0
         m["summary"] = dict(s)
 
-        # --- City / State / Chain sorting & occupancy ---
-        def finalize_block(block):
-            clean = {
-                name: {**vals}
-                for name, vals in sorted(block.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
-            }
-            return clean
+        # --- Cities: occupancy + top 10 by gross ---
+        m["cities"] = dict(sorted(
+            (
+                (city, {**vals, "occupancy": round(100 * vals["sold"] / vals["totalSeats"], 2)
+                        if vals["totalSeats"] else 0})
+                for city, vals in m["cities"].items()
+            ),
+            key=lambda x: x[1]["gross"], reverse=True
+        )[:10])
 
-        m["cities"] = finalize_block(m["cities"])
-        m["states"] = finalize_block(m["states"])
-        m["chains"] = finalize_block(m["chains"])
+        # --- States: occupancy + top 10 by gross ---
+        m["states"] = dict(sorted(
+            (
+                (state, {**vals, "occupancy": round(100 * vals["sold"] / vals["totalSeats"], 2)
+                         if vals["totalSeats"] else 0})
+                for state, vals in m["states"].items()
+            ),
+            key=lambda x: x[1]["gross"], reverse=True
+        )[:10])
+
+        # --- Chains: occupancy + top 10 by gross ---
+        m["chains"] = dict(sorted(
+            (
+                (chain, {**vals, "occupancy": round(100 * vals["sold"] / vals["totalSeats"], 2)
+                         if vals["totalSeats"] else 0})
+                for chain, vals in m["chains"].items()
+            ),
+            key=lambda x: x[1]["gross"], reverse=True
+        )[:10])
 
     # -------------------------
     # Add timestamp & save
@@ -146,7 +165,6 @@ def aggregate_month(year, month):
 # Main
 # -------------------------
 def main():
-    today = datetime.now()
     prev_year, prev_month = get_month(month_offset=-1)
     curr_year, curr_month = get_month()
 
