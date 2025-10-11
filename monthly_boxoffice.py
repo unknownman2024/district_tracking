@@ -1,4 +1,5 @@
 import json
+import pytz
 import requests
 import os
 from datetime import datetime, timedelta
@@ -203,9 +204,20 @@ def aggregate_month(year, month, force_today=False):
         m["chains"] = dict(sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10])
 
     # Save file
+    # Add last updated timestamp in IST
+    ist = pytz.timezone("Asia/Kolkata")
+    now_ist = datetime.now(ist)
+    timestamp = now_ist.strftime("%I:%M %p, %d %B %Y")  # e.g. "02:08 PM, 11 October 2025"
+
+    # Append to JSON structure without changing format
+    monthly_data["lastUpdated"] = timestamp
+
+    # Save file
     with open(month_file, "w", encoding="utf-8") as f:
         json.dump(monthly_data, f, indent=2, ensure_ascii=False)
-    print(f"🎉 Saved {month_file}")
+
+    print(f"🎉 Saved {month_file} (Last updated: {timestamp})")
+
 
 # -------------------------
 # Auto-run logic
