@@ -39,13 +39,16 @@ def fetch_json(date):
     return None
 
 def process_movie_data(movie_data):
-    """Process shows for a single movie, return summary, cities, states, chains"""
     summary = defaultdict(float)
     city_data = defaultdict(lambda: defaultdict(float))
     state_data = defaultdict(lambda: defaultdict(float))
     chain_data = defaultdict(lambda: defaultdict(float))
 
     for show in movie_data:
+        if not isinstance(show, dict):
+            print("⚠️ Skipping invalid show entry:", show)
+            continue
+
         city = show.get("city", "Unknown")
         state = show.get("state", "Unknown")
         venue = show.get("venue", "")
