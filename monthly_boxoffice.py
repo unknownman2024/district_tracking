@@ -178,69 +178,73 @@ def aggregate_month(year, month, force_today=False):
     # -------------------------
     # Rebuild totals safely
     # -------------------------
-    for movie, m in monthly_data.items():
-        if not isinstance(m, dict):
-            print(f"⚠️ Skipping invalid movie entry: {movie}")
+for movie, m in monthly_data.items():
+    if not isinstance(m, dict):
+        print(f"⚠️ Skipping invalid movie entry: {movie}")
+        continue
+
+    # -------------------------
+    # 1️⃣ Total summary from daily
+    # -------------------------
+    total_summary = defaultdict(float)
+    for day_summary in m.get("daily", {}).values():
+        for k in ["shows", "sold", "totalSeats", "gross"]:
+            total_summary[k] += day_summary[k]
+
+    total_summary["occupancy"] = (
+        round(100 * total_summary["sold"] / total_summary["totalSeats"], 2)
+        if total_summary["totalSeats"] else 0
+    )
+    m["summary"] = total_summary
+
+    # -------------------------
+    # 2️⃣ Merge cities, states, chains across all days
+    # -------------------------
+    total_cities = defaultdict(lambda: defaultdict(float))
+    total_states = defaultdict(lambda: defaultdict(float))
+    total_chains = defaultdict(lambda: defaultdict(float))
+
+    for day_str in sorted(m.get("daily", {})):
+        # Get raw shows for the day from daily_raw_data
+        day_data = daily_raw_data.get(day_str, {}).get(movie, [])
+        valid_shows = [s for s in day_data if isinstance(s, dict)]
+        if not valid_shows:
             continue
 
-        total_summary = defaultdict(float)
-        total_cities = defaultdict(lambda: defaultdict(float))
-        total_states = defaultdict(lambda: defaultdict(float))
-        total_chains = defaultdict(lambda: defaultdict(float))
+        _, cities_day, states_day, chains_day = process_movie_data(valid_shows)
 
-        for day_str in sorted(daily_raw_data.keys()):
-            day_data = daily_raw_data[day_str]
-            if not day_data or movie not in day_data:
-                continue
+        for k, v in cities_day.items():
+            for kk in ["shows", "sold", "totalSeats", "gross"]:
+                total_cities[k][kk] += v[kk]
+            total_cities[k]["state"] = v.get("state", "")
 
-            shows_day = day_data[movie]
-            if not isinstance(shows_day, list):
-                continue
-            shows_day = [s for s in shows_day if isinstance(s, dict)]
-            if not shows_day:
-                continue
+        for k, v in states_day.items():
+            for kk in ["shows", "sold", "totalSeats", "gross"]:
+                total_states[k][kk] += v[kk]
 
-            s, cities_day, states_day, chains_day = process_movie_data(shows_day)
+        for k, v in chains_day.items():
+            for kk in ["shows", "sold", "totalSeats", "gross"]:
+                total_chains[k][kk] += v[kk]
 
-            for k in ["shows", "sold", "totalSeats", "gross"]:
-                total_summary[k] += s[k]
+    # Recalculate occupancy
+    for dataset in [total_cities, total_states, total_chains]:
+        for k, v in dataset.items():
+            v["occupancy"] = (
+                round(100 * v["sold"] / v["totalSeats"], 2)
+                if v["totalSeats"] else 0
+            )
 
-            for k, v in cities_day.items():
-                for kk in ["shows", "sold", "totalSeats", "gross"]:
-                    total_cities[k][kk] += v[kk]
-                total_cities[k]["state"] = v.get("state", "")
+    # Keep top10
+    m["cities"] = dict(
+        sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
+    )
+    m["states"] = dict(
+        sorted(total_states.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
+    )
+    m["chains"] = dict(
+        sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
+    )
 
-            for k, v in states_day.items():
-                for kk in ["shows", "sold", "totalSeats", "gross"]:
-                    total_states[k][kk] += v[kk]
-
-            for k, v in chains_day.items():
-                for kk in ["shows", "sold", "totalSeats", "gross"]:
-                    total_chains[k][kk] += v[kk]
-
-        # Recalculate occupancy
-        total_summary["occupancy"] = (
-            round(100 * total_summary["sold"] / total_summary["totalSeats"], 2)
-            if total_summary["totalSeats"] else 0
-        )
-        for dataset in [total_cities, total_states, total_chains]:
-            for k, v in dataset.items():
-                v["occupancy"] = (
-                    round(100 * v["sold"] / v["totalSeats"], 2)
-                    if v["totalSeats"] else 0
-                )
-
-        # Keep top10 only
-        m["summary"] = total_summary
-        m["cities"] = dict(
-            sorted(total_cities.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
-        )
-        m["states"] = dict(
-            sorted(total_states.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
-        )
-        m["chains"] = dict(
-            sorted(total_chains.items(), key=lambda x: x[1]["gross"], reverse=True)[:10]
-        )
 
     # Save file
     ist = pytz.timezone("Asia/Kolkata")
