@@ -26,7 +26,7 @@ jobs:
 
     - name: Run movie list script
       run: |
-        python scripts/movielist.py --out movielist.json
+        python movielist.py --out movielist.json
 
     - name: Commit and push changes
       run: |
