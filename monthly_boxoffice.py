@@ -172,7 +172,7 @@ def aggregate_month(year, month, force_today=False):
                 total_summary[k] += day_summary[k]
 
             # ✅ Only rebuild cities/states/chains for *this* movie (not all)
-            day_data = daily_raw_data.get(day_str) or fetch_json(day_str)
+            day_data = daily_raw_data.get(day_str)
             if not day_data or movie not in day_data:
                 continue
 
