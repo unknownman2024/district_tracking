@@ -72,7 +72,7 @@ def process_movie_data(movie_data):
         state_data[state]["gross"] += gross
 
         # Chain aggregation
-        chain = venue.split()[0].replace(",", "")
+        chain = venue.split()[0].replace(",", "").replace(":", "")
         chain_data[chain]["shows"] += 1
         chain_data[chain]["sold"] += sold
         chain_data[chain]["totalSeats"] += totalSeats
@@ -228,11 +228,22 @@ def aggregate_month(year, month, force_today=False):
     # Append to JSON structure without changing format
     monthly_data["lastUpdated"] = timestamp
 
-    # Save file
+    # ✅ Convert defaultdicts to normal dicts (for clean JSON)
+    def dictify(obj):
+        if isinstance(obj, defaultdict):
+            obj = {k: dictify(v) for k, v in obj.items()}
+        elif isinstance(obj, dict):
+            obj = {k: dictify(v) for k, v in obj.items()}
+        return obj
+
+    monthly_data = dictify(monthly_data)
+
+    # ✅ Save final monthly file
     with open(month_file, "w", encoding="utf-8") as f:
         json.dump(monthly_data, f, indent=2, ensure_ascii=False)
 
     print(f"🎉 Saved {month_file} (Last updated: {timestamp})")
+
 
 
 # -------------------------
