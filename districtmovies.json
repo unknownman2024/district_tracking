@@ -132,17 +132,6 @@
     "cityCount": 13
   },
   {
-    "movie": "Lord Curzon Ki Haveli",
-    "language": "Hindi",
-    "movieCode": "Rq9~alZpc0",
-    "id": 206700,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lord-Curzon-Ki-Haveli-a7024600-a384-11f0-a7cf-5b1e8371a227.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat, Visakhapatnam",
-    "cityCount": 12
-  },
-  {
     "movie": "Mannu Kya Karegga?",
     "language": "Hindi",
     "movieCode": "O2AxrkvtIN",
@@ -173,6 +162,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Idli-Kadai_Poster-b8a02450-9e15-11f0-87b6-b546886cbb7c.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Kochi, Madurai, Mumbai",
+    "cityCount": 10
+  },
+  {
+    "movie": "Lord Curzon Ki Haveli",
+    "language": "Hindi",
+    "movieCode": "Rq9~alZpc0",
+    "id": 206700,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lord-Curzon-Ki-Haveli-a7024600-a384-11f0-a7cf-5b1e8371a227.jpg",
+    "city": "Ahmedabad, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat, Visakhapatnam",
     "cityCount": 10
   },
   {
@@ -336,7 +336,7 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Hyderabad, Mumbai",
     "cityCount": 5
   },
@@ -594,6 +594,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Balti",
+    "language": "Telugu",
+    "movieCode": "aMFPGMlX20",
+    "id": 199868,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Balti-c3987ab0-a2ac-11f0-929a-6f0a8d0cf0a3.jpg",
+    "city": "Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 3
+  },
+  {
     "movie": "Bisaahee",
     "language": "Hindi",
     "movieCode": "yNJdLprxZv",
@@ -734,6 +745,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Kishkindhapuri_Poster-c73e88e0-a418-11f0-8208-25c60ccaef7e.jpg",
     "city": "Delhi/NCR, Mumbai, Surat",
+    "cityCount": 3
+  },
+  {
+    "movie": "Maiyar Ma Mandu Nathi Lagtu",
+    "language": "Gujarati",
+    "movieCode": "VE6XXzv1tL",
+    "id": 205776,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Maiyar-Ma-Mandu-Nathi-Lagtu_Poster-75170000-8e43-11f0-87e4-134533481421.jpg",
+    "city": "Ahmedabad, Gandhinagar, Surat",
     "cityCount": 3
   },
   {
@@ -908,7 +930,7 @@
     "id": 425,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/POSTER%20_0020_REMOVE%20TEXT%206-6fcd5660-36d4-11f0-b426-a50671acfc24.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/POSTER%20_0019_REMOVE%20TEXT%205-617883a0-36d4-11f0-b426-a50671acfc24.jpg",
     "city": "Hyderabad, Mumbai",
     "cityCount": 2
   },
@@ -943,28 +965,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Austin-Na-Mahan-Mouna--a814e1f0-88be-11f0-9e61-8f49e57b29fa.jpg",
     "city": "Bangalore, Bengaluru",
-    "cityCount": 2
-  },
-  {
-    "movie": "Balti",
-    "language": "Telugu",
-    "movieCode": "aMFPGMlX20",
-    "id": 199868,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Balti-c3987ab0-a2ac-11f0-929a-6f0a8d0cf0a3.jpg",
-    "city": "Guntur, Visakhapatnam",
-    "cityCount": 2
-  },
-  {
-    "movie": "Balti",
-    "language": "Malayalam",
-    "movieCode": "AV2ua0pZdE",
-    "id": 199868,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Balti_Poster-3fa5ece0-9836-11f0-9978-990b46b3746d.jpg",
-    "city": "Hyderabad, Kochi",
     "cityCount": 2
   },
   {
@@ -1370,7 +1370,7 @@
     "id": 190252,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kiss_Poster-a411f8a0-9385-11f0-bc49-93709311901c.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kiss_2_Poster-78b08580-993b-11f0-9dd2-dffa2e9e0d64.jpg",
     "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
@@ -1504,17 +1504,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-a78e5230-fb37-11ef-943b-b3723efa3f38.jpg",
     "city": "Bangalore, Bengaluru",
-    "cityCount": 2
-  },
-  {
-    "movie": "Mutton Soup",
-    "language": "Telugu",
-    "movieCode": "HYwtRBByVl",
-    "id": 205969,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mutton-Soup--d0218180-a385-11f0-9e71-378784c47b3f.jpg",
-    "city": "Hyderabad, Visakhapatnam",
     "cityCount": 2
   },
   {
@@ -1947,6 +1936,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Upendra",
+    "language": "Telugu",
+    "movieCode": "WfT6OxKmf3",
+    "id": 174919,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Upendra-00e63160-a509-11f0-9902-918273896aef.jpg",
+    "city": "Guntur, Hyderabad",
+    "cityCount": 2
+  },
+  {
     "movie": "Usiru",
     "language": "Kannada",
     "movieCode": "TX~KhBtCJn",
@@ -1964,7 +1964,7 @@
     "id": 188260,
     "runtime": 134,
     "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Vash-Level-2-cbbbce20-501a-11f0-a578-5d827ee44c2f.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Vash-Level-2-6a3375b0-824f-11f0-9f3a-a179e177c069.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -1986,7 +1986,7 @@
     "id": 137829,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/vickydonor2-b3411a70-1c13-11f0-bf5a-e170510964b5.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Vicky-Donor--8f53b730-1c13-11f0-ab4a-67800b48f84f.jpg",
     "city": "Kolkata, Mumbai",
     "cityCount": 2
   },
@@ -2296,6 +2296,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Bahurup-fa0ecb40-84a1-11f0-939f-2b780160435c.jpg",
     "city": "Kolkata",
+    "cityCount": 1
+  },
+  {
+    "movie": "Balti",
+    "language": "Malayalam",
+    "movieCode": "AV2ua0pZdE",
+    "id": 199868,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Balti_Poster-3fa5ece0-9836-11f0-9978-990b46b3746d.jpg",
+    "city": "Kochi",
     "cityCount": 1
   },
   {
@@ -3877,7 +3888,7 @@
     "id": 138340,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootere-(1993)1-511fbc50-136e-11f0-8aed-f941662e2d49.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootera4-ba1de390-f9e6-11ef-9252-6f3b98621b31.jpg",
     "city": "Kolkata",
     "cityCount": 1
   },
@@ -3978,17 +3989,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/1-1-efe22e30-83cc-11f0-895c-097e785b5b3e.jpg",
     "city": "Kochi",
-    "cityCount": 1
-  },
-  {
-    "movie": "Maiyar Ma Mandu Nathi Lagtu",
-    "language": "Gujarati",
-    "movieCode": "VE6XXzv1tL",
-    "id": 205776,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Maiyar-Ma-Mandu-Nathi-Lagtu_Poster-75170000-8e43-11f0-87e4-134533481421.jpg",
-    "city": "Surat",
     "cityCount": 1
   },
   {
@@ -4102,6 +4102,15 @@
     "cityCount": 1
   },
   {
+    "movie": "Mithra Mandali",
+    "language": "Telugu",
+    "id": 200280,
+    "runtime": 134,
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mithra-Mandali-d00f1ed0-a431-11f0-9ae8-59eaf2ec9173.jpg",
+    "city": "Guntur",
+    "cityCount": 1
+  },
+  {
     "movie": "Moana 2",
     "language": "English",
     "movieCode": "JfLHyiXqX",
@@ -4154,6 +4163,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mukk-Gyi-Feem-Dabbi-Cho-Yaaro-poster-8a0ae360-6633-11f0-b49e-0daac2dae3b7.jpg",
     "city": "Amritsar",
+    "cityCount": 1
+  },
+  {
+    "movie": "Mutton Soup",
+    "language": "Telugu",
+    "movieCode": "HYwtRBByVl",
+    "id": 205969,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mutton-Soup--d0218180-a385-11f0-9e71-378784c47b3f.jpg",
+    "city": "Hyderabad",
     "cityCount": 1
   },
   {
@@ -4757,7 +4777,7 @@
     "id": 172413,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bad-Guys2_Poster-f85fb760-72a8-11f0-81a2-95c24e20b386.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bad-d9e5e5c0-72a8-11f0-bf18-ef07befd2b97.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
@@ -4889,7 +4909,7 @@
     "id": 197651,
     "runtime": 134,
     "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/%CC%91the-real-indian-a51e3e00-354a-11f0-b426-a50671acfc24.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/The%20Real%20Indian-234300f0-a827-11f0-88d5-875808c41f44.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
@@ -5056,17 +5076,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/unbroken-815fb720-8f98-11f0-b1e9-b7be6143f7bb.jpeg",
     "city": "Delhi/NCR",
-    "cityCount": 1
-  },
-  {
-    "movie": "Upendra",
-    "language": "Telugu",
-    "movieCode": "WfT6OxKmf3",
-    "id": 174919,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Upendra-00e63160-a509-11f0-9902-918273896aef.jpg",
-    "city": "Guntur",
     "cityCount": 1
   },
   {
