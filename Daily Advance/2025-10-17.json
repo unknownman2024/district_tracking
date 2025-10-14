@@ -114,12 +114,12 @@
     ]
   },
   "Sunny Sanskari Ki Tulsi Kumari [2D | Hindi]": {
-    "shows": 1,
+    "shows": 3,
     "gross": 0,
     "sold": 0,
-    "totalSeats": 204,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 812,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 0,
@@ -135,6 +135,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Korba",
+        "state": "Chhattisgarh",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 608,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -145,6 +157,17 @@
         "gross": 0,
         "sold": 0,
         "totalSeats": 204,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Cineflix Cinema",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 608,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -389,15 +412,15 @@
     ]
   },
   "Dude [2D | Telugu]": {
-    "shows": 30,
-    "gross": 110889,
-    "sold": 996,
-    "totalSeats": 9680,
-    "venues": 8,
-    "cities": 7,
+    "shows": 52,
+    "gross": 197247,
+    "sold": 1412,
+    "totalSeats": 17318,
+    "venues": 13,
+    "cities": 9,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 10.29,
+    "occupancy": 8.15,
     "details": [
       {
         "city": "Tenali",
@@ -462,14 +485,14 @@
       {
         "city": "Guntur",
         "state": "Andhra Pradesh",
-        "venues": 2,
-        "shows": 8,
-        "gross": 59535,
-        "sold": 429,
-        "totalSeats": 2392,
+        "venues": 4,
+        "shows": 18,
+        "gross": 94983,
+        "sold": 671,
+        "totalSeats": 5522,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 17.93
+        "occupancy": 12.15
       },
       {
         "city": "Ponnur",
@@ -482,19 +505,43 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Chilakaluripet",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": -12810,
+        "sold": -122,
+        "totalSeats": 1180,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": -10.34
+      },
+      {
+        "city": "Kakinada",
+        "state": "Andhra Pradesh",
+        "venues": 2,
+        "shows": 8,
+        "gross": 63720,
+        "sold": 296,
+        "totalSeats": 3328,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.89
       }
     ],
     "Chain_details": [
       {
         "chain": "VCelluloids",
-        "venues": 3,
-        "shows": 12,
-        "gross": -1818,
-        "sold": -75,
-        "totalSeats": 4868,
+        "venues": 4,
+        "shows": 16,
+        "gross": -14460,
+        "sold": -195,
+        "totalSeats": 6048,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": -1.54
+        "occupancy": -3.22
       },
       {
         "chain": "TicketNew",
@@ -509,14 +556,14 @@
       },
       {
         "chain": "Suresh Production",
-        "venues": 2,
-        "shows": 6,
-        "gross": 23924,
-        "sold": 178,
-        "totalSeats": 2360,
+        "venues": 4,
+        "shows": 14,
+        "gross": 87644,
+        "sold": 474,
+        "totalSeats": 5688,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.54
+        "occupancy": 8.33
       },
       {
         "chain": "Cine Prime",
@@ -528,19 +575,41 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 37.43
+      },
+      {
+        "chain": "Cine Square Dolby Atmos",
+        "venues": 1,
+        "shows": 4,
+        "gross": 35280,
+        "sold": 240,
+        "totalSeats": 1504,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.96
+      },
+      {
+        "chain": "Mythri Cinemas Phoenix Mall",
+        "venues": 1,
+        "shows": 6,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1626,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
   "Bison Kaalamaadan [2D | Tamil]": {
     "shows": 14,
-    "gross": 74560,
-    "sold": 464,
+    "gross": 76510,
+    "sold": 475,
     "totalSeats": 5307,
     "venues": 4,
     "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 8.74,
+    "occupancy": 8.95,
     "details": [
       {
         "city": "Tirunelveli",
@@ -559,12 +628,12 @@
         "state": "Tamil Nadu",
         "venues": 2,
         "shows": 8,
-        "gross": 55200,
-        "sold": 358,
+        "gross": 57150,
+        "sold": 369,
         "totalSeats": 2460,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 14.55
+        "occupancy": 15
       }
     ],
     "Chain_details": [
@@ -594,36 +663,36 @@
         "chain": "Sri Balakrishna Talkies",
         "venues": 1,
         "shows": 4,
-        "gross": 29700,
-        "sold": 192,
+        "gross": 31350,
+        "sold": 201,
         "totalSeats": 1264,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 15.19
+        "occupancy": 15.9
       },
       {
         "chain": "New Cleopatra Theatre",
         "venues": 1,
         "shows": 4,
-        "gross": 25500,
-        "sold": 166,
+        "gross": 25800,
+        "sold": 168,
         "totalSeats": 1196,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 13.88
+        "occupancy": 14.05
       }
     ]
   },
   "Dude [2D | Tamil]": {
-    "shows": 3,
-    "gross": 4610,
-    "sold": 11,
-    "totalSeats": 1479,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
+    "shows": 7,
+    "gross": 353810,
+    "sold": 2339,
+    "totalSeats": 4003,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 0.74,
+    "occupancy": 58.43,
     "details": [
       {
         "city": "Tirunelveli",
@@ -636,6 +705,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.74
+      },
+      {
+        "city": "Tirupur",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 349200,
+        "sold": 2328,
+        "totalSeats": 2524,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 92.23
       }
     ],
     "Chain_details": [
@@ -649,31 +730,42 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0.74
+      },
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 4,
+        "gross": 349200,
+        "sold": 2328,
+        "totalSeats": 2524,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 92.23
       }
     ]
   },
   "Mithra Mandali [2D | Telugu]": {
-    "shows": 52,
-    "gross": 473742,
-    "sold": 3654,
-    "totalSeats": 23388,
-    "venues": 13,
+    "shows": 57,
+    "gross": 465474,
+    "sold": 3558,
+    "totalSeats": 24700,
+    "venues": 15,
     "cities": 11,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 15.62,
+    "occupancy": 14.4,
     "details": [
       {
         "city": "Guntur",
         "state": "Andhra Pradesh",
-        "venues": 1,
-        "shows": 4,
+        "venues": 2,
+        "shows": 6,
         "gross": 38808,
         "sold": 264,
-        "totalSeats": 1964,
+        "totalSeats": 2466,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 13.44
+        "occupancy": 10.71
       },
       {
         "city": "Anakapalle",
@@ -774,26 +866,26 @@
       {
         "city": "Vizag",
         "state": "Andhra Pradesh",
-        "venues": 2,
-        "shows": 8,
+        "venues": 3,
+        "shows": 11,
         "gross": 109760,
         "sold": 776,
-        "totalSeats": 3484,
+        "totalSeats": 4390,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 22.27
+        "occupancy": 17.68
       },
       {
         "city": "Payakaraopeta",
         "state": "Andhra Pradesh",
         "venues": 1,
         "shows": 4,
-        "gross": 53764,
-        "sold": 580,
-        "totalSeats": 2288,
+        "gross": 45496,
+        "sold": 484,
+        "totalSeats": 2192,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 25.35
+        "occupancy": 22.08
       }
     ],
     "Chain_details": [
@@ -812,12 +904,12 @@
         "chain": "SVC Sangeetha",
         "venues": 5,
         "shows": 20,
-        "gross": 155762,
-        "sold": 1302,
-        "totalSeats": 10404,
+        "gross": 147494,
+        "sold": 1206,
+        "totalSeats": 10308,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 12.51
+        "occupancy": 11.7
       },
       {
         "chain": "Sangameswara Cinema",
@@ -851,6 +943,28 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 43.77
+      },
+      {
+        "chain": "Mythri Cinemas Phoenix Mall",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 502,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 3,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 906,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -969,15 +1083,15 @@
     ]
   },
   "Kantara: A Legend Chapter-1 [2D | Hindi]": {
-    "shows": 17,
+    "shows": 19,
     "gross": 350460,
     "sold": 3032,
-    "totalSeats": 7827,
+    "totalSeats": 8435,
     "venues": 4,
     "cities": 4,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 38.74,
+    "occupancy": 35.95,
     "details": [
       {
         "city": "Dhule",
@@ -1019,10 +1133,10 @@
         "city": "Korba",
         "state": "Chhattisgarh",
         "venues": 1,
-        "shows": 4,
+        "shows": 6,
         "gross": 0,
         "sold": 0,
-        "totalSeats": 1216,
+        "totalSeats": 1824,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -1065,10 +1179,10 @@
       {
         "chain": "Cineflix Cinema",
         "venues": 1,
-        "shows": 4,
+        "shows": 6,
         "gross": 0,
         "sold": 0,
-        "totalSeats": 1216,
+        "totalSeats": 1824,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -1076,15 +1190,15 @@
     ]
   },
   "They Call Him OG [2D | Telugu]": {
-    "shows": 4,
+    "shows": 5,
     "gross": -56400,
     "sold": -212,
-    "totalSeats": 628,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 930,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": -33.76,
+    "occupancy": -22.8,
     "details": [
       {
         "city": "Eluru",
@@ -1097,6 +1211,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": -33.76
+      },
+      {
+        "city": "Vizag",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 302,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -1110,6 +1236,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": -33.76
+      },
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 302,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -1190,15 +1327,15 @@
     ]
   },
   "Telusu Kada [2D | Telugu]": {
-    "shows": 14,
-    "gross": 118255,
-    "sold": 975,
-    "totalSeats": 4884,
-    "venues": 4,
-    "cities": 3,
+    "shows": 22,
+    "gross": 114118,
+    "sold": 934,
+    "totalSeats": 7180,
+    "venues": 6,
+    "cities": 4,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 19.96,
+    "occupancy": 13.01,
     "details": [
       {
         "city": "Vinjamur",
@@ -1215,14 +1352,14 @@
       {
         "city": "Guntur",
         "state": "Andhra Pradesh",
-        "venues": 2,
-        "shows": 8,
-        "gross": 71215,
-        "sold": 525,
-        "totalSeats": 2312,
+        "venues": 3,
+        "shows": 12,
+        "gross": 72118,
+        "sold": 532,
+        "totalSeats": 3316,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 22.71
+        "occupancy": 16.04
       },
       {
         "city": "Ponnur",
@@ -1235,6 +1372,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 21.61
+      },
+      {
+        "city": "Chilakaluripet",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": -5040,
+        "sold": -48,
+        "totalSeats": 1292,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": -3.72
       }
     ],
     "Chain_details": [
@@ -1253,12 +1402,12 @@
         "chain": "Cine Prime",
         "venues": 1,
         "shows": 4,
-        "gross": 62983,
-        "sold": 469,
+        "gross": 63886,
+        "sold": 476,
         "totalSeats": 1520,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 30.86
+        "occupancy": 31.32
       },
       {
         "chain": "TicketNew",
@@ -1273,14 +1422,25 @@
       },
       {
         "chain": "VCelluloids",
-        "venues": 1,
-        "shows": 4,
-        "gross": 8232,
-        "sold": 56,
-        "totalSeats": 792,
+        "venues": 2,
+        "shows": 8,
+        "gross": 3192,
+        "sold": 8,
+        "totalSeats": 2084,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.07
+        "occupancy": 0.38
+      },
+      {
+        "chain": "Mythri Cinemas Phoenix Mall",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1004,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -1324,26 +1484,26 @@
   },
   "Kantara: A Legend Chapter-1 [IMAX 2D | Tamil]": {
     "shows": 5,
-    "gross": 132453,
-    "sold": 300,
+    "gross": 140841.69,
+    "sold": 319,
     "totalSeats": 2165,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 13.86,
+    "occupancy": 14.73,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
         "venues": 1,
         "shows": 5,
-        "gross": 132453,
-        "sold": 300,
+        "gross": 140841.69,
+        "sold": 319,
         "totalSeats": 2165,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 13.86
+        "occupancy": 14.73
       }
     ],
     "Chain_details": [
@@ -1351,12 +1511,12 @@
         "chain": "PVR",
         "venues": 1,
         "shows": 5,
-        "gross": 132453,
-        "sold": 300,
+        "gross": 140841.69,
+        "sold": 319,
         "totalSeats": 2165,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 13.86
+        "occupancy": 14.73
       }
     ]
   },
@@ -1399,15 +1559,15 @@
     ]
   },
   "Kantara: A Legend Chapter-1  [2D | Malayalam]": {
-    "shows": 3,
+    "shows": 8,
     "gross": 126000,
     "sold": 840,
-    "totalSeats": 1680,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 3290,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 3,
     "housefull": 0,
-    "occupancy": 50,
+    "occupancy": 25.53,
     "details": [
       {
         "city": "Perambra",
@@ -1420,22 +1580,34 @@
         "fastfilling": 3,
         "housefull": 0,
         "occupancy": 50
+      },
+      {
+        "city": "Cheruvathur",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1610,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
       {
         "chain": "TicketNew",
-        "venues": 1,
-        "shows": 3,
+        "venues": 2,
+        "shows": 8,
         "gross": 126000,
         "sold": 840,
-        "totalSeats": 1680,
+        "totalSeats": 3290,
         "fastfilling": 3,
         "housefull": 0,
-        "occupancy": 50
+        "occupancy": 25.53
       }
     ]
   },
   "date": "2025-10-17",
-  "lastUpdated": "03:08 PM, 14 October 2025"
+  "lastUpdated": "04:10 PM, 14 October 2025"
 }
