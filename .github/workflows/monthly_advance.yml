@@ -1,37 +1,35 @@
-name: Monthly Advance Aggregator
+name: Update Monthly Advance Database
 
 on:
   schedule:
-    - cron: "45 18 * * *"  # Runs every day at 12:15 AM IST (18:45 UTC)
-  workflow_dispatch:       # Allows manual run
+    - cron: "*/40 * * * *"
+  workflow_dispatch:
 
 jobs:
-  aggregate:
+  update:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: 🧩 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🐍 Set up Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: |
           pip install requests pytz
 
-      - name: ⚙️ Run monthly aggregation
+      - name: Run update script
         run: python monthly_advance.py
-        env:
-          TZ: Asia/Kolkata
 
-      - name: 🪣 Commit & Push updated files
+      - name: Commit and push changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "Monthly Advance" || true
-          git commit -m "📊 Update monthly advance data [auto]" || echo "No changes to commit"
-          git push origin HEAD:main --force
-
+          git config --global user.name "GitHub Action"
+          git config --global user.email "actions@github.com"
+          git add "Monthly Advance/"
+          git commit -m "Auto update Monthly Advance ($(date +'%Y-%m-%d %H:%M'))" || echo "No changes"
+          git push origin main --force
