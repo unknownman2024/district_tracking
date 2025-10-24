@@ -21,8 +21,8 @@
       "location": 6,
       "showTime": "11:10:00",
       "total": 85,
-      "sold": 0,
-      "gross": 0
+      "sold": 2,
+      "gross": 800
     },
     {
       "programId": 13426,
@@ -209,6 +209,22 @@
       "total": 225,
       "sold": 0,
       "gross": 0
+    },
+    {
+      "programId": 23739,
+      "location": 3,
+      "showTime": "11:15:00",
+      "total": 264,
+      "sold": 2,
+      "gross": 1000
+    },
+    {
+      "programId": 23744,
+      "location": 3,
+      "showTime": "16:30:00",
+      "total": 264,
+      "sold": 2,
+      "gross": 1200
     }
   ],
   "SABA": [
@@ -373,6 +389,38 @@
       "total": 83,
       "sold": 0,
       "gross": 0
+    },
+    {
+      "programId": 23784,
+      "location": 3,
+      "showTime": "11:30:00",
+      "total": 38,
+      "sold": 1,
+      "gross": 1200
+    },
+    {
+      "programId": 23785,
+      "location": 3,
+      "showTime": "14:00:00",
+      "total": 38,
+      "sold": 1,
+      "gross": 1200
+    },
+    {
+      "programId": 23794,
+      "location": 3,
+      "showTime": "16:20:00",
+      "total": 38,
+      "sold": 9,
+      "gross": 13500
+    },
+    {
+      "programId": 23795,
+      "location": 3,
+      "showTime": "19:15:00",
+      "total": 38,
+      "sold": 9,
+      "gross": 13500
     }
   ],
   "One Battle After Another": [
@@ -585,6 +633,46 @@
       "total": 231,
       "sold": 0,
       "gross": 0
+    },
+    {
+      "programId": 23759,
+      "location": 3,
+      "showTime": "11:00:00",
+      "total": 264,
+      "sold": 3,
+      "gross": 1800
+    },
+    {
+      "programId": 23760,
+      "location": 3,
+      "showTime": "13:10:00",
+      "total": 264,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 23769,
+      "location": 3,
+      "showTime": "15:20:00",
+      "total": 264,
+      "sold": 6,
+      "gross": 4200
+    },
+    {
+      "programId": 23770,
+      "location": 3,
+      "showTime": "17:30:00",
+      "total": 264,
+      "sold": 24,
+      "gross": 15400
+    },
+    {
+      "programId": 23771,
+      "location": 3,
+      "showTime": "19:45:00",
+      "total": 264,
+      "sold": 24,
+      "gross": 15400
     }
   ],
   "Chainsaw Man: The Movie - Reze Arc (2D)": [
@@ -625,16 +713,32 @@
       "location": 2,
       "showTime": "14:10:00",
       "total": 221,
-      "sold": 11,
-      "gross": 4950
+      "sold": 13,
+      "gross": 5850
     },
     {
       "programId": 26772,
       "location": 2,
       "showTime": "19:15:00",
       "total": 221,
-      "sold": 0,
-      "gross": 0
+      "sold": 10,
+      "gross": 5000
+    },
+    {
+      "programId": 23749,
+      "location": 3,
+      "showTime": "14:15:00",
+      "total": 264,
+      "sold": 2,
+      "gross": 1000
+    },
+    {
+      "programId": 23754,
+      "location": 3,
+      "showTime": "19:30:00",
+      "total": 264,
+      "sold": 26,
+      "gross": 14200
     }
   ]
 }
