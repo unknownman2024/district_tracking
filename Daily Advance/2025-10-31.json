@@ -1,75 +1,98 @@
 {
   "Baahubali The Epic  [2D | Telugu]": {
-    "shows": 4,
-    "gross": 296375,
-    "sold": 1874,
-    "totalSeats": 2584,
-    "venues": 2,
-    "cities": 1,
-    "fastfilling": 1,
-    "housefull": 1,
-    "occupancy": 72.52,
+    "shows": 17,
+    "gross": 1212870,
+    "sold": 6929,
+    "totalSeats": 11759,
+    "venues": 4,
+    "cities": 2,
+    "fastfilling": 6,
+    "housefull": 0,
+    "occupancy": 58.93,
     "details": [
       {
         "city": "Hyderabad",
         "state": "Telangana",
-        "venues": 2,
+        "venues": 3,
+        "shows": 13,
+        "gross": 1137370,
+        "sold": 6525,
+        "totalSeats": 9683,
+        "fastfilling": 6,
+        "housefull": 0,
+        "occupancy": 67.39
+      },
+      {
+        "city": "Karimnagar",
+        "state": "Telangana",
+        "venues": 1,
         "shows": 4,
-        "gross": 296375,
-        "sold": 1874,
-        "totalSeats": 2584,
-        "fastfilling": 1,
-        "housefull": 1,
-        "occupancy": 72.52
+        "gross": 75500,
+        "sold": 404,
+        "totalSeats": 2076,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.46
       }
     ],
     "Chain_details": [
       {
         "chain": "Mythri Theatres",
-        "venues": 1,
-        "shows": 2,
-        "gross": 249975,
-        "sold": 1658,
-        "totalSeats": 1690,
-        "fastfilling": 1,
-        "housefull": 1,
-        "occupancy": 98.11
+        "venues": 2,
+        "shows": 6,
+        "gross": 309470,
+        "sold": 1959,
+        "totalSeats": 3766,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 52.02
       },
       {
         "chain": "Asian Mukta A2",
         "venues": 1,
-        "shows": 2,
-        "gross": 46400,
-        "sold": 216,
-        "totalSeats": 894,
+        "shows": 7,
+        "gross": 146600,
+        "sold": 680,
+        "totalSeats": 3129,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 24.16
+        "occupancy": 21.73
+      },
+      {
+        "chain": "Sudarshan",
+        "venues": 1,
+        "shows": 4,
+        "gross": 756800,
+        "sold": 4290,
+        "totalSeats": 4864,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 88.2
       }
     ]
   },
   "Roi Roi Binale [2D | Assamese]": {
-    "shows": 170,
-    "gross": 7575880.539999999,
-    "sold": 24362,
-    "totalSeats": 31945,
-    "venues": 27,
+    "shows": 172,
+    "gross": 7769872.779999999,
+    "sold": 25141,
+    "totalSeats": 32209,
+    "venues": 28,
     "cities": 17,
-    "fastfilling": 107,
-    "housefull": 35,
-    "occupancy": 76.26,
+    "fastfilling": 102,
+    "housefull": 45,
+    "occupancy": 78.06,
     "details": [
       {
         "city": "Bengaluru",
         "state": "Karnataka",
-        "venues": 2,
-        "shows": 5,
-        "gross": 105640,
-        "sold": 386,
-        "totalSeats": 774,
+        "venues": 3,
+        "shows": 7,
+        "gross": 110942,
+        "sold": 415,
+        "totalSeats": 1068,
         "fastfilling": 3,
         "housefull": 0,
-        "occupancy": 49.87
+        "occupancy": 38.86
       },
       {
         "city": "Gurgaon",
@@ -88,12 +111,12 @@
         "state": "Assam",
         "venues": 8,
         "shows": 90,
-        "gross": 4957990,
-        "sold": 13238,
-        "totalSeats": 15746,
-        "fastfilling": 69,
-        "housefull": 17,
-        "occupancy": 84.07
+        "gross": 5000760,
+        "sold": 13359,
+        "totalSeats": 15716,
+        "fastfilling": 65,
+        "housefull": 21,
+        "occupancy": 85
       },
       {
         "city": "Navi Mumbai",
@@ -112,7 +135,7 @@
         "state": "Delhi",
         "venues": 1,
         "shows": 2,
-        "gross": 88740,
+        "gross": 100820,
         "sold": 225,
         "totalSeats": 318,
         "fastfilling": 1,
@@ -124,48 +147,48 @@
         "state": "Uttar Pradesh",
         "venues": 1,
         "shows": 2,
-        "gross": 29840,
-        "sold": 104,
+        "gross": 31270,
+        "sold": 109,
         "totalSeats": 510,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 20.39
+        "occupancy": 21.37
       },
       {
         "city": "Pune",
         "state": "Maharashtra",
         "venues": 2,
         "shows": 2,
-        "gross": 15870,
-        "sold": 55,
+        "gross": 19290,
+        "sold": 67,
         "totalSeats": 296,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 18.58
+        "occupancy": 22.64
       },
       {
         "city": "Dibrugarh",
         "state": "Assam",
         "venues": 1,
         "shows": 12,
-        "gross": 1014040,
-        "sold": 3253,
+        "gross": 1024020,
+        "sold": 3305,
         "totalSeats": 3336,
-        "fastfilling": 5,
-        "housefull": 7,
-        "occupancy": 97.51
+        "fastfilling": 1,
+        "housefull": 11,
+        "occupancy": 99.07
       },
       {
         "city": "Golaghat",
         "state": "Assam",
         "venues": 1,
         "shows": 4,
-        "gross": 55230.54,
-        "sold": 361,
+        "gross": 72180.78,
+        "sold": 471,
         "totalSeats": 880,
-        "fastfilling": 2,
+        "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 41.02
+        "occupancy": 53.52
       },
       {
         "city": "Jorhat",
@@ -184,60 +207,60 @@
         "state": "Assam",
         "venues": 2,
         "shows": 10,
-        "gross": 250900,
-        "sold": 1856,
+        "gross": 251900,
+        "sold": 1866,
         "totalSeats": 1920,
-        "fastfilling": 7,
-        "housefull": 3,
-        "occupancy": 96.67
+        "fastfilling": 6,
+        "housefull": 4,
+        "occupancy": 97.19
       },
       {
         "city": "Mumbai",
         "state": "Maharashtra",
         "venues": 1,
         "shows": 1,
-        "gross": 1620,
-        "sold": 6,
+        "gross": 3780,
+        "sold": 14,
         "totalSeats": 198,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.03
+        "occupancy": 7.07
       },
       {
         "city": "Sonari",
         "state": "Assam",
         "venues": 1,
         "shows": 6,
-        "gross": 117650,
-        "sold": 621,
+        "gross": 136250,
+        "sold": 728,
         "totalSeats": 1080,
-        "fastfilling": 5,
+        "fastfilling": 6,
         "housefull": 0,
-        "occupancy": 57.5
+        "occupancy": 67.41
       },
       {
         "city": "Tinsukia",
         "state": "Assam",
         "venues": 1,
         "shows": 11,
-        "gross": 469720,
-        "sold": 1611,
+        "gross": 535190,
+        "sold": 1827,
         "totalSeats": 2942,
-        "fastfilling": 2,
+        "fastfilling": 4,
         "housefull": 2,
-        "occupancy": 54.76
+        "occupancy": 62.1
       },
       {
         "city": "Dhekiajuli",
         "state": "Assam",
         "venues": 1,
         "shows": 7,
-        "gross": 131460,
-        "sold": 695,
+        "gross": 143270,
+        "sold": 758,
         "totalSeats": 1260,
         "fastfilling": 5,
         "housefull": 0,
-        "occupancy": 55.16
+        "occupancy": 60.16
       },
       {
         "city": "Narayanapur",
@@ -256,58 +279,58 @@
         "state": "Assam",
         "venues": 1,
         "shows": 6,
-        "gross": 129240,
-        "sold": 1082,
+        "gross": 132260,
+        "sold": 1128,
         "totalSeats": 1164,
-        "fastfilling": 4,
-        "housefull": 2,
-        "occupancy": 92.96
+        "fastfilling": 3,
+        "housefull": 3,
+        "occupancy": 96.91
       }
     ],
     "Chain_details": [
       {
         "chain": "Cinepolis",
-        "venues": 10,
-        "shows": 33,
-        "gross": 1635180,
-        "sold": 4239,
-        "totalSeats": 6358,
-        "fastfilling": 22,
-        "housefull": 1,
-        "occupancy": 66.67
+        "venues": 11,
+        "shows": 35,
+        "gross": 1675902,
+        "sold": 4320,
+        "totalSeats": 6656,
+        "fastfilling": 21,
+        "housefull": 2,
+        "occupancy": 64.9
       },
       {
         "chain": "PVR",
         "venues": 4,
         "shows": 48,
-        "gross": 2335180,
-        "sold": 5416,
-        "totalSeats": 6813,
+        "gross": 2341940,
+        "sold": 5411,
+        "totalSeats": 6779,
         "fastfilling": 37,
         "housefull": 8,
-        "occupancy": 79.5
+        "occupancy": 79.82
       },
       {
         "chain": "Galleria",
         "venues": 3,
         "shows": 29,
-        "gross": 1784360,
-        "sold": 6370,
+        "gross": 1861310,
+        "sold": 6648,
         "totalSeats": 7808,
-        "fastfilling": 9,
-        "housefull": 13,
-        "occupancy": 81.58
+        "fastfilling": 6,
+        "housefull": 18,
+        "occupancy": 85.14
       },
       {
         "chain": "Gold",
         "venues": 3,
         "shows": 14,
-        "gross": 282730.54000000004,
-        "sold": 1891,
+        "gross": 312190.78,
+        "sold": 2078,
         "totalSeats": 2842,
-        "fastfilling": 7,
-        "housefull": 4,
-        "occupancy": 66.54
+        "fastfilling": 6,
+        "housefull": 7,
+        "occupancy": 73.12
       },
       {
         "chain": "Carnival",
@@ -324,45 +347,45 @@
         "chain": "NY ",
         "venues": 1,
         "shows": 4,
-        "gross": 443180,
-        "sold": 854,
+        "gross": 448850,
+        "sold": 866,
         "totalSeats": 1000,
         "fastfilling": 3,
         "housefull": 1,
-        "occupancy": 85.4
+        "occupancy": 86.6
       },
       {
         "chain": "Biswa Talkies",
         "venues": 1,
         "shows": 5,
-        "gross": 148050,
-        "sold": 1087,
+        "gross": 149050,
+        "sold": 1097,
         "totalSeats": 1130,
         "fastfilling": 5,
         "housefull": 0,
-        "occupancy": 96.19
+        "occupancy": 97.08
       },
       {
         "chain": "Kalpana Cine World",
         "venues": 1,
         "shows": 6,
-        "gross": 117650,
-        "sold": 621,
+        "gross": 136250,
+        "sold": 728,
         "totalSeats": 1080,
-        "fastfilling": 5,
+        "fastfilling": 6,
         "housefull": 0,
-        "occupancy": 57.5
+        "occupancy": 67.41
       },
       {
         "chain": "Justickets",
         "venues": 1,
         "shows": 7,
-        "gross": 131460,
-        "sold": 695,
+        "gross": 143270,
+        "sold": 758,
         "totalSeats": 1260,
         "fastfilling": 5,
         "housefull": 0,
-        "occupancy": 55.16
+        "occupancy": 60.16
       },
       {
         "chain": "Chhotu Maharaj",
@@ -379,12 +402,12 @@
         "chain": "Dream Theatre",
         "venues": 1,
         "shows": 6,
-        "gross": 129240,
-        "sold": 1082,
+        "gross": 132260,
+        "sold": 1128,
         "totalSeats": 1164,
-        "fastfilling": 4,
-        "housefull": 2,
-        "occupancy": 92.96
+        "fastfilling": 3,
+        "housefull": 3,
+        "occupancy": 96.91
       }
     ]
   },
@@ -538,15 +561,15 @@
     ]
   },
   "Misri [2D | Gujarati]": {
-    "shows": 5,
-    "gross": 60270,
-    "sold": 287,
-    "totalSeats": 1576,
-    "venues": 2,
-    "cities": 2,
+    "shows": 9,
+    "gross": 62970,
+    "sold": 293,
+    "totalSeats": 2378,
+    "venues": 3,
+    "cities": 3,
     "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 18.21,
+    "occupancy": 12.32,
     "details": [
       {
         "city": "Bhavnagar",
@@ -571,6 +594,18 @@
         "fastfilling": 1,
         "housefull": 0,
         "occupancy": 34.25
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 4,
+        "gross": 2700,
+        "sold": 6,
+        "totalSeats": 802,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.75
       }
     ],
     "Chain_details": [
@@ -595,6 +630,17 @@
         "fastfilling": 1,
         "housefull": 0,
         "occupancy": 34.25
+      },
+      {
+        "chain": "NY ",
+        "venues": 1,
+        "shows": 4,
+        "gross": 2700,
+        "sold": 6,
+        "totalSeats": 802,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.75
       }
     ]
   },
@@ -850,5 +896,5 @@
     ]
   },
   "date": "2025-10-31",
-  "lastUpdated": "10:36 AM, 25 October 2025"
+  "lastUpdated": "11:07 AM, 25 October 2025"
 }
