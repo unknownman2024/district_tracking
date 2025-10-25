@@ -10,7 +10,7 @@ dayjs.extend(timezone);
 // Today +1 day (IST)
 const DATE1 = dayjs().tz("Asia/Kolkata").add(1, "day").format("YYYY-MM-DD");
 const DATE = "2025-10-31";
-const API_URL = "https://districtvenues.text2027mail.workers.dev/?cinema_id={cid}&date={date}";
+const API_URL = "https://districtvenues.text2029mail.workers.dev/?cinema_id={cid}&date={date}";
 const VENUES = JSON.parse(fs.readFileSync("districtvenues.json", "utf-8"));
 
 // ---- Helpers ----
