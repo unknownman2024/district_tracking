@@ -1749,11 +1749,11 @@
       "chain": "PVR",
       "time": "01:15 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 173,
+      "totalSeats": 165,
       "available": 165,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "4.62%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -1972,11 +1972,11 @@
       "chain": "Sudarshan",
       "time": "01:30 PM",
       "audi": "SUDARSHAN 35MM-RTC CROSS ROAD HYD",
-      "totalSeats": 1216,
-      "available": 4,
-      "sold": 1212,
-      "gross": 211350,
-      "occupancy": "99.67%"
+      "totalSeats": 167,
+      "available": 3,
+      "sold": 164,
+      "gross": 26600,
+      "occupancy": "98.20%"
     },
     {
       "city": "Hyderabad",
@@ -1986,10 +1986,10 @@
       "time": "06:00 PM",
       "audi": "SUDARSHAN 35MM-RTC CROSS ROAD HYD",
       "totalSeats": 1216,
-      "available": 13,
-      "sold": 1203,
-      "gross": 209850,
-      "occupancy": "98.93%"
+      "available": 11,
+      "sold": 1205,
+      "gross": 210050,
+      "occupancy": "99.10%"
     },
     {
       "city": "Hyderabad",
@@ -1998,11 +1998,11 @@
       "chain": "Sudarshan",
       "time": "09:00 AM",
       "audi": "SUDARSHAN 35MM-RTC CROSS ROAD HYD",
-      "totalSeats": 167,
+      "totalSeats": 1216,
       "available": 5,
-      "sold": 162,
-      "gross": 26250,
-      "occupancy": "97.01%"
+      "sold": 1211,
+      "gross": 211150,
+      "occupancy": "99.59%"
     },
     {
       "city": "Hyderabad",
@@ -2831,10 +2831,10 @@
       "time": "03:20 PM",
       "audi": "SCREEN 1",
       "totalSeats": 510,
-      "available": 169,
-      "sold": 341,
-      "gross": 60465.490000000005,
-      "occupancy": "66.86%"
+      "available": 166,
+      "sold": 344,
+      "gross": 61072.96000000001,
+      "occupancy": "67.45%"
     },
     {
       "city": "Chennai",
@@ -2857,10 +2857,10 @@
       "time": "10:30 AM",
       "audi": "SCREEN 3",
       "totalSeats": 230,
-      "available": 189,
-      "sold": 41,
-      "gross": 4868.65,
-      "occupancy": "17.83%"
+      "available": 187,
+      "sold": 43,
+      "gross": 5273.63,
+      "occupancy": "18.70%"
     },
     {
       "city": "Dehradun",
@@ -6237,10 +6237,10 @@
       "time": "09:20 AM",
       "audi": "AUDI 3",
       "totalSeats": 244,
-      "available": 229,
-      "sold": 15,
-      "gross": 4150,
-      "occupancy": "6.15%"
+      "available": 227,
+      "sold": 17,
+      "gross": 4650,
+      "occupancy": "6.97%"
     },
     {
       "city": "Hyderabad",
@@ -6250,10 +6250,10 @@
       "time": "01:40 PM",
       "audi": "AUDI 3",
       "totalSeats": 244,
-      "available": 212,
-      "sold": 32,
-      "gross": 8300,
-      "occupancy": "13.11%"
+      "available": 210,
+      "sold": 34,
+      "gross": 8800,
+      "occupancy": "13.93%"
     },
     {
       "city": "Hyderabad",
@@ -6263,10 +6263,10 @@
       "time": "06:00 PM",
       "audi": "AUDI 3",
       "totalSeats": 244,
-      "available": 221,
-      "sold": 23,
-      "gross": 6550,
-      "occupancy": "9.43%"
+      "available": 219,
+      "sold": 25,
+      "gross": 7250,
+      "occupancy": "10.25%"
     },
     {
       "city": "Hyderabad",
@@ -9556,6 +9556,58 @@
       "sold": 10,
       "gross": 2500,
       "occupancy": "15.38%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "06:05 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 293,
+      "available": 293,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "09:15 AM",
+      "audi": "AUDI 04",
+      "totalSeats": 322,
+      "available": 322,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "09:10 AM",
+      "audi": "AUDI 04",
+      "totalSeats": 161,
+      "available": 161,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "06:00 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 161,
+      "available": 161,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Mass Jathara [2D | Telugu]": [
@@ -14337,11 +14389,11 @@
       "chain": "PVR",
       "time": "10:20 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 212,
+      "totalSeats": 204,
       "available": 204,
-      "sold": 8,
-      "gross": 2080,
-      "occupancy": "3.77%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -14350,11 +14402,11 @@
       "chain": "PVR",
       "time": "01:20 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 212,
+      "totalSeats": 204,
       "available": 204,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "3.77%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -14363,11 +14415,11 @@
       "chain": "PVR",
       "time": "07:20 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 212,
+      "totalSeats": 204,
       "available": 204,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "3.77%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -14376,11 +14428,11 @@
       "chain": "PVR",
       "time": "10:20 AM",
       "audi": "SCREEN 1",
-      "totalSeats": 212,
+      "totalSeats": 204,
       "available": 204,
-      "sold": 8,
-      "gross": 1920,
-      "occupancy": "3.77%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -14389,11 +14441,11 @@
       "chain": "PVR",
       "time": "04:20 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 212,
+      "totalSeats": 204,
       "available": 204,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "3.77%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -14467,11 +14519,11 @@
       "chain": "PVR",
       "time": "09:15 AM",
       "audi": "SCREEN 5",
-      "totalSeats": 209,
-      "available": 190,
-      "sold": 19,
-      "gross": 5100,
-      "occupancy": "9.09%"
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Navi Mumbai",
@@ -14768,6 +14820,136 @@
       "audi": "SCREEN 7",
       "totalSeats": 99,
       "available": 99,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "03:05 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 293,
+      "available": 293,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "12:05 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 293,
+      "available": 293,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "09:05 AM",
+      "audi": "AUDI 07",
+      "totalSeats": 293,
+      "available": 293,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 293,
+      "available": 293,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "07:20 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 245,
+      "available": 245,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "11:40 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "09:05 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 309,
+      "available": 309,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "06:20 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "09:05 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -16551,11 +16733,11 @@
       "chain": "PVR",
       "time": "10:15 AM",
       "audi": "SCREEN 3",
-      "totalSeats": 178,
+      "totalSeats": 170,
       "available": 170,
-      "sold": 8,
-      "gross": 1920,
-      "occupancy": "4.49%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -16564,11 +16746,24 @@
       "chain": "PVR",
       "time": "04:15 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 178,
+      "totalSeats": 170,
       "available": 170,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "4.49%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Thamma [2D | Hindi]": [
@@ -26421,10 +26616,10 @@
       "time": "03:50 PM",
       "audi": "Audi 9 Atmos",
       "totalSeats": 218,
-      "available": 207,
-      "sold": 11,
-      "gross": 4840,
-      "occupancy": "5.05%"
+      "available": 209,
+      "sold": 9,
+      "gross": 3960,
+      "occupancy": "4.13%"
     },
     {
       "city": "New Delhi",
@@ -32674,10 +32869,10 @@
       "time": "10:50 AM",
       "audi": "SCREEN 1",
       "totalSeats": 196,
-      "available": 196,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 194,
+      "sold": 2,
+      "gross": 360,
+      "occupancy": "1.02%"
     },
     {
       "city": "Daporijo",
@@ -36911,11 +37106,11 @@
       "chain": "PVR",
       "time": "10:10 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 178,
+      "totalSeats": 170,
       "available": 170,
-      "sold": 8,
-      "gross": 2080,
-      "occupancy": "4.49%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -36924,11 +37119,11 @@
       "chain": "PVR",
       "time": "10:10 AM",
       "audi": "SCREEN 4",
-      "totalSeats": 173,
+      "totalSeats": 165,
       "available": 165,
-      "sold": 8,
-      "gross": 1920,
-      "occupancy": "4.62%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -36937,11 +37132,11 @@
       "chain": "PVR",
       "time": "04:20 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 173,
+      "totalSeats": 165,
       "available": 165,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "4.62%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -36950,11 +37145,11 @@
       "chain": "PVR",
       "time": "01:10 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 178,
+      "totalSeats": 170,
       "available": 170,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "4.49%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -37340,11 +37535,11 @@
       "chain": "PVR",
       "time": "10:10 PM",
       "audi": "AUDI 02",
-      "totalSeats": 247,
-      "available": 223,
-      "sold": 24,
-      "gross": 6000,
-      "occupancy": "9.72%"
+      "totalSeats": 227,
+      "available": 227,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -37353,11 +37548,11 @@
       "chain": "PVR",
       "time": "03:50 PM",
       "audi": "AUDI 02",
-      "totalSeats": 247,
-      "available": 223,
-      "sold": 24,
-      "gross": 5760,
-      "occupancy": "9.72%"
+      "totalSeats": 227,
+      "available": 227,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -37366,11 +37561,11 @@
       "chain": "PVR",
       "time": "09:40 AM",
       "audi": "AUDI 02",
-      "totalSeats": 247,
-      "available": 223,
-      "sold": 24,
-      "gross": 4560,
-      "occupancy": "9.72%"
+      "totalSeats": 227,
+      "available": 227,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -37379,11 +37574,11 @@
       "chain": "PVR",
       "time": "07:00 PM",
       "audi": "AUDI 02",
-      "totalSeats": 247,
-      "available": 223,
-      "sold": 24,
-      "gross": 6000,
-      "occupancy": "9.72%"
+      "totalSeats": 227,
+      "available": 227,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -37418,11 +37613,11 @@
       "chain": "PVR",
       "time": "10:00 AM",
       "audi": "SCREEN 1",
-      "totalSeats": 209,
-      "available": 191,
-      "sold": 18,
-      "gross": 4620,
-      "occupancy": "8.61%"
+      "totalSeats": 195,
+      "available": 195,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -37431,11 +37626,11 @@
       "chain": "PVR",
       "time": "01:10 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 209,
-      "available": 191,
-      "sold": 18,
-      "gross": 6240,
-      "occupancy": "8.61%"
+      "totalSeats": 195,
+      "available": 195,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -37444,11 +37639,11 @@
       "chain": "PVR",
       "time": "04:20 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 209,
-      "available": 191,
-      "sold": 18,
-      "gross": 7140,
-      "occupancy": "8.61%"
+      "totalSeats": 195,
+      "available": 195,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -37457,11 +37652,11 @@
       "chain": "PVR",
       "time": "07:30 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 209,
-      "available": 191,
-      "sold": 18,
-      "gross": 7140,
-      "occupancy": "8.61%"
+      "totalSeats": 195,
+      "available": 195,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -37470,11 +37665,11 @@
       "chain": "PVR",
       "time": "10:40 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 209,
-      "available": 191,
-      "sold": 18,
-      "gross": 7140,
-      "occupancy": "8.61%"
+      "totalSeats": 195,
+      "available": 195,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -38354,11 +38549,11 @@
       "chain": "MovieMax",
       "time": "12:45 PM",
       "audi": "SCREEN 7",
-      "totalSeats": 286,
+      "totalSeats": 283,
       "available": 283,
-      "sold": 3,
-      "gross": 590,
-      "occupancy": "1.05%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -38367,11 +38562,11 @@
       "chain": "MovieMax",
       "time": "09:45 AM",
       "audi": "SCREEN 7",
-      "totalSeats": 286,
+      "totalSeats": 283,
       "available": 283,
-      "sold": 3,
-      "gross": 450,
-      "occupancy": "1.05%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -38380,11 +38575,11 @@
       "chain": "MovieMax",
       "time": "03:45 PM",
       "audi": "SCREEN 7",
-      "totalSeats": 286,
+      "totalSeats": 283,
       "available": 283,
-      "sold": 3,
-      "gross": 690,
-      "occupancy": "1.05%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -38445,11 +38640,11 @@
       "chain": "MovieMax",
       "time": "09:45 PM",
       "audi": "SCREEN 7",
-      "totalSeats": 286,
+      "totalSeats": 283,
       "available": 283,
-      "sold": 3,
-      "gross": 770,
-      "occupancy": "1.05%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -38458,11 +38653,11 @@
       "chain": "MovieMax",
       "time": "06:45 PM",
       "audi": "SCREEN 7",
-      "totalSeats": 286,
+      "totalSeats": 283,
       "available": 283,
-      "sold": 3,
-      "gross": 770,
-      "occupancy": "1.05%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Udaipur",
@@ -38853,6 +39048,591 @@
       "sold": 13,
       "gross": 2990,
       "occupancy": "5.99%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:20 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 245,
+      "available": 245,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "06:55 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 24,
+      "available": 24,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:00 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 245,
+      "available": 245,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "12:00 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "05:00 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 30,
+      "available": 30,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 30,
+      "available": 30,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "03:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "06:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "09:00 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "12:15 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "07:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "04:25 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "01:10 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "11:15 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "10:15 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "12:30 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "09:15 AM",
+      "audi": "AUDI 06",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "07:00 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "03:45 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "12:45 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 281,
+      "available": 281,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "09:30 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 281,
+      "available": 281,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "04:00 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 281,
+      "available": 281,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 281,
+      "available": 281,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 281,
+      "available": 281,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "10:55 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "09:45 AM",
+      "audi": "AUDI 01",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "12:55 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "10:25 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:30 AM",
+      "audi": "AUDI 3",
+      "totalSeats": 272,
+      "available": 263,
+      "sold": 9,
+      "gross": 1700,
+      "occupancy": "3.31%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:50 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 272,
+      "available": 263,
+      "sold": 9,
+      "gross": 2150,
+      "occupancy": "3.31%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "06:45 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 272,
+      "available": 263,
+      "sold": 9,
+      "gross": 2150,
+      "occupancy": "3.31%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "03:40 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 272,
+      "available": 263,
+      "sold": 9,
+      "gross": 1970,
+      "occupancy": "3.31%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "12:35 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 272,
+      "available": 263,
+      "sold": 9,
+      "gross": 1970,
+      "occupancy": "3.31%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "03:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 6270,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "12:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 5610,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "10:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 6930,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "09:45 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 4290,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "02:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "09:30 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "08:15 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "The Taj Story [2D | Hindi]": [
@@ -39436,10 +40216,10 @@
       "time": "01:05 PM",
       "audi": "SCREEN 3",
       "totalSeats": 183,
-      "available": 183,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 181,
+      "sold": 2,
+      "gross": 400,
+      "occupancy": "1.09%"
     },
     {
       "city": "Chennai",
@@ -39657,10 +40437,10 @@
       "time": "12:35 PM",
       "audi": "AUDI 4",
       "totalSeats": 164,
-      "available": 158,
-      "sold": 6,
-      "gross": 1320,
-      "occupancy": "3.66%"
+      "available": 154,
+      "sold": 10,
+      "gross": 2200,
+      "occupancy": "6.10%"
     },
     {
       "city": "Jalandhar",
@@ -41957,11 +42737,11 @@
       "chain": "PVR",
       "time": "06:50 PM",
       "audi": "SCREEN 2",
-      "totalSeats": 209,
-      "available": 191,
-      "sold": 18,
-      "gross": 7140,
-      "occupancy": "8.61%"
+      "totalSeats": 195,
+      "available": 195,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -42170,6 +42950,136 @@
       "sold": 6,
       "gross": 1800,
       "occupancy": "16.67%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "01:10 PM",
+      "audi": "SCREEN 10",
+      "totalSeats": 132,
+      "available": 132,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "01:25 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 152,
+      "available": 152,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:35 AM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 30,
+      "available": 30,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "06:05 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "04:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 309,
+      "available": 309,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "11:00 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "07:00 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 267,
+      "available": 257,
+      "sold": 10,
+      "gross": 2400,
+      "occupancy": "3.75%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "01:10 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 267,
+      "available": 257,
+      "sold": 10,
+      "gross": 2200,
+      "occupancy": "3.75%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "12:25 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Ek Deewane Ki Deewaniyat [2D | Hindi]": [
@@ -44768,10 +45678,10 @@
       "time": "04:35 PM",
       "audi": "SCREEN 1",
       "totalSeats": 137,
-      "available": 137,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 135,
+      "sold": 2,
+      "gross": 880,
+      "occupancy": "1.46%"
     },
     {
       "city": "Gurgaon",
@@ -45561,10 +46471,10 @@
       "time": "06:45 PM",
       "audi": "AUDI 2",
       "totalSeats": 242,
-      "available": 230,
-      "sold": 12,
-      "gross": 3360,
-      "occupancy": "4.96%"
+      "available": 232,
+      "sold": 10,
+      "gross": 2800,
+      "occupancy": "4.13%"
     },
     {
       "city": "Jaipur",
@@ -46458,10 +47368,10 @@
       "time": "04:30 PM",
       "audi": "SCREEN 4",
       "totalSeats": 197,
-      "available": 193,
-      "sold": 4,
-      "gross": 1420,
-      "occupancy": "2.03%"
+      "available": 191,
+      "sold": 6,
+      "gross": 1940,
+      "occupancy": "3.05%"
     },
     {
       "city": "Kolkata",
@@ -47069,10 +47979,10 @@
       "time": "11:30 AM",
       "audi": "SCREEN5",
       "totalSeats": 225,
-      "available": 221,
-      "sold": 4,
-      "gross": 920,
-      "occupancy": "1.78%"
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Lucknow",
@@ -48148,10 +49058,10 @@
       "time": "10:00 AM",
       "audi": "SCREEN 1",
       "totalSeats": 131,
-      "available": 131,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 129,
+      "sold": 2,
+      "gross": 380,
+      "occupancy": "1.53%"
     },
     {
       "city": "Mumbai",
@@ -49448,10 +50358,10 @@
       "time": "01:05 PM",
       "audi": "AUDI 4",
       "totalSeats": 155,
-      "available": 145,
-      "sold": 10,
-      "gross": 2900,
-      "occupancy": "6.45%"
+      "available": 143,
+      "sold": 12,
+      "gross": 3520,
+      "occupancy": "7.74%"
     },
     {
       "city": "New Delhi",
@@ -52412,10 +53322,10 @@
       "time": "12:20 PM",
       "audi": "SCREEN 3",
       "totalSeats": 184,
-      "available": 184,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 183,
+      "sold": 1,
+      "gross": 360,
+      "occupancy": "0.54%"
     },
     {
       "city": "Udaipur",
@@ -55805,10 +56715,10 @@
       "time": "06:45 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 692,
-      "sold": 170,
-      "gross": 46400,
-      "occupancy": "19.72%"
+      "available": 689,
+      "sold": 173,
+      "gross": 47300,
+      "occupancy": "20.07%"
     },
     {
       "city": "Kalyan",
@@ -58950,11 +59860,11 @@
       "chain": "PVR",
       "time": "07:10 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 178,
+      "totalSeats": 170,
       "available": 170,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "4.49%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -59288,11 +60198,11 @@
       "chain": "PVR",
       "time": "12:50 PM",
       "audi": "AUDI 02",
-      "totalSeats": 247,
-      "available": 223,
-      "sold": 24,
-      "gross": 5280,
-      "occupancy": "9.72%"
+      "totalSeats": 227,
+      "available": 227,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -59366,11 +60276,11 @@
       "chain": "PVR",
       "time": "10:45 AM",
       "audi": "SCREEN 3",
-      "totalSeats": 209,
-      "available": 187,
-      "sold": 22,
-      "gross": 6540,
-      "occupancy": "10.53%"
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -59379,11 +60289,11 @@
       "chain": "PVR",
       "time": "10:00 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 209,
-      "available": 187,
-      "sold": 22,
-      "gross": 9820,
-      "occupancy": "10.53%"
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -60185,11 +61095,11 @@
       "chain": "MovieMax",
       "time": "03:15 PM",
       "audi": "SCREEN 6",
-      "totalSeats": 215,
+      "totalSeats": 211,
       "available": 211,
-      "sold": 4,
-      "gross": 920,
-      "occupancy": "1.86%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -60224,11 +61134,11 @@
       "chain": "MovieMax",
       "time": "09:45 AM",
       "audi": "SCREEN 6",
-      "totalSeats": 215,
+      "totalSeats": 211,
       "available": 211,
-      "sold": 4,
-      "gross": 600,
-      "occupancy": "1.86%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -60237,11 +61147,11 @@
       "chain": "MovieMax",
       "time": "12:30 PM",
       "audi": "SCREEN 6",
-      "totalSeats": 215,
+      "totalSeats": 211,
       "available": 211,
-      "sold": 4,
-      "gross": 840,
-      "occupancy": "1.86%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -60250,11 +61160,11 @@
       "chain": "MovieMax",
       "time": "06:00 PM",
       "audi": "SCREEN 6",
-      "totalSeats": 215,
+      "totalSeats": 211,
       "available": 211,
-      "sold": 4,
-      "gross": 1080,
-      "occupancy": "1.86%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -60263,11 +61173,11 @@
       "chain": "MovieMax",
       "time": "11:30 PM",
       "audi": "SCREEN 6",
-      "totalSeats": 215,
+      "totalSeats": 211,
       "available": 211,
-      "sold": 4,
-      "gross": 1080,
-      "occupancy": "1.86%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Udaipur",
@@ -60502,6 +61412,500 @@
       "sold": 19,
       "gross": 3230,
       "occupancy": "10.92%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "02:00 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 30,
+      "available": 30,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "07:25 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "04:20 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "09:45 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "12:50 PM",
+      "audi": "INSIGNIA 4",
+      "totalSeats": 20,
+      "available": 20,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:10 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "01:25 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "07:40 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "04:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "10:25 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "09:30 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "03:05 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "07:45 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 113,
+      "available": 113,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "01:10 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 113,
+      "available": 113,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 113,
+      "available": 113,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "10:30 AM",
+      "audi": "AUDI 01",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "07:40 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 352,
+      "available": 352,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "04:35 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 352,
+      "available": 352,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 352,
+      "available": 352,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "10:25 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 352,
+      "available": 352,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 352,
+      "available": 352,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "04:25 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "09:00 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "07:05 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "01:20 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "10:00 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "03:20 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "07:20 PM",
+      "audi": "AUDI 4",
+      "totalSeats": 260,
+      "available": 250,
+      "sold": 10,
+      "gross": 2400,
+      "occupancy": "3.85%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:45 AM",
+      "audi": "AUDI 4",
+      "totalSeats": 260,
+      "available": 250,
+      "sold": 10,
+      "gross": 1900,
+      "occupancy": "3.85%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "12:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 239,
+      "available": 218,
+      "sold": 21,
+      "gross": 3570,
+      "occupancy": "8.79%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "09:50 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 239,
+      "available": 218,
+      "sold": 21,
+      "gross": 2730,
+      "occupancy": "8.79%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "10:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 239,
+      "available": 218,
+      "sold": 21,
+      "gross": 4410,
+      "occupancy": "8.79%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "05:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "11:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "09:35 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 244,
+      "available": 244,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Chaniya Toli [2D | Gujarati]": [
@@ -63390,6 +64794,175 @@
       "sold": 19,
       "gross": 4750,
       "occupancy": "10.92%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "10:20 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "07:35 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 34,
+      "available": 34,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "02:40 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "05:15 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 6270,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "02:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 5610,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "10:45 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 6930,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "08:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 6600,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "11:45 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 4290,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "09:00 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 4290,
+      "occupancy": "13.15%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "03:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "09:55 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "06:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "09:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 244,
+      "available": 244,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Baahubali The Epic [2D | Hindi]": [
@@ -64155,10 +65728,10 @@
       "time": "10:05 AM",
       "audi": "SCREEN 3",
       "totalSeats": 157,
-      "available": 156,
-      "sold": 1,
-      "gross": 140,
-      "occupancy": "0.64%"
+      "available": 155,
+      "sold": 2,
+      "gross": 280,
+      "occupancy": "1.27%"
     },
     {
       "city": "Dhanbad",
@@ -65039,10 +66612,10 @@
       "time": "03:25 PM",
       "audi": "AUDI 4",
       "totalSeats": 191,
-      "available": 181,
-      "sold": 10,
-      "gross": 2560,
-      "occupancy": "5.24%"
+      "available": 180,
+      "sold": 11,
+      "gross": 2800,
+      "occupancy": "5.76%"
     },
     {
       "city": "Jaipur",
@@ -68289,10 +69862,10 @@
       "time": "12:25 PM",
       "audi": "SCREEN 3",
       "totalSeats": 203,
-      "available": 203,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 200,
+      "sold": 3,
+      "gross": 570,
+      "occupancy": "1.48%"
     },
     {
       "city": "Ranchi",
@@ -71733,11 +73306,11 @@
       "chain": "PVR",
       "time": "10:25 AM",
       "audi": "AUDI 01",
-      "totalSeats": 236,
-      "available": 216,
-      "sold": 20,
-      "gross": 3800,
-      "occupancy": "8.47%"
+      "totalSeats": 218,
+      "available": 218,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -71746,11 +73319,11 @@
       "chain": "PVR",
       "time": "06:05 PM",
       "audi": "AUDI 01",
-      "totalSeats": 236,
-      "available": 216,
-      "sold": 20,
-      "gross": 4940,
-      "occupancy": "8.47%"
+      "totalSeats": 218,
+      "available": 218,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Navi Mumbai",
@@ -71850,8 +73423,8 @@
       "chain": "Cinebazz",
       "time": "06:45 PM",
       "audi": "Arya",
-      "totalSeats": 200,
-      "available": 200,
+      "totalSeats": 66,
+      "available": 66,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -71980,11 +73553,11 @@
       "chain": "MovieMax",
       "time": "08:15 AM",
       "audi": "SCREEN 5",
-      "totalSeats": 215,
+      "totalSeats": 212,
       "available": 212,
-      "sold": 3,
-      "gross": 650,
-      "occupancy": "1.40%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -72073,6 +73646,253 @@
       "audi": "Classic",
       "totalSeats": 63,
       "available": 63,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 41,
+      "available": 41,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "01:40 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 41,
+      "available": 41,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "06:05 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 41,
+      "available": 41,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "09:15 AM",
+      "audi": "SCREEN 6",
+      "totalSeats": 41,
+      "available": 41,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX Crystal Palm Mall, Shivaji Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "09:00 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "06:05 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 322,
+      "available": 322,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 322,
+      "available": 322,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "01:40 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 322,
+      "available": 322,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "12:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 309,
+      "available": 309,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "10:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "09:00 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "01:35 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 161,
+      "available": 161,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "10:25 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 161,
+      "available": 161,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "06:35 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:00 AM",
+      "audi": "AUDI 1",
+      "totalSeats": 223,
+      "available": 213,
+      "sold": 10,
+      "gross": 1900,
+      "occupancy": "4.48%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "11:05 PM",
+      "audi": "AUDI 1",
+      "totalSeats": 223,
+      "available": 213,
+      "sold": 10,
+      "gross": 2400,
+      "occupancy": "4.48%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "06:45 PM",
+      "audi": "AUDI 1",
+      "totalSeats": 223,
+      "available": 213,
+      "sold": 10,
+      "gross": 2400,
+      "occupancy": "4.48%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "12:00 PM",
+      "audi": "AUDI 2",
+      "totalSeats": 224,
+      "available": 214,
+      "sold": 10,
+      "gross": 1900,
+      "occupancy": "4.46%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "12:20 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 244,
+      "available": 244,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -74245,10 +76065,10 @@
       "time": "04:00 PM",
       "audi": "SCREEN 4",
       "totalSeats": 248,
-      "available": 248,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 246,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "0.81%"
     },
     {
       "city": "Kalyan",
@@ -80991,11 +82811,11 @@
       "chain": "PVR",
       "time": "12:35 PM",
       "audi": "AUDI 03",
-      "totalSeats": 243,
-      "available": 219,
-      "sold": 24,
-      "gross": 5280,
-      "occupancy": "9.88%"
+      "totalSeats": 223,
+      "available": 223,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -81004,11 +82824,11 @@
       "chain": "PVR",
       "time": "04:00 PM",
       "audi": "AUDI 03",
-      "totalSeats": 243,
-      "available": 219,
-      "sold": 24,
-      "gross": 5760,
-      "occupancy": "9.88%"
+      "totalSeats": 223,
+      "available": 223,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -81017,11 +82837,11 @@
       "chain": "PVR",
       "time": "11:00 PM",
       "audi": "AUDI 03",
-      "totalSeats": 243,
-      "available": 219,
-      "sold": 24,
-      "gross": 6000,
-      "occupancy": "9.88%"
+      "totalSeats": 223,
+      "available": 223,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -81030,11 +82850,11 @@
       "chain": "PVR",
       "time": "07:30 PM",
       "audi": "AUDI 03",
-      "totalSeats": 243,
-      "available": 219,
-      "sold": 24,
-      "gross": 6000,
-      "occupancy": "9.88%"
+      "totalSeats": 223,
+      "available": 223,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -81121,11 +82941,11 @@
       "chain": "PVR",
       "time": "04:30 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 209,
-      "available": 188,
-      "sold": 21,
-      "gross": 9150,
-      "occupancy": "10.05%"
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -81602,11 +83422,11 @@
       "chain": "MovieMax",
       "time": "11:15 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 391,
+      "totalSeats": 378,
       "available": 378,
-      "sold": 13,
-      "gross": 3500,
-      "occupancy": "3.32%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -81615,11 +83435,11 @@
       "chain": "MovieMax",
       "time": "04:45 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 391,
+      "totalSeats": 378,
       "available": 378,
-      "sold": 13,
-      "gross": 3180,
-      "occupancy": "3.32%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -81628,11 +83448,11 @@
       "chain": "MovieMax",
       "time": "11:15 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 215,
+      "totalSeats": 212,
       "available": 212,
-      "sold": 3,
-      "gross": 1040,
-      "occupancy": "1.40%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -81641,11 +83461,11 @@
       "chain": "MovieMax",
       "time": "12:30 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 215,
+      "totalSeats": 212,
       "available": 212,
-      "sold": 3,
-      "gross": 790,
-      "occupancy": "1.40%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -81654,11 +83474,11 @@
       "chain": "MovieMax",
       "time": "10:00 AM",
       "audi": "SCREEN 1",
-      "totalSeats": 391,
+      "totalSeats": 378,
       "available": 378,
-      "sold": 13,
-      "gross": 2150,
-      "occupancy": "3.32%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -81667,11 +83487,11 @@
       "chain": "MovieMax",
       "time": "08:00 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 391,
+      "totalSeats": 378,
       "available": 378,
-      "sold": 13,
-      "gross": 3500,
-      "occupancy": "3.32%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Udaipur",
@@ -81893,6 +83713,305 @@
       "sold": 19,
       "gross": 4750,
       "occupancy": "9.60%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "10:20 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 171,
+      "available": 171,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "03:05 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:15 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "12:50 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "09:50 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 34,
+      "available": 34,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 34,
+      "available": 34,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 34,
+      "available": 34,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "03:50 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 26,
+      "available": 26,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "07:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "04:30 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "10:35 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "10:40 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "03:15 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 309,
+      "available": 309,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "04:15 PM",
+      "audi": "AUDI 06 PXL",
+      "totalSeats": 373,
+      "available": 373,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "09:15 AM",
+      "audi": "AUDI 06 PXL",
+      "totalSeats": 373,
+      "available": 373,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "12:45 PM",
+      "audi": "AUDI 06 PXL",
+      "totalSeats": 373,
+      "available": 373,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "07:45 PM",
+      "audi": "AUDI 06 PXL",
+      "totalSeats": 373,
+      "available": 373,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "11:15 PM",
+      "audi": "AUDI 06 PXL",
+      "totalSeats": 373,
+      "available": 373,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:20 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 267,
+      "available": 257,
+      "sold": 10,
+      "gross": 2400,
+      "occupancy": "3.75%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:45 AM",
+      "audi": "AUDI 5",
+      "totalSeats": 267,
+      "available": 257,
+      "sold": 10,
+      "gross": 1900,
+      "occupancy": "3.75%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "06:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 251,
+      "available": 218,
+      "sold": 33,
+      "gross": 6600,
+      "occupancy": "13.15%"
     }
   ],
   "Man Of Steel: Sardar [2D | Gujarati]": [
@@ -82233,6 +84352,19 @@
       "sold": 19,
       "gross": 3610,
       "occupancy": "10.92%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "08:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Devdas [2D | Hindi]": [
@@ -82296,10 +84428,10 @@
       "time": "02:35 PM",
       "audi": "AUDI 06",
       "totalSeats": 149,
-      "available": 58,
-      "sold": 91,
-      "gross": 14550,
-      "occupancy": "61.07%"
+      "available": 63,
+      "sold": 86,
+      "gross": 13800,
+      "occupancy": "57.72%"
     },
     {
       "city": "Akola",
@@ -82556,10 +84688,10 @@
       "time": "06:40 PM",
       "audi": "SCREEN 6",
       "totalSeats": 162,
-      "available": 150,
-      "sold": 12,
-      "gross": 3000,
-      "occupancy": "7.41%"
+      "available": 149,
+      "sold": 13,
+      "gross": 3200,
+      "occupancy": "8.02%"
     },
     {
       "city": "Mohali",
@@ -82582,10 +84714,10 @@
       "time": "03:35 PM",
       "audi": "SCREEN 1",
       "totalSeats": 192,
-      "available": 177,
-      "sold": 15,
-      "gross": 2985,
-      "occupancy": "7.81%"
+      "available": 176,
+      "sold": 16,
+      "gross": 3184,
+      "occupancy": "8.33%"
     },
     {
       "city": "Nagpur",
@@ -82647,10 +84779,10 @@
       "time": "12:55 PM",
       "audi": "Screen 1",
       "totalSeats": 117,
-      "available": 81,
-      "sold": 36,
-      "gross": 7164,
-      "occupancy": "30.77%"
+      "available": 77,
+      "sold": 40,
+      "gross": 7960,
+      "occupancy": "34.19%"
     },
     {
       "city": "New Delhi",
@@ -82764,10 +84896,10 @@
       "time": "06:00 PM",
       "audi": "AUDI08",
       "totalSeats": 148,
-      "available": 112,
-      "sold": 36,
-      "gross": 7920,
-      "occupancy": "24.32%"
+      "available": 110,
+      "sold": 38,
+      "gross": 8360,
+      "occupancy": "25.68%"
     },
     {
       "city": "Pune",
@@ -82998,10 +85130,10 @@
       "time": "03:50 PM",
       "audi": "AUDI 06",
       "totalSeats": 144,
-      "available": 133,
-      "sold": 11,
-      "gross": 1850,
-      "occupancy": "7.64%"
+      "available": 136,
+      "sold": 8,
+      "gross": 1400,
+      "occupancy": "5.56%"
     },
     {
       "city": "Gurgaon",
@@ -83119,6 +85251,19 @@
       "sold": 25,
       "gross": 4975,
       "occupancy": "18.25%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "INSIGNIA 4",
+      "totalSeats": 20,
+      "available": 20,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Laalo - Krishna Sada Sahaayate [2D | Gujarati]": [
@@ -83155,8 +85300,8 @@
       "chain": "Loop Cineplex",
       "time": "04:45 PM",
       "audi": "SCREEN 8",
-      "totalSeats": 203,
-      "available": 203,
+      "totalSeats": 199,
+      "available": 199,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -83196,6 +85341,32 @@
       "audi": "Retro",
       "totalSeats": 46,
       "available": 46,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "12:15 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "07:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 244,
+      "available": 244,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -84878,6 +87049,45 @@
       "sold": 19,
       "gross": 4750,
       "occupancy": "10.92%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Rajhans Cinemas, Nikol, Ahmedabad",
+      "chain": "Rajhans Cinemas",
+      "time": "07:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 239,
+      "available": 218,
+      "sold": 21,
+      "gross": 4200,
+      "occupancy": "8.79%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "10:45 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 256,
+      "available": 256,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bharuch",
+      "state": "Gujarat",
+      "venue": "R K Cinema, Blue Chip Building, Bharuch",
+      "chain": "R K Cinema",
+      "time": "04:25 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 244,
+      "available": 244,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Roi Roi Binale [2D | Assamese]": [
@@ -84915,10 +87125,10 @@
       "time": "06:45 PM",
       "audi": "AUDI 02",
       "totalSeats": 182,
-      "available": 128,
-      "sold": 54,
-      "gross": 16660,
-      "occupancy": "29.67%"
+      "available": 131,
+      "sold": 51,
+      "gross": 15070,
+      "occupancy": "28.02%"
     },
     {
       "city": "Bengaluru",
@@ -85396,10 +87606,10 @@
       "time": "06:55 PM",
       "audi": "AUDI 7 CARVE",
       "totalSeats": 105,
-      "available": 13,
-      "sold": 92,
-      "gross": 17484.6,
-      "occupancy": "87.62%"
+      "available": 11,
+      "sold": 94,
+      "gross": 17889.579999999998,
+      "occupancy": "89.52%"
     },
     {
       "city": "Chennai",
@@ -85851,10 +88061,10 @@
       "time": "11:50 PM",
       "audi": "AUDI 1",
       "totalSeats": 209,
-      "available": 95,
-      "sold": 114,
-      "gross": 38200,
-      "occupancy": "54.55%"
+      "available": 97,
+      "sold": 112,
+      "gross": 37560,
+      "occupancy": "53.59%"
     },
     {
       "city": "Guwahati",
@@ -85929,10 +88139,10 @@
       "time": "02:50 PM",
       "audi": "AUDI 1",
       "totalSeats": 209,
-      "available": 21,
-      "sold": 188,
-      "gross": 60080,
-      "occupancy": "89.95%"
+      "available": 20,
+      "sold": 189,
+      "gross": 60380,
+      "occupancy": "90.43%"
     },
     {
       "city": "Guwahati",
@@ -86358,10 +88568,10 @@
       "time": "09:30 PM",
       "audi": "AUDI 2",
       "totalSeats": 237,
-      "available": 190,
-      "sold": 47,
-      "gross": 14500,
-      "occupancy": "19.83%"
+      "available": 189,
+      "sold": 48,
+      "gross": 14800,
+      "occupancy": "20.25%"
     },
     {
       "city": "Navi Mumbai",
@@ -87567,10 +89777,10 @@
       "time": "08:00 PM",
       "audi": "Screen 2",
       "totalSeats": 273,
-      "available": 209,
-      "sold": 64,
-      "gross": 22250,
-      "occupancy": "23.44%"
+      "available": 206,
+      "sold": 67,
+      "gross": 23030,
+      "occupancy": "24.54%"
     },
     {
       "city": "Goa",
@@ -87931,10 +90141,10 @@
       "time": "11:35 PM",
       "audi": "AUDI-2",
       "totalSeats": 216,
-      "available": 171,
-      "sold": 45,
-      "gross": 14100,
-      "occupancy": "20.83%"
+      "available": 175,
+      "sold": 41,
+      "gross": 12900,
+      "occupancy": "18.98%"
     },
     {
       "city": "Guwahati",
@@ -90054,6 +92264,58 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "12:50 PM",
+      "audi": "SCREEN 11",
+      "totalSeats": 165,
+      "available": 165,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "09:50 AM",
+      "audi": "SCREEN 11",
+      "totalSeats": 165,
+      "available": 165,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "07:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Om Shanti Om [2D | Hindi]": [
@@ -90143,10 +92405,10 @@
       "time": "10:35 PM",
       "audi": "SCREEN 1",
       "totalSeats": 255,
-      "available": 59,
-      "sold": 196,
-      "gross": 39004,
-      "occupancy": "76.86%"
+      "available": 55,
+      "sold": 200,
+      "gross": 39800,
+      "occupancy": "78.43%"
     },
     {
       "city": "Navi Mumbai",
@@ -90156,10 +92418,10 @@
       "time": "12:15 PM",
       "audi": "SCREEN 3",
       "totalSeats": 165,
-      "available": 102,
-      "sold": 63,
-      "gross": 9450,
-      "occupancy": "38.18%"
+      "available": 100,
+      "sold": 65,
+      "gross": 9750,
+      "occupancy": "39.39%"
     },
     {
       "city": "New Delhi",
@@ -90182,10 +92444,10 @@
       "time": "12:00 PM",
       "audi": "AUDI 02",
       "totalSeats": 50,
-      "available": 37,
-      "sold": 13,
-      "gross": 2587,
-      "occupancy": "26.00%"
+      "available": 35,
+      "sold": 15,
+      "gross": 2985,
+      "occupancy": "30.00%"
     },
     {
       "city": "Coimbatore",
@@ -90208,10 +92470,10 @@
       "time": "03:45 PM",
       "audi": "AUDI 05",
       "totalSeats": 168,
-      "available": 124,
-      "sold": 44,
-      "gross": 4384.5,
-      "occupancy": "26.19%"
+      "available": 122,
+      "sold": 46,
+      "gross": 4642.68,
+      "occupancy": "27.38%"
     },
     {
       "city": "Vadodara",
@@ -90756,10 +93018,10 @@
       "time": "07:15 PM",
       "audi": "SCREEN 1",
       "totalSeats": 336,
-      "available": 336,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 334,
+      "sold": 2,
+      "gross": 940,
+      "occupancy": "0.60%"
     },
     {
       "city": "Mumbai",
@@ -90963,11 +93225,11 @@
       "chain": "PVR",
       "time": "10:15 PM",
       "audi": "AUDI 03",
-      "totalSeats": 220,
+      "totalSeats": 202,
       "available": 202,
-      "sold": 18,
-      "gross": 5380,
-      "occupancy": "8.18%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -90976,11 +93238,11 @@
       "chain": "PVR",
       "time": "09:45 AM",
       "audi": "AUDI 03",
-      "totalSeats": 220,
+      "totalSeats": 202,
       "available": 202,
-      "sold": 18,
-      "gross": 3860,
-      "occupancy": "8.18%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -90989,11 +93251,11 @@
       "chain": "PVR",
       "time": "04:00 PM",
       "audi": "AUDI 03",
-      "totalSeats": 220,
+      "totalSeats": 202,
       "available": 202,
-      "sold": 18,
-      "gross": 5380,
-      "occupancy": "8.18%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -92172,11 +94434,11 @@
       "chain": "PVR",
       "time": "09:30 AM",
       "audi": "AUDI 03",
-      "totalSeats": 243,
-      "available": 219,
-      "sold": 24,
-      "gross": 4080,
-      "occupancy": "9.88%"
+      "totalSeats": 223,
+      "available": 223,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -92185,11 +94447,11 @@
       "chain": "PVR",
       "time": "10:30 PM",
       "audi": "AUDI 01",
-      "totalSeats": 236,
-      "available": 216,
-      "sold": 20,
-      "gross": 4340,
-      "occupancy": "8.47%"
+      "totalSeats": 218,
+      "available": 218,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kolhapur",
@@ -92198,11 +94460,11 @@
       "chain": "PVR",
       "time": "02:50 PM",
       "audi": "AUDI 01",
-      "totalSeats": 236,
-      "available": 216,
-      "sold": 20,
-      "gross": 3760,
-      "occupancy": "8.47%"
+      "totalSeats": 218,
+      "available": 218,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -92250,11 +94512,11 @@
       "chain": "PVR",
       "time": "02:45 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 209,
-      "available": 190,
-      "sold": 19,
-      "gross": 6860,
-      "occupancy": "9.09%"
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -92419,11 +94681,11 @@
       "chain": "MovieMax",
       "time": "01:30 PM",
       "audi": "SCREEN 1",
-      "totalSeats": 391,
+      "totalSeats": 378,
       "available": 378,
-      "sold": 13,
-      "gross": 2650,
-      "occupancy": "3.32%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -92447,6 +94709,110 @@
       "audi": "SCREEN 3 Edition",
       "totalSeats": 46,
       "available": 46,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "07:05 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "02:00 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "05:30 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "06:45 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "04:45 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -95684,11 +98050,11 @@
       "chain": "PVR",
       "time": "10:35 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 209,
-      "available": 188,
-      "sold": 21,
-      "gross": 9150,
-      "occupancy": "10.05%"
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Navi Mumbai",
@@ -95764,6 +98130,32 @@
       "audi": "Screen 3",
       "totalSeats": 230,
       "available": 230,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "07:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 309,
+      "available": 309,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -95856,10 +98248,10 @@
       "time": "12:45 PM",
       "audi": "SCREEN 3",
       "totalSeats": 130,
-      "available": 75,
-      "sold": 55,
-      "gross": 8250,
-      "occupancy": "42.31%"
+      "available": 74,
+      "sold": 56,
+      "gross": 8400,
+      "occupancy": "43.08%"
     },
     {
       "city": "Noida",
@@ -95947,10 +98339,10 @@
       "time": "12:30 PM",
       "audi": "SCREEN 4",
       "totalSeats": 105,
-      "available": 91,
-      "sold": 14,
-      "gross": 2100,
-      "occupancy": "13.33%"
+      "available": 89,
+      "sold": 16,
+      "gross": 2400,
+      "occupancy": "15.24%"
     },
     {
       "city": "Vizag",
@@ -96498,6 +98890,19 @@
       "audi": "SCREEN 4",
       "totalSeats": 145,
       "available": 145,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "09:50 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 212,
+      "available": 212,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -98292,11 +100697,11 @@
       "chain": "PVR",
       "time": "06:00 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 209,
-      "available": 190,
-      "sold": 19,
-      "gross": 7810,
-      "occupancy": "9.09%"
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -98305,11 +100710,11 @@
       "chain": "PVR",
       "time": "11:30 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 209,
-      "available": 190,
-      "sold": 19,
-      "gross": 7810,
-      "occupancy": "9.09%"
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -98578,11 +100983,11 @@
       "chain": "PVR",
       "time": "09:20 AM",
       "audi": "SCREEN 2",
-      "totalSeats": 107,
-      "available": 90,
-      "sold": 17,
-      "gross": 2630,
-      "occupancy": "15.89%"
+      "totalSeats": 95,
+      "available": 95,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -98596,6 +101001,162 @@
       "sold": 8,
       "gross": 4000,
       "occupancy": "10.96%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "04:35 PM",
+      "audi": "SCREEN 10",
+      "totalSeats": 132,
+      "available": 131,
+      "sold": 1,
+      "gross": 310,
+      "occupancy": "0.76%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "11:50 AM",
+      "audi": "SCREEN 9",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "11:10 AM",
+      "audi": "AUDI 06",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "01:40 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "07:25 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 152,
+      "available": 152,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "08:10 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 30,
+      "available": 30,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "03:55 PM",
+      "audi": "INSIGNIA 4",
+      "totalSeats": 20,
+      "available": 20,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "05:15 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 26,
+      "available": 26,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "08:00 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "09:15 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "02:45 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Brat [2D | Kannada]": [
@@ -100015,6 +102576,84 @@
       "sold": 10,
       "gross": 2000,
       "occupancy": "3.64%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "07:00 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "10:10 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "01:20 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "10:10 AM",
+      "audi": "SCREEN 8",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "01:45 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "06:20 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 24,
+      "available": 24,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Aaryan [2D | Tamil]": [
@@ -103254,6 +105893,71 @@
       "sold": 10,
       "gross": 2500,
       "occupancy": "15.38%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "09:45 PM",
+      "audi": "SCREEN 9",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:00 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 24,
+      "available": 24,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:35 AM",
+      "audi": "AUDI 04",
+      "totalSeats": 152,
+      "available": 152,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "04:30 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 245,
+      "available": 245,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "07:20 PM",
+      "audi": "AUDI 2",
+      "totalSeats": 224,
+      "available": 214,
+      "sold": 10,
+      "gross": 2400,
+      "occupancy": "4.46%"
     }
   ],
   "Bugonia [2D | English]": [
@@ -103304,10 +106008,10 @@
       "time": "05:20 PM",
       "audi": "AUDI 05",
       "totalSeats": 87,
-      "available": 84,
-      "sold": 3,
-      "gross": 1890,
-      "occupancy": "3.45%"
+      "available": 83,
+      "sold": 4,
+      "gross": 2180,
+      "occupancy": "4.60%"
     },
     {
       "city": "Bengaluru",
@@ -104148,11 +106852,11 @@
       "chain": "PVR",
       "time": "08:00 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 209,
-      "available": 188,
-      "sold": 21,
-      "gross": 9150,
-      "occupancy": "10.05%"
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -104161,11 +106865,11 @@
       "chain": "PVR",
       "time": "02:00 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 209,
-      "available": 188,
-      "sold": 21,
-      "gross": 8100,
-      "occupancy": "10.05%"
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -104371,6 +107075,110 @@
       "audi": "SCREEN 2",
       "totalSeats": 39,
       "available": 39,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "07:10 PM",
+      "audi": "SCREEN 10",
+      "totalSeats": 132,
+      "available": 132,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 24,
+      "available": 24,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "04:50 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 152,
+      "available": 152,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "09:05 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "07:50 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "12:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "11:00 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 36,
+      "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "04:55 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 36,
+      "available": 36,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -105351,6 +108159,45 @@
       "sold": 10,
       "gross": 2200,
       "occupancy": "3.60%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "06:55 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 171,
+      "available": 171,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "12:05 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 171,
+      "available": 171,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "01:05 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 245,
+      "available": 245,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Aan Paavam Pollathathu [2D | Tamil]": [
@@ -106796,6 +109643,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "11:25 AM",
+      "audi": "SCREEN 6",
+      "totalSeats": 138,
+      "available": 138,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "07:10 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 138,
+      "available": 138,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Baahubali The Epic [IMAX 2D | Hindi]": [
@@ -106833,10 +109706,10 @@
       "time": "06:05 PM",
       "audi": "AUDI 02 IMAX",
       "totalSeats": 299,
-      "available": 280,
-      "sold": 19,
-      "gross": 9020,
-      "occupancy": "6.35%"
+      "available": 279,
+      "sold": 20,
+      "gross": 9520,
+      "occupancy": "6.69%"
     },
     {
       "city": "Gurgaon",
@@ -106911,10 +109784,10 @@
       "time": "05:55 PM",
       "audi": "IMAX 4",
       "totalSeats": 243,
-      "available": 237,
-      "sold": 6,
-      "gross": 2880,
-      "occupancy": "2.47%"
+      "available": 235,
+      "sold": 8,
+      "gross": 3840,
+      "occupancy": "3.29%"
     },
     {
       "city": "Kolkata",
@@ -106963,10 +109836,10 @@
       "time": "01:45 PM",
       "audi": "SCREEN 4",
       "totalSeats": 244,
-      "available": 239,
-      "sold": 5,
-      "gross": 2360,
-      "occupancy": "2.05%"
+      "available": 238,
+      "sold": 6,
+      "gross": 2860,
+      "occupancy": "2.46%"
     },
     {
       "city": "New Delhi",
@@ -107253,6 +110126,71 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "IMAX",
+      "totalSeats": 367,
+      "available": 367,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "01:35 PM",
+      "audi": "IMAX",
+      "totalSeats": 367,
+      "available": 367,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:00 AM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 2700,
+      "occupancy": "2.64%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "05:35 PM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 3300,
+      "occupancy": "2.64%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:00 PM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 3600,
+      "occupancy": "2.64%"
     }
   ],
   "Baahubali The Epic [IMAX 2D | Telugu]": [
@@ -107290,10 +110228,10 @@
       "time": "10:10 AM",
       "audi": "IMAX",
       "totalSeats": 241,
-      "available": 161,
-      "sold": 80,
-      "gross": 26280,
-      "occupancy": "33.20%"
+      "available": 150,
+      "sold": 91,
+      "gross": 29900,
+      "occupancy": "37.76%"
     },
     {
       "city": "Bengaluru",
@@ -107303,10 +110241,10 @@
       "time": "10:25 PM",
       "audi": "IMAX",
       "totalSeats": 241,
-      "available": 224,
-      "sold": 17,
-      "gross": 6280,
-      "occupancy": "7.05%"
+      "available": 222,
+      "sold": 19,
+      "gross": 7040,
+      "occupancy": "7.88%"
     },
     {
       "city": "Bengaluru",
@@ -107316,10 +110254,10 @@
       "time": "10:30 PM",
       "audi": "AUDI 02 IMAX",
       "totalSeats": 299,
-      "available": 172,
-      "sold": 127,
-      "gross": 56760,
-      "occupancy": "42.47%"
+      "available": 167,
+      "sold": 132,
+      "gross": 58790,
+      "occupancy": "44.15%"
     },
     {
       "city": "Bengaluru",
@@ -107550,10 +110488,10 @@
       "time": "02:00 PM",
       "audi": "SCREEN 9",
       "totalSeats": 234,
-      "available": 234,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 230,
+      "sold": 4,
+      "gross": 1360,
+      "occupancy": "1.71%"
     },
     {
       "city": "Mumbai",
@@ -107580,6 +110518,19 @@
       "sold": 17,
       "gross": 5630,
       "occupancy": "5.35%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "09:10 AM",
+      "audi": "IMAX",
+      "totalSeats": 367,
+      "available": 367,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Chainsaw Man - The Movie: Reze Arc [4DX | 2D | Japanese]": [
@@ -108087,10 +111038,10 @@
       "time": "04:00 PM",
       "audi": "AUDI 9",
       "totalSeats": 460,
-      "available": 390,
-      "sold": 70,
-      "gross": 12477.65,
-      "occupancy": "15.22%"
+      "available": 389,
+      "sold": 71,
+      "gross": 12532,
+      "occupancy": "15.43%"
     },
     {
       "city": "Chennai",
@@ -109469,6 +112420,19 @@
       "sold": 10,
       "gross": 2800,
       "occupancy": "5.92%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "09:45 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 138,
+      "available": 138,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "The Pet Detective [2D | Malayalam]": [
@@ -110038,11 +113002,11 @@
       "chain": "PVR",
       "time": "07:25 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 173,
+      "totalSeats": 165,
       "available": 165,
-      "sold": 8,
-      "gross": 2480,
-      "occupancy": "4.62%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Trivandrum",
@@ -111029,10 +113993,10 @@
       "time": "04:30 PM",
       "audi": "SCREEN 3",
       "totalSeats": 272,
-      "available": 258,
-      "sold": 14,
-      "gross": 3304,
-      "occupancy": "5.15%"
+      "available": 262,
+      "sold": 10,
+      "gross": 2360,
+      "occupancy": "3.68%"
     },
     {
       "city": "Bengaluru",
@@ -111250,10 +114214,10 @@
       "time": "09:40 AM",
       "audi": "AUDI 1",
       "totalSeats": 286,
-      "available": 281,
-      "sold": 5,
-      "gross": 1012.45,
-      "occupancy": "1.75%"
+      "available": 279,
+      "sold": 7,
+      "gross": 1417.43,
+      "occupancy": "2.45%"
     },
     {
       "city": "Chennai",
@@ -113251,11 +116215,11 @@
       "chain": "PVR",
       "time": "10:00 PM",
       "audi": "SCREEN 4",
-      "totalSeats": 173,
+      "totalSeats": 165,
       "available": 165,
-      "sold": 8,
-      "gross": 2080,
-      "occupancy": "4.62%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -113316,11 +116280,11 @@
       "chain": "PVR",
       "time": "12:15 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 209,
-      "available": 190,
-      "sold": 19,
-      "gross": 6860,
-      "occupancy": "9.09%"
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Navi Mumbai",
@@ -113421,10 +116385,10 @@
       "time": "08:30 PM",
       "audi": "SCREEN 7",
       "totalSeats": 99,
-      "available": 99,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 97,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "2.02%"
     },
     {
       "city": "Pune",
@@ -113433,11 +116397,11 @@
       "chain": "MovieMax",
       "time": "08:45 PM",
       "audi": "SCREEN 6",
-      "totalSeats": 215,
+      "totalSeats": 211,
       "available": 211,
-      "sold": 4,
-      "gross": 1080,
-      "occupancy": "1.86%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Trivandrum",
@@ -113542,6 +116506,84 @@
       "sold": 10,
       "gross": 2200,
       "occupancy": "3.26%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "04:30 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "10:00 AM",
+      "audi": "SCREEN 5",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "10:10 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "03:50 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 24,
+      "available": 24,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "10:40 AM",
+      "audi": "AUDI 04",
+      "totalSeats": 113,
+      "available": 113,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "08:00 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Kantara: A Legend Chapter-1 [4DX | 2D | Kannada]": [
@@ -113711,10 +116753,10 @@
       "time": "04:05 PM",
       "audi": "SCREEN 4",
       "totalSeats": 275,
-      "available": 214,
-      "sold": 61,
-      "gross": 10694,
-      "occupancy": "22.18%"
+      "available": 208,
+      "sold": 67,
+      "gross": 11796.800000000001,
+      "occupancy": "24.36%"
     },
     {
       "city": "Chennai",
@@ -114426,10 +117468,10 @@
       "time": "12:30 PM",
       "audi": "AUDI 02",
       "totalSeats": 204,
-      "available": 139,
-      "sold": 65,
-      "gross": 8451.85,
-      "occupancy": "31.86%"
+      "available": 137,
+      "sold": 67,
+      "gross": 8819.45,
+      "occupancy": "32.84%"
     },
     {
       "city": "Chennai",
@@ -116081,6 +119123,32 @@
       "sold": 10,
       "gross": 2800,
       "occupancy": "5.92%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "03:30 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 171,
+      "available": 171,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "12:25 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 24,
+      "available": 24,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Demon Slayer - Kimetsu no Yaiba - The Movie: Infinity Castle [2D | Japanese]": [
@@ -116423,10 +119491,10 @@
       "time": "06:05 PM",
       "audi": "AUDI 9 - 4DX",
       "totalSeats": 92,
-      "available": 92,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 88,
+      "sold": 4,
+      "gross": 1680,
+      "occupancy": "4.35%"
     },
     {
       "city": "Indore",
@@ -116860,6 +119928,19 @@
       "sold": 10,
       "gross": 2000,
       "occupancy": "5.18%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "02:00 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 138,
+      "available": 138,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Kona [2D | Kannada]": [
@@ -117174,6 +120255,45 @@
       "sold": 10,
       "gross": 2000,
       "occupancy": "5.18%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "10:40 AM",
+      "audi": "SCREEN 10",
+      "totalSeats": 132,
+      "available": 132,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "02:25 PM",
+      "audi": "SCREEN 9",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "SCREEN 9",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Single Salma [2D | Hindi]": [
@@ -117553,6 +120673,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "INSIGNIA 4",
+      "totalSeats": 20,
+      "available": 20,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Chainsaw Man - The Movie: Reze Arc [4DX | 3D | Japanese]": [
@@ -117895,6 +121028,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "08:45 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "10:15 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "One Battle After Another [2D | English]": [
@@ -118053,6 +121212,19 @@
       "sold": -1,
       "gross": -360,
       "occupancy": "-0.85%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "07:20 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 26,
+      "available": 26,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Chainsaw Man - The Movie: Reze Arc [3D | Japanese]": [
@@ -118662,10 +121834,10 @@
       "time": "01:40 PM",
       "audi": "SCREEN 1",
       "totalSeats": 328,
-      "available": 328,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 326,
+      "sold": 2,
+      "gross": 560,
+      "occupancy": "0.61%"
     },
     {
       "city": "Vadodara",
@@ -119220,11 +122392,11 @@
       "chain": "PVR",
       "time": "01:45 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 209,
-      "available": 187,
-      "sold": 22,
-      "gross": 9820,
-      "occupancy": "10.53%"
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Navi Mumbai",
@@ -119316,6 +122488,71 @@
       "sold": -1,
       "gross": -340,
       "occupancy": "-0.85%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Megaplex Mall of Asia, Byatarayanapura, Bengaluru",
+      "chain": "PVR",
+      "time": "04:55 PM",
+      "audi": "SCREEN 9",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "04:55 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "11:40 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "02:10 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "01:00 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 163,
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Baahubali The Epic [4DX | 2D | Telugu]": [
@@ -119340,10 +122577,10 @@
       "time": "02:25 PM",
       "audi": "AUDI 07 4DX",
       "totalSeats": 104,
-      "available": 90,
-      "sold": 14,
-      "gross": 7620,
-      "occupancy": "13.46%"
+      "available": 88,
+      "sold": 16,
+      "gross": 8720,
+      "occupancy": "15.38%"
     },
     {
       "city": "Hyderabad",
@@ -119353,10 +122590,10 @@
       "time": "10:05 PM",
       "audi": "AUDI 01 4DX",
       "totalSeats": 84,
-      "available": 38,
-      "sold": 46,
-      "gross": 18998,
-      "occupancy": "54.76%"
+      "available": 37,
+      "sold": 47,
+      "gross": 19411,
+      "occupancy": "55.95%"
     },
     {
       "city": "Mumbai",
@@ -121687,6 +124924,45 @@
       "sold": -1,
       "gross": -360,
       "occupancy": "-0.85%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR VR, Whitefield Road, Bengaluru",
+      "chain": "PVR",
+      "time": "04:15 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "09:35 AM",
+      "audi": "INSIGNIA 4",
+      "totalSeats": 20,
+      "available": 20,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "chain": "PVR",
+      "time": "12:10 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Ikk Kudi [2D | Punjabi]": [
@@ -122144,6 +125420,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "venue": "INOX GT Central Mall, Malviya Nagar, Jaipur",
+      "chain": "PVR",
+      "time": "01:20 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 34,
+      "available": 34,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Diesel [2D | Tamil]": [
@@ -122155,10 +125444,10 @@
       "time": "12:30 PM",
       "audi": "AUDI 1 BLUSH",
       "totalSeats": 99,
-      "available": 73,
-      "sold": 26,
-      "gross": 3314.8,
-      "occupancy": "26.26%"
+      "available": 72,
+      "sold": 27,
+      "gross": 3474.8,
+      "occupancy": "27.27%"
     },
     {
       "city": "Chennai",
@@ -122417,10 +125706,10 @@
       "time": "06:25 PM",
       "audi": "AUDI 7",
       "totalSeats": 236,
-      "available": 136,
-      "sold": 100,
-      "gross": 17732.75,
-      "occupancy": "42.37%"
+      "available": 135,
+      "sold": 101,
+      "gross": 17787.1,
+      "occupancy": "42.80%"
     },
     {
       "city": "Chennai",
@@ -122781,10 +126070,10 @@
       "time": "06:25 PM",
       "audi": "SCREEN 2",
       "totalSeats": 221,
-      "available": 148,
-      "sold": 73,
-      "gross": 7176,
-      "occupancy": "33.03%"
+      "available": 144,
+      "sold": 77,
+      "gross": 7656,
+      "occupancy": "34.84%"
     },
     {
       "city": "Chennai",
@@ -123186,10 +126475,10 @@
       "time": "03:20 PM",
       "audi": "AUDI 3 SPOT",
       "totalSeats": 113,
-      "available": 78,
-      "sold": 35,
-      "gross": 5397.400000000001,
-      "occupancy": "30.97%"
+      "available": 76,
+      "sold": 37,
+      "gross": 5765.000000000001,
+      "occupancy": "32.74%"
     },
     {
       "city": "Chennai",
@@ -123303,10 +126592,10 @@
       "time": "11:15 PM",
       "audi": "AUDI 03",
       "totalSeats": 292,
-      "available": 286,
-      "sold": 6,
-      "gross": 326.1,
-      "occupancy": "2.05%"
+      "available": 284,
+      "sold": 8,
+      "gross": 434.8,
+      "occupancy": "2.74%"
     },
     {
       "city": "Chennai",
@@ -124007,10 +127296,10 @@
       "time": "01:15 PM",
       "audi": "SCREEN1",
       "totalSeats": 606,
-      "available": 390,
-      "sold": 216,
-      "gross": 26413.8,
-      "occupancy": "35.64%"
+      "available": 389,
+      "sold": 217,
+      "gross": 26518.8,
+      "occupancy": "35.81%"
     },
     {
       "city": "Chennai",
@@ -124182,10 +127471,10 @@
       "time": "09:45 AM",
       "audi": "AUDI 5",
       "totalSeats": 433,
-      "available": 147,
-      "sold": 286,
-      "gross": 96464.94,
-      "occupancy": "66.05%"
+      "available": 145,
+      "sold": 288,
+      "gross": 97139.52,
+      "occupancy": "66.51%"
     }
   ],
   "DFO Diary: Fire Warriors [2D | Hindi]": [
@@ -124409,10 +127698,10 @@
       "time": "01:00 PM",
       "audi": "SCREEN 6",
       "totalSeats": 233,
-      "available": 161,
-      "sold": 72,
-      "gross": 16728,
-      "occupancy": "30.90%"
+      "available": 159,
+      "sold": 74,
+      "gross": 17126,
+      "occupancy": "31.76%"
     },
     {
       "city": "Mumbai",
@@ -124541,10 +127830,10 @@
       "time": "06:05 PM",
       "audi": "SCREEN 2",
       "totalSeats": 30,
-      "available": 28,
-      "sold": 2,
-      "gross": 998,
-      "occupancy": "6.67%"
+      "available": 27,
+      "sold": 3,
+      "gross": 1497,
+      "occupancy": "10.00%"
     },
     {
       "city": "Pune",
@@ -124648,6 +127937,19 @@
       "audi": "AUDI 10",
       "totalSeats": 88,
       "available": 88,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 26,
+      "available": 26,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -125339,11 +128641,11 @@
       "chain": "PVR",
       "time": "07:00 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 209,
-      "available": 187,
-      "sold": 22,
-      "gross": 9820,
-      "occupancy": "10.53%"
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -125487,6 +128789,58 @@
       "sold": 8,
       "gross": 4400,
       "occupancy": "10.96%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "08:20 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "11:50 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 52,
+      "available": 52,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "09:45 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "03:40 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Baahubali The Epic [ICE 2D | Hindi]": [
@@ -125576,10 +128930,10 @@
       "time": "11:20 AM",
       "audi": "AUDI 12 ICE",
       "totalSeats": 227,
-      "available": 227,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 226,
+      "sold": 1,
+      "gross": 400,
+      "occupancy": "0.44%"
     }
   ],
   "Gabbys Dollhouse : The Movie [2D | English]": [
@@ -125790,10 +129144,10 @@
       "time": "10:30 AM",
       "audi": "SCREEN 4",
       "totalSeats": 244,
-      "available": 244,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 243,
+      "sold": 1,
+      "gross": 360,
+      "occupancy": "0.41%"
     },
     {
       "city": "New Delhi",
@@ -125989,6 +129343,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "06:00 PM",
+      "audi": "IMAX",
+      "totalSeats": 367,
+      "available": 367,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "02:25 PM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 3000,
+      "occupancy": "2.64%"
     }
   ],
   "Shin Chan The Spicy Kasukabe Dancers in India [2D | Hindi]": [
@@ -126160,6 +129540,19 @@
       "sold": 4,
       "gross": 760,
       "occupancy": "7.02%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Phoenix Palladium, Lower Parel, Mumbai",
+      "chain": "PVR",
+      "time": "09:20 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Pralay [2D | Marathi]": [
@@ -126380,11 +129773,11 @@
       "chain": "PVR",
       "time": "03:00 PM",
       "audi": "AUDI 02",
-      "totalSeats": 198,
+      "totalSeats": 183,
       "available": 183,
-      "sold": 15,
-      "gross": 4350,
-      "occupancy": "7.58%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -126541,6 +129934,45 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "INOX Jaswant Tuli Mall, Kamptee Road, Nagpur",
+      "chain": "PVR",
+      "time": "12:20 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 212,
+      "available": 212,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR Grand Highstreet Mall, Hinjawadi, Pune",
+      "chain": "PVR",
+      "time": "12:40 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Fun Cinema K Star Mall, Chembur (E), Mumbai",
+      "chain": "Cinepolis",
+      "time": "03:50 PM",
+      "audi": "AUDI 1",
+      "totalSeats": 223,
+      "available": 213,
+      "sold": 10,
+      "gross": 2200,
+      "occupancy": "4.48%"
     }
   ],
   "Dashavatar [2D | Marathi]": [
@@ -126658,10 +130090,10 @@
       "time": "12:45 PM",
       "audi": "SCREEN 4",
       "totalSeats": 248,
-      "available": 248,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 246,
+      "sold": 2,
+      "gross": 400,
+      "occupancy": "0.81%"
     },
     {
       "city": "Kolhapur",
@@ -128174,10 +131606,10 @@
       "time": "02:00 PM",
       "audi": "Screen 1",
       "totalSeats": 219,
-      "available": 219,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 217,
+      "sold": 2,
+      "gross": 600,
+      "occupancy": "0.91%"
     },
     {
       "city": "Kolkata",
@@ -128628,6 +132060,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maison PVR Jio World Drive, BKC, Mumbai",
+      "chain": "PVR",
+      "time": "01:10 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 26,
+      "available": 26,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Raghu Dakat [2D | Bengali]": [
@@ -128870,10 +132315,10 @@
       "time": "12:30 PM",
       "audi": "AUDI 1",
       "totalSeats": 124,
-      "available": 110,
-      "sold": 14,
-      "gross": 3980,
-      "occupancy": "11.29%"
+      "available": 112,
+      "sold": 12,
+      "gross": 3480,
+      "occupancy": "9.68%"
     },
     {
       "city": "Thane",
@@ -130159,7 +133604,7 @@
     }
   ],
   "date": "2025-11-02",
-  "lastUpdated": "02:10 AM, 30 October 2025",
+  "lastUpdated": "03:05 AM, 30 October 2025",
   "Heer Express [2D | Hindi]": [
     {
       "city": "Chandigarh",
