@@ -559,8 +559,8 @@
       "location": 8,
       "showTime": "14:10:00",
       "total": 175,
-      "sold": 0,
-      "gross": 0
+      "sold": 1,
+      "gross": 450
     },
     {
       "programId": 3671,
@@ -574,6 +574,14 @@
       "programId": 124334,
       "location": 1,
       "showTime": "14:10:00",
+      "total": 231,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124327,
+      "location": 1,
+      "showTime": "19:00:00",
       "total": 231,
       "sold": 0,
       "gross": 0
@@ -651,6 +659,30 @@
       "total": 136,
       "sold": 0,
       "gross": 0
+    },
+    {
+      "programId": 19236,
+      "location": 4,
+      "showTime": "19:30:00",
+      "total": 136,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13555,
+      "location": 6,
+      "showTime": "19:30:00",
+      "total": 125,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3648,
+      "location": 8,
+      "showTime": "14:20:00",
+      "total": 83,
+      "sold": 0,
+      "gross": 0
     }
   ],
   "Ballerina": [
@@ -699,8 +731,24 @@
       "location": 3,
       "showTime": "19:30:00",
       "total": 38,
-      "sold": 1,
-      "gross": 1500
+      "sold": 3,
+      "gross": 4500
+    },
+    {
+      "programId": 124232,
+      "location": 1,
+      "showTime": "14:00:00",
+      "total": 248,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124225,
+      "location": 1,
+      "showTime": "19:30:00",
+      "total": 248,
+      "sold": 0,
+      "gross": 0
     }
   ]
 }
