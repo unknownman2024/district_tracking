@@ -1,66 +1,28 @@
 {
   "date": "2025-10-31",
-  "lastUpdated": "02:10 AM, 31 October 2025",
-  "Baahubali The Epic | Telugu": {
-    "shows": 1,
-    "gross": 72150,
-    "sold": 481,
-    "totalSeats": 496,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 96.98,
-    "details": [
-      {
-        "city": "Proddatur",
-        "state": "Andhra Pradesh",
-        "venues": 1,
-        "shows": 1,
-        "gross": 72150,
-        "sold": 481,
-        "totalSeats": 496,
-        "fastfilling": 1,
-        "housefull": 0,
-        "occupancy": 96.98
-      }
-    ],
-    "Chain_details": [
-      {
-        "chain": "Araveti Theatre",
-        "venues": 1,
-        "shows": 1,
-        "gross": 72150,
-        "sold": 481,
-        "totalSeats": 496,
-        "fastfilling": 1,
-        "housefull": 0,
-        "occupancy": 96.98
-      }
-    ]
-  },
+  "lastUpdated": "03:04 AM, 31 October 2025",
   "Roi Roi Binale | Assamese": {
-    "shows": 3,
-    "gross": 59660,
-    "sold": 298,
-    "totalSeats": 383,
-    "venues": 3,
+    "shows": 7,
+    "gross": 301000,
+    "sold": 1136,
+    "totalSeats": 1226,
+    "venues": 6,
     "cities": 3,
     "fastfilling": 2,
-    "housefull": 0,
-    "occupancy": 77.81,
+    "housefull": 4,
+    "occupancy": 92.66,
     "details": [
       {
         "city": "Guwahati",
         "state": "Assam",
-        "venues": 1,
-        "shows": 1,
-        "gross": 24100,
-        "sold": 103,
-        "totalSeats": 107,
+        "venues": 4,
+        "shows": 5,
+        "gross": 265440,
+        "sold": 941,
+        "totalSeats": 950,
         "fastfilling": 1,
-        "housefull": 0,
-        "occupancy": 96.26
+        "housefull": 4,
+        "occupancy": 99.05
       },
       {
         "city": "Dhekiajuli",
@@ -89,15 +51,48 @@
     ],
     "Chain_details": [
       {
-        "chain": "Carnival",
+        "chain": "PVR",
         "venues": 1,
         "shows": 1,
-        "gross": 24100,
-        "sold": 103,
-        "totalSeats": 107,
+        "gross": 70900,
+        "sold": 206,
+        "totalSeats": 206,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 1,
+        "gross": 58870,
+        "sold": 207,
+        "totalSeats": 209,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 99.04
+      },
+      {
+        "chain": "Carnival",
+        "venues": 1,
+        "shows": 2,
+        "gross": 71950,
+        "sold": 312,
+        "totalSeats": 319,
         "fastfilling": 1,
-        "housefull": 0,
-        "occupancy": 96.26
+        "housefull": 1,
+        "occupancy": 97.81
+      },
+      {
+        "chain": "NY ",
+        "venues": 1,
+        "shows": 1,
+        "gross": 63720,
+        "sold": 216,
+        "totalSeats": 216,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
       },
       {
         "chain": "Justickets",
@@ -120,6 +115,136 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 20.83
+      }
+    ]
+  },
+  "Baahubali The Epic | Telugu": {
+    "shows": 9,
+    "gross": 744050,
+    "sold": 4349,
+    "totalSeats": 4984,
+    "venues": 9,
+    "cities": 5,
+    "fastfilling": 7,
+    "housefull": 1,
+    "occupancy": 87.26,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 5,
+        "shows": 5,
+        "gross": 512100,
+        "sold": 2784,
+        "totalSeats": 3128,
+        "fastfilling": 4,
+        "housefull": 1,
+        "occupancy": 89
+      },
+      {
+        "city": "Hosur",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 28400,
+        "sold": 142,
+        "totalSeats": 350,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 40.57
+      },
+      {
+        "city": "Proddatur",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 72150,
+        "sold": 481,
+        "totalSeats": 496,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 96.98
+      },
+      {
+        "city": "Rajampet",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 42050,
+        "sold": 369,
+        "totalSeats": 408,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 90.44
+      },
+      {
+        "city": "Kadapa",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 89350,
+        "sold": 573,
+        "totalSeats": 602,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 95.18
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "TicketNew",
+        "venues": 5,
+        "shows": 5,
+        "gross": 512100,
+        "sold": 2784,
+        "totalSeats": 3128,
+        "fastfilling": 4,
+        "housefull": 1,
+        "occupancy": 89
+      },
+      {
+        "chain": "Grand Cinema",
+        "venues": 1,
+        "shows": 1,
+        "gross": 28400,
+        "sold": 142,
+        "totalSeats": 350,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 40.57
+      },
+      {
+        "chain": "Araveti Theatre",
+        "venues": 1,
+        "shows": 1,
+        "gross": 72150,
+        "sold": 481,
+        "totalSeats": 496,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 96.98
+      },
+      {
+        "chain": "Sri Sai Cinemas A/C 4K",
+        "venues": 1,
+        "shows": 1,
+        "gross": 42050,
+        "sold": 369,
+        "totalSeats": 408,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 90.44
+      },
+      {
+        "chain": "Raja Cinemas",
+        "venues": 1,
+        "shows": 1,
+        "gross": 89350,
+        "sold": 573,
+        "totalSeats": 602,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 95.18
       }
     ]
   }
