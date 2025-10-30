@@ -1,16 +1,5 @@
 [
   {
-    "movie": "Ek Deewane Ki Deewaniyat",
-    "language": "Hindi",
-    "movieCode": "Z~8gh372fG",
-    "id": 190438,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ek-Deewane-Ki-Deewaniyat--0156ff40-9ea0-11f0-8fe0-a3fc1d3d55de.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
-    "cityCount": 25
-  },
-  {
     "movie": "Thamma",
     "language": "Hindi",
     "movieCode": "rlCtJVEk3",
@@ -18,8 +7,8 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Thamma-74712880-9ea9-11f0-bc47-db4037af6be2.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
-    "cityCount": 25
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
+    "cityCount": 24
   },
   {
     "movie": "The Taj Story",
@@ -31,6 +20,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Taj-Story_Poster-345a4d40-a380-11f0-9e71-378784c47b3f.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
     "cityCount": 24
+  },
+  {
+    "movie": "Ek Deewane Ki Deewaniyat",
+    "language": "Hindi",
+    "movieCode": "Z~8gh372fG",
+    "id": 190438,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ek-Deewane-Ki-Deewaniyat--0156ff40-9ea0-11f0-8fe0-a3fc1d3d55de.jpg",
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
+    "cityCount": 23
   },
   {
     "movie": "Chainsaw Man - The Movie: Reze Arc",
@@ -180,7 +180,7 @@
     "language": "Telugu",
     "id": 181742,
     "runtime": 134,
-    "rating": "UA",
+    "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/mass-jathara-poster-654dad50-b561-11f0-99ad-efe5e21cdcda.jpg",
     "city": "Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Guntur, Hyderabad, Kolkata, Mangaluru, Mumbai, Nagpur, Surat, Visakhapatnam",
     "cityCount": 15
@@ -230,15 +230,25 @@
     "cityCount": 13
   },
   {
-    "movie": "Sunny Sanskari Ki Tulsi Kumari",
+    "movie": "Single Salma",
     "language": "Hindi",
-    "movieCode": "MI5RsGjDcm",
-    "id": 170481,
+    "movieCode": "41zERhY4wI",
+    "id": 207045,
     "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sunny-Sanskari_Poster-cbe8f520-84be-11f0-b558-7978ea3a4641.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Nagpur, Surat",
-    "cityCount": 12
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Single-Salma_Poster-0729a340-9e10-11f0-8356-cb42a774072e.jpg",
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 13
+  },
+  {
+    "movie": "Bugonia",
+    "language": "English",
+    "id": 183141,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bugonia--6223bc60-a430-11f0-9ae8-59eaf2ec9173.jpg",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kochi, Mumbai, Nagpur",
+    "cityCount": 11
   },
   {
     "movie": "Jolly LLB 3",
@@ -274,15 +284,15 @@
     "cityCount": 11
   },
   {
-    "movie": "Bugonia",
-    "language": "English",
-    "movieCode": "smkUPfaqw6",
-    "id": 183141,
+    "movie": "Sunny Sanskari Ki Tulsi Kumari",
+    "language": "Hindi",
+    "movieCode": "MI5RsGjDcm",
+    "id": 170481,
     "runtime": 134,
-    "rating": "TBA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bugonia--e7631900-a383-11f0-b6ab-35ca88c0d1a2.jpg",
-    "city": "Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kochi, Mumbai",
-    "cityCount": 9
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sunny-Sanskari-Ki-Tulsi-Kumari_Poster-7474f640-92ba-11f0-beb4-cb65f852835f.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Nagpur, Surat",
+    "cityCount": 10
   },
   {
     "movie": "Chaniya Toli",
@@ -298,11 +308,10 @@
   {
     "movie": "Aan Paavam Pollathathu",
     "language": "Tamil",
-    "movieCode": "mU8ujxsy~D",
     "id": 207453,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Aan-Paavam-Pollathathu_Poster-96c5e2e0-b3bc-11f0-b4fa-4d356c15f815.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Aan-Paavam-Pollathathu_Poster-aaace550-b318-11f0-a13c-93e7faeb24da.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Madurai, Mangaluru, Mumbai",
     "cityCount": 8
   },
@@ -329,17 +338,6 @@
     "cityCount": 8
   },
   {
-    "movie": "One Battle After Another",
-    "language": "English",
-    "movieCode": "vnocvabxnj",
-    "id": 194432,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/one-battle-after-another-5b141d60-9b71-11f0-84cf-ebe1fc3de785.jpg",
-    "city": "Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Kochi, Mumbai",
-    "cityCount": 8
-  },
-  {
     "movie": "Sakthi Thirumagan",
     "language": "Tamil",
     "movieCode": "REoWJwmo3F",
@@ -362,14 +360,14 @@
     "cityCount": 7
   },
   {
-    "movie": "K-Ramp",
-    "language": "Telugu",
-    "movieCode": "crZ1HBwPFB",
-    "id": 189464,
+    "movie": "One Battle After Another",
+    "language": "English",
+    "movieCode": "vnocvabxnj",
+    "id": 194432,
     "runtime": 134,
     "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/K-Ramp-posgter-c08bcb30-769f-11f0-9b57-a9dda541a3eb.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Guntur, Hyderabad, Visakhapatnam",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/one-battle-after-another-5b141d60-9b71-11f0-84cf-ebe1fc3de785.jpg",
+    "city": "Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Kochi, Mumbai",
     "cityCount": 7
   },
   {
@@ -397,22 +395,20 @@
   {
     "movie": "Good Boy",
     "language": "English",
-    "movieCode": "KNjWN2SpqD",
     "id": 204303,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Good-Boy_Poster-32179e50-b499-11f0-8b80-87ae205ff099.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Good-Boy_Poster-b51eb2b0-9ac8-11f0-bc30-2dcdf57f1857.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Mumbai",
     "cityCount": 6
   },
   {
     "movie": "Ikk Kudi",
     "language": "Punjabi",
-    "movieCode": "kvdxuzQavv",
     "id": 186654,
     "runtime": 134,
     "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ikk-Kudi--1d5cede0-a386-11f0-9a9c-cd10283a4a65.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ikk-Kudi--3e518cd0-a431-11f0-9ae8-59eaf2ec9173.jpg",
     "city": "Amritsar, Bhopal, Chandigarh, Delhi/NCR, Jaipur, Mumbai",
     "cityCount": 6
   },
@@ -494,14 +490,14 @@
     "cityCount": 5
   },
   {
-    "movie": "Godday Godday Chaa 2",
-    "language": "Punjabi",
-    "movieCode": "9K87hSOqzl",
-    "id": 199582,
+    "movie": "K-Ramp",
+    "language": "Telugu",
+    "movieCode": "crZ1HBwPFB",
+    "id": 189464,
     "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Godday-Goddya-Chaa-2-4ada5cb0-a432-11f0-924e-9f4458e01db6.jpg",
-    "city": "Amritsar, Bangalore, Bengaluru, Chandigarh, Delhi/NCR",
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/K-Ramp-posgter-c08bcb30-769f-11f0-9b57-a9dda541a3eb.jpg",
+    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 5
   },
   {
@@ -513,17 +509,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mithra-Mandalip-ece30e10-a5f1-11f0-8776-218d5db63e1b.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 5
-  },
-  {
-    "movie": "Nellikkampoyil Night Riders",
-    "language": "Malayalam",
-    "movieCode": "R3sSfGZeSU",
-    "id": 206019,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nellikkampoyil-Night-Riders_Poster-43135610-ab41-11f0-9a37-6f2933fc34e0.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi",
     "cityCount": 5
   },
   {
@@ -703,17 +688,6 @@
     "cityCount": 4
   },
   {
-    "movie": "Single Salma",
-    "language": "Hindi",
-    "movieCode": "41zERhY4wI",
-    "id": 207045,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Single-Salma_Poster-0729a340-9e10-11f0-8356-cb42a774072e.jpg",
-    "city": "Amritsar, Hyderabad, Jaipur, Visakhapatnam",
-    "cityCount": 4
-  },
-  {
     "movie": "The Pet Detective",
     "language": "Malayalam",
     "movieCode": "igwA7n2NPj",
@@ -731,7 +705,7 @@
     "id": 178225,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tron--Ares-bfc6c610-63de-11f0-b49e-0daac2dae3b7.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tron--Ares-b2d44270-63de-11f0-860b-0123967fd46d.jpg",
     "city": "Bangalore, Bengaluru, Delhi/NCR, Mumbai",
     "cityCount": 4
   },
@@ -868,6 +842,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Godday Godday Chaa 2",
+    "language": "Punjabi",
+    "movieCode": "9K87hSOqzl",
+    "id": 199582,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Godday-Goddya-Chaa-2-4ada5cb0-a432-11f0-924e-9f4458e01db6.jpg",
+    "city": "Amritsar, Chandigarh, Delhi/NCR",
+    "cityCount": 3
+  },
+  {
     "movie": "Him",
     "language": "English",
     "movieCode": "FcLFLw~7Tq",
@@ -947,23 +932,11 @@
   {
     "movie": "Kona",
     "language": "Kannada",
-    "movieCode": "rym_haADso",
     "id": 208296,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kona_Poster-10aa3d40-b33b-11f0-a12f-31fe74dfff1a.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kona_Poster-5d3702a0-b094-11f0-a00d-b90481859918.jpg",
     "city": "Bangalore, Bengaluru, Mangaluru",
-    "cityCount": 3
-  },
-  {
-    "movie": "Lokah Chapter 1: Chandra",
-    "language": "Malayalam",
-    "movieCode": "y2XFEb8e0E",
-    "id": 202649,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lokah-Chapter-1-6a1c4560-9ad3-11f0-af89-f5b2732bca3d.jpg",
-    "city": "Bangalore, Bengaluru, Kochi",
     "cityCount": 3
   },
   {
@@ -989,17 +962,6 @@
     "cityCount": 3
   },
   {
-    "movie": "Regretting You",
-    "language": "English",
-    "movieCode": "qE6qbeqLn~",
-    "id": 198448,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/P-REGRETTING-YOU-f3f5f590-8e3c-11f0-87e4-134533481421.jpg",
-    "city": "Chennai, Delhi/NCR, Mumbai",
-    "cityCount": 3
-  },
-  {
     "movie": "Rippan Swaamy",
     "language": "Kannada",
     "movieCode": "7QpwAdBxgc",
@@ -1008,17 +970,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Rippan-Swaamy-35ffb170-8266-11f0-83ad-4b9786be9938.jpg",
     "city": "Bangalore, Bengaluru, Mangaluru",
-    "cityCount": 3
-  },
-  {
-    "movie": "Telusu Kada",
-    "language": "Telugu",
-    "movieCode": "w0p1Dd852e",
-    "id": 187147,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster_0001_Telusu_Poster-21f07f10-a981-11f0-89d8-39ca3fe79c6b.jpg",
-    "city": "Chennai, Guntur, Hyderabad",
     "cityCount": 3
   },
   {
@@ -2177,6 +2128,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Telusu Kada",
+    "language": "Telugu",
+    "movieCode": "w0p1Dd852e",
+    "id": 187147,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster_0001_Telusu_Poster-21f07f10-a981-11f0-89d8-39ca3fe79c6b.jpg",
+    "city": "Guntur, Hyderabad",
+    "cityCount": 2
+  },
+  {
     "movie": "Thanal",
     "language": "Tamil",
     "movieCode": "EfbvX7FXrF",
@@ -2267,11 +2229,10 @@
   {
     "movie": "Tu Maza Kinara",
     "language": "Marathi",
-    "movieCode": "phB~zVg3c3",
     "id": 208166,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/TU-MAZA-KINARA1-b6db7020-b32d-11f0-aba4-b9c1f385b44b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/TU-MAZA-KINARA1-859b3970-b330-11f0-a45d-4d313dac3402.jpg",
     "city": "Mumbai, Nagpur",
     "cityCount": 2
   },
@@ -4477,6 +4438,17 @@
   },
   {
     "movie": "Lokah Chapter 1: Chandra",
+    "language": "Malayalam",
+    "movieCode": "y2XFEb8e0E",
+    "id": 202649,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lokah-Chapter-1-6a1c4560-9ad3-11f0-af89-f5b2732bca3d.jpg",
+    "city": "Kochi",
+    "cityCount": 1
+  },
+  {
+    "movie": "Lokah Chapter 1: Chandra",
     "language": "Telugu",
     "movieCode": "ww~PMST~1t",
     "id": 202649,
@@ -4493,7 +4465,7 @@
     "id": 138340,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootera4-ba1de390-f9e6-11ef-9252-6f3b98621b31.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootera2-878bb8d0-f9e6-11ef-943b-b3723efa3f38.jpg",
     "city": "Kolkata",
     "cityCount": 1
   },
@@ -5014,6 +4986,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Nellikkampoyil Night Riders",
+    "language": "Malayalam",
+    "movieCode": "R3sSfGZeSU",
+    "id": 206019,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nellikkampoyil-Night-Riders_Poster-43135610-ab41-11f0-9a37-6f2933fc34e0.jpg",
+    "city": "Kochi",
+    "cityCount": 1
+  },
+  {
     "movie": "Netterekere",
     "language": "Tulu",
     "movieCode": "Dfrrr8QJ43",
@@ -5374,6 +5357,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Ravanaprabhu_Poster-abd48310-a2ca-11f0-87c0-cf630fbfd3a8.jpg",
     "city": "Chennai",
+    "cityCount": 1
+  },
+  {
+    "movie": "Regretting You",
+    "language": "English",
+    "movieCode": "qE6qbeqLn~",
+    "id": 198448,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/P-REGRETTING-YOU-f3f5f590-8e3c-11f0-87e4-134533481421.jpg",
+    "city": "Delhi/NCR",
     "cityCount": 1
   },
   {
@@ -5933,7 +5927,7 @@
     "id": 172413,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bad-d9e5e5c0-72a8-11f0-bf18-ef07befd2b97.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bad-Guys2_Poster-f85fb760-72a8-11f0-81a2-95c24e20b386.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
