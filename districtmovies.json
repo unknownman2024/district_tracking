@@ -187,17 +187,6 @@
     "cityCount": 14
   },
   {
-    "movie": "Single Salma",
-    "language": "Hindi",
-    "movieCode": "41zERhY4wI",
-    "id": 207045,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Single-Salma_Poster-0729a340-9e10-11f0-8356-cb42a774072e.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nashik, Surat",
-    "cityCount": 14
-  },
-  {
     "movie": "Chennai Express",
     "language": "Hindi",
     "movieCode": "6sEgpx_lu",
@@ -228,6 +217,17 @@
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Madhaniyan_Poster-56f0e210-9917-11f0-b40c-7799c0afa5a1-61b8c0a0-b4ba-11f0-9a72-3d3ef4cd3a08.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kota, Mumbai, Nagpur",
+    "cityCount": 13
+  },
+  {
+    "movie": "Single Salma",
+    "language": "Hindi",
+    "movieCode": "41zERhY4wI",
+    "id": 207045,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Single-Salma_Poster-0729a340-9e10-11f0-8356-cb42a774072e.jpg",
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Nashik, Surat",
     "cityCount": 13
   },
   {
@@ -699,7 +699,7 @@
     "id": 178225,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tron--Ares-bfc6c610-63de-11f0-b49e-0daac2dae3b7.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tron--Ares-poster%20(2)-54325dc0-a4dd-11f0-ab42-7fedd39c3b41.jpg",
     "city": "Bangalore, Bengaluru, Delhi/NCR, Mumbai",
     "cityCount": 4
   },
@@ -842,7 +842,7 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
     "city": "Chennai, Hyderabad, Mumbai",
     "cityCount": 3
   },
@@ -1273,17 +1273,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhinga-Masti_Poster-7980c060-9080-11f0-b268-1d63caffc89c.jpg",
     "city": "Ahmedabad, Gandhinagar",
-    "cityCount": 2
-  },
-  {
-    "movie": "Diesel",
-    "language": "Tamil",
-    "movieCode": "KOXDuVC6nN",
-    "id": 190440,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Diesel-new-54e7bd30-ef45-11ef-8cb3-05c6c7d276fb.jpg",
-    "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
   {
@@ -2492,7 +2481,7 @@
     "id": 425,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/POSTER%20_0020_REMOVE%20TEXT%206-6fcd5660-36d4-11f0-b426-a50671acfc24.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/POSTER%20_0019_REMOVE%20TEXT%205-617883a0-36d4-11f0-b426-a50671acfc24.jpg",
     "city": "Mumbai",
     "cityCount": 1
   },
@@ -3407,6 +3396,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Diary-of-a-Woman_Poster-ecefdc20-88a1-11f0-9d36-8174d6609eb9.jpg",
     "city": "Kolkata",
+    "cityCount": 1
+  },
+  {
+    "movie": "Diesel",
+    "language": "Tamil",
+    "movieCode": "KOXDuVC6nN",
+    "id": 190440,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Diesel-new-54e7bd30-ef45-11ef-8cb3-05c6c7d276fb.jpg",
+    "city": "Chennai",
     "cityCount": 1
   },
   {
@@ -4505,7 +4505,7 @@
     "id": 138340,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootera4-ba1de390-f9e6-11ef-9252-6f3b98621b31.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lootera3-a06bfa40-f9e6-11ef-b800-7bcf5dab3110.jpg",
     "city": "Kolkata",
     "cityCount": 1
   },
@@ -5704,7 +5704,7 @@
     "runtime": 134,
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/poster%20sitare-zameen-par%20(1)-58b8fc00-2bf7-11f0-b426-a50671acfc24.jpg",
-    "city": "Goa",
+    "city": "Mumbai",
     "cityCount": 1
   },
   {
@@ -5758,7 +5758,7 @@
     "id": 170418,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sonic4-d652a4b0-fb3a-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sonic3--b7387460-fb3a-11ef-943b-b3723efa3f38.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
@@ -6495,7 +6495,7 @@
     "id": 137829,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/vickydonor2-b3411a70-1c13-11f0-bf5a-e170510964b5.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/vickydonor1-a95bafc0-1c13-11f0-ba3a-3d835ae95687.jpg",
     "city": "Kolkata",
     "cityCount": 1
   },
