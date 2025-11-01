@@ -1,6 +1,6 @@
 {
   "date": "2025-11-02",
-  "lastUpdated": "04:06 AM, 02 November 2025",
+  "lastUpdated": "05:02 AM, 02 November 2025",
   "Baahubali The Epic | Telugu": [
     {
       "city": "Hyderabad",
@@ -13,7 +13,7 @@
       "sold": 842,
       "gross": 126585,
       "occupancy": "99.64%",
-      "minsLeft": 189
+      "minsLeft": 132
     },
     {
       "city": "Bengaluru",
@@ -22,11 +22,158 @@
       "time": "06:30 AM",
       "audi": "IMAX",
       "totalSeats": 241,
-      "available": 136,
-      "sold": 105,
-      "gross": 37170,
-      "occupancy": "43.57%",
-      "minsLeft": 144
+      "available": 135,
+      "sold": 106,
+      "gross": 37520,
+      "occupancy": "43.98%",
+      "minsLeft": 87
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "Cinepolis Nexus Shantiniketan, Thigalarapalya, Bengaluru",
+      "time": "08:05 AM",
+      "audi": "4DX",
+      "totalSeats": 96,
+      "available": 44,
+      "sold": 52,
+      "gross": 21840,
+      "occupancy": "54.17%",
+      "minsLeft": 182
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "PVR Infiniti Malad, Malad (W), Mumbai",
+      "time": "08:15 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 72,
+      "available": 56,
+      "sold": 16,
+      "gross": 6560,
+      "occupancy": "22.22%",
+      "minsLeft": 192
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Select City Walk, Saket, New Delhi",
+      "time": "07:55 AM",
+      "audi": "IMAX",
+      "totalSeats": 246,
+      "available": 213,
+      "sold": 33,
+      "gross": 8067,
+      "occupancy": "13.41%",
+      "minsLeft": 172
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Platinum Movietime Cinemas, Gachibowli (SLN Terminus), Hyderabad",
+      "time": "08:00 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 39,
+      "available": 26,
+      "sold": 13,
+      "gross": 4550,
+      "occupancy": "33.33%",
+      "minsLeft": 177
+    }
+  ],
+  "The Taj Story | Hindi": [
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Motera, Ahmedabad",
+      "time": "08:00 AM",
+      "audi": "Screen 1",
+      "totalSeats": 29,
+      "available": 29,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 177
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Mondeal Retail Park, Ahmedabad",
+      "time": "08:00 AM",
+      "audi": "Screen 1",
+      "totalSeats": 20,
+      "available": 20,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 177
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Bhayandar",
+      "time": "07:30 AM",
+      "audi": "Screen 4",
+      "totalSeats": 384,
+      "available": 384,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 147
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Borivali (W)",
+      "time": "07:30 AM",
+      "audi": "Screen 4",
+      "totalSeats": 279,
+      "available": 279,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 147
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Kandivali (E)",
+      "time": "08:15 AM",
+      "audi": "Maxus Cinema - Kandivali",
+      "totalSeats": 393,
+      "available": 393,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 192
+    }
+  ],
+  "Dies Irae | Malayalam": [
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "Cinepolis Nexus Shantiniketan, Thigalarapalya, Bengaluru",
+      "time": "07:30 AM",
+      "audi": "AUDI05",
+      "totalSeats": 144,
+      "available": 78,
+      "sold": 66,
+      "gross": 17180,
+      "occupancy": "45.83%",
+      "minsLeft": 147
+    },
+    {
+      "city": "Kochi",
+      "state": "Kerala",
+      "venue": "PVR Forum Mall, NH 47, Kochi",
+      "time": "08:00 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 289,
+      "available": 80,
+      "sold": 209,
+      "gross": 62460,
+      "occupancy": "72.32%",
+      "minsLeft": 177
     }
   ],
   "Roi Roi Binale | Assamese": [
@@ -54,7 +201,7 @@
       "sold": 206,
       "gross": 70900,
       "occupancy": "100.00%",
-      "minsLeft": 119
+      "minsLeft": 62
     },
     {
       "city": "Guwahati",
@@ -67,7 +214,7 @@
       "sold": 208,
       "gross": 59170,
       "occupancy": "99.52%",
-      "minsLeft": 119
+      "minsLeft": 62
     },
     {
       "city": "Guwahati",
@@ -80,7 +227,7 @@
       "sold": 208,
       "gross": 47650,
       "occupancy": "98.11%",
-      "minsLeft": 114
+      "minsLeft": 57
     },
     {
       "city": "Bengaluru",
@@ -93,7 +240,7 @@
       "sold": 9,
       "gross": 2124,
       "occupancy": "6.52%",
-      "minsLeft": 194
+      "minsLeft": 137
     },
     {
       "city": "Guwahati",
@@ -106,7 +253,7 @@
       "sold": 205,
       "gross": 70580,
       "occupancy": "99.51%",
-      "minsLeft": 179
+      "minsLeft": 122
     },
     {
       "city": "Guwahati",
@@ -119,7 +266,7 @@
       "sold": 206,
       "gross": 58650,
       "occupancy": "98.56%",
-      "minsLeft": 184
+      "minsLeft": 127
     },
     {
       "city": "Dibrugarh",
@@ -132,7 +279,7 @@
       "sold": 232,
       "gross": 68940,
       "occupancy": "100.00%",
-      "minsLeft": 174
+      "minsLeft": 117
     },
     {
       "city": "Guwahati",
@@ -145,7 +292,7 @@
       "sold": 104,
       "gross": 30950,
       "occupancy": "97.20%",
-      "minsLeft": 174
+      "minsLeft": 117
     },
     {
       "city": "Guwahati",
@@ -158,7 +305,7 @@
       "sold": 148,
       "gross": 42780,
       "occupancy": "98.67%",
-      "minsLeft": 174
+      "minsLeft": 117
     },
     {
       "city": "Guwahati",
@@ -171,7 +318,7 @@
       "sold": 38,
       "gross": 23940,
       "occupancy": "100.00%",
-      "minsLeft": 179
+      "minsLeft": 122
     },
     {
       "city": "Jorhat",
@@ -184,7 +331,7 @@
       "sold": 144,
       "gross": 35920,
       "occupancy": "100.00%",
-      "minsLeft": 179
+      "minsLeft": 122
     },
     {
       "city": "Jorhat",
@@ -197,7 +344,7 @@
       "sold": 133,
       "gross": 37750,
       "occupancy": "100.00%",
-      "minsLeft": 149
+      "minsLeft": 92
     },
     {
       "city": "Sonari",
@@ -210,7 +357,7 @@
       "sold": 176,
       "gross": 31950,
       "occupancy": "97.78%",
-      "minsLeft": 189
+      "minsLeft": 132
     },
     {
       "city": "Tinsukia",
@@ -223,7 +370,7 @@
       "sold": 238,
       "gross": 66020,
       "occupancy": "100.00%",
-      "minsLeft": 174
+      "minsLeft": 117
     },
     {
       "city": "Mangaldoi",
@@ -236,7 +383,249 @@
       "sold": 194,
       "gross": 22560,
       "occupancy": "100.00%",
-      "minsLeft": 189
+      "minsLeft": 132
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "INOX NCS Square, Adabari, Guwahati",
+      "time": "08:05 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 242,
+      "available": 0,
+      "sold": 242,
+      "gross": 85210,
+      "occupancy": "100.00%",
+      "minsLeft": 182
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "Cinepolis Central Mall, Christian Basti, Guwahati",
+      "time": "08:10 AM",
+      "audi": "AUDI 4",
+      "totalSeats": 195,
+      "available": 3,
+      "sold": 192,
+      "gross": 53740,
+      "occupancy": "98.46%",
+      "minsLeft": 187
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "Cinepolis Central Mall, Christian Basti, Guwahati",
+      "time": "07:40 AM",
+      "audi": "AUDI 3",
+      "totalSeats": 196,
+      "available": 2,
+      "sold": 194,
+      "gross": 54280,
+      "occupancy": "98.98%",
+      "minsLeft": 157
+    },
+    {
+      "city": "Dibrugarh",
+      "state": "Assam",
+      "venue": "Galleria Cinema, Sohum Mal, Dibrugarh",
+      "time": "08:00 AM",
+      "audi": "AUDI 2",
+      "totalSeats": 324,
+      "available": 0,
+      "sold": 324,
+      "gross": 102900,
+      "occupancy": "100.00%",
+      "minsLeft": 177
+    },
+    {
+      "city": "Golaghat",
+      "state": "Assam",
+      "venue": "Gold Cinema, Old Jail Market, Golaghat",
+      "time": "08:00 AM",
+      "audi": "Gold Cinema - Golaghat",
+      "totalSeats": 220,
+      "available": 220,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 177
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "Galleria Cinema Hub Mall, G. S. Road, Guwahati",
+      "time": "07:30 AM",
+      "audi": "Audi-1",
+      "totalSeats": 255,
+      "available": 0,
+      "sold": 255,
+      "gross": 50700,
+      "occupancy": "100.00%",
+      "minsLeft": 147
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "NY Cinemas, Roodraksh Mall, Guwahati",
+      "time": "07:30 AM",
+      "audi": "AUDI-1",
+      "totalSeats": 250,
+      "available": 2,
+      "sold": 248,
+      "gross": 79850,
+      "occupancy": "99.20%",
+      "minsLeft": 147
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "PVR City Centre, G.S. Road, Guwahati",
+      "time": "08:05 AM",
+      "audi": "AUDI 04",
+      "totalSeats": 248,
+      "available": 2,
+      "sold": 246,
+      "gross": 73670,
+      "occupancy": "99.19%",
+      "minsLeft": 182
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "PVR City Centre, G.S. Road, Guwahati",
+      "time": "07:35 AM",
+      "audi": "AUDI 01",
+      "totalSeats": 121,
+      "available": 2,
+      "sold": 119,
+      "gross": 34400,
+      "occupancy": "98.35%",
+      "minsLeft": 152
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "INOX Aurus, Aurus Mall, Guwahati",
+      "time": "08:05 AM",
+      "audi": "INSIGNIA 2",
+      "totalSeats": 42,
+      "available": 1,
+      "sold": 41,
+      "gross": 25830,
+      "occupancy": "97.62%",
+      "minsLeft": 182
+    },
+    {
+      "city": "Guwahati",
+      "state": "Assam",
+      "venue": "INOX Aurus, Aurus Mall, Guwahati",
+      "time": "07:35 AM",
+      "audi": "INSIGNIA 1",
+      "totalSeats": 37,
+      "available": 0,
+      "sold": 37,
+      "gross": 23310,
+      "occupancy": "100.00%",
+      "minsLeft": 152
+    },
+    {
+      "city": "Kokrajhar",
+      "state": "Assam",
+      "venue": "Gold Cinema, Near Jwngma Hotel, Kokrajhar",
+      "time": "08:00 AM",
+      "audi": "Gold Cinema - Kokrajhar",
+      "totalSeats": 186,
+      "available": 3,
+      "sold": 183,
+      "gross": 27990,
+      "occupancy": "98.39%",
+      "minsLeft": 177
+    },
+    {
+      "city": "Tinsukia",
+      "state": "Assam",
+      "venue": "Galleria Cinemas, ATC Mall, Tinsukia",
+      "time": "08:00 AM",
+      "audi": "AUDI 2",
+      "totalSeats": 292,
+      "available": 0,
+      "sold": 292,
+      "gross": 83120,
+      "occupancy": "100.00%",
+      "minsLeft": 177
+    },
+    {
+      "city": "Dhekiajuli",
+      "state": "Assam",
+      "venue": "Nakshatra Cinemas, Dhekiajuli",
+      "time": "07:30 AM",
+      "audi": "Screen 1",
+      "totalSeats": 180,
+      "available": 5,
+      "sold": 175,
+      "gross": 33210,
+      "occupancy": "97.22%",
+      "minsLeft": 147
+    }
+  ],
+  "Ek Deewane Ki Deewaniyat | Hindi": [
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Bhayandar",
+      "time": "08:15 AM",
+      "audi": "Screen 2",
+      "totalSeats": 255,
+      "available": 255,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 192
+    }
+  ],
+  "Kantara: A Legend Chapter-1 | Hindi": [
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Bhayandar",
+      "time": "07:30 AM",
+      "audi": "Screen 3",
+      "totalSeats": 238,
+      "available": 238,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 147
+    }
+  ],
+  "Baahubali The Epic | Hindi": [
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "time": "08:15 AM",
+      "audi": "SCREEN 5",
+      "totalSeats": 212,
+      "available": 186,
+      "sold": 26,
+      "gross": 4100,
+      "occupancy": "12.26%",
+      "minsLeft": 192
+    }
+  ],
+  "Mass Jathara | Telugu": [
+    {
+      "city": "Gudivada",
+      "state": "Andhra Pradesh",
+      "venue": "G3 Theatres Sindhura, Eluru Road, Gudivada",
+      "time": "08:00 AM",
+      "audi": "Sindhura",
+      "totalSeats": 402,
+      "available": 369,
+      "sold": 33,
+      "gross": 4035,
+      "occupancy": "8.21%",
+      "minsLeft": 177
     }
   ]
 }
