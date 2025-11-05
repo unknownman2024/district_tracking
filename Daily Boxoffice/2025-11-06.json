@@ -1,40 +1,101 @@
 {
   "date": "2025-11-06",
-  "lastUpdated": "04:10 AM, 06 November 2025",
-  "Roi Roi Binale | Assamese": {
-    "shows": 10,
-    "gross": 197330,
-    "sold": 911,
-    "totalSeats": 1770,
-    "venues": 8,
-    "cities": 7,
-    "fastfilling": 5,
-    "housefull": 2,
-    "occupancy": 51.47,
+  "lastUpdated": "05:06 AM, 06 November 2025",
+  "The Taj Story | Hindi": {
+    "shows": 4,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 721,
+    "venues": 4,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
     "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 2,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 49,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "venues": 2,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 672,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 2,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 49,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Maxus",
+        "venues": 2,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 672,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Roi Roi Binale | Assamese": {
+    "shows": 22,
+    "gross": 432720,
+    "sold": 1882,
+    "totalSeats": 4065,
+    "venues": 12,
+    "cities": 8,
+    "fastfilling": 8,
+    "housefull": 3,
+    "occupancy": 46.3,
+    "details": [
+      {
+        "city": "Guwahati",
+        "state": "Assam",
+        "venues": 5,
+        "shows": 12,
+        "gross": 155670,
+        "sold": 645,
+        "totalSeats": 1962,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 32.87
+      },
       {
         "city": "Dibrugarh",
         "state": "Assam",
         "venues": 1,
-        "shows": 1,
-        "gross": 11740,
-        "sold": 45,
-        "totalSeats": 232,
-        "fastfilling": 0,
+        "shows": 2,
+        "gross": 67520,
+        "sold": 243,
+        "totalSeats": 556,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 19.4
-      },
-      {
-        "city": "Guwahati",
-        "state": "Assam",
-        "venues": 2,
-        "shows": 3,
-        "gross": 43270,
-        "sold": 187,
-        "totalSeats": 469,
-        "fastfilling": 2,
-        "housefull": 0,
-        "occupancy": 39.87
+        "occupancy": 43.71
       },
       {
         "city": "Jorhat",
@@ -47,6 +108,18 @@
         "fastfilling": 0,
         "housefull": 2,
         "occupancy": 98.56
+      },
+      {
+        "city": "Kokrajhar",
+        "state": "Assam",
+        "venues": 1,
+        "shows": 1,
+        "gross": 27990,
+        "sold": 183,
+        "totalSeats": 186,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 98.39
       },
       {
         "city": "Sonari",
@@ -64,13 +137,13 @@
         "city": "Tinsukia",
         "state": "Assam",
         "venues": 1,
-        "shows": 1,
-        "gross": 4670,
-        "sold": 17,
-        "totalSeats": 238,
+        "shows": 2,
+        "gross": 43560,
+        "sold": 149,
+        "totalSeats": 530,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.14
+        "occupancy": 28.11
       },
       {
         "city": "Dhekiajuli",
@@ -89,7 +162,7 @@
         "state": "Assam",
         "venues": 1,
         "shows": 1,
-        "gross": 20410,
+        "gross": 20740,
         "sold": 183,
         "totalSeats": 194,
         "fastfilling": 1,
@@ -99,15 +172,37 @@
     ],
     "Chain_details": [
       {
-        "chain": "Galleria",
-        "venues": 2,
+        "chain": "PVR",
+        "venues": 4,
+        "shows": 10,
+        "gross": 190320,
+        "sold": 719,
+        "totalSeats": 1529,
+        "fastfilling": 2,
+        "housefull": 2,
+        "occupancy": 47.02
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
         "shows": 2,
-        "gross": 16410,
-        "sold": 62,
-        "totalSeats": 470,
+        "gross": 7480,
+        "sold": 30,
+        "totalSeats": 391,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 13.19
+        "occupancy": 7.67
+      },
+      {
+        "chain": "Galleria",
+        "venues": 2,
+        "shows": 4,
+        "gross": 111080,
+        "sold": 392,
+        "totalSeats": 1086,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 36.1
       },
       {
         "chain": "Carnival",
@@ -121,15 +216,15 @@
         "occupancy": 52.98
       },
       {
-        "chain": "PVR",
-        "venues": 2,
-        "shows": 3,
-        "gross": 85400,
-        "sold": 291,
-        "totalSeats": 427,
+        "chain": "Gold",
+        "venues": 1,
+        "shows": 1,
+        "gross": 27990,
+        "sold": 183,
+        "totalSeats": 186,
         "fastfilling": 0,
-        "housefull": 2,
-        "occupancy": 68.15
+        "housefull": 1,
+        "occupancy": 98.39
       },
       {
         "chain": "Kalpana Cine World",
@@ -157,12 +252,50 @@
         "chain": "Dream Theatre",
         "venues": 1,
         "shows": 1,
-        "gross": 20410,
+        "gross": 20740,
         "sold": 183,
         "totalSeats": 194,
         "fastfilling": 1,
         "housefull": 0,
         "occupancy": 94.33
+      }
+    ]
+  },
+  "Baahubali The Epic | Hindi": {
+    "shows": 1,
+    "gross": 750,
+    "sold": 5,
+    "totalSeats": 212,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.36,
+    "details": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
+        "gross": 750,
+        "sold": 5,
+        "totalSeats": 212,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.36
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "MovieMax",
+        "venues": 1,
+        "shows": 1,
+        "gross": 750,
+        "sold": 5,
+        "totalSeats": 212,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.36
       }
     ]
   },
@@ -204,41 +337,41 @@
       }
     ]
   },
-  "The Taj Story | Hindi": {
+  "Misri | Gujarati": {
     "shows": 2,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 672,
-    "venues": 2,
+    "gross": 4800,
+    "sold": 240,
+    "totalSeats": 838,
+    "venues": 1,
     "cities": 1,
-    "fastfilling": 0,
+    "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 28.64,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "venues": 2,
+        "venues": 1,
         "shows": 2,
-        "gross": 0,
-        "sold": 0,
-        "totalSeats": 672,
-        "fastfilling": 0,
+        "gross": 4800,
+        "sold": 240,
+        "totalSeats": 838,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 28.64
       }
     ],
     "Chain_details": [
       {
-        "chain": "Maxus",
-        "venues": 2,
+        "chain": "Gold Cinema",
+        "venues": 1,
         "shows": 2,
-        "gross": 0,
-        "sold": 0,
-        "totalSeats": 672,
-        "fastfilling": 0,
+        "gross": 4800,
+        "sold": 240,
+        "totalSeats": 838,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 28.64
       }
     ]
   }
