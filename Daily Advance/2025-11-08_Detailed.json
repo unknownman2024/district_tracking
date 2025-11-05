@@ -660,10 +660,10 @@
       "time": "10:05 PM",
       "audi": "AUDI 10",
       "totalSeats": 196,
-      "available": 196,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 170,
+      "sold": 26,
+      "gross": 5264.74,
+      "occupancy": "13.27%"
     },
     {
       "city": "Chennai",
@@ -673,10 +673,10 @@
       "time": "04:00 PM",
       "audi": "AUDI 10",
       "totalSeats": 196,
-      "available": 196,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 170,
+      "sold": 26,
+      "gross": 5264.74,
+      "occupancy": "13.27%"
     },
     {
       "city": "Chennai",
@@ -685,11 +685,414 @@
       "chain": "PVR",
       "time": "06:55 PM",
       "audi": "AUDI 05",
-      "totalSeats": 270,
+      "totalSeats": 263,
       "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "03:35 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "09:45 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "02:55 PM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 371,
+      "sold": 15,
+      "gross": 1575,
+      "occupancy": "3.89%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "06:55 PM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 371,
+      "sold": 15,
+      "gross": 1575,
+      "occupancy": "3.89%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "11:25 AM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 373,
+      "sold": 13,
+      "gross": 1365,
+      "occupancy": "3.37%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "10:05 PM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 372,
+      "sold": 14,
+      "gross": 1470,
+      "occupancy": "3.63%"
+    },
+    {
+      "city": "Peddapuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lalitha Sri Lalitha Theatre, Chadalada, Peddapuram",
+      "chain": "Justickets",
+      "time": "02:00 PM",
+      "audi": "Lalitha",
+      "totalSeats": 246,
+      "available": 121,
+      "sold": 125,
+      "gross": 10050,
+      "occupancy": "50.81%"
+    },
+    {
+      "city": "Peddapuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lalitha Sri Lalitha Theatre, Chadalada, Peddapuram",
+      "chain": "Justickets",
+      "time": "09:00 PM",
+      "audi": "Lalitha",
+      "totalSeats": 246,
+      "available": 121,
+      "sold": 125,
+      "gross": 10050,
+      "occupancy": "50.81%"
+    },
+    {
+      "city": "Peddapuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lalitha Sri Lalitha Theatre, Chadalada, Peddapuram",
+      "chain": "Justickets",
+      "time": "11:00 AM",
+      "audi": "Lalitha",
+      "totalSeats": 246,
+      "available": 121,
+      "sold": 125,
+      "gross": 10050,
+      "occupancy": "50.81%"
+    },
+    {
+      "city": "Peddapuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lalitha Sri Lalitha Theatre, Chadalada, Peddapuram",
+      "chain": "Justickets",
+      "time": "06:00 PM",
+      "audi": "Lalitha",
+      "totalSeats": 246,
+      "available": 121,
+      "sold": 125,
+      "gross": 10050,
+      "occupancy": "50.81%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "10:40 PM",
+      "audi": "SCREEN-5",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kakinada",
+      "state": "Andhra Pradesh",
+      "venue": "Padmapriya Sripriya Complex, Kondayya Palem, Kakinada",
+      "chain": "Justickets",
+      "time": "11:30 AM",
+      "audi": "Padmapriya Dolby Atmos",
+      "totalSeats": 423,
+      "available": 423,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kakinada",
+      "state": "Andhra Pradesh",
+      "venue": "Padmapriya Sripriya Complex, Kondayya Palem, Kakinada",
+      "chain": "Justickets",
+      "time": "02:30 PM",
+      "audi": "Padmapriya Dolby Atmos",
+      "totalSeats": 423,
+      "available": 423,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kakinada",
+      "state": "Andhra Pradesh",
+      "venue": "Padmapriya Sripriya Complex, Kondayya Palem, Kakinada",
+      "chain": "Justickets",
+      "time": "06:30 PM",
+      "audi": "Padmapriya Dolby Atmos",
+      "totalSeats": 423,
+      "available": 423,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kakinada",
+      "state": "Andhra Pradesh",
+      "venue": "Padmapriya Sripriya Complex, Kondayya Palem, Kakinada",
+      "chain": "Justickets",
+      "time": "09:30 PM",
+      "audi": "Padmapriya Dolby Atmos",
+      "totalSeats": 423,
+      "available": 423,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Jaya Theatre AC DTS, Kothavalasa, Vizag",
+      "chain": "Justickets",
+      "time": "02:30 PM",
+      "audi": "Sri Jaya",
+      "totalSeats": 459,
+      "available": 110,
+      "sold": 349,
+      "gross": 22700,
+      "occupancy": "76.03%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Jaya Theatre AC DTS, Kothavalasa, Vizag",
+      "chain": "Justickets",
+      "time": "10:45 AM",
+      "audi": "Sri Jaya",
+      "totalSeats": 459,
+      "available": 110,
+      "sold": 349,
+      "gross": 22700,
+      "occupancy": "76.03%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Jaya Theatre AC DTS, Kothavalasa, Vizag",
+      "chain": "Justickets",
+      "time": "06:30 PM",
+      "audi": "Sri Jaya",
+      "totalSeats": 459,
+      "available": 110,
+      "sold": 349,
+      "gross": 22700,
+      "occupancy": "76.03%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Jaya Theatre AC DTS, Kothavalasa, Vizag",
+      "chain": "Justickets",
+      "time": "09:30 PM",
+      "audi": "Sri Jaya",
+      "totalSeats": 459,
+      "available": 110,
+      "sold": 349,
+      "gross": 22700,
+      "occupancy": "76.03%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sangam Theatre, Dondaparthy, Vizag",
+      "chain": "Justickets",
+      "time": "10:00 PM",
+      "audi": "Sangam 4K Dolby Atmos",
+      "totalSeats": 777,
+      "available": 770,
       "sold": 7,
-      "gross": 1417.43,
-      "occupancy": "2.59%"
+      "gross": 1015,
+      "occupancy": "0.90%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sangam Theatre, Dondaparthy, Vizag",
+      "chain": "Justickets",
+      "time": "06:30 PM",
+      "audi": "Sangam 4K Dolby Atmos",
+      "totalSeats": 777,
+      "available": 770,
+      "sold": 7,
+      "gross": 1015,
+      "occupancy": "0.90%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sangam Theatre, Dondaparthy, Vizag",
+      "chain": "Justickets",
+      "time": "11:15 AM",
+      "audi": "Sangam 4K Dolby Atmos",
+      "totalSeats": 777,
+      "available": 770,
+      "sold": 7,
+      "gross": 1015,
+      "occupancy": "0.90%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Sangam Theatre, Dondaparthy, Vizag",
+      "chain": "Justickets",
+      "time": "02:30 PM",
+      "audi": "Sangam 4K Dolby Atmos",
+      "totalSeats": 777,
+      "available": 770,
+      "sold": 7,
+      "gross": 1015,
+      "occupancy": "0.90%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Kameswari & Kinnera A/C Laser 4K Projection Dolby Atmos & 7.1 Ultrasound, Vizag",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "Kameswari",
+      "totalSeats": 393,
+      "available": 221,
+      "sold": 172,
+      "gross": 25240,
+      "occupancy": "43.77%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Kameswari & Kinnera A/C Laser 4K Projection Dolby Atmos & 7.1 Ultrasound, Vizag",
+      "chain": "TicketNew",
+      "time": "09:45 PM",
+      "audi": "Kameswari",
+      "totalSeats": 393,
+      "available": 221,
+      "sold": 172,
+      "gross": 25240,
+      "occupancy": "43.77%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Kameswari & Kinnera A/C Laser 4K Projection Dolby Atmos & 7.1 Ultrasound, Vizag",
+      "chain": "TicketNew",
+      "time": "06:15 PM",
+      "audi": "Kameswari",
+      "totalSeats": 393,
+      "available": 221,
+      "sold": 172,
+      "gross": 25240,
+      "occupancy": "43.77%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Kameswari & Kinnera A/C Laser 4K Projection Dolby Atmos & 7.1 Ultrasound, Vizag",
+      "chain": "TicketNew",
+      "time": "11:00 AM",
+      "audi": "Kameswari",
+      "totalSeats": 393,
+      "available": 221,
+      "sold": 172,
+      "gross": 25240,
+      "occupancy": "43.77%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "11:30 AM",
+      "audi": "Screen-I",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "06:30 PM",
+      "audi": "Screen-I",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "02:30 PM",
+      "audi": "Screen-I",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "09:45 PM",
+      "audi": "Screen-I",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Jatadhara [2D | Telugu]": [
@@ -1264,6 +1667,227 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "06:45 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "02:30 PM",
+      "audi": "Screen 1",
+      "totalSeats": 157,
+      "available": 210,
+      "sold": -53,
+      "gross": -14100,
+      "occupancy": "-33.76%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "09:30 PM",
+      "audi": "Screen 1",
+      "totalSeats": 157,
+      "available": 210,
+      "sold": -53,
+      "gross": -14100,
+      "occupancy": "-33.76%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "06:30 PM",
+      "audi": "Screen 1",
+      "totalSeats": 157,
+      "available": 210,
+      "sold": -53,
+      "gross": -14100,
+      "occupancy": "-33.76%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "11:15 AM",
+      "audi": "Screen 1",
+      "totalSeats": 157,
+      "available": 210,
+      "sold": -53,
+      "gross": -14100,
+      "occupancy": "-33.76%"
+    },
+    {
+      "city": "Narasannapeta",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rajeswari Kalamandir, Narasannapeta",
+      "chain": "Justickets",
+      "time": "10:30 AM",
+      "audi": "Sri Rajeswari Kalamandir",
+      "totalSeats": 513,
+      "available": 101,
+      "sold": 412,
+      "gross": 38640,
+      "occupancy": "80.31%"
+    },
+    {
+      "city": "Narasannapeta",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rajeswari Kalamandir, Narasannapeta",
+      "chain": "Justickets",
+      "time": "02:20 PM",
+      "audi": "Sri Rajeswari Kalamandir",
+      "totalSeats": 513,
+      "available": 101,
+      "sold": 412,
+      "gross": 38640,
+      "occupancy": "80.31%"
+    },
+    {
+      "city": "Narasannapeta",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rajeswari Kalamandir, Narasannapeta",
+      "chain": "Justickets",
+      "time": "09:30 PM",
+      "audi": "Sri Rajeswari Kalamandir",
+      "totalSeats": 513,
+      "available": 101,
+      "sold": 412,
+      "gross": 38640,
+      "occupancy": "80.31%"
+    },
+    {
+      "city": "Narasannapeta",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rajeswari Kalamandir, Narasannapeta",
+      "chain": "Justickets",
+      "time": "06:15 PM",
+      "audi": "Sri Rajeswari Kalamandir",
+      "totalSeats": 513,
+      "available": 101,
+      "sold": 412,
+      "gross": 38640,
+      "occupancy": "80.31%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "06:45 PM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "11:45 AM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "02:45 PM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chimakurthy",
+      "state": "Andhra Pradesh",
+      "venue": "K3K Cinemas, Beside Anand Way Bridge, Chimakurthy",
+      "chain": "K3K Cinema",
+      "time": "10:00 PM",
+      "audi": "Screen-II",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurazala",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Satyanarayana Theatre, Gurazala",
+      "chain": "Justickets",
+      "time": "11:30 AM",
+      "audi": "Sri Satyanarayana",
+      "totalSeats": 604,
+      "available": 74,
+      "sold": 530,
+      "gross": 44060,
+      "occupancy": "87.75%"
+    },
+    {
+      "city": "Gurazala",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Satyanarayana Theatre, Gurazala",
+      "chain": "Justickets",
+      "time": "06:30 PM",
+      "audi": "Sri Satyanarayana",
+      "totalSeats": 604,
+      "available": 74,
+      "sold": 530,
+      "gross": 44060,
+      "occupancy": "87.75%"
+    },
+    {
+      "city": "Gurazala",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Satyanarayana Theatre, Gurazala",
+      "chain": "Justickets",
+      "time": "09:30 PM",
+      "audi": "Sri Satyanarayana",
+      "totalSeats": 604,
+      "available": 74,
+      "sold": 530,
+      "gross": 44060,
+      "occupancy": "87.75%"
+    },
+    {
+      "city": "Gurazala",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Satyanarayana Theatre, Gurazala",
+      "chain": "Justickets",
+      "time": "02:30 PM",
+      "audi": "Sri Satyanarayana",
+      "totalSeats": 604,
+      "available": 74,
+      "sold": 530,
+      "gross": 44060,
+      "occupancy": "87.75%"
     }
   ],
   "Jatadhara [2D | Hindi]": [
@@ -1487,6 +2111,58 @@
       "sold": 455,
       "gross": 24250,
       "occupancy": "91.55%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Sai Raja Theatre, Musheerabad, Hyderabad",
+      "chain": "Justickets",
+      "time": "11:30 AM",
+      "audi": "Sree Sai Raja",
+      "totalSeats": 924,
+      "available": 301,
+      "sold": 623,
+      "gross": 50410,
+      "occupancy": "67.42%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Sai Raja Theatre, Musheerabad, Hyderabad",
+      "chain": "Justickets",
+      "time": "06:30 PM",
+      "audi": "Sree Sai Raja",
+      "totalSeats": 924,
+      "available": 301,
+      "sold": 623,
+      "gross": 50410,
+      "occupancy": "67.42%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Sai Raja Theatre, Musheerabad, Hyderabad",
+      "chain": "Justickets",
+      "time": "02:30 PM",
+      "audi": "Sree Sai Raja",
+      "totalSeats": 924,
+      "available": 301,
+      "sold": 623,
+      "gross": 50410,
+      "occupancy": "67.42%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Sai Raja Theatre, Musheerabad, Hyderabad",
+      "chain": "Justickets",
+      "time": "09:30 PM",
+      "audi": "Sree Sai Raja",
+      "totalSeats": 924,
+      "available": 301,
+      "sold": 623,
+      "gross": 50410,
+      "occupancy": "67.42%"
     }
   ],
   "Baahubali The Epic [IMAX 2D | Hindi]": [
@@ -1708,10 +2384,10 @@
       "time": "11:25 AM",
       "audi": "IMAX 4",
       "totalSeats": 243,
-      "available": 243,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 242,
+      "sold": 1,
+      "gross": 380,
+      "occupancy": "0.41%"
     },
     {
       "city": "Kolkata",
@@ -1851,10 +2527,10 @@
       "time": "05:30 PM",
       "audi": "IMAX",
       "totalSeats": 367,
-      "available": 366,
-      "sold": 1,
-      "gross": 670,
-      "occupancy": "0.27%"
+      "available": 364,
+      "sold": 3,
+      "gross": 2010,
+      "occupancy": "0.82%"
     },
     {
       "city": "New Delhi",
@@ -2072,10 +2748,10 @@
       "time": "06:00 PM",
       "audi": "IMAX 7",
       "totalSeats": 254,
-      "available": 254,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 252,
+      "sold": 2,
+      "gross": 1060,
+      "occupancy": "0.79%"
     },
     {
       "city": "Pune",
@@ -3066,6 +3742,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "10:20 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Jassi Weds Jassi [2D | Hindi]": [
@@ -3417,10 +4106,10 @@
       "time": "04:05 PM",
       "audi": "SCREEN 1",
       "totalSeats": 208,
-      "available": 208,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 206,
+      "sold": 2,
+      "gross": 520,
+      "occupancy": "0.96%"
     },
     {
       "city": "Jamshedpur",
@@ -4106,10 +4795,10 @@
       "time": "04:10 PM",
       "audi": "AUDI 04",
       "totalSeats": 180,
-      "available": 170,
-      "sold": 10,
-      "gross": 1800,
-      "occupancy": "5.56%"
+      "available": 154,
+      "sold": 26,
+      "gross": 5000,
+      "occupancy": "14.44%"
     },
     {
       "city": "Surat",
@@ -4262,7 +4951,20 @@
       "time": "10:40 PM",
       "audi": "AUDI 02",
       "totalSeats": 167,
-      "available": 167,
+      "available": 165,
+      "sold": 2,
+      "gross": 404.98,
+      "occupancy": "1.20%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 190,
+      "available": 190,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -4615,10 +5317,10 @@
       "time": "08:30 AM",
       "audi": "Gold Cinema - Chaygaon",
       "totalSeats": 144,
-      "available": 7,
-      "sold": 137,
-      "gross": 19340,
-      "occupancy": "95.14%"
+      "available": 16,
+      "sold": 128,
+      "gross": 18260,
+      "occupancy": "88.89%"
     },
     {
       "city": "Chaygaon",
@@ -4654,10 +5356,10 @@
       "time": "10:00 AM",
       "audi": "AUDI 1",
       "totalSeats": 232,
-      "available": 15,
-      "sold": 217,
-      "gross": 65500,
-      "occupancy": "93.53%"
+      "available": 14,
+      "sold": 218,
+      "gross": 65360,
+      "occupancy": "93.97%"
     },
     {
       "city": "Dibrugarh",
@@ -4667,10 +5369,10 @@
       "time": "07:00 AM",
       "audi": "AUDI 1",
       "totalSeats": 232,
-      "available": 174,
-      "sold": 58,
-      "gross": 18220,
-      "occupancy": "25.00%"
+      "available": 169,
+      "sold": 63,
+      "gross": 19420,
+      "occupancy": "27.16%"
     },
     {
       "city": "Dibrugarh",
@@ -4693,10 +5395,10 @@
       "time": "10:00 PM",
       "audi": "AUDI 1",
       "totalSeats": 232,
-      "available": 12,
-      "sold": 220,
-      "gross": 65860,
-      "occupancy": "94.83%"
+      "available": 11,
+      "sold": 221,
+      "gross": 66220,
+      "occupancy": "95.26%"
     },
     {
       "city": "Dibrugarh",
@@ -4745,10 +5447,10 @@
       "time": "11:00 PM",
       "audi": "AUDI 2",
       "totalSeats": 324,
-      "available": 115,
-      "sold": 209,
-      "gross": 64560,
-      "occupancy": "64.51%"
+      "available": 98,
+      "sold": 226,
+      "gross": 69780,
+      "occupancy": "69.75%"
     },
     {
       "city": "Dibrugarh",
@@ -4862,10 +5564,10 @@
       "time": "10:25 PM",
       "audi": "Audi 2",
       "totalSeats": 107,
-      "available": 49,
-      "sold": 58,
-      "gross": 17750,
-      "occupancy": "54.21%"
+      "available": 10,
+      "sold": 97,
+      "gross": 33050,
+      "occupancy": "90.65%"
     },
     {
       "city": "Guwahati",
@@ -5174,10 +5876,10 @@
       "time": "11:10 AM",
       "audi": "AUDI 05",
       "totalSeats": 263,
-      "available": 109,
-      "sold": 154,
-      "gross": 43990,
-      "occupancy": "58.56%"
+      "available": 112,
+      "sold": 151,
+      "gross": 43150,
+      "occupancy": "57.41%"
     },
     {
       "city": "Guwahati",
@@ -5226,10 +5928,10 @@
       "time": "08:25 PM",
       "audi": "AUDI 05",
       "totalSeats": 263,
-      "available": 58,
-      "sold": 205,
-      "gross": 64800,
-      "occupancy": "77.95%"
+      "available": 56,
+      "sold": 207,
+      "gross": 65400,
+      "occupancy": "78.71%"
     },
     {
       "city": "Guwahati",
@@ -5291,10 +5993,10 @@
       "time": "09:40 AM",
       "audi": "AUDI 03",
       "totalSeats": 150,
-      "available": 90,
-      "sold": 60,
-      "gross": 17500,
-      "occupancy": "40.00%"
+      "available": 88,
+      "sold": 62,
+      "gross": 18060,
+      "occupancy": "41.33%"
     },
     {
       "city": "Guwahati",
@@ -5304,10 +6006,10 @@
       "time": "12:45 PM",
       "audi": "AUDI 03",
       "totalSeats": 150,
-      "available": 61,
-      "sold": 89,
-      "gross": 27100,
-      "occupancy": "59.33%"
+      "available": 58,
+      "sold": 92,
+      "gross": 28000,
+      "occupancy": "61.33%"
     },
     {
       "city": "Guwahati",
@@ -5356,10 +6058,10 @@
       "time": "03:20 PM",
       "audi": "AUDI 04",
       "totalSeats": 248,
-      "available": 66,
-      "sold": 182,
-      "gross": 57900,
-      "occupancy": "73.39%"
+      "available": 58,
+      "sold": 190,
+      "gross": 60300,
+      "occupancy": "76.61%"
     },
     {
       "city": "Guwahati",
@@ -5369,10 +6071,10 @@
       "time": "09:30 PM",
       "audi": "AUDI 04",
       "totalSeats": 248,
-      "available": 87,
-      "sold": 161,
-      "gross": 51300,
-      "occupancy": "64.92%"
+      "available": 71,
+      "sold": 177,
+      "gross": 56080,
+      "occupancy": "71.37%"
     },
     {
       "city": "Guwahati",
@@ -5603,10 +6305,10 @@
       "time": "06:35 AM",
       "audi": "SCREEN 2",
       "totalSeats": 133,
-      "available": 3,
-      "sold": 130,
-      "gross": 32220,
-      "occupancy": "97.74%"
+      "available": 2,
+      "sold": 131,
+      "gross": 32380,
+      "occupancy": "98.50%"
     },
     {
       "city": "Jorhat",
@@ -5746,10 +6448,10 @@
       "time": "09:45 AM",
       "audi": "Gold Cinema - North Lakhimpur",
       "totalSeats": 158,
-      "available": 77,
-      "sold": 81,
-      "gross": 11640,
-      "occupancy": "51.27%"
+      "available": 16,
+      "sold": 142,
+      "gross": 19340,
+      "occupancy": "89.87%"
     },
     {
       "city": "Lakhimpur Assam",
@@ -5759,10 +6461,10 @@
       "time": "03:25 PM",
       "audi": "Gold Cinema - North Lakhimpur",
       "totalSeats": 158,
-      "available": 12,
-      "sold": 146,
-      "gross": 19790,
-      "occupancy": "92.41%"
+      "available": 3,
+      "sold": 155,
+      "gross": 20690,
+      "occupancy": "98.10%"
     },
     {
       "city": "Lakhimpur Assam",
@@ -5798,10 +6500,10 @@
       "time": "12:30 PM",
       "audi": "Biswa Talkies - North Lakhimpur",
       "totalSeats": 226,
-      "available": 9,
-      "sold": 217,
-      "gross": 29570,
-      "occupancy": "96.02%"
+      "available": 5,
+      "sold": 221,
+      "gross": 29970,
+      "occupancy": "97.79%"
     },
     {
       "city": "Lakhimpur Assam",
@@ -5811,10 +6513,10 @@
       "time": "09:45 AM",
       "audi": "Biswa Talkies - North Lakhimpur",
       "totalSeats": 226,
-      "available": 23,
-      "sold": 203,
-      "gross": 28070,
-      "occupancy": "89.82%"
+      "available": 22,
+      "sold": 204,
+      "gross": 28220,
+      "occupancy": "90.27%"
     },
     {
       "city": "Lakhimpur Assam",
@@ -6045,10 +6747,10 @@
       "time": "07:20 PM",
       "audi": "Screen 1",
       "totalSeats": 180,
-      "available": 7,
-      "sold": 173,
-      "gross": 32810,
-      "occupancy": "96.11%"
+      "available": 5,
+      "sold": 175,
+      "gross": 33210,
+      "occupancy": "97.22%"
     },
     {
       "city": "Dhekiajuli",
@@ -6071,10 +6773,10 @@
       "time": "01:40 PM",
       "audi": "Screen 1",
       "totalSeats": 180,
-      "available": 7,
-      "sold": 173,
-      "gross": 32760,
-      "occupancy": "96.11%"
+      "available": 6,
+      "sold": 174,
+      "gross": 32960,
+      "occupancy": "96.67%"
     },
     {
       "city": "Dhekiajuli",
@@ -6344,10 +7046,10 @@
       "time": "09:40 AM",
       "audi": "SCREEN 2",
       "totalSeats": 133,
-      "available": 8,
-      "sold": 125,
-      "gross": 31320,
-      "occupancy": "93.98%"
+      "available": 7,
+      "sold": 126,
+      "gross": 31530,
+      "occupancy": "94.74%"
     },
     {
       "city": "Coimbatore",
@@ -6915,10 +7617,10 @@
       "time": "02:55 PM",
       "audi": "AUDI 5",
       "totalSeats": 250,
-      "available": 240,
-      "sold": 10,
-      "gross": 2900,
-      "occupancy": "4.00%"
+      "available": 231,
+      "sold": 19,
+      "gross": 5360,
+      "occupancy": "7.60%"
     },
     {
       "city": "Rajkot",
@@ -6954,10 +7656,10 @@
       "time": "05:20 PM",
       "audi": "AUDI 1",
       "totalSeats": 211,
-      "available": 203,
-      "sold": 8,
-      "gross": 2080,
-      "occupancy": "3.79%"
+      "available": 199,
+      "sold": 12,
+      "gross": 3120,
+      "occupancy": "5.69%"
     },
     {
       "city": "Rajkot",
@@ -7248,7 +7950,20 @@
       "time": "12:40 PM",
       "audi": "SCREEN 6",
       "totalSeats": 161,
-      "available": 161,
+      "available": 157,
+      "sold": 4,
+      "gross": 216.48,
+      "occupancy": "2.48%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:05 PM",
+      "audi": "AUDI 10",
+      "totalSeats": 103,
+      "available": 103,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -7458,10 +8173,10 @@
       "time": "12:35 PM",
       "audi": "SCREEN3",
       "totalSeats": 174,
-      "available": 159,
-      "sold": 15,
-      "gross": 1340.25,
-      "occupancy": "8.62%"
+      "available": 158,
+      "sold": 16,
+      "gross": 1559.05,
+      "occupancy": "9.20%"
     },
     {
       "city": "Chennai",
@@ -7536,10 +8251,10 @@
       "time": "04:10 PM",
       "audi": "AUDI 04",
       "totalSeats": 228,
-      "available": 203,
-      "sold": 25,
-      "gross": 2747.1,
-      "occupancy": "10.96%"
+      "available": 199,
+      "sold": 29,
+      "gross": 3512.85,
+      "occupancy": "12.72%"
     },
     {
       "city": "Chennai",
@@ -7601,10 +8316,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN 1",
       "totalSeats": 221,
-      "available": 195,
-      "sold": 26,
-      "gross": 3617.6,
-      "occupancy": "11.76%"
+      "available": 194,
+      "sold": 27,
+      "gross": 3836.4,
+      "occupancy": "12.22%"
     },
     {
       "city": "Coimbatore",
@@ -7653,10 +8368,10 @@
       "time": "12:25 PM",
       "audi": "SCREEN 4",
       "totalSeats": 252,
-      "available": 212,
-      "sold": 40,
-      "gross": 3574,
-      "occupancy": "15.87%"
+      "available": 210,
+      "sold": 42,
+      "gross": 4011.6,
+      "occupancy": "16.67%"
     },
     {
       "city": "Chennai",
@@ -7666,10 +8381,10 @@
       "time": "07:50 PM",
       "audi": "AUDI 09",
       "totalSeats": 130,
-      "available": 130,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 103,
+      "sold": 27,
+      "gross": 4444.8,
+      "occupancy": "20.77%"
     },
     {
       "city": "Chennai",
@@ -7679,10 +8394,88 @@
       "time": "01:30 PM",
       "audi": "AUDI 04",
       "totalSeats": 258,
-      "available": 232,
-      "sold": 26,
-      "gross": 5688.8,
-      "occupancy": "10.08%"
+      "available": 230,
+      "sold": 28,
+      "gross": 5867.5,
+      "occupancy": "10.85%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "09:30 AM",
+      "audi": "AUDI 01",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "04:00 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 71,
+      "available": 71,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "10:00 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 71,
+      "available": 71,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "12:35 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 330,
+      "available": 330,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Aaromaley [2D | Tamil]": [
@@ -7746,10 +8539,10 @@
       "time": "03:15 PM",
       "audi": "SCREEN 3",
       "totalSeats": 234,
-      "available": 166,
-      "sold": 68,
-      "gross": 9348,
-      "occupancy": "29.06%"
+      "available": 165,
+      "sold": 69,
+      "gross": 9531,
+      "occupancy": "29.49%"
     },
     {
       "city": "Chennai",
@@ -7850,10 +8643,10 @@
       "time": "12:45 PM",
       "audi": "SCREEN 1",
       "totalSeats": 221,
-      "available": 149,
-      "sold": 72,
-      "gross": 10080,
-      "occupancy": "32.58%"
+      "available": 147,
+      "sold": 74,
+      "gross": 10446,
+      "occupancy": "33.48%"
     },
     {
       "city": "Chennai",
@@ -7941,10 +8734,10 @@
       "time": "12:05 PM",
       "audi": "SCREEN 2",
       "totalSeats": 171,
-      "available": 152,
-      "sold": 19,
-      "gross": 1032.65,
-      "occupancy": "11.11%"
+      "available": 151,
+      "sold": 20,
+      "gross": 1216.45,
+      "occupancy": "11.70%"
     },
     {
       "city": "Chennai",
@@ -8019,10 +8812,10 @@
       "time": "07:15 PM",
       "audi": "AUDI 04",
       "totalSeats": 170,
-      "available": 126,
-      "sold": 44,
-      "gross": 5498.200000000001,
-      "occupancy": "25.88%"
+      "available": 125,
+      "sold": 45,
+      "gross": 5552.550000000001,
+      "occupancy": "26.47%"
     },
     {
       "city": "Madurai",
@@ -8045,10 +8838,10 @@
       "time": "03:30 PM",
       "audi": "SCREEN 4",
       "totalSeats": 291,
-      "available": 268,
-      "sold": 23,
-      "gross": 1250.05,
-      "occupancy": "7.90%"
+      "available": 267,
+      "sold": 24,
+      "gross": 1433.85,
+      "occupancy": "8.25%"
     },
     {
       "city": "Salem",
@@ -8084,10 +8877,10 @@
       "time": "12:50 PM",
       "audi": "SCREEN 4",
       "totalSeats": 190,
-      "available": 188,
-      "sold": 2,
-      "gross": 108.7,
-      "occupancy": "1.05%"
+      "available": 186,
+      "sold": 4,
+      "gross": 217.4,
+      "occupancy": "2.11%"
     },
     {
       "city": "Coimbatore",
@@ -8162,10 +8955,10 @@
       "time": "12:45 PM",
       "audi": "SERENE",
       "totalSeats": 263,
-      "available": 232,
-      "sold": 31,
-      "gross": 5697.8,
-      "occupancy": "11.79%"
+      "available": 231,
+      "sold": 32,
+      "gross": 5881.6,
+      "occupancy": "12.17%"
     },
     {
       "city": "Chennai",
@@ -8175,10 +8968,10 @@
       "time": "07:30 PM",
       "audi": "SERENE",
       "totalSeats": 263,
-      "available": 230,
-      "sold": 33,
-      "gross": 6065.400000000001,
-      "occupancy": "12.55%"
+      "available": 225,
+      "sold": 38,
+      "gross": 6984.400000000001,
+      "occupancy": "14.45%"
     },
     {
       "city": "Chennai",
@@ -8188,10 +8981,10 @@
       "time": "07:05 PM",
       "audi": "AUDI 10",
       "totalSeats": 196,
-      "available": 196,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 160,
+      "sold": 36,
+      "gross": 6616.8,
+      "occupancy": "18.37%"
     },
     {
       "city": "Chennai",
@@ -8201,10 +8994,10 @@
       "time": "01:05 PM",
       "audi": "AUDI 10",
       "totalSeats": 196,
-      "available": 195,
-      "sold": 1,
-      "gross": 54.35,
-      "occupancy": "0.51%"
+      "available": 177,
+      "sold": 19,
+      "gross": 3233.3,
+      "occupancy": "9.69%"
     },
     {
       "city": "Chennai",
@@ -8213,11 +9006,11 @@
       "chain": "PVR",
       "time": "04:45 PM",
       "audi": "AUDI 06",
-      "totalSeats": 214,
+      "totalSeats": 201,
       "available": 201,
-      "sold": 13,
-      "gross": 2389.4,
-      "occupancy": "6.07%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Chennai",
@@ -8226,11 +9019,50 @@
       "chain": "PVR",
       "time": "10:40 PM",
       "audi": "AUDI 06",
-      "totalSeats": 214,
+      "totalSeats": 201,
       "available": 201,
-      "sold": 13,
-      "gross": 2389.4,
-      "occupancy": "6.07%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "07:05 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:50 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "11:30 AM",
+      "audi": "SCREEN-3",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Veerathamizhachi [2D | Tamil]": [
@@ -8439,10 +9271,10 @@
       "time": "09:30 PM",
       "audi": "Screen 1 - 4k 7.1",
       "totalSeats": 457,
-      "available": 453,
-      "sold": 4,
-      "gross": 600,
-      "occupancy": "0.88%"
+      "available": 449,
+      "sold": 8,
+      "gross": 1200,
+      "occupancy": "1.75%"
     },
     {
       "city": "Coimbatore",
@@ -8491,10 +9323,10 @@
       "time": "09:15 AM",
       "audi": "AUDI 02",
       "totalSeats": 284,
-      "available": 262,
-      "sold": 22,
-      "gross": 1593.58,
-      "occupancy": "7.75%"
+      "available": 261,
+      "sold": 23,
+      "gross": 1653.01,
+      "occupancy": "8.10%"
     },
     {
       "city": "Chennai",
@@ -8504,10 +9336,10 @@
       "time": "12:05 PM",
       "audi": "AUDI 02",
       "totalSeats": 284,
-      "available": 257,
-      "sold": 27,
-      "gross": 2606.0299999999997,
-      "occupancy": "9.51%"
+      "available": 254,
+      "sold": 30,
+      "gross": 3213.5,
+      "occupancy": "10.56%"
     },
     {
       "city": "Chennai",
@@ -8569,10 +9401,10 @@
       "time": "07:10 PM",
       "audi": "SCREEN 2",
       "totalSeats": 184,
-      "available": 148,
-      "sold": 36,
-      "gross": 4285.38,
-      "occupancy": "19.57%"
+      "available": 146,
+      "sold": 38,
+      "gross": 4690.36,
+      "occupancy": "20.65%"
     },
     {
       "city": "Coimbatore",
@@ -8595,10 +9427,10 @@
       "time": "04:20 PM",
       "audi": "SCREEN 6",
       "totalSeats": 161,
-      "available": 154,
-      "sold": 7,
-      "gross": 1131.31,
-      "occupancy": "4.35%"
+      "available": 151,
+      "sold": 10,
+      "gross": 1738.78,
+      "occupancy": "6.21%"
     },
     {
       "city": "Coimbatore",
@@ -8647,10 +9479,10 @@
       "time": "10:00 PM",
       "audi": "SANTHAM",
       "totalSeats": 488,
-      "available": 453,
-      "sold": 35,
-      "gross": 6776.05,
-      "occupancy": "7.17%"
+      "available": 449,
+      "sold": 39,
+      "gross": 7013.77,
+      "occupancy": "7.99%"
     },
     {
       "city": "Chennai",
@@ -8673,10 +9505,10 @@
       "time": "04:15 PM",
       "audi": "SANTHAM",
       "totalSeats": 488,
-      "available": 445,
-      "sold": 43,
-      "gross": 8707.07,
-      "occupancy": "8.81%"
+      "available": 437,
+      "sold": 51,
+      "gross": 10326.99,
+      "occupancy": "10.45%"
     },
     {
       "city": "Chennai",
@@ -8686,10 +9518,10 @@
       "time": "07:15 PM",
       "audi": "AUDI 04",
       "totalSeats": 381,
-      "available": 381,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 316,
+      "sold": 65,
+      "gross": 13161.85,
+      "occupancy": "17.06%"
     },
     {
       "city": "Chennai",
@@ -8699,10 +9531,10 @@
       "time": "12:45 PM",
       "audi": "AUDI 04",
       "totalSeats": 381,
-      "available": 381,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 353,
+      "sold": 28,
+      "gross": 5669.72,
+      "occupancy": "7.35%"
     },
     {
       "city": "Chennai",
@@ -8724,11 +9556,11 @@
       "chain": "PVR",
       "time": "03:55 PM",
       "audi": "AUDI 05",
-      "totalSeats": 270,
+      "totalSeats": 263,
       "available": 263,
-      "sold": 7,
-      "gross": 1417.43,
-      "occupancy": "2.59%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Chennai",
@@ -8737,11 +9569,11 @@
       "chain": "PVR",
       "time": "10:25 PM",
       "audi": "AUDI 05",
-      "totalSeats": 270,
+      "totalSeats": 263,
       "available": 263,
-      "sold": 7,
-      "gross": 1417.43,
-      "occupancy": "2.59%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mukkam",
@@ -8807,6 +9639,97 @@
       "sold": 24,
       "gross": 2520,
       "occupancy": "8.16%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "10:20 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:40 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "07:10 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "03:40 PM",
+      "audi": "AUDI 04",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "09:50 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 330,
+      "available": 330,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "03:35 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 330,
+      "available": 330,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 330,
+      "available": 330,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Aan Paavam Pollathathu [2D | Tamil]": [
@@ -8870,10 +9793,10 @@
       "time": "06:40 PM",
       "audi": "SCREEN 5",
       "totalSeats": 466,
-      "available": 355,
-      "sold": 111,
-      "gross": 13605,
-      "occupancy": "23.82%"
+      "available": 354,
+      "sold": 112,
+      "gross": 13788,
+      "occupancy": "24.03%"
     },
     {
       "city": "Chennai",
@@ -8922,10 +9845,10 @@
       "time": "09:55 PM",
       "audi": "SCREEN 4",
       "totalSeats": 378,
-      "available": 275,
-      "sold": 103,
-      "gross": 13947,
-      "occupancy": "27.25%"
+      "available": 272,
+      "sold": 106,
+      "gross": 14496,
+      "occupancy": "28.04%"
     },
     {
       "city": "Chennai",
@@ -8974,10 +9897,10 @@
       "time": "01:50 PM",
       "audi": "SCREEN 4",
       "totalSeats": 530,
-      "available": 417,
-      "sold": 113,
-      "gross": 13842,
-      "occupancy": "21.32%"
+      "available": 413,
+      "sold": 117,
+      "gross": 14574,
+      "occupancy": "22.08%"
     },
     {
       "city": "Chennai",
@@ -9234,10 +10157,10 @@
       "time": "09:35 AM",
       "audi": "SCREEN 1",
       "totalSeats": 279,
-      "available": 229,
-      "sold": 50,
-      "gross": 5306.5,
-      "occupancy": "17.92%"
+      "available": 227,
+      "sold": 52,
+      "gross": 5674.1,
+      "occupancy": "18.64%"
     },
     {
       "city": "Chennai",
@@ -9247,10 +10170,10 @@
       "time": "12:25 PM",
       "audi": "SCREEN 1",
       "totalSeats": 279,
-      "available": 229,
-      "sold": 50,
-      "gross": 5565.400000000001,
-      "occupancy": "17.92%"
+      "available": 228,
+      "sold": 51,
+      "gross": 5619.75,
+      "occupancy": "18.28%"
     },
     {
       "city": "Chennai",
@@ -9273,10 +10196,10 @@
       "time": "12:20 PM",
       "audi": "AUDI 03",
       "totalSeats": 197,
-      "available": 167,
-      "sold": 30,
-      "gross": 2536.65,
-      "occupancy": "15.23%"
+      "available": 158,
+      "sold": 39,
+      "gross": 3802.5,
+      "occupancy": "19.80%"
     },
     {
       "city": "Chennai",
@@ -9286,10 +10209,10 @@
       "time": "03:55 PM",
       "audi": "AUDI 02",
       "totalSeats": 284,
-      "available": 252,
-      "sold": 32,
-      "gross": 2257,
-      "occupancy": "11.27%"
+      "available": 248,
+      "sold": 36,
+      "gross": 2992.2,
+      "occupancy": "12.68%"
     },
     {
       "city": "Chennai",
@@ -9364,10 +10287,10 @@
       "time": "10:10 AM",
       "audi": "SCREEN 3",
       "totalSeats": 324,
-      "available": 304,
-      "sold": 20,
-      "gross": 1087,
-      "occupancy": "6.17%"
+      "available": 302,
+      "sold": 22,
+      "gross": 1454.6,
+      "occupancy": "6.79%"
     },
     {
       "city": "Madurai",
@@ -9416,10 +10339,10 @@
       "time": "01:00 PM",
       "audi": "SCREEN 2",
       "totalSeats": 309,
-      "available": 265,
-      "sold": 44,
-      "gross": 5368.750000000001,
-      "occupancy": "14.24%"
+      "available": 263,
+      "sold": 46,
+      "gross": 5736.35,
+      "occupancy": "14.89%"
     },
     {
       "city": "Chennai",
@@ -9533,10 +10456,10 @@
       "time": "06:40 PM",
       "audi": "SCREEN 2",
       "totalSeats": 376,
-      "available": 337,
-      "sold": 39,
-      "gross": 2119.65,
-      "occupancy": "10.37%"
+      "available": 335,
+      "sold": 41,
+      "gross": 2487.25,
+      "occupancy": "10.90%"
     },
     {
       "city": "Chennai",
@@ -9585,10 +10508,10 @@
       "time": "01:20 PM",
       "audi": "SANTHAM",
       "totalSeats": 488,
-      "available": 455,
-      "sold": 33,
-      "gross": 6065.400000000001,
-      "occupancy": "6.76%"
+      "available": 453,
+      "sold": 35,
+      "gross": 6433,
+      "occupancy": "7.17%"
     },
     {
       "city": "Chennai",
@@ -9598,10 +10521,10 @@
       "time": "07:00 PM",
       "audi": "SANTHAM",
       "totalSeats": 488,
-      "available": 457,
-      "sold": 31,
-      "gross": 5697.8,
-      "occupancy": "6.35%"
+      "available": 454,
+      "sold": 34,
+      "gross": 6249.200000000001,
+      "occupancy": "6.97%"
     },
     {
       "city": "Chennai",
@@ -9624,6 +10547,32 @@
       "time": "05:00 PM",
       "audi": "AUDI 05",
       "totalSeats": 433,
+      "available": 396,
+      "sold": 37,
+      "gross": 6800.6,
+      "occupancy": "8.55%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR VR Mall, Anna Nagar, Chennai",
+      "chain": "PVR",
+      "time": "02:10 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 433,
+      "available": 400,
+      "sold": 33,
+      "gross": 5806.5,
+      "occupancy": "7.62%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR VR Mall, Anna Nagar, Chennai",
+      "chain": "PVR",
+      "time": "11:25 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 433,
       "available": 431,
       "sold": 2,
       "gross": 367.6,
@@ -9634,39 +10583,13 @@
       "state": "Tamil Nadu",
       "venue": "PVR VR Mall, Anna Nagar, Chennai",
       "chain": "PVR",
-      "time": "02:10 PM",
-      "audi": "AUDI 05",
-      "totalSeats": 433,
-      "available": 433,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
-    },
-    {
-      "city": "Chennai",
-      "state": "Tamil Nadu",
-      "venue": "PVR VR Mall, Anna Nagar, Chennai",
-      "chain": "PVR",
-      "time": "11:25 AM",
-      "audi": "AUDI 05",
-      "totalSeats": 433,
-      "available": 433,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
-    },
-    {
-      "city": "Chennai",
-      "state": "Tamil Nadu",
-      "venue": "PVR VR Mall, Anna Nagar, Chennai",
-      "chain": "PVR",
       "time": "10:45 PM",
       "audi": "AUDI 05",
       "totalSeats": 433,
-      "available": 433,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 398,
+      "sold": 35,
+      "gross": 6433,
+      "occupancy": "8.08%"
     },
     {
       "city": "Chennai",
@@ -9676,10 +10599,10 @@
       "time": "07:50 PM",
       "audi": "AUDI 05",
       "totalSeats": 433,
-      "available": 433,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 381,
+      "sold": 52,
+      "gross": 9557.6,
+      "occupancy": "12.01%"
     },
     {
       "city": "Chennai",
@@ -9728,10 +10651,10 @@
       "time": "03:30 PM",
       "audi": "AUDI 03",
       "totalSeats": 519,
-      "available": 519,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 518,
+      "sold": 1,
+      "gross": 54.35,
+      "occupancy": "0.19%"
     },
     {
       "city": "Chennai",
@@ -9741,10 +10664,10 @@
       "time": "06:30 PM",
       "audi": "AUDI 03",
       "totalSeats": 519,
-      "available": 519,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 513,
+      "sold": 6,
+      "gross": 326.1,
+      "occupancy": "1.16%"
     },
     {
       "city": "Cuddalore",
@@ -9768,6 +10691,149 @@
       "audi": "Velmurugan Theatre",
       "totalSeats": 540,
       "available": 540,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ariyalur",
+      "state": "Tamil Nadu",
+      "venue": "Mahasakthi Talkies A/C 2K 3D Dolby 7.1, Rajajinagar, Ariyalur",
+      "chain": "Subbiah Chettiar",
+      "time": "06:15 PM",
+      "audi": "MAHASAKTHI TALKIES",
+      "totalSeats": 435,
+      "available": 333,
+      "sold": 102,
+      "gross": 13260,
+      "occupancy": "23.45%"
+    },
+    {
+      "city": "Ariyalur",
+      "state": "Tamil Nadu",
+      "venue": "Mahasakthi Talkies A/C 2K 3D Dolby 7.1, Rajajinagar, Ariyalur",
+      "chain": "Subbiah Chettiar",
+      "time": "10:00 PM",
+      "audi": "MAHASAKTHI TALKIES",
+      "totalSeats": 435,
+      "available": 333,
+      "sold": 102,
+      "gross": 13260,
+      "occupancy": "23.45%"
+    },
+    {
+      "city": "Ariyalur",
+      "state": "Tamil Nadu",
+      "venue": "Mahasakthi Talkies A/C 2K 3D Dolby 7.1, Rajajinagar, Ariyalur",
+      "chain": "Subbiah Chettiar",
+      "time": "02:15 PM",
+      "audi": "MAHASAKTHI TALKIES",
+      "totalSeats": 435,
+      "available": 333,
+      "sold": 102,
+      "gross": 13260,
+      "occupancy": "23.45%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "09:10 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "06:40 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "03:15 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "09:50 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:00 PM",
+      "audi": "AUDI 03",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "01:00 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 330,
+      "available": 330,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "10:10 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 330,
+      "available": 330,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "04:15 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 330,
+      "available": 330,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -10107,10 +11173,10 @@
       "time": "10:00 PM",
       "audi": "AUDI 04",
       "totalSeats": 381,
-      "available": 381,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 347,
+      "sold": 34,
+      "gross": 6249.200000000001,
+      "occupancy": "8.92%"
     },
     {
       "city": "Chennai",
@@ -10120,10 +11186,10 @@
       "time": "03:35 PM",
       "audi": "AUDI 04",
       "totalSeats": 381,
-      "available": 381,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 347,
+      "sold": 34,
+      "gross": 6249.200000000001,
+      "occupancy": "8.92%"
     },
     {
       "city": "Chennai",
@@ -10132,11 +11198,11 @@
       "chain": "PVR",
       "time": "12:25 PM",
       "audi": "AUDI 05",
-      "totalSeats": 270,
+      "totalSeats": 263,
       "available": 263,
-      "sold": 7,
-      "gross": 857.0799999999999,
-      "occupancy": "2.59%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Cuddalore",
@@ -10160,6 +11226,123 @@
       "audi": "Velmurugan Theatre",
       "totalSeats": 540,
       "available": 540,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ariyalur",
+      "state": "Tamil Nadu",
+      "venue": "Mahasakthi Talkies A/C 2K 3D Dolby 7.1, Rajajinagar, Ariyalur",
+      "chain": "Subbiah Chettiar",
+      "time": "10:30 AM",
+      "audi": "MAHASAKTHI TALKIES",
+      "totalSeats": 435,
+      "available": 333,
+      "sold": 102,
+      "gross": 13260,
+      "occupancy": "23.45%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "07:10 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:35 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "09:00 AM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "06:40 PM",
+      "audi": "SCREEN-5",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Sattur",
+      "state": "Tamil Nadu",
+      "venue": "New Dhanalakshmi Theatre, Sattur",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "New Dhanalakshmi",
+      "totalSeats": 447,
+      "available": 447,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Sattur",
+      "state": "Tamil Nadu",
+      "venue": "New Dhanalakshmi Theatre, Sattur",
+      "chain": "TicketNew",
+      "time": "10:30 PM",
+      "audi": "New Dhanalakshmi",
+      "totalSeats": 447,
+      "available": 447,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Sattur",
+      "state": "Tamil Nadu",
+      "venue": "New Dhanalakshmi Theatre, Sattur",
+      "chain": "TicketNew",
+      "time": "10:30 AM",
+      "audi": "New Dhanalakshmi",
+      "totalSeats": 447,
+      "available": 447,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Sattur",
+      "state": "Tamil Nadu",
+      "venue": "New Dhanalakshmi Theatre, Sattur",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "New Dhanalakshmi",
+      "totalSeats": 447,
+      "available": 447,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -10330,7 +11513,46 @@
       "time": "07:30 PM",
       "audi": "AUDI 02",
       "totalSeats": 167,
-      "available": 167,
+      "available": 142,
+      "sold": 25,
+      "gross": 4595,
+      "occupancy": "14.97%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "03:05 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 138,
+      "available": 138,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "04:10 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "03:00 PM",
+      "audi": "SCREEN-5",
+      "totalSeats": 183,
+      "available": 183,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -10423,10 +11645,49 @@
       "time": "10:25 PM",
       "audi": "AUDI 09",
       "totalSeats": 130,
-      "available": 130,
+      "available": 129,
+      "sold": 1,
+      "gross": 160,
+      "occupancy": "0.77%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "06:00 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 142,
+      "available": 141,
+      "sold": 1,
+      "gross": 54.12,
+      "occupancy": "0.70%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "03:40 PM",
+      "audi": "AUDI 10",
+      "totalSeats": 103,
+      "available": 103,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "03:40 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 183,
+      "available": 182,
+      "sold": 1,
+      "gross": 170,
+      "occupancy": "0.55%"
     }
   ],
   "Mass Jathara [2D | Telugu]": [
@@ -10689,6 +11950,84 @@
       "sold": 169,
       "gross": 23480,
       "occupancy": "29.81%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "11:00 AM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "09:45 PM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "11:25 AM",
+      "audi": "Screen 2",
+      "totalSeats": 201,
+      "available": 201,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "10:05 PM",
+      "audi": "Screen 2",
+      "totalSeats": 201,
+      "available": 201,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "06:55 PM",
+      "audi": "Screen 2",
+      "totalSeats": 201,
+      "available": 201,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "02:50 PM",
+      "audi": "Screen 2",
+      "totalSeats": 201,
+      "available": 201,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Aaryan [2D | Tamil]": [
@@ -10804,10 +12143,10 @@
       "time": "07:00 PM",
       "audi": "AUDI 05",
       "totalSeats": 170,
-      "available": 126,
-      "sold": 44,
-      "gross": 5498.200000000001,
-      "occupancy": "25.88%"
+      "available": 125,
+      "sold": 45,
+      "gross": 5682,
+      "occupancy": "26.47%"
     },
     {
       "city": "Chennai",
@@ -10947,10 +12286,10 @@
       "time": "03:10 PM",
       "audi": "AUDI 03",
       "totalSeats": 336,
-      "available": 336,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 330,
+      "sold": 6,
+      "gross": 1102.8000000000002,
+      "occupancy": "1.79%"
     },
     {
       "city": "Chennai",
@@ -10960,10 +12299,10 @@
       "time": "10:50 PM",
       "audi": "AUDI 03",
       "totalSeats": 336,
-      "available": 336,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 333,
+      "sold": 3,
+      "gross": 551.4000000000001,
+      "occupancy": "0.89%"
     },
     {
       "city": "Chennai",
@@ -10973,7 +12312,85 @@
       "time": "06:45 PM",
       "audi": "AUDI 06",
       "totalSeats": 181,
-      "available": 181,
+      "available": 154,
+      "sold": 27,
+      "gross": 4962.6,
+      "occupancy": "14.92%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "04:15 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 190,
+      "available": 190,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 190,
+      "available": 190,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "06:50 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:00 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "09:00 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 143,
+      "available": 143,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "11:50 AM",
+      "audi": "SCREEN-5",
+      "totalSeats": 183,
+      "available": 183,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -11459,6 +12876,58 @@
       "sold": 193,
       "gross": 27807,
       "occupancy": "48.01%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "11:30 AM",
+      "audi": "SCREEN-1",
+      "totalSeats": 429,
+      "available": 385,
+      "sold": 44,
+      "gross": 6468,
+      "occupancy": "10.26%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "06:30 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 429,
+      "available": 385,
+      "sold": 44,
+      "gross": 6468,
+      "occupancy": "10.26%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "02:50 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 429,
+      "available": 385,
+      "sold": 44,
+      "gross": 6468,
+      "occupancy": "10.26%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "09:45 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 429,
+      "available": 385,
+      "sold": 44,
+      "gross": 6468,
+      "occupancy": "10.26%"
     }
   ],
   "The Pet Detective [2D | Malayalam]": [
@@ -11634,10 +13103,23 @@
       "sold": 47,
       "gross": 5649,
       "occupancy": "12.43%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "10:40 PM",
+      "audi": "AUDI 05",
+      "totalSeats": 137,
+      "available": 137,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "date": "2025-11-08",
-  "lastUpdated": "10:11 AM, 05 November 2025",
+  "lastUpdated": "11:10 AM, 05 November 2025",
   "Baahubali The Epic [2D | Tamil]": [
     {
       "city": "Coimbatore",
@@ -11673,10 +13155,10 @@
       "time": "11:50 AM",
       "audi": "AUDI 05",
       "totalSeats": 192,
-      "available": 173,
-      "sold": 19,
-      "gross": 1291.5500000000002,
-      "occupancy": "9.90%"
+      "available": 171,
+      "sold": 21,
+      "gross": 1659.15,
+      "occupancy": "10.94%"
     },
     {
       "city": "Chennai",
@@ -11738,10 +13220,10 @@
       "time": "06:15 PM",
       "audi": "AUDI 03",
       "totalSeats": 336,
-      "available": 336,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 332,
+      "sold": 4,
+      "gross": 735.2,
+      "occupancy": "1.19%"
     },
     {
       "city": "Chennai",
@@ -11755,6 +13237,45 @@
       "sold": 3,
       "gross": 551.4000000000001,
       "occupancy": "0.89%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 138,
+      "available": 138,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "06:20 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "06:00 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Predator: Badlands [3D | English]": [
@@ -11857,10 +13378,10 @@
       "time": "12:25 PM",
       "audi": "AUDI 04",
       "totalSeats": 228,
-      "available": 211,
-      "sold": 17,
-      "gross": 1729.58,
-      "occupancy": "7.46%"
+      "available": 210,
+      "sold": 18,
+      "gross": 1980.56,
+      "occupancy": "7.89%"
     },
     {
       "city": "Chennai",
@@ -12013,10 +13534,10 @@
       "time": "07:00 PM",
       "audi": "SCREEN 9",
       "totalSeats": 270,
-      "available": 270,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 269,
+      "sold": 1,
+      "gross": 96.74,
+      "occupancy": "0.37%"
     },
     {
       "city": "Coimbatore",
@@ -12052,10 +13573,10 @@
       "time": "10:50 AM",
       "audi": "SATHYAM",
       "totalSeats": 920,
-      "available": 885,
-      "sold": 35,
-      "gross": 8742.34,
-      "occupancy": "3.80%"
+      "available": 884,
+      "sold": 36,
+      "gross": 8993.32,
+      "occupancy": "3.91%"
     },
     {
       "city": "Chennai",
@@ -12065,10 +13586,10 @@
       "time": "01:40 PM",
       "audi": "SATHYAM",
       "totalSeats": 920,
-      "available": 887,
-      "sold": 33,
-      "gross": 8282.34,
-      "occupancy": "3.59%"
+      "available": 886,
+      "sold": 34,
+      "gross": 8533.32,
+      "occupancy": "3.70%"
     },
     {
       "city": "Chennai",
@@ -12078,10 +13599,10 @@
       "time": "04:40 PM",
       "audi": "SATHYAM",
       "totalSeats": 920,
-      "available": 882,
-      "sold": 38,
-      "gross": 9216.8,
-      "occupancy": "4.13%"
+      "available": 877,
+      "sold": 43,
+      "gross": 10471.699999999999,
+      "occupancy": "4.67%"
     },
     {
       "city": "Chennai",
@@ -12091,10 +13612,10 @@
       "time": "07:45 PM",
       "audi": "SATHYAM",
       "totalSeats": 920,
-      "available": 883,
-      "sold": 37,
-      "gross": 9231.36,
-      "occupancy": "4.02%"
+      "available": 873,
+      "sold": 47,
+      "gross": 11741.16,
+      "occupancy": "5.11%"
     },
     {
       "city": "Chennai",
@@ -12130,10 +13651,10 @@
       "time": "05:05 PM",
       "audi": "AUDI 01",
       "totalSeats": 424,
-      "available": 423,
-      "sold": 1,
-      "gross": 111.74,
-      "occupancy": "0.24%"
+      "available": 358,
+      "sold": 66,
+      "gross": 17075.440000000002,
+      "occupancy": "15.57%"
     },
     {
       "city": "Chennai",
@@ -12143,10 +13664,10 @@
       "time": "02:25 PM",
       "audi": "AUDI 01",
       "totalSeats": 424,
-      "available": 424,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 375,
+      "sold": 49,
+      "gross": 12788.02,
+      "occupancy": "11.56%"
     },
     {
       "city": "Chennai",
@@ -12156,10 +13677,10 @@
       "time": "10:25 PM",
       "audi": "AUDI 01",
       "totalSeats": 424,
-      "available": 424,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 423,
+      "sold": 1,
+      "gross": 260.98,
+      "occupancy": "0.24%"
     },
     {
       "city": "Chennai",
@@ -12169,10 +13690,10 @@
       "time": "07:45 PM",
       "audi": "AUDI 01",
       "totalSeats": 424,
-      "available": 422,
-      "sold": 2,
-      "gross": 521.96,
-      "occupancy": "0.47%"
+      "available": 355,
+      "sold": 69,
+      "gross": 18007.620000000003,
+      "occupancy": "16.27%"
     },
     {
       "city": "Chennai",
@@ -12182,10 +13703,10 @@
       "time": "11:50 AM",
       "audi": "AUDI 01",
       "totalSeats": 424,
-      "available": 422,
-      "sold": 2,
-      "gross": 521.96,
-      "occupancy": "0.47%"
+      "available": 417,
+      "sold": 7,
+      "gross": 1826.8600000000001,
+      "occupancy": "1.65%"
     },
     {
       "city": "Chennai",
@@ -12234,10 +13755,101 @@
       "time": "04:15 PM",
       "audi": "AUDI 04",
       "totalSeats": 258,
-      "available": 232,
-      "sold": 26,
-      "gross": 6395.48,
-      "occupancy": "10.08%"
+      "available": 231,
+      "sold": 27,
+      "gross": 6641.46,
+      "occupancy": "10.47%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "03:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 191,
+      "available": 191,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "10:00 AM",
+      "audi": "AUDI 06",
+      "totalSeats": 71,
+      "available": 71,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "01:00 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 71,
+      "available": 71,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "07:00 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 71,
+      "available": 71,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 330,
+      "available": 329,
+      "sold": 1,
+      "gross": 160,
+      "occupancy": "0.30%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Others [2D | Tamil]": [
@@ -12288,10 +13900,10 @@
       "time": "07:20 PM",
       "audi": "AUDI 05",
       "totalSeats": 192,
-      "available": 177,
-      "sold": 15,
-      "gross": 815.25,
-      "occupancy": "7.81%"
+      "available": 176,
+      "sold": 16,
+      "gross": 869.6,
+      "occupancy": "8.33%"
     },
     {
       "city": "Chennai",
@@ -12392,10 +14004,10 @@
       "time": "01:05 PM",
       "audi": "6DEGREES",
       "totalSeats": 175,
-      "available": 145,
-      "sold": 30,
-      "gross": 5514,
-      "occupancy": "17.14%"
+      "available": 143,
+      "sold": 32,
+      "gross": 5881.6,
+      "occupancy": "18.29%"
     },
     {
       "city": "Chennai",
@@ -12443,11 +14055,11 @@
       "chain": "PVR",
       "time": "07:45 PM",
       "audi": "AUDI 06",
-      "totalSeats": 214,
-      "available": 201,
-      "sold": 13,
-      "gross": 2389.4,
-      "occupancy": "6.07%"
+      "totalSeats": 201,
+      "available": 200,
+      "sold": 1,
+      "gross": 54.35,
+      "occupancy": "0.50%"
     },
     {
       "city": "Chennai",
@@ -12461,6 +14073,45 @@
       "sold": 597,
       "gross": 59760.92,
       "occupancy": "36.83%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "03:50 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "10:10 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "07:25 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Cristina Kathirvelan  [2D | Tamil]": [
@@ -12567,6 +14218,45 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "09:25 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 142,
+      "available": 142,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "11:50 AM",
+      "audi": "AUDI 07",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "PVR Providence Mall, Providence Mall, Pondicherry",
+      "chain": "PVR",
+      "time": "12:05 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Parrisu [2D | Tamil]": [
@@ -12582,6 +14272,32 @@
       "sold": 16,
       "gross": 869.6,
       "occupancy": "17.58%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "02:55 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 142,
+      "available": 142,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "03:00 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Kantara: A Legend Chapter-1 [2D | Tamil]": [
@@ -12649,6 +14365,19 @@
       "sold": 23,
       "gross": 2816.12,
       "occupancy": "21.50%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "AUDI 10",
+      "totalSeats": 103,
+      "available": 103,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Dhesiya Thalaivar [2D | Tamil]": [
@@ -12679,6 +14408,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "10:55 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 138,
+      "available": 138,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "12:45 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Thamma [2D | Hindi]": [
@@ -12703,10 +14458,10 @@
       "time": "06:55 PM",
       "audi": "AUDI 08",
       "totalSeats": 107,
-      "available": 107,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 105,
+      "sold": 2,
+      "gross": 350,
+      "occupancy": "1.87%"
     }
   ],
   "F1 The Movie [2D | English]": [
@@ -12718,10 +14473,10 @@
       "time": "09:40 AM",
       "audi": "AUDI 09",
       "totalSeats": 130,
-      "available": 130,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 127,
+      "sold": 3,
+      "gross": 185.22,
+      "occupancy": "2.31%"
     }
   ],
   "Baahubali The Epic [2D | Telugu]": [
@@ -12733,10 +14488,10 @@
       "time": "03:25 PM",
       "audi": "AUDI 07",
       "totalSeats": 118,
-      "available": 118,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 96,
+      "sold": 22,
+      "gross": 4454.780000000001,
+      "occupancy": "18.64%"
     }
   ],
   "Demon Slayer - Kimetsu no Yaiba - The Movie: Infinity Castle [2D | Japanese]": [
@@ -12821,6 +14576,207 @@
       "sold": 404,
       "gross": 52170,
       "occupancy": "80.00%"
+    }
+  ],
+  "Vattakhanal [2D | Tamil]": [
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Ampa Skywalk Mall, Aminjikarai, Chennai",
+      "chain": "PVR",
+      "time": "12:00 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 142,
+      "available": 142,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Heritage RSL, ECR, Chennai",
+      "chain": "PVR",
+      "time": "10:50 PM",
+      "audi": "AUDI 07",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    }
+  ],
+  "Premistunnaa [2D | Telugu]": [
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "04:00 PM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:45 AM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    }
+  ],
+  "The Great Pre-Wedding Show [2D | Telugu]": [
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "07:00 PM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:00 PM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "02:00 PM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "02:30 PM",
+      "audi": "Screen 2",
+      "totalSeats": 100,
+      "available": 217,
+      "sold": -117,
+      "gross": -17550,
+      "occupancy": "-117.00%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "06:30 PM",
+      "audi": "Screen 2",
+      "totalSeats": 100,
+      "available": 217,
+      "sold": -117,
+      "gross": -17550,
+      "occupancy": "-117.00%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "11:15 AM",
+      "audi": "Screen 2",
+      "totalSeats": 100,
+      "available": 217,
+      "sold": -117,
+      "gross": -17550,
+      "occupancy": "-117.00%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "V Max A/C 2K Dolby, Paidichintapadu, Eluru",
+      "chain": "AkarshCinemas",
+      "time": "09:30 PM",
+      "audi": "Screen 2",
+      "totalSeats": 100,
+      "available": 217,
+      "sold": -117,
+      "gross": -17550,
+      "occupancy": "-117.00%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "11:45 AM",
+      "audi": "SCREEN-2",
+      "totalSeats": 198,
+      "available": 184,
+      "sold": 14,
+      "gross": 2058,
+      "occupancy": "7.07%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "06:45 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 198,
+      "available": 184,
+      "sold": 14,
+      "gross": 2058,
+      "occupancy": "7.07%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "10:00 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 198,
+      "available": 184,
+      "sold": 14,
+      "gross": 2058,
+      "occupancy": "7.07%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "V Celluloid Bhaskar Cinemas, Kothapet, Guntur",
+      "chain": "VCelluloids",
+      "time": "02:40 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 198,
+      "available": 184,
+      "sold": 14,
+      "gross": 2058,
+      "occupancy": "7.07%"
     }
   ]
 }
