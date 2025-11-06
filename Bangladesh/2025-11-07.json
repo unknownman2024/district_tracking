@@ -1,14 +1,32 @@
 {
-  "Daruchini Dwip": [],
-  "Amar Ache Jol": [],
+  "Daruchini Dwip": [
+    {
+      "programId": 4033,
+      "location": 5,
+      "showTime": "16:30:00",
+      "total": 183,
+      "sold": 9,
+      "gross": 3600
+    }
+  ],
+  "Amar Ache Jol": [
+    {
+      "programId": 4038,
+      "location": 5,
+      "showTime": "19:20:00",
+      "total": 183,
+      "sold": 9,
+      "gross": 3600
+    }
+  ],
   "Predator: Badlands (2D)": [
     {
       "programId": 24000,
       "location": 3,
       "showTime": "13:45:00",
       "total": 38,
-      "sold": 9,
-      "gross": 13500
+      "sold": 10,
+      "gross": 15000
     },
     {
       "programId": 23993,
@@ -33,6 +51,78 @@
       "total": 263,
       "sold": 4,
       "gross": 1950
+    },
+    {
+      "programId": 13560,
+      "location": 6,
+      "showTime": "14:00:00",
+      "total": 85,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13561,
+      "location": 6,
+      "showTime": "19:15:00",
+      "total": 85,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3694,
+      "location": 8,
+      "showTime": "11:15:00",
+      "total": 48,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3695,
+      "location": 8,
+      "showTime": "13:45:00",
+      "total": 48,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3696,
+      "location": 8,
+      "showTime": "16:15:00",
+      "total": 48,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3697,
+      "location": 8,
+      "showTime": "19:00:00",
+      "total": 48,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124454,
+      "location": 1,
+      "showTime": "11:00:00",
+      "total": 113,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124455,
+      "location": 1,
+      "showTime": "13:45:00",
+      "total": 113,
+      "sold": 1,
+      "gross": 850
+    },
+    {
+      "programId": 124441,
+      "location": 1,
+      "showTime": "19:00:00",
+      "total": 113,
+      "sold": 2,
+      "gross": 1700
     }
   ],
   "Kitab Sijjin & Illiyyin (2D)": [
@@ -57,8 +147,8 @@
       "location": 3,
       "showTime": "20:00:00",
       "total": 264,
-      "sold": 55,
-      "gross": 28800
+      "sold": 61,
+      "gross": 31800
     },
     {
       "programId": 26891,
@@ -97,11 +187,108 @@
       "location": 4,
       "showTime": "19:30:00",
       "total": 225,
+      "sold": 5,
+      "gross": 2500
+    },
+    {
+      "programId": 13616,
+      "location": 6,
+      "showTime": "14:30:00",
+      "total": 125,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13617,
+      "location": 6,
+      "showTime": "19:45:00",
+      "total": 125,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124400,
+      "location": 1,
+      "showTime": "11:10:00",
+      "total": 248,
+      "sold": 6,
+      "gross": 3000
+    },
+    {
+      "programId": 124401,
+      "location": 1,
+      "showTime": "13:15:00",
+      "total": 248,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124379,
+      "location": 1,
+      "showTime": "15:30:00",
+      "total": 248,
+      "sold": 6,
+      "gross": 3000
+    },
+    {
+      "programId": 124380,
+      "location": 1,
+      "showTime": "17:45:00",
+      "total": 248,
+      "sold": 7,
+      "gross": 3500
+    },
+    {
+      "programId": 124381,
+      "location": 1,
+      "showTime": "20:00:00",
+      "total": 248,
+      "sold": 3,
+      "gross": 1500
+    },
+    {
+      "programId": 3706,
+      "location": 8,
+      "showTime": "13:10:00",
+      "total": 83,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3707,
+      "location": 8,
+      "showTime": "17:30:00",
+      "total": 83,
       "sold": 2,
-      "gross": 1000
+      "gross": 2400
+    },
+    {
+      "programId": 3708,
+      "location": 8,
+      "showTime": "20:00:00",
+      "total": 83,
+      "sold": 0,
+      "gross": 0
     }
   ],
-  "Chainsaw Man: The Movie - Reze Arc (2D)": [],
+  "Chainsaw Man: The Movie - Reze Arc (2D)": [
+    {
+      "programId": 124434,
+      "location": 1,
+      "showTime": "11:20:00",
+      "total": 248,
+      "sold": 6,
+      "gross": 3000
+    },
+    {
+      "programId": 124427,
+      "location": 1,
+      "showTime": "16:40:00",
+      "total": 248,
+      "sold": 33,
+      "gross": 16900
+    }
+  ],
   "Tron: Ares (3D)": [
     {
       "programId": 23986,
@@ -118,6 +305,38 @@
       "total": 38,
       "sold": 1,
       "gross": 1500
+    },
+    {
+      "programId": 3712,
+      "location": 8,
+      "showTime": "11:30:00",
+      "total": 175,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3713,
+      "location": 8,
+      "showTime": "16:45:00",
+      "total": 175,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124359,
+      "location": 1,
+      "showTime": "11:30:00",
+      "total": 248,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124352,
+      "location": 1,
+      "showTime": "17:00:00",
+      "total": 248,
+      "sold": 2,
+      "gross": 1200
     }
   ],
   "Mon Je Bujhe Na": [
@@ -134,6 +353,22 @@
       "location": 4,
       "showTime": "16:40:00",
       "total": 225,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124420,
+      "location": 1,
+      "showTime": "14:00:00",
+      "total": 248,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124413,
+      "location": 1,
+      "showTime": "19:15:00",
+      "total": 248,
       "sold": 0,
       "gross": 0
     }
@@ -192,16 +427,16 @@
       "location": 3,
       "showTime": "16:50:00",
       "total": 264,
-      "sold": 136,
-      "gross": 82600
+      "sold": 138,
+      "gross": 84100
     },
     {
       "programId": 23938,
       "location": 3,
       "showTime": "19:45:00",
       "total": 264,
-      "sold": 52,
-      "gross": 32200
+      "sold": 58,
+      "gross": 35800
     },
     {
       "programId": 19255,
@@ -224,8 +459,8 @@
       "location": 4,
       "showTime": "16:50:00",
       "total": 408,
-      "sold": 2,
-      "gross": 1000
+      "sold": 7,
+      "gross": 3500
     },
     {
       "programId": 19258,
@@ -234,9 +469,154 @@
       "total": 408,
       "sold": 5,
       "gross": 2500
+    },
+    {
+      "programId": 13588,
+      "location": 6,
+      "showTime": "11:45:00",
+      "total": 196,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13590,
+      "location": 6,
+      "showTime": "14:15:00",
+      "total": 196,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13591,
+      "location": 6,
+      "showTime": "16:30:00",
+      "total": 196,
+      "sold": 1,
+      "gross": 450
+    },
+    {
+      "programId": 13592,
+      "location": 6,
+      "showTime": "19:30:00",
+      "total": 196,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124481,
+      "location": 1,
+      "showTime": "11:45:00",
+      "total": 231,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124482,
+      "location": 1,
+      "showTime": "14:15:00",
+      "total": 231,
+      "sold": 1,
+      "gross": 600
+    },
+    {
+      "programId": 124467,
+      "location": 1,
+      "showTime": "16:50:00",
+      "total": 231,
+      "sold": 9,
+      "gross": 5400
+    },
+    {
+      "programId": 124468,
+      "location": 1,
+      "showTime": "19:45:00",
+      "total": 231,
+      "sold": 7,
+      "gross": 4200
+    },
+    {
+      "programId": 3686,
+      "location": 8,
+      "showTime": "11:45:00",
+      "total": 332,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3687,
+      "location": 8,
+      "showTime": "14:20:00",
+      "total": 332,
+      "sold": 2,
+      "gross": 1300
+    },
+    {
+      "programId": 3688,
+      "location": 8,
+      "showTime": "17:00:00",
+      "total": 332,
+      "sold": 5,
+      "gross": 2750
+    },
+    {
+      "programId": 3689,
+      "location": 8,
+      "showTime": "19:45:00",
+      "total": 332,
+      "sold": 0,
+      "gross": 0
     }
   ],
-  "Silence: A Musical Journey": [],
+  "Silence: A Musical Journey": [
+    {
+      "programId": 3716,
+      "location": 8,
+      "showTime": "14:10:00",
+      "total": 175,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3717,
+      "location": 8,
+      "showTime": "19:30:00",
+      "total": 175,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124372,
+      "location": 1,
+      "showTime": "14:20:00",
+      "total": 248,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 124365,
+      "location": 1,
+      "showTime": "19:30:00",
+      "total": 248,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13644,
+      "location": 6,
+      "showTime": "11:15:00",
+      "total": 125,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13632,
+      "location": 6,
+      "showTime": "17:00:00",
+      "total": 125,
+      "sold": 0,
+      "gross": 0
+    }
+  ],
   "Ghetuputra Komola": [
     {
       "programId": 26940,
@@ -319,8 +699,40 @@
       "location": 3,
       "showTime": "17:30:00",
       "total": 264,
-      "sold": 2,
-      "gross": 1200
+      "sold": 26,
+      "gross": 13600
+    },
+    {
+      "programId": 13574,
+      "location": 6,
+      "showTime": "11:30:00",
+      "total": 85,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 13576,
+      "location": 6,
+      "showTime": "16:45:00",
+      "total": 85,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3702,
+      "location": 8,
+      "showTime": "11:00:00",
+      "total": 83,
+      "sold": 0,
+      "gross": 0
+    },
+    {
+      "programId": 3703,
+      "location": 8,
+      "showTime": "15:20:00",
+      "total": 83,
+      "sold": 0,
+      "gross": 0
     }
   ]
 }
