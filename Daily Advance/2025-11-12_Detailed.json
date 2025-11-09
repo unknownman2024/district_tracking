@@ -5641,10 +5641,10 @@
       "time": "01:55 PM",
       "audi": "AUDI 3",
       "totalSeats": 225,
-      "available": 215,
-      "sold": 10,
-      "gross": 1770,
-      "occupancy": "4.44%"
+      "available": 213,
+      "sold": 12,
+      "gross": 2124,
+      "occupancy": "5.33%"
     },
     {
       "city": "Vizag",
@@ -7253,10 +7253,10 @@
       "time": "12:30 PM",
       "audi": "SCREEN 3",
       "totalSeats": 230,
-      "available": 206,
-      "sold": 24,
-      "gross": 1426.32,
-      "occupancy": "10.43%"
+      "available": 205,
+      "sold": 25,
+      "gross": 1628.81,
+      "occupancy": "10.87%"
     },
     {
       "city": "Chennai",
@@ -7278,11 +7278,11 @@
       "chain": "Grand Cinema",
       "time": "01:00 PM",
       "audi": "Screen2",
-      "totalSeats": 358,
+      "totalSeats": 350,
       "available": 358,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": -8,
+      "gross": -1200,
+      "occupancy": "-2.29%"
     }
   ],
   "The Great Pre-Wedding Show [2D | Telugu]": [
@@ -8559,6 +8559,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "venue": "Cinepolis Power One Mall, Bunder Road, Vijayawada",
+      "chain": "Cinepolis",
+      "time": "06:40 PM",
+      "audi": "AUDI 4",
+      "totalSeats": 160,
+      "available": 150,
+      "sold": 10,
+      "gross": 1470,
+      "occupancy": "6.25%"
     }
   ],
   "Mass Jathara [2D | Telugu]": [
@@ -24022,10 +24035,10 @@
       "time": "11:10 AM",
       "audi": "SCREEN 4",
       "totalSeats": 256,
-      "available": 256,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 254,
+      "sold": 2,
+      "gross": 210,
+      "occupancy": "0.78%"
     },
     {
       "city": "Dhanbad",
@@ -32060,6 +32073,110 @@
       "sold": 13,
       "gross": 2470,
       "occupancy": "5.99%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "09:50 AM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "12:55 PM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "06:50 PM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "07:50 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Balaghat",
+      "state": "Madhya Pradesh",
+      "venue": "Mayur Talkies, Hanuman Chowk Balaghat, Balaghat",
+      "chain": "Mayur Talkies",
+      "time": "09:00 PM",
+      "audi": "Mayur",
+      "totalSeats": 50,
+      "available": 40,
+      "sold": 10,
+      "gross": 800,
+      "occupancy": "20.00%"
+    },
+    {
+      "city": "Balaghat",
+      "state": "Madhya Pradesh",
+      "venue": "Mayur Talkies, Hanuman Chowk Balaghat, Balaghat",
+      "chain": "Mayur Talkies",
+      "time": "12:00 PM",
+      "audi": "Mayur",
+      "totalSeats": 50,
+      "available": 40,
+      "sold": 10,
+      "gross": 800,
+      "occupancy": "20.00%"
+    },
+    {
+      "city": "Balaghat",
+      "state": "Madhya Pradesh",
+      "venue": "Mayur Talkies, Hanuman Chowk Balaghat, Balaghat",
+      "chain": "Mayur Talkies",
+      "time": "06:00 PM",
+      "audi": "Mayur",
+      "totalSeats": 50,
+      "available": 40,
+      "sold": 10,
+      "gross": 800,
+      "occupancy": "20.00%"
+    },
+    {
+      "city": "Balaghat",
+      "state": "Madhya Pradesh",
+      "venue": "Mayur Talkies, Hanuman Chowk Balaghat, Balaghat",
+      "chain": "Mayur Talkies",
+      "time": "03:00 PM",
+      "audi": "Mayur",
+      "totalSeats": 50,
+      "available": 40,
+      "sold": 10,
+      "gross": 800,
+      "occupancy": "20.00%"
     }
   ],
   "Pravas [2D | Gujarati]": [
@@ -37186,10 +37303,10 @@
       "time": "10:30 AM",
       "audi": "SCREEN6",
       "totalSeats": 187,
-      "available": 187,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 186,
+      "sold": 1,
+      "gross": 105,
+      "occupancy": "0.53%"
     },
     {
       "city": "Lucknow",
@@ -42637,6 +42754,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "01:20 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "10:55 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "HAQ [2D | Hindi]": [
@@ -43532,10 +43675,10 @@
       "time": "04:00 PM",
       "audi": "AUDI 03",
       "totalSeats": 190,
-      "available": 190,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 189,
+      "sold": 1,
+      "gross": 190,
+      "occupancy": "0.53%"
     },
     {
       "city": "Bengaluru",
@@ -44156,10 +44299,10 @@
       "time": "03:55 PM",
       "audi": "AUDI 7 CARVE",
       "totalSeats": 105,
-      "available": 83,
-      "sold": 22,
-      "gross": 3310.3,
-      "occupancy": "20.95%"
+      "available": 81,
+      "sold": 24,
+      "gross": 3715.28,
+      "occupancy": "22.86%"
     },
     {
       "city": "Dehradun",
@@ -54608,10 +54751,10 @@
       "time": "12:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 170,
-      "available": 170,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 166,
+      "sold": 4,
+      "gross": 1320,
+      "occupancy": "2.35%"
     },
     {
       "city": "Chandrapur",
@@ -56845,6 +56988,110 @@
       "audi": "AUDI 2",
       "totalSeats": 188,
       "available": 188,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "07:20 PM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "04:25 PM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "10:15 PM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "02:35 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "10:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "07:50 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "10:35 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 228,
+      "available": 228,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -59968,10 +60215,10 @@
       "time": "08:40 PM",
       "audi": "AUDI 1",
       "totalSeats": 211,
-      "available": 175,
-      "sold": 36,
-      "gross": 5364,
-      "occupancy": "17.06%"
+      "available": 173,
+      "sold": 38,
+      "gross": 5662,
+      "occupancy": "18.01%"
     },
     {
       "city": "Rajkot",
@@ -64379,6 +64626,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "08:40 PM",
+      "audi": "AUDI 9",
+      "totalSeats": 205,
+      "available": 199,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.93%"
     }
   ],
   "The Taj Story [2D | Hindi]": [
@@ -73295,10 +73555,10 @@
       "time": "07:30 PM",
       "audi": "SCREEN 5",
       "totalSeats": 161,
-      "available": 161,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 159,
+      "sold": 2,
+      "gross": 640,
+      "occupancy": "1.24%"
     },
     {
       "city": "Ahmedabad",
@@ -74313,6 +74573,19 @@
       "sold": 19,
       "gross": 4370,
       "occupancy": "10.92%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "04:25 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Misri [2D | Gujarati]": [
@@ -83057,6 +83330,45 @@
       "sold": 13,
       "gross": 3250,
       "occupancy": "5.99%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "09:00 PM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "05:25 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Predator: Badlands [3D | English]": [
@@ -83146,10 +83458,10 @@
       "time": "02:05 PM",
       "audi": "AUDI 11",
       "totalSeats": 231,
-      "available": 231,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 230,
+      "sold": 1,
+      "gross": 280,
+      "occupancy": "0.43%"
     },
     {
       "city": "Bengaluru",
@@ -83874,10 +84186,10 @@
       "time": "08:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 217,
-      "available": 217,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 215,
+      "sold": 2,
+      "gross": 580,
+      "occupancy": "0.92%"
     },
     {
       "city": "Greater Noida",
@@ -87046,10 +87358,10 @@
       "time": "02:50 PM",
       "audi": "AUDI 1",
       "totalSeats": 124,
-      "available": 114,
-      "sold": 10,
-      "gross": 2400,
-      "occupancy": "8.06%"
+      "available": 110,
+      "sold": 14,
+      "gross": 3360,
+      "occupancy": "11.29%"
     },
     {
       "city": "Kolkata",
@@ -88623,6 +88935,32 @@
       "sold": 60,
       "gross": 5804.4,
       "occupancy": "11.76%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "04:00 PM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "venue": "INOX Metro, Jawaharlal Nehru Road, Kolkata",
+      "chain": "PVR",
+      "time": "12:10 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Abhanga Tukaram [2D | Marathi]": [
@@ -91421,6 +91759,32 @@
       "audi": "AUDI 04",
       "totalSeats": 106,
       "available": 106,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "10:55 AM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "09:55 PM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -94797,6 +95161,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "04:00 PM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Jassi Weds Jassi [2D | Hindi]": [
@@ -95475,6 +95852,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "12:00 PM",
+      "audi": "AUDI-06",
+      "totalSeats": 74,
+      "available": 74,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Madhaniyan [2D | Punjabi]": [
@@ -95734,6 +96124,19 @@
       "audi": "AUDI 03",
       "totalSeats": 97,
       "available": 97,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "05:30 PM",
+      "audi": "AUDI-06",
+      "totalSeats": 74,
+      "available": 74,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -100258,11 +100661,50 @@
       "chain": "Grand Cinema",
       "time": "10:00 PM",
       "audi": "Screen2",
-      "totalSeats": 358,
+      "totalSeats": 350,
       "available": 358,
+      "sold": -8,
+      "gross": -1200,
+      "occupancy": "-2.29%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "11:30 PM",
+      "audi": "AUDI 9",
+      "totalSeats": 205,
+      "available": 199,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.93%"
     }
   ],
   "Nuremberg [2D | English]": [
@@ -100495,10 +100937,10 @@
       "time": "12:40 PM",
       "audi": "AUDI 11 THE LIBRARY",
       "totalSeats": 27,
-      "available": 27,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 26,
+      "sold": 1,
+      "gross": 550,
+      "occupancy": "3.70%"
     },
     {
       "city": "Greater Noida",
@@ -101812,10 +102254,10 @@
       "time": "10:40 PM",
       "audi": "AUDI 4",
       "totalSeats": 147,
-      "available": 135,
-      "sold": 12,
-      "gross": 2380,
-      "occupancy": "8.16%"
+      "available": 137,
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "6.80%"
     },
     {
       "city": "Eluru",
@@ -103661,11 +104103,11 @@
       "chain": "Grand Cinema",
       "time": "04:00 PM",
       "audi": "Screen2",
-      "totalSeats": 358,
+      "totalSeats": 350,
       "available": 358,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": -8,
+      "gross": -1200,
+      "occupancy": "-2.29%"
     }
   ],
   "Baahubali The Epic [IMAX 2D | Telugu]": [
@@ -103837,10 +104279,10 @@
       "time": "08:05 PM",
       "audi": "IMAX 4",
       "totalSeats": 243,
-      "available": 243,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 241,
+      "sold": 2,
+      "gross": 860,
+      "occupancy": "0.82%"
     },
     {
       "city": "Kolkata",
@@ -105568,10 +106010,10 @@
       "time": "07:55 PM",
       "audi": "AUDI 08",
       "totalSeats": 26,
-      "available": 26,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 25,
+      "sold": 1,
+      "gross": 1330,
+      "occupancy": "3.85%"
     }
   ],
   "Jai Gadakesari  [2D | Kannada]": [
@@ -108104,10 +108546,10 @@
       "time": "03:50 PM",
       "audi": "SCREEN 5",
       "totalSeats": 156,
-      "available": 156,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 155,
+      "sold": 1,
+      "gross": 54.35,
+      "occupancy": "0.64%"
     },
     {
       "city": "Coimbatore",
@@ -108732,10 +109174,10 @@
       "time": "12:45 PM",
       "audi": "SCREEN 5",
       "totalSeats": 225,
-      "available": 225,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 224,
+      "sold": 1,
+      "gross": 149,
+      "occupancy": "0.44%"
     },
     {
       "city": "Nagpur",
@@ -108914,10 +109356,10 @@
       "time": "04:35 PM",
       "audi": "AUID 1",
       "totalSeats": 217,
-      "available": 206,
-      "sold": 11,
-      "gross": 2650,
-      "occupancy": "5.07%"
+      "available": 207,
+      "sold": 10,
+      "gross": 2200,
+      "occupancy": "4.61%"
     },
     {
       "city": "Jaipur",
@@ -110896,10 +111338,10 @@
       "time": "05:30 PM",
       "audi": "AUDI 04",
       "totalSeats": 68,
-      "available": 68,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 65,
+      "sold": 3,
+      "gross": 1350,
+      "occupancy": "4.41%"
     },
     {
       "city": "Trivandrum",
@@ -112293,10 +112735,10 @@
       "time": "12:00 PM",
       "audi": "AUDI 03",
       "totalSeats": 197,
-      "available": 168,
-      "sold": 29,
-      "gross": 1576.15,
-      "occupancy": "14.72%"
+      "available": 166,
+      "sold": 31,
+      "gross": 1943.75,
+      "occupancy": "15.74%"
     },
     {
       "city": "Chennai",
@@ -115451,11 +115893,11 @@
       "chain": "Grand Cinema",
       "time": "10:00 PM",
       "audi": "Screen1",
-      "totalSeats": 367,
+      "totalSeats": 323,
       "available": 367,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": -44,
+      "gross": -6600,
+      "occupancy": "-13.62%"
     },
     {
       "city": "Hosur",
@@ -115464,11 +115906,11 @@
       "chain": "Grand Cinema",
       "time": "07:15 PM",
       "audi": "Screen1",
-      "totalSeats": 367,
+      "totalSeats": 323,
       "available": 367,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": -44,
+      "gross": -6600,
+      "occupancy": "-13.62%"
     },
     {
       "city": "Hosur",
@@ -115477,11 +115919,11 @@
       "chain": "Grand Cinema",
       "time": "03:00 PM",
       "audi": "Screen1",
-      "totalSeats": 367,
+      "totalSeats": 323,
       "available": 367,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": -44,
+      "gross": -6600,
+      "occupancy": "-13.62%"
     },
     {
       "city": "Hosur",
@@ -115490,11 +115932,11 @@
       "chain": "Grand Cinema",
       "time": "11:30 AM",
       "audi": "Screen1",
-      "totalSeats": 367,
+      "totalSeats": 323,
       "available": 367,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": -44,
+      "gross": -6600,
+      "occupancy": "-13.62%"
     },
     {
       "city": "Puducherry",
@@ -115844,10 +116286,10 @@
       "time": "02:15 PM",
       "audi": "SCREEN 3",
       "totalSeats": 242,
-      "available": 206,
-      "sold": 36,
-      "gross": 10080,
-      "occupancy": "14.88%"
+      "available": 204,
+      "sold": 38,
+      "gross": 10640,
+      "occupancy": "15.70%"
     },
     {
       "city": "Guwahati",
@@ -116845,10 +117287,10 @@
       "time": "03:45 PM",
       "audi": "AUDI-2",
       "totalSeats": 216,
-      "available": 181,
-      "sold": 35,
-      "gross": 9100,
-      "occupancy": "16.20%"
+      "available": 179,
+      "sold": 37,
+      "gross": 9620,
+      "occupancy": "17.13%"
     },
     {
       "city": "Guwahati",
@@ -117105,10 +117547,10 @@
       "time": "04:50 PM",
       "audi": "AUDI 02",
       "totalSeats": 121,
-      "available": 121,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 116,
+      "sold": 5,
+      "gross": 1300,
+      "occupancy": "4.13%"
     },
     {
       "city": "Guwahati",
@@ -117157,10 +117599,10 @@
       "time": "07:25 PM",
       "audi": "AUDI 03",
       "totalSeats": 150,
-      "available": 147,
-      "sold": 3,
-      "gross": 780,
-      "occupancy": "2.00%"
+      "available": 142,
+      "sold": 8,
+      "gross": 2080,
+      "occupancy": "5.33%"
     },
     {
       "city": "Guwahati",
@@ -117508,10 +117950,10 @@
       "time": "04:20 PM",
       "audi": "SCREEN 1",
       "totalSeats": 144,
-      "available": 10,
-      "sold": 134,
-      "gross": 32760,
-      "occupancy": "93.06%"
+      "available": 8,
+      "sold": 136,
+      "gross": 33080,
+      "occupancy": "94.44%"
     },
     {
       "city": "Jorhat",
@@ -117885,10 +118327,10 @@
       "time": "08:00 PM",
       "audi": "Divya Jyoti",
       "totalSeats": 196,
-      "available": 57,
-      "sold": 139,
-      "gross": 20900,
-      "occupancy": "70.92%"
+      "available": 56,
+      "sold": 140,
+      "gross": 21100,
+      "occupancy": "71.43%"
     },
     {
       "city": "Nagaon",
@@ -118327,10 +118769,10 @@
       "time": "04:30 PM",
       "audi": "Screen 1",
       "totalSeats": 180,
-      "available": 0,
-      "sold": 180,
-      "gross": 34160,
-      "occupancy": "100.00%"
+      "available": 5,
+      "sold": 175,
+      "gross": 33160,
+      "occupancy": "97.22%"
     },
     {
       "city": "Dhekiajuli",
@@ -118509,10 +118951,10 @@
       "time": "12:50 PM",
       "audi": "SCREEN1",
       "totalSeats": 194,
-      "available": 3,
-      "sold": 191,
-      "gross": 22270,
-      "occupancy": "98.45%"
+      "available": 1,
+      "sold": 193,
+      "gross": 22410,
+      "occupancy": "99.48%"
     },
     {
       "city": "Mangaldoi",
@@ -122728,10 +123170,10 @@
       "time": "01:45 PM",
       "audi": "AUDI 2",
       "totalSeats": 297,
-      "available": 297,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 295,
+      "sold": 2,
+      "gross": 367.6,
+      "occupancy": "0.67%"
     },
     {
       "city": "Chennai",
@@ -127076,10 +127518,10 @@
       "time": "11:05 AM",
       "audi": "AUDI 8 KITES",
       "totalSeats": 103,
-      "available": 95,
-      "sold": 8,
-      "gross": 432.96,
-      "occupancy": "7.77%"
+      "available": 91,
+      "sold": 12,
+      "gross": 920.48,
+      "occupancy": "11.65%"
     },
     {
       "city": "Mumbai",
@@ -127232,10 +127674,10 @@
       "time": "01:00 PM",
       "audi": "AUDI 3",
       "totalSeats": 233,
-      "available": 233,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 231,
+      "sold": 2,
+      "gross": 243.76,
+      "occupancy": "0.86%"
     },
     {
       "city": "Chennai",
@@ -127689,10 +128131,10 @@
       "time": "06:05 PM",
       "audi": "SCREEN4",
       "totalSeats": 165,
-      "available": 150,
-      "sold": 15,
-      "gross": 815.25,
-      "occupancy": "9.09%"
+      "available": 148,
+      "sold": 17,
+      "gross": 923.95,
+      "occupancy": "10.30%"
     },
     {
       "city": "Coimbatore",
@@ -130417,10 +130859,10 @@
       "time": "10:25 PM",
       "audi": "SCREEN 7",
       "totalSeats": 147,
-      "available": 131,
-      "sold": 16,
-      "gross": 865.92,
-      "occupancy": "10.88%"
+      "available": 130,
+      "sold": 17,
+      "gross": 987.8,
+      "occupancy": "11.56%"
     }
   ],
   "Dil [2D | Hindi]": [
@@ -133138,10 +133580,10 @@
       "time": "12:35 PM",
       "audi": "SCREEN-2",
       "totalSeats": 330,
-      "available": 330,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 328,
+      "sold": 2,
+      "gross": 400,
+      "occupancy": "0.61%"
     },
     {
       "city": "Salem",
@@ -133553,11 +133995,11 @@
       "chain": "Grand Cinema",
       "time": "07:30 PM",
       "audi": "Screen2",
-      "totalSeats": 358,
+      "totalSeats": 350,
       "available": 358,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": -8,
+      "gross": -1440,
+      "occupancy": "-2.29%"
     }
   ],
   "Rona [2D | Kannada]": [
@@ -135752,7 +136194,7 @@
     }
   ],
   "date": "2025-11-12",
-  "lastUpdated": "07:51 AM, 09 November 2025",
+  "lastUpdated": "09:01 AM, 09 November 2025",
   "DDD [2D | Kannada]": [
     {
       "city": "Bengaluru",
@@ -135850,10 +136292,10 @@
       "time": "03:20 PM",
       "audi": "SCREEN 1",
       "totalSeats": 414,
-      "available": 414,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 411,
+      "sold": 3,
+      "gross": 1011.8700000000001,
+      "occupancy": "0.72%"
     }
   ],
   "Predator: Badlands [IMAX 2D | English]": [
