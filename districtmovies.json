@@ -55,17 +55,6 @@
     "cityCount": 21
   },
   {
-    "movie": "Om Shanti Om",
-    "language": "Hindi",
-    "movieCode": "73iBhC0qd",
-    "id": 157817,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Om-Shanti-Om_Poster-9f665110-b325-11f0-8de9-2b765267bad0.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nagpur, Nashik, Patna, Visakhapatnam",
-    "cityCount": 18
-  },
-  {
     "movie": "Devdas",
     "language": "Hindi",
     "movieCode": "eScnhjIAw",
@@ -88,15 +77,26 @@
     "cityCount": 17
   },
   {
-    "movie": "Main Hoon Na",
+    "movie": "Om Shanti Om",
     "language": "Hindi",
-    "movieCode": "i6cmktr5aS",
-    "id": 208320,
+    "movieCode": "73iBhC0qd",
+    "id": 157817,
     "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/MHN1-a539bd50-b322-11f0-af0d-ef75080c81b7.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kolkata, Mumbai, Nashik, Patna, Surat, Visakhapatnam",
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Om-Shanti-Om_Poster-9f665110-b325-11f0-8de9-2b765267bad0.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kolkata, Mumbai, Nagpur, Nashik, Patna, Visakhapatnam",
     "cityCount": 17
+  },
+  {
+    "movie": "Dil Se",
+    "language": "Hindi",
+    "movieCode": "hNjDcYbwY7",
+    "id": 208325,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dil-se_Poster-0220be30-b2f4-11f0-9420-ff69be08e88a-18a2c380-b324-11f0-8de9-2b765267bad0.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kolkata, Mumbai, Nagpur, Patna, Surat",
+    "cityCount": 16
   },
   {
     "movie": "Kantara: A Legend Chapter-1",
@@ -107,6 +107,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Kantara-18322660-9ac5-11f0-95a0-71e5f4337a1e.jpg",
     "city": "Ahmedabad, Amritsar, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Goa, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Nashik, Patna, Surat",
+    "cityCount": 16
+  },
+  {
+    "movie": "Main Hoon Na",
+    "language": "Hindi",
+    "movieCode": "i6cmktr5aS",
+    "id": 208320,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/MHN1-a539bd50-b322-11f0-af0d-ef75080c81b7.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kolkata, Mumbai, Patna, Surat, Visakhapatnam",
     "cityCount": 16
   },
   {
@@ -154,17 +165,6 @@
     "cityCount": 15
   },
   {
-    "movie": "Dil Se",
-    "language": "Hindi",
-    "movieCode": "hNjDcYbwY7",
-    "id": 208325,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dil-se_Poster-0220be30-b2f4-11f0-9420-ff69be08e88a-18a2c380-b324-11f0-8de9-2b765267bad0.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Goa, Hyderabad, Jaipur, Kolkata, Mumbai, Nagpur, Patna, Surat",
-    "cityCount": 14
-  },
-  {
     "movie": "DP World Asia Cup 2025 (India vs Pakistan)",
     "language": "English",
     "movieCode": "4iPC1JR86c",
@@ -183,8 +183,8 @@
     "runtime": 134,
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Roi-Roi-Binale_Poster-3f003a60-b0c9-11f0-adae-ab907d93f7c8.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Surat",
-    "cityCount": 13
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai",
+    "cityCount": 12
   },
   {
     "movie": "Baahubali The Epic",
@@ -226,7 +226,7 @@
     "id": 185586,
     "runtime": 134,
     "rating": "UA 16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Poster%20Predator--Badlands-f423ad40-21c8-11f0-a22b-459bceb33eba.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Welcome-to-a-world-of-hurt.-Experience-Predator--Badlands%2C-in-%23PVRINOX%20(1)-f51145b0-66e1-11f0-860b-0123967fd46d.jpg",
     "city": "Bangalore, Bengaluru, Bhubaneswar, Goa, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Nashik, Visakhapatnam",
     "cityCount": 11
   },
@@ -340,17 +340,6 @@
     "cityCount": 7
   },
   {
-    "movie": "Innocent",
-    "language": "Malayalam",
-    "movieCode": "65xmVXDCtF",
-    "id": 208043,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Innocent--f6e938b0-acab-11f0-9d71-2100d56acd75.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Kochi, Mangaluru",
-    "cityCount": 7
-  },
-  {
     "movie": "Jatadhara",
     "language": "Telugu",
     "movieCode": "8XInB~U7DUp",
@@ -395,6 +384,17 @@
     "cityCount": 6
   },
   {
+    "movie": "Innocent",
+    "language": "Malayalam",
+    "movieCode": "65xmVXDCtF",
+    "id": 208043,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Innocent--f6e938b0-acab-11f0-9d71-2100d56acd75.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Kochi, Mangaluru",
+    "cityCount": 6
+  },
+  {
     "movie": "Jolly LLB 3",
     "language": "Hindi",
     "movieCode": "L6HAY85V7D",
@@ -403,17 +403,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Jolly-LLB-poster-4b67d990-9ac4-11f0-a697-578ce98bf125.jpg",
     "city": "Bangalore, Bengaluru, Bhopal, Delhi/NCR, Jaipur, Mumbai",
-    "cityCount": 6
-  },
-  {
-    "movie": "Krishna Leela",
-    "language": "Telugu",
-    "movieCode": "xwUywU_gRa",
-    "id": 207991,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Krishna-Leela-(2025)--97a7acd0-b89d-11f0-b302-59089ab1af48.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 6
   },
   {
@@ -549,6 +538,17 @@
     "cityCount": 5
   },
   {
+    "movie": "Krishna Leela",
+    "language": "Telugu",
+    "movieCode": "xwUywU_gRa",
+    "id": 207991,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Krishna-Leela-(2025)--97a7acd0-b89d-11f0-b302-59089ab1af48.jpg",
+    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 5
+  },
+  {
     "movie": "Mass Jathara",
     "language": "Telugu",
     "movieCode": "cVH6GX1QK5",
@@ -567,6 +567,17 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mithra-Mandalip-ece30e10-a5f1-11f0-8776-218d5db63e1b.jpg",
+    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 5
+  },
+  {
+    "movie": "Nuvvostanante Nenoddantana",
+    "language": "Telugu",
+    "movieCode": "_PV8owB9N",
+    "id": 160007,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nuvvostanante-Nenoddantana--poster-2a5ffaa0-bba0-11f0-95ca-7bfb6916c8a0.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 5
   },
@@ -635,6 +646,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Strangers---Chapter-2-f6f47780-9c3d-11f0-b6cc-5b9fb25f8c45.jpg",
     "city": "Chandigarh, Delhi/NCR, Guntur, Jaipur, Mumbai",
     "cityCount": 5
+  },
+  {
+    "movie": "Amaram",
+    "language": "Malayalam",
+    "movieCode": "P79xvIhfK0",
+    "id": 209110,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster-32259f70-ba28-11f0-bbdf-3f983891ccd0.jpg",
+    "city": "Chennai, Coimbatore, Kochi, Mumbai",
+    "cityCount": 4
   },
   {
     "movie": "Bhadrakaali",
@@ -788,17 +810,6 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Afterburn_1_Poster-503d5690-993c-11f0-afd7-1529129546b3.jpg",
     "city": "Bangalore, Bengaluru, Delhi/NCR",
-    "cityCount": 3
-  },
-  {
-    "movie": "Amaram",
-    "language": "Malayalam",
-    "movieCode": "P79xvIhfK0",
-    "id": 209110,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster-32259f70-ba28-11f0-bbdf-3f983891ccd0.jpg",
-    "city": "Chennai, Kochi, Mumbai",
     "cityCount": 3
   },
   {
@@ -978,17 +989,6 @@
     "cityCount": 3
   },
   {
-    "movie": "India Pride Imli – The Archer",
-    "language": "Hindi",
-    "movieCode": "y_A7sabCxK",
-    "id": 206346,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/India_s-Pride--Imli---The-Archer-bebb1f20-93c5-11f0-9ba4-09d8ac943696-9b10d6f0-a81f-11f0-8117-19429f3d1af4.jpg",
-    "city": "Ahmedabad, Gandhinagar, Mumbai",
-    "cityCount": 3
-  },
-  {
     "movie": "Jai Gadakesari",
     "language": "Kannada",
     "movieCode": "xUAyVp5fxU",
@@ -1063,17 +1063,6 @@
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Madhaniyan_Poster-56f0e210-9917-11f0-b40c-7799c0afa5a1-61b8c0a0-b4ba-11f0-9a72-3d3ef4cd3a08.jpg",
     "city": "Amritsar, Chandigarh, Delhi/NCR",
-    "cityCount": 3
-  },
-  {
-    "movie": "Nuvvostanante Nenoddantana",
-    "language": "Telugu",
-    "movieCode": "_PV8owB9N",
-    "id": 160007,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nuvvostanante-Nenoddantana--poster-2a5ffaa0-bba0-11f0-95ca-7bfb6916c8a0.jpg",
-    "city": "Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 3
   },
   {
@@ -1501,7 +1490,7 @@
     "id": 141422,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/dil-to-pagal-hai-ff6084f0-f9e4-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_-608x800%20(1)-d98eeff0-54b2-11ef-8ac1-097c7af7ce7e.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -2141,17 +2130,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Param-Sundari2-95a7e9e0-8413-11f0-ae1e-351ff554f5ee.jpg",
     "city": "Ahmedabad, Gandhinagar",
-    "cityCount": 2
-  },
-  {
-    "movie": "Parrisu",
-    "language": "Tamil",
-    "movieCode": "F80dKK52FE",
-    "id": 207835,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Parrisu-poste-8f0d29f0-b3c1-11f0-980d-3b9293955b26.jpg",
-    "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
   {
@@ -4388,6 +4366,17 @@
     "cityCount": 1
   },
   {
+    "movie": "India Pride Imli – The Archer",
+    "language": "Hindi",
+    "movieCode": "y_A7sabCxK",
+    "id": 206346,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/India_s-Pride--Imli---The-Archer-bebb1f20-93c5-11f0-9ba4-09d8ac943696-9b10d6f0-a81f-11f0-8117-19429f3d1af4.jpg",
+    "city": "Mumbai",
+    "cityCount": 1
+  },
+  {
     "movie": "Indra",
     "language": "Tamil",
     "movieCode": "a17kJzb7vz",
@@ -4670,7 +4659,7 @@
     "runtime": 134,
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/kantara_-608x800-e03c3780-4c54-11ed-ba82-57dcf3b3ddaa.jpg",
-    "city": "Patna",
+    "city": "Mumbai",
     "cityCount": 1
   },
   {
@@ -5681,7 +5670,7 @@
     "id": 169393,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Paddington1-7af7eec0-1a9a-11f0-b2bf-d9c854ed10fa.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/PADDINGTON-IN-PERU2-25983c20-fb3f-11ef-8434-f9ed39b3241b.jpg",
     "city": "Mumbai",
     "cityCount": 1
   },
@@ -5727,6 +5716,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Paradha3-42572e30-736b-11f0-9340-9da802f97dac.jpg",
     "city": "Hyderabad",
+    "cityCount": 1
+  },
+  {
+    "movie": "Parrisu",
+    "language": "Tamil",
+    "movieCode": "F80dKK52FE",
+    "id": 207835,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Parrisu-poste-8f0d29f0-b3c1-11f0-980d-3b9293955b26.jpg",
+    "city": "Chennai",
     "cityCount": 1
   },
   {
@@ -6681,7 +6681,7 @@
     "id": 169320,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/teri-baaton-mein-aisa-uljha-jiya--608x800-85fbf140-c3fc-11ee-851c-3901cd26a9f8.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Teri-Baaton-Mein-Aisa-Uljha-Jiya_Poster-b48c32d0-be0b-11f0-b888-d93b3d54f08e.jpg",
     "city": "Mumbai",
     "cityCount": 1
   },
@@ -6947,6 +6947,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-smashing-Machine-85f11240-a4e5-11f0-849b-2d2f0428d90e.jpg",
     "city": "Mumbai",
+    "cityCount": 1
+  },
+  {
+    "movie": "The Smurfs 2",
+    "language": "English",
+    "movieCode": "qCMuokwTpr",
+    "id": 209295,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Smurfs-2--9396d6b0-be07-11f0-8bd4-ddcd99a71e09.jpg",
+    "city": "Chennai",
     "cityCount": 1
   },
   {
