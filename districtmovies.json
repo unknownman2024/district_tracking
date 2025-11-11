@@ -121,17 +121,6 @@
     "cityCount": 15
   },
   {
-    "movie": "Dil Se",
-    "language": "Hindi",
-    "movieCode": "hNjDcYbwY7",
-    "id": 208325,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dil-se_Poster-0220be30-b2f4-11f0-9420-ff69be08e88a-18a2c380-b324-11f0-8de9-2b765267bad0.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Nagpur",
-    "cityCount": 14
-  },
-  {
     "movie": "Nuremberg",
     "language": "English",
     "movieCode": "8NHWb~K7xc",
@@ -176,6 +165,17 @@
     "cityCount": 13
   },
   {
+    "movie": "Dil Se",
+    "language": "Hindi",
+    "movieCode": "hNjDcYbwY7",
+    "id": 208325,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dil-se_Poster-0220be30-b2f4-11f0-9420-ff69be08e88a-18a2c380-b324-11f0-8de9-2b765267bad0.jpg",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Hyderabad, Kochi, Kolkata, Mumbai, Nagpur",
+    "cityCount": 12
+  },
+  {
     "movie": "Roi Roi Binale",
     "language": "Assamese",
     "movieCode": "f~buKJis85",
@@ -195,17 +195,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Baahubali%20(1)-3e614bc0-b3bd-11f0-8c42-65857ac88561.jpg",
     "city": "Ahmedabad, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mangaluru, Mumbai, Nagpur, Surat",
-    "cityCount": 11
-  },
-  {
-    "movie": "Chennai Express",
-    "language": "Hindi",
-    "movieCode": "6sEgpx_lu",
-    "id": 138357,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/chennai-express_-608x800-4bcebd20-3506-11ee-a3fe-6d0a80a1228c.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
     "cityCount": 11
   },
   {
@@ -237,7 +226,7 @@
     "id": 185586,
     "runtime": 134,
     "rating": "UA 16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Welcome-to-a-world-of-hurt.-Experience-Predator--Badlands%2C-in-%23PVRINOX%20(1)-f51145b0-66e1-11f0-860b-0123967fd46d.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Poster%20Predator--Badlands-f423ad40-21c8-11f0-a22b-459bceb33eba.jpg",
     "city": "Bangalore, Bengaluru, Bhubaneswar, Goa, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Nashik, Visakhapatnam",
     "cityCount": 11
   },
@@ -286,6 +275,17 @@
     "cityCount": 10
   },
   {
+    "movie": "Chennai Express",
+    "language": "Hindi",
+    "movieCode": "6sEgpx_lu",
+    "id": 138357,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/chennai-express_-608x800-4bcebd20-3506-11ee-a3fe-6d0a80a1228c.jpg",
+    "city": "Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
+    "cityCount": 9
+  },
+  {
     "movie": "Kabhi Haan Kabhi Naa",
     "language": "Hindi",
     "movieCode": "tP9o9UbXcp",
@@ -293,7 +293,7 @@
     "runtime": 134,
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Kabhi-Haan-Kabhi-Naa_Poster-f3f56110-b322-11f0-adbc-0507ef2ed692.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Gandhinagar, Hyderabad, Mumbai, Surat",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Gandhinagar, Mumbai, Nashik, Surat",
     "cityCount": 9
   },
   {
@@ -429,6 +429,16 @@
     "cityCount": 6
   },
   {
+    "movie": "Kaantha",
+    "language": "Tamil",
+    "id": 189481,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kaantha--8f4a7980-b881-11f0-b302-59089ab1af48.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Guntur, Mumbai",
+    "cityCount": 6
+  },
+  {
     "movie": "Nayakan",
     "language": "Tamil",
     "movieCode": "RffNnRQ8EM",
@@ -558,16 +568,6 @@
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Ikk-Kudi--1d5cede0-a386-11f0-9a9c-cd10283a4a65.jpg",
     "city": "Amritsar, Chandigarh, Delhi/NCR, Jaipur, Mumbai",
-    "cityCount": 5
-  },
-  {
-    "movie": "Kaantha",
-    "language": "Tamil",
-    "id": 189481,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kaantha--8f4a7980-b881-11f0-b302-59089ab1af48.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Guntur, Mumbai",
     "cityCount": 5
   },
   {
@@ -940,7 +940,7 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
     "city": "Chennai, Hyderabad, Mumbai",
     "cityCount": 3
   },
@@ -2477,7 +2477,7 @@
     "id": 170481,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sunny-Sanskari-Ki-Tulsi-Kumari_Poster-7474f640-92ba-11f0-beb4-cb65f852835f.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sunny-Sanskari_Poster-cbe8f520-84be-11f0-b558-7978ea3a4641.jpg",
     "city": "Mumbai, Surat",
     "cityCount": 2
   },
@@ -5590,7 +5590,7 @@
     "id": 163623,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein3-d255b4e0-fb37-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-2-c237bae0-fb37-11ef-943b-b3723efa3f38.jpg",
     "city": "Jaipur",
     "cityCount": 1
   },
@@ -6953,7 +6953,7 @@
     "id": 172413,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Bad-Guys2_1_Poster-302fc0f0-72ad-11f0-8de0-9d1c38983d05.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bad-d9e5e5c0-72a8-11f0-bf18-ef07befd2b97.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
@@ -7123,6 +7123,17 @@
     "cityCount": 1
   },
   {
+    "movie": "The Running Man",
+    "language": "English",
+    "movieCode": "DuQOB6zQfGL",
+    "id": 199419,
+    "runtime": 134,
+    "rating": "TBA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Running-Man_1080x1920_1-68d12540-be55-11f0-97f9-5b99d127662e.jpg",
+    "city": "Delhi/NCR",
+    "cityCount": 1
+  },
+  {
     "movie": "The Sabarmati Report",
     "language": "Hindi",
     "movieCode": "YvpxEXDJL",
@@ -7272,7 +7283,7 @@
     "id": 178225,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tron--Ares-bfc6c610-63de-11f0-b49e-0daac2dae3b7.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tron--Ares-b2d44270-63de-11f0-860b-0123967fd46d.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
