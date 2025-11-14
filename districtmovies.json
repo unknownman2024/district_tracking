@@ -11,17 +11,6 @@
     "cityCount": 26
   },
   {
-    "movie": "Spider-Man",
-    "language": "English",
-    "movieCode": "uzVUVIXnF~",
-    "id": 208556,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Spider-Man-(2002)_Poster-501cb060-c066-11f0-abfa-458b4b845353.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
-    "cityCount": 25
-  },
-  {
     "movie": "Now You See Me: Now You Don’t",
     "language": "English",
     "movieCode": "IErBPBElUC",
@@ -50,8 +39,19 @@
     "id": 206631,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/HAQ_Poster%20(1)-5f3cbd00-af3c-11f0-9b83-8531663fb4b1.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Haq-0c4046f0-c132-11f0-9ee6-55cbf03edccf.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
+    "cityCount": 22
+  },
+  {
+    "movie": "Spider-Man",
+    "language": "English",
+    "movieCode": "uzVUVIXnF~",
+    "id": 208556,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Spider-Man-(2002)_Poster-501cb060-c066-11f0-abfa-458b4b845353.jpg",
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Patna, Surat, Visakhapatnam",
     "cityCount": 22
   },
   {
@@ -194,8 +194,8 @@
     "runtime": 134,
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Laalo---Krishna-Sada-Sahaayate-07dc4e00-88b2-11f0-9e61-8f49e57b29fa.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Mumbai, Nagpur, Nashik, Surat",
-    "cityCount": 13
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Mumbai, Nashik, Surat",
+    "cityCount": 12
   },
   {
     "movie": "2020 Delhi",
@@ -205,8 +205,8 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/2020-Delhi-974e82c0-b8bd-11f0-a431-8b3c54171600.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Mumbai, Surat",
-    "cityCount": 12
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Surat",
+    "cityCount": 11
   },
   {
     "movie": "Mannu Kya Karegga?",
@@ -264,17 +264,6 @@
     "cityCount": 9
   },
   {
-    "movie": "Predator: Badlands",
-    "language": "English",
-    "movieCode": "meerj~UL7l",
-    "id": 185586,
-    "runtime": 134,
-    "rating": "UA 16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Predator-Badlands_Poster-93cf4f50-a43e-11f0-8253-9383decdaf8d.jpg",
-    "city": "Bangalore, Bengaluru, Bhopal, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Visakhapatnam",
-    "cityCount": 9
-  },
-  {
     "movie": "Nuremberg",
     "language": "English",
     "movieCode": "8NHWb~K7xc",
@@ -282,7 +271,29 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Nuremberg-82aa6730-b606-11f0-b9a6-efebace4eeef.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Kolkata, Mumbai",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Kolkata, Mumbai",
+    "cityCount": 9
+  },
+  {
+    "movie": "Predator: Badlands",
+    "language": "English",
+    "movieCode": "meerj~UL7l",
+    "id": 185586,
+    "runtime": 134,
+    "rating": "UA 16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Poster%20Predator--Badlands-f423ad40-21c8-11f0-a22b-459bceb33eba.jpg",
+    "city": "Bangalore, Bengaluru, Bhopal, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Visakhapatnam",
+    "cityCount": 9
+  },
+  {
+    "movie": "Jassi Weds Jassi",
+    "language": "Hindi",
+    "movieCode": "TWmu1Eejzo",
+    "id": 207824,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jassi-Weds-Jassi_Poster-e52813a0-b8ac-11f0-bb64-b556a6dd8e62.jpg",
+    "city": "Amritsar, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Jaipur, Kolkata, Mumbai",
     "cityCount": 8
   },
   {
@@ -330,17 +341,6 @@
     "cityCount": 7
   },
   {
-    "movie": "Jassi Weds Jassi",
-    "language": "Hindi",
-    "movieCode": "TWmu1Eejzo",
-    "id": 207824,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jassi-Weds-Jassi_Poster-e52813a0-b8ac-11f0-bb64-b556a6dd8e62.jpg",
-    "city": "Amritsar, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Jaipur, Mumbai",
-    "cityCount": 7
-  },
-  {
     "movie": "Kaantha",
     "language": "Telugu",
     "movieCode": "YHlqvw_UnGL",
@@ -382,17 +382,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Global_Poster-4306b500-9ab0-11f0-a14d-4924782e624d.jpg",
     "city": "Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Mumbai, Nashik",
-    "cityCount": 6
-  },
-  {
-    "movie": "Jigris",
-    "language": "Telugu",
-    "movieCode": "WxqZ2n1nhd",
-    "id": 204695,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jigris_Poster-23e3ece0-bec5-11f0-9257-93343f427b75.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 6
   },
   {
@@ -438,6 +427,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Spider-Man-3-(2007)_Poster-20abf470-c067-11f0-ae8d-d90027094364.jpg",
     "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Jaipur, Kota, Nagpur",
     "cityCount": 6
+  },
+  {
+    "movie": "Jigris",
+    "language": "Telugu",
+    "movieCode": "WxqZ2n1nhd",
+    "id": 204695,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jigris_Poster-23e3ece0-bec5-11f0-9257-93343f427b75.jpg",
+    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 5
   },
   {
     "movie": "Rona",
@@ -523,8 +523,8 @@
     "runtime": 134,
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Spider-Man-3-(2007)_Poster-13f2f760-c067-11f0-82ef-c14bb5ebbfe1.jpg",
-    "city": "Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Patna, Surat, Visakhapatnam",
-    "cityCount": 20
+    "city": "Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mumbai, Nashik, Patna, Surat, Visakhapatnam",
+    "cityCount": 19
   },
   {
     "movie": "Hi Zindagi",
@@ -536,6 +536,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hi-zindagi--9422b530-bec6-11f0-a7d2-714bc929c6a1.jpg",
     "city": "Ahmedabad, Amritsar, Delhi/NCR, Gandhinagar, Hyderabad, Kolkata, Mumbai, Surat",
     "cityCount": 8
+  },
+  {
+    "movie": "Nuvvostanante Nenoddantana",
+    "language": "Telugu",
+    "movieCode": "_PV8owB9N",
+    "id": 160007,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nuvvostanante-Nenoddantana--poster-2a5ffaa0-bba0-11f0-95ca-7bfb6916c8a0.jpg",
+    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Mumbai, Visakhapatnam",
+    "cityCount": 6
   },
   {
     "movie": "The Great Pre-Wedding Show",
@@ -688,17 +699,6 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mithra-Mandalip-ece30e10-a5f1-11f0-8776-218d5db63e1b.jpg",
-    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 5
-  },
-  {
-    "movie": "Nuvvostanante Nenoddantana",
-    "language": "Telugu",
-    "movieCode": "_PV8owB9N",
-    "id": 160007,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nuvvostanante-Nenoddantana--poster-2a5ffaa0-bba0-11f0-95ca-7bfb6916c8a0.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 5
   },
@@ -1721,7 +1721,7 @@
     "id": 141422,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/dil-to-pagal-hai-ff6084f0-f9e4-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/dil-to-pagal-hai2-14dd9e30-f9e5-11ef-8434-f9ed39b3241b.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -1787,7 +1787,7 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
     "city": "Hyderabad, Mumbai",
     "cityCount": 2
   },
@@ -1924,6 +1924,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Iniyana Aatma",
+    "language": "Kannada",
+    "movieCode": "UK6CKJe3cY",
+    "id": 209655,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(2)-b5c4ae70-c05e-11f0-80eb-bd0b00de29a2.jpg",
+    "city": "Bangalore, Bengaluru",
+    "cityCount": 2
+  },
+  {
     "movie": "Irudhi Muyarchi",
     "language": "Tamil",
     "movieCode": "qBHiY~6qrh",
@@ -1976,17 +1987,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Jumbu-Circus-38da8250-8e44-11f0-81d3-f36d5d3a58dd.jpg",
     "city": "Bangalore, Bengaluru",
-    "cityCount": 2
-  },
-  {
-    "movie": "Jurassic World Rebirth",
-    "language": "English",
-    "movieCode": "oiJRZJVDm_",
-    "id": 178018,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jurrasic2---f476a9a0-5599-11f0-b09a-11c880b90aa7.jpg",
-    "city": "Delhi/NCR, Hyderabad",
     "cityCount": 2
   },
   {
@@ -2207,17 +2207,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Maayaavi-Naanalla--1b127f10-8e45-11f0-aa5c-e124fbc4ea53.jpg",
     "city": "Bangalore, Bengaluru",
-    "cityCount": 2
-  },
-  {
-    "movie": "Madhaniyan",
-    "language": "Punjabi",
-    "movieCode": "ZD1xgyChGo",
-    "id": 188691,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Madhaniyan_Poster-56f0e210-9917-11f0-b40c-7799c0afa5a1-61b8c0a0-b4ba-11f0-9a72-3d3ef4cd3a08.jpg",
-    "city": "Amritsar, Chandigarh",
     "cityCount": 2
   },
   {
@@ -5104,6 +5093,17 @@
   },
   {
     "movie": "Jurassic World Rebirth",
+    "language": "English",
+    "movieCode": "oiJRZJVDm_",
+    "id": 178018,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jurrasic2---f476a9a0-5599-11f0-b09a-11c880b90aa7.jpg",
+    "city": "Hyderabad",
+    "cityCount": 1
+  },
+  {
+    "movie": "Jurassic World Rebirth",
     "language": "Hindi",
     "movieCode": "kbQBLYm_hZ",
     "id": 178018,
@@ -5730,6 +5730,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Madhaniyan",
+    "language": "Punjabi",
+    "movieCode": "ZD1xgyChGo",
+    "id": 188691,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Madhaniyan_Poster-56f0e210-9917-11f0-b40c-7799c0afa5a1-61b8c0a0-b4ba-11f0-9a72-3d3ef4cd3a08.jpg",
+    "city": "Chandigarh",
+    "cityCount": 1
+  },
+  {
     "movie": "Madharaasi",
     "language": "Tamil",
     "movieCode": "7Mj7eK85JS",
@@ -6011,7 +6022,7 @@
     "id": 163623,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-a78e5230-fb37-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-2-c237bae0-fb37-11ef-943b-b3723efa3f38.jpg",
     "city": "Jaipur",
     "cityCount": 1
   },
@@ -7552,7 +7563,7 @@
     "runtime": 134,
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Jungle-Book-608x800-d0f2f980-1ed3-11ec-9feb-8d0cb12187ac-cceb7e30-faea-11ed-a47a-ddf71bafc398.jpg",
-    "city": "Delhi/NCR",
+    "city": "Mumbai",
     "cityCount": 1
   },
   {
