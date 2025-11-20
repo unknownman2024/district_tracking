@@ -1,17 +1,29 @@
 {
   "date": "2025-11-21",
-  "lastUpdated": "04:07 AM, 21 November 2025",
+  "lastUpdated": "05:05 AM, 21 November 2025",
   "Kodama Simham | Telugu": {
-    "shows": 1,
-    "gross": 76800,
-    "sold": 512,
-    "totalSeats": 596,
-    "venues": 1,
-    "cities": 1,
+    "shows": 7,
+    "gross": 155073,
+    "sold": 1172,
+    "totalSeats": 3534,
+    "venues": 7,
+    "cities": 7,
     "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 85.91,
+    "occupancy": 33.16,
     "details": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "venues": 1,
+        "shows": 1,
+        "gross": 14925,
+        "sold": 121,
+        "totalSeats": 845,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 14.32
+      },
       {
         "city": "Bengaluru",
         "state": "Karnataka",
@@ -23,9 +35,80 @@
         "fastfilling": 1,
         "housefull": 0,
         "occupancy": 85.91
+      },
+      {
+        "city": "Bobbili",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 4620,
+        "sold": 44,
+        "totalSeats": 397,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.08
+      },
+      {
+        "city": "Parvathipuram",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 6500,
+        "sold": 65,
+        "totalSeats": 423,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.37
+      },
+      {
+        "city": "Vijayawada",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 21063,
+        "sold": 105,
+        "totalSeats": 436,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 24.08
+      },
+      {
+        "city": "Yelamanchili",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 16065,
+        "sold": 174,
+        "totalSeats": 450,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 38.67
+      },
+      {
+        "city": "Ramabhadrapuram",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 15100,
+        "sold": 151,
+        "totalSeats": 387,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 39.02
       }
     ],
     "Chain_details": [
+      {
+        "chain": "Mythri Theatres",
+        "venues": 1,
+        "shows": 1,
+        "gross": 14925,
+        "sold": 121,
+        "totalSeats": 845,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 14.32
+      },
       {
         "chain": "TicketNew",
         "venues": 1,
@@ -36,31 +119,91 @@
         "fastfilling": 1,
         "housefull": 0,
         "occupancy": 85.91
+      },
+      {
+        "chain": "SVC Sangeetha",
+        "venues": 4,
+        "shows": 4,
+        "gross": 42285,
+        "sold": 434,
+        "totalSeats": 1657,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 26.19
+      },
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 1,
+        "gross": 21063,
+        "sold": 105,
+        "totalSeats": 436,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 24.08
       }
     ]
   },
-  "120 Bahadur | Hindi": {
+  "Mastiii 4  | Hindi": {
+    "shows": 2,
+    "gross": 600,
+    "sold": 2,
+    "totalSeats": 49,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 4.08,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 2,
+        "shows": 2,
+        "gross": 600,
+        "sold": 2,
+        "totalSeats": 49,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.08
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 2,
+        "shows": 2,
+        "gross": 600,
+        "sold": 2,
+        "totalSeats": 49,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.08
+      }
+    ]
+  },
+  "The Taj Story | Hindi": {
     "shows": 1,
-    "gross": 3980,
-    "sold": 20,
-    "totalSeats": 279,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 114,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 7.17,
+    "occupancy": 0,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
         "venues": 1,
         "shows": 1,
-        "gross": 3980,
-        "sold": 20,
-        "totalSeats": 279,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 114,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.17
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -68,12 +211,202 @@
         "chain": "Maxus",
         "venues": 1,
         "shows": 1,
-        "gross": 3980,
-        "sold": 20,
-        "totalSeats": 279,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 114,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.17
+        "occupancy": 0
+      }
+    ]
+  },
+  "Laalo - Krishna Sada Sahaayate | Gujarati": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 663,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "venues": 2,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 663,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Maxus",
+        "venues": 2,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 663,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "120 Bahadur | Hindi": {
+    "shows": 2,
+    "gross": 3980,
+    "sold": 20,
+    "totalSeats": 637,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 3.14,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "venues": 2,
+        "shows": 2,
+        "gross": 3980,
+        "sold": 20,
+        "totalSeats": 637,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.14
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Maxus",
+        "venues": 2,
+        "shows": 2,
+        "gross": 3980,
+        "sold": 20,
+        "totalSeats": 637,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.14
+      }
+    ]
+  },
+  "Veedokkade | Telugu": {
+    "shows": 1,
+    "gross": 60325,
+    "sold": 473,
+    "totalSeats": 473,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 1,
+    "occupancy": 100,
+    "details": [
+      {
+        "city": "Rajahmundry",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 60325,
+        "sold": 473,
+        "totalSeats": 473,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Anusri",
+        "venues": 1,
+        "shows": 1,
+        "gross": 60325,
+        "sold": 473,
+        "totalSeats": 473,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
+      }
+    ]
+  },
+  "Friends | Tamil": {
+    "shows": 1,
+    "gross": 24300,
+    "sold": 228,
+    "totalSeats": 387,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 58.91,
+    "details": [
+      {
+        "city": "Tuticorin",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 24300,
+        "sold": 228,
+        "totalSeats": 387,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 58.91
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Cleopatra Theatre",
+        "venues": 1,
+        "shows": 1,
+        "gross": 24300,
+        "sold": 228,
+        "totalSeats": 387,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 58.91
+      }
+    ]
+  },
+  "De De Pyaar De 2 | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 68,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 68,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Maxus",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 68,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
