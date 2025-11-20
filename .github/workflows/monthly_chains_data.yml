@@ -2,6 +2,7 @@ name: Update Monthly Chains Data
 
 on:
   schedule:
+    # Runs every 40 minutes
     - cron: "*/40 * * * *"
   workflow_dispatch:
 
@@ -10,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,12 +26,21 @@ jobs:
           pip install requests pytz
 
       - name: Run update script
-        run: python monthly_chains_bo.py
+        run: python3 monthly_chains_bo.py
 
-      - name: Commit and push changes
+      - name: Commit & Push if Changed
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "actions@github.com"
-          git add "Monthly Chains Data/"
-          git commit -m "Auto update Monthly Chains Data ($(date +'%Y-%m-%d %H:%M'))" || echo "No changes"
-          git push origin main --force
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+
+          # Add everything including new folders/files
+          git add -A
+
+          # If there are changes, commit and push
+          if ! git diff --cached --quiet; then
+            echo "📌 Changes detected — committing..."
+            git commit -m "Auto update Monthly Chains Data | $(TZ='Asia/Kolkata' date '+%d %b %Y, %I:%M %p IST')"
+            git push origin main
+          else
+            echo "✔ No changes to commit."
+          fi
