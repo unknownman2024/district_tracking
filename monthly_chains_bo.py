@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 BASE_URL = "https://district24.pages.dev/Daily%20Boxoffice"
-OUTPUT_DIR = "Monthly Chains Data"
+OUTPUT_DIR = "Chain Daily Breakdown"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 CHAIN_LIST = [
@@ -16,6 +16,8 @@ CHAIN_LIST = [
     "MovieMax", "Mythri Cinemas", "Maxus Cinemas"
 ]
 
+def log(msg):
+    print(f"➡️ {msg}")
 
 def detect_chain(venue):
     venue_lower = venue.lower()
@@ -24,21 +26,21 @@ def detect_chain(venue):
             return chain
     return None
 
-
 def month_str(year, month):
     return f"{year}-{month:02d}"
-
 
 def fetch_json(date):
     url = f"{BASE_URL}/{date}_Detailed.json"
     try:
         r = requests.get(url, timeout=15)
         if r.status_code == 200:
+            log(f"   📥 Fetched: {url}")
             return r.json()
-    except:
-        pass
+        else:
+            log(f"   ⚠️ No data: {url} (status {r.status_code})")
+    except Exception as e:
+        log(f"   ❌ Fetch error: {e}")
     return None
-
 
 def process_chain_data(shows):
     chain_data = defaultdict(lambda: defaultdict(float))
@@ -66,36 +68,50 @@ def process_chain_data(shows):
 
     return chain_data
 
-
-def update_month(year, month):
+def update_current_month(year, month):
     file_path = os.path.join(OUTPUT_DIR, f"{month_str(year, month)}.json")
-    today = datetime.now().date()
 
-    # Load old file if exists
+    # Load existing data if exists
     if os.path.exists(file_path):
         with open(file_path, "r", encoding="utf-8") as f:
             month_result = json.load(f)
-        print(f"\n♻ Updating current month file: {file_path}")
+        log(f"📂 Updating existing current month file: {file_path}")
     else:
-        month_result = defaultdict(dict)
-        print(f"\n🆕 Creating new file: {file_path}")
+        month_result = {}
+        log(f"🆕 Creating new file for current month: {file_path}")
 
-    # Always update only today's data
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    print(f"   ▶ Fetching {date_str}")
+    today = datetime.now().date()
+    start = datetime(year, month, 1)
 
-    daily_data = fetch_json(date_str)
+    current = start
+    while current.date() <= today:
+        date_str = current.strftime("%Y-%m-%d")
 
-    if daily_data:
-        for movie, shows in daily_data.items():
+        # Rule: Skip already saved previous days, rewrite only today
+        if date_str in month_result and current.date() < today:
+            log(f"   ⏭ Skipping (already exists): {date_str}")
+            current += timedelta(days=1)
+            continue
+
+        log(f"   🔎 Processing: {date_str}")
+
+        daily = fetch_json(date_str)
+        if not daily:
+            current += timedelta(days=1)
+            continue
+
+        for movie, shows in daily.items():
             if movie in ["date", "lastUpdated"] or not isinstance(shows, list):
                 continue
 
             valid = [s for s in shows if isinstance(s, dict)]
-            chain_stats = process_chain_data(valid)
+            chains = process_chain_data(valid)
 
-            if chain_stats:
-                month_result.setdefault(movie, {})[date_str] = {
+            if chains:
+                if movie not in month_result:
+                    month_result[movie] = {}
+
+                month_result[movie][date_str] = {
                     chain: [
                         stats["shows"],
                         stats["sold"],
@@ -103,52 +119,50 @@ def update_month(year, month):
                         stats["gross"],
                         stats["occ"]
                     ]
-                    for chain, stats in chain_stats.items()
+                    for chain, stats in chains.items()
                 }
 
-    # Update IST timestamp
+                log(f"      ✔ Saved {movie} → {date_str}")
+
+        current += timedelta(days=1)
+
     ist = pytz.timezone("Asia/Kolkata")
     month_result["lastUpdated"] = datetime.now(ist).strftime("%I:%M %p, %d %B %Y")
 
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(month_result, f, indent=2, ensure_ascii=False)
 
-    print(f"✔ Updated today only → {file_path}")
-
+    log(f"🎉 Current month updated → {file_path}")
 
 def generate_past_month(year, month):
     file_path = os.path.join(OUTPUT_DIR, f"{month_str(year, month)}.json")
-
-    # Skip if already created once
+    
     if os.path.exists(file_path):
-        print(f"⏭ Past month exists → Skipping {file_path}")
+        log(f"⏭ Already exists (past month): {file_path}")
         return
 
-    print(f"\n📅 Generating past full month: {month_str(year, month)} → {file_path}")
+    log(f"\n📅 Generating full past month: {month_str(year, month)} → {file_path}")
 
-    month_result = defaultdict(dict)
-    start_date = datetime(year, month, 1)
-    next_month = month + 1 if month < 12 else 1
-    next_year = year if month < 12 else year + 1
+    month_result = {}
+    start = datetime(year, month, 1)
+    end = (start.replace(day=28) + timedelta(days=5)).replace(day=1) - timedelta(days=1)
 
-    end_date = (datetime(next_year, next_month, 1) - timedelta(days=1)).date()
-
-    current = start_date
-    while current.date() <= end_date:
+    current = start
+    while current.date() <= end.date():
         date_str = current.strftime("%Y-%m-%d")
-        print(f"   ▶ {date_str}")
+        log(f"   ▶ Fetching: {date_str}")
 
-        daily_data = fetch_json(date_str)
-        if daily_data:
-            for movie, shows in daily_data.items():
-                if movie in ["date", "lastUpdated"] or not isinstance(shows, list):
+        daily = fetch_json(date_str)
+        if daily:
+            for movie, shows in daily.items():
+                if movie in ["lastUpdated", "date"] or not isinstance(shows, list):
                     continue
 
                 valid = [s for s in shows if isinstance(s, dict)]
-                chain_stats = process_chain_data(valid)
+                chains = process_chain_data(valid)
 
-                if chain_stats:
-                    month_result[movie][date_str] = {
+                if chains:
+                    month_result.setdefault(movie, {})[date_str] = {
                         chain: [
                             stats["shows"],
                             stats["sold"],
@@ -156,20 +170,17 @@ def generate_past_month(year, month):
                             stats["gross"],
                             stats["occ"]
                         ]
-                        for chain, stats in chain_stats.items()
+                        for chain, stats in chains.items()
                     }
-
         current += timedelta(days=1)
 
-    # Add timestamp once
     ist = pytz.timezone("Asia/Kolkata")
     month_result["lastUpdated"] = datetime.now(ist).strftime("%I:%M %p, %d %B %Y")
 
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(month_result, f, indent=2, ensure_ascii=False)
 
-    print(f"🎉 Saved past month → {file_path}")
-
+    log(f"🎉 Saved full past month → {file_path}")
 
 def main():
     today = datetime.now()
@@ -183,7 +194,7 @@ def main():
 
     while (year < today.year) or (month <= today.month):
         if year == today.year and month == today.month:
-            update_month(year, month)
+            update_current_month(year, month)
         else:
             generate_past_month(year, month)
 
@@ -191,7 +202,6 @@ def main():
         if month > 12:
             month = 1
             year += 1
-
 
 if __name__ == "__main__":
     main()
