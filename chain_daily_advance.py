@@ -3,39 +3,67 @@ import json, os, requests, pytz
 from datetime import datetime, timedelta
 from collections import defaultdict
 
+
 BASE_URL = "https://district24.pages.dev/Daily%20Advance"
 OUTPUT_DIR = "Chain Daily Advance"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# Chains included in processing
 TARGET_CHAINS = ["PVR", "INOX", "CINEPOLIS"]
 
+# Exact JS blocking logic
 BLOCK_RATES = {
-    "PVR": 0.005,
-    "CINEPOLIS": 0.0325,
-    "INOX": 0.0
+    "PVR": 0.005,        # 0.5%
+    "CINEPOLIS": 0.0325, # 3.25%
+    "INOX": 0.0          # no deduction
 }
 
-def log(msg): print("➡", msg)
 
+def log(msg):
+    print("➡", msg)
+
+
+# ⚠ Match JS: Only count a theatre as a chain if FIRST word matches.
 def detect_chain(venue):
-    venue = venue.upper()
-    for chain in TARGET_CHAINS:
-        if chain in venue:
-            return chain
-    return None
+    venue = venue.upper().strip()
+    tokens = venue.replace("-", " ").replace(".", " ").split()
 
+    if not tokens:
+        return None
+
+    first = tokens[0]
+
+    return first if first in TARGET_CHAINS else None
+
+
+
+# 🧮 Match JS Discount Math EXACTLY
 def apply_discount(chain, sold, gross, seats):
-    """Apply blocked seat correction"""
+    """
+    JS logic:
+      avgPrice      = gross / sold
+      blockedSeats  = seats * rate
+      adjustedSold  = sold - blockedSeats
+      sold final    = round(adjustedSold)
+      gross final   = adjustedSold * avgPrice  (NO rounding here)
+    """
     rate = BLOCK_RATES.get(chain, 0)
+
     if sold > 0 and rate > 0:
-        avg_price = gross / sold if sold > 0 else 0
+        avg_price = gross / sold
         blocked = seats * rate
-        adjusted_sold = max(0, sold - blocked)
-        sold = round(adjusted_sold)
-        gross = round(adjusted_sold * avg_price)
+        adjusted = sold - blocked
+
+        # JS style rounding
+        sold = round(adjusted)
+        gross = adjusted * avg_price  # NO ROUND—precision kept
+
     return sold, gross
 
+
+
 def fetch(date):
+    """Fetch JSON from API"""
     url = f"{BASE_URL}/{date}_Detailed.json"
     try:
         r = requests.get(url, timeout=12)
@@ -44,44 +72,63 @@ def fetch(date):
             return r.json()
     except:
         pass
+
     log(f"⚠ No data for {date}")
     return None
 
-def process_day(shows):
-    """Return only chain-level data after discount"""
-    data = defaultdict(lambda: defaultdict(float))
 
+
+def process_day(shows):
+    """
+    Step 1: Aggregate shows per chain.
+    Step 2: Apply JS discount math ONCE per chain.
+    """
+    raw = defaultdict(lambda: {"sold": 0, "gross": 0, "seats": 0, "shows": 0})
+
+    # SUM without modification — same as JS grouping
     for s in shows:
-        if not isinstance(s, dict): 
+        if not isinstance(s, dict):
             continue
 
-        venue = s.get("venue", "")
-        chain = detect_chain(venue)
+        chain = detect_chain(s.get("venue", ""))
         if not chain:
             continue
 
-        sold = s.get("sold", 0) or 0
-        seats = s.get("totalSeats", 0) or 0
-        gross = s.get("gross", 0) or 0
+        raw[chain]["shows"] += 1
+        raw[chain]["sold"] += s.get("sold", 0) or 0
+        raw[chain]["gross"] += s.get("gross", 0) or 0
+        raw[chain]["seats"] += s.get("totalSeats", 0) or 0
 
-        sold, gross = apply_discount(chain, sold, gross, seats)
+    # Now apply discount ONCE per chain like JS
+    final = {}
 
-        data[chain]["shows"] += 1
-        data[chain]["sold"] += sold
-        data[chain]["seats"] += seats
-        data[chain]["gross"] += gross
+    for chain, v in raw.items():
+        sold, gross = apply_discount(chain, v["sold"], v["gross"], v["seats"])
+        occ = round((sold / v["seats"]) * 100, 2) if v["seats"] else 0
 
-    for c, v in data.items():
-        v["occ"] = round((v["sold"] / v["seats"]) * 100, 2) if v["seats"] else 0
+        final[chain] = {
+            "shows": v["shows"],
+            "sold": sold,
+            "seats": v["seats"],
+            "gross": round(gross, 2),  # store float but clean format (JS keeps decimals internally)
+            "occ": occ
+        }
 
-    return data
+    return final
+
+
 
 def save(path, structure):
+    """Save output JSON with timestamp in IST"""
     ist = pytz.timezone("Asia/Kolkata")
     structure["lastUpdated"] = datetime.now(ist).strftime("%I:%M %p, %d %B %Y")
+
     with open(path, "w", encoding="utf-8") as f:
         json.dump(structure, f, indent=2, ensure_ascii=False)
+
     log(f"💾 Saved → {path}")
+
+
 
 def process_month(year, month, is_current):
     filename = f"{year}-{month:02d}.json"
@@ -104,36 +151,37 @@ def process_month(year, month, is_current):
     while current.date() <= end_date:
         d = current.strftime("%Y-%m-%d")
 
-        # RULES:
+        # Skip logic
         if d in month_json and not is_current:
-            log(f"⏭ Past month: exists {d}")
             current += timedelta(days=1)
             continue
 
         if d in month_json and current.date() < today and is_current:
-            log(f"⏭ Skip older existing {d}")
             current += timedelta(days=1)
             continue
 
         log(f"🔎 Fetching {d}")
         data = fetch(d)
+
         if data:
             for movie, shows in data.items():
-                if not isinstance(shows, list): 
+                if not isinstance(shows, list):
                     continue
 
                 stats = process_day(shows)
+
                 if stats:
                     month_json.setdefault(movie, {})[d] = {
                         c: [v["shows"], v["sold"], v["seats"], v["gross"], v["occ"]]
                         for c, v in stats.items()
                     }
-
                     log(f"✔ Updated {movie} → {d}")
 
         current += timedelta(days=1)
 
     save(path, month_json)
+
+
 
 def main():
     today = datetime.now()
@@ -149,8 +197,9 @@ def main():
             m = 1
             y += 1
 
-    # Also generate **future 3-day file**
     process_month(today.year, today.month, is_current=True)
+
+
 
 if __name__ == "__main__":
     main()
