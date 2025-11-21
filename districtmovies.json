@@ -95,7 +95,7 @@
     "runtime": 134,
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Amazing-Spider-Man-2-min-64fb91d0-c51c-11f0-9676-cf6a4124e1d4.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nashik, Surat, Visakhapatnam",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat, Visakhapatnam",
     "cityCount": 18
   },
   {
@@ -198,17 +198,6 @@
     "cityCount": 11
   },
   {
-    "movie": "Friends",
-    "language": "Tamil",
-    "movieCode": "kVzE4v058U",
-    "id": 209363,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Friend%20(1)-7ca7ecb0-c2e3-11f0-b914-fdb3423e457a.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Gandhinagar, Hyderabad, Kochi, Mangaluru, Mumbai",
-    "cityCount": 10
-  },
-  {
     "movie": "Laalo - Krishna Sada Sahaayate",
     "language": "Gujarati",
     "movieCode": "1je04xQI1c",
@@ -218,6 +207,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Laalo---Krishna-Sada-Sahaayate-07dc4e00-88b2-11f0-9e61-8f49e57b29fa.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Mumbai, Nashik, Surat",
     "cityCount": 10
+  },
+  {
+    "movie": "Friends",
+    "language": "Tamil",
+    "movieCode": "kVzE4v058U",
+    "id": 209363,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Friend%20(1)-7ca7ecb0-c2e3-11f0-b914-fdb3423e457a.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Gandhinagar, Hyderabad, Kochi, Mangaluru",
+    "cityCount": 9
   },
   {
     "movie": "Kantara: A Legend Chapter-1",
@@ -374,17 +374,6 @@
     "cityCount": 6
   },
   {
-    "movie": "Predator: Badlands",
-    "language": "English",
-    "movieCode": "meerj~UL7l",
-    "id": 185586,
-    "runtime": 134,
-    "rating": "UA 16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Predator-Badlands_Poster-93cf4f50-a43e-11f0-8253-9383decdaf8d.jpg",
-    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Kochi, Mumbai",
-    "cityCount": 6
-  },
-  {
     "movie": "The Girlfriend",
     "language": "Telugu",
     "movieCode": "beaeKAFVUE",
@@ -484,6 +473,17 @@
     "cityCount": 5
   },
   {
+    "movie": "Predator: Badlands",
+    "language": "English",
+    "movieCode": "meerj~UL7l",
+    "id": 185586,
+    "runtime": 134,
+    "rating": "UA 16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Welcome-to-a-world-of-hurt.-Experience-Predator--Badlands%2C-in-%23PVRINOX%20(1)-f51145b0-66e1-11f0-860b-0123967fd46d.jpg",
+    "city": "Bangalore, Bengaluru, Delhi/NCR, Kochi, Mumbai",
+    "cityCount": 5
+  },
+  {
     "movie": "Raju Weds Rambai",
     "language": "Telugu",
     "movieCode": "LN4w2U6wkIS",
@@ -495,15 +495,15 @@
     "cityCount": 5
   },
   {
-    "movie": "Sisu",
-    "language": "English",
-    "movieCode": "lov3YFrO7",
-    "id": 161346,
+    "movie": "Predator: Badlands",
+    "language": "Hindi",
+    "movieCode": "jhhTF1dNET",
+    "id": 185586,
     "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(8)-97d09940-c5dd-11f0-9778-0f9c8e713c32.jpg",
-    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Kochi, Mumbai",
-    "cityCount": 5
+    "rating": "UA 16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Preadator-Badland1-poster-60918130-bf9b-11f0-aad2-f9d7b8ab573e.jpg",
+    "city": "Amritsar, Chandigarh, Hyderabad, Jaipur",
+    "cityCount": 4
   },
   {
     "movie": "Shiva",
@@ -514,6 +514,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Shiva_Poster-c9ff5cb0-bf9a-11f0-81d4-51be6cdc4380.jpg",
     "city": "Bangalore, Bengaluru, Hyderabad, Visakhapatnam",
+    "cityCount": 4
+  },
+  {
+    "movie": "Sisu",
+    "language": "English",
+    "movieCode": "lov3YFrO7",
+    "id": 161346,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(8)-97d09940-c5dd-11f0-9778-0f9c8e713c32.jpg",
+    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Mumbai",
     "cityCount": 4
   },
   {
@@ -547,28 +558,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Kaantha--20b6ce20-bf9c-11f0-81d4-51be6cdc4380.jpg",
     "city": "Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 3
-  },
-  {
-    "movie": "Om Shanti Om",
-    "language": "Hindi",
-    "movieCode": "73iBhC0qd",
-    "id": 157817,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Om-Shanti-Om_Poster-9f665110-b325-11f0-8de9-2b765267bad0.jpg",
-    "city": "Delhi/NCR, Jaipur, Mumbai",
-    "cityCount": 3
-  },
-  {
-    "movie": "Predator: Badlands",
-    "language": "Hindi",
-    "movieCode": "jhhTF1dNET",
-    "id": 185586,
-    "runtime": 134,
-    "rating": "UA 16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Preadator-Badland1-poster-60918130-bf9b-11f0-aad2-f9d7b8ab573e.jpg",
-    "city": "Amritsar, Chandigarh, Jaipur",
     "cityCount": 3
   },
   {
@@ -846,17 +835,6 @@
     "cityCount": 4
   },
   {
-    "movie": "Uut Bhavanancha Udrek",
-    "language": "Marathi",
-    "movieCode": "PdThtG4gKj",
-    "id": 208874,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster-201ab630-c473-11f0-8325-07dc5fc625ce.jpg",
-    "city": "Mumbai, Nagpur, Nashik, Surat",
-    "cityCount": 4
-  },
-  {
     "movie": "Afterburn",
     "language": "English",
     "movieCode": "oanZUSnz4d",
@@ -1121,6 +1099,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Om Shanti Om",
+    "language": "Hindi",
+    "movieCode": "73iBhC0qd",
+    "id": 157817,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Om-Shanti-Om_Poster-9f665110-b325-11f0-8de9-2b765267bad0.jpg",
+    "city": "Delhi/NCR, Jaipur, Mumbai",
+    "cityCount": 3
+  },
+  {
     "movie": "One Battle After Another",
     "language": "English",
     "movieCode": "vnocvabxnj",
@@ -1217,6 +1206,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Tu-Meri-Poori-Kahani_Poster%20(1)-c14fab70-9951-11f0-bedd-eb6142f1442e.jpg",
     "city": "Ahmedabad, Gandhinagar, Surat",
+    "cityCount": 3
+  },
+  {
+    "movie": "Uut Bhavanancha Udrek",
+    "language": "Marathi",
+    "movieCode": "PdThtG4gKj",
+    "id": 208874,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster-201ab630-c473-11f0-8325-07dc5fc625ce.jpg",
+    "city": "Mumbai, Nashik, Surat",
     "cityCount": 3
   },
   {
@@ -1737,6 +1737,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Full Stop",
+    "language": "Gujarati",
+    "movieCode": "Ri6fjnANHhd",
+    "id": 210127,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Full-Stop--4019d9d0-c698-11f0-97cd-93fab1f86713.jpg",
+    "city": "Ahmedabad, Gandhinagar",
+    "cityCount": 2
+  },
+  {
     "movie": "Gabbys Dollhouse : The Movie",
     "language": "English",
     "movieCode": "d4FbVvGrXl",
@@ -2251,17 +2262,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Madras-Matinee--cb5a3060-4067-11f0-b426-a50671acfc24.jpg",
     "city": "Bangalore, Bengaluru",
-    "cityCount": 2
-  },
-  {
-    "movie": "Maharani",
-    "language": "Gujarati",
-    "movieCode": "Xl~talm_4l",
-    "id": 198043,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Maharani-c27600a0-5732-11f0-b03a-f9f12779d145.jpg",
-    "city": "Delhi/NCR, Kota",
     "cityCount": 2
   },
   {
@@ -3054,17 +3054,6 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Vash-Level-2-6a3375b0-824f-11f0-9f3a-a179e177c069.jpg",
     "city": "Ahmedabad, Gandhinagar",
-    "cityCount": 2
-  },
-  {
-    "movie": "Veedokkade",
-    "language": "Telugu",
-    "movieCode": "XYMRWcBUva",
-    "id": 209830,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(9)-cda3ce40-c469-11f0-8ea2-2354ff7ae8b9.jpg",
-    "city": "Hyderabad, Visakhapatnam",
     "cityCount": 2
   },
   {
@@ -6203,6 +6192,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Maharani",
+    "language": "Gujarati",
+    "movieCode": "Xl~talm_4l",
+    "id": 198043,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Maharani-c27600a0-5732-11f0-b03a-f9f12779d145.jpg",
+    "city": "Delhi/NCR",
+    "cityCount": 1
+  },
+  {
     "movie": "Mahavatar Narsimha",
     "language": "Hindi",
     "movieCode": "2_WBDghspW",
@@ -8664,6 +8664,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Vattakhanal_Poster-bbc49270-b3e5-11f0-9675-910908bf7b33.jpg",
     "city": "Chennai",
+    "cityCount": 1
+  },
+  {
+    "movie": "Veedokkade",
+    "language": "Telugu",
+    "movieCode": "XYMRWcBUva",
+    "id": 209830,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(9)-cda3ce40-c469-11f0-8ea2-2354ff7ae8b9.jpg",
+    "city": "Hyderabad",
     "cityCount": 1
   },
   {
