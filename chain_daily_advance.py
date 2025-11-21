@@ -23,19 +23,14 @@ def log(msg):
     print("➡", msg)
 
 
-# ⚠ Match JS: Only count a theatre as a chain if FIRST word matches.
 def detect_chain(venue):
-    venue = venue.upper().strip()
-    tokens = venue.replace("-", " ").replace(".", " ").split()
-
-    if not tokens:
+    if not venue:
         return None
-
-    first = tokens[0]
-
-    return first if first in TARGET_CHAINS else None
-
-
+    venue = venue.upper()
+    for chain in TARGET_CHAINS:
+        if chain in venue:
+            return chain
+    return None
 
 # 🧮 Match JS Discount Math EXACTLY
 def apply_discount(chain, sold, gross, seats):
