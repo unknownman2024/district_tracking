@@ -3375,10 +3375,10 @@
       "time": "06:40 PM",
       "audi": "AUDI 7 CARVE",
       "totalSeats": 105,
-      "available": 105,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 87,
+      "sold": 18,
+      "gross": 1821.84,
+      "occupancy": "17.14%"
     }
   ],
   "12A Railway Colony [2D | Telugu]": [
@@ -9448,10 +9448,10 @@
       "time": "10:45 AM",
       "audi": "AUDI 3",
       "totalSeats": 156,
-      "available": 146,
-      "sold": 10,
-      "gross": 2000,
-      "occupancy": "6.41%"
+      "available": 144,
+      "sold": 12,
+      "gross": 2400,
+      "occupancy": "7.69%"
     },
     {
       "city": "Hyderabad",
@@ -9487,10 +9487,10 @@
       "time": "03:20 PM",
       "audi": "AUDI 6 FRAME",
       "totalSeats": 116,
-      "available": 108,
-      "sold": 8,
-      "gross": 475.44,
-      "occupancy": "6.90%"
+      "available": 97,
+      "sold": 19,
+      "gross": 1956.48,
+      "occupancy": "16.38%"
     }
   ],
   "Itlu Me Yedava [2D | Telugu]": [
@@ -38101,10 +38101,10 @@
       "time": "10:50 AM",
       "audi": "SCREEN1",
       "totalSeats": 354,
-      "available": 332,
-      "sold": 22,
-      "gross": 2024,
-      "occupancy": "6.21%"
+      "available": 330,
+      "sold": 24,
+      "gross": 2322,
+      "occupancy": "6.78%"
     },
     {
       "city": "Gurgaon",
@@ -38569,10 +38569,10 @@
       "time": "10:05 PM",
       "audi": "SCREEN 1",
       "totalSeats": 192,
-      "available": 192,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 185,
+      "sold": 7,
+      "gross": 1043,
+      "occupancy": "3.65%"
     },
     {
       "city": "Mumbai",
@@ -38595,10 +38595,10 @@
       "time": "10:55 PM",
       "audi": "Screen 3",
       "totalSeats": 228,
-      "available": 228,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 225,
+      "sold": 3,
+      "gross": 447,
+      "occupancy": "1.32%"
     },
     {
       "city": "Mumbai",
@@ -43275,10 +43275,10 @@
       "time": "08:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 167,
-      "available": 167,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 166,
+      "sold": 1,
+      "gross": 149,
+      "occupancy": "0.60%"
     },
     {
       "city": "Indore",
@@ -43418,10 +43418,10 @@
       "time": "03:10 PM",
       "audi": "AUDI 2 WEAVE",
       "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 75,
+      "sold": 26,
+      "gross": 2898.9599999999996,
+      "occupancy": "25.74%"
     },
     {
       "city": "Chennai",
@@ -43431,7 +43431,85 @@
       "time": "10:10 PM",
       "audi": "AUDI 2 WEAVE",
       "totalSeats": 101,
-      "available": 101,
+      "available": 75,
+      "sold": 26,
+      "gross": 2898.9599999999996,
+      "occupancy": "25.74%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "10:40 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "07:25 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "04:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "01:00 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "10:00 AM",
+      "audi": "SCREEN-1",
+      "totalSeats": 125,
+      "available": 125,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -52522,10 +52600,10 @@
       "time": "12:35 PM",
       "audi": "SCREEN 1",
       "totalSeats": 361,
-      "available": 356,
-      "sold": 5,
-      "gross": 460,
-      "occupancy": "1.39%"
+      "available": 354,
+      "sold": 7,
+      "gross": 644,
+      "occupancy": "1.94%"
     },
     {
       "city": "New Delhi",
@@ -52626,10 +52704,10 @@
       "time": "05:00 PM",
       "audi": "SCREEN 2",
       "totalSeats": 154,
-      "available": 148,
-      "sold": 6,
-      "gross": 1794,
-      "occupancy": "3.90%"
+      "available": 144,
+      "sold": 10,
+      "gross": 2990,
+      "occupancy": "6.49%"
     },
     {
       "city": "Pathankot",
@@ -53211,10 +53289,10 @@
       "time": "10:30 AM",
       "audi": "SCREEN 1",
       "totalSeats": 235,
-      "available": 229,
-      "sold": 6,
-      "gross": 594,
-      "occupancy": "2.55%"
+      "available": 227,
+      "sold": 8,
+      "gross": 792,
+      "occupancy": "3.40%"
     },
     {
       "city": "Bhopal",
@@ -57007,10 +57085,10 @@
       "time": "01:10 PM",
       "audi": "AUDI 4",
       "totalSeats": 252,
-      "available": 238,
-      "sold": 14,
-      "gross": 1470,
-      "occupancy": "5.56%"
+      "available": 236,
+      "sold": 16,
+      "gross": 1680,
+      "occupancy": "6.35%"
     },
     {
       "city": "Kolkata",
@@ -67537,10 +67615,10 @@
       "time": "06:10 PM",
       "audi": "AUDI 6 FRAME",
       "totalSeats": 116,
-      "available": 108,
-      "sold": 8,
-      "gross": 475.44,
-      "occupancy": "6.90%"
+      "available": 84,
+      "sold": 32,
+      "gross": 3706.7999999999997,
+      "occupancy": "27.59%"
     },
     {
       "city": "Gurgaon",
@@ -67616,6 +67694,149 @@
       "audi": "GOLD 01",
       "totalSeats": 36,
       "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "03:05 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "06:15 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "09:25 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "10:25 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 166,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "09:45 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 166,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "12:55 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 166,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "07:15 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 166,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 166,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "09:20 AM",
+      "audi": "SCREEN-2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "07:05 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "10:00 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 125,
+      "available": 125,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -71816,10 +72037,10 @@
       "time": "10:40 PM",
       "audi": "SCREEN 3",
       "totalSeats": 184,
-      "available": 184,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 180,
+      "sold": 4,
+      "gross": 368,
+      "occupancy": "2.17%"
     },
     {
       "city": "Jamnagar",
@@ -73871,6 +74092,19 @@
       "audi": "SCREEN 1",
       "totalSeats": 208,
       "available": 208,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "07:20 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 170,
+      "available": 170,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -91435,10 +91669,10 @@
       "time": "10:15 AM",
       "audi": "AUDI 03",
       "totalSeats": 163,
-      "available": 163,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 162,
+      "sold": 1,
+      "gross": 92,
+      "occupancy": "0.61%"
     },
     {
       "city": "Chandigarh",
@@ -94256,10 +94490,10 @@
       "time": "09:45 PM",
       "audi": "SCREEN 2",
       "totalSeats": 233,
-      "available": 233,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 232,
+      "sold": 1,
+      "gross": 92,
+      "occupancy": "0.43%"
     },
     {
       "city": "New Delhi",
@@ -95374,10 +95608,10 @@
       "time": "12:45 PM",
       "audi": "AUDI 3 SPOT",
       "totalSeats": 113,
-      "available": 105,
-      "sold": 8,
-      "gross": 475.44,
-      "occupancy": "7.08%"
+      "available": 97,
+      "sold": 16,
+      "gross": 1552.56,
+      "occupancy": "14.16%"
     },
     {
       "city": "Chennai",
@@ -95387,10 +95621,10 @@
       "time": "06:40 PM",
       "audi": "AUDI 3 SPOT",
       "totalSeats": 113,
-      "available": 105,
-      "sold": 8,
-      "gross": 475.44,
-      "occupancy": "7.08%"
+      "available": 84,
+      "sold": 29,
+      "gross": 3302.8799999999997,
+      "occupancy": "25.66%"
     },
     {
       "city": "Gurgaon",
@@ -95414,6 +95648,136 @@
       "audi": "GOLD 01",
       "totalSeats": 36,
       "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "10:45 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "01:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "04:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "07:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "12:05 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "10:10 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "SCREEN-4",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "10:00 AM",
+      "audi": "SCREEN-4",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "07:00 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 125,
+      "available": 125,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -96486,6 +96850,19 @@
       "audi": "SCREEN 1",
       "totalSeats": 208,
       "available": 208,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "10:00 AM",
+      "audi": "SCREEN 5",
+      "totalSeats": 170,
+      "available": 170,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -101505,10 +101882,10 @@
       "time": "07:20 PM",
       "audi": "AUDI 4 STREAK",
       "totalSeats": 297,
-      "available": 297,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 249,
+      "sold": 48,
+      "gross": 5586.150000000001,
+      "occupancy": "16.16%"
     },
     {
       "city": "Chennai",
@@ -101518,10 +101895,10 @@
       "time": "10:30 PM",
       "audi": "AUDI 4 STREAK",
       "totalSeats": 297,
-      "available": 297,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 249,
+      "sold": 48,
+      "gross": 5586.150000000001,
+      "occupancy": "16.16%"
     },
     {
       "city": "Chennai",
@@ -101531,10 +101908,10 @@
       "time": "01:15 PM",
       "audi": "AUDI 4 STREAK",
       "totalSeats": 297,
-      "available": 297,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 263,
+      "sold": 34,
+      "gross": 3012.95,
+      "occupancy": "11.45%"
     },
     {
       "city": "Chennai",
@@ -101544,7 +101921,20 @@
       "time": "04:10 PM",
       "audi": "AUDI 4 STREAK",
       "totalSeats": 297,
-      "available": 297,
+      "available": 252,
+      "sold": 45,
+      "gross": 5034.75,
+      "occupancy": "15.15%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 178,
+      "available": 178,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -108372,10 +108762,10 @@
       "time": "07:10 PM",
       "audi": "AUDI 1 BLUSH",
       "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 87,
+      "sold": 14,
+      "gross": 1169.44,
+      "occupancy": "13.86%"
     }
   ],
   "The Girlfriend [2D | Telugu]": [
@@ -109310,10 +109700,10 @@
       "time": "04:05 PM",
       "audi": "AUDI 05",
       "totalSeats": 184,
-      "available": 177,
-      "sold": 7,
-      "gross": 1400,
-      "occupancy": "3.80%"
+      "available": 179,
+      "sold": 5,
+      "gross": 1000,
+      "occupancy": "2.72%"
     },
     {
       "city": "Hyderabad",
@@ -110506,7 +110896,20 @@
       "time": "10:00 PM",
       "audi": "AUDI 7 CARVE",
       "totalSeats": 105,
-      "available": 105,
+      "available": 81,
+      "sold": 24,
+      "gross": 2629.68,
+      "occupancy": "22.86%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "04:10 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 125,
+      "available": 125,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -112399,6 +112802,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "01:00 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 125,
+      "available": 125,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Radheyaa [2D | Kannada]": [
@@ -113725,10 +114141,10 @@
       "time": "12:15 PM",
       "audi": "AUDI 7 CARVE",
       "totalSeats": 105,
-      "available": 105,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 87,
+      "sold": 18,
+      "gross": 1747.8600000000001,
+      "occupancy": "17.14%"
     }
   ],
   "The Amazing Spider-Man [2D | English]": [
@@ -114312,10 +114728,10 @@
       "time": "04:00 PM",
       "audi": "AUDI 1 BLUSH",
       "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 87,
+      "sold": 14,
+      "gross": 1272.94,
+      "occupancy": "13.86%"
     }
   ],
   "The Task [2D | Kannada]": [
@@ -117687,7 +118103,20 @@
       "time": "09:55 PM",
       "audi": "AUDI 8 KITES",
       "totalSeats": 103,
-      "available": 103,
+      "available": 81,
+      "sold": 22,
+      "gross": 3310.3,
+      "occupancy": "21.36%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "06:50 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 178,
+      "available": 178,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -120848,10 +121277,10 @@
       "time": "10:25 PM",
       "audi": "AUDI 5 PLUSH",
       "totalSeats": 301,
-      "available": 301,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 249,
+      "sold": 52,
+      "gross": 5328.360000000001,
+      "occupancy": "17.28%"
     },
     {
       "city": "Chennai",
@@ -120861,7 +121290,33 @@
       "time": "04:10 PM",
       "audi": "AUDI 5 PLUSH",
       "totalSeats": 301,
-      "available": 301,
+      "available": 249,
+      "sold": 52,
+      "gross": 5328.360000000001,
+      "occupancy": "17.28%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "05:35 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "12:30 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 176,
+      "available": 176,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -122436,10 +122891,10 @@
       "time": "12:55 PM",
       "audi": "AUDI 12",
       "totalSeats": 32,
-      "available": 32,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 30,
+      "sold": 2,
+      "gross": 1100,
+      "occupancy": "6.25%"
     },
     {
       "city": "Trivandrum",
@@ -124035,10 +124490,36 @@
       "time": "03:40 PM",
       "audi": "AUDI 7 CARVE",
       "totalSeats": 105,
-      "available": 97,
-      "sold": 8,
-      "gross": 475.44,
-      "occupancy": "7.62%"
+      "available": 87,
+      "sold": 18,
+      "gross": 2500.34,
+      "occupancy": "17.14%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "10:20 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "10:40 AM",
+      "audi": "SCREEN-3",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Kaantha [2D | Tamil]": [
@@ -125610,10 +126091,10 @@
       "time": "06:45 PM",
       "audi": "AUDI 5 PLUSH",
       "totalSeats": 301,
-      "available": 301,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 242,
+      "sold": 59,
+      "gross": 5521.71,
+      "occupancy": "19.60%"
     },
     {
       "city": "Chennai",
@@ -125623,7 +126104,20 @@
       "time": "12:30 PM",
       "audi": "AUDI 5 PLUSH",
       "totalSeats": 301,
-      "available": 301,
+      "available": 263,
+      "sold": 38,
+      "gross": 2950.4700000000003,
+      "occupancy": "12.62%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 176,
+      "available": 176,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -125924,10 +126418,10 @@
       "time": "12:55 PM",
       "audi": "AUDI 1 BLUSH",
       "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 93,
+      "sold": 8,
+      "gross": 434.8,
+      "occupancy": "7.92%"
     }
   ],
   "Raja Veetu Kannukutty [2D | Tamil]": [
@@ -126649,10 +127143,10 @@
       "time": "11:30 AM",
       "audi": "AUDI 2 WEAVE",
       "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 87,
+      "sold": 14,
+      "gross": 1164.24,
+      "occupancy": "13.86%"
     }
   ],
   "Aan Paavam Pollathathu [2D | Tamil]": [
@@ -127444,10 +127938,10 @@
       "time": "12:20 PM",
       "audi": "AUDI 6 FRAME",
       "totalSeats": 116,
-      "available": 108,
-      "sold": 8,
-      "gross": 434.8,
-      "occupancy": "6.90%"
+      "available": 97,
+      "sold": 19,
+      "gross": 1781.6399999999999,
+      "occupancy": "16.38%"
     }
   ],
   "Aaromaley [2D | Tamil]": [
@@ -127745,10 +128239,10 @@
       "time": "03:45 PM",
       "audi": "AUDI 3 SPOT",
       "totalSeats": 113,
-      "available": 105,
-      "sold": 8,
-      "gross": 434.8,
-      "occupancy": "7.08%"
+      "available": 97,
+      "sold": 16,
+      "gross": 1414.32,
+      "occupancy": "14.16%"
     }
   ],
   "Wicked: For Good [3D | English]": [
@@ -128592,10 +129086,10 @@
       "time": "02:55 PM",
       "audi": "AUDI 02",
       "totalSeats": 107,
-      "available": 100,
-      "sold": 7,
-      "gross": 1120,
-      "occupancy": "6.54%"
+      "available": 99,
+      "sold": 8,
+      "gross": 1280,
+      "occupancy": "7.48%"
     },
     {
       "city": "Chennai",
@@ -130659,10 +131153,10 @@
       "time": "06:25 PM",
       "audi": "AUDI 8 KITES",
       "totalSeats": 103,
-      "available": 103,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 95,
+      "sold": 8,
+      "gross": 773.92,
+      "occupancy": "7.77%"
     },
     {
       "city": "Chennai",
@@ -130672,7 +131166,46 @@
       "time": "12:30 PM",
       "audi": "AUDI 8 KITES",
       "totalSeats": 103,
-      "available": 103,
+      "available": 87,
+      "sold": 16,
+      "gross": 2175.36,
+      "occupancy": "15.53%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "09:05 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "07:40 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 176,
+      "available": 176,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "02:40 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 176,
+      "available": 176,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -132491,10 +133024,10 @@
       "time": "06:35 PM",
       "audi": "AUDI 2 WEAVE",
       "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 81,
+      "sold": 20,
+      "gross": 2091.12,
+      "occupancy": "19.80%"
     }
   ],
   "Kaantha [2D | Telugu]": [
@@ -133860,10 +134393,10 @@
       "time": "03:40 PM",
       "audi": "SCREEN 2",
       "totalSeats": 242,
-      "available": 242,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 240,
+      "sold": 2,
+      "gross": 184,
+      "occupancy": "0.83%"
     },
     {
       "city": "Mumbai",
@@ -134900,10 +135433,10 @@
       "time": "10:00 PM",
       "audi": "Screen 3",
       "totalSeats": 230,
-      "available": 230,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 228,
+      "sold": 2,
+      "gross": 358,
+      "occupancy": "0.87%"
     },
     {
       "city": "Pune",
@@ -135615,7 +136148,33 @@
       "time": "09:50 PM",
       "audi": "AUDI 3 SPOT",
       "totalSeats": 113,
-      "available": 113,
+      "available": 97,
+      "sold": 16,
+      "gross": 1615.3600000000001,
+      "occupancy": "14.16%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "01:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 181,
+      "available": 181,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "PVR Aura Park Square, Whitefield, Bengaluru",
+      "chain": "PVR",
+      "time": "01:35 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 178,
+      "available": 178,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -139237,6 +139796,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 170,
+      "available": 170,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Sharthopor [2D | Bengali]": [
@@ -141058,7 +141630,7 @@
     }
   ],
   "date": "2025-11-25",
-  "lastUpdated": "04:10 AM, 23 November 2025",
+  "lastUpdated": "05:08 AM, 23 November 2025",
   "Gondhal [2D | Marathi]": [
     {
       "city": "Mumbai",
@@ -144153,10 +144725,10 @@
       "time": "09:30 PM",
       "audi": "AUDI 6 FRAME",
       "totalSeats": 116,
-      "available": 116,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 84,
+      "sold": 32,
+      "gross": 3706.7999999999997,
+      "occupancy": "27.59%"
     },
     {
       "city": "Gurgaon",
@@ -144180,6 +144752,19 @@
       "audi": "GOLD 01",
       "totalSeats": 36,
       "available": 36,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "10:10 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 170,
+      "available": 170,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -144701,10 +145286,10 @@
       "time": "10:00 PM",
       "audi": "AUDI 1 BLUSH",
       "totalSeats": 101,
-      "available": 93,
-      "sold": 8,
-      "gross": 475.44,
-      "occupancy": "7.92%"
+      "available": 81,
+      "sold": 20,
+      "gross": 2091.12,
+      "occupancy": "19.80%"
     }
   ],
   "The Amazing Spider-Man 2 [2D | English]": [
@@ -145120,6 +145705,19 @@
       "audi": "INSIGNIA 9",
       "totalSeats": 42,
       "available": 42,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "chain": "PVR",
+      "time": "04:25 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 170,
+      "available": 170,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -148031,10 +148629,10 @@
       "time": "03:40 PM",
       "audi": "AUDI 8 KITES",
       "totalSeats": 103,
-      "available": 103,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 87,
+      "sold": 16,
+      "gross": 2175.36,
+      "occupancy": "15.53%"
     }
   ],
   "Predator: Badlands [3D | Tamil]": [
@@ -149608,10 +150206,10 @@
       "time": "04:35 PM",
       "audi": "AUDI 07 4DX",
       "totalSeats": 100,
-      "available": 100,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 98,
+      "sold": 2,
+      "gross": 458,
+      "occupancy": "2.00%"
     },
     {
       "city": "Bengaluru",
