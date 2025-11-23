@@ -77,6 +77,17 @@
     "cityCount": 19
   },
   {
+    "movie": "The Amazing Spider-Man",
+    "language": "English",
+    "movieCode": "WHs0Ui2dvT",
+    "id": 208550,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Amazing-Spider-Man-poster-min-93152cc0-c51c-11f0-b76f-a958281f3625.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nashik, Surat, Visakhapatnam",
+    "cityCount": 19
+  },
+  {
     "movie": "The Amazing Spider-Man 2",
     "language": "English",
     "movieCode": "mtc8xMZtoX",
@@ -86,17 +97,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Amazing-Spider-Man-2-min-64fb91d0-c51c-11f0-9676-cf6a4124e1d4.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nashik, Surat, Visakhapatnam",
     "cityCount": 19
-  },
-  {
-    "movie": "The Amazing Spider-Man",
-    "language": "English",
-    "movieCode": "WHs0Ui2dvT",
-    "id": 208550,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Amazing-Spider-Man-poster-min-93152cc0-c51c-11f0-b76f-a958281f3625.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat, Visakhapatnam",
-    "cityCount": 18
   },
   {
     "movie": "Vilaayath Budha",
@@ -132,6 +132,17 @@
     "cityCount": 15
   },
   {
+    "movie": "Sisu: Road to Revenge",
+    "language": "English",
+    "movieCode": "oQNaMCaKpP",
+    "id": 199420,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sisu--Road-to-Revenge-159d0f20-a432-11f0-8e0c-51e530df5bbe.jpg",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Goa, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Surat, Visakhapatnam",
+    "cityCount": 14
+  },
+  {
     "movie": "Thamma",
     "language": "Hindi",
     "movieCode": "rlCtJVEk3",
@@ -151,17 +162,6 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Asia-cup_Poster-61bddf30-9549-11f0-af85-4315c5ab9c31.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Kochi, Kolkata, Kota, Mumbai, Patna, Surat",
-    "cityCount": 13
-  },
-  {
-    "movie": "Sisu: Road to Revenge",
-    "language": "English",
-    "movieCode": "oQNaMCaKpP",
-    "id": 199420,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sisu--Road-to-Revenge-159d0f20-a432-11f0-8e0c-51e530df5bbe.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Goa, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
     "cityCount": 13
   },
   {
@@ -198,17 +198,6 @@
     "cityCount": 11
   },
   {
-    "movie": "Sisu: Road to Revenge",
-    "language": "Hindi",
-    "movieCode": "8rdQycFZRBj",
-    "id": 199420,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sisu--Road-to-Revenge-1da33280-a432-11f0-9ae8-59eaf2ec9173.jpg",
-    "city": "Ahmedabad, Amritsar, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
-    "cityCount": 11
-  },
-  {
     "movie": "Laalo - Krishna Sada Sahaayate",
     "language": "Gujarati",
     "movieCode": "1je04xQI1c",
@@ -217,6 +206,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Laalo---Krishna-Sada-Sahaayate-07dc4e00-88b2-11f0-9e61-8f49e57b29fa.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Mumbai, Nashik, Surat",
+    "cityCount": 10
+  },
+  {
+    "movie": "Sisu: Road to Revenge",
+    "language": "Hindi",
+    "movieCode": "8rdQycFZRBj",
+    "id": 199420,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sisu--Road-to-Revenge-1da33280-a432-11f0-9ae8-59eaf2ec9173.jpg",
+    "city": "Ahmedabad, Amritsar, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kota, Nagpur, Patna",
     "cityCount": 10
   },
   {
@@ -501,7 +501,7 @@
     "id": 185586,
     "runtime": 134,
     "rating": "UA 16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Predator-Badlands_Poster-93cf4f50-a43e-11f0-8253-9383decdaf8d.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Poster%20Predator--Badlands-f423ad40-21c8-11f0-a22b-459bceb33eba.jpg",
     "city": "Bangalore, Bengaluru, Delhi/NCR, Kochi, Mumbai",
     "cityCount": 5
   },
@@ -4724,7 +4724,7 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
     "city": "Hyderabad, Mumbai",
     "cityCount": 2
   },
@@ -8871,7 +8871,7 @@
     "id": 166235,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/wicked3-c1011d60-fb3c-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/wicked6-d7c55ca0-fb3c-11ef-943b-b3723efa3f38.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
