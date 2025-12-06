@@ -173,14 +173,23 @@ async function main() {
       if (occ >= 50 && occ < 98) summary[movieKey].fastfilling++;
       if (occ >= 98) summary[movieKey].housefull++;
 
-      if (!summary[movieKey].cityDetails[s.city]) {
-        summary[movieKey].cityDetails[s.city] = {
-          shows: 0, gross: 0, sold: 0, totalSeats: 0,
-          fastfilling: 0, housefull: 0
+      const cityStateKey = `${s.city} | ${s.state}`;
+
+      if (!summary[movieKey].cityDetails[cityStateKey]) {
+        summary[movieKey].cityDetails[cityStateKey] = {
+          city: s.city,
+          state: s.state,
+          shows: 0,
+          gross: 0,
+          sold: 0,
+          totalSeats: 0,
+          fastfilling: 0,
+          housefull: 0
         };
       }
 
-      const c = summary[movieKey].cityDetails[s.city];
+      const c = summary[movieKey].cityDetails[cityStateKey];
+
       c.shows++;
       c.gross += gross;
       c.sold += sold;
@@ -205,8 +214,9 @@ async function main() {
       occupancy: vals.totalSeats
         ? +(vals.sold / vals.totalSeats * 100).toFixed(2)
         : 0,
-      details: Object.entries(vals.cityDetails).map(([city, d]) => ({
-        city,
+      details: Object.values(vals.cityDetails).map(d => ({
+        city: d.city,
+        state: d.state,
         shows: d.shows,
         gross: +d.gross.toFixed(2),
         sold: d.sold,
