@@ -249,6 +249,10 @@ async function main() {
   }
 
   // ------------ WRAP & SAVE FILES ------------
+  // ---- REMOVE OLD META INSIDE DETAILED TO FORCE FRESH lastUpdated ----
+  delete detailedOutput.date;
+  delete detailedOutput.lastUpdated;
+
   const formattedLastUpdated = nowIST.format("hh:mm A, DD MMMM YYYY");
 
   const outputSummary = {
@@ -256,6 +260,7 @@ async function main() {
     lastUpdated: formattedLastUpdated,
     ...finalSummaryData
   };
+
 
   const outputDetailed = {
     date: DATE,
@@ -266,7 +271,6 @@ async function main() {
   fs.writeFileSync(summaryPath, JSON.stringify(outputSummary, null, 2), "utf-8");
   fs.writeFileSync(detailedPath, JSON.stringify(outputDetailed, null, 2), "utf-8");
   fs.writeFileSync(monthlyLogPath, JSON.stringify(monthlyLogs, null, 2), "utf-8");
-
   console.log(`✅ Saved summary: ${summaryPath}`);
   console.log(`✅ Saved detailed: ${detailedPath}`);
   console.log(`✅ Updated logs: ${monthlyLogPath}`);
