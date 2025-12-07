@@ -56,7 +56,8 @@ def rebuild_summary_from_detailed(detailed):
                     "shows": 0,
                     "gross": 0,
                     "sold": 0,
-                    "totalSeats": 0,
+                    "totalSeats": 0,     # internal use only
+                    "venues": set(),    # ✅ for unique venue count
                     "fastfilling": 0,
                     "housefull": 0
                 }
@@ -66,6 +67,8 @@ def rebuild_summary_from_detailed(detailed):
             c["gross"] += gross
             c["sold"] += sold
             c["totalSeats"] += total
+            c["venues"].add(venue)   # ✅ city-wise venues
+
             if 50 <= occ < 98:
                 c["fastfilling"] += 1
             if occ >= 98:
@@ -78,7 +81,7 @@ def rebuild_summary_from_detailed(detailed):
             "shows": v["shows"],
             "gross": round(v["gross"], 2),
             "sold": v["sold"],
-            "totalSeats": v["totalSeats"],
+            "totalSeats": v["totalSeats"],   # overall still kept
             "venues": len(v["venues"]),
             "cities": len(v["cities"]),
             "fastfilling": v["fastfilling"],
@@ -91,7 +94,7 @@ def rebuild_summary_from_detailed(detailed):
                     "shows": d["shows"],
                     "gross": round(d["gross"], 2),
                     "sold": d["sold"],
-                    "totalSeats": d["totalSeats"],
+                    "venues": len(d["venues"]),   # ✅ ADDED
                     "fastfilling": d["fastfilling"],
                     "housefull": d["housefull"],
                     "occupancy": round((d["sold"] / d["totalSeats"]) * 100, 2) if d["totalSeats"] else 0
