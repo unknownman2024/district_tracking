@@ -3,7 +3,7 @@ name: Update Chain Daily Data
 on:
   schedule:
     # Runs every 40 minutes
-    - cron: "*/40 * * * *"
+    - cron: "40 * * * *"   # Runs at the 30th minute of every hour (UTC)
   workflow_dispatch:
 
 jobs:
