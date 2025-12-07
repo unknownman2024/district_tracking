@@ -214,19 +214,30 @@ async function main() {
       occupancy: vals.totalSeats
         ? +(vals.sold / vals.totalSeats * 100).toFixed(2)
         : 0,
-      details: Object.values(vals.cityDetails).map(d => ({
-        city: d.city,
-        state: d.state,
-        shows: d.shows,
-        gross: +d.gross.toFixed(2),
-        sold: d.sold,
-        totalSeats: d.totalSeats,
-        fastfilling: d.fastfilling,
-        housefull: d.housefull,
-        occupancy: d.totalSeats
-          ? +(d.sold / d.totalSeats * 100).toFixed(2)
-          : 0
-      }))
+      details: Object.values(vals.cityDetails).map(d => {
+        const cityVenues = new Set();
+
+        // collect venues for this city
+        detailedOutput[movie].forEach(s => {
+          if (s.city === d.city && s.state === d.state) {
+            cityVenues.add(s.venue);
+          }
+        });
+
+        return {
+          city: d.city,
+          state: d.state,
+          shows: d.shows,
+          gross: +d.gross.toFixed(2),
+          sold: d.sold,
+          venues: cityVenues.size,   // ✅ NEW FIELD
+          fastfilling: d.fastfilling,
+          housefull: d.housefull,
+          occupancy: d.totalSeats
+            ? +(d.sold / d.totalSeats * 100).toFixed(2)
+            : 0
+        };
+      })
     };
   }
 
