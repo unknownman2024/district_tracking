@@ -39,14 +39,14 @@
   },
   "Naangal [2D | Tamil]": {
     "shows": 9,
-    "gross": 52234.09,
-    "sold": 343,
+    "gross": 52436.92999999999,
+    "sold": 344,
     "totalSeats": 1368,
     "venues": 8,
     "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 25.07,
+    "occupancy": 25.15,
     "details": [
       {
         "city": "Bengaluru",
@@ -89,12 +89,12 @@
         "state": "Tamil Nadu",
         "venues": 1,
         "shows": 1,
-        "gross": 7156.959999999999,
-        "sold": 49,
+        "gross": 7359.799999999999,
+        "sold": 50,
         "totalSeats": 156,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 31.41
+        "occupancy": 32.05
       },
       {
         "city": "Kochi",
@@ -126,12 +126,12 @@
         "chain": "PVR",
         "venues": 8,
         "shows": 9,
-        "gross": 52234.09,
-        "sold": 343,
+        "gross": 52436.92999999999,
+        "sold": 344,
         "totalSeats": 1368,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 25.07
+        "occupancy": 25.15
       }
     ]
   },
@@ -373,15 +373,15 @@
     ]
   },
   "Raju Weds Rambai [2D | Telugu]": {
-    "shows": 4,
+    "shows": 8,
     "gross": 35200,
     "sold": 352,
-    "totalSeats": 1620,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 2808,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 21.73,
+    "occupancy": 12.54,
     "details": [
       {
         "city": "Palakonda",
@@ -394,32 +394,44 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 21.73
+      },
+      {
+        "city": "Nagaram",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1188,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
       {
         "chain": "TicketNew",
-        "venues": 1,
-        "shows": 4,
+        "venues": 2,
+        "shows": 8,
         "gross": 35200,
         "sold": 352,
-        "totalSeats": 1620,
+        "totalSeats": 2808,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 21.73
+        "occupancy": 12.54
       }
     ]
   },
   "The Devil [2D | Kannada]": {
-    "shows": 58,
-    "gross": 6507500,
-    "sold": 30267,
-    "totalSeats": 37775,
+    "shows": 59,
+    "gross": 6601050,
+    "sold": 30726,
+    "totalSeats": 38319,
     "venues": 11,
     "cities": 4,
-    "fastfilling": 53,
+    "fastfilling": 54,
     "housefull": 0,
-    "occupancy": 80.12,
+    "occupancy": 80.18,
     "details": [
       {
         "city": "Davanagere",
@@ -437,13 +449,13 @@
         "city": "Bengaluru",
         "state": "Karnataka",
         "venues": 8,
-        "shows": 45,
-        "gross": 5757900,
-        "sold": 26547,
-        "totalSeats": 31060,
-        "fastfilling": 45,
+        "shows": 46,
+        "gross": 5851450,
+        "sold": 27006,
+        "totalSeats": 31604,
+        "fastfilling": 46,
         "housefull": 0,
-        "occupancy": 85.47
+        "occupancy": 85.45
       },
       {
         "city": "Hosur",
@@ -485,13 +497,13 @@
       {
         "chain": "TicketNew",
         "venues": 7,
-        "shows": 39,
-        "gross": 4308400,
-        "sold": 19938,
-        "totalSeats": 24207,
-        "fastfilling": 39,
+        "shows": 40,
+        "gross": 4400300,
+        "sold": 20390,
+        "totalSeats": 24751,
+        "fastfilling": 40,
         "housefull": 0,
-        "occupancy": 82.36
+        "occupancy": 82.38
       },
       {
         "chain": "Veerabhadreshwara Theatre",
@@ -519,15 +531,53 @@
         "chain": "Narthaki & Sapna Theatre, Gandhi Nagar",
         "venues": 1,
         "shows": 5,
-        "gross": 985000,
-        "sold": 4615,
+        "gross": 986650,
+        "sold": 4622,
         "totalSeats": 5230,
         "fastfilling": 5,
         "housefull": 0,
-        "occupancy": 88.24
+        "occupancy": 88.37
+      }
+    ]
+  },
+  "Tere Ishk Mein [2D | Hindi]": {
+    "shows": 1,
+    "gross": 1800,
+    "sold": 6,
+    "totalSeats": 183,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 3.28,
+    "details": [
+      {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1800,
+        "sold": 6,
+        "totalSeats": 183,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.28
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1800,
+        "sold": 6,
+        "totalSeats": 183,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.28
       }
     ]
   },
   "date": "2025-12-12",
-  "lastUpdated": "03:00 PM, 07 December 2025"
+  "lastUpdated": "06:25 PM, 07 December 2025"
 }
