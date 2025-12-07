@@ -1,9 +1,11 @@
 import json, os, requests, pytz
-from datetime import datetime, timedelta
+from datetime import datetime
 from collections import defaultdict
 
+# ---------------- CONFIG ----------------
 BASE_URL = "https://district24.pages.dev/Daily%20Boxoffice"
 OUTPUT_DIR = "Chain Daily Breakdown"
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 CHAIN_LIST = [
@@ -12,6 +14,7 @@ CHAIN_LIST = [
     "MovieMax", "Mythri Cinemas", "Maxus Cinemas"
 ]
 
+# ---------------- UTILS ----------------
 def log(msg):
     print(f"➡ {msg}")
 
@@ -29,15 +32,21 @@ def fetch(date):
         if r.status_code == 200:
             log(f"📥 Loaded {date}")
             return r.json()
-    except:
-        pass
+    except Exception as e:
+        log(f"❌ Fetch failed for {date}: {e}")
+
     log(f"⚠ No data for {date}")
     return None
 
-
+# ---------------- PROCESSING ----------------
 def process(shows):
-    # Track unique venues, total seats only for occupancy calc
-    chain_data = defaultdict(lambda: {"sold": 0, "gross": 0, "seats": 0, "shows": 0, "venues": set()})
+    chain_data = defaultdict(lambda: {
+        "sold": 0,
+        "gross": 0,
+        "seats": 0,
+        "shows": 0,
+        "venues": set()
+    })
 
     for s in shows:
         venue = s.get("venue", "").strip()
@@ -51,14 +60,13 @@ def process(shows):
         chain_data[chain]["seats"] += s.get("totalSeats", 0) or 0
         chain_data[chain]["venues"].add(venue)
 
-    # Calculate occupancy with SEATS but output VENUE_COUNT
     for c, v in chain_data.items():
         v["occ"] = round((v["sold"] / v["seats"] * 100), 2) if v["seats"] else 0
-        v["venue_count"] = len(v["venues"])  # final output count
+        v["venue_count"] = len(v["venues"])
 
     return chain_data
 
-
+# ---------------- SAVE ----------------
 def save(filepath, data):
     ist = pytz.timezone("Asia/Kolkata")
     data["lastUpdated"] = datetime.now(ist).strftime("%I:%M %p, %d %B %Y")
@@ -68,12 +76,15 @@ def save(filepath, data):
 
     log(f"💾 Saved → {filepath}")
 
-
+# ---------------- CURRENT MONTH ONLY ----------------
 def process_current_month(year, month):
     fname = f"{year}-{month:02d}.json"
     path = os.path.join(OUTPUT_DIR, fname)
 
-    # Load existing
+    ist = pytz.timezone("Asia/Kolkata")
+    today = datetime.now(ist).date()
+
+    # Load existing file
     if os.path.exists(path):
         log(f"🔁 Updating existing current month → {fname}")
         with open(path, "r", encoding="utf-8") as f:
@@ -82,90 +93,48 @@ def process_current_month(year, month):
         log(f"🆕 Creating new current month file → {fname}")
         month_data = {}
 
-    today = datetime.now().date()
-    start = datetime(year, month, 1)
+    # ✅ Detect last saved date
+    all_dates = set()
+    for movie_days in month_data.values():
+        if isinstance(movie_days, dict):
+            all_dates.update(movie_days.keys())
 
-    cur = start
-    while cur.date() <= today:
-        date = cur.strftime("%Y-%m-%d")
+    if all_dates:
+        last_saved = max(all_dates)
+        start_day = int(last_saved.split("-")[-1]) + 1
+    else:
+        start_day = 1
 
-        # Skip past dates already processed
-        if date in month_data and cur.date() < today:
-            log(f"⏭ Skipping existing {date}")
-            cur += timedelta(days=1)
+    log(f"⏱ Fetching from day {start_day} → {today.day}")
+
+    for d in range(start_day, today.day + 1):
+        date = f"{year}-{month:02d}-{d:02d}"
+
+        daily = fetch(date)
+        if not daily:
             continue
 
-        daily = fetch(date)
-        if daily:
-            for movie, shows in daily.items():
-                if not isinstance(shows, list): continue
+        for movie, shows in daily.items():
+            if not isinstance(shows, list):
+                continue
 
-                stats = process(shows)
-                if stats:
-                    month_data.setdefault(movie, {})[date] = {
-                        c: [v["shows"], v["sold"], v["venue_count"], v["gross"], v["occ"]]
-                        for c, v in stats.items()
-                    }
-                    log(f"✔ Updated {movie} → {date}")
+            stats = process(shows)
+            if stats:
+                month_data.setdefault(movie, {})[date] = {
+                    c: [v["shows"], v["sold"], v["venue_count"], v["gross"], v["occ"]]
+                    for c, v in stats.items()
+                }
 
-        cur += timedelta(days=1)
+        log(f"✔ Updated → {date}")
 
     save(path, month_data)
 
-
-def process_old_month(year, month):
-    fname = f"{year}-{month:02d}.json"
-    path = os.path.join(OUTPUT_DIR, fname)
-
-    if os.path.exists(path):
-        log(f"⏭ Skipping past month (already exists): {fname}")
-        return
-
-    log(f"📅 Creating past month file → {fname}")
-    month_data = {}
-    
-    start = datetime(year, month, 1)
-    end = (start.replace(day=28) + timedelta(days=5)).replace(day=1) - timedelta(days=1)
-
-    cur = start
-    while cur.date() <= end.date():
-        date = cur.strftime("%Y-%m-%d")
-        daily = fetch(date)
-
-        if daily:
-            for movie, shows in daily.items():
-                if not isinstance(shows, list): continue
-
-                stats = process(shows)
-                if stats:
-                    month_data.setdefault(movie, {})[date] = {
-                        c: [v["shows"], v["sold"], v["venue_count"], v["gross"], v["occ"]]
-                        for c, v in stats.items()
-                    }
-
-        cur += timedelta(days=1)
-
-    save(path, month_data)
-
-
+# ---------------- MAIN ----------------
 def main():
-    today = datetime.now()
-    start_month = 9
-    start_year = today.year if today.month >= 9 else today.year - 1
+    ist = pytz.timezone("Asia/Kolkata")
+    now = datetime.now(ist)
 
-    y, m = start_year, start_month
-
-    while (y < today.year) or (m <= today.month):
-        if y == today.year and m == today.month:
-            process_current_month(y, m)
-        else:
-            process_old_month(y, m)
-
-        m += 1
-        if m > 12:
-            m = 1
-            y += 1
-
+    process_current_month(now.year, now.month)
 
 if __name__ == "__main__":
     main()
