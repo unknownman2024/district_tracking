@@ -1,21 +1,54 @@
 {
   "date": "2025-12-09",
-  "lastUpdated": "04:10 AM, 09 December 2025",
+  "lastUpdated": "05:06 AM, 09 December 2025",
   "Dhurandhar | Hindi": {
-    "shows": 7,
-    "gross": 38190,
-    "sold": 139,
-    "totalSeats": 1361,
-    "venues": 5,
-    "cities": 3,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 10.21,
+    "shows": 37,
+    "gross": 186988,
+    "sold": 796,
+    "totalSeats": 7422,
+    "venues": 32,
+    "cities": 17,
+    "fastfilling": 1,
+    "housefull": 1,
+    "occupancy": 10.72,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
+        "shows": 12,
+        "gross": 35088,
+        "sold": 149,
+        "venues": 7,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 5.67
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 22880,
+        "sold": 79,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.19
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
         "shows": 4,
+        "gross": 50630,
+        "sold": 198,
+        "venues": 4,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 26.02
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
         "gross": 0,
         "sold": 0,
         "venues": 2,
@@ -24,26 +57,206 @@
         "occupancy": 0
       },
       {
-        "city": "Bengaluru",
-        "state": "Karnataka",
-        "shows": 2,
-        "gross": 17320,
-        "sold": 48,
-        "venues": 2,
-        "fastfilling": 0,
-        "housefull": 0,
-        "occupancy": 8.84
-      },
-      {
-        "city": "Pune",
-        "state": "Maharashtra",
+        "city": "Bhilai",
+        "state": "Chhattisgarh",
         "shows": 1,
-        "gross": 20870,
-        "sold": 91,
+        "gross": 1600,
+        "sold": 10,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 39.57
+        "occupancy": 7.3
+      },
+      {
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "shows": 3,
+        "gross": 4240,
+        "sold": 23,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.34
+      },
+      {
+        "city": "Jamshedpur",
+        "state": "Jharkhand",
+        "shows": 1,
+        "gross": 1260,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.49
+      },
+      {
+        "city": "Jodhpur",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 1600,
+        "sold": 8,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.48
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 1,
+        "gross": 6850,
+        "sold": 31,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.52
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 11680,
+        "sold": 42,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 16.34
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 6120,
+        "sold": 47,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 21.56
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 8120,
+        "sold": 38,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 20.32
+      },
+      {
+        "city": "Alwar",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Cuttack",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 1890,
+        "sold": 9,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.64
+      },
+      {
+        "city": "Dharamsala",
+        "state": "Himachal Pradesh",
+        "shows": 1,
+        "gross": 34270,
+        "sold": 149,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
+      },
+      {
+        "city": "Silchar",
+        "state": "Assam",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 760,
+        "sold": 7,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.54
+      }
+    ]
+  },
+  "Tere Ishk Mein | Hindi": {
+    "shows": 3,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 163,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Laalo - Krishna Sada Sahaayate | Gujarati": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 125,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Halol",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   }
