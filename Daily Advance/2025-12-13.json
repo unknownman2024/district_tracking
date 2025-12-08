@@ -1,14 +1,14 @@
 {
   "Akira [1998] [2D | Japanese]": {
     "shows": 2,
-    "gross": 64675,
-    "sold": 325,
+    "gross": 64874,
+    "sold": 326,
     "totalSeats": 328,
     "venues": 2,
     "cities": 2,
     "fastfilling": 0,
     "housefull": 2,
-    "occupancy": 99.09,
+    "occupancy": 99.39,
     "details": [
       {
         "city": "Hyderabad",
@@ -27,12 +27,12 @@
         "state": "Maharashtra",
         "venues": 1,
         "shows": 1,
-        "gross": 33631,
-        "sold": 169,
+        "gross": 33830,
+        "sold": 170,
         "totalSeats": 172,
         "fastfilling": 0,
         "housefull": 1,
-        "occupancy": 98.26
+        "occupancy": 98.84
       }
     ],
     "Chain_details": [
@@ -40,12 +40,12 @@
         "chain": "PVR",
         "venues": 2,
         "shows": 2,
-        "gross": 64675,
-        "sold": 325,
+        "gross": 64874,
+        "sold": 326,
         "totalSeats": 328,
         "fastfilling": 0,
         "housefull": 2,
-        "occupancy": 99.09
+        "occupancy": 99.39
       }
     ]
   },
@@ -286,39 +286,39 @@
     ]
   },
   "The Devil [2D | Kannada]": {
-    "shows": 67,
-    "gross": 6907850,
-    "sold": 32139,
-    "totalSeats": 40043,
-    "venues": 13,
-    "cities": 5,
-    "fastfilling": 58,
+    "shows": 79,
+    "gross": 7002750,
+    "sold": 32761,
+    "totalSeats": 45491,
+    "venues": 16,
+    "cities": 6,
+    "fastfilling": 62,
     "housefull": 0,
-    "occupancy": 80.26,
+    "occupancy": 72.02,
     "details": [
       {
         "city": "Bengaluru",
         "state": "Karnataka",
         "venues": 9,
         "shows": 50,
-        "gross": 6132850,
-        "sold": 28256,
+        "gross": 6133350,
+        "sold": 28258,
         "totalSeats": 32680,
         "fastfilling": 50,
         "housefull": 0,
-        "occupancy": 86.46
+        "occupancy": 86.47
       },
       {
         "city": "Hosur",
         "state": "Tamil Nadu",
-        "venues": 1,
-        "shows": 5,
-        "gross": -40200,
-        "sold": -201,
-        "totalSeats": 1615,
+        "venues": 2,
+        "shows": 9,
+        "gross": -34600,
+        "sold": -173,
+        "totalSeats": 3759,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": -12.45
+        "occupancy": -4.6
       },
       {
         "city": "Vijayapura",
@@ -355,19 +355,31 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 22.22
+      },
+      {
+        "city": "Mahalingpur",
+        "state": "Karnataka",
+        "venues": 2,
+        "shows": 8,
+        "gross": 88800,
+        "sold": 592,
+        "totalSeats": 3304,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 17.92
       }
     ],
     "Chain_details": [
       {
         "chain": "TicketNew",
-        "venues": 9,
-        "shows": 48,
-        "gross": 4704600,
-        "sold": 21788,
-        "totalSeats": 26475,
-        "fastfilling": 44,
+        "venues": 11,
+        "shows": 56,
+        "gross": 4793900,
+        "sold": 22382,
+        "totalSeats": 29779,
+        "fastfilling": 48,
         "housefull": 0,
-        "occupancy": 82.3
+        "occupancy": 75.16
       },
       {
         "chain": "Veerabhadreshwara Theatre",
@@ -412,6 +424,17 @@
         "fastfilling": 4,
         "housefull": 0,
         "occupancy": 92.97
+      },
+      {
+        "chain": "Sree Manjunatha Talkies",
+        "venues": 1,
+        "shows": 4,
+        "gross": 5600,
+        "sold": 28,
+        "totalSeats": 2144,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.31
       }
     ]
   },
@@ -568,5 +591,5 @@
     ]
   },
   "date": "2025-12-13",
-  "lastUpdated": "12:21 PM, 08 December 2025"
+  "lastUpdated": "03:13 PM, 08 December 2025"
 }
