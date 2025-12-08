@@ -15,7 +15,7 @@ CHAIN_LIST = [
 ]
 
 START_YEAR = 2025
-START_MONTH = 9   # ✅ September 2025
+START_MONTH = 9   # ✅ September 2025 only starting point
 
 # ---------------- UTILS ----------------
 def log(msg):
@@ -79,15 +79,21 @@ def save(filepath, data):
 
     log(f"💾 Saved → {filepath}")
 
-# ---------------- MONTH PROCESSORS ----------------
+# ---------------- MONTH PROCESSOR ----------------
 def process_month(year, month, allow_update):
     fname = f"{year}-{month:02d}.json"
     path = os.path.join(OUTPUT_DIR, fname)
 
     ist = pytz.timezone("Asia/Kolkata")
     today = datetime.now(ist).date()
+    month_start = datetime(year, month, 1).date()
 
-    # ❌ Past month already exists → DO NOT TOUCH
+    # ⛔ HARD BLOCK: Future month kabhi bhi process nahi hoga
+    if month_start > today:
+        log(f"⛔ Blocked future month → {fname}")
+        return
+
+    # 🔒 Past month already exists → LOCKED (no update)
     if os.path.exists(path) and not allow_update:
         log(f"⏭ Skipping locked month → {fname}")
         return
@@ -111,12 +117,12 @@ def process_month(year, month, allow_update):
         last_saved = max(all_dates)
         start_date = datetime.strptime(last_saved, "%Y-%m-%d").date() + timedelta(days=1)
     else:
-        start_date = datetime(year, month, 1).date()
+        start_date = month_start
 
-    # End date logic
+    # End date
     end_date = today if allow_update else (
-        datetime(year, month, 1).replace(day=28) + timedelta(days=5)
-    ).replace(day=1).date() - timedelta(days=1)
+        (month_start.replace(day=28) + timedelta(days=5)).replace(day=1) - timedelta(days=1)
+    )
 
     cur = start_date
     while cur <= end_date:
@@ -141,21 +147,23 @@ def process_month(year, month, allow_update):
 
     save(path, month_data)
 
-# ---------------- MAIN CONTROLLER ----------------
+# ---------------- MAIN CONTROLLER (FULLY SAFE) ----------------
 def main():
     ist = pytz.timezone("Asia/Kolkata")
-    now = datetime.now(ist)
-
-    cur_year = now.year
-    cur_month = now.month
+    today = datetime.now(ist).date()
 
     y, m = START_YEAR, START_MONTH
 
-    while (y < cur_year) or (m <= cur_month):
+    while True:
+        month_start = datetime(y, m, 1).date()
 
-        is_current = (y == cur_year and m == cur_month)
+        # ⛔ HARD STOP: Future month never processed
+        if month_start > today:
+            log(f"🛑 Stop at future month → {y}-{m:02d}")
+            break
 
-        # ✅ Only current month allowed to update repeatedly
+        is_current = (y == today.year and m == today.month)
+
         process_month(y, m, allow_update=is_current)
 
         m += 1
