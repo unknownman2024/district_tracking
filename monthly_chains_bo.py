@@ -1,5 +1,5 @@
 import json, os, requests, pytz
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict
 
 # ---------------- CONFIG ----------------
@@ -13,6 +13,9 @@ CHAIN_LIST = [
     "Miraj Cinemas", "Rajhans Cinemas", "Asian Mukta",
     "MovieMax", "Mythri Cinemas", "Maxus Cinemas"
 ]
+
+START_YEAR = 2025
+START_MONTH = 9   # ✅ September 2025
 
 # ---------------- UTILS ----------------
 def log(msg):
@@ -28,7 +31,7 @@ def detect_chain(venue):
 def fetch(date):
     url = f"{BASE_URL}/{date}_Detailed.json"
     try:
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, timeout=15)
         if r.status_code == 200:
             log(f"📥 Loaded {date}")
             return r.json()
@@ -76,65 +79,89 @@ def save(filepath, data):
 
     log(f"💾 Saved → {filepath}")
 
-# ---------------- CURRENT MONTH ONLY ----------------
-def process_current_month(year, month):
+# ---------------- MONTH PROCESSORS ----------------
+def process_month(year, month, allow_update):
     fname = f"{year}-{month:02d}.json"
     path = os.path.join(OUTPUT_DIR, fname)
 
     ist = pytz.timezone("Asia/Kolkata")
     today = datetime.now(ist).date()
 
-    # Load existing file
+    # ❌ Past month already exists → DO NOT TOUCH
+    if os.path.exists(path) and not allow_update:
+        log(f"⏭ Skipping locked month → {fname}")
+        return
+
+    # Load or Create
     if os.path.exists(path):
-        log(f"🔁 Updating existing current month → {fname}")
+        log(f"🔁 Updating → {fname}")
         with open(path, "r", encoding="utf-8") as f:
             month_data = json.load(f)
     else:
-        log(f"🆕 Creating new current month file → {fname}")
+        log(f"🆕 Creating → {fname}")
         month_data = {}
 
-    # ✅ Detect last saved date
-    all_dates = set()
+    # Detect last saved date
+    all_dates = []
     for movie_days in month_data.values():
         if isinstance(movie_days, dict):
-            all_dates.update(movie_days.keys())
+            all_dates.extend(movie_days.keys())
 
     if all_dates:
         last_saved = max(all_dates)
-        start_day = int(last_saved.split("-")[-1]) + 1
+        start_date = datetime.strptime(last_saved, "%Y-%m-%d").date() + timedelta(days=1)
     else:
-        start_day = 1
+        start_date = datetime(year, month, 1).date()
 
-    log(f"⏱ Fetching from day {start_day} → {today.day}")
+    # End date logic
+    end_date = today if allow_update else (
+        datetime(year, month, 1).replace(day=28) + timedelta(days=5)
+    ).replace(day=1).date() - timedelta(days=1)
 
-    for d in range(start_day, today.day + 1):
-        date = f"{year}-{month:02d}-{d:02d}"
+    cur = start_date
+    while cur <= end_date:
+        date = cur.strftime("%Y-%m-%d")
 
         daily = fetch(date)
-        if not daily:
-            continue
+        if daily:
+            for movie, shows in daily.items():
+                if not isinstance(shows, list):
+                    continue
 
-        for movie, shows in daily.items():
-            if not isinstance(shows, list):
-                continue
+                stats = process(shows)
+                if stats:
+                    month_data.setdefault(movie, {})[date] = {
+                        c: [v["shows"], v["sold"], v["venue_count"], v["gross"], v["occ"]]
+                        for c, v in stats.items()
+                    }
 
-            stats = process(shows)
-            if stats:
-                month_data.setdefault(movie, {})[date] = {
-                    c: [v["shows"], v["sold"], v["venue_count"], v["gross"], v["occ"]]
-                    for c, v in stats.items()
-                }
+            log(f"✔ Updated → {date}")
 
-        log(f"✔ Updated → {date}")
+        cur += timedelta(days=1)
 
     save(path, month_data)
 
-# ---------------- MAIN ----------------
+# ---------------- MAIN CONTROLLER ----------------
 def main():
     ist = pytz.timezone("Asia/Kolkata")
     now = datetime.now(ist)
 
-    process_current_month(now.year, now.month)
+    cur_year = now.year
+    cur_month = now.month
+
+    y, m = START_YEAR, START_MONTH
+
+    while (y < cur_year) or (m <= cur_month):
+
+        is_current = (y == cur_year and m == cur_month)
+
+        # ✅ Only current month allowed to update repeatedly
+        process_month(y, m, allow_update=is_current)
+
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
 
 if __name__ == "__main__":
     main()
