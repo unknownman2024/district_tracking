@@ -15,7 +15,7 @@ CHAIN_LIST = [
 ]
 
 START_YEAR = 2025
-START_MONTH = 9   # ✅ September 2025 only starting point
+START_MONTH = 9   # September 2025
 
 # ---------------- UTILS ----------------
 def log(msg):
@@ -79,7 +79,7 @@ def save(filepath, data):
 
     log(f"💾 Saved → {filepath}")
 
-# ---------------- MONTH PROCESSOR ----------------
+# ---------------- MONTH PROCESSOR (FULL REFRESH MODE) ----------------
 def process_month(year, month, allow_update):
     fname = f"{year}-{month:02d}.json"
     path = os.path.join(OUTPUT_DIR, fname)
@@ -88,43 +88,27 @@ def process_month(year, month, allow_update):
     today = datetime.now(ist).date()
     month_start = datetime(year, month, 1).date()
 
-    # ⛔ HARD BLOCK: Future month kabhi bhi process nahi hoga
+    # ⛔ Future months block
     if month_start > today:
         log(f"⛔ Blocked future month → {fname}")
         return
 
-    # 🔒 Past month already exists → LOCKED (no update)
+    # 🔒 Past month exists → locked (no refetch)
     if os.path.exists(path) and not allow_update:
         log(f"⏭ Skipping locked month → {fname}")
         return
 
-    # Load or Create
-    if os.path.exists(path):
-        log(f"🔁 Updating → {fname}")
-        with open(path, "r", encoding="utf-8") as f:
-            month_data = json.load(f)
+    # ✅ FORCE REFRESH: current month always rebuilt fresh
+    log(f"🔄 Full refresh → {fname}")
+    month_data = {}
+
+    # Determine end date
+    if allow_update:
+        end_date = today
     else:
-        log(f"🆕 Creating → {fname}")
-        month_data = {}
+        end_date = (month_start.replace(day=28) + timedelta(days=5)).replace(day=1) - timedelta(days=1)
 
-    # Detect last saved date
-    all_dates = []
-    for movie_days in month_data.values():
-        if isinstance(movie_days, dict):
-            all_dates.extend(movie_days.keys())
-
-    if all_dates:
-        last_saved = max(all_dates)
-        start_date = datetime.strptime(last_saved, "%Y-%m-%d").date() + timedelta(days=1)
-    else:
-        start_date = month_start
-
-    # End date
-    end_date = today if allow_update else (
-        (month_start.replace(day=28) + timedelta(days=5)).replace(day=1) - timedelta(days=1)
-    )
-
-    cur = start_date
+    cur = month_start
     while cur <= end_date:
         date = cur.strftime("%Y-%m-%d")
 
@@ -135,11 +119,19 @@ def process_month(year, month, allow_update):
                     continue
 
                 stats = process(shows)
-                if stats:
-                    month_data.setdefault(movie, {})[date] = {
-                        c: [v["shows"], v["sold"], v["venue_count"], v["gross"], v["occ"]]
-                        for c, v in stats.items()
-                    }
+                if not stats:
+                    continue
+
+                month_data.setdefault(movie, {})[date] = {
+                    c: [
+                        v["shows"],
+                        v["sold"],
+                        v["venue_count"],
+                        v["gross"],
+                        v["occ"]
+                    ]
+                    for c, v in stats.items()
+                }
 
             log(f"✔ Updated → {date}")
 
@@ -147,7 +139,7 @@ def process_month(year, month, allow_update):
 
     save(path, month_data)
 
-# ---------------- MAIN CONTROLLER (FULLY SAFE) ----------------
+# ---------------- MAIN CONTROLLER ----------------
 def main():
     ist = pytz.timezone("Asia/Kolkata")
     today = datetime.now(ist).date()
@@ -157,7 +149,7 @@ def main():
     while True:
         month_start = datetime(y, m, 1).date()
 
-        # ⛔ HARD STOP: Future month never processed
+        # ⛔ Stop at future month
         if month_start > today:
             log(f"🛑 Stop at future month → {y}-{m:02d}")
             break
