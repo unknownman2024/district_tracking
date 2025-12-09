@@ -2,8 +2,7 @@ name: Update Chain Daily Data
 
 on:
   schedule:
-    # Runs every 40 minutes
-    - cron: "40 * * * *"   # Runs at the 30th minute of every hour (UTC)
+    - cron: "40 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -16,7 +15,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # Needed for proper pull -> rebase -> push sync
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+
+      - name: Pull latest (rebase)
+        run: |
+          git pull --rebase origin main || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,20 +40,13 @@ jobs:
 
       - name: Commit & Push if Changed
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "actions@github.com"
-
           git add -A
 
-          # Check for changes
           if ! git diff --cached --quiet; then
             echo "📌 Changes detected — committing..."
             git commit -m "Auto update Monthly Chains Data | $(TZ='Asia/Kolkata' date '+%d %b %Y, %I:%M %p IST')"
 
-            echo "📥 Pulling latest changes (rebase)..."
-            git pull --rebase origin main || true
-
-            echo "⬆ Pushing..."
+            echo "⬆ Pushing with lease..."
             git push --force-with-lease origin main
           else
             echo "✔ No changes to commit."
