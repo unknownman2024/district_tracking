@@ -75,8 +75,13 @@ print(f"🎬 Found {sum(len(v) for v in movies.values())} movie-date entries.\n"
 def fetch_show_details(args):
     loc, movie_id, date, title = args
     result = []
-    show = safe_post(f"{API_BASE}/get-shows", random_headers(bearer),
-                     {"location": loc, "movieId": movie_id, "showDate": date})
+
+    show = safe_post(
+        f"{API_BASE}/get-shows",
+        random_headers(bearer),
+        {"location": loc, "movieId": movie_id, "showDate": date}
+    )
+
     if not show or "data" not in show or not show["data"]:
         return result
 
@@ -84,18 +89,31 @@ def fetch_show_details(args):
         pid = s["programId"]
         show_time = s["showTime"]
         prices = {p["seatTypeID"]: p["unitPrice"] for p in s["seatPrices"]}
-        seat = safe_post(f"{API_BASE}/get-seat", random_headers(bearer),
-                         {"location": loc, "programId": pid})
+
+        seat = safe_post(
+            f"{API_BASE}/get-seat",
+            random_headers(bearer),
+            {"location": loc, "programId": pid}
+        )
         if not seat or "data" not in seat:
             continue
 
+        data = seat["data"]
+
+        # ====== CRITICAL FIX: SAFE seatTypes handling ======
+        seat_types = data.get("seatTypes") or []
+        if not isinstance(seat_types, list):
+            seat_types = []
+
         total = sold = gross = 0
-        for st in seat["data"]["seatTypes"]:
-            sid = st["seatTypeId"]
-            sold_count = sum(1 for x in st["seatStatus"] if x["seatStatus"] == 0)
-            total += len(st["seatStatus"])
+        for st in seat_types:
+            sid = st.get("seatTypeId")
+            statuses = st.get("seatStatus") or []
+            sold_count = sum(1 for x in statuses if x.get("seatStatus") == 0)
+            total += len(statuses)
             sold += sold_count
             gross += sold_count * prices.get(sid, 0)
+        # ====================================================
 
         result.append({
             "programId": pid,
@@ -105,13 +123,19 @@ def fetch_show_details(args):
             "sold": sold,
             "gross": gross
         })
+
     return (date, title, result)
 
 # Prepare all tasks
-tasks = [(loc, mid, date, movies[date][mid]["title"])
-         for date in movies for mid in movies[date] for loc in movies[date][mid]["locs"]]
+tasks = [
+    (loc, mid, date, movies[date][mid]["title"])
+    for date in movies
+    for mid in movies[date]
+    for loc in movies[date][mid]["locs"]
+]
 
 print(f"🚀 Fetching {len(tasks)} tasks using {MAX_WORKERS} threads...\n")
+
 results = []
 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
     futures = [ex.submit(fetch_show_details, t) for t in tasks]
@@ -133,31 +157,43 @@ def save_json(path, data):
 for date, title, shows in results:
     path = os.path.join(SAVE_DIR, f"{date}.json")
     daily = load_json(path)
+
     daily.setdefault(title, [])
+
     for new_show in shows:
         key = (new_show["programId"], new_show["location"], new_show["showTime"])
-        existing = next((s for s in daily[title]
-                         if (s["programId"], s["location"], s["showTime"]) == key), None)
+        existing = next(
+            (s for s in daily[title]
+             if (s["programId"], s["location"], s["showTime"]) == key),
+            None
+        )
         if existing:
             existing.update(new_show)
         else:
             daily[title].append(new_show)
+
     save_json(path, daily)
 
 # ===== STEP 5: Summary table =====
 for date in sorted({d for d, _, _ in results}):
     path = os.path.join(SAVE_DIR, f"{date}.json")
     data = load_json(path)
+
     print(f"\n------------------ {date} ------------------")
     print(f"{'Movie':45} {'Shows':>5} {'Sold':>6} {'Total':>6} {'Gross':>9} {'Occ%':>7} {'ATP':>7}")
-    print("-"*90)
+    print("-" * 90)
+
     for title, shows in data.items():
         sold = sum(s["sold"] for s in shows)
         total = sum(s["total"] for s in shows)
         gross = sum(s["gross"] for s in shows)
+
         occ = (sold / total * 100) if total else 0
         atp = (gross / sold) if sold else 0
-        print(f"{title[:43]:45} {len(shows):5} {sold:6} {total:6} {gross:9} {occ:6.2f}% {atp:7.2f}")
+
+        print(
+            f"{title[:43]:45} {len(shows):5} {sold:6} {total:6} {gross:9} {occ:6.2f}% {atp:7.2f}"
+        )
 
 print("\n✅ Data saved under:", os.path.abspath(SAVE_DIR))
 print("⏰ Last Updated:", datetime.now().strftime("%I:%M %p, %d %B %Y"))
