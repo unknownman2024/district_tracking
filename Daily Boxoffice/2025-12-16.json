@@ -1,60 +1,439 @@
 {
   "date": "2025-12-16",
-  "lastUpdated": "04:11 AM, 16 December 2025",
+  "lastUpdated": "05:08 AM, 16 December 2025",
   "Dhurandhar | Hindi": {
-    "shows": 15,
-    "gross": 112700,
-    "sold": 347,
-    "totalSeats": 3748,
-    "venues": 12,
-    "cities": 4,
-    "fastfilling": 0,
+    "shows": 67,
+    "gross": 458820,
+    "sold": 1690,
+    "totalSeats": 14522,
+    "venues": 55,
+    "cities": 17,
+    "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 9.26,
+    "occupancy": 11.64,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 6,
-        "gross": 5000,
-        "sold": 20,
-        "venues": 4,
+        "shows": 22,
+        "gross": 62540,
+        "sold": 321,
+        "venues": 16,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 1.36
+        "occupancy": 6.13
       },
       {
         "city": "Pune",
         "state": "Maharashtra",
-        "shows": 4,
-        "gross": 22560,
-        "sold": 91,
-        "venues": 3,
-        "fastfilling": 0,
+        "shows": 7,
+        "gross": 67050,
+        "sold": 274,
+        "venues": 6,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 8.02
+        "occupancy": 16.08
       },
       {
         "city": "Bengaluru",
         "state": "Karnataka",
-        "shows": 4,
-        "gross": 61440,
-        "sold": 172,
-        "venues": 4,
+        "shows": 16,
+        "gross": 176720,
+        "sold": 544,
+        "venues": 12,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 18.18
+        "occupancy": 16.25
       },
       {
         "city": "Navi Mumbai",
         "state": "Maharashtra",
+        "shows": 4,
+        "gross": 52150,
+        "sold": 170,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 25.76
+      },
+      {
+        "city": "Indore",
+        "state": "Madhya Pradesh",
         "shows": 1,
-        "gross": 23700,
-        "sold": 64,
+        "gross": 3200,
+        "sold": 16,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 32.49
+        "occupancy": 10.32
+      },
+      {
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "shows": 2,
+        "gross": 20030,
+        "sold": 95,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 31.88
+      },
+      {
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 3780,
+        "sold": 21,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 13.21
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 2,
+        "gross": 7440,
+        "sold": 32,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.02
+      },
+      {
+        "city": "Kota",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 820,
+        "sold": 5,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.86
+      },
+      {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "shows": 3,
+        "gross": 32880,
+        "sold": 63,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.38
+      },
+      {
+        "city": "Raipur",
+        "state": "Chhattisgarh",
+        "shows": 1,
+        "gross": 720,
+        "sold": 4,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.5
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 1060,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.39
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 18830,
+        "sold": 73,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 40.78
+      },
+      {
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 2450,
+        "sold": 17,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.91
+      },
+      {
+        "city": "Purnia",
+        "state": "Bihar",
+        "shows": 1,
+        "gross": 9150,
+        "sold": 49,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.07
+      },
+      {
+        "city": "Jamkhed",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Loni",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Akhanda 2: Thaandavam | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 397,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Gandhidham",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Kis Kisko Pyaar Karoon 2 | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 29,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Padayappa | Tamil": {
+    "shows": 4,
+    "gross": 4760,
+    "sold": 38,
+    "totalSeats": 534,
+    "venues": 4,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.12,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 4,
+        "gross": 4760,
+        "sold": 38,
+        "venues": 4,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.12
+      }
+    ]
+  },
+  "Akhanda 2: Thaandavam | Telugu": {
+    "shows": 4,
+    "gross": 3786,
+    "sold": 16,
+    "totalSeats": 568,
+    "venues": 4,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.82,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 3786,
+        "sold": 16,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.3
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "The Devil | Kannada": {
+    "shows": 3,
+    "gross": 750,
+    "sold": 3,
+    "totalSeats": 693,
+    "venues": 3,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.43,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 750,
+        "sold": 3,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.43
+      }
+    ]
+  },
+  "Kalamkaval | Malayalam": {
+    "shows": 1,
+    "gross": 447,
+    "sold": 3,
+    "totalSeats": 110,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.73,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 1,
+        "gross": 447,
+        "sold": 3,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.73
+      }
+    ]
+  },
+  "Tere Ishk Mein | Hindi": {
+    "shows": 3,
+    "gross": 4480,
+    "sold": 36,
+    "totalSeats": 508,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.09,
+    "details": [
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2500,
+        "sold": 16,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.3
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 1980,
+        "sold": 20,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.93
+      },
+      {
+        "city": "Kanpur",
+        "state": "Uttar Pradesh",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Zootopia 2 | English": {
+    "shows": 1,
+    "gross": 3300,
+    "sold": 15,
+    "totalSeats": 318,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 4.72,
+    "details": [
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 3300,
+        "sold": 15,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.72
       }
     ]
   }
