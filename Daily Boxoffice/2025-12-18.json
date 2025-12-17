@@ -1,49 +1,659 @@
 {
   "date": "2025-12-18",
-  "lastUpdated": "04:11 AM, 18 December 2025",
+  "lastUpdated": "05:08 AM, 18 December 2025",
   "Dhurandhar | Hindi": {
-    "shows": 13,
-    "gross": 73040,
-    "sold": 231,
-    "totalSeats": 2998,
-    "venues": 9,
-    "cities": 3,
+    "shows": 62,
+    "gross": 349290,
+    "sold": 1220,
+    "totalSeats": 12434,
+    "venues": 51,
+    "cities": 18,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 7.71,
+    "occupancy": 9.81,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 5,
-        "gross": 4600,
-        "sold": 22,
-        "venues": 3,
+        "shows": 18,
+        "gross": 28870,
+        "sold": 140,
+        "venues": 14,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.47
+        "occupancy": 3.43
       },
       {
         "city": "Pune",
         "state": "Maharashtra",
-        "shows": 5,
-        "gross": 14170,
-        "sold": 66,
-        "venues": 3,
+        "shows": 9,
+        "gross": 57370,
+        "sold": 243,
+        "venues": 5,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 4.67
+        "occupancy": 11.43
       },
       {
         "city": "Bengaluru",
         "state": "Karnataka",
+        "shows": 12,
+        "gross": 165730,
+        "sold": 469,
+        "venues": 9,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 20.28
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "shows": 2,
+        "gross": 1880,
+        "sold": 10,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.59
+      },
+      {
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "shows": 2,
+        "gross": 12350,
+        "sold": 61,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 20.47
+      },
+      {
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 2,
+        "gross": 8190,
+        "sold": 39,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.12
+      },
+      {
+        "city": "Kota",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 170,
+        "sold": 1,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.57
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
         "shows": 3,
-        "gross": 54270,
-        "sold": 143,
+        "gross": 27000,
+        "sold": 108,
         "venues": 3,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 20.55
+        "occupancy": 25.47
+      },
+      {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "shows": 3,
+        "gross": 24040,
+        "sold": 41,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.81
+      },
+      {
+        "city": "Raipur",
+        "state": "Chhattisgarh",
+        "shows": 1,
+        "gross": 1980,
+        "sold": 11,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.88
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 1080,
+        "sold": 4,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.59
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 15040,
+        "sold": 65,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 36.31
+      },
+      {
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 3640,
+        "sold": 15,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.45
+      },
+      {
+        "city": "Pali",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 1950,
+        "sold": 13,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 14.44
+      },
+      {
+        "city": "Jamkhed",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Loni",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Akhanda 2: Thaandavam | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 38,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Kis Kisko Pyaar Karoon 2 | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 49,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Padayappa | Tamil": {
+    "shows": 3,
+    "gross": 2500,
+    "sold": 14,
+    "totalSeats": 416,
+    "venues": 3,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 3.37,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 2500,
+        "sold": 14,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.37
+      }
+    ]
+  },
+  "Kalamkaval | Malayalam": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 110,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Tere Ishk Mein | Hindi": {
+    "shows": 3,
+    "gross": 3284,
+    "sold": 28,
+    "totalSeats": 508,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 5.51,
+    "details": [
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 1898,
+        "sold": 14,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.51
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 1386,
+        "sold": 14,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.25
+      },
+      {
+        "city": "Kanpur",
+        "state": "Uttar Pradesh",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Zootopia 2 | English": {
+    "shows": 1,
+    "gross": 900,
+    "sold": 6,
+    "totalSeats": 318,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 1.89,
+    "details": [
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 900,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.89
+      }
+    ]
+  },
+  "Laalo - Krishna Sada Sahaayate | Gujarati": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 129,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Bha. Bha. Ba. | Malayalam": {
+    "shows": 31,
+    "gross": 972951.4,
+    "sold": 6149,
+    "totalSeats": 8661,
+    "venues": 28,
+    "cities": 22,
+    "fastfilling": 21,
+    "housefull": 3,
+    "occupancy": 71,
+    "details": [
+      {
+        "city": "Kochi",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 63680,
+        "sold": 230,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 79.58
+      },
+      {
+        "city": "Valanchery",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 26965,
+        "sold": 236,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 65.92
+      },
+      {
+        "city": "Alappuzha",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 45230,
+        "sold": 246,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 76.64
+      },
+      {
+        "city": "Ashtamichira",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 19110,
+        "sold": 138,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 50.55
+      },
+      {
+        "city": "Chalakudy",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 82350,
+        "sold": 532,
+        "venues": 1,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 80.61
+      },
+      {
+        "city": "Kannur",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 7160,
+        "sold": 34,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.32
+      },
+      {
+        "city": "Kollam",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 21667.4,
+        "sold": 144,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 40.11
+      },
+      {
+        "city": "Kottakkal",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 34397,
+        "sold": 265,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 85.76
+      },
+      {
+        "city": "Kottarakara",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 59400,
+        "sold": 396,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 86.65
+      },
+      {
+        "city": "Kozhikode",
+        "state": "Kerala",
+        "shows": 4,
+        "gross": 206300,
+        "sold": 1147,
+        "venues": 4,
+        "fastfilling": 2,
+        "housefull": 1,
+        "occupancy": 85.53
+      },
+      {
+        "city": "Kunnamkulam",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 34530,
+        "sold": 226,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 54.72
+      },
+      {
+        "city": "Malappuram",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 16278,
+        "sold": 120,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 79.47
+      },
+      {
+        "city": "Manjeri",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 58100,
+        "sold": 438,
+        "venues": 2,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 66.26
+      },
+      {
+        "city": "Mannarkkad",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 19425,
+        "sold": 185,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 72.27
+      },
+      {
+        "city": "Mukkam",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 39795,
+        "sold": 379,
+        "venues": 1,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 87.53
+      },
+      {
+        "city": "Pandikkad",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 13629,
+        "sold": 105,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 41.5
+      },
+      {
+        "city": "Perinthalmanna",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 41900,
+        "sold": 419,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 1,
+        "occupancy": 97.9
+      },
+      {
+        "city": "Ponnani",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 22080,
+        "sold": 172,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 65.9
+      },
+      {
+        "city": "Tirur",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 51550,
+        "sold": 277,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 75.07
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 84615,
+        "sold": 321,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 71.02
+      },
+      {
+        "city": "Edappal",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 210,
+        "sold": 2,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.79
+      },
+      {
+        "city": "Mala",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 24580,
+        "sold": 137,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 73.26
       }
     ]
   }
