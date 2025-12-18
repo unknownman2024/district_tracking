@@ -1,4 +1,4 @@
-name: Test Cineplex BD Click Attempt
+name: Test Cineplex BD Guest Click
 
 on:
   workflow_dispatch:
@@ -17,10 +17,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install Playwright
         run: |
-          pip install requests beautifulsoup4
+          pip install playwright
+          playwright install chromium
 
-      - name: Run click attempt test
+      - name: Run click test
         run: |
           python bangla.py
