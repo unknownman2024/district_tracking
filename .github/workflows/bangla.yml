@@ -19,13 +19,14 @@ jobs:
         uses: actions/checkout@v4
 
       # -------------------------------------------------
-      # Python
+      # Python (with pip cache)
       # -------------------------------------------------
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
+          cache-dependency-path: requirements.txt
 
       # -------------------------------------------------
       # Chrome
@@ -44,13 +45,7 @@ jobs:
       - name: 📦 Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install \
-            selenium \
-            selenium-wire \
-            webdriver-manager \
-            pandas \
-            pytz \
-            aiohttp
+          pip install -r requirements.txt
 
       # -------------------------------------------------
       # Sanity check
