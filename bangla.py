@@ -21,7 +21,7 @@ USER_AGENTS = [
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # =====================================================
-# TOKEN FETCH (NEW LOGIN METHOD)
+# LOGIN (NEW METHOD – BROWSER VERIFIED)
 # =====================================================
 def get_guest_token():
     URL = "https://ticket.cineplexbd.com/login"
@@ -77,13 +77,14 @@ def random_headers(bearer=None):
         h["authorization"] = f"Bearer {bearer}"
     return h
 
-def safe_post(url, headers, payload):
-    try:
-        r = requests.post(url, headers=headers, json=payload, timeout=15)
-        if r.status_code == 200:
-            return r.json()
-    except Exception:
-        pass
+def safe_post(url, headers, payload, retry=1):
+    for _ in range(retry + 1):
+        try:
+            r = requests.post(url, headers=headers, json=payload, timeout=15)
+            if r.status_code == 200:
+                return r.json()
+        except Exception:
+            time.sleep(0.5)
     return None
 
 # =====================================================
@@ -94,7 +95,7 @@ bearer = get_guest_token()
 print(f"✅ Logged in. Token: {bearer[:12]}...\n")
 
 # =====================================================
-# STEP 2: GET MOVIES PER DATE PER LOCATION
+# STEP 2: GET MOVIES PER DATE PER LOCATION (SAFE)
 # =====================================================
 movies = {}
 
@@ -104,23 +105,35 @@ for loc in LOCATIONS:
         random_headers(bearer),
         {"location": loc}
     )
-    if not res or "data" not in res:
+
+    if not res:
+        print(f"⚠️ Location {loc}: no response")
         continue
 
-    for entry in res["data"]:
-        date = entry["showDate"]
-        for mv in entry["availableMovies"]:
-            mid = mv["movie_id"]
-            title = mv["movie_title"]
+    data = res.get("data")
+    if not data or not isinstance(data, list):
+        print(f"⚠️ Location {loc}: empty / invalid data")
+        continue
+
+    for entry in data:
+        date = entry.get("showDate")
+        movie_list = entry.get("availableMovies") or []
+
+        for mv in movie_list:
+            mid = mv.get("movie_id")
+            title = mv.get("movie_title")
+            if not mid or not title:
+                continue
+
             movies.setdefault(date, {}).setdefault(
                 mid, {"title": title, "locs": set()}
             )
             movies[date][mid]["locs"].add(loc)
 
-print(f"🎬 Found {sum(len(v) for v in movies.values())} movie-date entries.\n")
+print(f"\n🎬 Found {sum(len(v) for v in movies.values())} movie-date entries.\n")
 
 # =====================================================
-# STEP 3: THREADED FETCH
+# STEP 3: THREADED SHOW + SEAT FETCH
 # =====================================================
 def fetch_show_details(args):
     loc, movie_id, date, title = args
@@ -132,24 +145,27 @@ def fetch_show_details(args):
         {"location": loc, "movieId": movie_id, "showDate": date}
     )
 
-    if not show or "data" not in show or not show["data"]:
+    if not show or not show.get("data"):
         return None
 
-    for s in show["data"][0]["showTimes"]:
-        pid = s["programId"]
-        show_time = s["showTime"]
-        prices = {p["seatTypeID"]: p["unitPrice"] for p in s["seatPrices"]}
+    for s in show["data"][0].get("showTimes", []):
+        pid = s.get("programId")
+        show_time = s.get("showTime")
+        prices = {p["seatTypeID"]: p["unitPrice"] for p in s.get("seatPrices", [])}
+
+        if not pid:
+            continue
 
         seat = safe_post(
             f"{API_BASE}/get-seat",
             random_headers(bearer),
             {"location": loc, "programId": pid}
         )
-        if not seat or "data" not in seat:
+
+        if not seat or not seat.get("data"):
             continue
 
-        data = seat["data"]
-        seat_types = data.get("seatTypes") or []
+        seat_types = seat["data"].get("seatTypes") or []
         if not isinstance(seat_types, list):
             seat_types = []
 
@@ -171,7 +187,7 @@ def fetch_show_details(args):
             "gross": gross
         })
 
-    return (date, title, result)
+    return (date, title, result) if result else None
 
 tasks = [
     (loc, mid, date, movies[date][mid]["title"])
@@ -225,8 +241,7 @@ for date, title, shows in results:
 # STEP 5: SUMMARY
 # =====================================================
 for date in sorted({d for d, _, _ in results}):
-    path = os.path.join(SAVE_DIR, f"{date}.json")
-    data = load_json(path)
+    data = load_json(os.path.join(SAVE_DIR, f"{date}.json"))
 
     print(f"\n------------------ {date} ------------------")
     print(f"{'Movie':45} {'Shows':>5} {'Sold':>6} {'Total':>6} {'Gross':>9} {'Occ%':>7} {'ATP':>7}")
@@ -241,7 +256,8 @@ for date in sorted({d for d, _, _ in results}):
         atp = (gross / sold) if sold else 0
 
         print(
-            f"{title[:43]:45} {len(shows):5} {sold:6} {total:6} {gross:9} {occ:6.2f}% {atp:7.2f}"
+            f"{title[:43]:45} {len(shows):5} {sold:6} {total:6} "
+            f"{gross:9} {occ:6.2f}% {atp:7.2f}"
         )
 
 print("\n✅ Data saved under:", os.path.abspath(SAVE_DIR))
