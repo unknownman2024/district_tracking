@@ -26,46 +26,59 @@ USER_AGENTS = [
 os.makedirs(SAVE_DIR, exist_ok=True)
 os.makedirs(DEBUG_DIR, exist_ok=True)
 
-# 🔥 ONE DEVICE KEY — MUST STAY SAME
+# 🔥 ONE DEVICE KEY (MANDATORY)
 DEVICE_KEY = ''.join(random.choices('abcdef' + string.digits, k=64))
 
 # =====================================================
-# STEP 1: GET GUEST TOKEN (PLAYWRIGHT)
+# STEP 1: GET GUEST TOKEN (CI-SAFE)
 # =====================================================
 def get_guest_token():
     URL = "https://ticket.cineplexbd.com/login"
-    API_KEYWORD = "/api/v1/guest-login"
+    token_box = {"token": None}
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox", "--disable-dev-shm-usage"]
+        )
+
         context = browser.new_context(
-            extra_http_headers={
-                "device-key": DEVICE_KEY   # 🔥 CRITICAL
-            }
+            extra_http_headers={"device-key": DEVICE_KEY}
         )
         page = context.new_page()
 
-        page.goto(URL, wait_until="networkidle")
+        def on_response(resp):
+            if "/api/v1/guest-login" in resp.url and resp.status == 200:
+                try:
+                    data = resp.json()
+                    token_box["token"] = data.get("data", {}).get("token")
+                except Exception:
+                    pass
+
+        # 🔥 LISTENER FIRST (NO RACE)
+        page.on("response", on_response)
+
+        page.goto(URL, wait_until="domcontentloaded", timeout=60000)
 
         page.wait_for_selector(
             "button.btn.btn-button.guest-login.btn-block",
-            timeout=15000
+            timeout=30000
         )
 
-        with page.expect_response(
-            lambda r: API_KEYWORD in r.url and r.status == 200,
-            timeout=15000
-        ) as response_info:
-            page.click("button.btn.btn-button.guest-login.btn-block")
+        page.click("button.btn.btn-button.guest-login.btn-block")
 
-        data = response_info.value.json()
+        # manual wait (max 15s)
+        for _ in range(150):
+            if token_box["token"]:
+                break
+            time.sleep(0.1)
+
         browser.close()
 
-    token = data.get("data", {}).get("token")
-    if not token:
-        raise RuntimeError("❌ Guest token not found")
+    if not token_box["token"]:
+        raise RuntimeError("❌ Guest token capture failed")
 
-    return token
+    return token_box["token"]
 
 # =====================================================
 # HELPERS
@@ -80,7 +93,7 @@ def headers(bearer):
         "referer": "https://ticket.cineplexbd.com/",
         "user-agent": random.choice(USER_AGENTS),
         "authorization": f"Bearer {bearer}",
-        "device-key": DEVICE_KEY,   # 🔥 FIX
+        "device-key": DEVICE_KEY,
     }
 
 def safe_post(url, hdrs, payload, debug_path=None):
@@ -108,11 +121,7 @@ def safe_post(url, hdrs, payload, debug_path=None):
     except Exception as e:
         if debug_path:
             with open(debug_path, "w", encoding="utf-8") as f:
-                json.dump({
-                    "url": url,
-                    "payload": payload,
-                    "error": str(e)
-                }, f, indent=2)
+                json.dump({"error": str(e)}, f, indent=2)
 
     return None
 
@@ -124,14 +133,12 @@ bearer = get_guest_token()
 print(f"✅ Logged in. Token: {bearer[:12]}...\n")
 
 # =====================================================
-# STEP 3: GET SHOW DATES (WITH RAW SAVE)
+# STEP 3: GET SHOW DATES (DEBUG ENABLED)
 # =====================================================
 movies = {}
 
 for loc in LOCATIONS:
-    debug_file = os.path.join(
-        DEBUG_DIR, f"location_{loc}_get-showdate.json"
-    )
+    debug_file = os.path.join(DEBUG_DIR, f"location_{loc}_get-showdate.json")
 
     res = safe_post(
         f"{API_BASE}/get-showdate",
@@ -159,11 +166,5 @@ for loc in LOCATIONS:
 
 print(f"\n🎬 Found {sum(len(v) for v in movies.values())} movie-date entries.\n")
 
-# =====================================================
-# STEP 4: (REST OF PIPELINE UNCHANGED)
-# =====================================================
-# 👉 At this point your data WILL start coming.
-# 👉 get-shows / get-seat will work normally.
-
-print("✅ Header issue FIXED. Re-run to fetch shows & seats.")
+print("✅ Token + device-key working. Debug files saved.")
 print("⏰ Last Updated:", datetime.now().strftime("%I:%M %p, %d %B %Y"))
