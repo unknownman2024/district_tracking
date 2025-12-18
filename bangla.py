@@ -4,22 +4,26 @@ import sys
 import time
 import threading
 import random
+import atexit
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
-from collections import defaultdict
 
 import cloudscraper
 
-# ---------------- SELENIUM ----------------
+# ---------- SELENIUM ----------
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-# ---------------- CONFIG ----------------
+# ==========================================================
+# CONFIG
+# ==========================================================
 NUM_WORKERS = 3
 MAX_ERRORS = 20
 MAX_RETRY_CLOUD = 2
+DUMP_EVERY = 25
 
 IST = timezone(timedelta(hours=5, minutes=30))
 DATE_CODE = (datetime.now(IST) + timedelta(days=1)).strftime("%Y%m%d")
@@ -27,25 +31,30 @@ DATE_CODE = (datetime.now(IST) + timedelta(days=1)).strftime("%Y%m%d")
 BASE_DIR = DATE_CODE
 os.makedirs(BASE_DIR, exist_ok=True)
 
+DATA_FILE = f"{BASE_DIR}/venues_data.json"
 FETCHED_FILE = f"{BASE_DIR}/fetchedvenues.json"
 FAILED_FILE = f"{BASE_DIR}/failedvenues.json"
-DATA_FILE = f"{BASE_DIR}/venues_data.json"
+SUMMARY_FILE = f"{BASE_DIR}/movie_summary.json"
+DETAILED_FILE = f"{BASE_DIR}/detailed.json"
 
 lock = threading.Lock()
-error_count = 0
 thread_local = threading.local()
+error_count = 0
+processed_since_dump = 0
 
-# ---------------- USER AGENT ----------------
+# ==========================================================
+# USER AGENTS
+# ==========================================================
 USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118 Safari/537.36",
 ]
 
 def random_ip():
     return ".".join(str(random.randint(10, 240)) for _ in range(4))
 
-def get_headers():
+def headers():
     ip = random_ip()
     return {
         "User-Agent": random.choice(USER_AGENTS),
@@ -56,13 +65,14 @@ def get_headers():
         "X-Forwarded-For": ip,
         "X-Real-IP": ip,
         "Client-IP": ip,
-        "Connection": "keep-alive",
     }
 
-# ---------------- LOAD STATE ----------------
+# ==========================================================
+# LOAD / SAVE STATE
+# ==========================================================
 def load_set(path):
     if os.path.exists(path):
-        with open(path, "r") as f:
+        with open(path) as f:
             return set(json.load(f))
     return set()
 
@@ -70,84 +80,96 @@ fetched_venues = load_set(FETCHED_FILE)
 failed_venues = load_set(FAILED_FILE)
 
 if os.path.exists(DATA_FILE):
-    with open(DATA_FILE, "r") as f:
+    with open(DATA_FILE) as f:
         all_data = json.load(f)
 else:
     all_data = {}
 
-# ---------------- SAVE STATE ----------------
 def dump_progress():
     with open(DATA_FILE, "w") as f:
         json.dump(all_data, f)
 
     with open(FETCHED_FILE, "w") as f:
-        json.dump(list(fetched_venues), f)
+        json.dump(sorted(fetched_venues), f)
 
     with open(FAILED_FILE, "w") as f:
-        json.dump(list(failed_venues), f)
+        json.dump(sorted(failed_venues), f)
 
     print(f"💾 Saved | fetched={len(fetched_venues)} failed={len(failed_venues)}")
 
-# ---------------- CLOUDSCRAPER FETCH ----------------
-def fetch_cloudscraper(url):
-    for attempt in range(MAX_RETRY_CLOUD):
+# ==========================================================
+# CLOUDSCRAPER
+# ==========================================================
+def get_scraper():
+    if hasattr(thread_local, "scraper"):
+        return thread_local.scraper
+    s = cloudscraper.create_scraper(
+        browser={"browser": "chrome", "platform": "windows", "desktop": True}
+    )
+    thread_local.scraper = s
+    return s
+
+def fetch_cloud(url):
+    scraper = get_scraper()
+    for i in range(MAX_RETRY_CLOUD):
         try:
-            scraper = cloudscraper.create_scraper(
-                browser={"browser": "chrome", "platform": "windows", "desktop": True}
-            )
-            res = scraper.get(url, headers=get_headers(), timeout=15)
-            text = res.text.strip()
+            r = scraper.get(url, headers=headers(), timeout=15)
+            if not r.text.strip().startswith("{"):
+                raise ValueError("HTML")
+            return r.json()
+        except Exception:
+            if i + 1 == MAX_RETRY_CLOUD:
+                raise
+            time.sleep(2 + random.random())
 
-            if not text.startswith("{"):
-                raise ValueError("HTML / Cloudflare")
-
-            return res.json()
-
-        except Exception as e:
-            if attempt + 1 < MAX_RETRY_CLOUD:
-                time.sleep(2 + random.random())
-            else:
-                raise e
-
-# ---------------- SELENIUM FETCH ----------------
+# ==========================================================
+# SELENIUM
+# ==========================================================
 def get_driver():
     if hasattr(thread_local, "driver"):
         return thread_local.driver
 
-    options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument(f"--user-agent={random.choice(USER_AGENTS)}")
+    o = Options()
+    o.add_argument("--headless=new")
+    o.add_argument("--no-sandbox")
+    o.add_argument("--disable-dev-shm-usage")
+    o.add_argument(f"--user-agent={random.choice(USER_AGENTS)}")
 
-    driver = webdriver.Chrome(
+    d = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
-        options=options,
+        options=o,
     )
+    thread_local.driver = d
+    return d
 
-    thread_local.driver = driver
-    return driver
+def close_driver():
+    if hasattr(thread_local, "driver"):
+        try:
+            thread_local.driver.quit()
+        except:
+            pass
 
-def fetch_selenium(url, timeout=25):
-    driver = get_driver()
-    driver.set_page_load_timeout(timeout)
-    driver.get(url)
+atexit.register(close_driver)
 
-    body = driver.page_source.strip()
+def fetch_selenium(url):
+    d = get_driver()
+    d.set_page_load_timeout(25)
+    d.get(url)
+    body = d.page_source.strip()
     if not body.startswith("{"):
-        raise ValueError("Selenium HTML response")
-
+        raise ValueError("HTML")
     return json.loads(body)
 
-# ---------------- HYBRID FETCH ----------------
 def hybrid_fetch(url):
     try:
-        return fetch_cloudscraper(url)
-    except Exception as e:
-        print("⚠️ Cloudscraper failed, switching to Selenium")
+        return fetch_cloud(url)
+    except Exception:
+        print("⚠️ Cloudflare → Selenium fallback")
         return fetch_selenium(url)
 
-# ---------------- FETCH DATA ----------------
+# ==========================================================
+# FETCH VENUE DATA
+# ==========================================================
 def fetch_data(venue_code):
     url = (
         "https://in.bookmyshow.com/api/v2/mobile/showtimes/byvenue"
@@ -156,100 +178,252 @@ def fetch_data(venue_code):
 
     try:
         data = hybrid_fetch(url)
-    except Exception as e:
-        print(f"❌ Hybrid failed {venue_code}: {e}")
+    except Exception:
         return None
 
-    show_details = data.get("ShowDetails")
-    if not isinstance(show_details, list) or not show_details:
+    sd = data.get("ShowDetails")
+    if not isinstance(sd, list) or not sd:
         return {}
 
-    sd0 = show_details[0]
-    if not isinstance(sd0, dict):
-        return {}
-
-    venue_info = sd0.get("Venues")
-    if not isinstance(venue_info, dict):
-        return {}
-
+    venue_info = sd[0].get("Venues", {})
     venue_name = venue_info.get("VenueName", "")
     venue_add = venue_info.get("VenueAdd", "")
+    chain = venue_info.get("VenueCompName", "Unknown")
 
-    shows_by_movie = defaultdict(list)
+    out = defaultdict(list)
 
-    for event in sd0.get("Event", []):
-        parent_title = event.get("EventTitle", "Unknown")
+    for ev in sd[0].get("Event", []):
+        title = ev.get("EventTitle", "Unknown")
+        for ch in ev.get("ChildEvents", []):
+            dim = ch.get("EventDimension", "").strip()
+            lang = ch.get("EventLanguage", "").strip()
+            suffix = " | ".join(x for x in (dim, lang) if x)
+            movie = f"{title} [{suffix}]" if suffix else title
 
-        for child in event.get("ChildEvents", []):
-            dim = child.get("EventDimension", "").strip()
-            lang = child.get("EventLanguage", "").strip()
-            parts = [x for x in (dim, lang) if x]
-            movie = f"{parent_title} [{' | '.join(parts)}]" if parts else parent_title
-
-            for show in child.get("ShowTimes", []):
-                total = sold = available = gross = 0
-                for cat in show.get("Categories", []):
+            for sh in ch.get("ShowTimes", []):
+                total = sold = avail = gross = 0
+                for cat in sh.get("Categories", []):
                     seats = int(cat.get("MaxSeats", 0))
-                    avail = int(cat.get("SeatsAvail", 0))
+                    free = int(cat.get("SeatsAvail", 0))
                     price = float(cat.get("CurPrice", 0))
                     total += seats
-                    available += avail
-                    sold += seats - avail
-                    gross += (seats - avail) * price
+                    avail += free
+                    sold += seats - free
+                    gross += (seats - free) * price
 
-                shows_by_movie[movie].append({
+                out[movie].append({
                     "venue": venue_name,
                     "address": venue_add,
-                    "movie": movie,
-                    "time": show.get("ShowTime"),
+                    "chain": chain,
+                    "time": sh.get("ShowTime"),
                     "total": total,
+                    "available": avail,
                     "sold": sold,
-                    "available": available,
-                    "occupancy": round((sold / total * 100), 2) if total else 0,
-                    "gross": gross,
+                    "gross": round(gross, 2),
                 })
 
-    return shows_by_movie
+    return out
 
-# ---------------- SAFE FETCH ----------------
-def fetch_venue_safe(venue_code):
-    global error_count
+# ==========================================================
+# SAFE FETCH
+# ==========================================================
+def fetch_venue_safe(v):
+    global error_count, processed_since_dump
 
     with lock:
-        if venue_code in fetched_venues or venue_code in failed_venues:
+        if v in fetched_venues or v in failed_venues:
             return
 
-    data = fetch_data(venue_code)
-
-    if data is None:
-        with lock:
-            failed_venues.add(venue_code)
-            error_count += 1
-            print(f"❌ Failed: {venue_code}")
-
-            if error_count >= MAX_ERRORS:
-                print("🛑 Too many errors — exiting safely")
-                dump_progress()
-                sys.exit(1)
-        return
+    data = fetch_data(v)
 
     with lock:
-        all_data[venue_code] = data
-        fetched_venues.add(venue_code)
-        print(f"✅ {venue_code} fetched ({len(fetched_venues)})")
+        if data is None:
+            failed_venues.add(v)
+            error_count += 1
+            print(f"❌ {v} failed")
+        else:
+            all_data[v] = data
+            fetched_venues.add(v)
+            processed_since_dump += 1
+            print(f"✅ {v} fetched ({len(fetched_venues)})")
 
-# ---------------- MAIN ----------------
+        if processed_since_dump >= DUMP_EVERY:
+            dump_progress()
+            processed_since_dump = 0
+
+        if error_count >= MAX_ERRORS:
+            dump_progress()
+            sys.exit(1)
+
+# ==========================================================
+# AGGREGATION (MATCHES MainApi.py)
+# ==========================================================
+def aggregate(all_data, venues_meta):
+    summary = {}
+    detailed = []
+
+    for vcode, movies in all_data.items():
+        meta = venues_meta.get(vcode, {})
+        city = meta.get("City", "Unknown")
+        state = meta.get("State", "Unknown")
+
+        for movie, shows in movies.items():
+            if movie not in summary:
+                summary[movie] = {
+                    "shows": 0,
+                    "gross": 0,
+                    "sold": 0,
+                    "totalSeats": 0,
+                    "venues": set(),
+                    "cities": set(),
+                    "fastfilling": 0,
+                    "housefull": 0,
+                    "details": {},
+                    "Chain_details": {}
+                }
+
+            m = summary[movie]
+            m["venues"].add(vcode)
+            m["cities"].add(city)
+
+            for s in shows:
+                sold = s["sold"]
+                total = s["total"]
+                gross = s["gross"]
+                occ = (sold / total * 100) if total else 0
+
+                m["shows"] += 1
+                m["gross"] += gross
+                m["sold"] += sold
+                m["totalSeats"] += total
+
+                if occ >= 98:
+                    m["housefull"] += 1
+                elif occ >= 50:
+                    m["fastfilling"] += 1
+
+                ck = f"{city}|{state}"
+                if ck not in m["details"]:
+                    m["details"][ck] = {
+                        "city": city,
+                        "state": state,
+                        "venues": set(),
+                        "shows": 0,
+                        "gross": 0,
+                        "sold": 0,
+                        "totalSeats": 0,
+                        "fastfilling": 0,
+                        "housefull": 0
+                    }
+
+                d = m["details"][ck]
+                d["venues"].add(vcode)
+                d["shows"] += 1
+                d["gross"] += gross
+                d["sold"] += sold
+                d["totalSeats"] += total
+
+                if occ >= 98:
+                    d["housefull"] += 1
+                elif occ >= 50:
+                    d["fastfilling"] += 1
+
+                chain = s.get("chain", "Unknown")
+                if chain not in m["Chain_details"]:
+                    m["Chain_details"][chain] = {
+                        "chain": chain,
+                        "venues": set(),
+                        "shows": 0,
+                        "gross": 0,
+                        "sold": 0,
+                        "totalSeats": 0,
+                        "fastfilling": 0,
+                        "housefull": 0
+                    }
+
+                c = m["Chain_details"][chain]
+                c["venues"].add(vcode)
+                c["shows"] += 1
+                c["gross"] += gross
+                c["sold"] += sold
+                c["totalSeats"] += total
+
+                if occ >= 98:
+                    c["housefull"] += 1
+                elif occ >= 50:
+                    c["fastfilling"] += 1
+
+                detailed.append({
+                    "movie": movie,
+                    "city": city,
+                    "state": state,
+                    "venue": s["venue"],
+                    "address": s["address"],
+                    "time": s["time"],
+                    "totalSeats": total,
+                    "available": s["available"],
+                    "sold": sold,
+                    "gross": gross,
+                    "occupancy": f"{round(occ,2)}%",
+                    "source": "BMS",
+                    "date": DATE_CODE
+                })
+
+    final = {}
+    for movie, m in summary.items():
+        final[movie] = {
+            "shows": m["shows"],
+            "gross": round(m["gross"], 2),
+            "sold": m["sold"],
+            "totalSeats": m["totalSeats"],
+            "venues": len(m["venues"]),
+            "cities": len(m["cities"]),
+            "fastfilling": m["fastfilling"],
+            "housefull": m["housefull"],
+            "occupancy": round((m["sold"] / m["totalSeats"] * 100), 2)
+            if m["totalSeats"] else 0,
+            "details": [
+                {
+                    **d,
+                    "venues": len(d["venues"]),
+                    "occupancy": round((d["sold"] / d["totalSeats"] * 100), 2)
+                    if d["totalSeats"] else 0
+                } for d in m["details"].values()
+            ],
+            "Chain_details": [
+                {
+                    **c,
+                    "venues": len(c["venues"]),
+                    "occupancy": round((c["sold"] / c["totalSeats"] * 100), 2)
+                    if c["totalSeats"] else 0
+                } for c in m["Chain_details"].values()
+            ]
+        }
+
+    return final, detailed
+
+# ==========================================================
+# MAIN
+# ==========================================================
 if __name__ == "__main__":
-    with open("venues.json", "r") as f:
+    with open("venues.json") as f:
         venues = json.load(f)
 
     print(f"🚀 Hybrid start | workers={NUM_WORKERS}")
-    print(f"📌 Resume | fetched={len(fetched_venues)} failed={len(failed_venues)}")
 
-    with ThreadPoolExecutor(max_workers=NUM_WORKERS) as exe:
+    with ThreadPoolExecutor(NUM_WORKERS) as exe:
         futures = [exe.submit(fetch_venue_safe, v) for v in venues.keys()]
         for _ in as_completed(futures):
             pass
 
     dump_progress()
-    print("✅ Done — hybrid complete")
+
+    movie_summary, detailed = aggregate(all_data, venues)
+
+    with open(SUMMARY_FILE, "w") as f:
+        json.dump(movie_summary, f, indent=2)
+
+    with open(DETAILED_FILE, "w") as f:
+        json.dump(detailed, f, indent=2)
+
+    print("✅ DONE — summary & detailed generated")
