@@ -1,4 +1,8 @@
-import requests, json, os, time, random, string
+import requests
+import json
+import os
+import time
+import random
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from playwright.sync_api import sync_playwright
@@ -15,103 +19,78 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
     "Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Mobile Safari/537.36",
-    "Mozilla/5.0 (Windows NT 11.0; Win64; rv:123.0) Gecko/20100101 Firefox/123.0"
 ]
-
-# 🔥 ONE DEVICE KEY FOR WHOLE SESSION (CRITICAL)
-DEVICE_KEY = ''.join(random.choices('abcdef' + string.digits, k=64))
 
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # =====================================================
-# LOGIN — CI SAFE (NO RACE CONDITION)
+# STEP 1: GET GUEST TOKEN (YOUR EXACT WORKING METHOD)
 # =====================================================
 def get_guest_token():
     URL = "https://ticket.cineplexbd.com/login"
-    token_box = {"token": None}
+    API_KEYWORD = "/api/v1/guest-login"
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            extra_http_headers={"device-key": DEVICE_KEY}
-        )
+        context = browser.new_context()
         page = context.new_page()
 
-        def on_response(resp):
-            if (
-                "/api/v1/guest-login" in resp.url
-                and resp.status == 200
-                and token_box["token"] is None
-            ):
-                try:
-                    data = resp.json()
-                    token_box["token"] = data["data"]["token"]
-                except Exception:
-                    pass
-
-        # 🔥 attach BEFORE navigation
-        page.on("response", on_response)
-
         page.goto(URL, wait_until="networkidle")
+
         page.wait_for_selector(
             "button.btn.btn-button.guest-login.btn-block",
             timeout=15000
         )
 
-        page.click("button.btn.btn-button.guest-login.btn-block")
+        with page.expect_response(
+            lambda r: API_KEYWORD in r.url and r.status == 200,
+            timeout=15000
+        ) as response_info:
+            page.click("button.btn.btn-button.guest-login.btn-block")
 
-        # manual wait (max 10s)
-        for _ in range(100):
-            if token_box["token"]:
-                break
-            time.sleep(0.1)
-
+        response = response_info.value
+        data = response.json()
         browser.close()
 
-    if not token_box["token"]:
-        raise RuntimeError("❌ Guest token capture failed")
+    token = data.get("data", {}).get("token")
+    if not token:
+        raise RuntimeError("❌ Guest token not found")
 
-    return token_box["token"]
+    return token
 
 # =====================================================
 # HELPERS
 # =====================================================
-def headers(bearer=None):
-    h = {
+def headers(bearer):
+    return {
         "accept": "application/json, text/plain, */*",
         "accept-language": "en-GB,en;q=0.9",
         "appsource": "web",
-        "cache-control": "no-cache",
         "content-type": "application/json;charset=UTF-8",
-        "device-key": DEVICE_KEY,
         "origin": "https://ticket.cineplexbd.com",
-        "pragma": "no-cache",
         "referer": "https://ticket.cineplexbd.com/",
-        "user-agent": random.choice(USER_AGENTS)
+        "user-agent": random.choice(USER_AGENTS),
+        "authorization": f"Bearer {bearer}",
     }
-    if bearer:
-        h["authorization"] = f"Bearer {bearer}"
-    return h
 
-def safe_post(url, hdrs, payload, retry=1):
-    for _ in range(retry + 1):
-        try:
-            r = requests.post(url, headers=hdrs, json=payload, timeout=15)
-            if r.status_code == 200:
-                return r.json()
-        except Exception:
-            time.sleep(0.4)
+def safe_post(url, hdrs, payload):
+    try:
+        r = requests.post(url, headers=hdrs, json=payload, timeout=15)
+        if r.status_code == 200:
+            return r.json()
+    except Exception:
+        pass
     return None
 
 # =====================================================
-# STEP 1: LOGIN
+# STEP 2: LOGIN
 # =====================================================
 print("🔐 Fetching fresh guest token...")
 bearer = get_guest_token()
 print(f"✅ Logged in. Token: {bearer[:12]}...\n")
 
 # =====================================================
-# STEP 2: GET MOVIES PER DATE PER LOCATION
+# STEP 3: GET MOVIES PER DATE PER LOCATION
 # =====================================================
 movies = {}
 
@@ -123,7 +102,7 @@ for loc in LOCATIONS:
     )
 
     if not res or not isinstance(res.get("data"), list):
-        print(f"⚠️ Location {loc}: no usable data")
+        print(f"⚠️ Location {loc}: no data")
         continue
 
     for entry in res["data"]:
@@ -142,7 +121,7 @@ for loc in LOCATIONS:
 print(f"\n🎬 Found {sum(len(v) for v in movies.values())} movie-date entries.\n")
 
 # =====================================================
-# STEP 3: THREADED SHOW + SEAT FETCH
+# STEP 4: THREADED SHOW + SEAT FETCH
 # =====================================================
 def fetch_show_details(args):
     loc, movie_id, date, title = args
@@ -209,7 +188,7 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
             results.append(f.result())
 
 # =====================================================
-# STEP 4: SAVE DAILY JSONs
+# STEP 5: SAVE DAILY JSONs
 # =====================================================
 def load_json(path):
     if os.path.exists(path):
@@ -238,7 +217,7 @@ for date, title, shows in results:
     save_json(path, daily)
 
 # =====================================================
-# STEP 5: SUMMARY
+# STEP 6: SUMMARY
 # =====================================================
 for date in sorted({d for d, _, _ in results}):
     data = load_json(os.path.join(SAVE_DIR, f"{date}.json"))
