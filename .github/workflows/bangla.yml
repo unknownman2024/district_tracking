@@ -25,3 +25,11 @@ jobs:
       - name: Run script (HEADLESS)
         run: |
           python bangla.py
+
+      # 🔥 CRITICAL STEP — UPLOAD OUTPUT
+      - name: Upload Bangladesh output
+        uses: actions/upload-artifact@v4
+        with:
+          name: cineplex-debug-output
+          path: Bangladesh/
+          if-no-files-found: warn
