@@ -14,6 +14,7 @@ API_BASE = "https://cineplex-ticket-api.cineplexbd.com/api/v1"
 LOCATIONS = range(1, 9)
 MAX_WORKERS = 8
 SAVE_DIR = "Bangladesh"
+DEBUG_DIR = os.path.join(SAVE_DIR, "debug")
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36",
@@ -22,9 +23,10 @@ USER_AGENTS = [
 ]
 
 os.makedirs(SAVE_DIR, exist_ok=True)
+os.makedirs(DEBUG_DIR, exist_ok=True)
 
 # =====================================================
-# STEP 1: GET GUEST TOKEN (YOUR EXACT WORKING METHOD)
+# STEP 1: GET GUEST TOKEN (YOUR WORKING METHOD)
 # =====================================================
 def get_guest_token():
     URL = "https://ticket.cineplexbd.com/login"
@@ -73,13 +75,37 @@ def headers(bearer):
         "authorization": f"Bearer {bearer}",
     }
 
-def safe_post(url, hdrs, payload):
+def safe_post(url, hdrs, payload, debug_path=None):
     try:
-        r = requests.post(url, headers=hdrs, json=payload, timeout=15)
-        if r.status_code == 200:
-            return r.json()
-    except Exception:
-        pass
+        r = requests.post(url, headers=hdrs, json=payload, timeout=20)
+
+        try:
+            content = r.json()
+        except Exception:
+            content = r.text
+
+        if debug_path:
+            with open(debug_path, "w", encoding="utf-8") as f:
+                json.dump({
+                    "url": url,
+                    "payload": payload,
+                    "status_code": r.status_code,
+                    "headers_sent": hdrs,
+                    "response": content
+                }, f, indent=2, ensure_ascii=False)
+
+        if r.status_code == 200 and isinstance(content, dict):
+            return content
+
+    except Exception as e:
+        if debug_path:
+            with open(debug_path, "w", encoding="utf-8") as f:
+                json.dump({
+                    "url": url,
+                    "payload": payload,
+                    "error": str(e)
+                }, f, indent=2)
+
     return None
 
 # =====================================================
@@ -90,19 +116,24 @@ bearer = get_guest_token()
 print(f"✅ Logged in. Token: {bearer[:12]}...\n")
 
 # =====================================================
-# STEP 3: GET MOVIES PER DATE PER LOCATION
+# STEP 3: GET MOVIES PER DATE PER LOCATION (RAW SAVE)
 # =====================================================
 movies = {}
 
 for loc in LOCATIONS:
+    debug_file = os.path.join(
+        DEBUG_DIR, f"location_{loc}_get-showdate.json"
+    )
+
     res = safe_post(
         f"{API_BASE}/get-showdate",
         headers(bearer),
-        {"location": loc}
+        {"location": loc},
+        debug_path=debug_file
     )
 
     if not res or not isinstance(res.get("data"), list):
-        print(f"⚠️ Location {loc}: no data")
+        print(f"⚠️ Location {loc}: no usable data (raw saved)")
         continue
 
     for entry in res["data"]:
@@ -240,4 +271,5 @@ for date in sorted({d for d, _, _ in results}):
         )
 
 print("\n✅ Data saved under:", os.path.abspath(SAVE_DIR))
+print("🪵 Raw API responses saved under:", os.path.abspath(DEBUG_DIR))
 print("⏰ Last Updated:", datetime.now().strftime("%I:%M %p, %d %B %Y"))
