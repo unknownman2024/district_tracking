@@ -1,4 +1,4 @@
-name: Test Cineplex BD Access
+name: Test Cineplex BD Click Attempt
 
 on:
   workflow_dispatch:
@@ -12,15 +12,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install deps
         run: |
-          pip install requests
+          pip install requests beautifulsoup4
 
-      - name: Run BD test
+      - name: Run click attempt test
         run: |
           python bangla.py
