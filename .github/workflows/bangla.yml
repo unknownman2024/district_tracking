@@ -1,35 +1,72 @@
-name: Test Cineplex BD Guest Click
+name: BMS Selenium-Wire Scraper
 
 on:
   workflow_dispatch:
-  push:
+  schedule:
+    # Runs every day at 01:00 IST (19:30 UTC previous day)
+    - cron: "30 19 * * *"
 
 jobs:
-  test:
+  scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 360   # allow long Selenium runs (6 hours)
 
     steps:
-      - name: Checkout
+      - name: 🧾 Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: 🌐 Install Google Chrome
         run: |
-          pip install requests playwright
-          playwright install chromium
+          sudo apt-get update
+          sudo apt-get install -y wget unzip
+          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get -f install -y
+          google-chrome --version
 
-      - name: Run script (HEADLESS)
+      - name: 📦 Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install \
+            selenium \
+            selenium-wire \
+            webdriver-manager \
+            pandas \
+            pytz \
+            aiohttp
+
+      - name: 🧪 Verify Chrome + Selenium
+        run: |
+          python - << 'EOF'
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+          o = Options()
+          o.add_argument("--headless=new")
+          d = webdriver.Chrome(options=o)
+          d.get("https://example.com")
+          print("TITLE:", d.title)
+          d.quit()
+          EOF
+
+      - name: 🚀 Run Selenium-Wire scraper
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
           python bangla.py
 
-      # 🔥 CRITICAL STEP — UPLOAD OUTPUT
-      - name: Upload Bangladesh output
+      - name: 📦 Upload output artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: cineplex-debug-output
-          path: Bangladesh/
-          if-no-files-found: warn
+          name: scraper-output
+          path: |
+            **/movie_summary.json
+            **/detailed.json
+            **/venues_data.json
+            **/fetchedvenues.json
+
+      - name: ✅ Job completed
+        run: echo "Scraping completed successfully"
