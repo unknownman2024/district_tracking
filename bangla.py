@@ -1,11 +1,9 @@
 import requests
 import json
 import os
-import time
 import random
 import string
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from playwright.sync_api import sync_playwright
 
 # =====================================================
@@ -13,72 +11,63 @@ from playwright.sync_api import sync_playwright
 # =====================================================
 API_BASE = "https://cineplex-ticket-api.cineplexbd.com/api/v1"
 LOCATIONS = range(1, 9)
-MAX_WORKERS = 8
 SAVE_DIR = "Bangladesh"
 DEBUG_DIR = os.path.join(SAVE_DIR, "debug")
-
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
-    "Mozilla/5.0 (Linux; Android 13; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Mobile Safari/537.36",
-]
 
 os.makedirs(SAVE_DIR, exist_ok=True)
 os.makedirs(DEBUG_DIR, exist_ok=True)
 
-# 🔥 ONE DEVICE KEY (MANDATORY)
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+]
+
+# 🔥 ONE DEVICE KEY (MANDATORY FOR API)
 DEVICE_KEY = ''.join(random.choices('abcdef' + string.digits, k=64))
 
 # =====================================================
-# STEP 1: GET GUEST TOKEN (CI-SAFE)
+# STEP 1: GET GUEST TOKEN (YOUR EXACT CODE)
 # =====================================================
 def get_guest_token():
     URL = "https://ticket.cineplexbd.com/login"
-    token_box = {"token": None}
+    API_KEYWORD = "/api/v1/guest-login"
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=["--no-sandbox", "--disable-dev-shm-usage"]
-        )
-
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            extra_http_headers={"device-key": DEVICE_KEY}
+            extra_http_headers={
+                "device-key": DEVICE_KEY   # ONLY addition
+            }
         )
         page = context.new_page()
 
-        def on_response(resp):
-            if "/api/v1/guest-login" in resp.url and resp.status == 200:
-                try:
-                    data = resp.json()
-                    token_box["token"] = data.get("data", {}).get("token")
-                except Exception:
-                    pass
+        print("🔹 STEP 1: Visiting login page")
+        page.goto(URL, wait_until="networkidle")
 
-        # 🔥 LISTENER FIRST (NO RACE)
-        page.on("response", on_response)
-
-        page.goto(URL, wait_until="domcontentloaded", timeout=60000)
-
+        print("🔹 STEP 2: Waiting for Guest Login button")
         page.wait_for_selector(
             "button.btn.btn-button.guest-login.btn-block",
-            timeout=30000
+            timeout=15000
         )
 
-        page.click("button.btn.btn-button.guest-login.btn-block")
+        print("🔹 STEP 3: Clicking Guest Login button")
 
-        # manual wait (max 15s)
-        for _ in range(150):
-            if token_box["token"]:
-                break
-            time.sleep(0.1)
+        with page.expect_response(
+            lambda r: API_KEYWORD in r.url and r.status == 200,
+            timeout=15000
+        ) as response_info:
+            page.click("button.btn.btn-button.guest-login.btn-block")
+
+        response = response_info.value
+        data = response.json()
 
         browser.close()
 
-    if not token_box["token"]:
-        raise RuntimeError("❌ Guest token capture failed")
+    token = data.get("data", {}).get("token")
+    if not token:
+        raise RuntimeError("Guest token not found")
 
-    return token_box["token"]
+    return token
 
 # =====================================================
 # HELPERS
@@ -93,35 +82,28 @@ def headers(bearer):
         "referer": "https://ticket.cineplexbd.com/",
         "user-agent": random.choice(USER_AGENTS),
         "authorization": f"Bearer {bearer}",
-        "device-key": DEVICE_KEY,
+        "device-key": DEVICE_KEY,   # 🔥 REQUIRED
     }
 
-def safe_post(url, hdrs, payload, debug_path=None):
+def safe_post(url, hdrs, payload, debug_path):
+    r = requests.post(url, headers=hdrs, json=payload, timeout=20)
+
     try:
-        r = requests.post(url, headers=hdrs, json=payload, timeout=20)
+        content = r.json()
+    except Exception:
+        content = r.text
 
-        try:
-            content = r.json()
-        except Exception:
-            content = r.text
+    with open(debug_path, "w", encoding="utf-8") as f:
+        json.dump({
+            "url": url,
+            "payload": payload,
+            "status_code": r.status_code,
+            "headers_sent": hdrs,
+            "response": content
+        }, f, indent=2, ensure_ascii=False)
 
-        if debug_path:
-            with open(debug_path, "w", encoding="utf-8") as f:
-                json.dump({
-                    "url": url,
-                    "payload": payload,
-                    "status_code": r.status_code,
-                    "headers_sent": hdrs,
-                    "response": content
-                }, f, indent=2, ensure_ascii=False)
-
-        if r.status_code == 200 and isinstance(content, dict):
-            return content
-
-    except Exception as e:
-        if debug_path:
-            with open(debug_path, "w", encoding="utf-8") as f:
-                json.dump({"error": str(e)}, f, indent=2)
+    if r.status_code == 200 and isinstance(content, dict):
+        return content
 
     return None
 
@@ -130,13 +112,11 @@ def safe_post(url, hdrs, payload, debug_path=None):
 # =====================================================
 print("🔐 Fetching fresh guest token...")
 bearer = get_guest_token()
-print(f"✅ Logged in. Token: {bearer[:12]}...\n")
+print(f"✅ Logged in. Token: {bearer}\n")
 
 # =====================================================
-# STEP 3: GET SHOW DATES (DEBUG ENABLED)
+# STEP 3: GET SHOWDATE (SAVE RAW RESPONSE)
 # =====================================================
-movies = {}
-
 for loc in LOCATIONS:
     debug_file = os.path.join(DEBUG_DIR, f"location_{loc}_get-showdate.json")
 
@@ -144,27 +124,13 @@ for loc in LOCATIONS:
         f"{API_BASE}/get-showdate",
         headers(bearer),
         {"location": loc},
-        debug_path=debug_file
+        debug_file
     )
 
-    if not res or not isinstance(res.get("data"), list):
-        print(f"⚠️ Location {loc}: no usable data (raw saved)")
-        continue
+    if not res:
+        print(f"⚠️ Location {loc}: no usable data (saved raw)")
+    else:
+        print(f"✅ Location {loc}: response saved")
 
-    for entry in res["data"]:
-        date = entry.get("showDate")
-        for mv in entry.get("availableMovies", []):
-            mid = mv.get("movie_id")
-            title = mv.get("movie_title")
-            if not mid or not title:
-                continue
-
-            movies.setdefault(date, {}).setdefault(
-                mid, {"title": title, "locs": set()}
-            )
-            movies[date][mid]["locs"].add(loc)
-
-print(f"\n🎬 Found {sum(len(v) for v in movies.values())} movie-date entries.\n")
-
-print("✅ Token + device-key working. Debug files saved.")
+print("\n🪵 Debug files saved in:", DEBUG_DIR)
 print("⏰ Last Updated:", datetime.now().strftime("%I:%M %p, %d %B %Y"))
