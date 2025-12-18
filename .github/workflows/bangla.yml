@@ -12,14 +12,24 @@ jobs:
     timeout-minutes: 360   # allow long Selenium runs (6 hours)
 
     steps:
+      # -------------------------------------------------
+      # Checkout
+      # -------------------------------------------------
       - name: 🧾 Checkout repository
         uses: actions/checkout@v4
 
+      # -------------------------------------------------
+      # Python
+      # -------------------------------------------------
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
+      # -------------------------------------------------
+      # Chrome
+      # -------------------------------------------------
       - name: 🌐 Install Google Chrome
         run: |
           sudo apt-get update
@@ -28,6 +38,9 @@ jobs:
           sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get -f install -y
           google-chrome --version
 
+      # -------------------------------------------------
+      # Python dependencies
+      # -------------------------------------------------
       - name: 📦 Install Python dependencies
         run: |
           python -m pip install --upgrade pip
@@ -39,25 +52,38 @@ jobs:
             pytz \
             aiohttp
 
+      # -------------------------------------------------
+      # Sanity check
+      # -------------------------------------------------
       - name: 🧪 Verify Chrome + Selenium
         run: |
           python - << 'EOF'
           from selenium import webdriver
           from selenium.webdriver.chrome.options import Options
-          o = Options()
-          o.add_argument("--headless=new")
-          d = webdriver.Chrome(options=o)
-          d.get("https://example.com")
-          print("TITLE:", d.title)
-          d.quit()
+
+          options = Options()
+          options.add_argument("--headless=new")
+          options.add_argument("--no-sandbox")
+          options.add_argument("--disable-dev-shm-usage")
+
+          driver = webdriver.Chrome(options=options)
+          driver.get("https://example.com")
+          print("TITLE:", driver.title)
+          driver.quit()
           EOF
 
+      # -------------------------------------------------
+      # Run scraper
+      # -------------------------------------------------
       - name: 🚀 Run Selenium-Wire scraper
         env:
           PYTHONUNBUFFERED: "1"
         run: |
           python bangla.py
 
+      # -------------------------------------------------
+      # Upload artifacts
+      # -------------------------------------------------
       - name: 📦 Upload output artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -68,5 +94,8 @@ jobs:
             **/venues_data.json
             **/fetchedvenues.json
 
+      # -------------------------------------------------
+      # Done
+      # -------------------------------------------------
       - name: ✅ Job completed
         run: echo "Scraping completed successfully"
