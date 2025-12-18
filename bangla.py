@@ -1,57 +1,27 @@
-import requests
+from playwright.sync_api import sync_playwright
 
-LOGIN_PAGE = "https://ticket.cineplexbd.com/login"
-LOGIN_API  = "https://cineplex-ticket-api.cineplexbd.com/api/v1/guest-login"
+URL = "https://ticket.cineplexbd.com/login"
 
-session = requests.Session()
-session.headers.update({
-    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/120 Safari/537.36",
-    "accept": "*/*",
-    "origin": "https://ticket.cineplexbd.com",
-    "referer": LOGIN_PAGE,
-})
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+    context = browser.new_context()
+    page = context.new_page()
 
-print("🔹 STEP 1: Visiting login page")
-r = session.get(LOGIN_PAGE, timeout=20)
+    print("🔹 STEP 1: Visiting login page")
+    page.goto(URL, wait_until="networkidle")
+    print("Current URL:", page.url)
 
-print("STATUS:", r.status_code)
-print("FINAL URL:", r.url)
+    print("🔹 STEP 2: Waiting for Guest Login button")
+    page.wait_for_selector(
+        "button.btn.btn-button.guest-login.btn-block",
+        timeout=15000
+    )
 
-if r.status_code != 200:
-    print("❌ Login page not accessible")
-    exit(1)
+    print("🔹 STEP 3: Clicking Guest Login button")
+    with page.expect_navigation(timeout=15000):
+        page.click("button.btn.btn-button.guest-login.btn-block")
 
-print("✅ Login page loaded (JS content ignored, expected)")
+    print("✅ Click done")
+    print("🔁 Redirected / Final URL:", page.url)
 
-# --------------------------------------------------
-
-print("\n🔹 STEP 2: Attempting Guest Login (backend click simulation)")
-
-payload = {
-    # Real site fills this via JS + recaptcha
-    # Leaving empty intentionally for test
-}
-
-resp = session.post(
-    LOGIN_API,
-    json=payload,
-    allow_redirects=False,   # IMPORTANT: capture redirect
-    timeout=20
-)
-
-print("LOGIN STATUS:", resp.status_code)
-
-# Redirect detection
-if "Location" in resp.headers:
-    print("🔁 REDIRECT URL:", resp.headers["Location"])
-else:
-    print("ℹ️ No redirect header")
-
-print("\nRESPONSE HEADERS:")
-for k, v in resp.headers.items():
-    print(f"{k}: {v}")
-
-print("\nRESPONSE BODY (first 300 chars):")
-print(resp.text[:300])
-
-print("\n✅ Guest-login click ATTEMPT completed (block expected)")
+    browser.close()
