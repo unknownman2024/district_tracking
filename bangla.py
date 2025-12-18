@@ -18,49 +18,60 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 11.0; Win64; rv:123.0) Gecko/20100101 Firefox/123.0"
 ]
 
-# 🔥 ONE DEVICE KEY FOR ENTIRE SESSION (CRITICAL)
+# 🔥 ONE DEVICE KEY FOR WHOLE SESSION (CRITICAL)
 DEVICE_KEY = ''.join(random.choices('abcdef' + string.digits, k=64))
 
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # =====================================================
-# LOGIN (BROWSER VERIFIED)
+# LOGIN — CI SAFE (NO RACE CONDITION)
 # =====================================================
 def get_guest_token():
     URL = "https://ticket.cineplexbd.com/login"
-    API_KEYWORD = "/api/v1/guest-login"
+    token_box = {"token": None}
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-
         context = browser.new_context(
-            extra_http_headers={
-                "device-key": DEVICE_KEY
-            }
+            extra_http_headers={"device-key": DEVICE_KEY}
         )
-
         page = context.new_page()
-        page.goto(URL, wait_until="networkidle")
 
+        def on_response(resp):
+            if (
+                "/api/v1/guest-login" in resp.url
+                and resp.status == 200
+                and token_box["token"] is None
+            ):
+                try:
+                    data = resp.json()
+                    token_box["token"] = data["data"]["token"]
+                except Exception:
+                    pass
+
+        # 🔥 attach BEFORE navigation
+        page.on("response", on_response)
+
+        page.goto(URL, wait_until="networkidle")
         page.wait_for_selector(
             "button.btn.btn-button.guest-login.btn-block",
             timeout=15000
         )
 
-        with page.expect_response(
-            lambda r: API_KEYWORD in r.url and r.status == 200,
-            timeout=15000
-        ) as resp:
-            page.click("button.btn.btn-button.guest-login.btn-block")
+        page.click("button.btn.btn-button.guest-login.btn-block")
 
-        data = resp.value.json()
+        # manual wait (max 10s)
+        for _ in range(100):
+            if token_box["token"]:
+                break
+            time.sleep(0.1)
+
         browser.close()
 
-    token = data.get("data", {}).get("token")
-    if not token:
-        raise RuntimeError("❌ Guest token not found")
+    if not token_box["token"]:
+        raise RuntimeError("❌ Guest token capture failed")
 
-    return token
+    return token_box["token"]
 
 # =====================================================
 # HELPERS
@@ -72,7 +83,7 @@ def headers(bearer=None):
         "appsource": "web",
         "cache-control": "no-cache",
         "content-type": "application/json;charset=UTF-8",
-        "device-key": DEVICE_KEY,   # 🔥 SAME KEY ALWAYS
+        "device-key": DEVICE_KEY,
         "origin": "https://ticket.cineplexbd.com",
         "pragma": "no-cache",
         "referer": "https://ticket.cineplexbd.com/",
@@ -82,10 +93,10 @@ def headers(bearer=None):
         h["authorization"] = f"Bearer {bearer}"
     return h
 
-def safe_post(url, headers_, payload, retry=1):
+def safe_post(url, hdrs, payload, retry=1):
     for _ in range(retry + 1):
         try:
-            r = requests.post(url, headers=headers_, json=payload, timeout=15)
+            r = requests.post(url, headers=hdrs, json=payload, timeout=15)
             if r.status_code == 200:
                 return r.json()
         except Exception:
@@ -162,10 +173,8 @@ def fetch_show_details(args):
         if not seat or not seat.get("data"):
             continue
 
-        seat_types = seat["data"].get("seatTypes") or []
         total = sold = gross = 0
-
-        for st in seat_types:
+        for st in seat["data"].get("seatTypes", []) or []:
             sid = st.get("seatTypeId")
             statuses = st.get("seatStatus") or []
             sold_count = sum(1 for x in statuses if x.get("seatStatus") == 0)
