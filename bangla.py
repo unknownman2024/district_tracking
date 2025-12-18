@@ -18,10 +18,13 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 11.0; Win64; rv:123.0) Gecko/20100101 Firefox/123.0"
 ]
 
+# 🔥 ONE DEVICE KEY FOR ENTIRE SESSION (CRITICAL)
+DEVICE_KEY = ''.join(random.choices('abcdef' + string.digits, k=64))
+
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # =====================================================
-# LOGIN (NEW METHOD – BROWSER VERIFIED)
+# LOGIN (BROWSER VERIFIED)
 # =====================================================
 def get_guest_token():
     URL = "https://ticket.cineplexbd.com/login"
@@ -29,9 +32,14 @@ def get_guest_token():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context()
-        page = context.new_page()
 
+        context = browser.new_context(
+            extra_http_headers={
+                "device-key": DEVICE_KEY
+            }
+        )
+
+        page = context.new_page()
         page.goto(URL, wait_until="networkidle")
 
         page.wait_for_selector(
@@ -57,17 +65,14 @@ def get_guest_token():
 # =====================================================
 # HELPERS
 # =====================================================
-def random_device_key():
-    return ''.join(random.choices('abcdef' + string.digits, k=64))
-
-def random_headers(bearer=None):
+def headers(bearer=None):
     h = {
         "accept": "application/json, text/plain, */*",
         "accept-language": "en-GB,en;q=0.9",
         "appsource": "web",
         "cache-control": "no-cache",
         "content-type": "application/json;charset=UTF-8",
-        "device-key": random_device_key(),
+        "device-key": DEVICE_KEY,   # 🔥 SAME KEY ALWAYS
         "origin": "https://ticket.cineplexbd.com",
         "pragma": "no-cache",
         "referer": "https://ticket.cineplexbd.com/",
@@ -77,14 +82,14 @@ def random_headers(bearer=None):
         h["authorization"] = f"Bearer {bearer}"
     return h
 
-def safe_post(url, headers, payload, retry=1):
+def safe_post(url, headers_, payload, retry=1):
     for _ in range(retry + 1):
         try:
-            r = requests.post(url, headers=headers, json=payload, timeout=15)
+            r = requests.post(url, headers=headers_, json=payload, timeout=15)
             if r.status_code == 200:
                 return r.json()
         except Exception:
-            time.sleep(0.5)
+            time.sleep(0.4)
     return None
 
 # =====================================================
@@ -95,31 +100,24 @@ bearer = get_guest_token()
 print(f"✅ Logged in. Token: {bearer[:12]}...\n")
 
 # =====================================================
-# STEP 2: GET MOVIES PER DATE PER LOCATION (SAFE)
+# STEP 2: GET MOVIES PER DATE PER LOCATION
 # =====================================================
 movies = {}
 
 for loc in LOCATIONS:
     res = safe_post(
         f"{API_BASE}/get-showdate",
-        random_headers(bearer),
+        headers(bearer),
         {"location": loc}
     )
 
-    if not res:
-        print(f"⚠️ Location {loc}: no response")
+    if not res or not isinstance(res.get("data"), list):
+        print(f"⚠️ Location {loc}: no usable data")
         continue
 
-    data = res.get("data")
-    if not data or not isinstance(data, list):
-        print(f"⚠️ Location {loc}: empty / invalid data")
-        continue
-
-    for entry in data:
+    for entry in res["data"]:
         date = entry.get("showDate")
-        movie_list = entry.get("availableMovies") or []
-
-        for mv in movie_list:
+        for mv in entry.get("availableMovies", []):
             mid = mv.get("movie_id")
             title = mv.get("movie_title")
             if not mid or not title:
@@ -141,7 +139,7 @@ def fetch_show_details(args):
 
     show = safe_post(
         f"{API_BASE}/get-shows",
-        random_headers(bearer),
+        headers(bearer),
         {"location": loc, "movieId": movie_id, "showDate": date}
     )
 
@@ -150,15 +148,14 @@ def fetch_show_details(args):
 
     for s in show["data"][0].get("showTimes", []):
         pid = s.get("programId")
-        show_time = s.get("showTime")
-        prices = {p["seatTypeID"]: p["unitPrice"] for p in s.get("seatPrices", [])}
-
         if not pid:
             continue
 
+        prices = {p["seatTypeID"]: p["unitPrice"] for p in s.get("seatPrices", [])}
+
         seat = safe_post(
             f"{API_BASE}/get-seat",
-            random_headers(bearer),
+            headers(bearer),
             {"location": loc, "programId": pid}
         )
 
@@ -166,10 +163,8 @@ def fetch_show_details(args):
             continue
 
         seat_types = seat["data"].get("seatTypes") or []
-        if not isinstance(seat_types, list):
-            seat_types = []
-
         total = sold = gross = 0
+
         for st in seat_types:
             sid = st.get("seatTypeId")
             statuses = st.get("seatStatus") or []
@@ -181,7 +176,7 @@ def fetch_show_details(args):
         result.append({
             "programId": pid,
             "location": loc,
-            "showTime": show_time,
+            "showTime": s.get("showTime"),
             "total": total,
             "sold": sold,
             "gross": gross
@@ -200,8 +195,7 @@ print(f"🚀 Fetching {len(tasks)} tasks using {MAX_WORKERS} threads...\n")
 
 results = []
 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-    futures = [ex.submit(fetch_show_details, t) for t in tasks]
-    for f in as_completed(futures):
+    for f in as_completed(ex.submit(fetch_show_details, t) for t in tasks):
         if f.result():
             results.append(f.result())
 
@@ -223,17 +217,14 @@ for date, title, shows in results:
     daily = load_json(path)
     daily.setdefault(title, [])
 
-    for new_show in shows:
-        key = (new_show["programId"], new_show["location"], new_show["showTime"])
-        existing = next(
+    for show in shows:
+        key = (show["programId"], show["location"], show["showTime"])
+        old = next(
             (s for s in daily[title]
              if (s["programId"], s["location"], s["showTime"]) == key),
             None
         )
-        if existing:
-            existing.update(new_show)
-        else:
-            daily[title].append(new_show)
+        old.update(show) if old else daily[title].append(show)
 
     save_json(path, daily)
 
