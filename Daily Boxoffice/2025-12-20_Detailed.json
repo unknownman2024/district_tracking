@@ -1,6 +1,6 @@
 {
   "date": "2025-12-20",
-  "lastUpdated": "02:10 AM, 20 December 2025",
+  "lastUpdated": "03:07 AM, 20 December 2025",
   "Dhurandhar | Hindi": [
     {
       "city": "Mumbai",
@@ -468,7 +468,7 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%",
-      "minsLeft": 114
+      "minsLeft": 57
     },
     {
       "city": "Nagpur",
@@ -494,7 +494,46 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%",
-      "minsLeft": 174
+      "minsLeft": 117
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Bhayandar",
+      "time": "06:05 AM",
+      "audi": "Screen 4",
+      "totalSeats": 384,
+      "available": 384,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 177
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "INOX Garuda, Yelahanka, Bengaluru",
+      "time": "06:15 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 187
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Borivali (W)",
+      "time": "06:05 AM",
+      "audi": "Screen 4",
+      "totalSeats": 279,
+      "available": 279,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 177
     }
   ],
   "Avatar: Fire and Ash | English": [
@@ -505,11 +544,24 @@
       "time": "03:30 AM",
       "audi": "IMAX",
       "totalSeats": 342,
-      "available": 268,
-      "sold": 74,
-      "gross": 39880,
-      "occupancy": "21.64%",
-      "minsLeft": 79
+      "available": 259,
+      "sold": 83,
+      "gross": 44110,
+      "occupancy": "24.27%",
+      "minsLeft": 22
+    },
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "time": "06:15 AM",
+      "audi": "Screen4",
+      "totalSeats": 203,
+      "available": 202,
+      "sold": 1,
+      "gross": 230,
+      "occupancy": "0.49%",
+      "minsLeft": 187
     }
   ],
   "Avatar: Fire and Ash | Hindi": [
@@ -525,6 +577,21 @@
       "gross": 8820,
       "occupancy": "8.84%",
       "minsLeft": 26
+    }
+  ],
+  "Avatar: Fire and Ash | Tamil": [
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "time": "06:00 AM",
+      "audi": "Screen2",
+      "totalSeats": 350,
+      "available": 343,
+      "sold": 7,
+      "gross": 1470,
+      "occupancy": "2.00%",
+      "minsLeft": 172
     }
   ]
 }
