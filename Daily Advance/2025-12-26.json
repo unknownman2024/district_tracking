@@ -76,15 +76,15 @@
     ]
   },
   "Tu Meri Main Tera Main Tera Tu Meri [2D | Hindi]": {
-    "shows": 24,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 6948,
-    "venues": 4,
-    "cities": 1,
+    "shows": 29,
+    "gross": 21400,
+    "sold": 50,
+    "totalSeats": 7728,
+    "venues": 5,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 0.65,
     "details": [
       {
         "city": "Mumbai",
@@ -97,6 +97,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 5,
+        "gross": 21400,
+        "sold": 50,
+        "totalSeats": 780,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.41
       }
     ],
     "Chain_details": [
@@ -121,6 +133,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 5,
+        "gross": 21400,
+        "sold": 50,
+        "totalSeats": 780,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.41
       }
     ]
   },
@@ -163,40 +186,40 @@
     ]
   },
   "Avatar: Fire and Ash [IMAX 3D | English]": {
-    "shows": 4,
-    "gross": 614916,
-    "sold": 1102,
-    "totalSeats": 1720,
-    "venues": 1,
+    "shows": 8,
+    "gross": 1383840,
+    "sold": 2480,
+    "totalSeats": 3376,
+    "venues": 2,
     "cities": 1,
-    "fastfilling": 4,
+    "fastfilling": 8,
     "housefull": 0,
-    "occupancy": 64.07,
+    "occupancy": 73.46,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 1,
-        "shows": 4,
-        "gross": 614916,
-        "sold": 1102,
-        "totalSeats": 1720,
-        "fastfilling": 4,
+        "venues": 2,
+        "shows": 8,
+        "gross": 1383840,
+        "sold": 2480,
+        "totalSeats": 3376,
+        "fastfilling": 8,
         "housefull": 0,
-        "occupancy": 64.07
+        "occupancy": 73.46
       }
     ],
     "Chain_details": [
       {
         "chain": "PVR",
-        "venues": 1,
-        "shows": 4,
-        "gross": 614916,
-        "sold": 1102,
-        "totalSeats": 1720,
-        "fastfilling": 4,
+        "venues": 2,
+        "shows": 8,
+        "gross": 1383840,
+        "sold": 2480,
+        "totalSeats": 3376,
+        "fastfilling": 8,
         "housefull": 0,
-        "occupancy": 64.07
+        "occupancy": 73.46
       }
     ]
   },
@@ -239,5 +262,5 @@
     ]
   },
   "date": "2025-12-26",
-  "lastUpdated": "12:11 AM, 21 December 2025"
+  "lastUpdated": "02:59 AM, 21 December 2025"
 }
