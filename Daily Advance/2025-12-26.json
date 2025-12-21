@@ -38,15 +38,15 @@
     ]
   },
   "Dhurandhar [2D | Hindi]": {
-    "shows": 4,
-    "gross": 49200,
-    "sold": 332,
-    "totalSeats": 976,
-    "venues": 1,
-    "cities": 1,
+    "shows": 8,
+    "gross": 87360,
+    "sold": 548,
+    "totalSeats": 2240,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 34.02,
+    "occupancy": 24.46,
     "details": [
       {
         "city": "Ghaziabad",
@@ -59,6 +59,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 34.02
+      },
+      {
+        "city": "Chittoor",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 38160,
+        "sold": 216,
+        "totalSeats": 1264,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 17.09
       }
     ],
     "Chain_details": [
@@ -72,19 +84,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 34.02
+      },
+      {
+        "chain": "V Mega",
+        "venues": 1,
+        "shows": 4,
+        "gross": 38160,
+        "sold": 216,
+        "totalSeats": 1264,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 17.09
       }
     ]
   },
   "Tu Meri Main Tera Main Tera Tu Meri [2D | Hindi]": {
-    "shows": 39,
-    "gross": 42630,
-    "sold": 135,
-    "totalSeats": 9358,
-    "venues": 7,
-    "cities": 3,
-    "fastfilling": 0,
+    "shows": 84,
+    "gross": 264280,
+    "sold": 790,
+    "totalSeats": 19488,
+    "venues": 16,
+    "cities": 8,
+    "fastfilling": 2,
     "housefull": 0,
-    "occupancy": 1.44,
+    "occupancy": 4.05,
     "details": [
       {
         "city": "Mumbai",
@@ -101,26 +124,86 @@
       {
         "city": "Pune",
         "state": "Maharashtra",
-        "venues": 1,
-        "shows": 5,
+        "venues": 2,
+        "shows": 10,
         "gross": 21400,
         "sold": 50,
-        "totalSeats": 780,
+        "totalSeats": 1820,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 6.41
+        "occupancy": 2.75
       },
       {
         "city": "Surat",
         "state": "Gujarat",
+        "venues": 3,
+        "shows": 15,
+        "gross": 166150,
+        "sold": 515,
+        "totalSeats": 3435,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 14.99
+      },
+      {
+        "city": "Gurgaon",
+        "state": "Haryana",
         "venues": 1,
         "shows": 5,
-        "gross": 12900,
-        "sold": 50,
-        "totalSeats": 900,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 730,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 5.56
+        "occupancy": 0
+      },
+      {
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "venues": 1,
+        "shows": 5,
+        "gross": 7500,
+        "sold": 30,
+        "totalSeats": 995,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.02
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 5,
+        "gross": 9840,
+        "sold": 30,
+        "totalSeats": 985,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.05
+      },
+      {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "venues": 2,
+        "shows": 10,
+        "gross": 34960,
+        "sold": 80,
+        "totalSeats": 1925,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.16
+      },
+      {
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "venues": 1,
+        "shows": 5,
+        "gross": 16100,
+        "sold": 50,
+        "totalSeats": 1920,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.6
       }
     ],
     "Chain_details": [
@@ -148,14 +231,47 @@
       },
       {
         "chain": "Cinepolis",
-        "venues": 3,
-        "shows": 15,
-        "gross": 42630,
-        "sold": 135,
-        "totalSeats": 2410,
+        "venues": 8,
+        "shows": 40,
+        "gross": 175030,
+        "sold": 555,
+        "totalSeats": 8235,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 6.74
+      },
+      {
+        "chain": "Wave",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 730,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 5.6
+        "occupancy": 0
+      },
+      {
+        "chain": "MovieMax",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1040,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Rajhans Cinemas",
+        "venues": 2,
+        "shows": 10,
+        "gross": 89250,
+        "sold": 235,
+        "totalSeats": 2535,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.27
       }
     ]
   },
@@ -199,26 +315,26 @@
   },
   "Avatar: Fire and Ash [IMAX 3D | English]": {
     "shows": 8,
-    "gross": 1387188,
-    "sold": 2486,
+    "gross": 1397790,
+    "sold": 2505,
     "totalSeats": 3376,
     "venues": 2,
     "cities": 1,
     "fastfilling": 8,
     "housefull": 0,
-    "occupancy": 73.64,
+    "occupancy": 74.2,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
         "venues": 2,
         "shows": 8,
-        "gross": 1387188,
-        "sold": 2486,
+        "gross": 1397790,
+        "sold": 2505,
         "totalSeats": 3376,
         "fastfilling": 8,
         "housefull": 0,
-        "occupancy": 73.64
+        "occupancy": 74.2
       }
     ],
     "Chain_details": [
@@ -226,12 +342,12 @@
         "chain": "PVR",
         "venues": 2,
         "shows": 8,
-        "gross": 1387188,
-        "sold": 2486,
+        "gross": 1397790,
+        "sold": 2505,
         "totalSeats": 3376,
         "fastfilling": 8,
         "housefull": 0,
-        "occupancy": 73.64
+        "occupancy": 74.2
       }
     ]
   },
@@ -273,6 +389,82 @@
       }
     ]
   },
+  "Akhanda 2: Thaandavam [2D | Telugu]": {
+    "shows": 4,
+    "gross": 76968,
+    "sold": 448,
+    "totalSeats": 1872,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 23.93,
+    "details": [
+      {
+        "city": "Chittoor",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 76968,
+        "sold": 448,
+        "totalSeats": 1872,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 23.93
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "V Mega",
+        "venues": 1,
+        "shows": 4,
+        "gross": 76968,
+        "sold": 448,
+        "totalSeats": 1872,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 23.93
+      }
+    ]
+  },
+  "Mark [2D | Kannada]": {
+    "shows": 5,
+    "gross": 824500,
+    "sold": 3910,
+    "totalSeats": 4970,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 5,
+    "housefull": 0,
+    "occupancy": 78.67,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 5,
+        "gross": 824500,
+        "sold": 3910,
+        "totalSeats": 4970,
+        "fastfilling": 5,
+        "housefull": 0,
+        "occupancy": 78.67
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "TicketNew",
+        "venues": 1,
+        "shows": 5,
+        "gross": 824500,
+        "sold": 3910,
+        "totalSeats": 4970,
+        "fastfilling": 5,
+        "housefull": 0,
+        "occupancy": 78.67
+      }
+    ]
+  },
   "date": "2025-12-26",
-  "lastUpdated": "09:38 AM, 21 December 2025"
+  "lastUpdated": "12:17 PM, 21 December 2025"
 }
