@@ -736,10 +736,10 @@
       "time": "07:30 PM",
       "audi": "AUDI 4",
       "totalSeats": 197,
-      "available": 191,
-      "sold": 6,
-      "gross": 2160,
-      "occupancy": "3.05%"
+      "available": 161,
+      "sold": 36,
+      "gross": 20100,
+      "occupancy": "18.27%"
     },
     {
       "city": "New Delhi",
@@ -762,10 +762,10 @@
       "time": "04:20 PM",
       "audi": "Audi 9 Atmos",
       "totalSeats": 218,
-      "available": 212,
-      "sold": 6,
-      "gross": 3240,
-      "occupancy": "2.75%"
+      "available": 210,
+      "sold": 8,
+      "gross": 4320,
+      "occupancy": "3.67%"
     },
     {
       "city": "New Delhi",
@@ -842,7 +842,7 @@
       "totalSeats": 181,
       "available": 178,
       "sold": 3,
-      "gross": 1350,
+      "gross": 1860,
       "occupancy": "1.66%"
     },
     {
@@ -1438,10 +1438,10 @@
       "time": "04:20 PM",
       "audi": "AUDI 7",
       "totalSeats": 165,
-      "available": 155,
-      "sold": 10,
-      "gross": 4500,
-      "occupancy": "6.06%"
+      "available": 153,
+      "sold": 12,
+      "gross": 5400,
+      "occupancy": "7.27%"
     },
     {
       "city": "Thane",
@@ -1646,10 +1646,10 @@
       "time": "12:55 PM",
       "audi": "AUDI 1",
       "totalSeats": 220,
-      "available": 211,
-      "sold": 9,
-      "gross": 2530,
-      "occupancy": "4.09%"
+      "available": 11,
+      "sold": 209,
+      "gross": 57090,
+      "occupancy": "95.00%"
     },
     {
       "city": "Mumbai",
@@ -2296,10 +2296,10 @@
       "time": "04:20 PM",
       "audi": "SCREEN 2",
       "totalSeats": 167,
-      "available": 157,
-      "sold": 10,
-      "gross": 3800,
-      "occupancy": "5.99%"
+      "available": 155,
+      "sold": 12,
+      "gross": 5000,
+      "occupancy": "7.19%"
     },
     {
       "city": "New Delhi",
@@ -2443,6 +2443,136 @@
       "sold": 200,
       "gross": 56350,
       "occupancy": "64.94%"
+    },
+    {
+      "city": "Amritsar",
+      "state": "Punjab",
+      "venue": "Movietime Cinemas, Novelty Mall Lawrence Road, Amritsar",
+      "chain": "Movietime",
+      "time": "07:30 PM",
+      "audi": "AUDI2",
+      "totalSeats": 158,
+      "available": 158,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Amritsar",
+      "state": "Punjab",
+      "venue": "Movietime Cinemas, Novelty Mall Lawrence Road, Amritsar",
+      "chain": "Movietime",
+      "time": "10:30 PM",
+      "audi": "AUDI2",
+      "totalSeats": 158,
+      "available": 158,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Amritsar",
+      "state": "Punjab",
+      "venue": "Movietime Cinemas, Novelty Mall Lawrence Road, Amritsar",
+      "chain": "Movietime",
+      "time": "01:30 PM",
+      "audi": "AUDI2",
+      "totalSeats": 158,
+      "available": 158,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Amritsar",
+      "state": "Punjab",
+      "venue": "Movietime Cinemas, Novelty Mall Lawrence Road, Amritsar",
+      "chain": "Movietime",
+      "time": "04:30 PM",
+      "audi": "AUDI2",
+      "totalSeats": 158,
+      "available": 158,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Amritsar",
+      "state": "Punjab",
+      "venue": "Movietime Cinemas, Novelty Mall Lawrence Road, Amritsar",
+      "chain": "Movietime",
+      "time": "10:30 AM",
+      "audi": "AUDI2",
+      "totalSeats": 158,
+      "available": 158,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "Rajhans Cinemas 93 Avenue Mall, Fatima Nagar, Pune",
+      "chain": "Rajhans Cinemas",
+      "time": "07:00 PM",
+      "audi": "SCRREN3",
+      "totalSeats": 172,
+      "available": 164,
+      "sold": 8,
+      "gross": 3320,
+      "occupancy": "4.65%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "Rajhans Cinemas 93 Avenue Mall, Fatima Nagar, Pune",
+      "chain": "Rajhans Cinemas",
+      "time": "04:00 PM",
+      "audi": "SCRREN3",
+      "totalSeats": 172,
+      "available": 164,
+      "sold": 8,
+      "gross": 2800,
+      "occupancy": "4.65%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "Rajhans Cinemas 93 Avenue Mall, Fatima Nagar, Pune",
+      "chain": "Rajhans Cinemas",
+      "time": "10:00 PM",
+      "audi": "SCRREN3",
+      "totalSeats": 172,
+      "available": 164,
+      "sold": 8,
+      "gross": 3320,
+      "occupancy": "4.65%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "Rajhans Cinemas 93 Avenue Mall, Fatima Nagar, Pune",
+      "chain": "Rajhans Cinemas",
+      "time": "01:00 PM",
+      "audi": "SCRREN3",
+      "totalSeats": 172,
+      "available": 164,
+      "sold": 8,
+      "gross": 2560,
+      "occupancy": "4.65%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "Rajhans Cinemas 93 Avenue Mall, Fatima Nagar, Pune",
+      "chain": "Rajhans Cinemas",
+      "time": "10:00 AM",
+      "audi": "SCRREN3",
+      "totalSeats": 172,
+      "available": 164,
+      "sold": 8,
+      "gross": 2280,
+      "occupancy": "4.65%"
     }
   ],
   "Avatar: Fire and Ash [3D | Hindi]": [
@@ -2675,10 +2805,10 @@
       "time": "03:10 PM",
       "audi": "AUDI 01",
       "totalSeats": 181,
-      "available": 162,
-      "sold": 19,
-      "gross": 10110,
-      "occupancy": "10.50%"
+      "available": 159,
+      "sold": 22,
+      "gross": 11250,
+      "occupancy": "12.15%"
     },
     {
       "city": "Nagpur",
@@ -3197,10 +3327,10 @@
       "time": "10:00 AM",
       "audi": "AUDI 5",
       "totalSeats": 339,
-      "available": 333,
-      "sold": 6,
-      "gross": 1680,
-      "occupancy": "1.77%"
+      "available": 331,
+      "sold": 8,
+      "gross": 2240,
+      "occupancy": "2.36%"
     },
     {
       "city": "Bhopal",
@@ -3535,10 +3665,10 @@
       "time": "07:20 PM",
       "audi": "AUDI 04",
       "totalSeats": 117,
-      "available": 102,
-      "sold": 15,
-      "gross": 12150,
-      "occupancy": "12.82%"
+      "available": 99,
+      "sold": 18,
+      "gross": 13800,
+      "occupancy": "15.38%"
     },
     {
       "city": "Nagpur",
@@ -3587,10 +3717,10 @@
       "time": "10:00 AM",
       "audi": "AUDI 05",
       "totalSeats": 205,
-      "available": 195,
-      "sold": 10,
-      "gross": 3200,
-      "occupancy": "4.88%"
+      "available": 187,
+      "sold": 18,
+      "gross": 5760,
+      "occupancy": "8.78%"
     },
     {
       "city": "Nagpur",
@@ -3678,10 +3808,10 @@
       "time": "02:15 PM",
       "audi": "Audi 7",
       "totalSeats": 183,
-      "available": 171,
-      "sold": 12,
-      "gross": 10140,
-      "occupancy": "6.56%"
+      "available": 169,
+      "sold": 14,
+      "gross": 12400,
+      "occupancy": "7.65%"
     },
     {
       "city": "New Delhi",
@@ -3691,10 +3821,10 @@
       "time": "09:00 AM",
       "audi": "Audi 8",
       "totalSeats": 183,
-      "available": 175,
-      "sold": 8,
-      "gross": 2960,
-      "occupancy": "4.37%"
+      "available": 173,
+      "sold": 10,
+      "gross": 3700,
+      "occupancy": "5.46%"
     },
     {
       "city": "New Delhi",
@@ -3704,10 +3834,10 @@
       "time": "01:15 PM",
       "audi": "Audi 8",
       "totalSeats": 183,
-      "available": 177,
-      "sold": 6,
-      "gross": 3360,
-      "occupancy": "3.28%"
+      "available": 175,
+      "sold": 8,
+      "gross": 4480,
+      "occupancy": "4.37%"
     },
     {
       "city": "New Delhi",
@@ -3717,10 +3847,10 @@
       "time": "05:30 PM",
       "audi": "Audi 8",
       "totalSeats": 183,
-      "available": 171,
-      "sold": 12,
-      "gross": 7860,
-      "occupancy": "6.56%"
+      "available": 169,
+      "sold": 14,
+      "gross": 10120,
+      "occupancy": "7.65%"
     },
     {
       "city": "New Delhi",
@@ -3834,10 +3964,10 @@
       "time": "10:00 AM",
       "audi": "SCREEN 4",
       "totalSeats": 384,
-      "available": 374,
-      "sold": 10,
-      "gross": 2500,
-      "occupancy": "2.60%"
+      "available": 373,
+      "sold": 11,
+      "gross": 2750,
+      "occupancy": "2.86%"
     },
     {
       "city": "Pune",
@@ -3849,7 +3979,7 @@
       "totalSeats": 261,
       "available": 244,
       "sold": 17,
-      "gross": 4930,
+      "gross": 4590,
       "occupancy": "6.51%"
     },
     {
@@ -3862,7 +3992,7 @@
       "totalSeats": 163,
       "available": 155,
       "sold": 8,
-      "gross": 2320,
+      "gross": 2160,
       "occupancy": "4.91%"
     },
     {
@@ -3875,7 +4005,7 @@
       "totalSeats": 261,
       "available": 253,
       "sold": 8,
-      "gross": 2960,
+      "gross": 2800,
       "occupancy": "3.07%"
     },
     {
@@ -3888,7 +4018,7 @@
       "totalSeats": 261,
       "available": 251,
       "sold": 10,
-      "gross": 3700,
+      "gross": 3500,
       "occupancy": "3.83%"
     },
     {
@@ -3901,7 +4031,7 @@
       "totalSeats": 261,
       "available": 253,
       "sold": 8,
-      "gross": 2960,
+      "gross": 2480,
       "occupancy": "3.07%"
     },
     {
@@ -3914,7 +4044,7 @@
       "totalSeats": 163,
       "available": 149,
       "sold": 14,
-      "gross": 5060,
+      "gross": 4780,
       "occupancy": "8.59%"
     },
     {
@@ -3927,7 +4057,7 @@
       "totalSeats": 163,
       "available": 155,
       "sold": 8,
-      "gross": 2960,
+      "gross": 2480,
       "occupancy": "4.91%"
     },
     {
@@ -3940,7 +4070,7 @@
       "totalSeats": 163,
       "available": 155,
       "sold": 8,
-      "gross": 2960,
+      "gross": 2800,
       "occupancy": "4.91%"
     },
     {
@@ -4068,10 +4198,10 @@
       "time": "10:00 AM",
       "audi": "ATMOS",
       "totalSeats": 329,
-      "available": 320,
-      "sold": 9,
-      "gross": 2880,
-      "occupancy": "2.74%"
+      "available": 318,
+      "sold": 11,
+      "gross": 3480,
+      "occupancy": "3.34%"
     },
     {
       "city": "Thane",
@@ -4081,10 +4211,10 @@
       "time": "06:30 PM",
       "audi": "ATMOS",
       "totalSeats": 329,
-      "available": 315,
-      "sold": 14,
-      "gross": 6800,
-      "occupancy": "4.26%"
+      "available": 313,
+      "sold": 16,
+      "gross": 7700,
+      "occupancy": "4.86%"
     },
     {
       "city": "Thane",
@@ -4094,10 +4224,10 @@
       "time": "02:15 PM",
       "audi": "ATMOS",
       "totalSeats": 329,
-      "available": 313,
-      "sold": 16,
-      "gross": 7100,
-      "occupancy": "4.86%"
+      "available": 311,
+      "sold": 18,
+      "gross": 8000,
+      "occupancy": "5.47%"
     },
     {
       "city": "Thane",
@@ -4497,10 +4627,10 @@
       "time": "06:40 PM",
       "audi": "AUDI 5",
       "totalSeats": 268,
-      "available": 258,
-      "sold": 10,
-      "gross": 2800,
-      "occupancy": "3.73%"
+      "available": 256,
+      "sold": 12,
+      "gross": 3380,
+      "occupancy": "4.48%"
     },
     {
       "city": "Mumbai",
@@ -4926,10 +5056,10 @@
       "time": "05:25 PM",
       "audi": "SCREEN 4",
       "totalSeats": 176,
-      "available": 176,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 163,
+      "sold": 13,
+      "gross": 6240,
+      "occupancy": "7.39%"
     },
     {
       "city": "Ahmedabad",
@@ -4952,10 +5082,10 @@
       "time": "02:45 PM",
       "audi": "SCREEN 2",
       "totalSeats": 60,
-      "available": 60,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 58,
+      "sold": 2,
+      "gross": 1780,
+      "occupancy": "3.33%"
     },
     {
       "city": "Ahmedabad",
@@ -5121,10 +5251,10 @@
       "time": "06:05 PM",
       "audi": "AUDI 03",
       "totalSeats": 208,
-      "available": 202,
-      "sold": 6,
-      "gross": 2700,
-      "occupancy": "2.88%"
+      "available": 198,
+      "sold": 10,
+      "gross": 4500,
+      "occupancy": "4.81%"
     },
     {
       "city": "Ludhiana",
@@ -5229,6 +5359,500 @@
       "sold": 10,
       "gross": 3100,
       "occupancy": "3.03%"
+    },
+    {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "venue": "Cinepolis Nexus Esplanade, Rasulgarh, Bhubaneswar",
+      "chain": "Cinepolis",
+      "time": "09:45 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 208,
+      "available": 202,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.88%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "11:30 AM",
+      "audi": "SCREEN4",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "03:30 PM",
+      "audi": "SCREEN4",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "10:45 AM",
+      "audi": "SCREEN5",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "02:45 PM",
+      "audi": "SCREEN5",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "07:30 PM",
+      "audi": "SCREEN4",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "11:30 PM",
+      "audi": "SCREEN4",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "06:45 PM",
+      "audi": "SCREEN5",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Shalimar Gateway, Lucknow",
+      "chain": "MovieMax",
+      "time": "10:45 PM",
+      "audi": "SCREEN5",
+      "totalSeats": 225,
+      "available": 225,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax Eternity, Nagpur",
+      "chain": "MovieMax",
+      "time": "10:15 AM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 281,
+      "sold": 3,
+      "gross": 1020,
+      "occupancy": "1.06%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax Eternity, Nagpur",
+      "chain": "MovieMax",
+      "time": "06:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 284,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax Eternity, Nagpur",
+      "chain": "MovieMax",
+      "time": "02:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 284,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax Eternity, Nagpur",
+      "chain": "MovieMax",
+      "time": "10:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 284,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "11:30 AM",
+      "audi": "SCREEN2",
+      "totalSeats": 197,
+      "available": 197,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "03:30 PM",
+      "audi": "SCREEN2",
+      "totalSeats": 197,
+      "available": 197,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "07:30 PM",
+      "audi": "SCREEN2",
+      "totalSeats": 197,
+      "available": 197,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "11:30 PM",
+      "audi": "SCREEN2",
+      "totalSeats": 197,
+      "available": 197,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "10:30 AM",
+      "audi": "SCREEN3",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "02:30 PM",
+      "audi": "SCREEN3",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "06:30 PM",
+      "audi": "SCREEN3",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "10:30 PM",
+      "audi": "SCREEN3",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Patiala",
+      "state": "Punjab",
+      "venue": "MovieMax Omaxe Mall Patiala (SRS Earlier), Patiala",
+      "chain": "MovieMax",
+      "time": "05:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 277,
+      "available": 277,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Patiala",
+      "state": "Punjab",
+      "venue": "MovieMax Omaxe Mall Patiala (SRS Earlier), Patiala",
+      "chain": "MovieMax",
+      "time": "09:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 277,
+      "available": 277,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Patiala",
+      "state": "Punjab",
+      "venue": "MovieMax Omaxe Mall Patiala (SRS Earlier), Patiala",
+      "chain": "MovieMax",
+      "time": "09:30 AM",
+      "audi": "SCREEN1",
+      "totalSeats": 277,
+      "available": 277,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Patiala",
+      "state": "Punjab",
+      "venue": "MovieMax Omaxe Mall Patiala (SRS Earlier), Patiala",
+      "chain": "MovieMax",
+      "time": "01:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 277,
+      "available": 277,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "05:30 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 285,
+      "available": 285,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "07:30 AM",
+      "audi": "SCREEN 8",
+      "totalSeats": 283,
+      "available": 283,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "11:30 AM",
+      "audi": "SCREEN 8",
+      "totalSeats": 283,
+      "available": 283,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "09:30 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 285,
+      "available": 285,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "11:30 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 283,
+      "available": 283,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "03:30 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 283,
+      "available": 283,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "07:30 PM",
+      "audi": "SCREEN 8",
+      "totalSeats": 283,
+      "available": 283,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "09:30 AM",
+      "audi": "SCREEN 7",
+      "totalSeats": 285,
+      "available": 285,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "01:30 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 285,
+      "available": 285,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax: Eternity, Nagpur (Seats Renovated)",
+      "chain": "MovieMax",
+      "time": "10:15 AM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 281,
+      "sold": 3,
+      "gross": 1020,
+      "occupancy": "1.06%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax: Eternity, Nagpur (Seats Renovated)",
+      "chain": "MovieMax",
+      "time": "06:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 284,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax: Eternity, Nagpur (Seats Renovated)",
+      "chain": "MovieMax",
+      "time": "02:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 284,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax: Eternity, Nagpur (Seats Renovated)",
+      "chain": "MovieMax",
+      "time": "10:30 PM",
+      "audi": "SCREEN1",
+      "totalSeats": 284,
+      "available": 284,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Avatar: Fire and Ash [3D | English]": [
@@ -5292,10 +5916,10 @@
       "time": "09:00 AM",
       "audi": "AUDI 01",
       "totalSeats": 181,
-      "available": 175,
-      "sold": 6,
-      "gross": 1920,
-      "occupancy": "3.31%"
+      "available": 173,
+      "sold": 8,
+      "gross": 2560,
+      "occupancy": "4.42%"
     },
     {
       "city": "New Delhi",
@@ -5500,10 +6124,10 @@
       "time": "11:15 PM",
       "audi": "AUDI 1",
       "totalSeats": 146,
-      "available": 136,
-      "sold": 10,
-      "gross": 3300,
-      "occupancy": "6.85%"
+      "available": 133,
+      "sold": 13,
+      "gross": 4290,
+      "occupancy": "8.90%"
     },
     {
       "city": "Vadodara",
@@ -5513,10 +6137,10 @@
       "time": "03:15 PM",
       "audi": "AUDI 1",
       "totalSeats": 146,
-      "available": 134,
-      "sold": 12,
-      "gross": 3600,
-      "occupancy": "8.22%"
+      "available": 136,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "6.85%"
     },
     {
       "city": "Bhubaneswar",
@@ -5530,6 +6154,175 @@
       "sold": 6,
       "gross": 2760,
       "occupancy": "4.55%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "10:00 AM",
+      "audi": "SCREEN6",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "02:00 PM",
+      "audi": "SCREEN6",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "06:00 PM",
+      "audi": "SCREEN6",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "MovieMax Laserplex Gulshan One 29 Mall, Noida",
+      "chain": "MovieMax",
+      "time": "10:00 PM",
+      "audi": "SCREEN6",
+      "totalSeats": 198,
+      "available": 198,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "03:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 365,
+      "available": 365,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "07:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 365,
+      "available": 365,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "07:45 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 365,
+      "available": 365,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "11:30 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 365,
+      "available": 365,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "10:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 365,
+      "available": 365,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "09:45 AM",
+      "audi": "SCREEN 6",
+      "totalSeats": 211,
+      "available": 211,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "09:00 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 211,
+      "available": 211,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "01:30 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 199,
+      "available": 199,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "chain": "MovieMax",
+      "time": "05:15 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 211,
+      "available": 211,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Avatar: Fire and Ash [IMAX 3D | English]": [
@@ -5567,10 +6360,10 @@
       "time": "06:30 PM",
       "audi": "SCREEN 1",
       "totalSeats": 414,
-      "available": 59,
-      "sold": 355,
-      "gross": 198090,
-      "occupancy": "85.75%"
+      "available": 56,
+      "sold": 358,
+      "gross": 199764,
+      "occupancy": "86.47%"
     },
     {
       "city": "Chennai",
@@ -5593,10 +6386,10 @@
       "time": "07:00 AM",
       "audi": "IMAX 4",
       "totalSeats": 243,
-      "available": 232,
-      "sold": 11,
-      "gross": 5170,
-      "occupancy": "4.53%"
+      "available": 228,
+      "sold": 15,
+      "gross": 7050,
+      "occupancy": "6.17%"
     },
     {
       "city": "Kolkata",
@@ -5619,10 +6412,10 @@
       "time": "07:15 PM",
       "audi": "IMAX 4",
       "totalSeats": 243,
-      "available": 234,
-      "sold": 9,
-      "gross": 5760,
-      "occupancy": "3.70%"
+      "available": 231,
+      "sold": 12,
+      "gross": 7680,
+      "occupancy": "4.94%"
     },
     {
       "city": "Kolkata",
@@ -5632,10 +6425,10 @@
       "time": "03:10 PM",
       "audi": "IMAX 4",
       "totalSeats": 243,
-      "available": 197,
-      "sold": 46,
-      "gross": 29440,
-      "occupancy": "18.93%"
+      "available": 188,
+      "sold": 55,
+      "gross": 35200,
+      "occupancy": "22.63%"
     },
     {
       "city": "Kolkata",
@@ -5645,10 +6438,10 @@
       "time": "11:05 AM",
       "audi": "IMAX 4",
       "totalSeats": 243,
-      "available": 199,
-      "sold": 44,
-      "gross": 22880,
-      "occupancy": "18.11%"
+      "available": 191,
+      "sold": 52,
+      "gross": 27040,
+      "occupancy": "21.40%"
     },
     {
       "city": "Mumbai",
@@ -5697,10 +6490,10 @@
       "time": "11:15 AM",
       "audi": "IMAX 5",
       "totalSeats": 327,
-      "available": 320,
-      "sold": 7,
-      "gross": 3010,
-      "occupancy": "2.14%"
+      "available": 316,
+      "sold": 11,
+      "gross": 4730,
+      "occupancy": "3.36%"
     },
     {
       "city": "Mumbai",
@@ -5710,10 +6503,10 @@
       "time": "03:15 PM",
       "audi": "IMAX 5",
       "totalSeats": 327,
-      "available": 325,
-      "sold": 2,
-      "gross": 1360,
-      "occupancy": "0.61%"
+      "available": 323,
+      "sold": 4,
+      "gross": 2720,
+      "occupancy": "1.22%"
     },
     {
       "city": "Mumbai",
@@ -5736,10 +6529,10 @@
       "time": "03:15 PM",
       "audi": "IMAX",
       "totalSeats": 383,
-      "available": 374,
-      "sold": 9,
-      "gross": 10410,
-      "occupancy": "2.35%"
+      "available": 370,
+      "sold": 13,
+      "gross": 13650,
+      "occupancy": "3.39%"
     },
     {
       "city": "Mumbai",
@@ -5775,10 +6568,10 @@
       "time": "11:15 AM",
       "audi": "IMAX",
       "totalSeats": 383,
-      "available": 374,
-      "sold": 9,
-      "gross": 5040,
-      "occupancy": "2.35%"
+      "available": 368,
+      "sold": 15,
+      "gross": 8620,
+      "occupancy": "3.92%"
     },
     {
       "city": "Mumbai",
@@ -5790,7 +6583,7 @@
       "totalSeats": 247,
       "available": 243,
       "sold": 4,
-      "gross": 3160,
+      "gross": 4200,
       "occupancy": "1.62%"
     },
     {
@@ -5816,7 +6609,7 @@
       "totalSeats": 247,
       "available": 233,
       "sold": 14,
-      "gross": 8160,
+      "gross": 10960,
       "occupancy": "5.67%"
     },
     {
@@ -5905,10 +6698,10 @@
       "time": "10:40 AM",
       "audi": "AUDI 5",
       "totalSeats": 430,
-      "available": 98,
-      "sold": 332,
-      "gross": 185256,
-      "occupancy": "77.21%"
+      "available": 96,
+      "sold": 334,
+      "gross": 186372,
+      "occupancy": "77.67%"
     },
     {
       "city": "Chennai",
@@ -5944,10 +6737,10 @@
       "time": "10:55 PM",
       "audi": "AUDI 5",
       "totalSeats": 430,
-      "available": 116,
-      "sold": 314,
-      "gross": 175212,
-      "occupancy": "73.02%"
+      "available": 113,
+      "sold": 317,
+      "gross": 176886,
+      "occupancy": "73.72%"
     },
     {
       "city": "Mumbai",
@@ -5970,10 +6763,10 @@
       "time": "06:45 PM",
       "audi": "SCREEN 1",
       "totalSeats": 289,
-      "available": 289,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 283,
+      "sold": 6,
+      "gross": 4020,
+      "occupancy": "2.08%"
     },
     {
       "city": "Mumbai",
@@ -5996,10 +6789,10 @@
       "time": "10:45 AM",
       "audi": "SCREEN 1",
       "totalSeats": 289,
-      "available": 287,
-      "sold": 2,
-      "gross": 840,
-      "occupancy": "0.69%"
+      "available": 282,
+      "sold": 7,
+      "gross": 2940,
+      "occupancy": "2.42%"
     },
     {
       "city": "Ahmedabad",
@@ -6074,10 +6867,10 @@
       "time": "11:15 AM",
       "audi": "IMAX 3",
       "totalSeats": 279,
-      "available": 278,
-      "sold": 1,
-      "gross": 510,
-      "occupancy": "0.36%"
+      "available": 273,
+      "sold": 6,
+      "gross": 3160,
+      "occupancy": "2.15%"
     },
     {
       "city": "Mumbai",
@@ -6100,10 +6893,10 @@
       "time": "03:15 PM",
       "audi": "IMAX 3",
       "totalSeats": 279,
-      "available": 279,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 277,
+      "sold": 2,
+      "gross": 1440,
+      "occupancy": "0.72%"
     },
     {
       "city": "Mumbai",
@@ -6139,10 +6932,10 @@
       "time": "03:15 PM",
       "audi": "IMAX 7",
       "totalSeats": 254,
-      "available": 252,
-      "sold": 2,
-      "gross": 1400,
-      "occupancy": "0.79%"
+      "available": 245,
+      "sold": 9,
+      "gross": 6300,
+      "occupancy": "3.54%"
     },
     {
       "city": "Pune",
@@ -6152,10 +6945,10 @@
       "time": "11:15 AM",
       "audi": "IMAX 7",
       "totalSeats": 254,
-      "available": 251,
-      "sold": 3,
-      "gross": 1650,
-      "occupancy": "1.18%"
+      "available": 230,
+      "sold": 24,
+      "gross": 13200,
+      "occupancy": "9.45%"
     },
     {
       "city": "Pune",
@@ -6178,10 +6971,10 @@
       "time": "07:15 PM",
       "audi": "IMAX 7",
       "totalSeats": 254,
-      "available": 253,
-      "sold": 1,
-      "gross": 700,
-      "occupancy": "0.39%"
+      "available": 246,
+      "sold": 8,
+      "gross": 5600,
+      "occupancy": "3.15%"
     },
     {
       "city": "Pune",
@@ -6204,10 +6997,10 @@
       "time": "03:15 PM",
       "audi": "IMAX 7",
       "totalSeats": 254,
-      "available": 252,
-      "sold": 2,
-      "gross": 1400,
-      "occupancy": "0.79%"
+      "available": 245,
+      "sold": 9,
+      "gross": 6300,
+      "occupancy": "3.54%"
     },
     {
       "city": "Pune",
@@ -6217,10 +7010,10 @@
       "time": "11:15 AM",
       "audi": "IMAX 7",
       "totalSeats": 254,
-      "available": 251,
-      "sold": 3,
-      "gross": 1650,
-      "occupancy": "1.18%"
+      "available": 230,
+      "sold": 24,
+      "gross": 13200,
+      "occupancy": "9.45%"
     },
     {
       "city": "Pune",
@@ -6243,10 +7036,10 @@
       "time": "07:15 PM",
       "audi": "IMAX 7",
       "totalSeats": 254,
-      "available": 253,
-      "sold": 1,
-      "gross": 700,
-      "occupancy": "0.39%"
+      "available": 246,
+      "sold": 8,
+      "gross": 5600,
+      "occupancy": "3.15%"
     },
     {
       "city": "Pune",
@@ -6273,7 +7066,7 @@
       "totalSeats": 247,
       "available": 237,
       "sold": 10,
-      "gross": 6780,
+      "gross": 7780,
       "occupancy": "4.05%"
     },
     {
@@ -6459,6 +7252,110 @@
       "sold": 75,
       "gross": 7470,
       "occupancy": "13.86%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Sangam Cinemas 4K RGB Laser Dolby Atmos, Kilpauk, Chennai",
+      "chain": "Sangam",
+      "time": "10:50 PM",
+      "audi": "Sangam 4K RGB Laser Dolby Atmos",
+      "totalSeats": 887,
+      "available": 770,
+      "sold": 117,
+      "gross": 9173.6,
+      "occupancy": "13.19%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Sangam Cinemas 4K RGB Laser Dolby Atmos, Kilpauk, Chennai",
+      "chain": "Sangam",
+      "time": "10:00 AM",
+      "audi": "Sangam 4K RGB Laser Dolby Atmos",
+      "totalSeats": 887,
+      "available": 768,
+      "sold": 119,
+      "gross": 9541.2,
+      "occupancy": "13.42%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Sangam Cinemas 4K RGB Laser Dolby Atmos, Kilpauk, Chennai",
+      "chain": "Sangam",
+      "time": "02:10 PM",
+      "audi": "Sangam 4K RGB Laser Dolby Atmos",
+      "totalSeats": 887,
+      "available": 768,
+      "sold": 119,
+      "gross": 9541.2,
+      "occupancy": "13.42%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Sangam Cinemas 4K RGB Laser Dolby Atmos, Kilpauk, Chennai",
+      "chain": "Sangam",
+      "time": "06:30 PM",
+      "audi": "Sangam 4K RGB Laser Dolby Atmos",
+      "totalSeats": 887,
+      "available": 770,
+      "sold": 117,
+      "gross": 9173.6,
+      "occupancy": "13.19%"
+    },
+    {
+      "city": "Tirupur",
+      "state": "Tamil Nadu",
+      "venue": "Sivan Cinemas 3D Dolby Atmos, Weavers Colony, Tirupur",
+      "chain": "Sivan Theatre",
+      "time": "10:00 PM",
+      "audi": "Sivan Cinemas 3D Dolby Atmos",
+      "totalSeats": 731,
+      "available": 653,
+      "sold": 78,
+      "gross": 9360,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Tirupur",
+      "state": "Tamil Nadu",
+      "venue": "Sivan Cinemas 3D Dolby Atmos, Weavers Colony, Tirupur",
+      "chain": "Sivan Theatre",
+      "time": "02:15 PM",
+      "audi": "Sivan Cinemas 3D Dolby Atmos",
+      "totalSeats": 731,
+      "available": 653,
+      "sold": 78,
+      "gross": 9360,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Tirupur",
+      "state": "Tamil Nadu",
+      "venue": "Sivan Cinemas 3D Dolby Atmos, Weavers Colony, Tirupur",
+      "chain": "Sivan Theatre",
+      "time": "10:30 AM",
+      "audi": "Sivan Cinemas 3D Dolby Atmos",
+      "totalSeats": 731,
+      "available": 653,
+      "sold": 78,
+      "gross": 9360,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Tirupur",
+      "state": "Tamil Nadu",
+      "venue": "Sivan Cinemas 3D Dolby Atmos, Weavers Colony, Tirupur",
+      "chain": "Sivan Theatre",
+      "time": "06:15 PM",
+      "audi": "Sivan Cinemas 3D Dolby Atmos",
+      "totalSeats": 731,
+      "available": 653,
+      "sold": 78,
+      "gross": 9360,
+      "occupancy": "10.67%"
     }
   ],
   "Akhanda 2: Thaandavam [2D | Telugu]": [
@@ -6721,6 +7618,58 @@
       "sold": 53,
       "gross": 5300,
       "occupancy": "15.36%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lakshmi Talkies, Hindupur, Hindupuram",
+      "chain": "TicketNew",
+      "time": "11:30 AM",
+      "audi": "LAKSHMI TALKIES-HINDUPUR",
+      "totalSeats": 586,
+      "available": 464,
+      "sold": 122,
+      "gross": 19200,
+      "occupancy": "20.82%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lakshmi Talkies, Hindupur, Hindupuram",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "LAKSHMI TALKIES-HINDUPUR",
+      "totalSeats": 586,
+      "available": 464,
+      "sold": 122,
+      "gross": 19200,
+      "occupancy": "20.82%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lakshmi Talkies, Hindupur, Hindupuram",
+      "chain": "TicketNew",
+      "time": "02:45 PM",
+      "audi": "LAKSHMI TALKIES-HINDUPUR",
+      "totalSeats": 586,
+      "available": 464,
+      "sold": 122,
+      "gross": 19200,
+      "occupancy": "20.82%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Lakshmi Talkies, Hindupur, Hindupuram",
+      "chain": "TicketNew",
+      "time": "09:45 PM",
+      "audi": "LAKSHMI TALKIES-HINDUPUR",
+      "totalSeats": 586,
+      "available": 464,
+      "sold": 122,
+      "gross": 19200,
+      "occupancy": "20.82%"
     }
   ],
   "Anaconda [2D | Telugu]": [
@@ -6948,6 +7897,58 @@
       "sold": 30,
       "gross": 4440,
       "occupancy": "7.79%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Pallavi Keerthana Complex, Sambasiva Pet, Guntur",
+      "chain": "Pallavi Keerthana Complex",
+      "time": "11:15 AM",
+      "audi": "PALLAVI 7.1 Dolby Atmos",
+      "totalSeats": 538,
+      "available": 509,
+      "sold": 29,
+      "gross": 4263,
+      "occupancy": "5.39%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Pallavi Keerthana Complex, Sambasiva Pet, Guntur",
+      "chain": "Pallavi Keerthana Complex",
+      "time": "02:30 PM",
+      "audi": "PALLAVI 7.1 Dolby Atmos",
+      "totalSeats": 538,
+      "available": 509,
+      "sold": 29,
+      "gross": 4263,
+      "occupancy": "5.39%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Pallavi Keerthana Complex, Sambasiva Pet, Guntur",
+      "chain": "Pallavi Keerthana Complex",
+      "time": "09:30 PM",
+      "audi": "PALLAVI 7.1 Dolby Atmos",
+      "totalSeats": 538,
+      "available": 509,
+      "sold": 29,
+      "gross": 4263,
+      "occupancy": "5.39%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Pallavi Keerthana Complex, Sambasiva Pet, Guntur",
+      "chain": "Pallavi Keerthana Complex",
+      "time": "06:15 PM",
+      "audi": "PALLAVI 7.1 Dolby Atmos",
+      "totalSeats": 538,
+      "available": 509,
+      "sold": 29,
+      "gross": 4263,
+      "occupancy": "5.39%"
     }
   ],
   "Prajapati 2 [2D | Bengali]": [
@@ -6992,7 +7993,7 @@
     }
   ],
   "date": "2025-12-27",
-  "lastUpdated": "12:21 PM, 22 December 2025",
+  "lastUpdated": "03:13 PM, 22 December 2025",
   "45 [2D | Kannada]": [
     {
       "city": "Mahalingpur",
@@ -7097,6 +8098,58 @@
       "sold": 148,
       "gross": 22200,
       "occupancy": "54.01%"
+    },
+    {
+      "city": "Vijayapura",
+      "state": "Karnataka",
+      "venue": "Dreamland A/C Dolby Theatre, KSRTC Bustand Road, Vijayapura",
+      "chain": "TicketNew",
+      "time": "06:00 PM",
+      "audi": "Dreamland A/c Dolby Theatre",
+      "totalSeats": 478,
+      "available": 168,
+      "sold": 310,
+      "gross": 52000,
+      "occupancy": "64.85%"
+    },
+    {
+      "city": "Vijayapura",
+      "state": "Karnataka",
+      "venue": "Dreamland A/C Dolby Theatre, KSRTC Bustand Road, Vijayapura",
+      "chain": "TicketNew",
+      "time": "09:00 PM",
+      "audi": "Dreamland A/c Dolby Theatre",
+      "totalSeats": 478,
+      "available": 168,
+      "sold": 310,
+      "gross": 52000,
+      "occupancy": "64.85%"
+    },
+    {
+      "city": "Vijayapura",
+      "state": "Karnataka",
+      "venue": "Dreamland A/C Dolby Theatre, KSRTC Bustand Road, Vijayapura",
+      "chain": "TicketNew",
+      "time": "03:00 PM",
+      "audi": "Dreamland A/c Dolby Theatre",
+      "totalSeats": 478,
+      "available": 168,
+      "sold": 310,
+      "gross": 52000,
+      "occupancy": "64.85%"
+    },
+    {
+      "city": "Vijayapura",
+      "state": "Karnataka",
+      "venue": "Dreamland A/C Dolby Theatre, KSRTC Bustand Road, Vijayapura",
+      "chain": "TicketNew",
+      "time": "12:00 PM",
+      "audi": "Dreamland A/c Dolby Theatre",
+      "totalSeats": 478,
+      "available": 168,
+      "sold": 310,
+      "gross": 52000,
+      "occupancy": "64.85%"
     }
   ],
   "Champion [2D | Telugu]": [
@@ -7151,6 +8204,370 @@
       "sold": 42,
       "gross": 10050,
       "occupancy": "24.42%"
+    },
+    {
+      "city": "Medak",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sai Datta Picture Palace, Medak",
+      "chain": "Asian Mukta A2",
+      "time": "02:00 PM",
+      "audi": "Sai Datta Picture Palace",
+      "totalSeats": 515,
+      "available": 515,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Medak",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sai Datta Picture Palace, Medak",
+      "chain": "Asian Mukta A2",
+      "time": "09:00 PM",
+      "audi": "Sai Datta Picture Palace",
+      "totalSeats": 515,
+      "available": 515,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Medak",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sai Datta Picture Palace, Medak",
+      "chain": "Asian Mukta A2",
+      "time": "06:00 PM",
+      "audi": "Sai Datta Picture Palace",
+      "totalSeats": 515,
+      "available": 515,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Medak",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sai Datta Picture Palace, Medak",
+      "chain": "Asian Mukta A2",
+      "time": "11:00 AM",
+      "audi": "Sai Datta Picture Palace",
+      "totalSeats": 515,
+      "available": 515,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Nalgonda",
+      "state": "Telangana",
+      "venue": "Tirumala Theater, Sri Lakshmi Nagar Colony, Nalgonda",
+      "chain": "Tirumala",
+      "time": "06:15 PM",
+      "audi": "THIRUMALA THEATRE ",
+      "totalSeats": 572,
+      "available": 483,
+      "sold": 89,
+      "gross": 11125,
+      "occupancy": "15.56%"
+    },
+    {
+      "city": "Nalgonda",
+      "state": "Telangana",
+      "venue": "Tirumala Theater, Sri Lakshmi Nagar Colony, Nalgonda",
+      "chain": "Tirumala",
+      "time": "09:15 PM",
+      "audi": "THIRUMALA THEATRE ",
+      "totalSeats": 572,
+      "available": 483,
+      "sold": 89,
+      "gross": 11125,
+      "occupancy": "15.56%"
+    },
+    {
+      "city": "Nalgonda",
+      "state": "Telangana",
+      "venue": "Tirumala Theater, Sri Lakshmi Nagar Colony, Nalgonda",
+      "chain": "Tirumala",
+      "time": "02:15 PM",
+      "audi": "THIRUMALA THEATRE ",
+      "totalSeats": 572,
+      "available": 483,
+      "sold": 89,
+      "gross": 11125,
+      "occupancy": "15.56%"
+    },
+    {
+      "city": "Nalgonda",
+      "state": "Telangana",
+      "venue": "Tirumala Theater, Sri Lakshmi Nagar Colony, Nalgonda",
+      "chain": "Tirumala",
+      "time": "11:15 AM",
+      "audi": "THIRUMALA THEATRE ",
+      "totalSeats": 572,
+      "available": 483,
+      "sold": 89,
+      "gross": 11125,
+      "occupancy": "15.56%"
+    },
+    {
+      "city": "Tandur",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Shanth Mahal, Tandur",
+      "chain": "Asian Mukta A2",
+      "time": "06:00 PM",
+      "audi": "Shanth Mahal",
+      "totalSeats": 412,
+      "available": 412,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tandur",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Shanth Mahal, Tandur",
+      "chain": "Asian Mukta A2",
+      "time": "02:00 PM",
+      "audi": "Shanth Mahal",
+      "totalSeats": 412,
+      "available": 412,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tandur",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Shanth Mahal, Tandur",
+      "chain": "Asian Mukta A2",
+      "time": "11:00 AM",
+      "audi": "Shanth Mahal",
+      "totalSeats": 412,
+      "available": 412,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tandur",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Shanth Mahal, Tandur",
+      "chain": "Asian Mukta A2",
+      "time": "09:00 PM",
+      "audi": "Shanth Mahal",
+      "totalSeats": 412,
+      "available": 412,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "09:45 PM",
+      "audi": "SCREEN  1",
+      "totalSeats": 657,
+      "available": 622,
+      "sold": 35,
+      "gross": 6125,
+      "occupancy": "5.33%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "11:15 AM",
+      "audi": "SCREEN  1",
+      "totalSeats": 657,
+      "available": 622,
+      "sold": 35,
+      "gross": 6125,
+      "occupancy": "5.33%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "06:15 PM",
+      "audi": "SCREEN  1",
+      "totalSeats": 657,
+      "available": 622,
+      "sold": 35,
+      "gross": 6125,
+      "occupancy": "5.33%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "02:30 PM",
+      "audi": "SCREEN  1",
+      "totalSeats": 657,
+      "available": 622,
+      "sold": 35,
+      "gross": 6125,
+      "occupancy": "5.33%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Rajdhani Deluxe 2K Dolby 7.1, Dilsukhnagar, Hyderabad",
+      "chain": "Rajdhani Delux Theater",
+      "time": "06:15 PM",
+      "audi": "Rajdhani Deluxe 2K Dolby 7.1",
+      "totalSeats": 628,
+      "available": 580,
+      "sold": 48,
+      "gross": 8400,
+      "occupancy": "7.64%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Rajdhani Deluxe 2K Dolby 7.1, Dilsukhnagar, Hyderabad",
+      "chain": "Rajdhani Delux Theater",
+      "time": "02:15 PM",
+      "audi": "Rajdhani Deluxe 2K Dolby 7.1",
+      "totalSeats": 628,
+      "available": 580,
+      "sold": 48,
+      "gross": 8400,
+      "occupancy": "7.64%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Rajdhani Deluxe 2K Dolby 7.1, Dilsukhnagar, Hyderabad",
+      "chain": "Rajdhani Delux Theater",
+      "time": "09:15 PM",
+      "audi": "Rajdhani Deluxe 2K Dolby 7.1",
+      "totalSeats": 628,
+      "available": 580,
+      "sold": 48,
+      "gross": 8400,
+      "occupancy": "7.64%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Rajdhani Deluxe 2K Dolby 7.1, Dilsukhnagar, Hyderabad",
+      "chain": "Rajdhani Delux Theater",
+      "time": "11:15 AM",
+      "audi": "Rajdhani Deluxe 2K Dolby 7.1",
+      "totalSeats": 628,
+      "available": 580,
+      "sold": 48,
+      "gross": 8400,
+      "occupancy": "7.64%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "SVC Shiva Sakthi Theatre, Kapra, Hyderabad",
+      "chain": "SVC Sangeetha",
+      "time": "02:30 PM",
+      "audi": "SVC SHIVA SHAKTHI A/C DTS",
+      "totalSeats": 402,
+      "available": 336,
+      "sold": 66,
+      "gross": 9900,
+      "occupancy": "16.42%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "SVC Shiva Sakthi Theatre, Kapra, Hyderabad",
+      "chain": "SVC Sangeetha",
+      "time": "06:30 PM",
+      "audi": "SVC SHIVA SHAKTHI A/C DTS",
+      "totalSeats": 402,
+      "available": 336,
+      "sold": 66,
+      "gross": 9900,
+      "occupancy": "16.42%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "SVC Shiva Sakthi Theatre, Kapra, Hyderabad",
+      "chain": "SVC Sangeetha",
+      "time": "11:30 AM",
+      "audi": "SVC SHIVA SHAKTHI A/C DTS",
+      "totalSeats": 402,
+      "available": 336,
+      "sold": 66,
+      "gross": 9900,
+      "occupancy": "16.42%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "SVC Shiva Sakthi Theatre, Kapra, Hyderabad",
+      "chain": "SVC Sangeetha",
+      "time": "09:30 PM",
+      "audi": "SVC SHIVA SHAKTHI A/C DTS",
+      "totalSeats": 402,
+      "available": 336,
+      "sold": 66,
+      "gross": 9900,
+      "occupancy": "16.42%"
+    },
+    {
+      "city": "Khammam",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sri Sairam 70MM, Khammam",
+      "chain": "Asian Mukta A2",
+      "time": "09:30 PM",
+      "audi": "Sri Sairam",
+      "totalSeats": 631,
+      "available": 547,
+      "sold": 84,
+      "gross": 12600,
+      "occupancy": "13.31%"
+    },
+    {
+      "city": "Khammam",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sri Sairam 70MM, Khammam",
+      "chain": "Asian Mukta A2",
+      "time": "02:30 PM",
+      "audi": "Sri Sairam",
+      "totalSeats": 631,
+      "available": 547,
+      "sold": 84,
+      "gross": 12600,
+      "occupancy": "13.31%"
+    },
+    {
+      "city": "Khammam",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sri Sairam 70MM, Khammam",
+      "chain": "Asian Mukta A2",
+      "time": "11:15 AM",
+      "audi": "Sri Sairam",
+      "totalSeats": 631,
+      "available": 547,
+      "sold": 84,
+      "gross": 12600,
+      "occupancy": "13.31%"
+    },
+    {
+      "city": "Khammam",
+      "state": "Telangana",
+      "venue": "Asian Mukta A2 Cinemas, Sri Sairam 70MM, Khammam",
+      "chain": "Asian Mukta A2",
+      "time": "06:15 PM",
+      "audi": "Sri Sairam",
+      "totalSeats": 631,
+      "available": 547,
+      "sold": 84,
+      "gross": 12600,
+      "occupancy": "13.31%"
     }
   ],
   "Projapati 2 [2D | Bengali]": [
