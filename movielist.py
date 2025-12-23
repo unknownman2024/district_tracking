@@ -1,144 +1,170 @@
 import json
 import requests
 import os
-from datetime import datetime, timedelta
-from collections import defaultdict
+import re
+from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
-# ---------------------
+# =====================================================
 # CONFIG
-# ---------------------
-BASE_URL = "https://district24.pages.dev/Daily%20Boxoffice"
+# =====================================================
+BASE_URL = "https://district24.pages.dev/Daily%20Advance"
 OUTPUT_FILE = "movielist.json"
 
-# ---------------------
-# Helper Functions
-# ---------------------
-def date_range(start_date_str, end_date_str):
-    s = datetime.strptime(start_date_str, "%Y-%m-%d").date()
-    e = datetime.strptime(end_date_str, "%Y-%m-%d").date()
-    current = s
-    while current <= e:
-        yield current.isoformat()
-        current += timedelta(days=1)
+IST = timezone(timedelta(hours=5, minutes=30))
 
+# =====================================================
+# TIME HELPERS
+# =====================================================
+def today_ist():
+    return datetime.now(IST).date()
+
+# =====================================================
+# FETCH JSON
+# =====================================================
 def fetch_daily_json(date_str):
-    url = f"{BASE_URL}/{quote(date_str)}_Detailed.json"
+    url = f"{BASE_URL}/{quote(date_str)}.json"
     try:
-        resp = requests.get(url, timeout=15)
-        if resp.status_code == 200:
-            return resp.json()
+        r = requests.get(url, timeout=15)
+        if r.status_code == 200:
+            return r.json()
     except Exception:
         pass
     return None
 
-def summarize_movie_list(movie_data, movie_name, language):
-    shows = len(movie_data)
-    sold = sum(float(s.get("sold",0) or 0) for s in movie_data)
-    gross = sum(float(s.get("gross",0) or 0) for s in movie_data)
-    return {
-        "movie": movie_name,
-        "language": language,
-        "shows": shows,
-        "sold": sold,
-        "gross": gross
-    }
+# =====================================================
+# MOVIE KEY PARSER (OLD + NEW)
+# =====================================================
+def parse_movie_key(key):
+    """
+    Supports:
+    1) Dhurandhar | Hindi
+    2) Avatar: Fire and Ash [3D | Hindi]
+    3) Movie [Hindi]
+    """
 
-# ---------------------
-# Main Logic
-# ---------------------
-def build_movielist(start_date="2025-01-01"):
-    # load existing movielist if exists
-    movielist = {"last_updated": "", "movies": []}
+    key = key.strip()
+
+    # New format → Movie [Format | Language]
+    if "[" in key and "]" in key:
+        base = key.split("[", 1)[0].strip()
+        inside = key.split("[", 1)[1].split("]", 1)[0]
+        parts = [p.strip() for p in inside.split("|")]
+        lang = parts[-1]  # always LAST → ignore format
+        return base, lang
+
+    # Old format → Movie | Language
+    if "|" in key:
+        base, lang = [p.strip() for p in key.split("|", 1)]
+        return base, lang
+
+    return key, "Unknown"
+
+# =====================================================
+# MAIN BUILDER
+# =====================================================
+def build_movielist(start_date="2025-09-01"):
+
+    # ---------------------------------------------
+    # LOAD EXISTING FILE (SAFE MERGE)
+    # ---------------------------------------------
+    movie_dict = {}
+
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-                movielist = json.load(f)
+                old = json.load(f)
+                for m in old.get("movies", []):
+                    key = f'{m["movie"]}__{",".join(m["languages"])}'
+                    movie_dict[key] = {
+                        "movie": m["movie"],
+                        "languages": set(m["languages"]),
+                        "start": m["dates"][0],
+                        "end": m["dates"][1],
+                    }
         except Exception:
             pass
 
-    # build dict for easy lookup
-    movie_dict = {}
-    for m in movielist.get("movies", []):
-        key = m["movie"]
-        if key not in movie_dict:
-            movie_dict[key] = {
-                "languages": set(m["languages"]),
-                "dates": [m["dates"][0], m["dates"][-1]]
-            }
+    # ---------------------------------------------
+    # DATE RANGE
+    # ---------------------------------------------
+    start = datetime.strptime(start_date, "%Y-%m-%d").date()
+    end = today_ist() + timedelta(days=5)
 
-    # determine dates to check
-    today = datetime.now().date()
-    earliest_date = start_date
-    if movielist.get("movies"):
-        # skip dates already covered except today
-        all_dates = [d for m in movie_dict.values() for d in m["dates"]]
-        earliest_date = min(all_dates)
-    current_date = datetime.strptime(earliest_date, "%Y-%m-%d").date()
-    end_date = today
-
-    while current_date <= end_date:
-        date_str = current_date.isoformat()
-        # skip date if not today and already recorded
-        if current_date != today:
-            already = any(date_str >= m["dates"][0] and date_str <= m["dates"][-1] for m in movie_dict.values())
-            if already:
-                current_date += timedelta(days=1)
-                continue
+    current = start
+    while current <= end:
+        date_str = current.isoformat()
 
         data = fetch_daily_json(date_str)
         if not data:
-            current_date += timedelta(days=1)
+            current += timedelta(days=1)
             continue
 
-        for key, shows in data.items():
-            if key in ("date","lastUpdated"):
+        for raw_key in data.keys():
+            if raw_key in ("date", "lastUpdated"):
                 continue
-            parts = [p.strip() for p in key.split("|")]
-            base = parts[0]
-            lang = parts[1] if len(parts) > 1 else "Unknown"
 
-            if base not in movie_dict:
-                movie_dict[base] = {"languages": set(), "dates":[date_str,date_str]}
-            movie_dict[base]["languages"].add(lang)
-            # update dates
-            movie_dict[base]["dates"][0] = min(movie_dict[base]["dates"][0], date_str)
-            movie_dict[base]["dates"][1] = max(movie_dict[base]["dates"][1], date_str)
+            movie, lang = parse_movie_key(raw_key)
+            dict_key = f"{movie}__{lang}"
 
-        current_date += timedelta(days=1)
+            if dict_key not in movie_dict:
+                movie_dict[dict_key] = {
+                    "movie": movie,
+                    "languages": {lang},
+                    "start": date_str,
+                    "end": date_str,
+                }
+            else:
+                movie_dict[dict_key]["start"] = min(
+                    movie_dict[dict_key]["start"], date_str
+                )
+                movie_dict[dict_key]["end"] = max(
+                    movie_dict[dict_key]["end"], date_str
+                )
 
-    # convert movie_dict to list
-    movies_list = []
-    for name, info in movie_dict.items():
-        movies_list.append({
-            "movie": name,
-            "languages": sorted(list(info["languages"])),
-            "dates": [info["dates"][0], info["dates"][1]]
+        current += timedelta(days=1)
+
+    # ---------------------------------------------
+    # FINAL LIST
+    # ---------------------------------------------
+    movies = []
+    for info in movie_dict.values():
+        movies.append({
+            "movie": info["movie"],
+            "languages": sorted(info["languages"]),
+            "dates": [info["start"], info["end"]],
         })
 
-    # sort: latest release month first, then most languages, then release date
+    # ---------------------------------------------
+    # SORTING (SMART)
+    # ---------------------------------------------
     def sort_key(item):
-        # 1️⃣ Latest month of first available date
-        min_month = int(item["dates"][0].split("-")[1])
+        first = datetime.strptime(item["dates"][0], "%Y-%m-%d")
+        last = datetime.strptime(item["dates"][1], "%Y-%m-%d")
+        return (
+            -first.year,
+            -first.month,
+            -len(item["languages"]),
+            -(last - first).days
+        )
 
-        # 2️⃣ Number of languages descending
-        lang_count = len(item["languages"])
+    movies.sort(key=sort_key)
 
-        # 3️⃣ Most days available
-        first_date = datetime.strptime(item["dates"][0], "%Y-%m-%d")
-        last_date = datetime.strptime(item["dates"][-1], "%Y-%m-%d")
-        days_available = (last_date - first_date).days
+    # ---------------------------------------------
+    # SAVE
+    # ---------------------------------------------
+    final = {
+        "last_updated": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
+        "movies": movies
+    }
 
-        return (-min_month, -lang_count, -days_available)
-
-    movies_list.sort(key=sort_key)
-
-    # save
-    movielist = {"last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "movies": movies_list}
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(movielist, f, indent=2, ensure_ascii=False)
+        json.dump(final, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Saved {OUTPUT_FILE} ({len(movies_list)} movies)")
+    print(f"✅ Saved {OUTPUT_FILE} | Movies: {len(movies)}")
 
+# =====================================================
+# RUN
+# =====================================================
 if __name__ == "__main__":
     build_movielist(start_date="2025-09-01")
