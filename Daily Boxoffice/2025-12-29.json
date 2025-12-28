@@ -1,21 +1,21 @@
 {
   "date": "2025-12-29",
-  "lastUpdated": "04:11 AM, 29 December 2025",
+  "lastUpdated": "05:07 AM, 29 December 2025",
   "Tu Meri Main Tera Main Tera Tu Meri | Hindi": {
-    "shows": 3,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 826,
-    "venues": 2,
-    "cities": 2,
+    "shows": 16,
+    "gross": 9780,
+    "sold": 52,
+    "totalSeats": 3712,
+    "venues": 13,
+    "cities": 9,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 1.4,
     "details": [
       {
         "city": "Gandhidham",
         "state": "Gujarat",
-        "shows": 1,
+        "shows": 2,
         "gross": 0,
         "sold": 0,
         "venues": 1,
@@ -26,7 +26,84 @@
       {
         "city": "Bhavnagar",
         "state": "Gujarat",
+        "shows": 3,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
         "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 3,
+        "gross": 2470,
+        "sold": 19,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.32
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2400,
+        "sold": 8,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.88
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 3440,
+        "sold": 16,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.94
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 1,
+        "gross": 950,
+        "sold": 5,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.91
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 520,
+        "sold": 4,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.6
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
         "gross": 0,
         "sold": 0,
         "venues": 1,
@@ -37,15 +114,15 @@
     ]
   },
   "Dhurandhar | Hindi": {
-    "shows": 9,
-    "gross": 46010,
-    "sold": 179,
-    "totalSeats": 1976,
-    "venues": 9,
-    "cities": 4,
-    "fastfilling": 0,
+    "shows": 32,
+    "gross": 123670,
+    "sold": 439,
+    "totalSeats": 7341,
+    "venues": 30,
+    "cities": 12,
+    "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 9.06,
+    "occupancy": 5.98,
     "details": [
       {
         "city": "Karanja Lad",
@@ -61,59 +138,147 @@
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 4,
-        "gross": 14160,
-        "sold": 32,
-        "venues": 4,
+        "shows": 7,
+        "gross": 19970,
+        "sold": 69,
+        "venues": 6,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.91
+        "occupancy": 3.33
       },
       {
         "city": "Bengaluru",
         "state": "Karnataka",
-        "shows": 1,
-        "gross": 6940,
-        "sold": 26,
-        "venues": 1,
-        "fastfilling": 0,
+        "shows": 4,
+        "gross": 43710,
+        "sold": 100,
+        "venues": 3,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 18.84
+        "occupancy": 21.51
       },
       {
         "city": "Pune",
         "state": "Maharashtra",
-        "shows": 3,
-        "gross": 19510,
-        "sold": 85,
-        "venues": 3,
+        "shows": 6,
+        "gross": 26070,
+        "sold": 113,
+        "venues": 6,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 13.82
+        "occupancy": 8.14
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 2,
+        "gross": 4280,
+        "sold": 21,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.45
+      },
+      {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 11240,
+        "sold": 40,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.78
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 8880,
+        "sold": 34,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.82
+      },
+      {
+        "city": "Alwar",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 3520,
+        "sold": 20,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.99
+      },
+      {
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 600,
+        "sold": 6,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.5
+      },
+      {
+        "city": "Silvassa",
+        "state": "The Dadra And Nagar Haveli And Daman And Diu",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
   "Avatar: Fire and Ash | English": {
-    "shows": 8,
-    "gross": 186564,
-    "sold": 328,
-    "totalSeats": 1945,
-    "venues": 7,
-    "cities": 4,
+    "shows": 12,
+    "gross": 222544,
+    "sold": 398,
+    "totalSeats": 2888,
+    "venues": 10,
+    "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 16.86,
+    "occupancy": 13.78,
     "details": [
       {
         "city": "Bengaluru",
         "state": "Karnataka",
-        "shows": 4,
-        "gross": 96404,
-        "sold": 145,
+        "shows": 5,
+        "gross": 120304,
+        "sold": 185,
         "venues": 3,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 14.78
+        "occupancy": 17.05
       },
       {
         "city": "Kochi",
@@ -147,30 +312,133 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 24.02
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 11440,
+        "sold": 26,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.62
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 640,
+        "sold": 4,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.9
       }
     ]
   },
   "Avatar: Fire and Ash | Hindi": {
-    "shows": 1,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 400,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
+    "shows": 5,
+    "gross": 57395,
+    "sold": 145,
+    "totalSeats": 1014,
+    "venues": 5,
+    "cities": 3,
+    "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 14.3,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
+        "shows": 2,
+        "gross": 3150,
+        "sold": 21,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.52
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
         "shows": 1,
-        "gross": 0,
-        "sold": 0,
+        "gross": 11605,
+        "sold": 48,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
+        "occupancy": 45.28
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 42640,
+        "sold": 76,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 24.36
+      }
+    ]
+  },
+  "Anaconda | Hindi": {
+    "shows": 3,
+    "gross": 3360,
+    "sold": 17,
+    "totalSeats": 487,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 3.49,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 3360,
+        "sold": 17,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.09
+      }
+    ]
+  },
+  "Sarvam Maya | Malayalam": {
+    "shows": 3,
+    "gross": 12340,
+    "sold": 51,
+    "totalSeats": 553,
+    "venues": 3,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 9.22,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 12340,
+        "sold": 51,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.22
       }
     ]
   }
