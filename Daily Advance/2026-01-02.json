@@ -269,15 +269,15 @@
     ]
   },
   "Psych Siddhartha [2D | Telugu]": {
-    "shows": 9,
-    "gross": 39235,
-    "sold": 185,
-    "totalSeats": 2601,
-    "venues": 1,
-    "cities": 1,
+    "shows": 19,
+    "gross": 90745,
+    "sold": 685,
+    "totalSeats": 6207,
+    "venues": 5,
+    "cities": 5,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 7.11,
+    "occupancy": 11.04,
     "details": [
       {
         "city": "Vijayawada",
@@ -290,19 +290,78 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 7.11
+      },
+      {
+        "city": "Narasaraopet",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 2,
+        "gross": 8400,
+        "sold": 80,
+        "totalSeats": 762,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.5
+      },
+      {
+        "city": "Vuyyuru",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 23940,
+        "sold": 252,
+        "totalSeats": 1524,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 16.54
+      },
+      {
+        "city": "Tenali",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 2,
+        "gross": 5100,
+        "sold": 34,
+        "totalSeats": 516,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.59
+      },
+      {
+        "city": "Kavali",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 2,
+        "gross": 14070,
+        "sold": 134,
+        "totalSeats": 804,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 16.67
       }
     ],
     "Chain_details": [
       {
         "chain": "Suresh Production",
-        "venues": 1,
-        "shows": 9,
-        "gross": 39235,
-        "sold": 185,
-        "totalSeats": 2601,
+        "venues": 4,
+        "shows": 17,
+        "gross": 85645,
+        "sold": 651,
+        "totalSeats": 5691,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.11
+        "occupancy": 11.44
+      },
+      {
+        "chain": "Sangameswara Cinema",
+        "venues": 1,
+        "shows": 2,
+        "gross": 5100,
+        "sold": 34,
+        "totalSeats": 516,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.59
       }
     ]
   },
@@ -406,15 +465,15 @@
     ]
   },
   "Sarvam Maya [2D | Malayalam]": {
-    "shows": 14,
-    "gross": 14018.400000000001,
-    "sold": 108,
-    "totalSeats": 4826,
-    "venues": 3,
-    "cities": 3,
-    "fastfilling": 0,
+    "shows": 33,
+    "gross": 91289.4,
+    "sold": 631,
+    "totalSeats": 9411,
+    "venues": 7,
+    "cities": 7,
+    "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 2.24,
+    "occupancy": 6.7,
     "details": [
       {
         "city": "Kunnamkulam",
@@ -445,25 +504,73 @@
         "state": "Kerala",
         "venues": 1,
         "shows": 4,
-        "gross": 14018.400000000001,
-        "sold": 108,
+        "gross": 13369.400000000001,
+        "sold": 103,
         "totalSeats": 1552,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 6.96
+        "occupancy": 6.64
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 5,
+        "gross": 13480,
+        "sold": 50,
+        "totalSeats": 1150,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.35
+      },
+      {
+        "city": "Kozhinjampara",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
+        "gross": 62400,
+        "sold": 472,
+        "totalSeats": 920,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 51.3
+      },
+      {
+        "city": "Thrissur",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 5,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1690,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Kochi",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 5,
+        "gross": 2040,
+        "sold": 6,
+        "totalSeats": 825,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.73
       }
     ],
     "Chain_details": [
       {
         "chain": "TicketNew",
-        "venues": 1,
-        "shows": 6,
-        "gross": 0,
-        "sold": 0,
-        "totalSeats": 1446,
-        "fastfilling": 0,
+        "venues": 2,
+        "shows": 10,
+        "gross": 62400,
+        "sold": 472,
+        "totalSeats": 2366,
+        "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 19.95
       },
       {
         "chain": "Minerva Empire Cinemaz",
@@ -480,12 +587,23 @@
         "chain": "Abhilash Cinemas 4K",
         "venues": 1,
         "shows": 4,
-        "gross": 14018.400000000001,
-        "sold": 108,
+        "gross": 13369.400000000001,
+        "sold": 103,
         "totalSeats": 1552,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 6.96
+        "occupancy": 6.64
+      },
+      {
+        "chain": "PVR",
+        "venues": 3,
+        "shows": 15,
+        "gross": 15520,
+        "sold": 56,
+        "totalSeats": 3665,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.53
       }
     ]
   },
@@ -729,6 +847,181 @@
       }
     ]
   },
+  "Champion [2D | Telugu]": {
+    "shows": 6,
+    "gross": 23400,
+    "sold": 140,
+    "totalSeats": 2778,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 5.04,
+    "details": [
+      {
+        "city": "Narasaraopet",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 2,
+        "gross": 8400,
+        "sold": 80,
+        "totalSeats": 762,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.5
+      },
+      {
+        "city": "Tenali",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 15000,
+        "sold": 60,
+        "totalSeats": 2016,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.98
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Suresh Production",
+        "venues": 1,
+        "shows": 2,
+        "gross": 8400,
+        "sold": 80,
+        "totalSeats": 762,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.5
+      },
+      {
+        "chain": "Sangameswara Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 15000,
+        "sold": 60,
+        "totalSeats": 2016,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.98
+      }
+    ]
+  },
+  "Madham [2D | Telugu]": {
+    "shows": 4,
+    "gross": 166700,
+    "sold": 1420,
+    "totalSeats": 2228,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 4,
+    "housefull": 0,
+    "occupancy": 63.73,
+    "details": [
+      {
+        "city": "Rajahmundry",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 166700,
+        "sold": 1420,
+        "totalSeats": 2228,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 63.73
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Urvasi Complex",
+        "venues": 1,
+        "shows": 4,
+        "gross": 166700,
+        "sold": 1420,
+        "totalSeats": 2228,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 63.73
+      }
+    ]
+  },
+  "Joubone Amoni Kore 2 [2D | Assamese]": {
+    "shows": 4,
+    "gross": 12000,
+    "sold": 80,
+    "totalSeats": 632,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 12.66,
+    "details": [
+      {
+        "city": "Lakhimpur Assam",
+        "state": "Assam",
+        "venues": 1,
+        "shows": 4,
+        "gross": 12000,
+        "sold": 80,
+        "totalSeats": 632,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.66
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Gold",
+        "venues": 1,
+        "shows": 4,
+        "gross": 12000,
+        "sold": 80,
+        "totalSeats": 632,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.66
+      }
+    ]
+  },
+  "Avatar: Fire and Ash [3D | Telugu]": {
+    "shows": 2,
+    "gross": 5100,
+    "sold": 34,
+    "totalSeats": 516,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 6.59,
+    "details": [
+      {
+        "city": "Tenali",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 2,
+        "gross": 5100,
+        "sold": 34,
+        "totalSeats": 516,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.59
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Sangameswara Cinema",
+        "venues": 1,
+        "shows": 2,
+        "gross": 5100,
+        "sold": 34,
+        "totalSeats": 516,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.59
+      }
+    ]
+  },
   "date": "2026-01-02",
-  "lastUpdated": "12:24 PM, 29 December 2025"
+  "lastUpdated": "06:37 PM, 29 December 2025"
 }
