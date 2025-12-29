@@ -258,15 +258,15 @@
     ]
   },
   "Sarvam Maya [2D | Malayalam]": {
-    "shows": 14,
-    "gross": 13499.2,
-    "sold": 104,
-    "totalSeats": 4826,
-    "venues": 3,
-    "cities": 3,
-    "fastfilling": 0,
+    "shows": 28,
+    "gross": 76589.2,
+    "sold": 579,
+    "totalSeats": 8376,
+    "venues": 6,
+    "cities": 5,
+    "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 2.15,
+    "occupancy": 6.91,
     "details": [
       {
         "city": "Mukkam",
@@ -303,6 +303,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "venues": 2,
+        "shows": 10,
+        "gross": 690,
+        "sold": 3,
+        "totalSeats": 2630,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.11
+      },
+      {
+        "city": "Kozhinjampara",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
+        "gross": 62400,
+        "sold": 472,
+        "totalSeats": 920,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 51.3
       }
     ],
     "Chain_details": [
@@ -330,14 +354,25 @@
       },
       {
         "chain": "TicketNew",
-        "venues": 1,
-        "shows": 6,
-        "gross": 0,
-        "sold": 0,
-        "totalSeats": 1446,
+        "venues": 2,
+        "shows": 10,
+        "gross": 62400,
+        "sold": 472,
+        "totalSeats": 2366,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 19.95
+      },
+      {
+        "chain": "PVR",
+        "venues": 2,
+        "shows": 10,
+        "gross": 690,
+        "sold": 3,
+        "totalSeats": 2630,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 0.11
       }
     ]
   },
@@ -630,6 +665,44 @@
       }
     ]
   },
+  "45 [2D | Telugu]": {
+    "shows": 4,
+    "gross": 28000,
+    "sold": 280,
+    "totalSeats": 792,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 35.35,
+    "details": [
+      {
+        "city": "Kothapeta",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 28000,
+        "sold": 280,
+        "totalSeats": 792,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 35.35
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 4,
+        "gross": 28000,
+        "sold": 280,
+        "totalSeats": 792,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 35.35
+      }
+    ]
+  },
   "date": "2026-01-03",
-  "lastUpdated": "12:24 PM, 29 December 2025"
+  "lastUpdated": "03:15 PM, 29 December 2025"
 }
