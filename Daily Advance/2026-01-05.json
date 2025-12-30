@@ -1055,15 +1055,15 @@
     ]
   },
   "Dhurandhar [2D | Hindi]": {
-    "shows": 69,
+    "shows": 72,
     "gross": 754849,
     "sold": 6153,
-    "totalSeats": 17513,
-    "venues": 18,
-    "cities": 15,
+    "totalSeats": 17723,
+    "venues": 19,
+    "cities": 16,
     "fastfilling": 11,
     "housefull": 1,
-    "occupancy": 35.13,
+    "occupancy": 34.72,
     "details": [
       {
         "city": "Amangal",
@@ -1244,6 +1244,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 11.58
+      },
+      {
+        "city": "Khopoli",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 3,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 210,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -1348,14 +1360,14 @@
       },
       {
         "chain": "Gold",
-        "venues": 2,
-        "shows": 5,
+        "venues": 3,
+        "shows": 8,
         "gross": 21000,
         "sold": 75,
-        "totalSeats": 559,
+        "totalSeats": 769,
         "fastfilling": 0,
         "housefull": 1,
-        "occupancy": 13.42
+        "occupancy": 9.75
       },
       {
         "chain": "Vasavi Theatre",
@@ -1714,15 +1726,15 @@
     ]
   },
   "Ikkis [2D | Hindi]": {
-    "shows": 28,
-    "gross": 116760,
-    "sold": 940,
-    "totalSeats": 5011,
-    "venues": 6,
-    "cities": 6,
+    "shows": 36,
+    "gross": 130680,
+    "sold": 998,
+    "totalSeats": 6195,
+    "venues": 8,
+    "cities": 8,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 18.76,
+    "occupancy": 16.11,
     "details": [
       {
         "city": "Jabalpur",
@@ -1795,6 +1807,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 6,
+        "gross": 13920,
+        "sold": 58,
+        "totalSeats": 1034,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.61
+      },
+      {
+        "city": "Khopoli",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 150,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -1844,14 +1880,25 @@
       },
       {
         "chain": "Gold",
-        "venues": 1,
-        "shows": 5,
+        "venues": 2,
+        "shows": 7,
         "gross": 0,
         "sold": 0,
-        "totalSeats": 610,
+        "totalSeats": 760,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 6,
+        "gross": 13920,
+        "sold": 58,
+        "totalSeats": 1034,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.61
       }
     ]
   },
@@ -3735,15 +3782,15 @@
     ]
   },
   "Krantijyoti Vidyalay Marathi Madhyam [2D | Marathi]": {
-    "shows": 3,
+    "shows": 5,
     "gross": 45000,
     "sold": 225,
-    "totalSeats": 225,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 375,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 3,
-    "occupancy": 100,
+    "occupancy": 60,
     "details": [
       {
         "city": "Palghar",
@@ -3756,19 +3803,31 @@
         "fastfilling": 0,
         "housefull": 3,
         "occupancy": 100
+      },
+      {
+        "city": "Khopoli",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 150,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
       {
         "chain": "Gold",
-        "venues": 1,
-        "shows": 3,
+        "venues": 2,
+        "shows": 5,
         "gross": 45000,
         "sold": 225,
-        "totalSeats": 225,
+        "totalSeats": 375,
         "fastfilling": 0,
         "housefull": 3,
-        "occupancy": 100
+        "occupancy": 60
       }
     ]
   },
@@ -3887,5 +3946,5 @@
     ]
   },
   "date": "2026-01-05",
-  "lastUpdated": "12:18 AM, 31 December 2025"
+  "lastUpdated": "03:02 AM, 31 December 2025"
 }
