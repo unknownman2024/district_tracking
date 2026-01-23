@@ -1,0 +1,38 @@
+name: 31 Oct Auto Tracker
+
+on:
+  schedule:
+    - cron: "25 * * * *"  # Runs at the 30th minute of every hour (UTC)
+  workflow_dispatch:         # Manual trigger if needed
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 📦 Install dependencies
+        run: npm install --omit=dev
+
+      - name: 🚀 Run 31 Oct Adv Tracker
+        run: |
+          set -e
+          node 31octadv.py
+
+      - name: 💾 Commit & Push JSON
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "Auto Tracker Bot"
+          git add "Daily Advance/"
+          git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M')" || echo "No changes"
+          git pull --rebase --autostash || echo "Pull failed"
+          git push || echo "Nothing to push"

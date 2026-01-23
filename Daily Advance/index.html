@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Movie Comparison</title>
+    <style>
+      /* ========= Variables ========= */
+      :root {
+        --bg: #f6f7fb;
+        --text: #1b2430;
+        --muted: #5b6b7b;
+        --card: rgba(255, 255, 255, 0.72);
+        --card-strong: rgba(255, 255, 255, 0.9);
+        --border: rgba(15, 23, 42, 0.08);
+        --accent: #590073;
+        --accent-soft: rgba(11, 95, 255, 0.12);
+        --success: #1f8b4c;
+        --warning: #e69100;
+        --danger: #d93636;
+        --shadow: 0 6px 20px rgba(15, 23, 42, 0.12);
+        --shadow-sm: 0 3px 10px rgba(15, 23, 42, 0.08);
+        --radius: 14px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        background:
+          radial-gradient(1200px 800px at -10% -10%, #e8efff 0%, transparent 60%),
+          radial-gradient(1200px 800px at 110% 10%, #ffe9f0 0%, transparent 60%),
+          var(--bg);
+        color: var(--text);
+        padding: 28px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 22px;
+        font-size: clamp(22px, 3vw, 32px);
+        letter-spacing: 0.2px;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+      }
+
+      /* ========= Filters ========= */
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        margin: 0 auto 20px;
+        padding: 14px;
+        max-width: 1100px;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        backdrop-filter: blur(12px);
+        box-shadow: var(--shadow-sm);
+      }
+
+      input,
+      select {
+        padding: 10px 14px;
+        min-width: 200px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: var(--card-strong);
+        transition: .2s ease;
+      }
+
+      input:focus,
+      select:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 4px var(--accent-soft);
+        background: #fff;
+      }
+
+      input:disabled,
+      select:disabled {
+        opacity: .6;
+      }
+
+      /* ========= Table ========= */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(14px);
+      }
+
+      th,
+      td {
+        padding: 14px 12px;
+        text-align: center;
+        border-bottom: 1px solid var(--border);
+      }
+
+      th {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        font-weight: 600;
+        background: linear-gradient(180deg, #ffffffcc, #ffffffb0);
+        backdrop-filter: blur(10px);
+        box-shadow: inset 0 -1px 0 var(--border), 0 2px 6px rgba(0, 0, 0, 0.04);
+        cursor: pointer;
+      }
+
+      th.sort-asc::after {
+        content: " ▲";
+        color: var(--accent);
+      }
+
+      th.sort-desc::after {
+        content: " ▼";
+        color: var(--accent);
+      }
+
+      tbody tr:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.6);
+      }
+
+      tbody tr:nth-child(even) {
+        background: rgba(255, 255, 255, 0.8);
+      }
+
+      tbody tr:hover {
+        background: rgba(11, 95, 255, 0.08);
+        transform: scale(1.002);
+        transition: all .18s ease;
+      }
+
+      /* ========= Movie Links ========= */
+      .movie-name {
+        color: #b34747 !important;
+        /* light elegant maroon */
+        font-weight: 700;
+        text-decoration: none;
+        position: relative;
+        transition: color 0.25s ease;
+      }
+
+      .movie-name::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        /* thoda neeche underline */
+        width: 100%;
+        height: 2px;
+        background: currentColor;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.25s ease;
+        border-radius: 2px;
+      }
+
+      .movie-name:hover {
+        color: #8b2e2e !important;
+        /* darker maroon on hover */
+      }
+
+      .movie-name:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
+      /* ========= Occupancy ========= */
+      .occ-high {
+        color: var(--success);
+        font-weight: 600;
+      }
+
+      .occ-mid {
+        color: var(--warning);
+        font-weight: 600;
+      }
+
+      .occ-low {
+        color: var(--danger);
+        font-weight: 600;
+      }
+
+      /* ========= Sub Tables ========= */
+      .sub-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0 25px;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+      }
+
+      .sub-table th,
+      .sub-table td {
+        padding: 10px;
+        border-bottom: 1px solid var(--border);
+        text-align: center;
+      }
+
+.child-expand > td {
+  text-align: center;
+  padding: 20px;
+}
+
+.child-expand .sub-table {
+  width: 100%;       /* Full width */
+  margin: 0 auto;    /* Center */
+  border-collapse: collapse;
+}
+
+
+
+      h4 {
+        margin: 10px 0 8px;
+        font-size: 16px;
+        color: var(--accent);
+        font-weight: 700;
+      }
+
+      /* ========= UX ========= */
+      ::selection {
+        background: var(--accent-soft);
+      }
+
+      ::-webkit-scrollbar {
+        height: 10px;
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: rgba(15, 23, 42, 0.18);
+        border-radius: 999px;
+        border: 2px solid transparent;
+        background-clip: padding-box;
+      }
+
+      @media (max-width: 720px) {
+
+        th,
+        td {
+          padding: 12px 8px;
+          font-size: 14px;
+        }
+
+        input,
+        select {
+          min-width: 160px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🎬 Movie Comparison Dashboard</h1>
+    <!-- Filters -->
+    <div class="filters">
+      <select id="viewType">
+        <option value="movie">Movie Wise (Total)</option>
+        <option value="state">State Wise</option>
+        <option value="city">City Wise</option>
+        <option value="chain">Chain Wise</option>
+      </select>
+      <input type="text" id="searchBox" placeholder="🔍 Type to search" disabled />
+    </div>
+    <!-- Table -->
+    <table id="movieTable">
+      <thead>
+        <tr id="tableHeader"></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="placeholder" class="placeholder"></div>
+    <script>
+const params = new URLSearchParams(window.location.search);
+const date = params.get("date") || new Date().toISOString().slice(0, 10);
+const API_URL = `/Daily%20Advance/${date}.json`;
+const viewType = document.getElementById("viewType");
+const searchBox = document.getElementById("searchBox");
+const tableHeader = document.getElementById("tableHeader");
+const tbody = document.querySelector("#movieTable tbody");
+const placeholder = document.getElementById("placeholder");
+
+let allData = {};
+let currentData = [];
+let sortColumn = null;
+let sortDirection = 1;
+
+async function loadData() {
+    const res = await fetch(API_URL);
+    allData = await res.json();
+    renderTable();
+}
+
+function formatGross(val) {
+    return "₹ " + Number(val).toLocaleString("en-IN");
+}
+
+function occClass(val) {
+    if (val >= 50) return "occ-high";
+    if (val >= 20) return "occ-mid";
+    return "occ-low";
+}
+
+function getStateList() {
+    let stateCount = {};
+    Object.values(allData).forEach(movie => {
+        (movie.details || []).forEach(d => {
+            if (d.state) {
+                stateCount[d.state] = (stateCount[d.state] || 0) + 1;
+            }
+        });
+    });
+
+    // Sort states by movie count (desc)
+    return Object.entries(stateCount)
+        .sort((a, b) => b[1] - a[1])
+        .map(([state]) => state);
+}
+
+function setupStateFilter() {
+    // Remove old if exists
+    let old = document.getElementById("stateFilter");
+    if (old) old.remove();
+
+    if (viewType.value === "state") {
+        movieRow.innerHTML = `
+    <td class="state-name" style="cursor:pointer;">${row.state}</td>
+    <td>${formatGross(row.gross)}</td>
+    <td>${row.sold.toLocaleString()}</td>
+    <td>${row.shows.toLocaleString()}</td>
+    <td class="${occClass(row.occupancy)}">${row.occupancy.toFixed(2)}%</td>
+  `;
+
+        // Expand on click
+        movieRow.querySelector(".state-name").onclick = () => {
+            let already = tbody.querySelector(`#expand-${idx}`);
+            if (already) {
+                already.remove();
+                return;
+            }
+
+            // Collect movie-wise rows for this state
+            let movieRows = [];
+            Object.keys(allData).forEach(movie => {
+                (allData[movie].details || []).forEach(d => {
+                    if (d.state === row.state) {
+                        movieRows.push({
+                            movie,
+                            gross: d.gross,
+                            sold: d.sold,
+                            shows: d.shows,
+                            occupancy: d.occupancy
+                        });
+                    }
+                });
+            });
+            movieRows.sort((a, b) => b.gross - a.gross);
+
+            // Expand row
+            let expandRow = document.createElement("tr");
+            expandRow.id = `expand-${idx}`;
+            expandRow.classList.add("child-expand");
+            let td = document.createElement("td");
+td.colSpan = tableHeader.children.length;   // ✅ Dynamic colspan (total headers count)
+            td.style.background = "rgba(255,255,255,0.6)";
+            td.style.padding = "15px";
+
+            let innerTable = `<h4>🎬 Movies in ${row.state}</h4>
+      <table class="sub-table sortable">
+        <thead>
+          <tr>
+            <th>Movie</th>
+            <th>Gross</th>
+            <th>Sold</th>
+            <th>Shows</th>
+            <th>Occupancy</th>
+          </tr>
+        </thead><tbody>`;
+            movieRows.forEach(m => {
+                innerTable += `
+        <tr>
+          <td>${m.movie}</td>
+          <td>${formatGross(m.gross)}</td>
+          <td>${m.sold.toLocaleString()}</td>
+          <td>${m.shows.toLocaleString()}</td>
+          <td class="${occClass(m.occupancy)}">${m.occupancy.toFixed(2)}%</td>
+        </tr>`;
+            });
+            innerTable += "</tbody></table>";
+
+            td.innerHTML = innerTable;
+            expandRow.appendChild(td);
+            tbody.insertBefore(expandRow, movieRow.nextSibling);
+
+            enableMiniSorting(expandRow);
+        };
+    }
+}
+
+
+function renderTable() {
+    tbody.innerHTML = "";
+    tableHeader.innerHTML = "";
+    currentData = [];
+    placeholder.innerHTML = "";
+
+    let mode = viewType.value;
+    let searchVal = searchBox.value.trim().toLowerCase();
+
+    // Enable/Disable search box
+    searchBox.disabled = false;
+
+    if (mode === "movie") {
+        tableHeader.innerHTML = `
+    <th data-col="movie">Movie</th>
+    <th data-col="gross">Total Gross</th>
+    <th data-col="sold">Tickets Sold</th>
+    <th data-col="venues">Venues</th>
+    <th data-col="shows">Shows</th>
+    <th data-col="fastfilling">FF Shows</th>
+    <th data-col="housefull">HF Shows</th>
+    <th data-col="occupancy">Avg Occupancy</th>
+  `;
+
+
+        Object.keys(allData).forEach(movie => {
+            let m = allData[movie];
+
+            // check match in movie/state/city/chain
+            let hasMatch = !searchVal ||
+                movie.toLowerCase().includes(searchVal) ||
+                (m.details || []).some(d =>
+                    (d.state && d.state.toLowerCase().includes(searchVal)) ||
+                    (d.city && d.city.toLowerCase().includes(searchVal))
+                ) ||
+                (m.Chain_details || []).some(c =>
+                    c.chain && c.chain.toLowerCase().includes(searchVal)
+                );
+
+            if (hasMatch) {
+                currentData.push({
+                    movie,
+                    gross: m.gross || 0,
+                    sold: m.sold || 0,
+                    venues: m.venues || 0,
+                    shows: m.shows || 0,
+                    fastfilling: m.fastfilling || 0,
+                    housefull: m.housefull || 0,
+                    occupancy: m.occupancy || 0
+                });
+            }
+        });
+    }
+
+
+
+    // 🔹 STATE MODE
+    if (mode === "state") {
+        tableHeader.innerHTML = `
+    <th data-col="state">State</th>
+    <th data-col="gross">Total Gross</th>
+    <th data-col="sold">Tickets Sold</th>
+    <th data-col="shows">Shows</th>
+    <th data-col="occupancy">Avg Occupancy</th>
+  `;
+
+        let stateAgg = {};
+        Object.keys(allData).forEach(movie => {
+            (allData[movie].details || []).forEach(d => {
+                if (d.state) {
+                    if (!stateAgg[d.state]) {
+                        stateAgg[d.state] = {
+                            gross: 0,
+                            sold: 0,
+                            shows: 0,
+                            occWeighted: 0
+                        };
+                    }
+                    stateAgg[d.state].gross += d.gross || 0;
+                    stateAgg[d.state].sold += d.sold || 0;
+                    stateAgg[d.state].shows += d.shows || 0;
+                    if (d.shows > 0) {
+                        stateAgg[d.state].occWeighted += (d.occupancy || 0) * d.shows;
+                    }
+                }
+            });
+        });
+
+        currentData = Object.keys(stateAgg).map(st => ({
+                state: st,
+                gross: stateAgg[st].gross,
+                sold: stateAgg[st].sold,
+                shows: stateAgg[st].shows,
+                occupancy: stateAgg[st].shows > 0 ? stateAgg[st].occWeighted / stateAgg[st].shows : 0
+            }))
+            .filter(stObj => {
+                if (!searchVal) return true;
+
+                let search = searchVal.toLowerCase();
+                let stateName = stObj.state.toLowerCase();
+
+                // 1. direct state name match
+                if (stateName.includes(search)) return true;
+
+                let found = false;
+
+                // 2. city match inside this state
+                Object.keys(allData).forEach(movie => {
+                    (allData[movie].details || []).forEach(d => {
+                        if (d.state === stObj.state && d.city && d.city.toLowerCase().includes(search)) {
+                            found = true;
+                        }
+                    });
+                });
+                if (found) return true;
+
+                // 3. movie match inside this state
+                Object.keys(allData).forEach(movie => {
+                    if (movie.toLowerCase().includes(search)) {
+                        (allData[movie].details || []).forEach(d => {
+                            if (d.state === stObj.state) {
+                                found = true;
+                            }
+                        });
+                    }
+                });
+                return found;
+
+            });
+    }
+
+
+
+    // 🔹 CITY MODE
+    if (mode === "city") {
+        tableHeader.innerHTML = `
+    <th data-col="city">City</th>
+    <th data-col="state">State</th>
+    <th data-col="gross">Total Gross</th>
+    <th data-col="sold">Tickets Sold</th>
+    <th data-col="shows">Shows</th>
+    <th data-col="occupancy">Avg Occupancy</th>
+  `;
+
+        let cityAgg = {};
+
+        Object.keys(allData).forEach(movie => {
+            (allData[movie].details || []).forEach(d => {
+                if (d.city) {
+                    let key = d.city + "||" + (d.state || "");
+                    if (!cityAgg[key]) {
+                        cityAgg[key] = {
+                            city: d.city,
+                            state: d.state,
+                            gross: 0,
+                            sold: 0,
+                            shows: 0,
+                            occWeighted: 0,
+                            movies: new Set() // 👈 store movies for search
+                        };
+                    }
+                    cityAgg[key].gross += d.gross || 0;
+                    cityAgg[key].sold += d.sold || 0;
+                    cityAgg[key].shows += d.shows || 0;
+                    if (d.shows > 0) cityAgg[key].occWeighted += (d.occupancy || 0) * d.shows;
+                    cityAgg[key].movies.add(movie.toLowerCase()); // 👈 keep movie names
+                }
+            });
+        });
+
+        currentData = Object.values(cityAgg)
+            .filter(c => {
+                if (!searchVal) return true;
+                return (
+                    c.city.toLowerCase().includes(searchVal) ||
+                    (c.state && c.state.toLowerCase().includes(searchVal)) ||
+                    Array.from(c.movies).some(m => m.includes(searchVal)) // 👈 movie search
+                );
+            })
+            .map(c => ({
+                city: c.city,
+                state: c.state,
+                gross: c.gross,
+                sold: c.sold,
+                shows: c.shows,
+                occupancy: c.shows > 0 ? c.occWeighted / c.shows : 0
+            }));
+    }
+
+
+
+
+    // 🔹 CHAIN MODE
+    // 🔹 CHAIN MODE
+    if (mode === "chain") {
+        tableHeader.innerHTML = `
+    <th data-col="chain">Chain</th>
+    <th data-col="gross">Total Gross</th>
+    <th data-col="sold">Tickets Sold</th>
+    <th data-col="shows">Shows</th>
+    <th data-col="occupancy">Avg Occupancy</th>
+  `;
+
+        let chainAgg = {};
+
+        Object.keys(allData).forEach(movie => {
+            (allData[movie].Chain_details || []).forEach(c => {
+                if (c.chain) {
+                    if (!chainAgg[c.chain]) {
+                        chainAgg[c.chain] = {
+                            chain: c.chain,
+                            gross: 0,
+                            sold: 0,
+                            shows: 0,
+                            occWeighted: 0,
+                            movies: new Set(),
+                            states: new Set(),
+                            cities: new Set()
+                        };
+                    }
+                    chainAgg[c.chain].gross += c.gross || 0;
+                    chainAgg[c.chain].sold += c.sold || 0;
+                    chainAgg[c.chain].shows += c.shows || 0;
+                    if (c.shows > 0) chainAgg[c.chain].occWeighted += (c.occupancy || 0) * c.shows;
+
+                    chainAgg[c.chain].movies.add(movie.toLowerCase());
+                    if (c.state) chainAgg[c.chain].states.add(c.state.toLowerCase());
+                    if (c.city) chainAgg[c.chain].cities.add(c.city.toLowerCase());
+                }
+            });
+        });
+
+        currentData = Object.values(chainAgg)
+            .filter(c => {
+                if (!searchVal) return true;
+                return (
+                    c.chain.toLowerCase().includes(searchVal) ||
+                    Array.from(c.movies).some(m => m.includes(searchVal)) ||
+                    Array.from(c.states).some(s => s.includes(searchVal)) ||
+                    Array.from(c.cities).some(ct => ct.includes(searchVal))
+                );
+            })
+            .map(c => ({
+                chain: c.chain,
+                gross: c.gross,
+                sold: c.sold,
+                shows: c.shows,
+                occupancy: c.shows > 0 ? c.occWeighted / c.shows : 0
+            }));
+    }
+
+
+    if (currentData.length === 0) {
+        placeholder.innerHTML = "⚠️ No data found for your search.";
+        return;
+    }
+
+    // ✅ Default sort by gross (first load only)
+    // ✅ Always default sort by gross (descending) after render
+    currentData.sort((a, b) => (b.gross || 0) - (a.gross || 0));
+    sortColumn = "gross";
+    sortDirection = -1; // descending
+
+
+    renderRows();
+    enableSorting();
+}
+
+
+function renderRows() {
+    tbody.innerHTML = "";
+
+    currentData.forEach((row, idx) => {
+        let movieRow = document.createElement("tr");
+
+        // ================= Movie View =================
+        if (viewType.value === "movie") {
+            movieRow.innerHTML = `
+    <td class="movie-name" style="cursor:pointer;">${row.movie}</td>
+    <td>${formatGross(row.gross)}</td>
+    <td>${row.sold.toLocaleString()}</td>
+    <td>${row.venues.toLocaleString()}</td>
+    <td>${row.shows.toLocaleString()}</td>
+    <td>${row.fastfilling.toLocaleString()}</td>
+    <td>${row.housefull.toLocaleString()}</td>
+    <td class="${occClass(row.occupancy)}">${row.occupancy.toFixed(2)}%</td>
+  `;
+        }
+
+
+        // ================= State View =================
+        if (viewType.value === "state") {
+            movieRow.innerHTML = `
+        <td class="state-name" style="cursor:pointer; font-weight:bold;">${row.state}</td>
+        <td>${formatGross(row.gross)}</td>
+        <td>${row.sold.toLocaleString()}</td>
+        <td>${row.shows.toLocaleString()}</td>
+        <td class="${occClass(row.occupancy)}">${row.occupancy.toFixed(2)}%</td>
+      `;
+
+            // expand state → show movie wise breakdown
+            movieRow.querySelector(".state-name").onclick = () => {
+                let already = tbody.querySelector(`#expand-${idx}`);
+                if (already) {
+                    already.remove();
+                    return;
+                }
+
+                let movieRows = [];
+                Object.keys(allData).forEach(movie => {
+                    let gross = 0,
+                        sold = 0,
+                        shows = 0,
+                        occWeighted = 0;
+                    (allData[movie].details || []).forEach(d => {
+                        if (d.state === row.state) {
+                            gross += d.gross || 0;
+                            sold += d.sold || 0;
+                            shows += d.shows || 0;
+                            if (d.shows > 0) occWeighted += (d.occupancy || 0) * d.shows;
+                        }
+                    });
+                    if (shows > 0) {
+                        movieRows.push({
+                            movie,
+                            gross,
+                            sold,
+                            shows,
+                            occupancy: occWeighted / shows
+                        });
+                    }
+                });
+                movieRows.sort((a, b) => b.gross - a.gross);
+
+                let expandRow = document.createElement("tr");
+                expandRow.id = `expand-${idx}`;
+                expandRow.classList.add("child-expand");
+                let td = document.createElement("td");
+                td.colSpan = 5;
+                td.style.background = "#f8f8f8";
+                td.style.padding = "10px";
+
+                let inner = `<h4>🎬 Movies in ${row.state}</h4>
+<table class="sub-table sortable">
+  <thead>
+    <tr>
+      <th data-col="movie">Movie</th>
+      <th data-col="gross">Gross</th>
+      <th data-col="sold">Sold</th>
+      <th data-col="shows">Shows</th>
+      <th data-col="occupancy">Occupancy</th>
+    </tr>
+  </thead>
+  <tbody>`;
+
+
+                movieRows.forEach(m => {
+                    inner += `<tr>
+            <td>${m.movie}</td>
+            <td>${formatGross(m.gross)}</td>
+            <td>${m.sold.toLocaleString()}</td>
+            <td>${m.shows.toLocaleString()}</td>
+            <td class="${occClass(m.occupancy)}">${m.occupancy.toFixed(2)}%</td>
+          </tr>`;
+                });
+
+                inner += "</tbody></table>";
+                td.innerHTML = inner;
+                expandRow.appendChild(td);
+                tbody.insertBefore(expandRow, movieRow.nextSibling);
+
+                // ✅ enable sorting for this sub-table
+                enableMiniSorting(expandRow);
+            };
+
+        }
+
+        // ================= City View =================
+        if (viewType.value === "city") {
+            movieRow.innerHTML = `
+    <td class="city-name" style="cursor:pointer; font-weight:bold;">${row.city}</td>
+    <td>${row.state || "-"}</td>
+    <td>${formatGross(row.gross)}</td>
+    <td>${row.sold.toLocaleString()}</td>
+    <td>${row.shows.toLocaleString()}</td>
+    <td class="${occClass(row.occupancy)}">${row.occupancy.toFixed(2)}%</td>
+  `;
+
+            movieRow.querySelector(".city-name").onclick = () => {
+                let already = tbody.querySelector(`#expand-${idx}`);
+                if (already) {
+                    already.remove();
+                    return;
+                }
+
+                // collect movies for this city
+                let movieRows = [];
+                Object.keys(allData).forEach(movie => {
+                    let gross = 0,
+                        sold = 0,
+                        shows = 0,
+                        occWeighted = 0;
+                    (allData[movie].details || []).forEach(d => {
+                        if (d.city === row.city) {
+                            gross += d.gross || 0;
+                            sold += d.sold || 0;
+                            shows += d.shows || 0;
+                            if (d.shows > 0) occWeighted += (d.occupancy || 0) * d.shows;
+                        }
+                    });
+                    if (shows > 0) {
+                        movieRows.push({
+                            movie,
+                            gross,
+                            sold,
+                            shows,
+                            occupancy: occWeighted / shows
+                        });
+                    }
+                });
+                movieRows.sort((a, b) => b.gross - a.gross);
+
+                let expandRow = document.createElement("tr");
+                expandRow.id = `expand-${idx}`;
+                expandRow.classList.add("child-expand");
+                let td = document.createElement("td");
+                td.colSpan = 6;
+                td.style.background = "#f8f8f8";
+                td.style.padding = "10px";
+
+                let inner = `<h4>🎬 Movies in ${row.city}</h4>
+      <table class="sub-table sortable"><thead><tr>
+        <th data-col="movie">Movie</th>
+        <th data-col="gross">Gross</th>
+        <th data-col="sold">Sold</th>
+        <th data-col="shows">Shows</th>
+        <th data-col="occupancy">Occupancy</th>
+      </tr></thead><tbody>`;
+
+                movieRows.forEach(m => {
+                    inner += `<tr>
+        <td>${m.movie}</td>
+        <td>${formatGross(m.gross)}</td>
+        <td>${m.sold.toLocaleString()}</td>
+        <td>${m.shows.toLocaleString()}</td>
+        <td class="${occClass(m.occupancy)}">${m.occupancy.toFixed(2)}%</td>
+      </tr>`;
+                });
+
+                inner += "</tbody></table>";
+                td.innerHTML = inner;
+                expandRow.appendChild(td);
+                tbody.insertBefore(expandRow, movieRow.nextSibling);
+                enableMiniSorting(expandRow);
+            };
+        }
+
+
+        // ================= Chain View =================
+        if (viewType.value === "chain") {
+            movieRow.innerHTML = `
+    <td class="chain-name" style="cursor:pointer; font-weight:bold;">${row.chain}</td>
+    <td>${formatGross(row.gross)}</td>
+    <td>${row.sold.toLocaleString()}</td>
+    <td>${row.shows.toLocaleString()}</td>
+    <td class="${occClass(row.occupancy)}">${row.occupancy.toFixed(2)}%</td>
+  `;
+
+            movieRow.querySelector(".chain-name").onclick = () => {
+                let already = tbody.querySelector(`#expand-${idx}`);
+                if (already) {
+                    already.remove();
+                    return;
+                }
+
+                // collect movies for this chain
+                let movieRows = [];
+                Object.keys(allData).forEach(movie => {
+                    let gross = 0,
+                        sold = 0,
+                        shows = 0,
+                        occWeighted = 0;
+                    (allData[movie].Chain_details || []).forEach(c => {
+                        if (c.chain === row.chain) {
+                            gross += c.gross || 0;
+                            sold += c.sold || 0;
+                            shows += c.shows || 0;
+                            if (c.shows > 0) occWeighted += (c.occupancy || 0) * c.shows;
+                        }
+                    });
+                    if (shows > 0) {
+                        movieRows.push({
+                            movie,
+                            gross,
+                            sold,
+                            shows,
+                            occupancy: occWeighted / shows
+                        });
+                    }
+                });
+                movieRows.sort((a, b) => b.gross - a.gross);
+
+                let expandRow = document.createElement("tr");
+                expandRow.id = `expand-${idx}`;
+                expandRow.classList.add("child-expand");
+                let td = document.createElement("td");
+                td.colSpan = 5;
+                td.style.background = "#f8f8f8";
+                td.style.padding = "10px";
+
+                let inner = `<h4>🎬 Movies in ${row.chain}</h4>
+      <table class="sub-table sortable"><thead><tr>
+        <th data-col="movie">Movie</th>
+        <th data-col="gross">Gross</th>
+        <th data-col="sold">Sold</th>
+        <th data-col="shows">Shows</th>
+        <th data-col="occupancy">Occupancy</th>
+      </tr></thead><tbody>`;
+
+                movieRows.forEach(m => {
+                    inner += `<tr>
+        <td>${m.movie}</td>
+        <td>${formatGross(m.gross)}</td>
+        <td>${m.sold.toLocaleString()}</td>
+        <td>${m.shows.toLocaleString()}</td>
+        <td class="${occClass(m.occupancy)}">${m.occupancy.toFixed(2)}%</td>
+      </tr>`;
+                });
+
+                inner += "</tbody></table>";
+                td.innerHTML = inner;
+                expandRow.appendChild(td);
+                tbody.insertBefore(expandRow, movieRow.nextSibling);
+                enableMiniSorting(expandRow);
+            };
+        }
+
+
+        tbody.appendChild(movieRow);
+
+        // Movie View → Expand Movies (state/chain/city breakdowns)
+        if (viewType.value === "movie") {
+            movieRow.querySelector(".movie-name").onclick = () => {
+                let already = tbody.querySelector(`#expand-${idx}`);
+                if (already) {
+                    already.remove();
+                    return;
+                }
+
+                let movieData = allData[row.movie];
+
+                let expandRow = document.createElement("tr");
+                expandRow.id = `expand-${idx}`;
+                expandRow.classList.add("child-expand");
+                let td = document.createElement("td");
+                td.colSpan = tableHeader.children.length; // hamesha parent ke jitne columns hain utna cover karega
+                td.style.background = "rgba(255,255,255,0.6)";
+                td.style.padding = "15px";
+
+                // === State Table ===
+                let stateAgg = {};
+                (movieData.details || []).forEach(d => {
+                    if (d.state) {
+                        if (!stateAgg[d.state]) {
+                            stateAgg[d.state] = {
+                                state: d.state,
+                                gross: 0,
+                                sold: 0,
+                                shows: 0,
+                                occWeighted: 0,
+                                venues: 0,
+                                fastfilling: 0,
+                                housefull: 0
+                            };
+                        }
+                        stateAgg[d.state].gross += d.gross || 0;
+                        stateAgg[d.state].sold += d.sold || 0;
+                        stateAgg[d.state].shows += d.shows || 0;
+                        stateAgg[d.state].venues += d.venues || 0;
+                        stateAgg[d.state].fastfilling += d.fastfilling || 0;
+                        stateAgg[d.state].housefull += d.housefull || 0;
+                        if (d.shows > 0) stateAgg[d.state].occWeighted += (d.occupancy || 0) * d.shows;
+                    }
+                });
+                let stateRows = Object.values(stateAgg).map(s => ({
+                    ...s,
+                    occupancy: s.shows > 0 ? s.occWeighted / s.shows : 0
+                }));
+                stateRows.sort((a, b) => b.gross - a.gross);
+
+                let stateTable = `<h4>📍 State Wise</h4>
+<table class="sub-table sortable"><thead><tr>
+  <th>State</th><th>Gross</th><th>Sold</th>
+  <th>Venues</th><th>Shows</th><th>FF Shows</th><th>HF Shows</th>
+  <th>Occupancy</th>
+</tr></thead><tbody>`;
+
+                stateRows.forEach(s => {
+                    stateTable += `<tr>
+    <td>${s.state}</td>
+    <td>${formatGross(s.gross)}</td>
+    <td>${s.sold.toLocaleString()}</td>
+    <td>${s.venues.toLocaleString()}</td>
+    <td>${s.shows.toLocaleString()}</td>
+    <td>${s.fastfilling.toLocaleString()}</td>
+    <td>${s.housefull.toLocaleString()}</td>
+    <td class="${occClass(s.occupancy)}">${s.occupancy.toFixed(2)}%</td>
+  </tr>`;
+                });
+
+                stateTable += "</tbody></table>";
+
+                // === Chain Table ===
+                let chainRows = (movieData.Chain_details || []).slice().sort((a, b) => (b.gross || 0) - (a.gross || 0));
+                let chainTable = `<h4>🎟️ Chain Wise</h4>
+<table class="sub-table sortable"><thead><tr>
+  <th>Chain</th><th>Gross</th><th>Sold</th>
+  <th>Venues</th><th>Shows</th><th>FF Shows</th><th>HF Shows</th>
+  <th>Occupancy</th>
+</tr></thead><tbody>`;
+                chainRows.forEach(c => {
+                    chainTable += `<tr>
+    <td>${c.chain}</td>
+    <td>${formatGross(c.gross)}</td>
+    <td>${c.sold.toLocaleString()}</td>
+    <td>${(c.venues||0).toLocaleString()}</td>
+    <td>${c.shows.toLocaleString()}</td>
+    <td>${(c.fastfilling||0).toLocaleString()}</td>
+    <td>${(c.housefull||0).toLocaleString()}</td>
+    <td class="${occClass(c.occupancy)}">${c.occupancy.toFixed(2)}%</td>
+  </tr>`;
+                });
+
+                chainTable += "</tbody></table>";
+
+                // === City Table ===
+                let cityRows = (movieData.details || []).filter(d => d.city).sort((a, b) => (b.gross || 0) - (a.gross || 0));
+                let cityTable = `<h4>🏙️ City Wise</h4>
+<table class="sub-table sortable"><thead><tr>
+  <th>City</th><th>State</th><th>Gross</th><th>Sold</th>
+  <th>Venues</th><th>Shows</th><th>FF Shows</th><th>HF Shows</th>
+  <th>Occupancy</th>
+</tr></thead><tbody>`;
+                cityRows.forEach(d => {
+                    cityTable += `<tr>
+    <td>${d.city}</td>
+    <td>${d.state}</td>
+    <td>${formatGross(d.gross)}</td>
+    <td>${d.sold.toLocaleString()}</td>
+    <td>${(d.venues||0).toLocaleString()}</td>
+    <td>${d.shows.toLocaleString()}</td>
+    <td>${(d.fastfilling||0).toLocaleString()}</td>
+    <td>${(d.housefull||0).toLocaleString()}</td>
+    <td class="${occClass(d.occupancy)}">${d.occupancy.toFixed(2)}%</td>
+  </tr>`;
+                });
+
+                cityTable += "</tbody></table>";
+
+                td.innerHTML = stateTable + chainTable + cityTable;
+                expandRow.appendChild(td);
+                tbody.insertBefore(expandRow, movieRow.nextSibling);
+                enableMiniSorting(expandRow);
+            };
+        }
+    });
+}
+
+
+
+
+// Mini table sorting logic
+function enableMiniSorting(container) {
+    container.querySelectorAll(".sub-table.sortable").forEach(table => {
+        let ths = table.querySelectorAll("thead th");
+        let grossTh = Array.from(ths).find(th => th.getAttribute("data-col") === "gross");
+        if (grossTh) grossTh.classList.add("sort-desc"); // mark default
+
+        // normal click sorting logic
+        ths.forEach(th => {
+            th.onclick = () => {
+                let tbody = table.querySelector("tbody");
+                let col = th.getAttribute("data-col");
+                let rows = Array.from(tbody.querySelectorAll("tr"));
+                let asc = !th.classList.contains("sort-asc");
+
+                // reset
+                ths.forEach(h => h.classList.remove("sort-asc", "sort-desc"));
+                th.classList.add(asc ? "sort-asc" : "sort-desc");
+
+                rows.sort((a, b) => {
+                    let valA = a.children[th.cellIndex].innerText.replace(/[₹,%]/g, "").trim();
+                    let valB = b.children[th.cellIndex].innerText.replace(/[₹,%]/g, "").trim();
+                    let numA = parseFloat(valA.replace(/,/g, ""));
+                    let numB = parseFloat(valB.replace(/,/g, ""));
+                    if (!isNaN(numA) && !isNaN(numB)) {
+                        return asc ? numA - numB : numB - numA;
+                    }
+                    return asc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+                });
+
+                tbody.innerHTML = "";
+                rows.forEach(r => tbody.appendChild(r));
+            };
+        });
+    });
+}
+
+
+function enableSorting() {
+    document.querySelectorAll("#tableHeader th").forEach(th => {
+        th.onclick = () => {
+            let col = th.getAttribute("data-col");
+            if (sortColumn === col) sortDirection *= -1;
+            else {
+                sortColumn = col;
+                sortDirection = 1;
+            }
+            document.querySelectorAll("#tableHeader th").forEach(h => h.classList.remove("sort-asc", "sort-desc"));
+            th.classList.add(sortDirection === 1 ? "sort-asc" : "sort-desc");
+
+            currentData.sort((a, b) => {
+                let valA = a[col],
+                    valB = b[col];
+                if (!isNaN(valA) && !isNaN(valB)) return (valA - valB) * sortDirection;
+                return valA.toString().localeCompare(valB.toString()) * sortDirection;
+            });
+
+            renderRows();
+        };
+    });
+}
+
+viewType.addEventListener("change", () => {
+    searchBox.value = "";
+    sortColumn = null; // reset sort
+    renderTable();
+});
+
+searchBox.addEventListener("input", renderTable);
+
+loadData();
+    </script>
+  </body>
+</html>
