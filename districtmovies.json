@@ -106,7 +106,7 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(3)-17761570-f532-11f0-bb41-4f0e3da93433.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Visakhapatnam",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Visakhapatnam",
     "cityCount": 14
   },
   {
@@ -165,17 +165,6 @@
     "cityCount": 12
   },
   {
-    "movie": "Ikkis",
-    "language": "Hindi",
-    "movieCode": "mQlUno2sI",
-    "id": 173204,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/ikkis-8001d240-e4b2-11f0-9061-c9434541e0da.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chennai, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Patna, Surat",
-    "cityCount": 11
-  },
-  {
     "movie": "Mannu Kya Karegga?",
     "language": "Hindi",
     "movieCode": "O2AxrkvtIN",
@@ -187,25 +176,14 @@
     "cityCount": 11
   },
   {
-    "movie": "Magic Mushrooms",
-    "language": "Malayalam",
-    "movieCode": "oqIb_ftMwl",
-    "id": 210902,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster-5e6ef2a0-f3cd-11f0-b7b3-995591797081.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Guntur, Hyderabad, Kochi, Mangaluru, Mumbai",
-    "cityCount": 10
-  },
-  {
-    "movie": "Mercy",
+    "movie": "Ikkis",
     "language": "Hindi",
-    "movieCode": "pw5heUJqLp",
-    "id": 204016,
+    "movieCode": "mQlUno2sI",
+    "id": 173204,
     "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-a581b7f0-ea3a-11f0-82bc-f1eac1172aab-f282a3f0-f51d-11f0-920f-f5cb95541f0a.jpg",
-    "city": "Ahmedabad, Bhopal, Bhubaneswar, Chandigarh, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/ikkis-8001d240-e4b2-11f0-9061-c9434541e0da.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chennai, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Patna",
     "cityCount": 10
   },
   {
@@ -218,6 +196,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The%20Housemaid%20(1)-3a1d5280-ec7e-11f0-828b-4b1f23da399e.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Mumbai, Nagpur",
     "cityCount": 10
+  },
+  {
+    "movie": "Magic Mushrooms",
+    "language": "Malayalam",
+    "movieCode": "oqIb_ftMwl",
+    "id": 210902,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster-5e6ef2a0-f3cd-11f0-b7b3-995591797081.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Guntur, Hyderabad, Kochi, Mangaluru, Mumbai",
+    "cityCount": 9
   },
   {
     "movie": "Maharani",
@@ -239,6 +228,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mana-Shankara-Varaprasad-Garu-17337200-a33f-11f0-9e71-378784c47b3f-0fd5a320-e557-11f0-b3a1-4bd6da590aae.jpg",
     "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Goa, Guntur, Hyderabad, Mumbai, Visakhapatnam",
+    "cityCount": 9
+  },
+  {
+    "movie": "Mercy",
+    "language": "Hindi",
+    "movieCode": "pw5heUJqLp",
+    "id": 204016,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-a581b7f0-ea3a-11f0-82bc-f1eac1172aab-f282a3f0-f51d-11f0-920f-f5cb95541f0a.jpg",
+    "city": "Ahmedabad, Bhopal, Chandigarh, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
     "cityCount": 9
   },
   {
@@ -337,7 +337,18 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-35674ce0-d8e8-11f0-b537-3559512aba67.jpg",
-    "city": "Ahmedabad, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Surat",
+    "city": "Ahmedabad, Bhopal, Chandigarh, Gandhinagar, Jaipur, Nagpur, Surat",
+    "cityCount": 7
+  },
+  {
+    "movie": "Avatar: Fire and Ash",
+    "language": "English",
+    "movieCode": "ZijYCsa3f",
+    "id": 165236,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
+    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Kochi, Mangaluru, Mumbai",
     "cityCount": 7
   },
   {
@@ -382,17 +393,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait-Recovered%20(1)-dcba8170-c9fb-11f0-9414-21b2dff05f05.jpg",
     "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Surat",
-    "cityCount": 6
-  },
-  {
-    "movie": "Avatar: Fire and Ash",
-    "language": "English",
-    "movieCode": "ZijYCsa3f",
-    "id": 165236,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
-    "city": "Bangalore, Bengaluru, Hyderabad, Kochi, Mangaluru, Mumbai",
     "cityCount": 6
   },
   {
@@ -638,17 +638,6 @@
     "cityCount": 5
   },
   {
-    "movie": "28 Years Later: The Bone Temple",
-    "language": "English",
-    "movieCode": "wXqRiJBrgq",
-    "id": 203951,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/28-Years_Poster-f5124840-f127-11f0-aba2-d17efd68172f.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Hyderabad",
-    "cityCount": 4
-  },
-  {
     "movie": "Band Baaja Baaraat",
     "language": "Hindi",
     "movieCode": "k3O4WoVs4",
@@ -779,6 +768,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Vrussbha%20(1)-c02b7e30-bf9a-11f0-aad2-f9d7b8ab573e-be88f590-df06-11f0-9596-8dd0fc88c82b.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Visakhapatnam",
     "cityCount": 4
+  },
+  {
+    "movie": "28 Years Later: The Bone Temple",
+    "language": "English",
+    "movieCode": "wXqRiJBrgq",
+    "id": 203951,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/28-Years_Poster-f5124840-f127-11f0-aba2-d17efd68172f.jpg",
+    "city": "Bangalore, Bengaluru, Chennai",
+    "cityCount": 3
   },
   {
     "movie": "28 Years Later: The Bone Temple",
@@ -2475,6 +2475,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Laalo - Krishna Sada Sahaayate",
+    "language": "Hindi",
+    "movieCode": "1pogmyWjtJ",
+    "id": 204602,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Krishna-Sada-Sahaayate-5ad38720-e7be-11f0-a607-61ea02f10667.jpg",
+    "city": "Jaipur, Kolkata",
+    "cityCount": 2
+  },
+  {
     "movie": "Lokah Chapter 1: Chandra",
     "language": "Tamil",
     "movieCode": "rg2FWCmC~G",
@@ -2657,7 +2668,7 @@
     "id": 167249,
     "runtime": 134,
     "rating": "UA 13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sky-force_Potser-57659880-d81a-11ef-b68a-217a8a741140.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sky1-a9defe50-e551-11ef-b243-a1b813d1dc02.jpg",
     "city": "Bangalore, Bengaluru",
     "cityCount": 2
   },
@@ -7560,7 +7571,7 @@
     "id": 163623,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein3-d255b4e0-fb37-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-a78e5230-fb37-11ef-943b-b3723efa3f38.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -8258,6 +8269,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Hot Spot",
+    "language": "Tamil",
+    "movieCode": "PsLoFgN4Bm",
+    "id": 171401,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Hot-Spot---608x800-5bd4a3a0-ec13-11ee-be5f-7b4a82c5f7e3.jpg",
+    "city": "Chennai",
+    "cityCount": 1
+  },
+  {
     "movie": "Kattemar",
     "language": "Tulu",
     "movieCode": "DWP7pSjGGK",
@@ -8584,17 +8606,6 @@
     "runtime": 134,
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/lal-singh%20(1)-2a3a27d0-a462-11f0-924e-9f4458e01db6.jpg",
-    "city": "Kolkata",
-    "cityCount": 1
-  },
-  {
-    "movie": "Laalo - Krishna Sada Sahaayate",
-    "language": "Hindi",
-    "movieCode": "1pogmyWjtJ",
-    "id": 204602,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Krishna-Sada-Sahaayate-5ad38720-e7be-11f0-a607-61ea02f10667.jpg",
     "city": "Kolkata",
     "cityCount": 1
   },
@@ -9892,7 +9903,7 @@
     "id": 169393,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/PADDINGTON-IN-PERU2-25983c20-fb3f-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Paddington1-7af7eec0-1a9a-11f0-b2bf-d9c854ed10fa.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
