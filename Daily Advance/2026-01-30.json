@@ -38,15 +38,15 @@
     ]
   },
   "Border 2 [2D | Hindi]": {
-    "shows": 7,
+    "shows": 11,
     "gross": 79650,
     "sold": 315,
-    "totalSeats": 1876,
-    "venues": 3,
-    "cities": 3,
+    "totalSeats": 5316,
+    "venues": 4,
+    "cities": 4,
     "fastfilling": 3,
     "housefull": 0,
-    "occupancy": 16.79,
+    "occupancy": 5.93,
     "details": [
       {
         "city": "Bhusawal",
@@ -83,6 +83,18 @@
         "fastfilling": 3,
         "housefull": 0,
         "occupancy": 75
+      },
+      {
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 3440,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -118,6 +130,17 @@
         "fastfilling": 3,
         "housefull": 0,
         "occupancy": 75
+      },
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 3440,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -401,5 +424,5 @@
     ]
   },
   "date": "2026-01-30",
-  "lastUpdated": "06:34 PM, 25 January 2026"
+  "lastUpdated": "09:04 PM, 25 January 2026"
 }
