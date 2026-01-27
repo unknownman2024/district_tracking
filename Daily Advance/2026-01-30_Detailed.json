@@ -712,10 +712,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN 1",
       "totalSeats": 365,
-      "available": 365,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 361,
+      "sold": 4,
+      "gross": 1320,
+      "occupancy": "1.10%"
     },
     {
       "city": "Pune",
@@ -907,10 +907,10 @@
       "time": "01:00 PM",
       "audi": "SCREEN2",
       "totalSeats": 545,
-      "available": 541,
-      "sold": 4,
-      "gross": 1160,
-      "occupancy": "0.73%"
+      "available": 544,
+      "sold": 1,
+      "gross": 290,
+      "occupancy": "0.18%"
     },
     {
       "city": "Ghaziabad",
@@ -1271,10 +1271,10 @@
       "time": "01:00 PM",
       "audi": "SCREEN2",
       "totalSeats": 545,
-      "available": 541,
-      "sold": 4,
-      "gross": 1160,
-      "occupancy": "0.73%"
+      "available": 544,
+      "sold": 1,
+      "gross": 290,
+      "occupancy": "0.18%"
     },
     {
       "city": "Nagpur",
@@ -1804,10 +1804,10 @@
       "time": "09:45 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 627,
-      "sold": 235,
-      "gross": 66000,
-      "occupancy": "27.26%"
+      "available": 625,
+      "sold": 237,
+      "gross": 66500,
+      "occupancy": "27.49%"
     },
     {
       "city": "Jaipur",
@@ -1817,10 +1817,10 @@
       "time": "06:00 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 622,
-      "sold": 240,
-      "gross": 68000,
-      "occupancy": "27.84%"
+      "available": 624,
+      "sold": 238,
+      "gross": 67500,
+      "occupancy": "27.61%"
     },
     {
       "city": "Jaipur",
@@ -1830,10 +1830,10 @@
       "time": "02:15 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 627,
-      "sold": 235,
-      "gross": 66000,
-      "occupancy": "27.26%"
+      "available": 624,
+      "sold": 238,
+      "gross": 66750,
+      "occupancy": "27.61%"
     },
     {
       "city": "Jaipur",
@@ -1934,10 +1934,10 @@
       "time": "09:35 PM",
       "audi": "SCREEN 5",
       "totalSeats": 263,
-      "available": 261,
-      "sold": 2,
-      "gross": 680,
-      "occupancy": "0.76%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Agra",
@@ -1973,10 +1973,10 @@
       "time": "05:45 PM",
       "audi": "MEHER CINEMAS",
       "totalSeats": 584,
-      "available": 384,
-      "sold": 200,
-      "gross": 27360,
-      "occupancy": "34.25%"
+      "available": 380,
+      "sold": 204,
+      "gross": 28080,
+      "occupancy": "34.93%"
     },
     {
       "city": "Agra",
@@ -1999,10 +1999,10 @@
       "time": "01:55 PM",
       "audi": "SCREEN 1",
       "totalSeats": 325,
-      "available": 313,
-      "sold": 12,
-      "gross": 4200,
-      "occupancy": "3.69%"
+      "available": 312,
+      "sold": 13,
+      "gross": 4550,
+      "occupancy": "4.00%"
     },
     {
       "city": "Patna",
@@ -2146,6 +2146,110 @@
       "sold": 10,
       "gross": 3000,
       "occupancy": "5.49%"
+    },
+    {
+      "city": "Haldwani",
+      "state": "Uttarakhand",
+      "venue": "Laxmi Cineplex, Rampur Road, Haldwani",
+      "chain": "Laxmi Cineplex",
+      "time": "08:45 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 48,
+      "available": 9,
+      "sold": 39,
+      "gross": 11700,
+      "occupancy": "81.25%"
+    },
+    {
+      "city": "Haldwani",
+      "state": "Uttarakhand",
+      "venue": "Laxmi Cineplex, Rampur Road, Haldwani",
+      "chain": "Laxmi Cineplex",
+      "time": "12:45 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 48,
+      "available": 9,
+      "sold": 39,
+      "gross": 11700,
+      "occupancy": "81.25%"
+    },
+    {
+      "city": "Haldwani",
+      "state": "Uttarakhand",
+      "venue": "Laxmi Cineplex, Rampur Road, Haldwani",
+      "chain": "Laxmi Cineplex",
+      "time": "04:45 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 48,
+      "available": 9,
+      "sold": 39,
+      "gross": 11700,
+      "occupancy": "81.25%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "09:00 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 384,
+      "available": 374,
+      "sold": 10,
+      "gross": 2500,
+      "occupancy": "2.60%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "05:00 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 384,
+      "available": 374,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "2.60%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "09:00 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 384,
+      "available": 374,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "2.60%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "01:00 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 384,
+      "available": 374,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "2.60%"
+    },
+    {
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "venue": "Shyam Palace, Juhi Hamirpur Road, Kanpur",
+      "chain": "Justickets",
+      "time": "09:45 AM",
+      "audi": "Shyam",
+      "totalSeats": 824,
+      "available": 114,
+      "sold": 710,
+      "gross": 55490,
+      "occupancy": "86.17%"
     }
   ],
   "Mana Shankara Varaprasad Garu [2D | Telugu]": [
@@ -3067,10 +3171,10 @@
       "time": "01:35 PM",
       "audi": "SCREEN-III",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 257,
+      "sold": 6,
+      "gross": 1062,
+      "occupancy": "2.28%"
     },
     {
       "city": "Eluru",
@@ -3093,10 +3197,10 @@
       "time": "10:45 AM",
       "audi": "SCREEN-II",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 262,
+      "sold": 1,
+      "gross": 295,
+      "occupancy": "0.38%"
     },
     {
       "city": "Eluru",
@@ -3145,10 +3249,10 @@
       "time": "06:00 PM",
       "audi": "SHANTHI THEATRE",
       "totalSeats": 537,
-      "available": 445,
-      "sold": 92,
-      "gross": 4600,
-      "occupancy": "17.13%"
+      "available": 444,
+      "sold": 93,
+      "gross": 4650,
+      "occupancy": "17.32%"
     },
     {
       "city": "Kamareddy",
@@ -3158,10 +3262,36 @@
       "time": "11:00 AM",
       "audi": "SHANTHI THEATRE",
       "totalSeats": 537,
-      "available": 445,
-      "sold": 92,
-      "gross": 4600,
-      "occupancy": "17.13%"
+      "available": 444,
+      "sold": 93,
+      "gross": 4650,
+      "occupancy": "17.32%"
+    },
+    {
+      "city": "Railway Koduru",
+      "state": "Andhra Pradesh",
+      "venue": "Chandan Cinemas, Dolby Atmos, Railway Koduru",
+      "chain": "Chandan Cinema",
+      "time": "10:30 AM",
+      "audi": "Chandan Cinemas 4K Dolby Atmos",
+      "totalSeats": 571,
+      "available": 547,
+      "sold": 24,
+      "gross": 4100,
+      "occupancy": "4.20%"
+    },
+    {
+      "city": "Railway Koduru",
+      "state": "Andhra Pradesh",
+      "venue": "Chandan Cinemas, Dolby Atmos, Railway Koduru",
+      "chain": "Chandan Cinema",
+      "time": "02:30 PM",
+      "audi": "Chandan Cinemas 4K Dolby Atmos",
+      "totalSeats": 571,
+      "available": 547,
+      "sold": 24,
+      "gross": 4100,
+      "occupancy": "4.20%"
     }
   ],
   "Anaganaga Oka Raju [2D | Telugu]": [
@@ -3381,10 +3511,10 @@
       "time": "10:30 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3394,10 +3524,10 @@
       "time": "01:45 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3407,10 +3537,10 @@
       "time": "04:40 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3420,10 +3550,10 @@
       "time": "07:35 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3433,10 +3563,23 @@
       "time": "10:50 AM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Railway Koduru",
+      "state": "Andhra Pradesh",
+      "venue": "Chandan Cinemas, Dolby Atmos, Railway Koduru",
+      "chain": "Chandan Cinema",
+      "time": "06:30 PM",
+      "audi": "Chandan Cinemas 4K Dolby Atmos",
+      "totalSeats": 571,
+      "available": 547,
+      "sold": 24,
+      "gross": 3380,
+      "occupancy": "4.20%"
     }
   ],
   "Landlord [2D | Kannada]": [
@@ -3494,7 +3637,7 @@
     }
   ],
   "date": "2026-01-30",
-  "lastUpdated": "05:11 PM, 27 January 2026",
+  "lastUpdated": "06:46 PM, 27 January 2026",
   "Thalaivar Thambi Thalaimaiyil [2D | Tamil]": [
     {
       "city": "Palani",
@@ -3809,10 +3952,10 @@
       "time": "10:20 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3822,10 +3965,10 @@
       "time": "07:30 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3835,10 +3978,10 @@
       "time": "04:40 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3848,10 +3991,10 @@
       "time": "11:00 AM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3861,10 +4004,23 @@
       "time": "01:50 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Railway Koduru",
+      "state": "Andhra Pradesh",
+      "venue": "Chandan Cinemas, Dolby Atmos, Railway Koduru",
+      "chain": "Chandan Cinema",
+      "time": "09:45 PM",
+      "audi": "Chandan Cinemas 4K Dolby Atmos",
+      "totalSeats": 571,
+      "available": 547,
+      "sold": 24,
+      "gross": 3380,
+      "occupancy": "4.20%"
     }
   ],
   "Om Shanti Shanti Shantihi [2D | Telugu]": [
@@ -3928,10 +4084,10 @@
       "time": "11:00 AM",
       "audi": "SCREEN-III",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3984,6 +4140,255 @@
       "sold": 27,
       "gross": 5723,
       "occupancy": "10.27%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "09:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 397,
+      "available": 370,
+      "sold": 27,
+      "gross": 2835,
+      "occupancy": "6.80%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "02:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 397,
+      "available": 370,
+      "sold": 27,
+      "gross": 2835,
+      "occupancy": "6.80%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "11:15 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 397,
+      "available": 370,
+      "sold": 27,
+      "gross": 2835,
+      "occupancy": "6.80%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mahalaxmi Complex, Kothapet, Hyderabad",
+      "chain": "Mahalaxmi Complex",
+      "time": "06:15 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 397,
+      "available": 370,
+      "sold": 27,
+      "gross": 2835,
+      "occupancy": "6.80%"
+    }
+  ],
+  "Mardaani 3 [2D | Hindi]": [
+    {
+      "city": "Bilaspur (Chhattisgarh)",
+      "state": "Chhattisgarh",
+      "venue": "PVR Rama Magneto Mall, Deendayal Upadhaya Marg, Bilaspur",
+      "chain": "PVR",
+      "time": "07:20 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 128,
+      "available": 128,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bilaspur (Chhattisgarh)",
+      "state": "Chhattisgarh",
+      "venue": "PVR Rama Magneto Mall, Deendayal Upadhaya Marg, Bilaspur",
+      "chain": "PVR",
+      "time": "10:15 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 128,
+      "available": 128,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bilaspur (Chhattisgarh)",
+      "state": "Chhattisgarh",
+      "venue": "PVR Rama Magneto Mall, Deendayal Upadhaya Marg, Bilaspur",
+      "chain": "PVR",
+      "time": "04:25 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 128,
+      "available": 128,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bilaspur (Chhattisgarh)",
+      "state": "Chhattisgarh",
+      "venue": "PVR Rama Magneto Mall, Deendayal Upadhaya Marg, Bilaspur",
+      "chain": "PVR",
+      "time": "10:35 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 142,
+      "available": 128,
+      "sold": 14,
+      "gross": 2660,
+      "occupancy": "9.86%"
+    },
+    {
+      "city": "Bilaspur (Chhattisgarh)",
+      "state": "Chhattisgarh",
+      "venue": "PVR Rama Magneto Mall, Deendayal Upadhaya Marg, Bilaspur",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 142,
+      "available": 123,
+      "sold": 19,
+      "gross": 5660,
+      "occupancy": "13.38%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "07:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 198,
+      "available": 188,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "5.05%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "10:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 198,
+      "available": 188,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "5.05%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "04:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 198,
+      "available": 188,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "5.05%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "01:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 198,
+      "available": 188,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "5.05%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "10:20 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 198,
+      "available": 188,
+      "sold": 10,
+      "gross": 2500,
+      "occupancy": "5.05%"
+    },
+    {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "venue": "INOX DN Regalia Mall, Patrapada, Bhubaneswar",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 129,
+      "available": 129,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "venue": "INOX DN Regalia Mall, Patrapada, Bhubaneswar",
+      "chain": "PVR",
+      "time": "09:45 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 139,
+      "available": 125,
+      "sold": 14,
+      "gross": 4280,
+      "occupancy": "10.07%"
+    },
+    {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "venue": "INOX DN Regalia Mall, Patrapada, Bhubaneswar",
+      "chain": "PVR",
+      "time": "06:55 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 139,
+      "available": 125,
+      "sold": 14,
+      "gross": 4280,
+      "occupancy": "10.07%"
+    },
+    {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "venue": "INOX DN Regalia Mall, Patrapada, Bhubaneswar",
+      "chain": "PVR",
+      "time": "10:35 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 139,
+      "available": 125,
+      "sold": 14,
+      "gross": 2520,
+      "occupancy": "10.07%"
+    },
+    {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "venue": "INOX DN Regalia Mall, Patrapada, Bhubaneswar",
+      "chain": "PVR",
+      "time": "01:15 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 139,
+      "available": 125,
+      "sold": 14,
+      "gross": 3580,
+      "occupancy": "10.07%"
     }
   ]
 }
