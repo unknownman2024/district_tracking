@@ -530,10 +530,10 @@
       "time": "09:30 AM",
       "audi": "SCREEN1",
       "totalSeats": 217,
-      "available": 214,
-      "sold": 3,
-      "gross": 810,
-      "occupancy": "1.38%"
+      "available": 217,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Lucknow",
@@ -920,10 +920,10 @@
       "time": "09:30 PM",
       "audi": "SCREEN1",
       "totalSeats": 444,
-      "available": 442,
-      "sold": 2,
-      "gross": 640,
-      "occupancy": "0.45%"
+      "available": 444,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Ghaziabad",
@@ -946,10 +946,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN1",
       "totalSeats": 444,
-      "available": 437,
-      "sold": 7,
-      "gross": 2030,
-      "occupancy": "1.58%"
+      "available": 436,
+      "sold": 8,
+      "gross": 2300,
+      "occupancy": "1.80%"
     },
     {
       "city": "Ghaziabad",
@@ -1193,10 +1193,10 @@
       "time": "05:30 PM",
       "audi": "SCREEN1",
       "totalSeats": 316,
-      "available": 316,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 314,
+      "sold": 2,
+      "gross": 580,
+      "occupancy": "0.63%"
     },
     {
       "city": "Thane",
@@ -1518,10 +1518,10 @@
       "time": "09:30 AM",
       "audi": "SCREEN 1",
       "totalSeats": 293,
-      "available": 293,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 291,
+      "sold": 2,
+      "gross": 380,
+      "occupancy": "0.68%"
     },
     {
       "city": "Thane",
@@ -1674,10 +1674,10 @@
       "time": "09:30 AM",
       "audi": "SCREEN 1",
       "totalSeats": 293,
-      "available": 293,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 291,
+      "sold": 2,
+      "gross": 380,
+      "occupancy": "0.68%"
     },
     {
       "city": "Thane",
@@ -1804,10 +1804,10 @@
       "time": "09:45 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 627,
-      "sold": 235,
-      "gross": 66000,
-      "occupancy": "27.26%"
+      "available": 625,
+      "sold": 237,
+      "gross": 66600,
+      "occupancy": "27.49%"
     },
     {
       "city": "Jaipur",
@@ -1817,10 +1817,10 @@
       "time": "06:00 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 627,
-      "sold": 235,
-      "gross": 66000,
-      "occupancy": "27.26%"
+      "available": 624,
+      "sold": 238,
+      "gross": 67500,
+      "occupancy": "27.61%"
     },
     {
       "city": "Jaipur",
@@ -1830,10 +1830,10 @@
       "time": "02:15 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 622,
-      "sold": 240,
-      "gross": 67250,
-      "occupancy": "27.84%"
+      "available": 623,
+      "sold": 239,
+      "gross": 66600,
+      "occupancy": "27.73%"
     },
     {
       "city": "Jaipur",
@@ -1886,6 +1886,110 @@
       "sold": 50,
       "gross": 8800,
       "occupancy": "33.33%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "01:45 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 263,
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "05:40 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 263,
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "09:45 AM",
+      "audi": "SCREEN 5",
+      "totalSeats": 263,
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "09:35 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 263,
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "02:00 PM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 379,
+      "sold": 205,
+      "gross": 27860,
+      "occupancy": "35.10%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "10:20 AM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "05:45 PM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "09:30 PM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
     }
   ],
   "Mana Shankara Varaprasad Garu [2D | Telugu]": [
@@ -2681,6 +2785,58 @@
       "sold": 12,
       "gross": 1800,
       "occupancy": "2.99%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Ramalakshman, Narasannapeta Road, Srikakulam",
+      "chain": "SVC Sangeetha",
+      "time": "06:30 PM",
+      "audi": "Ramalaxmana Theatre",
+      "totalSeats": 750,
+      "available": 678,
+      "sold": 72,
+      "gross": 10584,
+      "occupancy": "9.60%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Ramalakshman, Narasannapeta Road, Srikakulam",
+      "chain": "SVC Sangeetha",
+      "time": "09:45 PM",
+      "audi": "Ramalaxmana Theatre",
+      "totalSeats": 750,
+      "available": 709,
+      "sold": 41,
+      "gross": 6027,
+      "occupancy": "5.47%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Ramalakshman, Narasannapeta Road, Srikakulam",
+      "chain": "SVC Sangeetha",
+      "time": "02:30 PM",
+      "audi": "Ramalaxmana Theatre",
+      "totalSeats": 750,
+      "available": 698,
+      "sold": 52,
+      "gross": 7644,
+      "occupancy": "6.93%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Ramalakshman, Narasannapeta Road, Srikakulam",
+      "chain": "SVC Sangeetha",
+      "time": "11:00 AM",
+      "audi": "Ramalaxmana Theatre",
+      "totalSeats": 750,
+      "available": 709,
+      "sold": 41,
+      "gross": 6027,
+      "occupancy": "5.47%"
     }
   ],
   "Anaganaga Oka Raju [2D | Telugu]": [
@@ -2948,7 +3104,7 @@
     }
   ],
   "date": "2026-01-30",
-  "lastUpdated": "02:23 PM, 27 January 2026",
+  "lastUpdated": "03:22 PM, 27 January 2026",
   "Thalaivar Thambi Thalaimaiyil [2D | Tamil]": [
     {
       "city": "Palani",
@@ -3001,6 +3157,32 @@
       "sold": 69,
       "gross": 9000,
       "occupancy": "18.11%"
+    },
+    {
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "venue": "Annamar Theatre Dolby 7.1 Surround EX Chennimalai, Erode",
+      "chain": "Annamar Theatre",
+      "time": "02:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 484,
+      "available": 448,
+      "sold": 36,
+      "gross": 4320,
+      "occupancy": "7.44%"
+    },
+    {
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "venue": "Annamar Theatre Dolby 7.1 Surround EX Chennimalai, Erode",
+      "chain": "Annamar Theatre",
+      "time": "10:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 484,
+      "available": 448,
+      "sold": 36,
+      "gross": 4320,
+      "occupancy": "7.44%"
     }
   ],
   "The Raja Saab [2D | Telugu]": [
