@@ -829,10 +829,10 @@
       "time": "09:30 PM",
       "audi": "SCREEN1",
       "totalSeats": 227,
-      "available": 227,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 225,
+      "sold": 2,
+      "gross": 700,
+      "occupancy": "0.88%"
     },
     {
       "city": "Mumbai",
@@ -946,10 +946,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN1",
       "totalSeats": 444,
-      "available": 436,
-      "sold": 8,
-      "gross": 2300,
-      "occupancy": "1.80%"
+      "available": 437,
+      "sold": 7,
+      "gross": 2030,
+      "occupancy": "1.58%"
     },
     {
       "city": "Ghaziabad",
@@ -1193,10 +1193,10 @@
       "time": "05:30 PM",
       "audi": "SCREEN1",
       "totalSeats": 316,
-      "available": 314,
-      "sold": 2,
-      "gross": 580,
-      "occupancy": "0.63%"
+      "available": 316,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Thane",
@@ -1518,10 +1518,10 @@
       "time": "09:30 AM",
       "audi": "SCREEN 1",
       "totalSeats": 293,
-      "available": 291,
-      "sold": 2,
-      "gross": 380,
-      "occupancy": "0.68%"
+      "available": 293,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Thane",
@@ -1674,10 +1674,10 @@
       "time": "09:30 AM",
       "audi": "SCREEN 1",
       "totalSeats": 293,
-      "available": 291,
-      "sold": 2,
-      "gross": 380,
-      "occupancy": "0.68%"
+      "available": 293,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Thane",
@@ -1804,10 +1804,10 @@
       "time": "09:45 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 625,
-      "sold": 237,
-      "gross": 66600,
-      "occupancy": "27.49%"
+      "available": 627,
+      "sold": 235,
+      "gross": 66000,
+      "occupancy": "27.26%"
     },
     {
       "city": "Jaipur",
@@ -1830,10 +1830,10 @@
       "time": "02:15 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 623,
-      "sold": 239,
-      "gross": 66600,
-      "occupancy": "27.73%"
+      "available": 627,
+      "sold": 235,
+      "gross": 66000,
+      "occupancy": "27.26%"
     },
     {
       "city": "Jaipur",
@@ -1947,10 +1947,10 @@
       "time": "02:00 PM",
       "audi": "MEHER CINEMAS",
       "totalSeats": 584,
-      "available": 379,
-      "sold": 205,
-      "gross": 27860,
-      "occupancy": "35.10%"
+      "available": 378,
+      "sold": 206,
+      "gross": 27960,
+      "occupancy": "35.27%"
     },
     {
       "city": "Agra",
@@ -1990,6 +1990,162 @@
       "sold": 200,
       "gross": 27360,
       "occupancy": "34.25%"
+    },
+    {
+      "city": "Patna",
+      "state": "Bihar",
+      "venue": "Cinepolis P&M Mall, Patliputra Colony, Patna",
+      "chain": "Cinepolis",
+      "time": "01:55 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 325,
+      "available": 315,
+      "sold": 10,
+      "gross": 3500,
+      "occupancy": "3.08%"
+    },
+    {
+      "city": "Patna",
+      "state": "Bihar",
+      "venue": "Cinepolis P&M Mall, Patliputra Colony, Patna",
+      "chain": "Cinepolis",
+      "time": "09:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 325,
+      "available": 315,
+      "sold": 10,
+      "gross": 3500,
+      "occupancy": "3.08%"
+    },
+    {
+      "city": "Patna",
+      "state": "Bihar",
+      "venue": "Cinepolis P&M Mall, Patliputra Colony, Patna",
+      "chain": "Cinepolis",
+      "time": "10:00 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 325,
+      "available": 315,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "3.08%"
+    },
+    {
+      "city": "Patna",
+      "state": "Bihar",
+      "venue": "Cinepolis P&M Mall, Patliputra Colony, Patna",
+      "chain": "Cinepolis",
+      "time": "05:50 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 325,
+      "available": 315,
+      "sold": 10,
+      "gross": 3500,
+      "occupancy": "3.08%"
+    },
+    {
+      "city": "Surat",
+      "state": "Gujarat",
+      "venue": "Cinepolis Imperial Square Mall, Adajan, Surat",
+      "chain": "Cinepolis",
+      "time": "05:30 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 290,
+      "available": 275,
+      "sold": 15,
+      "gross": 4350,
+      "occupancy": "5.17%"
+    },
+    {
+      "city": "Surat",
+      "state": "Gujarat",
+      "venue": "Cinepolis Imperial Square Mall, Adajan, Surat",
+      "chain": "Cinepolis",
+      "time": "09:25 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 290,
+      "available": 279,
+      "sold": 11,
+      "gross": 3190,
+      "occupancy": "3.79%"
+    },
+    {
+      "city": "Surat",
+      "state": "Gujarat",
+      "venue": "Cinepolis Imperial Square Mall, Adajan, Surat",
+      "chain": "Cinepolis",
+      "time": "09:45 AM",
+      "audi": "AUDI 5",
+      "totalSeats": 290,
+      "available": 279,
+      "sold": 11,
+      "gross": 1870,
+      "occupancy": "3.79%"
+    },
+    {
+      "city": "Surat",
+      "state": "Gujarat",
+      "venue": "Cinepolis Imperial Square Mall, Adajan, Surat",
+      "chain": "Cinepolis",
+      "time": "01:35 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 290,
+      "available": 279,
+      "sold": 11,
+      "gross": 2640,
+      "occupancy": "3.79%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "Cinepolis Inorbit Mall, Gorwa, Vadodara",
+      "chain": "Cinepolis",
+      "time": "09:45 AM",
+      "audi": "AUDI 5",
+      "totalSeats": 182,
+      "available": 172,
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "5.49%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "Cinepolis Inorbit Mall, Gorwa, Vadodara",
+      "chain": "Cinepolis",
+      "time": "01:40 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 182,
+      "available": 172,
+      "sold": 10,
+      "gross": 2700,
+      "occupancy": "5.49%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "Cinepolis Inorbit Mall, Gorwa, Vadodara",
+      "chain": "Cinepolis",
+      "time": "05:35 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 182,
+      "available": 172,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "5.49%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "Cinepolis Inorbit Mall, Gorwa, Vadodara",
+      "chain": "Cinepolis",
+      "time": "09:30 PM",
+      "audi": "AUDI 5",
+      "totalSeats": 182,
+      "available": 172,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "5.49%"
     }
   ],
   "Mana Shankara Varaprasad Garu [2D | Telugu]": [
@@ -2837,6 +2993,58 @@
       "sold": 41,
       "gross": 6027,
       "occupancy": "5.47%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Sree Vishnu 2K A/C Dolby 7.1, Mukkidipeta, Hindupuram",
+      "chain": "TicketNew",
+      "time": "02:45 PM",
+      "audi": "Sree Vishnu 2K",
+      "totalSeats": 523,
+      "available": 106,
+      "sold": 417,
+      "gross": 50550,
+      "occupancy": "79.73%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Sree Vishnu 2K A/C Dolby 7.1, Mukkidipeta, Hindupuram",
+      "chain": "TicketNew",
+      "time": "09:45 PM",
+      "audi": "Sree Vishnu 2K",
+      "totalSeats": 523,
+      "available": 106,
+      "sold": 417,
+      "gross": 50550,
+      "occupancy": "79.73%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Sree Vishnu 2K A/C Dolby 7.1, Mukkidipeta, Hindupuram",
+      "chain": "TicketNew",
+      "time": "11:30 AM",
+      "audi": "Sree Vishnu 2K",
+      "totalSeats": 523,
+      "available": 106,
+      "sold": 417,
+      "gross": 50550,
+      "occupancy": "79.73%"
+    },
+    {
+      "city": "Hindupuram",
+      "state": "Andhra Pradesh",
+      "venue": "Sree Vishnu 2K A/C Dolby 7.1, Mukkidipeta, Hindupuram",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "Sree Vishnu 2K",
+      "totalSeats": 523,
+      "available": 106,
+      "sold": 417,
+      "gross": 50550,
+      "occupancy": "79.73%"
     }
   ],
   "Anaganaga Oka Raju [2D | Telugu]": [
@@ -3104,7 +3312,7 @@
     }
   ],
   "date": "2026-01-30",
-  "lastUpdated": "03:22 PM, 27 January 2026",
+  "lastUpdated": "04:21 PM, 27 January 2026",
   "Thalaivar Thambi Thalaimaiyil [2D | Tamil]": [
     {
       "city": "Palani",
@@ -3410,6 +3618,60 @@
       "sold": 121,
       "gross": 12630,
       "occupancy": "54.50%"
+    }
+  ],
+  "Om Shanti Shanti Shantihi [2D | Telugu]": [
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Ramana Gold 4K Dolby 7.1, Amberpet, Hyderabad",
+      "chain": "Sree Ramana Digital",
+      "time": "06:15 PM",
+      "audi": "Sree Ramana Gold 4K",
+      "totalSeats": 820,
+      "available": 268,
+      "sold": 552,
+      "gross": 45760,
+      "occupancy": "67.32%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Ramana Gold 4K Dolby 7.1, Amberpet, Hyderabad",
+      "chain": "Sree Ramana Digital",
+      "time": "09:15 PM",
+      "audi": "Sree Ramana Gold 4K",
+      "totalSeats": 820,
+      "available": 268,
+      "sold": 552,
+      "gross": 45760,
+      "occupancy": "67.32%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Ramana Gold 4K Dolby 7.1, Amberpet, Hyderabad",
+      "chain": "Sree Ramana Digital",
+      "time": "11:15 AM",
+      "audi": "Sree Ramana Gold 4K",
+      "totalSeats": 820,
+      "available": 268,
+      "sold": 552,
+      "gross": 45760,
+      "occupancy": "67.32%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Sree Ramana Gold 4K Dolby 7.1, Amberpet, Hyderabad",
+      "chain": "Sree Ramana Digital",
+      "time": "02:15 PM",
+      "audi": "Sree Ramana Gold 4K",
+      "totalSeats": 820,
+      "available": 268,
+      "sold": 552,
+      "gross": 45760,
+      "occupancy": "67.32%"
     }
   ]
 }
