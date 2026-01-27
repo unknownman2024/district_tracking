@@ -829,10 +829,10 @@
       "time": "09:30 PM",
       "audi": "SCREEN1",
       "totalSeats": 227,
-      "available": 225,
-      "sold": 2,
-      "gross": 700,
-      "occupancy": "0.88%"
+      "available": 227,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Mumbai",
@@ -907,10 +907,10 @@
       "time": "01:00 PM",
       "audi": "SCREEN2",
       "totalSeats": 545,
-      "available": 544,
-      "sold": 1,
-      "gross": 290,
-      "occupancy": "0.18%"
+      "available": 541,
+      "sold": 4,
+      "gross": 1160,
+      "occupancy": "0.73%"
     },
     {
       "city": "Ghaziabad",
@@ -1271,10 +1271,10 @@
       "time": "01:00 PM",
       "audi": "SCREEN2",
       "totalSeats": 545,
-      "available": 544,
-      "sold": 1,
-      "gross": 290,
-      "occupancy": "0.18%"
+      "available": 541,
+      "sold": 4,
+      "gross": 1160,
+      "occupancy": "0.73%"
     },
     {
       "city": "Nagpur",
@@ -1817,10 +1817,10 @@
       "time": "06:00 PM",
       "audi": "SCREEN1",
       "totalSeats": 862,
-      "available": 624,
-      "sold": 238,
-      "gross": 67500,
-      "occupancy": "27.61%"
+      "available": 622,
+      "sold": 240,
+      "gross": 68000,
+      "occupancy": "27.84%"
     },
     {
       "city": "Jaipur",
@@ -1934,10 +1934,10 @@
       "time": "09:35 PM",
       "audi": "SCREEN 5",
       "totalSeats": 263,
-      "available": 263,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 261,
+      "sold": 2,
+      "gross": 680,
+      "occupancy": "0.76%"
     },
     {
       "city": "Agra",
@@ -1999,10 +1999,10 @@
       "time": "01:55 PM",
       "audi": "SCREEN 1",
       "totalSeats": 325,
-      "available": 315,
-      "sold": 10,
-      "gross": 3500,
-      "occupancy": "3.08%"
+      "available": 313,
+      "sold": 12,
+      "gross": 4200,
+      "occupancy": "3.69%"
     },
     {
       "city": "Patna",
@@ -2051,10 +2051,10 @@
       "time": "05:30 PM",
       "audi": "AUDI 5",
       "totalSeats": 290,
-      "available": 275,
-      "sold": 15,
-      "gross": 4350,
-      "occupancy": "5.17%"
+      "available": 279,
+      "sold": 11,
+      "gross": 3190,
+      "occupancy": "3.79%"
     },
     {
       "city": "Surat",
@@ -3045,6 +3045,123 @@
       "sold": 417,
       "gross": 50550,
       "occupancy": "79.73%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "04:30 PM",
+      "audi": "SCREEN-II",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "01:35 PM",
+      "audi": "SCREEN-III",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "07:20 PM",
+      "audi": "SCREEN-III",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:45 AM",
+      "audi": "SCREEN-II",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:30 PM",
+      "audi": "SCREEN-III",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Kamareddy",
+      "state": "Telangana",
+      "venue": "Shanthi Theatre, Adloor Road, Kamareddy",
+      "chain": "Vimala Theatre",
+      "time": "02:15 PM",
+      "audi": "SHANTHI THEATRE",
+      "totalSeats": 537,
+      "available": 444,
+      "sold": 93,
+      "gross": 4650,
+      "occupancy": "17.32%"
+    },
+    {
+      "city": "Kamareddy",
+      "state": "Telangana",
+      "venue": "Shanthi Theatre, Adloor Road, Kamareddy",
+      "chain": "Vimala Theatre",
+      "time": "09:15 PM",
+      "audi": "SHANTHI THEATRE",
+      "totalSeats": 537,
+      "available": 444,
+      "sold": 93,
+      "gross": 4650,
+      "occupancy": "17.32%"
+    },
+    {
+      "city": "Kamareddy",
+      "state": "Telangana",
+      "venue": "Shanthi Theatre, Adloor Road, Kamareddy",
+      "chain": "Vimala Theatre",
+      "time": "06:00 PM",
+      "audi": "SHANTHI THEATRE",
+      "totalSeats": 537,
+      "available": 445,
+      "sold": 92,
+      "gross": 4600,
+      "occupancy": "17.13%"
+    },
+    {
+      "city": "Kamareddy",
+      "state": "Telangana",
+      "venue": "Shanthi Theatre, Adloor Road, Kamareddy",
+      "chain": "Vimala Theatre",
+      "time": "11:00 AM",
+      "audi": "SHANTHI THEATRE",
+      "totalSeats": 537,
+      "available": 445,
+      "sold": 92,
+      "gross": 4600,
+      "occupancy": "17.13%"
     }
   ],
   "Anaganaga Oka Raju [2D | Telugu]": [
@@ -3255,6 +3372,71 @@
       "sold": 38,
       "gross": 4880,
       "occupancy": "7.28%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:30 PM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "01:45 PM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "04:40 PM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "07:35 PM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:50 AM",
+      "audi": "SCREEN-I",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
     }
   ],
   "Landlord [2D | Kannada]": [
@@ -3312,7 +3494,7 @@
     }
   ],
   "date": "2026-01-30",
-  "lastUpdated": "04:21 PM, 27 January 2026",
+  "lastUpdated": "05:11 PM, 27 January 2026",
   "Thalaivar Thambi Thalaimaiyil [2D | Tamil]": [
     {
       "city": "Palani",
@@ -3618,6 +3800,71 @@
       "sold": 121,
       "gross": 12630,
       "occupancy": "54.50%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:20 PM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "07:30 PM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "04:40 PM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "11:00 AM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "01:50 PM",
+      "audi": "SCREEN-IV",
+      "totalSeats": 178,
+      "available": 159,
+      "sold": 19,
+      "gross": 3363,
+      "occupancy": "10.67%"
     }
   ],
   "Om Shanti Shanti Shantihi [2D | Telugu]": [
@@ -3672,6 +3919,71 @@
       "sold": 552,
       "gross": 45760,
       "occupancy": "67.32%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "11:00 AM",
+      "audi": "SCREEN-III",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "07:35 PM",
+      "audi": "SCREEN-II",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "01:50 PM",
+      "audi": "SCREEN-II",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "04:40 PM",
+      "audi": "SCREEN-III",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
+    },
+    {
+      "city": "Eluru",
+      "state": "Andhra Pradesh",
+      "venue": "SVC Cinemas 4K Dolby Atmos, CMR Mall, Eluru",
+      "chain": "SVC Sangeetha",
+      "time": "10:15 PM",
+      "audi": "SCREEN-II",
+      "totalSeats": 263,
+      "available": 236,
+      "sold": 27,
+      "gross": 5723,
+      "occupancy": "10.27%"
     }
   ]
 }
