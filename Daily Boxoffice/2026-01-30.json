@@ -1,11 +1,101 @@
 {
   "date": "2026-01-30",
-  "lastUpdated": "04:21 AM, 30 January 2026",
+  "lastUpdated": "05:15 AM, 30 January 2026",
   "Border 2 | Hindi": {
+    "shows": 15,
+    "gross": 4340,
+    "sold": 16,
+    "totalSeats": 2438,
+    "venues": 14,
+    "cities": 7,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.66,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 3,
+        "gross": 0,
+        "sold": 0,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 1410,
+        "sold": 5,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.54
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2250,
+        "sold": 7,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.46
+      },
+      {
+        "city": "Kalyan",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 680,
+        "sold": 4,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.84
+      },
+      {
+        "city": "Washim",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Tere Ishk Mein | Hindi": {
     "shows": 2,
     "gross": 0,
     "sold": 0,
-    "totalSeats": 241,
+    "totalSeats": 49,
     "venues": 2,
     "cities": 1,
     "fastfilling": 0,
@@ -13,8 +103,8 @@
     "occupancy": 0,
     "details": [
       {
-        "city": "Mumbai",
-        "state": "Maharashtra",
+        "city": "Ahmedabad",
+        "state": "Gujarat",
         "shows": 2,
         "gross": 0,
         "sold": 0,
@@ -22,6 +112,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      }
+    ]
+  },
+  "Happy Patel: Khatarnak Jasoos | Hindi": {
+    "shows": 1,
+    "gross": 1560,
+    "sold": 6,
+    "totalSeats": 257,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.33,
+    "details": [
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 1560,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.33
       }
     ]
   }
