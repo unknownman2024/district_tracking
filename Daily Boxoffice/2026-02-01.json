@@ -1,51 +1,259 @@
 {
   "date": "2026-02-01",
-  "lastUpdated": "04:15 AM, 01 February 2026",
+  "lastUpdated": "05:11 AM, 01 February 2026",
   "Mardaani 3 | Hindi": {
-    "shows": 1,
-    "gross": 6560,
-    "sold": 26,
-    "totalSeats": 287,
-    "venues": 1,
-    "cities": 1,
+    "shows": 6,
+    "gross": 18570,
+    "sold": 85,
+    "totalSeats": 1370,
+    "venues": 6,
+    "cities": 4,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 9.06,
-    "details": [
-      {
-        "city": "Mumbai",
-        "state": "Maharashtra",
-        "shows": 1,
-        "gross": 6560,
-        "sold": 26,
-        "venues": 1,
-        "fastfilling": 0,
-        "housefull": 0,
-        "occupancy": 9.06
-      }
-    ]
-  },
-  "Border 2 | Hindi": {
-    "shows": 2,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 241,
-    "venues": 2,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 6.2,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
         "shows": 2,
+        "gross": 13130,
+        "sold": 56,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.51
+      },
+      {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 2480,
+        "sold": 14,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.03
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2280,
+        "sold": 11,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.34
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 680,
+        "sold": 4,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.84
+      }
+    ]
+  },
+  "Border 2 | Hindi": {
+    "shows": 13,
+    "gross": 9990,
+    "sold": 41,
+    "totalSeats": 1732,
+    "venues": 12,
+    "cities": 6,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.37,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 3,
         "gross": 0,
         "sold": 0,
         "venues": 2,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 4,
+        "gross": 300,
+        "sold": 2,
+        "venues": 4,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.67
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 6540,
+        "sold": 18,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.79
+      },
+      {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 3150,
+        "sold": 21,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.91
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Washim",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Tere Ishk Mein | Hindi": {
+    "shows": 2,
+    "gross": 1200,
+    "sold": 4,
+    "totalSeats": 49,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 8.16,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 1200,
+        "sold": 4,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.16
+      }
+    ]
+  },
+  "Marty Supreme | English": {
+    "shows": 1,
+    "gross": 1300,
+    "sold": 6,
+    "totalSeats": 128,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 4.69,
+    "details": [
+      {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 1300,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.69
+      }
+    ]
+  },
+  "Dhurandhar | Hindi": {
+    "shows": 1,
+    "gross": 1500,
+    "sold": 10,
+    "totalSeats": 133,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.52,
+    "details": [
+      {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 1500,
+        "sold": 10,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.52
+      }
+    ]
+  },
+  "Krantijyoti Vidyalay Marathi Madhyam | Marathi": {
+    "shows": 1,
+    "gross": 2850,
+    "sold": 19,
+    "totalSeats": 179,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.61,
+    "details": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2850,
+        "sold": 19,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.61
+      }
+    ]
+  },
+  "Aga Aga Sunbai! Kay Mhantay Sasubai? | Marathi": {
+    "shows": 1,
+    "gross": 1950,
+    "sold": 13,
+    "totalSeats": 241,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 5.39,
+    "details": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 1950,
+        "sold": 13,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.39
       }
     ]
   }
