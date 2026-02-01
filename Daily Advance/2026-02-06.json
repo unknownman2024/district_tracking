@@ -1,14 +1,14 @@
 {
   "Godaan [2D | Hindi]": {
-    "shows": 28,
+    "shows": 29,
     "gross": 82600,
     "sold": 343,
-    "totalSeats": 6137,
-    "venues": 28,
-    "cities": 21,
+    "totalSeats": 6619,
+    "venues": 29,
+    "cities": 22,
     "fastfilling": 0,
     "housefull": 1,
-    "occupancy": 5.59,
+    "occupancy": 5.18,
     "details": [
       {
         "city": "Agra",
@@ -261,6 +261,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Chhindwara",
+        "state": "Madhya Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 482,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -425,6 +437,17 @@
         "gross": 0,
         "sold": 0,
         "totalSeats": 96,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Alka Multiplex",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 482,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -674,15 +697,15 @@
     ]
   },
   "3 [2012] [2D | Telugu]": {
-    "shows": 8,
-    "gross": 139731,
-    "sold": 983,
-    "totalSeats": 4394,
-    "venues": 5,
-    "cities": 4,
+    "shows": 9,
+    "gross": 151851,
+    "sold": 1083,
+    "totalSeats": 4880,
+    "venues": 6,
+    "cities": 5,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 22.37,
+    "occupancy": 22.19,
     "details": [
       {
         "city": "Rajahmundry",
@@ -731,6 +754,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 12120,
+        "sold": 100,
+        "totalSeats": 486,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 20.58
       }
     ],
     "Chain_details": [
@@ -758,14 +793,14 @@
       },
       {
         "chain": "TicketNew",
-        "venues": 1,
-        "shows": 1,
-        "gross": 20020,
-        "sold": 136,
-        "totalSeats": 339,
+        "venues": 2,
+        "shows": 2,
+        "gross": 32140,
+        "sold": 236,
+        "totalSeats": 825,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 40.12
+        "occupancy": 28.61
       },
       {
         "chain": "Bharath Complex",
@@ -781,5 +816,5 @@
     ]
   },
   "date": "2026-02-06",
-  "lastUpdated": "03:15 PM, 01 February 2026"
+  "lastUpdated": "06:43 PM, 01 February 2026"
 }
