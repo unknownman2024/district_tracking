@@ -428,6 +428,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "12:00 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
+      "occupancy": "75.00%"
     }
   ],
   "Border 2 [2D | Hindi]": [
@@ -586,6 +599,45 @@
       "sold": 36,
       "gross": 6420,
       "occupancy": "18.65%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "05:50 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
+      "occupancy": "75.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "02:15 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
+      "occupancy": "75.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "09:20 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
+      "occupancy": "75.00%"
     }
   ],
   "Karikaada [2D | Kannada]": [
@@ -1121,10 +1173,10 @@
       "time": "07:40 AM",
       "audi": "SUDARSHAN 35MM-RTC CROSS ROAD HYD",
       "totalSeats": 167,
-      "available": 143,
-      "sold": 24,
-      "gross": 3630,
-      "occupancy": "14.37%"
+      "available": 132,
+      "sold": 35,
+      "gross": 5530,
+      "occupancy": "20.96%"
     },
     {
       "city": "Anantapur",
@@ -1186,12 +1238,265 @@
       "time": "10:30 AM",
       "audi": "PYCINEMAS 4K 3D",
       "totalSeats": 450,
-      "available": 436,
-      "sold": 14,
-      "gross": 1400,
-      "occupancy": "3.11%"
+      "available": 434,
+      "sold": 16,
+      "gross": 1600,
+      "occupancy": "3.56%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "11:30 AM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "02:40 PM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "09:45 PM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "06:30 PM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
+    },
+    {
+      "city": "Kakinada",
+      "state": "Andhra Pradesh",
+      "venue": "Padmapriya Sripriya Complex, Kondayya Palem, Kakinada",
+      "chain": "Justickets",
+      "time": "08:30 AM",
+      "audi": "Padmapriya Dolby Atmos",
+      "totalSeats": 423,
+      "available": 277,
+      "sold": 146,
+      "gross": 14170,
+      "occupancy": "34.52%"
+    },
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Rajdhani Deluxe 2K Dolby 7.1, Dilsukhnagar, Hyderabad",
+      "chain": "Rajdhani Delux Theater",
+      "time": "08:00 AM",
+      "audi": "Rajdhani Deluxe 2K Dolby 7.1",
+      "totalSeats": 628,
+      "available": 580,
+      "sold": 48,
+      "gross": 7200,
+      "occupancy": "7.64%"
+    },
+    {
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "venue": "SV Cineplex 4K Dolby Atmos, dr Mahal Road, Tirupati",
+      "chain": "SV Cineplex",
+      "time": "09:00 AM",
+      "audi": "DR MAHAL",
+      "totalSeats": 506,
+      "available": 484,
+      "sold": 22,
+      "gross": 2200,
+      "occupancy": "4.35%"
     }
   ],
   "date": "2026-02-06",
-  "lastUpdated": "08:50 AM, 02 February 2026"
+  "lastUpdated": "12:47 PM, 02 February 2026",
+  "Karuppu Pulsar [2D | Tamil]": [
+    {
+      "city": "Batlagundu",
+      "state": "Tamil Nadu",
+      "venue": "Govindasamy Theatre A/C, Dindugal Road, Batlagundu",
+      "chain": "TicketNew",
+      "time": "10:15 PM",
+      "audi": "GOVINDHASAMY THEATRE",
+      "totalSeats": 478,
+      "available": 276,
+      "sold": 202,
+      "gross": 20800,
+      "occupancy": "42.26%"
+    },
+    {
+      "city": "Batlagundu",
+      "state": "Tamil Nadu",
+      "venue": "Govindasamy Theatre A/C, Dindugal Road, Batlagundu",
+      "chain": "TicketNew",
+      "time": "10:30 AM",
+      "audi": "GOVINDHASAMY THEATRE",
+      "totalSeats": 478,
+      "available": 276,
+      "sold": 202,
+      "gross": 20800,
+      "occupancy": "42.26%"
+    },
+    {
+      "city": "Batlagundu",
+      "state": "Tamil Nadu",
+      "venue": "Govindasamy Theatre A/C, Dindugal Road, Batlagundu",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "GOVINDHASAMY THEATRE",
+      "totalSeats": 478,
+      "available": 276,
+      "sold": 202,
+      "gross": 20800,
+      "occupancy": "42.26%"
+    },
+    {
+      "city": "Batlagundu",
+      "state": "Tamil Nadu",
+      "venue": "Govindasamy Theatre A/C, Dindugal Road, Batlagundu",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "GOVINDHASAMY THEATRE",
+      "totalSeats": 478,
+      "available": 276,
+      "sold": 202,
+      "gross": 20800,
+      "occupancy": "42.26%"
+    }
+  ],
+  "Bhartha Mahasayulaku Wignyapthi [2D | Telugu]": [
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "09:30 PM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    },
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    },
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    },
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "11:30 AM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    }
+  ],
+  "Sri Chidambaram Garu [2D | Telugu]": [
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Sarswathi Mahal, Visakha Colony, Srikakulam",
+      "chain": "AV",
+      "time": "09:45 PM",
+      "audi": "sri saraswathi mahal",
+      "totalSeats": 567,
+      "available": 398,
+      "sold": 169,
+      "gross": 23480,
+      "occupancy": "29.81%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Sarswathi Mahal, Visakha Colony, Srikakulam",
+      "chain": "AV",
+      "time": "11:00 AM",
+      "audi": "sri saraswathi mahal",
+      "totalSeats": 567,
+      "available": 398,
+      "sold": 169,
+      "gross": 23480,
+      "occupancy": "29.81%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Sarswathi Mahal, Visakha Colony, Srikakulam",
+      "chain": "AV",
+      "time": "06:30 PM",
+      "audi": "sri saraswathi mahal",
+      "totalSeats": 567,
+      "available": 398,
+      "sold": 169,
+      "gross": 23480,
+      "occupancy": "29.81%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Sarswathi Mahal, Visakha Colony, Srikakulam",
+      "chain": "AV",
+      "time": "02:30 PM",
+      "audi": "sri saraswathi mahal",
+      "totalSeats": 567,
+      "available": 398,
+      "sold": 169,
+      "gross": 23480,
+      "occupancy": "29.81%"
+    }
+  ]
 }
