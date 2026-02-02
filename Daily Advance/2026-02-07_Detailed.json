@@ -21,10 +21,10 @@
       "time": "08:00 AM",
       "audi": "KPS",
       "totalSeats": 914,
-      "available": 793,
-      "sold": 121,
-      "gross": 16900,
-      "occupancy": "13.24%"
+      "available": 791,
+      "sold": 123,
+      "gross": 17100,
+      "occupancy": "13.46%"
     },
     {
       "city": "Hyderabad",
@@ -34,10 +34,10 @@
       "time": "08:00 AM",
       "audi": "Jagadamba Theatre",
       "totalSeats": 416,
-      "available": 223,
-      "sold": 193,
-      "gross": 21350,
-      "occupancy": "46.39%"
+      "available": 220,
+      "sold": 196,
+      "gross": 21650,
+      "occupancy": "47.12%"
     },
     {
       "city": "Hyderabad",
@@ -47,10 +47,10 @@
       "time": "08:00 AM",
       "audi": "Sree SaiPuja",
       "totalSeats": 897,
-      "available": 641,
-      "sold": 256,
-      "gross": 20800,
-      "occupancy": "28.54%"
+      "available": 639,
+      "sold": 258,
+      "gross": 21000,
+      "occupancy": "28.76%"
     },
     {
       "city": "Hyderabad",
@@ -99,10 +99,10 @@
       "time": "06:30 PM",
       "audi": "Srinivasa",
       "totalSeats": 486,
-      "available": 113,
-      "sold": 373,
-      "gross": 55950,
-      "occupancy": "76.75%"
+      "available": 109,
+      "sold": 377,
+      "gross": 56550,
+      "occupancy": "77.57%"
     },
     {
       "city": "Guntakal",
@@ -177,10 +177,10 @@
       "time": "02:45 PM",
       "audi": "SCREEN3",
       "totalSeats": 235,
-      "available": 214,
-      "sold": 21,
-      "gross": 3730,
-      "occupancy": "8.94%"
+      "available": 212,
+      "sold": 23,
+      "gross": 4030,
+      "occupancy": "9.79%"
     },
     {
       "city": "Narasaraopet",
@@ -203,10 +203,10 @@
       "time": "10:30 AM",
       "audi": "PYCINEMAS 4K 3D",
       "totalSeats": 450,
-      "available": 447,
-      "sold": 3,
-      "gross": 300,
-      "occupancy": "0.67%"
+      "available": 439,
+      "sold": 11,
+      "gross": 1100,
+      "occupancy": "2.44%"
     },
     {
       "city": "Rayagada",
@@ -372,10 +372,10 @@
       "time": "08:00 AM",
       "audi": "MYTHRI SRI VENKATESWARA TALKIES",
       "totalSeats": 537,
-      "available": 442,
-      "sold": 95,
-      "gross": 10900,
-      "occupancy": "17.69%"
+      "available": 429,
+      "sold": 108,
+      "gross": 12500,
+      "occupancy": "20.11%"
     },
     {
       "city": "Anantapur",
@@ -385,10 +385,10 @@
       "time": "11:30 AM",
       "audi": "SV Cinemax",
       "totalSeats": 628,
-      "available": 534,
-      "sold": 94,
-      "gross": 13912,
-      "occupancy": "14.97%"
+      "available": 531,
+      "sold": 97,
+      "gross": 14356,
+      "occupancy": "15.45%"
     },
     {
       "city": "Kothagudem",
@@ -705,6 +705,19 @@
       "sold": 1,
       "gross": 200,
       "occupancy": "0.28%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "12:00 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
+      "occupancy": "75.00%"
     }
   ],
   "Border 2 [2D | Hindi]": [
@@ -771,6 +784,45 @@
       "available": 35,
       "sold": 105,
       "gross": 26550,
+      "occupancy": "75.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "05:50 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
+      "occupancy": "75.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "09:20 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
+      "occupancy": "75.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Panna Cinema, Near Rajeshwar Mahadev Mandir, Agra",
+      "chain": "Panna Cinema",
+      "time": "02:15 PM",
+      "audi": "Screen 1",
+      "totalSeats": 240,
+      "available": 60,
+      "sold": 180,
+      "gross": 21600,
       "occupancy": "75.00%"
     }
   ],
@@ -1248,8 +1300,142 @@
       "sold": 47,
       "gross": 6956,
       "occupancy": "10.40%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "11:30 AM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "09:45 PM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "02:40 PM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
+    },
+    {
+      "city": "Kadapa",
+      "state": "Andhra Pradesh",
+      "venue": "Ravi A/C 4K Laser Dolby Atmos, Kadapa",
+      "chain": "Raja Cinemas",
+      "time": "06:30 PM",
+      "audi": "RAVI THEATRE",
+      "totalSeats": 505,
+      "available": 427,
+      "sold": 78,
+      "gross": 11700,
+      "occupancy": "15.45%"
     }
   ],
   "date": "2026-02-07",
-  "lastUpdated": "08:50 AM, 02 February 2026"
+  "lastUpdated": "12:47 PM, 02 February 2026",
+  "Bhartha Mahasayulaku Wignyapthi [2D | Telugu]": [
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "11:30 AM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    },
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    },
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    },
+    {
+      "city": "Cherukupalli",
+      "state": "Andhra Pradesh",
+      "venue": "Jaihind Talkies, Kothapeta, Cherukupalli",
+      "chain": "TicketNew",
+      "time": "09:30 PM",
+      "audi": "Jaihindi",
+      "totalSeats": 258,
+      "available": 216,
+      "sold": 42,
+      "gross": 4200,
+      "occupancy": "16.28%"
+    }
+  ],
+  "Sri Chidambaram Garu [2D | Telugu]": [
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Sarswathi Mahal, Visakha Colony, Srikakulam",
+      "chain": "AV",
+      "time": "09:45 PM",
+      "audi": "sri saraswathi mahal",
+      "totalSeats": 567,
+      "available": 398,
+      "sold": 169,
+      "gross": 23480,
+      "occupancy": "29.81%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Sarswathi Mahal, Visakha Colony, Srikakulam",
+      "chain": "AV",
+      "time": "02:30 PM",
+      "audi": "sri saraswathi mahal",
+      "totalSeats": 567,
+      "available": 398,
+      "sold": 169,
+      "gross": 23480,
+      "occupancy": "29.81%"
+    }
+  ]
 }
