@@ -187,6 +187,17 @@
     "cityCount": 10
   },
   {
+    "movie": "Aashaan",
+    "language": "Malayalam",
+    "movieCode": "frp8Gc~hbB",
+    "id": 213899,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Aashaan_Poster-d7da6d00-f9ad-11f0-a481-4fe749f96841.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Hyderabad, Kochi, Mangaluru, Mumbai",
+    "cityCount": 9
+  },
+  {
     "movie": "Maharani",
     "language": "Gujarati",
     "movieCode": "Xl~talm_4l",
@@ -298,24 +309,13 @@
   },
   {
     "movie": "Avatar: Fire and Ash",
-    "language": "English",
-    "movieCode": "ZijYCsa3f",
+    "language": "Hindi",
+    "movieCode": "9wmMB4IePt",
     "id": 165236,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
-    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Kochi, Mumbai",
-    "cityCount": 6
-  },
-  {
-    "movie": "Chatha Pacha: The Ring of Rowdies",
-    "language": "Malayalam",
-    "movieCode": "XVJfOOj7Rp",
-    "id": 192567,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Chatha-Pacha--The-Ring-of-Rowdies--d4660750-f2c9-11f0-9169-b1cb5755b527-62a51530-f520-11f0-82dc-d35bc0b78957.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Kochi, Mangaluru, Mumbai",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-35674ce0-d8e8-11f0-b537-3559512aba67.jpg",
+    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Jaipur, Nagpur, Surat",
     "cityCount": 6
   },
   {
@@ -429,25 +429,14 @@
     "cityCount": 5
   },
   {
-    "movie": "Aashaan",
-    "language": "Malayalam",
-    "movieCode": "frp8Gc~hbB",
-    "id": 213899,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Aashaan_Poster-d7da6d00-f9ad-11f0-a481-4fe749f96841.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Mangaluru",
-    "cityCount": 5
-  },
-  {
     "movie": "Avatar: Fire and Ash",
-    "language": "Hindi",
-    "movieCode": "9wmMB4IePt",
+    "language": "English",
+    "movieCode": "ZijYCsa3f",
     "id": 165236,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-35674ce0-d8e8-11f0-b537-3559512aba67.jpg",
-    "city": "Ahmedabad, Gandhinagar, Jaipur, Nagpur, Surat",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
+    "city": "Bangalore, Bengaluru, Hyderabad, Kochi, Mumbai",
     "cityCount": 5
   },
   {
@@ -459,6 +448,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Baaghi-4_Poster-e31ac090-8d40-11f0-b1dc-6d97de8b9575.jpg",
     "city": "Ahmedabad, Amritsar, Gandhinagar, Jaipur, Kota",
+    "cityCount": 5
+  },
+  {
+    "movie": "Chatha Pacha: The Ring of Rowdies",
+    "language": "Malayalam",
+    "movieCode": "XVJfOOj7Rp",
+    "id": 192567,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Chatha-Pacha--The-Ring-of-Rowdies--d4660750-f2c9-11f0-9169-b1cb5755b527-62a51530-f520-11f0-82dc-d35bc0b78957.jpg",
+    "city": "Bangalore, Bengaluru, Kochi, Mangaluru, Mumbai",
     "cityCount": 5
   },
   {
@@ -919,7 +919,7 @@
     "id": 144007,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye--edca1f30-1b77-11f0-b2bf-d9c854ed10fa.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye-app-poster-2-4353f31f-3c50-46a4-a32b-a0342bc62323.jpg",
     "city": "Ahmedabad, Gandhinagar, Surat",
     "cityCount": 3
   },
@@ -2294,7 +2294,7 @@
     "id": 197993,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/POSTER%20His-Story-of-Itihaas-0e0c4ef0-3b9c-11f0-b426-a50671acfc24.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster%20_0020_His%20story%20of%20Ithihas-c754a830-41dc-11f0-b426-a50671acfc24.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -3064,7 +3064,7 @@
     "id": 163623,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-a78e5230-fb37-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-2-c237bae0-fb37-11ef-943b-b3723efa3f38.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -3198,17 +3198,6 @@
     "rating": "TBA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Raktha-Kashmira-b21965f0-fc44-11f0-9d12-29a6782b30c7.jpg",
     "city": "Bangalore, Bengaluru",
-    "cityCount": 2
-  },
-  {
-    "movie": "Scarlet",
-    "language": "Japanese",
-    "movieCode": "9hBxsvPRQs",
-    "id": 203928,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Scarlet_Poster-d75d38e0-77a7-11f0-8de0-9d1c38983d05.jpg",
-    "city": "Chennai, Guntur",
     "cityCount": 2
   },
   {
@@ -4878,7 +4867,7 @@
     "id": 167249,
     "runtime": 134,
     "rating": "UA 13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sky1-a9defe50-e551-11ef-b243-a1b813d1dc02.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sky1-96b8a650-e551-11ef-b243-a1b813d1dc02.jpg",
     "city": "Bangalore, Bengaluru",
     "cityCount": 2
   },
@@ -8766,6 +8755,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Honey",
+    "language": "Telugu",
+    "movieCode": "iBJ2206sD4P",
+    "id": 212926,
+    "runtime": 134,
+    "rating": "TBA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-7542dd10-f761-11f0-95b0-e13a8ff56799.jpg",
+    "city": "Visakhapatnam",
+    "cityCount": 1
+  },
+  {
     "movie": "Hot Spot",
     "language": "Tamil",
     "movieCode": "PsLoFgN4Bm",
@@ -11316,6 +11316,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Red Label",
+    "language": "Tamil",
+    "movieCode": "YZkketB_u8",
+    "id": 208955,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait-a14ae140-00d1-11f1-8faf-895d2f74ee24.jpg",
+    "city": "Chennai",
+    "cityCount": 1
+  },
+  {
     "movie": "Reel Star",
     "language": "Marathi",
     "movieCode": "F2bkg334dF",
@@ -11797,6 +11808,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/SBM-1_Poster-0b590fe0-dc3c-11f0-aa0b-43c3f429fcb0.jpg",
     "city": "Coimbatore",
+    "cityCount": 1
+  },
+  {
+    "movie": "Scarlet",
+    "language": "Japanese",
+    "movieCode": "9hBxsvPRQs",
+    "id": 203928,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Scarlet_Poster-d75d38e0-77a7-11f0-8de0-9d1c38983d05.jpg",
+    "city": "Chennai",
     "cityCount": 1
   },
   {
