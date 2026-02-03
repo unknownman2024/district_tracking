@@ -33,17 +33,6 @@
     "cityCount": 24
   },
   {
-    "movie": "Send Help",
-    "language": "English",
-    "movieCode": "qNf04imRMk",
-    "id": 207214,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-5c76e060-fc16-11f0-b638-ad0370f571f3.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Nagpur, Patna, Surat, Visakhapatnam",
-    "cityCount": 22
-  },
-  {
     "movie": "Demon Slayer - Kimetsu no Yaiba - The Movie: Infinity Castle",
     "language": "Japanese",
     "movieCode": "Nf2k94fcKt",
@@ -63,6 +52,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Marty-Supreme_Poster%20(1)-da588420-f833-11f0-9f0c-9149a6853b4a.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Nagpur, Patna, Surat, Visakhapatnam",
+    "cityCount": 21
+  },
+  {
+    "movie": "Send Help",
+    "language": "English",
+    "movieCode": "qNf04imRMk",
+    "id": 207214,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-5c76e060-fc16-11f0-b638-ad0370f571f3.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Patna, Surat, Visakhapatnam",
     "cityCount": 21
   },
   {
@@ -143,17 +143,6 @@
     "cityCount": 12
   },
   {
-    "movie": "Gandhi Talks",
-    "language": "Hindi",
-    "movieCode": "RlpLSpoQ8K",
-    "id": 156965,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-12b88ed0-eae9-11f0-a3cd-8d385e3c3de1.jpg",
-    "city": "Ahmedabad, Amritsar, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
-    "cityCount": 11
-  },
-  {
     "movie": "Mannu Kya Karegga?",
     "language": "Hindi",
     "movieCode": "O2AxrkvtIN",
@@ -163,6 +152,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Mannu-Kya-Karegga-%20(1)-d6fd6680-87ca-11f0-9002-a1c7d0720be7.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Jaipur, Kochi, Kota, Mumbai, Surat",
     "cityCount": 11
+  },
+  {
+    "movie": "Gandhi Talks",
+    "language": "Hindi",
+    "movieCode": "RlpLSpoQ8K",
+    "id": 156965,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-12b88ed0-eae9-11f0-a3cd-8d385e3c3de1.jpg",
+    "city": "Ahmedabad, Amritsar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
+    "cityCount": 10
   },
   {
     "movie": "Prakambanam",
@@ -298,13 +298,13 @@
   },
   {
     "movie": "Avatar: Fire and Ash",
-    "language": "English",
-    "movieCode": "ZijYCsa3f",
+    "language": "Hindi",
+    "movieCode": "9wmMB4IePt",
     "id": 165236,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
-    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Kochi, Mumbai",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-35674ce0-d8e8-11f0-b537-3559512aba67.jpg",
+    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Jaipur, Nagpur, Surat",
     "cityCount": 6
   },
   {
@@ -349,17 +349,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Global_Poster-4306b500-9ab0-11f0-a14d-4924782e624d.jpg",
     "city": "Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Mumbai, Nashik",
-    "cityCount": 6
-  },
-  {
-    "movie": "Laalo - Krishna Sada Sahaayate",
-    "language": "Gujarati",
-    "movieCode": "1je04xQI1c",
-    "id": 204602,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Laalo---Krishna-Sada-Sahaayate-07dc4e00-88b2-11f0-9e61-8f49e57b29fa.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Gandhinagar, Mumbai, Surat",
     "cityCount": 6
   },
   {
@@ -430,13 +419,13 @@
   },
   {
     "movie": "Avatar: Fire and Ash",
-    "language": "Hindi",
-    "movieCode": "9wmMB4IePt",
+    "language": "English",
+    "movieCode": "ZijYCsa3f",
     "id": 165236,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-35674ce0-d8e8-11f0-b537-3559512aba67.jpg",
-    "city": "Ahmedabad, Gandhinagar, Jaipur, Nagpur, Surat",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
+    "city": "Bangalore, Bengaluru, Hyderabad, Kochi, Mumbai",
     "cityCount": 5
   },
   {
@@ -492,6 +481,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hot-Spot-2-Much--59ba4e60-f5f5-11f0-ac9c-adb0b802f2b3.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Madurai",
+    "cityCount": 5
+  },
+  {
+    "movie": "Laalo - Krishna Sada Sahaayate",
+    "language": "Gujarati",
+    "movieCode": "1je04xQI1c",
+    "id": 204602,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Laalo---Krishna-Sada-Sahaayate-07dc4e00-88b2-11f0-9e61-8f49e57b29fa.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Gandhinagar, Surat",
     "cityCount": 5
   },
   {
@@ -2294,7 +2294,7 @@
     "id": 197993,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster_0009_His%20History-d5056c90-3d17-11f0-b426-a50671acfc24.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/poster%20_0020_His%20story%20of%20Ithihas-c754a830-41dc-11f0-b426-a50671acfc24.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -2717,6 +2717,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Laalo - Krishna Sada Sahaayate",
+    "language": "Hindi",
+    "movieCode": "1pogmyWjtJ",
+    "id": 204602,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Krishna-Sada-Sahaayate-5ad38720-e7be-11f0-a607-61ea02f10667.jpg",
+    "city": "Delhi/NCR, Mumbai",
+    "cityCount": 2
+  },
+  {
     "movie": "Landlord",
     "language": "Kannada",
     "movieCode": "nvcpFYu8P9",
@@ -3020,7 +3031,7 @@
     "id": 163623,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein-a78e5230-fb37-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/mohabbatein3-d255b4e0-fb37-11ef-943b-b3723efa3f38.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
@@ -4801,7 +4812,7 @@
     "id": 167249,
     "runtime": 134,
     "rating": "UA 13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sky1-a9defe50-e551-11ef-b243-a1b813d1dc02.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sky-5fcf5670-e551-11ef-b243-a1b813d1dc02.jpg",
     "city": "Bangalore, Bengaluru",
     "cityCount": 2
   },
@@ -9927,17 +9938,6 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/lal-singh%20(1)-2a3a27d0-a462-11f0-924e-9f4458e01db6.jpg",
     "city": "Kolkata",
-    "cityCount": 1
-  },
-  {
-    "movie": "Laalo - Krishna Sada Sahaayate",
-    "language": "Hindi",
-    "movieCode": "1pogmyWjtJ",
-    "id": 204602,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Krishna-Sada-Sahaayate-5ad38720-e7be-11f0-a607-61ea02f10667.jpg",
-    "city": "Delhi/NCR",
     "cityCount": 1
   },
   {
