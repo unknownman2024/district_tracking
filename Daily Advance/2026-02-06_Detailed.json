@@ -1388,10 +1388,10 @@
       "time": "09:45 AM",
       "audi": "SCREEN 5",
       "totalSeats": 263,
-      "available": 261,
-      "sold": 2,
-      "gross": 500,
-      "occupancy": "0.76%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Jamshedpur",
@@ -3065,10 +3065,10 @@
       "time": "10:15 PM",
       "audi": "SEASONS",
       "totalSeats": 249,
-      "available": 249,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 220,
+      "sold": 29,
+      "gross": 5872.21,
+      "occupancy": "11.65%"
     }
   ],
   "Karikaada [2D | Kannada]": [
@@ -4508,7 +4508,7 @@
     }
   ],
   "date": "2026-02-06",
-  "lastUpdated": "04:26 AM, 04 February 2026",
+  "lastUpdated": "05:20 AM, 04 February 2026",
   "Karuppu Pulsar [2D | Tamil]": [
     {
       "city": "Batlagundu",
@@ -6760,10 +6760,10 @@
       "time": "01:20 PM",
       "audi": "AUDI 01",
       "totalSeats": 424,
-      "available": 424,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 423,
+      "sold": 1,
+      "gross": 183.8,
+      "occupancy": "0.24%"
     },
     {
       "city": "Chennai",
@@ -7318,11 +7318,11 @@
       "chain": "PVR",
       "time": "10:50 PM",
       "audi": "AUDI 4 STREAK",
-      "totalSeats": 297,
+      "totalSeats": 310,
       "available": 243,
-      "sold": 54,
-      "gross": 6818.4,
-      "occupancy": "18.18%"
+      "sold": 67,
+      "gross": 9207.800000000001,
+      "occupancy": "21.61%"
     },
     {
       "city": "Chennai",
@@ -7345,10 +7345,10 @@
       "time": "12:45 PM",
       "audi": "AUDI 8",
       "totalSeats": 501,
-      "available": 448,
-      "sold": 53,
-      "gross": 9741.400000000001,
-      "occupancy": "10.58%"
+      "available": 447,
+      "sold": 54,
+      "gross": 9795.750000000002,
+      "occupancy": "10.78%"
     },
     {
       "city": "Chennai",
@@ -9204,11 +9204,11 @@
       "chain": "PVR",
       "time": "12:35 PM",
       "audi": "AUDI 1 BLUSH",
-      "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 110,
+      "available": 75,
+      "sold": 35,
+      "gross": 6190.38,
+      "occupancy": "31.82%"
     }
   ],
   "Lagan Laagii Re [2D | Gujarati]": [
@@ -10469,11 +10469,11 @@
       "chain": "PVR",
       "time": "03:10 PM",
       "audi": "STUDIO-5",
-      "totalSeats": 114,
-      "available": 103,
-      "sold": 11,
-      "gross": 1655.15,
-      "occupancy": "9.65%"
+      "totalSeats": 107,
+      "available": 84,
+      "sold": 23,
+      "gross": 4657.27,
+      "occupancy": "21.50%"
     }
   ],
   "Tu Meri Main Tera Main Tera Tu Meri [2D | Hindi]": [
@@ -12192,10 +12192,10 @@
       "time": "10:20 PM",
       "audi": "SANTHAM",
       "totalSeats": 488,
-      "available": 488,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 457,
+      "sold": 31,
+      "gross": 6277.1900000000005,
+      "occupancy": "6.35%"
     },
     {
       "city": "Chennai",
@@ -12205,10 +12205,10 @@
       "time": "04:20 PM",
       "audi": "SANTHAM",
       "totalSeats": 488,
-      "available": 488,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 457,
+      "sold": 31,
+      "gross": 6277.1900000000005,
+      "occupancy": "6.35%"
     }
   ],
   "Thalaivar Thambi Thalaimaiyil [2D | Tamil]": [
@@ -12882,11 +12882,11 @@
       "chain": "PVR",
       "time": "04:15 PM",
       "audi": "AUDI 5 PLUSH",
-      "totalSeats": 301,
-      "available": 301,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 310,
+      "available": 243,
+      "sold": 67,
+      "gross": 9207.800000000001,
+      "occupancy": "21.61%"
     },
     {
       "city": "Chennai",
@@ -12895,11 +12895,11 @@
       "chain": "PVR",
       "time": "10:10 PM",
       "audi": "AUDI 5 PLUSH",
-      "totalSeats": 301,
-      "available": 301,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 310,
+      "available": 243,
+      "sold": 67,
+      "gross": 9207.800000000001,
+      "occupancy": "21.61%"
     },
     {
       "city": "Chennai",
@@ -13214,6 +13214,19 @@
       "sold": 29,
       "gross": 5872.21,
       "occupancy": "10.14%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Sathyam, Royapettah, Chennai",
+      "chain": "PVR",
+      "time": "03:15 PM",
+      "audi": "6DEGREES",
+      "totalSeats": 175,
+      "available": 146,
+      "sold": 29,
+      "gross": 5872.21,
+      "occupancy": "16.57%"
     }
   ],
   "Ashakal Aayiram [2D | Malayalam]": [
@@ -13759,11 +13772,11 @@
       "chain": "PVR",
       "time": "12:40 PM",
       "audi": "AUDI 5 PLUSH",
-      "totalSeats": 301,
+      "totalSeats": 310,
       "available": 243,
-      "sold": 58,
-      "gross": 6228.88,
-      "occupancy": "19.27%"
+      "sold": 67,
+      "gross": 7533.88,
+      "occupancy": "21.61%"
     },
     {
       "city": "Chennai",
@@ -14092,11 +14105,11 @@
       "chain": "PVR",
       "time": "10:45 PM",
       "audi": "AUDI 3 SPOT",
-      "totalSeats": 113,
-      "available": 113,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 120,
+      "available": 84,
+      "sold": 36,
+      "gross": 6145.16,
+      "occupancy": "30.00%"
     },
     {
       "city": "Chennai",
@@ -16156,11 +16169,11 @@
       "chain": "PVR",
       "time": "10:35 PM",
       "audi": "SERENE",
-      "totalSeats": 272,
-      "available": 263,
-      "sold": 9,
-      "gross": 1654.2,
-      "occupancy": "3.31%"
+      "totalSeats": 263,
+      "available": 232,
+      "sold": 31,
+      "gross": 5697.8,
+      "occupancy": "11.79%"
     },
     {
       "city": "Chennai",
@@ -16169,11 +16182,11 @@
       "chain": "PVR",
       "time": "03:50 PM",
       "audi": "SERENE",
-      "totalSeats": 272,
-      "available": 263,
-      "sold": 9,
-      "gross": 1654.2,
-      "occupancy": "3.31%"
+      "totalSeats": 263,
+      "available": 232,
+      "sold": 31,
+      "gross": 5697.8,
+      "occupancy": "11.79%"
     }
   ],
   "Sirai [2D | Tamil]": [
@@ -16267,6 +16280,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Sathyam, Royapettah, Chennai",
+      "chain": "PVR",
+      "time": "12:25 PM",
+      "audi": "6DEGREES",
+      "totalSeats": 175,
+      "available": 146,
+      "sold": 29,
+      "gross": 5330.200000000001,
+      "occupancy": "16.57%"
     }
   ],
   "Chatha Pacha: The Ring of Rowdies [2D | Tamil]": [
@@ -16468,6 +16494,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "PVR Sathyam, Royapettah, Chennai",
+      "chain": "PVR",
+      "time": "10:30 PM",
+      "audi": "6DEGREES",
+      "totalSeats": 175,
+      "available": 146,
+      "sold": 29,
+      "gross": 5872.21,
+      "occupancy": "16.57%"
     }
   ],
   "The Strangers - Chapter 3 [2D | English]": [
@@ -16491,11 +16530,11 @@
       "chain": "PVR",
       "time": "10:25 PM",
       "audi": "AUDI 2 WEAVE",
-      "totalSeats": 101,
-      "available": 101,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 110,
+      "available": 75,
+      "sold": 35,
+      "gross": 6190.38,
+      "occupancy": "31.82%"
     },
     {
       "city": "Chennai",
@@ -16545,11 +16584,11 @@
       "chain": "PVR",
       "time": "07:25 PM",
       "audi": "STUDIO-5",
-      "totalSeats": 114,
-      "available": 103,
-      "sold": 11,
-      "gross": 1504.0000000000002,
-      "occupancy": "9.65%"
+      "totalSeats": 107,
+      "available": 84,
+      "sold": 23,
+      "gross": 4227.400000000001,
+      "occupancy": "21.50%"
     }
   ],
   "Mankatha [2D | Tamil]": [
@@ -16629,11 +16668,11 @@
       "chain": "PVR",
       "time": "03:30 PM",
       "audi": "AUDI 7 CARVE",
-      "totalSeats": 105,
-      "available": 105,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 110,
+      "available": 75,
+      "sold": 35,
+      "gross": 5942.67,
+      "occupancy": "31.82%"
     },
     {
       "city": "Chennai",
