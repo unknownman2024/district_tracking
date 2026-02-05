@@ -1,6 +1,6 @@
 {
   "date": "2026-02-06",
-  "lastUpdated": "04:22 AM, 06 February 2026",
+  "lastUpdated": "05:15 AM, 06 February 2026",
   "Chaurangi | Gujarati": {
     "shows": 1,
     "gross": 0,
@@ -26,19 +26,41 @@
     ]
   },
   "Dhurandhar | Hindi": {
-    "shows": 1,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 68,
-    "venues": 1,
-    "cities": 1,
+    "shows": 4,
+    "gross": 1920,
+    "sold": 8,
+    "totalSeats": 761,
+    "venues": 4,
+    "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 1.05,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 1920,
+        "sold": 8,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.56
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
         "shows": 1,
         "gross": 0,
         "sold": 0,
@@ -50,15 +72,15 @@
     ]
   },
   "Mardaani 3 | Hindi": {
-    "shows": 1,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 279,
-    "venues": 1,
-    "cities": 1,
+    "shows": 3,
+    "gross": 600,
+    "sold": 4,
+    "totalSeats": 847,
+    "venues": 3,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 0.47,
     "details": [
       {
         "city": "Mumbai",
@@ -70,6 +92,155 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 600,
+        "sold": 4,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.7
+      }
+    ]
+  },
+  "Bhabiji Ghar Par Hain! | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 49,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Border 2 | Hindi": {
+    "shows": 4,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 812,
+    "venues": 4,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "3 [2012] | Telugu": {
+    "shows": 7,
+    "gross": 276285,
+    "sold": 2153,
+    "totalSeats": 3343,
+    "venues": 7,
+    "cities": 6,
+    "fastfilling": 3,
+    "housefull": 2,
+    "occupancy": 64.4,
+    "details": [
+      {
+        "city": "Mandapeta",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 14390,
+        "sold": 137,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 61.71
+      },
+      {
+        "city": "Rajahmundry",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 24205,
+        "sold": 165,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 26.92
+      },
+      {
+        "city": "Kakinada",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 54045,
+        "sold": 421,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 99.53
+      },
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "shows": 1,
+        "gross": 16600,
+        "sold": 169,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 26.91
+      },
+      {
+        "city": "Vizag",
+        "state": "Andhra Pradesh",
+        "shows": 2,
+        "gross": 142295,
+        "sold": 1046,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 1,
+        "occupancy": 93.73
+      },
+      {
+        "city": "Bhimavaram",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 24750,
+        "sold": 215,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 63.05
       }
     ]
   }
