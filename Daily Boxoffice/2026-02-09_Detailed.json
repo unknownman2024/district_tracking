@@ -1,6 +1,6 @@
 {
   "date": "2026-02-09",
-  "lastUpdated": "04:21 AM, 09 February 2026",
+  "lastUpdated": "05:20 AM, 09 February 2026",
   "Border 2 | Hindi": [
     {
       "city": "Mumbai",
@@ -13,7 +13,33 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%",
-      "minsLeft": 173
+      "minsLeft": 114
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Motera, Ahmedabad",
+      "time": "08:30 AM",
+      "audi": "Screen 2",
+      "totalSeats": 38,
+      "available": 38,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 189
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Mondeal Retail Park, Ahmedabad",
+      "time": "08:30 AM",
+      "audi": "Screen 4",
+      "totalSeats": 23,
+      "available": 23,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 189
     }
   ],
   "Mardaani 3 | Hindi": [
@@ -28,7 +54,63 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%",
-      "minsLeft": 173
+      "minsLeft": 114
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Bhayandar",
+      "time": "07:45 AM",
+      "audi": "Screen 1",
+      "totalSeats": 358,
+      "available": 358,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 144
+    }
+  ],
+  "Bhabiji Ghar Par Hain! | Hindi": [
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Motera, Ahmedabad",
+      "time": "08:00 AM",
+      "audi": "Screen 1",
+      "totalSeats": 29,
+      "available": 29,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 159
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Mondeal Retail Park, Ahmedabad",
+      "time": "08:00 AM",
+      "audi": "Screen 1",
+      "totalSeats": 20,
+      "available": 13,
+      "sold": 7,
+      "gross": 2100,
+      "occupancy": "35.00%",
+      "minsLeft": 159
+    }
+  ],
+  "Dhurandhar | Hindi": [
+    {
+      "city": "Surat",
+      "state": "Gujarat",
+      "venue": "Bajrang Cinema, Ved Road, Surat",
+      "time": "08:30 AM",
+      "audi": "Screen 2",
+      "totalSeats": 179,
+      "available": 179,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 189
     }
   ]
 }
