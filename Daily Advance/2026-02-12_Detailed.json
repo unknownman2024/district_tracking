@@ -333,10 +333,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -346,10 +346,10 @@
       "time": "10:30 AM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kurnool",
@@ -2376,10 +2376,10 @@
       "time": "07:10 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -2389,10 +2389,10 @@
       "time": "04:30 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -2402,10 +2402,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Srikalahasti",
@@ -2547,10 +2547,10 @@
       "time": "06:55 PM",
       "audi": "VIMAL-70MM",
       "totalSeats": 845,
-      "available": 760,
-      "sold": 85,
-      "gross": 15655,
-      "occupancy": "10.06%"
+      "available": 758,
+      "sold": 87,
+      "gross": 15755,
+      "occupancy": "10.30%"
     },
     {
       "city": "Hyderabad",
@@ -3769,10 +3769,10 @@
       "time": "10:20 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -3782,10 +3782,10 @@
       "time": "10:30 AM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Kurnool",
@@ -3929,6 +3929,110 @@
       "sold": 108,
       "gross": 23200,
       "occupancy": "24.16%"
+    },
+    {
+      "city": "Undavalli",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rama Krishna Theatre, Undavalli",
+      "chain": "Sri Rama Krishna Theatre",
+      "time": "11:30 AM",
+      "audi": "Sri Rama Krishna",
+      "totalSeats": 333,
+      "available": 333,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Undavalli",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rama Krishna Theatre, Undavalli",
+      "chain": "Sri Rama Krishna Theatre",
+      "time": "06:30 PM",
+      "audi": "Sri Rama Krishna",
+      "totalSeats": 333,
+      "available": 333,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Undavalli",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rama Krishna Theatre, Undavalli",
+      "chain": "Sri Rama Krishna Theatre",
+      "time": "02:30 PM",
+      "audi": "Sri Rama Krishna",
+      "totalSeats": 333,
+      "available": 333,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Undavalli",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Rama Krishna Theatre, Undavalli",
+      "chain": "Sri Rama Krishna Theatre",
+      "time": "09:30 PM",
+      "audi": "Sri Rama Krishna",
+      "totalSeats": 333,
+      "available": 333,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "venue": "SV Cineplex 4K Dolby Atmos, dr Mahal Road, Tirupati",
+      "chain": "SV Cineplex",
+      "time": "02:45 PM",
+      "audi": "DR MAHAL",
+      "totalSeats": 506,
+      "available": 484,
+      "sold": 22,
+      "gross": 3190,
+      "occupancy": "4.35%"
+    },
+    {
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "venue": "SV Cineplex 4K Dolby Atmos, dr Mahal Road, Tirupati",
+      "chain": "SV Cineplex",
+      "time": "09:45 PM",
+      "audi": "DR MAHAL",
+      "totalSeats": 506,
+      "available": 484,
+      "sold": 22,
+      "gross": 3190,
+      "occupancy": "4.35%"
+    },
+    {
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "venue": "SV Cineplex 4K Dolby Atmos, dr Mahal Road, Tirupati",
+      "chain": "SV Cineplex",
+      "time": "11:30 AM",
+      "audi": "DR MAHAL",
+      "totalSeats": 506,
+      "available": 484,
+      "sold": 22,
+      "gross": 3190,
+      "occupancy": "4.35%"
+    },
+    {
+      "city": "Tirupati",
+      "state": "Andhra Pradesh",
+      "venue": "SV Cineplex 4K Dolby Atmos, dr Mahal Road, Tirupati",
+      "chain": "SV Cineplex",
+      "time": "06:30 PM",
+      "audi": "DR MAHAL",
+      "totalSeats": 506,
+      "available": 484,
+      "sold": 22,
+      "gross": 3190,
+      "occupancy": "4.35%"
     }
   ],
   "Mana Shankara Varaprasad Garu [2D | Telugu]": [
@@ -7281,10 +7385,10 @@
       "time": "11:30 AM",
       "audi": "Annapurna",
       "totalSeats": 503,
-      "available": 92,
-      "sold": 411,
-      "gross": 55770,
-      "occupancy": "81.71%"
+      "available": 93,
+      "sold": 410,
+      "gross": 55670,
+      "occupancy": "81.51%"
     },
     {
       "city": "Narasaraopet",
@@ -7606,10 +7710,10 @@
       "time": "04:25 PM",
       "audi": "SCREEN-II",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -7619,10 +7723,10 @@
       "time": "10:45 AM",
       "audi": "SCREEN-II",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -7632,10 +7736,10 @@
       "time": "10:10 PM",
       "audi": "SCREEN-II",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -7645,10 +7749,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN-III",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -7658,10 +7762,10 @@
       "time": "07:25 PM",
       "audi": "SCREEN-III",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Hyderabad",
@@ -7896,6 +8000,58 @@
       "sold": 351,
       "gross": 31430,
       "occupancy": "68.96%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Cine Square Dolby Atmos A/C, Gorantla, Guntur",
+      "chain": "Cine Square Dolby Atmos",
+      "time": "11:45 AM",
+      "audi": "Cine Square Dolby Atmos",
+      "totalSeats": 376,
+      "available": 316,
+      "sold": 60,
+      "gross": 8820,
+      "occupancy": "15.96%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Cine Square Dolby Atmos A/C, Gorantla, Guntur",
+      "chain": "Cine Square Dolby Atmos",
+      "time": "06:45 PM",
+      "audi": "Cine Square Dolby Atmos",
+      "totalSeats": 376,
+      "available": 316,
+      "sold": 60,
+      "gross": 8820,
+      "occupancy": "15.96%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Annapurna A/C 2K Dolby Digital, Kurmananapalem, Vizag",
+      "chain": "TicketNew",
+      "time": "09:30 PM",
+      "audi": "Annapurna",
+      "totalSeats": 503,
+      "available": 92,
+      "sold": 411,
+      "gross": 55770,
+      "occupancy": "81.71%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Annapurna A/C 2K Dolby Digital, Kurmananapalem, Vizag",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "Annapurna",
+      "totalSeats": 503,
+      "available": 93,
+      "sold": 410,
+      "gross": 55670,
+      "occupancy": "81.51%"
     }
   ],
   "Sumathi Sathakam [2D | Telugu]": [
@@ -8791,10 +8947,10 @@
       "time": "02:15 PM",
       "audi": "Lalitha Kala Mandir",
       "totalSeats": 624,
-      "available": 145,
-      "sold": 479,
-      "gross": 42225,
-      "occupancy": "76.76%"
+      "available": 143,
+      "sold": 481,
+      "gross": 42380,
+      "occupancy": "77.08%"
     },
     {
       "city": "Yellandu",
@@ -8804,10 +8960,10 @@
       "time": "10:45 AM",
       "audi": "Lalitha Kala Mandir",
       "totalSeats": 624,
-      "available": 145,
-      "sold": 479,
-      "gross": 42225,
-      "occupancy": "76.76%"
+      "available": 143,
+      "sold": 481,
+      "gross": 42380,
+      "occupancy": "77.08%"
     },
     {
       "city": "Yellandu",
@@ -8817,10 +8973,10 @@
       "time": "09:15 PM",
       "audi": "Lalitha Kala Mandir",
       "totalSeats": 624,
-      "available": 145,
-      "sold": 479,
-      "gross": 42225,
-      "occupancy": "76.76%"
+      "available": 143,
+      "sold": 481,
+      "gross": 42380,
+      "occupancy": "77.08%"
     },
     {
       "city": "Yellandu",
@@ -8830,10 +8986,10 @@
       "time": "06:15 PM",
       "audi": "Lalitha Kala Mandir",
       "totalSeats": 624,
-      "available": 145,
-      "sold": 479,
-      "gross": 42225,
-      "occupancy": "76.76%"
+      "available": 143,
+      "sold": 481,
+      "gross": 42380,
+      "occupancy": "77.08%"
     }
   ],
   "With Love [2D | Telugu]": [
@@ -9859,10 +10015,10 @@
       "time": "10:25 PM",
       "audi": "SCREEN-III",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -9872,10 +10028,10 @@
       "time": "07:25 PM",
       "audi": "SCREEN-II",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -9885,10 +10041,10 @@
       "time": "01:45 PM",
       "audi": "SCREEN-II",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Proddatur",
@@ -9898,10 +10054,10 @@
       "time": "11:30 AM",
       "audi": "Araveti Theatre",
       "totalSeats": 496,
-      "available": 390,
-      "sold": 106,
-      "gross": 11660,
-      "occupancy": "21.37%"
+      "available": 0,
+      "sold": 496,
+      "gross": 54560,
+      "occupancy": "100.00%"
     },
     {
       "city": "Proddatur",
@@ -9911,10 +10067,10 @@
       "time": "02:30 PM",
       "audi": "Araveti Theatre",
       "totalSeats": 496,
-      "available": 390,
-      "sold": 106,
-      "gross": 11660,
-      "occupancy": "21.37%"
+      "available": 0,
+      "sold": 496,
+      "gross": 54560,
+      "occupancy": "100.00%"
     },
     {
       "city": "Proddatur",
@@ -9924,10 +10080,10 @@
       "time": "09:30 PM",
       "audi": "Araveti Theatre",
       "totalSeats": 496,
-      "available": 390,
-      "sold": 106,
-      "gross": 11660,
-      "occupancy": "21.37%"
+      "available": 0,
+      "sold": 496,
+      "gross": 54560,
+      "occupancy": "100.00%"
     },
     {
       "city": "Proddatur",
@@ -9937,10 +10093,10 @@
       "time": "06:30 PM",
       "audi": "Araveti Theatre",
       "totalSeats": 496,
-      "available": 390,
-      "sold": 106,
-      "gross": 11660,
-      "occupancy": "21.37%"
+      "available": 0,
+      "sold": 496,
+      "gross": 54560,
+      "occupancy": "100.00%"
     },
     {
       "city": "Hyderabad",
@@ -10465,6 +10621,58 @@
       "sold": 17,
       "gross": 2550,
       "occupancy": "6.59%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Saraswathi Picture Palace A/c Christie Laser Projection",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "Sri Saraswathi Picture Palace",
+      "totalSeats": 385,
+      "available": 385,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Saraswathi Picture Palace A/c Christie Laser Projection",
+      "chain": "TicketNew",
+      "time": "09:30 PM",
+      "audi": "Sri Saraswathi Picture Palace",
+      "totalSeats": 385,
+      "available": 385,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Saraswathi Picture Palace, Guntur",
+      "chain": "Sri Saraswathi Picture Palace",
+      "time": "02:30 PM",
+      "audi": "Sri Saraswathi Picture Palace",
+      "totalSeats": 385,
+      "available": 385,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Guntur",
+      "state": "Andhra Pradesh",
+      "venue": "Sri Saraswathi Picture Palace, Guntur",
+      "chain": "Sri Saraswathi Picture Palace",
+      "time": "09:30 PM",
+      "audi": "Sri Saraswathi Picture Palace",
+      "totalSeats": 385,
+      "available": 385,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Border 2 [2D | Hindi]": [
@@ -17899,10 +18107,10 @@
       "time": "06:00 PM",
       "audi": "SCREEN3",
       "totalSeats": 174,
-      "available": 163,
-      "sold": 11,
-      "gross": 1740,
-      "occupancy": "6.32%"
+      "available": 167,
+      "sold": 7,
+      "gross": 1180,
+      "occupancy": "4.02%"
     },
     {
       "city": "Lucknow",
@@ -19979,10 +20187,10 @@
       "time": "05:00 PM",
       "audi": "Audi 4",
       "totalSeats": 113,
-      "available": 113,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 111,
+      "sold": 2,
+      "gross": 400,
+      "occupancy": "1.77%"
     },
     {
       "city": "Ludhiana",
@@ -26440,10 +26648,10 @@
       "time": "03:45 PM",
       "audi": "AUDI 02",
       "totalSeats": 94,
-      "available": 94,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 90,
+      "sold": 4,
+      "gross": 2600,
+      "occupancy": "4.26%"
     },
     {
       "city": "New Delhi",
@@ -31354,10 +31562,10 @@
       "time": "11:00 AM",
       "audi": "SCREEN 3",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 123,
+      "sold": 2,
+      "gross": 210,
+      "occupancy": "1.60%"
     },
     {
       "city": "Ahmedabad",
@@ -31367,10 +31575,10 @@
       "time": "06:00 PM",
       "audi": "SCREEN 2",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 120,
+      "sold": 5,
+      "gross": 750,
+      "occupancy": "4.00%"
     },
     {
       "city": "Ahmedabad",
@@ -31380,10 +31588,10 @@
       "time": "09:30 PM",
       "audi": "SCREEN 4",
       "totalSeats": 123,
-      "available": 123,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 119,
+      "sold": 4,
+      "gross": 640,
+      "occupancy": "3.25%"
     },
     {
       "city": "Ahmedabad",
@@ -31393,10 +31601,10 @@
       "time": "10:15 AM",
       "audi": "SCREEN 4",
       "totalSeats": 123,
-      "available": 123,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 119,
+      "sold": 4,
+      "gross": 420,
+      "occupancy": "3.25%"
     },
     {
       "city": "Ahmedabad",
@@ -31406,10 +31614,10 @@
       "time": "02:15 PM",
       "audi": "SCREEN 4",
       "totalSeats": 123,
-      "available": 123,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 119,
+      "sold": 4,
+      "gross": 560,
+      "occupancy": "3.25%"
     },
     {
       "city": "Ahmedabad",
@@ -31419,10 +31627,10 @@
       "time": "07:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 123,
+      "sold": 2,
+      "gross": 300,
+      "occupancy": "1.60%"
     },
     {
       "city": "Ahmedabad",
@@ -31432,10 +31640,10 @@
       "time": "11:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 123,
+      "sold": 2,
+      "gross": 320,
+      "occupancy": "1.60%"
     },
     {
       "city": "Ahmedabad",
@@ -31445,10 +31653,10 @@
       "time": "03:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 123,
+      "sold": 2,
+      "gross": 300,
+      "occupancy": "1.60%"
     },
     {
       "city": "Ahmedabad",
@@ -41784,6 +41992,513 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "01:10 PM",
+      "audi": "Audi 2",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "08:00 PM",
+      "audi": "Audi 2",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "04:40 PM",
+      "audi": "Audi 2",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "10:00 AM",
+      "audi": "Audi 2",
+      "totalSeats": 121,
+      "available": 121,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "09:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 3240,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "07:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 2160,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "10:15 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 1690,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "03:25 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 2160,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "12:30 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 3240,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "04:25 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 3240,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "08:20 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 3240,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "11:15 AM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1300,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "05:20 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 3240,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "01:30 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 3240,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "07:45 PM",
+      "audi": "AUDI 10",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.76%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "02:20 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 160,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.61%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "09:30 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 160,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.61%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "03:25 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 171,
+      "available": 165,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.51%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "11:20 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 171,
+      "available": 165,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.51%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "12:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 158,
+      "available": 152,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.80%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "07:25 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 171,
+      "available": 165,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.51%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "08:20 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 257,
+      "available": 251,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "2.33%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "09:55 PM",
+      "audi": "Screen 2",
+      "totalSeats": 290,
+      "available": 290,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "10:30 AM",
+      "audi": "Screen 2",
+      "totalSeats": 290,
+      "available": 290,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "02:15 PM",
+      "audi": "Screen 2",
+      "totalSeats": 290,
+      "available": 290,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "06:00 PM",
+      "audi": "Screen 2",
+      "totalSeats": 290,
+      "available": 290,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Itarsi",
+      "state": "Madhya Pradesh",
+      "venue": "The Studio Park, Hoshangabad Road, Itarsi",
+      "chain": "The Studio Park",
+      "time": "09:30 PM",
+      "audi": "The Studio Park - Itarsi",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Itarsi",
+      "state": "Madhya Pradesh",
+      "venue": "The Studio Park, Hoshangabad Road, Itarsi",
+      "chain": "The Studio Park",
+      "time": "05:30 PM",
+      "audi": "The Studio Park - Itarsi",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Petlad",
+      "state": "Gujarat",
+      "venue": "Cine Square Cinema, Shekhadi, Petlad",
+      "chain": "Cine Square Cinema, Petlad",
+      "time": "09:30 PM",
+      "audi": "Screen 1",
+      "totalSeats": 161,
+      "available": 161,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Petlad",
+      "state": "Gujarat",
+      "venue": "Cine Square Cinema, Shekhadi, Petlad",
+      "chain": "Cine Square Cinema, Petlad",
+      "time": "03:30 PM",
+      "audi": "Screen 1",
+      "totalSeats": 161,
+      "available": 161,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Petlad",
+      "state": "Gujarat",
+      "venue": "Cine Square Cinema, Shekhadi, Petlad",
+      "chain": "Cine Square Cinema, Petlad",
+      "time": "06:00 PM",
+      "audi": "Screen 2",
+      "totalSeats": 142,
+      "available": 142,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Petlad",
+      "state": "Gujarat",
+      "venue": "Cine Square Cinema, Shekhadi, Petlad",
+      "chain": "Cine Square Cinema, Petlad",
+      "time": "12:00 PM",
+      "audi": "Screen 2",
+      "totalSeats": 142,
+      "available": 142,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "venue": "Cinepolis Vandana, Gondal Road, Rajkot",
+      "chain": "Cinepolis",
+      "time": "07:10 PM",
+      "audi": "AUID 2",
+      "totalSeats": 211,
+      "available": 203,
+      "sold": 8,
+      "gross": 1360,
+      "occupancy": "3.79%"
+    },
+    {
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "venue": "Cinepolis Vandana, Gondal Road, Rajkot",
+      "chain": "Cinepolis",
+      "time": "03:40 PM",
+      "audi": "AUID 4",
+      "totalSeats": 195,
+      "available": 183,
+      "sold": 12,
+      "gross": 1800,
+      "occupancy": "6.15%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "09:15 PM",
+      "audi": "Screen-1",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "03:00 PM",
+      "audi": "Screen-2",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "01:00 PM",
+      "audi": "Screen-1",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "05:00 PM",
+      "audi": "Screen-1",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Una (Himachal Pradesh)",
+      "state": "Himachal Pradesh",
+      "venue": "Rajhans Cinemas, MRC Magnum Mall ISBT, Una",
+      "chain": "Rajhans Cinemas",
+      "time": "12:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 172,
+      "available": 152,
+      "sold": 20,
+      "gross": 3600,
+      "occupancy": "11.63%"
     }
   ],
   "Godaan [2D | Hindi]": [
@@ -42540,6 +43255,19 @@
       "sold": 81,
       "gross": 12635,
       "occupancy": "29.67%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "12:15 PM",
+      "audi": "Screen-3",
+      "totalSeats": 182,
+      "available": 182,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Bicharo Bachelor [2D | Gujarati]": [
@@ -45001,10 +45729,10 @@
       "time": "01:45 PM",
       "audi": "SCREEN 3",
       "totalSeats": 193,
-      "available": 193,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 191,
+      "sold": 2,
+      "gross": 300,
+      "occupancy": "1.04%"
     },
     {
       "city": "Bhavnagar",
@@ -47033,6 +47761,45 @@
       "sold": 8,
       "gross": 1200,
       "occupancy": "4.10%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "05:10 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.76%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis V3S East Center (New), Beside Nirman Vihar Metro Station, Laxmi Nagar",
+      "chain": "Cinepolis",
+      "time": "02:10 PM",
+      "audi": "AUDI5",
+      "totalSeats": 262,
+      "available": 254,
+      "sold": 8,
+      "gross": 2320,
+      "occupancy": "3.05%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "10:00 AM",
+      "audi": "Screen 4",
+      "totalSeats": 37,
+      "available": 37,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Paatki [2D | Gujarati]": [
@@ -47071,6 +47838,32 @@
       "audi": "SCREEN 4",
       "totalSeats": 188,
       "available": 188,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "10:00 PM",
+      "audi": "Screen-2",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "Screen-3",
+      "totalSeats": 182,
+      "available": 182,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -48554,10 +49347,10 @@
       "time": "01:30 PM",
       "audi": "AUDI 2",
       "totalSeats": 170,
-      "available": 170,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 168,
+      "sold": 2,
+      "gross": 400,
+      "occupancy": "1.18%"
     },
     {
       "city": "Bhuj",
@@ -48775,10 +49568,10 @@
       "time": "06:15 PM",
       "audi": "SCREEN 4",
       "totalSeats": 123,
-      "available": 123,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 119,
+      "sold": 4,
+      "gross": 600,
+      "occupancy": "3.25%"
     },
     {
       "city": "Ahmedabad",
@@ -49845,6 +50638,58 @@
       "sold": 8,
       "gross": 1360,
       "occupancy": "4.10%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "03:30 PM",
+      "audi": "Screen-3",
+      "totalSeats": 182,
+      "available": 182,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "06:45 PM",
+      "audi": "Screen-2",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "09:30 PM",
+      "audi": "Screen-3",
+      "totalSeats": 182,
+      "available": 182,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "10:00 AM",
+      "audi": "Screen-1",
+      "totalSeats": 194,
+      "available": 194,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Vadh 2 [2D | Hindi]": [
@@ -50856,11 +51701,11 @@
       "chain": "Cinepolis",
       "time": "09:25 AM",
       "audi": "SCREEN 2",
-      "totalSeats": 164,
-      "available": 158,
+      "totalSeats": 166,
+      "available": 160,
       "sold": 6,
       "gross": 900,
-      "occupancy": "3.66%"
+      "occupancy": "3.61%"
     },
     {
       "city": "New Delhi",
@@ -50869,11 +51714,11 @@
       "chain": "Cinepolis",
       "time": "05:30 PM",
       "audi": "SCREEN 2",
-      "totalSeats": 164,
-      "available": 158,
+      "totalSeats": 166,
+      "available": 160,
       "sold": 6,
       "gross": 1980,
-      "occupancy": "3.66%"
+      "occupancy": "3.61%"
     },
     {
       "city": "New Delhi",
@@ -50882,11 +51727,11 @@
       "chain": "Cinepolis",
       "time": "02:45 PM",
       "audi": "SCREEN 2",
-      "totalSeats": 164,
-      "available": 158,
+      "totalSeats": 166,
+      "available": 160,
       "sold": 6,
       "gross": 1980,
-      "occupancy": "3.66%"
+      "occupancy": "3.61%"
     },
     {
       "city": "New Delhi",
@@ -50908,11 +51753,11 @@
       "chain": "Cinepolis",
       "time": "08:15 PM",
       "audi": "SCREEN 2",
-      "totalSeats": 164,
-      "available": 158,
+      "totalSeats": 166,
+      "available": 160,
       "sold": 6,
       "gross": 1980,
-      "occupancy": "3.66%"
+      "occupancy": "3.61%"
     },
     {
       "city": "Noida",
@@ -53665,10 +54510,10 @@
       "time": "02:00 PM",
       "audi": "SCREEN 2",
       "totalSeats": 478,
-      "available": 458,
-      "sold": 20,
-      "gross": 7130,
-      "occupancy": "4.18%"
+      "available": 460,
+      "sold": 18,
+      "gross": 6230,
+      "occupancy": "3.77%"
     },
     {
       "city": "Jaipur",
@@ -55138,6 +55983,123 @@
       "sold": 8,
       "gross": 1360,
       "occupancy": "4.10%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "10:05 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 1200,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "03:05 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "08:35 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "12:00 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.91%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:40 PM",
+      "audi": "AUDI 11",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.91%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "06:40 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 152,
+      "available": 146,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.95%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "12:40 PM",
+      "audi": "Screen 4",
+      "totalSeats": 37,
+      "available": 37,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "07:30 PM",
+      "audi": "Screen 4",
+      "totalSeats": 37,
+      "available": 37,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "10:15 PM",
+      "audi": "Screen 4",
+      "totalSeats": 37,
+      "available": 37,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Mardaani 3 [2D | Hindi]": [
@@ -56787,10 +57749,10 @@
       "time": "10:00 AM",
       "audi": "SCREEN 4",
       "totalSeats": 145,
-      "available": 145,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 142,
+      "sold": 3,
+      "gross": 900,
+      "occupancy": "2.07%"
     },
     {
       "city": "Pune",
@@ -57956,11 +58918,11 @@
       "chain": "Cinepolis",
       "time": "12:00 PM",
       "audi": "SCREEN 2",
-      "totalSeats": 164,
-      "available": 158,
+      "totalSeats": 166,
+      "available": 160,
       "sold": 6,
       "gross": 1980,
-      "occupancy": "3.66%"
+      "occupancy": "3.61%"
     },
     {
       "city": "New Delhi",
@@ -57970,10 +58932,10 @@
       "time": "04:45 PM",
       "audi": "SCREEN 3",
       "totalSeats": 183,
-      "available": 177,
-      "sold": 6,
-      "gross": 1980,
-      "occupancy": "3.28%"
+      "available": 174,
+      "sold": 9,
+      "gross": 2970,
+      "occupancy": "4.92%"
     },
     {
       "city": "New Delhi",
@@ -60102,10 +61064,10 @@
       "time": "05:00 PM",
       "audi": "SCREEN 7",
       "totalSeats": 190,
-      "available": 190,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 187,
+      "sold": 3,
+      "gross": 810,
+      "occupancy": "1.58%"
     },
     {
       "city": "New Delhi",
@@ -64808,10 +65770,10 @@
       "time": "10:00 PM",
       "audi": "SCREEN 2",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 120,
+      "sold": 5,
+      "gross": 800,
+      "occupancy": "4.00%"
     },
     {
       "city": "Ahmedabad",
@@ -64821,10 +65783,10 @@
       "time": "03:15 PM",
       "audi": "SCREEN 2",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 120,
+      "sold": 5,
+      "gross": 750,
+      "occupancy": "4.00%"
     },
     {
       "city": "Ahmedabad",
@@ -64834,10 +65796,10 @@
       "time": "12:30 PM",
       "audi": "SCREEN 2",
       "totalSeats": 125,
-      "available": 125,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 120,
+      "sold": 5,
+      "gross": 700,
+      "occupancy": "4.00%"
     },
     {
       "city": "Ahmedabad",
@@ -69007,10 +69969,10 @@
       "time": "04:15 PM",
       "audi": "AUDI 3",
       "totalSeats": 136,
-      "available": 122,
-      "sold": 14,
-      "gross": 2360,
-      "occupancy": "10.29%"
+      "available": 126,
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "7.35%"
     },
     {
       "city": "Rampur",
@@ -69206,6 +70168,370 @@
       "sold": 8,
       "gross": 1360,
       "occupancy": "3.79%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "10:45 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 2340,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "02:05 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 2340,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "04:50 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 2340,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "12:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 2160,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "07:35 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 2340,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "10:15 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 2340,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "05:50 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "05:15 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 120,
+      "available": 120,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "07:50 PM",
+      "audi": "AUDI 11",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.91%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "01:55 PM",
+      "audi": "AUDI 11",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.91%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis V3S East Center (New), Beside Nirman Vihar Metro Station, Laxmi Nagar",
+      "chain": "Cinepolis",
+      "time": "09:25 PM",
+      "audi": "AUDI8",
+      "totalSeats": 136,
+      "available": 128,
+      "sold": 8,
+      "gross": 2320,
+      "occupancy": "5.88%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "11:30 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 160,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.61%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "06:20 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 166,
+      "available": 160,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.61%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "07:15 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 158,
+      "available": 152,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.80%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "04:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 158,
+      "available": 152,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.80%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "10:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 158,
+      "available": 152,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.80%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "10:30 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 152,
+      "available": 146,
+      "sold": 6,
+      "gross": 1440,
+      "occupancy": "3.95%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "Cinepolis Unity One Mall, Rohini, New Delhi",
+      "chain": "Cinepolis",
+      "time": "01:20 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 152,
+      "available": 146,
+      "sold": 6,
+      "gross": 1920,
+      "occupancy": "3.95%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "02:35 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 257,
+      "available": 251,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "2.33%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "05:15 PM",
+      "audi": "SCREEN 7",
+      "totalSeats": 257,
+      "available": 251,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "2.33%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "05:50 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 198,
+      "available": 192,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "3.03%"
+    },
+    {
+      "city": "Rampur",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall, Rampur",
+      "chain": "Cinepolis",
+      "time": "10:15 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 136,
+      "available": 126,
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "7.35%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "11:00 AM",
+      "audi": "Screen 3",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "01:30 PM",
+      "audi": "Screen 3",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "04:00 PM",
+      "audi": "Screen 3",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "06:30 PM",
+      "audi": "Screen 3",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Saki Naka",
+      "chain": "Maxus",
+      "time": "09:15 PM",
+      "audi": "Screen 3",
+      "totalSeats": 317,
+      "available": 317,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kurukshetra",
+      "state": "Haryana",
+      "venue": "Divine Cineplex, Kurukshetra",
+      "chain": "Divine Cineplex",
+      "time": "11:30 AM",
+      "audi": "AUDI 1",
+      "totalSeats": 244,
+      "available": 244,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Mohabbatein [2D | Hindi]": [
@@ -70544,10 +71870,10 @@
       "time": "10:15 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -70557,10 +71883,10 @@
       "time": "04:35 PM",
       "audi": "SCREEN-I",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Hyderabad",
@@ -71078,11 +72404,11 @@
       "chain": "Anusri",
       "time": "06:30 PM",
       "audi": "C 2",
-      "totalSeats": 549,
+      "totalSeats": 554,
       "available": 194,
-      "sold": 355,
-      "gross": 45385,
-      "occupancy": "64.66%"
+      "sold": 360,
+      "gross": 47440,
+      "occupancy": "64.98%"
     },
     {
       "city": "Kakinada",
@@ -71104,11 +72430,11 @@
       "chain": "Anusri",
       "time": "02:30 PM",
       "audi": "C 2",
-      "totalSeats": 549,
+      "totalSeats": 554,
       "available": 194,
-      "sold": 355,
-      "gross": 45385,
-      "occupancy": "64.66%"
+      "sold": 360,
+      "gross": 47440,
+      "occupancy": "64.98%"
     },
     {
       "city": "Kakinada",
@@ -72671,6 +73997,110 @@
       "sold": 202,
       "gross": 20800,
       "occupancy": "42.26%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "Queens Rathinavel Cinemas (Max) A/C 7.1 Dolby Digital, Aruppukottai",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "KLAS ANBU CINEMAS",
+      "totalSeats": 425,
+      "available": 425,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "Queens Rathinavel Cinemas (Max) A/C 7.1 Dolby Digital, Aruppukottai",
+      "chain": "TicketNew",
+      "time": "10:30 AM",
+      "audi": "KLAS ANBU CINEMAS",
+      "totalSeats": 425,
+      "available": 425,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "Queens Rathinavel Cinemas (Max) A/C 7.1 Dolby Digital, Aruppukottai",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "KLAS ANBU CINEMAS",
+      "totalSeats": 425,
+      "available": 425,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "Queens Rathinavel Cinemas (Max) A/C 7.1 Dolby Digital, Aruppukottai",
+      "chain": "TicketNew",
+      "time": "10:30 PM",
+      "audi": "KLAS ANBU CINEMAS",
+      "totalSeats": 425,
+      "available": 425,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Nadhamuni Cinema, Villivakkam, Chennai",
+      "chain": "TicketNew",
+      "time": "11:30 AM",
+      "audi": "Nathamuni Theatre",
+      "totalSeats": 606,
+      "available": 421,
+      "sold": 185,
+      "gross": 26220,
+      "occupancy": "30.53%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Nadhamuni Cinema, Villivakkam, Chennai",
+      "chain": "TicketNew",
+      "time": "03:00 PM",
+      "audi": "Nathamuni Theatre",
+      "totalSeats": 606,
+      "available": 421,
+      "sold": 185,
+      "gross": 26220,
+      "occupancy": "30.53%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Nadhamuni Cinema, Villivakkam, Chennai",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "Nathamuni Theatre",
+      "totalSeats": 606,
+      "available": 421,
+      "sold": 185,
+      "gross": 26220,
+      "occupancy": "30.53%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "Nadhamuni Cinema, Villivakkam, Chennai",
+      "chain": "TicketNew",
+      "time": "10:00 PM",
+      "audi": "Nathamuni Theatre",
+      "totalSeats": 606,
+      "available": 421,
+      "sold": 185,
+      "gross": 26220,
+      "occupancy": "30.53%"
     }
   ],
   "With Love [2D | Tamil]": [
@@ -76872,6 +78302,266 @@
       "sold": 110,
       "gross": 11990,
       "occupancy": "27.78%"
+    },
+    {
+      "city": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas, Bosepet, Gudiyatham",
+      "chain": "Sree Murugan Cinema",
+      "time": "02:20 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 100,
+      "available": 82,
+      "sold": 18,
+      "gross": 1800,
+      "occupancy": "18.00%"
+    },
+    {
+      "city": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas, Bosepet, Gudiyatham",
+      "chain": "Sree Murugan Cinema",
+      "time": "06:20 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 100,
+      "available": 82,
+      "sold": 18,
+      "gross": 1800,
+      "occupancy": "18.00%"
+    },
+    {
+      "city": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas, Bosepet, Gudiyatham",
+      "chain": "Sree Murugan Cinema",
+      "time": "10:10 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 100,
+      "available": 82,
+      "sold": 18,
+      "gross": 1800,
+      "occupancy": "18.00%"
+    },
+    {
+      "city": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas, Bosepet, Gudiyatham",
+      "chain": "Sree Murugan Cinema",
+      "time": "11:10 AM",
+      "audi": "SCREEN-2",
+      "totalSeats": 100,
+      "available": 82,
+      "sold": 18,
+      "gross": 1800,
+      "occupancy": "18.00%"
+    },
+    {
+      "city": "Kondur",
+      "state": "Tamil Nadu",
+      "venue": "Shanmuga Theatre A/C 2K Dobly7.1, Kondur",
+      "chain": "Sree Murugan Cinema",
+      "time": "11:30 AM",
+      "audi": "shanmuga Theatre",
+      "totalSeats": 407,
+      "available": 407,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kondur",
+      "state": "Tamil Nadu",
+      "venue": "Shanmuga Theatre A/C 2K Dobly7.1, Kondur",
+      "chain": "Sree Murugan Cinema",
+      "time": "02:30 PM",
+      "audi": "shanmuga Theatre",
+      "totalSeats": 407,
+      "available": 407,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kondur",
+      "state": "Tamil Nadu",
+      "venue": "Shanmuga Theatre A/C 2K Dobly7.1, Kondur",
+      "chain": "Sree Murugan Cinema",
+      "time": "09:30 PM",
+      "audi": "shanmuga Theatre",
+      "totalSeats": 407,
+      "available": 407,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kondur",
+      "state": "Tamil Nadu",
+      "venue": "Shanmuga Theatre A/C 2K Dobly7.1, Kondur",
+      "chain": "Sree Murugan Cinema",
+      "time": "06:30 PM",
+      "audi": "shanmuga Theatre",
+      "totalSeats": 407,
+      "available": 407,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Papanasam",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas A/C (4K Dolby), Papanasam",
+      "chain": "TicketNew",
+      "time": "11:00 AM",
+      "audi": "SAKTHI CINEMAS",
+      "totalSeats": 393,
+      "available": 330,
+      "sold": 63,
+      "gross": 6870,
+      "occupancy": "16.03%"
+    },
+    {
+      "city": "Papanasam",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas A/C (4K Dolby), Papanasam",
+      "chain": "TicketNew",
+      "time": "10:00 PM",
+      "audi": "SAKTHI CINEMAS",
+      "totalSeats": 393,
+      "available": 330,
+      "sold": 63,
+      "gross": 6870,
+      "occupancy": "16.03%"
+    },
+    {
+      "city": "Papanasam",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas A/C (4K Dolby), Papanasam",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "SAKTHI CINEMAS",
+      "totalSeats": 393,
+      "available": 330,
+      "sold": 63,
+      "gross": 6870,
+      "occupancy": "16.03%"
+    },
+    {
+      "city": "Papanasam",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas A/C (4K Dolby), Papanasam",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "SAKTHI CINEMAS",
+      "totalSeats": 393,
+      "available": 330,
+      "sold": 63,
+      "gross": 6870,
+      "occupancy": "16.03%"
+    },
+    {
+      "city": "Tindivanam",
+      "state": "Tamil Nadu",
+      "venue": "Kannaiya Theatre 4K Dolby Atmos RGB Laser Ganthi Nagar Main Road, Tindivanam",
+      "chain": "TicketNew",
+      "time": "10:00 PM",
+      "audi": "Kannaiya Theatre",
+      "totalSeats": 520,
+      "available": 391,
+      "sold": 129,
+      "gross": 16410,
+      "occupancy": "24.81%"
+    },
+    {
+      "city": "Tindivanam",
+      "state": "Tamil Nadu",
+      "venue": "Kannaiya Theatre 4K Dolby Atmos RGB Laser Ganthi Nagar Main Road, Tindivanam",
+      "chain": "TicketNew",
+      "time": "11:45 AM",
+      "audi": "Kannaiya Theatre",
+      "totalSeats": 520,
+      "available": 391,
+      "sold": 129,
+      "gross": 16410,
+      "occupancy": "24.81%"
+    },
+    {
+      "city": "Tindivanam",
+      "state": "Tamil Nadu",
+      "venue": "Kannaiya Theatre 4K Dolby Atmos RGB Laser Ganthi Nagar Main Road, Tindivanam",
+      "chain": "TicketNew",
+      "time": "03:00 PM",
+      "audi": "Kannaiya Theatre",
+      "totalSeats": 520,
+      "available": 391,
+      "sold": 129,
+      "gross": 16410,
+      "occupancy": "24.81%"
+    },
+    {
+      "city": "Tindivanam",
+      "state": "Tamil Nadu",
+      "venue": "Kannaiya Theatre 4K Dolby Atmos RGB Laser Ganthi Nagar Main Road, Tindivanam",
+      "chain": "TicketNew",
+      "time": "06:45 PM",
+      "audi": "Kannaiya Theatre",
+      "totalSeats": 520,
+      "available": 391,
+      "sold": 129,
+      "gross": 16410,
+      "occupancy": "24.81%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "09:45 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 442,
+      "available": 410,
+      "sold": 32,
+      "gross": 4050,
+      "occupancy": "7.24%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "06:30 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 442,
+      "available": 410,
+      "sold": 32,
+      "gross": 4050,
+      "occupancy": "7.24%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "02:30 PM",
+      "audi": "SCREEN-1",
+      "totalSeats": 442,
+      "available": 410,
+      "sold": 32,
+      "gross": 4050,
+      "occupancy": "7.24%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "11:30 AM",
+      "audi": "SCREEN-1",
+      "totalSeats": 1031,
+      "available": 410,
+      "sold": 621,
+      "gross": 64650,
+      "occupancy": "60.23%"
     }
   ],
   "Karikaadan [2D | Tamil]": [
@@ -78020,6 +79710,32 @@
       "sold": 16,
       "gross": 1920,
       "occupancy": "7.88%"
+    },
+    {
+      "city": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas, Bosepet, Gudiyatham",
+      "chain": "Sree Murugan Cinema",
+      "time": "06:20 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 194,
+      "available": 188,
+      "sold": 6,
+      "gross": 780,
+      "occupancy": "3.09%"
+    },
+    {
+      "city": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas, Bosepet, Gudiyatham",
+      "chain": "Sree Murugan Cinema",
+      "time": "11:10 AM",
+      "audi": "SCREEN-3",
+      "totalSeats": 194,
+      "available": 188,
+      "sold": 6,
+      "gross": 780,
+      "occupancy": "3.09%"
     }
   ],
   "Red Label [2D | Tamil]": [
@@ -79376,6 +81092,123 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "KLAS Max Screens Dolby Atmos A/C, Aruppukkottai",
+      "chain": "TicketNew",
+      "time": "06:30 PM",
+      "audi": "KLAS MAX SCREENS AC 4K DOLBY ATMOS",
+      "totalSeats": 564,
+      "available": 466,
+      "sold": 98,
+      "gross": 14700,
+      "occupancy": "17.38%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "KLAS Max Screens Dolby Atmos A/C, Aruppukkottai",
+      "chain": "TicketNew",
+      "time": "10:30 AM",
+      "audi": "KLAS MAX SCREENS AC 4K DOLBY ATMOS",
+      "totalSeats": 564,
+      "available": 466,
+      "sold": 98,
+      "gross": 14700,
+      "occupancy": "17.38%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "KLAS Max Screens Dolby Atmos A/C, Aruppukkottai",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "KLAS MAX SCREENS AC 4K DOLBY ATMOS",
+      "totalSeats": 564,
+      "available": 466,
+      "sold": 98,
+      "gross": 14700,
+      "occupancy": "17.38%"
+    },
+    {
+      "city": "Aruppukkottai",
+      "state": "Tamil Nadu",
+      "venue": "KLAS Max Screens Dolby Atmos A/C, Aruppukkottai",
+      "chain": "TicketNew",
+      "time": "10:30 PM",
+      "audi": "KLAS MAX SCREENS AC 4K DOLBY ATMOS",
+      "totalSeats": 564,
+      "available": 466,
+      "sold": 98,
+      "gross": 14700,
+      "occupancy": "17.38%"
+    },
+    {
+      "city": "Gudiyatham",
+      "state": "Tamil Nadu",
+      "venue": "Sakthi Cinemas, Bosepet, Gudiyatham",
+      "chain": "Sree Murugan Cinema",
+      "time": "10:10 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 194,
+      "available": 188,
+      "sold": 6,
+      "gross": 780,
+      "occupancy": "3.09%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "06:30 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 210,
+      "available": 197,
+      "sold": 13,
+      "gross": 1300,
+      "occupancy": "6.19%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "09:45 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 210,
+      "available": 197,
+      "sold": 13,
+      "gross": 1300,
+      "occupancy": "6.19%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "11:30 AM",
+      "audi": "SCREEN-2",
+      "totalSeats": 210,
+      "available": 197,
+      "sold": 13,
+      "gross": 1300,
+      "occupancy": "6.19%"
+    },
+    {
+      "city": "Tirupattur",
+      "state": "Tamil Nadu",
+      "venue": "Sri CKC Cinemas A/C 3D RGB Laser Dolby Atmos, CKC Nagar, Tirupattur",
+      "chain": "Sri CKC Cinema",
+      "time": "02:30 PM",
+      "audi": "SCREEN-2",
+      "totalSeats": 210,
+      "available": 197,
+      "sold": 13,
+      "gross": 1300,
+      "occupancy": "6.19%"
     }
   ],
   "Silambattam [2D | Tamil]": [
@@ -82079,10 +83912,10 @@
       "time": "11:00 AM",
       "audi": "SCREEN-III",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Hyderabad",
@@ -82926,10 +84759,10 @@
       "time": "04:30 PM",
       "audi": "SCREEN-III",
       "totalSeats": 263,
-      "available": 236,
-      "sold": 27,
-      "gross": 5723,
-      "occupancy": "10.27%"
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Eluru",
@@ -82939,10 +84772,10 @@
       "time": "07:30 PM",
       "audi": "SCREEN-IV",
       "totalSeats": 178,
-      "available": 159,
-      "sold": 19,
-      "gross": 3363,
-      "occupancy": "10.67%"
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Hyderabad",
@@ -84634,6 +86467,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "08:45 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.91%"
     }
   ],
   "Maayabimbum [2D | Tamil]": [
@@ -88849,6 +90695,58 @@
       "sold": 35,
       "gross": 7000,
       "occupancy": "41.67%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "07:00 PM",
+      "audi": "Audi 1",
+      "totalSeats": 164,
+      "available": 164,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "10:00 AM",
+      "audi": "Audi 1",
+      "totalSeats": 164,
+      "available": 164,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "12:10 PM",
+      "audi": "Audi 1",
+      "totalSeats": 164,
+      "available": 164,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Banga",
+      "state": "Punjab",
+      "venue": "Surya OHRI Cinema, Mukandpur Road, Banga",
+      "chain": "Surya Cinema",
+      "time": "02:20 PM",
+      "audi": "Audi 1",
+      "totalSeats": 164,
+      "available": 164,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Blood Roses [2D | Telugu]": [
@@ -89583,6 +91481,58 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Mangaldoi",
+      "state": "Assam",
+      "venue": "Gold Cinema, No.1 Bezpara, Mangaldoi",
+      "chain": "Gold",
+      "time": "02:15 PM",
+      "audi": "Gold Cinema - Mangaldai",
+      "totalSeats": 195,
+      "available": 176,
+      "sold": 19,
+      "gross": 2850,
+      "occupancy": "9.74%"
+    },
+    {
+      "city": "Mangaldoi",
+      "state": "Assam",
+      "venue": "Gold Cinema, No.1 Bezpara, Mangaldoi",
+      "chain": "Gold",
+      "time": "08:40 PM",
+      "audi": "Gold Cinema - Mangaldai",
+      "totalSeats": 195,
+      "available": 176,
+      "sold": 19,
+      "gross": 2850,
+      "occupancy": "9.74%"
+    },
+    {
+      "city": "Mangaldoi",
+      "state": "Assam",
+      "venue": "Gold Cinema, No.1 Bezpara, Mangaldoi",
+      "chain": "Gold",
+      "time": "11:00 AM",
+      "audi": "Gold Cinema - Mangaldai",
+      "totalSeats": 195,
+      "available": 176,
+      "sold": 19,
+      "gross": 2850,
+      "occupancy": "9.74%"
+    },
+    {
+      "city": "Mangaldoi",
+      "state": "Assam",
+      "venue": "Gold Cinema, No.1 Bezpara, Mangaldoi",
+      "chain": "Gold",
+      "time": "05:30 PM",
+      "audi": "Gold Cinema - Mangaldai",
+      "totalSeats": 195,
+      "available": 176,
+      "sold": 19,
+      "gross": 2850,
+      "occupancy": "9.74%"
     }
   ],
   "Stray Kids: The dominATE Experience [2D | Korean]": [
@@ -89646,10 +91596,10 @@
       "time": "02:20 PM",
       "audi": "AUDI 08",
       "totalSeats": 177,
-      "available": 171,
-      "sold": 6,
-      "gross": 1200,
-      "occupancy": "3.39%"
+      "available": 169,
+      "sold": 8,
+      "gross": 1600,
+      "occupancy": "4.52%"
     },
     {
       "city": "New Delhi",
@@ -89839,6 +91789,19 @@
       "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
       "chain": "Cinepolis",
       "time": "01:45 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 198,
+      "available": 192,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "3.03%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis Modi Mall (Formerly Spice Mall), Noida",
+      "chain": "Cinepolis",
+      "time": "02:50 PM",
       "audi": "SCREEN 6",
       "totalSeats": 198,
       "available": 192,
@@ -91149,6 +93112,45 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "07:40 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 114,
+      "available": 114,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "11:20 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 114,
+      "available": 114,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "venue": "PJP Cinepolis City Centre Mall, Mauja, Jamshedpur",
+      "chain": "Cinepolis",
+      "time": "03:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 114,
+      "available": 114,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Chakkar Chavanni Ka [2D | Hindi]": [
@@ -92049,6 +94051,19 @@
       "sold": 63,
       "gross": 6615,
       "occupancy": "42.57%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:25 AM",
+      "audi": "AUDI 10",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 900,
+      "occupancy": "2.76%"
     }
   ],
   "OCD [2D | Bengali]": [
@@ -92685,6 +94700,19 @@
       "sold": -25,
       "gross": -5000,
       "occupancy": "-108.70%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:50 AM",
+      "audi": "AUDI 11",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 900,
+      "occupancy": "2.91%"
     }
   ],
   "Chaurangi [2D | Gujarati]": [
@@ -93894,6 +95922,19 @@
       "sold": 79,
       "gross": 10019,
       "occupancy": "19.70%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "02:50 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.91%"
     }
   ],
   "Paro Pinaki Ki Kahani [2D | Hindi]": [
@@ -94120,7 +96161,7 @@
     }
   ],
   "date": "2026-02-12",
-  "lastUpdated": "10:46 AM, 09 February 2026",
+  "lastUpdated": "12:09 PM, 09 February 2026",
   "Katle [2D | Kannada]": [
     {
       "city": "Bengaluru",
@@ -94841,6 +96882,84 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "01:45 PM",
+      "audi": "AUDI 10",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.76%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "11:00 AM",
+      "audi": "AUDI 08",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1380,
+      "occupancy": "2.76%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "05:40 PM",
+      "audi": "AUDI 09",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.91%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "04:45 PM",
+      "audi": "AUDI 11",
+      "totalSeats": 206,
+      "available": 200,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.91%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "02:05 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.76%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:55 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.76%"
     }
   ],
   "Aashaan [2D | Malayalam]": [
@@ -94986,6 +97105,19 @@
       "sold": 11,
       "gross": 1870,
       "occupancy": "10.19%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "04:50 PM",
+      "audi": "AUDI 10",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.76%"
     }
   ],
   "Send Help [2D | English]": [
@@ -95775,6 +97907,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:30 PM",
+      "audi": "4DX",
+      "totalSeats": 108,
+      "available": 102,
+      "sold": 6,
+      "gross": 2400,
+      "occupancy": "5.56%"
     }
   ],
   "The Strangers - Chapter 3 [2D | English]": [
@@ -95922,6 +98067,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "12:00 PM",
+      "audi": "4DX",
+      "totalSeats": 108,
+      "available": 102,
+      "sold": 6,
+      "gross": 2400,
+      "occupancy": "5.56%"
     }
   ],
   "Border 2 [4DX | 2D | Hindi]": [
@@ -96397,6 +98555,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:00 PM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 2700,
+      "occupancy": "2.64%"
     }
   ],
   "Scarlet [IMAX 2D | Japanese]": [
@@ -96438,6 +98609,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "03:25 PM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 2700,
+      "occupancy": "2.64%"
     }
   ],
   "Stray Kids: The dominATE Experience [IMAX 2D | Korean]": [
@@ -96492,6 +98676,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "12:20 PM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 2700,
+      "occupancy": "2.64%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "05:55 PM",
+      "audi": "IMAX",
+      "totalSeats": 227,
+      "available": 221,
+      "sold": 6,
+      "gross": 2700,
+      "occupancy": "2.64%"
     }
   ],
   "Avatar: Fire and Ash [4DX | 3D | Hindi]": [
@@ -96520,6 +98730,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "06:30 PM",
+      "audi": "4DX",
+      "totalSeats": 108,
+      "available": 102,
+      "sold": 6,
+      "gross": 2400,
+      "occupancy": "5.56%"
     }
   ],
   "Send Help [3D | English]": [
@@ -96660,6 +98883,19 @@
       "sold": 17,
       "gross": 3570,
       "occupancy": "7.08%"
+    },
+    {
+      "city": "Surendranagar",
+      "state": "Gujarat",
+      "venue": "SMT Cinema (Shri Mahalaxmi Talkies), C J Hospitel Road, Surendranagar",
+      "chain": "TicketNew",
+      "time": "12:30 PM",
+      "audi": "Screen-2",
+      "totalSeats": 178,
+      "available": 178,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Send Help [4DX | 3D | English]": [
@@ -96690,6 +98926,19 @@
       "sold": 1,
       "gross": 500,
       "occupancy": "1.25%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "02:30 PM",
+      "audi": "4DX",
+      "totalSeats": 108,
+      "available": 102,
+      "sold": 6,
+      "gross": 2400,
+      "occupancy": "5.56%"
     }
   ],
   "The SpongeBob Movie: Search for Squarepants [3D | English]": [
@@ -96944,6 +99193,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "08:00 PM",
+      "audi": "AUDI 08",
+      "totalSeats": 217,
+      "available": 211,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.76%"
     }
   ],
   "Aaru Adi Bullet [2D | Tamil]": [
@@ -97071,6 +99333,47 @@
       "sold": 835,
       "gross": 109800,
       "occupancy": "86.62%"
+    }
+  ],
+  "The Raja Saab [2D | Hindi]": [
+    {
+      "city": "Pilkhuwa",
+      "state": "Uttar Pradesh",
+      "venue": "Vibhor Chitralok, Delhi Hapur Road, Pilkhuwa",
+      "chain": "Vibhor Chitralok",
+      "time": "02:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 218,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pilkhuwa",
+      "state": "Uttar Pradesh",
+      "venue": "Vibhor Chitralok, Delhi Hapur Road, Pilkhuwa",
+      "chain": "Vibhor Chitralok",
+      "time": "06:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 218,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pilkhuwa",
+      "state": "Uttar Pradesh",
+      "venue": "Vibhor Chitralok, Delhi Hapur Road, Pilkhuwa",
+      "chain": "Vibhor Chitralok",
+      "time": "11:30 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 218,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ]
 }
