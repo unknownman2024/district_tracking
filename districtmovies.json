@@ -40,8 +40,8 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/WUTH_Intl-Alt_MAIN_BUILD_sRGB_W06-poster-546050d0-033e-11f1-a569-79ee780842a6.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
-    "cityCount": 24
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat, Visakhapatnam",
+    "cityCount": 25
   },
   {
     "movie": "Border 2",
@@ -77,17 +77,6 @@
     "cityCount": 21
   },
   {
-    "movie": "Dhurandhar",
-    "language": "Hindi",
-    "movieCode": "2J8PR99VjK",
-    "id": 201380,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(11)-b0a9dbb0-ce76-11f0-bb7b-5b7813c7eeda.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat, Visakhapatnam",
-    "cityCount": 20
-  },
-  {
     "movie": "Bhabiji Ghar Par Hain!",
     "language": "Hindi",
     "movieCode": "L4pE22pN19",
@@ -95,8 +84,19 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Bhabiji-Ghar-Par-Hain--posgter-7e342320-edf2-11f0-9205-b393947c62d2-0479f630-f2cb-11f0-8b7f-0d74188c42bb.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Nashik, Patna, Surat",
-    "cityCount": 19
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
+    "cityCount": 18
+  },
+  {
+    "movie": "Dhurandhar",
+    "language": "Hindi",
+    "movieCode": "2J8PR99VjK",
+    "id": 201380,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(11)-b0a9dbb0-ce76-11f0-bb7b-5b7813c7eeda.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat, Visakhapatnam",
+    "cityCount": 18
   },
   {
     "movie": "Crime 101",
@@ -121,28 +121,6 @@
     "cityCount": 17
   },
   {
-    "movie": "Scarlet",
-    "language": "Japanese",
-    "movieCode": "9hBxsvPRQs",
-    "id": 203928,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Scarlet_Poster-3b88b120-01ad-11f1-8c93-a390ce6f1179.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mangaluru, Mumbai, Surat, Visakhapatnam",
-    "cityCount": 17
-  },
-  {
-    "movie": "Stray Kids: The dominATE Experience",
-    "language": "Korean",
-    "movieCode": "pdGpLojO8S",
-    "id": 213084,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Stray-Kids--The-dominATE-Experience-psoter-32cc3300-0021-11f1-8f72-47bea96f201f.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kolkata, Mangaluru, Mumbai, Nashik, Surat, Visakhapatnam",
-    "cityCount": 17
-  },
-  {
     "movie": "Spider-Man: No Way Home",
     "language": "English",
     "movieCode": "WIrYX8Ep1",
@@ -152,6 +130,50 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Spiderman-No-way-Home%20(1)-ba612930-cb4f-11f0-84e9-df82ccf1b4c4.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Nashik, Surat",
     "cityCount": 16
+  },
+  {
+    "movie": "Stray Kids: The dominATE Experience",
+    "language": "Korean",
+    "movieCode": "pdGpLojO8S",
+    "id": 213084,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Stray-Kids--The-dominATE-Experience-psoter-d207e020-f2d6-11f0-9020-3144d7f5161c.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kolkata, Mangaluru, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 16
+  },
+  {
+    "movie": "Veer Zaara",
+    "language": "Hindi",
+    "movieCode": "WN7bmMt0I",
+    "id": 141251,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/veer-zara-608x800-0b004bd0-8d58-11ec-891d-751fcf51b961-ebe421b0-143a-11ef-88eb-e3fbc3ff1a45.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
+    "cityCount": 16
+  },
+  {
+    "movie": "Dilwale Dulhaniya Le Jayenge",
+    "language": "Hindi",
+    "movieCode": "b_Dclb~E9",
+    "id": 141245,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/DDLJ-posgter-74111b20-a2af-11f0-9f4d-9139d07ec9c1.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
+    "cityCount": 15
+  },
+  {
+    "movie": "Scarlet",
+    "language": "Japanese",
+    "movieCode": "9hBxsvPRQs",
+    "id": 203928,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Scarlet_Poster-3b88b120-01ad-11f1-8c93-a390ce6f1179.jpg",
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhubaneswar, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kolkata, Mangaluru, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 15
   },
   {
     "movie": "Spider-Man: Far From Home",
@@ -165,17 +187,6 @@
     "cityCount": 15
   },
   {
-    "movie": "Veer Zaara",
-    "language": "Hindi",
-    "movieCode": "WN7bmMt0I",
-    "id": 141251,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/veer-zara-608x800-0b004bd0-8d58-11ec-891d-751fcf51b961-ebe421b0-143a-11ef-88eb-e3fbc3ff1a45.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
-    "cityCount": 15
-  },
-  {
     "movie": "Anomie - The Equation of Death",
     "language": "Malayalam",
     "movieCode": "rrlQB_6zXm",
@@ -184,17 +195,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/anomie-poster-56421d40-034b-11f1-9f12-d978e69978fb.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Gandhinagar, Guntur, Hyderabad, Kochi, Madurai, Mangaluru, Mumbai, Surat, Visakhapatnam",
-    "cityCount": 14
-  },
-  {
-    "movie": "Dilwale Dulhaniya Le Jayenge",
-    "language": "Hindi",
-    "movieCode": "b_Dclb~E9",
-    "id": 141245,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/DDLJ-posgter-74111b20-a2af-11f0-9f4d-9139d07ec9c1.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
     "cityCount": 14
   },
   {
@@ -231,6 +231,17 @@
     "cityCount": 13
   },
   {
+    "movie": "Funky",
+    "language": "Telugu",
+    "movieCode": "kPs5Zb1zn3",
+    "id": 185871,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Funky_Poster-2d063e50-da53-11f0-ac03-51dcdff4e0ec.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Mangaluru, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 13
+  },
+  {
     "movie": "Spider-Man: Homecoming",
     "language": "English",
     "movieCode": "k3qJ3c5YnMb3",
@@ -239,6 +250,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Spider-Man--Homecoming--608x800-c7d41110-5cb6-11ec-b7c7-21471db45d10.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Kochi, Kolkata, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 13
+  },
+  {
+    "movie": "Yeh Dil Aashiqanaa",
+    "language": "Hindi",
+    "movieCode": "uzX_fN20fO",
+    "id": 214303,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Yeh-Dil-Aashiqanaa-(2002)_Poster-e8a250b0-05e4-11f1-9003-27c71ae4cb9a.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Patna, Surat",
     "cityCount": 13
   },
   {
@@ -262,28 +284,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/1%20(2)-ead49130-c963-11f0-ac2f-d5eff8b115e5.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Mangaluru, Mumbai, Surat, Visakhapatnam",
     "cityCount": 12
-  },
-  {
-    "movie": "Yeh Dil Aashiqanaa",
-    "language": "Hindi",
-    "movieCode": "uzX_fN20fO",
-    "id": 214303,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Yeh-Dil-Aashiqanaa-(2002)_Poster-e8a250b0-05e4-11f1-9003-27c71ae4cb9a.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Patna, Surat",
-    "cityCount": 12
-  },
-  {
-    "movie": "Funky",
-    "language": "Telugu",
-    "movieCode": "kPs5Zb1zn3",
-    "id": 185871,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Funky_Poster-2d063e50-da53-11f0-ac03-51dcdff4e0ec.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Guntur, Hyderabad, Mangaluru, Mumbai, Surat, Visakhapatnam",
-    "cityCount": 11
   },
   {
     "movie": "Mannu Kya Karegga?",
@@ -327,6 +327,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Prakambanam-746f11b0-f2d4-11f0-b910-ff621b75b6be.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Hyderabad, Kochi, Mangaluru, Mumbai",
+    "cityCount": 9
+  },
+  {
+    "movie": "Punha Ekda Sade Maade Teen",
+    "language": "Marathi",
+    "movieCode": "CI09CSw9BJ",
+    "id": 206899,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Punha-Ekda-Sade-Made-3_Poster-43e81630-fb59-11f0-81f5-d5297e2333f0.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Gandhinagar, Goa, Hyderabad, Mumbai, Nagpur, Nashik",
     "cityCount": 9
   },
   {
@@ -418,6 +429,28 @@
     "cityCount": 8
   },
   {
+    "movie": "Couple Friendly",
+    "language": "Telugu",
+    "movieCode": "CuOAt8whiR",
+    "id": 204055,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Couple-Friendly_Poster-4b0a2a70-0586-11f1-ac1f-3391dbf045e5.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Guntur, Hyderabad, Mangaluru, Visakhapatnam",
+    "cityCount": 7
+  },
+  {
+    "movie": "Dsp Dev 2",
+    "language": "Punjabi",
+    "movieCode": "uOOQXPmAG_",
+    "id": 213235,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/DSP-Dev%20(1)-c5d9f5a0-f1d1-11f0-837a-ddce07b7faa6.jpg",
+    "city": "Ahmedabad, Amritsar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Mumbai",
+    "cityCount": 7
+  },
+  {
     "movie": "Euphoria",
     "language": "Telugu",
     "movieCode": "Jia2zSOOLNw",
@@ -448,17 +481,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Premam--608x800-b3380880-a78b-11ed-aa60-d15e94d97726.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Hyderabad, Kochi, Mangaluru",
-    "cityCount": 7
-  },
-  {
-    "movie": "Punha Ekda Sade Maade Teen",
-    "language": "Marathi",
-    "movieCode": "CI09CSw9BJ",
-    "id": 206899,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Punha-Ekda-Sade-Made-3_Poster-43e81630-fb59-11f0-81f5-d5297e2333f0.jpg",
-    "city": "Bangalore, Bengaluru, Goa, Hyderabad, Mumbai, Nagpur, Nashik",
     "cityCount": 7
   },
   {
@@ -539,17 +561,6 @@
     "cityCount": 6
   },
   {
-    "movie": "Couple Friendly",
-    "language": "Telugu",
-    "movieCode": "CuOAt8whiR",
-    "id": 204055,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Couple-Friendly_Poster-4b0a2a70-0586-11f1-ac1f-3391dbf045e5.jpg",
-    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Mangaluru, Visakhapatnam",
-    "cityCount": 6
-  },
-  {
     "movie": "Global Citizen Festival",
     "language": "English",
     "movieCode": "fRKfLpi3HY",
@@ -605,24 +616,13 @@
     "cityCount": 6
   },
   {
-    "movie": "Orange",
-    "language": "Telugu",
-    "movieCode": "J9i73008L",
-    "id": 160920,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Orange--8fe69ef0-fffd-11f0-be5e-d7d901fa8103.jpeg",
-    "city": "Bangalore, Bengaluru, Chennai, Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 6
-  },
-  {
     "movie": "Pookie",
     "language": "Tamil",
     "movieCode": "5fEsX4vRbp_",
     "id": 212036,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-eb76bd50-05ab-11f1-ac1f-3391dbf045e5.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Pookie-poster%20(1)-a166e040-07cd-11f1-baaf-dd81e2ab5c19.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi, Madurai",
     "cityCount": 6
   },
@@ -748,6 +748,17 @@
     "cityCount": 5
   },
   {
+    "movie": "Laalo - Krishna Sada Sahaayate",
+    "language": "Gujarati",
+    "movieCode": "1je04xQI1c",
+    "id": 204602,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Laalo---Krishna-Sada-Sahaayate-07dc4e00-88b2-11f0-9e61-8f49e57b29fa.jpg",
+    "city": "Ahmedabad, Gandhinagar, Kolkata, Mumbai, Surat",
+    "cityCount": 5
+  },
+  {
     "movie": "Manasantha Nuvve",
     "language": "Telugu",
     "movieCode": "iF9i8e9zlj",
@@ -792,6 +803,17 @@
     "cityCount": 5
   },
   {
+    "movie": "Mohabbatein",
+    "language": "Hindi",
+    "movieCode": "g9TjB8GYB",
+    "id": 163623,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mohabbatein-App-poster-608x800-455fb5b2-c2a4-4b52-8b97-45e9334345a0.jpg",
+    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Hyderabad, Surat",
+    "cityCount": 5
+  },
+  {
     "movie": "Mounam Pesiyadhe",
     "language": "Tamil",
     "movieCode": "~4DVB1eVD_R",
@@ -822,6 +844,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Nilave-0327a240-0677-11f1-bc39-ad2e7218e189.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 5
+  },
+  {
+    "movie": "Orange",
+    "language": "Telugu",
+    "movieCode": "J9i73008L",
+    "id": 160920,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Orange--8fe69ef0-fffd-11f0-be5e-d7d901fa8103.jpeg",
+    "city": "Bangalore, Bengaluru, Chennai, Guntur, Hyderabad",
     "cityCount": 5
   },
   {
@@ -1012,14 +1045,14 @@
     "cityCount": 4
   },
   {
-    "movie": "Dsp Dev 2",
-    "language": "Punjabi",
-    "movieCode": "uOOQXPmAG_",
-    "id": 213235,
+    "movie": "Ek Deewane Ki Deewaniyat",
+    "language": "Hindi",
+    "movieCode": "Z~8gh372fG",
+    "id": 190438,
     "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/DSP-Dev%20(1)-c5d9f5a0-f1d1-11f0-837a-ddce07b7faa6.jpg",
-    "city": "Amritsar, Chandigarh, Delhi/NCR, Mumbai",
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ek-Deewane-Ki-Deewaniyat-dc622de0-0678-11f1-a360-2180766c3529.jpg",
+    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Surat",
     "cityCount": 4
   },
   {
@@ -1078,17 +1111,6 @@
     "cityCount": 4
   },
   {
-    "movie": "Laalo - Krishna Sada Sahaayate",
-    "language": "Gujarati",
-    "movieCode": "1je04xQI1c",
-    "id": 204602,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Laalo---Krishna-Sada-Sahaayate-07dc4e00-88b2-11f0-9e61-8f49e57b29fa.jpg",
-    "city": "Ahmedabad, Gandhinagar, Mumbai, Surat",
-    "cityCount": 4
-  },
-  {
     "movie": "Lagan Laagii Re",
     "language": "Gujarati",
     "movieCode": "2BTkFx1QtS",
@@ -1097,17 +1119,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Lagan-Laagii-Re-0c28a480-f13b-11f0-9a66-7b56b9e75148.jpg",
     "city": "Ahmedabad, Gandhinagar, Mumbai, Surat",
-    "cityCount": 4
-  },
-  {
-    "movie": "Mohabbatein",
-    "language": "Hindi",
-    "movieCode": "g9TjB8GYB",
-    "id": 163623,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mohabbatein-App-poster-608x800-455fb5b2-c2a4-4b52-8b97-45e9334345a0.jpg",
-    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Surat",
     "cityCount": 4
   },
   {
@@ -1240,6 +1251,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Amruthaanjan-b3136c80-fb77-11f0-ae69-53d210a2df15.jpg",
     "city": "Bangalore, Bengaluru, Mangaluru",
+    "cityCount": 3
+  },
+  {
+    "movie": "AT: Welcome to the Dark Side",
+    "language": "Malayalam",
+    "movieCode": "J6GF8FGc4l",
+    "id": 215099,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/AT---Welcome-To-The-Dark-Side-00a7ed80-067d-11f1-93cb-c95ab712f955.jpg",
+    "city": "Bangalore, Bengaluru, Kochi",
     "cityCount": 3
   },
   {
@@ -1900,6 +1922,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Tu-Meri-Poori-Kahani_Poster%20(1)-c14fab70-9951-11f0-bedd-eb6142f1442e.jpg",
     "city": "Ahmedabad, Gandhinagar, Surat",
+    "cityCount": 3
+  },
+  {
+    "movie": "Uyirullavarai Usha",
+    "language": "Tamil",
+    "movieCode": "UznXqHUNoA",
+    "id": 215026,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Uyirullavarai-Usha-(1983)_h--a8c511d0-0733-11f1-8d00-51a804af89bc-e53ff170-07c9-11f1-b604-55fa9cea3596.jpg",
+    "city": "Chennai, Coimbatore, Madurai",
     "cityCount": 3
   },
   {
@@ -2692,17 +2725,6 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Isha--68039110-d4c7-11f0-a8cc-333aa0945e8e.jpg",
     "city": "Guntur, Visakhapatnam",
-    "cityCount": 2
-  },
-  {
-    "movie": "Ek Deewane Ki Deewaniyat",
-    "language": "Hindi",
-    "movieCode": "Z~8gh372fG",
-    "id": 190438,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ek-Deewane-Ki-Deewaniyat-dc622de0-0678-11f1-a360-2180766c3529.jpg",
-    "city": "Delhi/NCR, Surat",
     "cityCount": 2
   },
   {
@@ -4642,6 +4664,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Sunny Di Honey",
+    "language": "Punjabi",
+    "movieCode": "lVND7EIk~X",
+    "id": 213105,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sunny-Di-Honey--092c11a0-07c9-11f1-ac2b-c5f2be31915b.jpg",
+    "city": "Amritsar, Chandigarh",
+    "cityCount": 2
+  },
+  {
     "movie": "Surprise",
     "language": "Gujarati",
     "movieCode": "Aqz7OlzsJn",
@@ -6061,17 +6094,6 @@
     "cityCount": 1
   },
   {
-    "movie": "AT: Welcome to the Dark Side",
-    "language": "Malayalam",
-    "movieCode": "J6GF8FGc4l",
-    "id": 215099,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/AT---Welcome-To-The-Dark-Side-00a7ed80-067d-11f1-93cb-c95ab712f955.jpg",
-    "city": "Kochi",
-    "cityCount": 1
-  },
-  {
     "movie": "Ateez World Tour (Towards The Light: Will To Power)",
     "language": "Korean",
     "movieCode": "YqhD3C9iEz",
@@ -6410,6 +6432,16 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Balti_Poster-49f2a4e0-9836-11f0-9f84-972f7cd0551a.jpg",
     "city": "Chennai",
+    "cityCount": 1
+  },
+  {
+    "movie": "Bara Badhu",
+    "language": "Telugu",
+    "id": 215090,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bara-Badhu-1fa1ae40-0661-11f1-b392-7d97e34fb6e6.jpg",
+    "city": "Bhubaneswar",
     "cityCount": 1
   },
   {
@@ -10442,7 +10474,7 @@
     "movieCode": "wIqYmdgrSr",
     "id": 214842,
     "runtime": 134,
-    "rating": "TBA",
+    "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Man-Aatle-Mantle-poster-81a0f840-05ac-11f1-b8b3-8f00ad3d87b6.jpg",
     "city": "Mumbai",
     "cityCount": 1
@@ -14370,8 +14402,8 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-5ba28180-0189-11f1-b92f-b7734de4da34.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Kolkata, Mumbai",
-    "cityCount": 9
+    "city": "Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Kolkata, Mumbai",
+    "cityCount": 8
   },
   {
     "movie": "Pass Na Pass",
@@ -15183,7 +15215,7 @@
     "id": 138332,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Yeh-Jawaani-Hai-Deewani-(2013)3-7abd08d0-136c-11f0-8549-2d451ec7c237.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Yeh-Jawaani-Hai-Deewani-(2013)2-68804d80-136c-11f0-8aed-f941662e2d49.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
