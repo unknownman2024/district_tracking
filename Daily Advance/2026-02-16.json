@@ -5341,15 +5341,15 @@
     ]
   },
   "With Love [2D | Tamil]": {
-    "shows": 89,
-    "gross": 681527.5099999999,
-    "sold": 7551,
-    "totalSeats": 34795,
-    "venues": 29,
-    "cities": 17,
+    "shows": 91,
+    "gross": 684287.5099999999,
+    "sold": 7563,
+    "totalSeats": 35201,
+    "venues": 30,
+    "cities": 18,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 21.7,
+    "occupancy": 21.49,
     "details": [
       {
         "city": "Chennai",
@@ -5554,6 +5554,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 13.04
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 2,
+        "gross": 2760,
+        "sold": 12,
+        "totalSeats": 406,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.96
       }
     ],
     "Chain_details": [
@@ -5710,6 +5722,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 4.13
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 2,
+        "gross": 2760,
+        "sold": 12,
+        "totalSeats": 406,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.96
       }
     ]
   },
@@ -12681,27 +12704,27 @@
     ]
   },
   "Rakkasapuradhol [2D | Kannada]": {
-    "shows": 19,
-    "gross": 862960,
-    "sold": 6913,
-    "totalSeats": 11393,
-    "venues": 7,
+    "shows": 21,
+    "gross": 865600,
+    "sold": 6925,
+    "totalSeats": 11799,
+    "venues": 8,
     "cities": 5,
     "fastfilling": 13,
     "housefull": 0,
-    "occupancy": 60.68,
+    "occupancy": 58.69,
     "details": [
       {
         "city": "Bengaluru",
         "state": "Karnataka",
-        "venues": 3,
-        "shows": 7,
-        "gross": 496960,
-        "sold": 3857,
-        "totalSeats": 4561,
+        "venues": 4,
+        "shows": 9,
+        "gross": 499600,
+        "sold": 3869,
+        "totalSeats": 4967,
         "fastfilling": 7,
         "housefull": 0,
-        "occupancy": 84.56
+        "occupancy": 77.89
       },
       {
         "city": "Ranebennur",
@@ -12774,6 +12797,17 @@
         "fastfilling": 3,
         "housefull": 0,
         "occupancy": 83.88
+      },
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 2,
+        "gross": 2640,
+        "sold": 12,
+        "totalSeats": 406,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.96
       }
     ]
   },
@@ -15591,6 +15625,44 @@
       }
     ]
   },
+  "Veer Zaara [2D | Hindi]": {
+    "shows": 1,
+    "gross": 1320,
+    "sold": 6,
+    "totalSeats": 203,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.96,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1320,
+        "sold": 6,
+        "totalSeats": 203,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.96
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Cinepolis",
+        "venues": 1,
+        "shows": 1,
+        "gross": 1320,
+        "sold": 6,
+        "totalSeats": 203,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.96
+      }
+    ]
+  },
   "date": "2026-02-16",
-  "lastUpdated": "01:01 AM, 13 February 2026"
+  "lastUpdated": "02:25 AM, 13 February 2026"
 }
