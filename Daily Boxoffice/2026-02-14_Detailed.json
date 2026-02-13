@@ -1,6 +1,6 @@
 {
   "date": "2026-02-14",
-  "lastUpdated": "04:27 AM, 14 February 2026",
+  "lastUpdated": "05:19 AM, 14 February 2026",
   "O'Romeo | Hindi": [
     {
       "city": "Gandhidham",
@@ -26,7 +26,98 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%",
-      "minsLeft": 197
+      "minsLeft": 145
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Motera, Ahmedabad",
+      "time": "08:00 AM",
+      "audi": "Screen 1",
+      "totalSeats": 29,
+      "available": 29,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 160
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "MovieTime Hub Mall, Goregaon (E), Mumbai",
+      "time": "08:00 AM",
+      "audi": "SCREEN5",
+      "totalSeats": 196,
+      "available": 143,
+      "sold": 53,
+      "gross": 6890,
+      "occupancy": "27.04%",
+      "minsLeft": 160
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "venue": "Cinemax City Center, City Center Mall, Nashik",
+      "time": "08:00 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 185,
+      "available": 167,
+      "sold": 18,
+      "gross": 5580,
+      "occupancy": "9.73%",
+      "minsLeft": 160
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "MovieMax Amanora, Town Centre, Pune (Now Renovated)",
+      "time": "08:00 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 365,
+      "available": 360,
+      "sold": 5,
+      "gross": 790,
+      "occupancy": "1.37%",
+      "minsLeft": 160
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "INOX Elpro City Square, Chinchwad, Pune",
+      "time": "08:00 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 252,
+      "available": 244,
+      "sold": 8,
+      "gross": 2360,
+      "occupancy": "3.17%",
+      "minsLeft": 160
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Borivali (W)",
+      "time": "08:15 AM",
+      "audi": "Screen 4",
+      "totalSeats": 279,
+      "available": 279,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 175
+    },
+    {
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "venue": "MovieMax: Eternity, Nagpur (Seats Renovated)",
+      "time": "08:30 AM",
+      "audi": "SCREEN3",
+      "totalSeats": 257,
+      "available": 246,
+      "sold": 11,
+      "gross": 2600,
+      "occupancy": "4.28%",
+      "minsLeft": 190
     }
   ],
   "Manasantha Nuvve | Telugu": [
@@ -41,7 +132,20 @@
       "sold": 1208,
       "gross": 172720,
       "occupancy": "99.34%",
-      "minsLeft": 192
+      "minsLeft": 140
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Kameswari & Kinnera A/C Laser 4K Projection Dolby Atmos & 7.1 Ultrasound, Vizag",
+      "time": "08:00 AM",
+      "audi": "Kinnera",
+      "totalSeats": 339,
+      "available": 152,
+      "sold": 187,
+      "gross": 27055,
+      "occupancy": "55.16%",
+      "minsLeft": 160
     }
   ],
   "Mardaani 3 | Hindi": [
@@ -56,7 +160,65 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%",
-      "minsLeft": 167
+      "minsLeft": 115
+    }
+  ],
+  "Orange | Telugu": [
+    {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "venue": "Mythri Theatres, Vimal 70MM AC 4K Laser Dolby Atmos, Balanagar(Newly Renovated), Hyderabad",
+      "time": "08:00 AM",
+      "audi": "VIMAL-70MM",
+      "totalSeats": 845,
+      "available": 762,
+      "sold": 83,
+      "gross": 9005,
+      "occupancy": "9.82%",
+      "minsLeft": 160
+    },
+    {
+      "city": "Machilipatnam",
+      "state": "Andhra Pradesh",
+      "venue": "Siri Complex, Robertsonpeta, Machilipatnam",
+      "time": "08:00 AM",
+      "audi": "Siri Venkat",
+      "totalSeats": 388,
+      "available": 376,
+      "sold": 12,
+      "gross": 1800,
+      "occupancy": "3.09%",
+      "minsLeft": 160
+    }
+  ],
+  "Tu Meri Main Tera Main Tera Tu Meri | Hindi": [
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "Newfangled Miniplex (Twin Seat), Motera, Ahmedabad",
+      "time": "08:30 AM",
+      "audi": "Screen 3",
+      "totalSeats": 25,
+      "available": 25,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 190
+    }
+  ],
+  "Tu Yaa Main | Hindi": [
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Maxus Cinemas, Bhayandar",
+      "time": "08:30 AM",
+      "audi": "Screen 5",
+      "totalSeats": 114,
+      "available": 114,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%",
+      "minsLeft": 190
     }
   ]
 }

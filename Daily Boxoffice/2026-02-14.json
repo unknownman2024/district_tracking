@@ -1,16 +1,16 @@
 {
   "date": "2026-02-14",
-  "lastUpdated": "04:27 AM, 14 February 2026",
+  "lastUpdated": "05:19 AM, 14 February 2026",
   "O'Romeo | Hindi": {
-    "shows": 2,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 453,
-    "venues": 2,
-    "cities": 2,
+    "shows": 9,
+    "gross": 18220,
+    "sold": 95,
+    "totalSeats": 2016,
+    "venues": 9,
+    "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 4.71,
     "details": [
       {
         "city": "Gandhidham",
@@ -26,6 +26,17 @@
       {
         "city": "Mumbai",
         "state": "Maharashtra",
+        "shows": 3,
+        "gross": 6890,
+        "sold": 53,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.43
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
         "shows": 1,
         "gross": 0,
         "sold": 0,
@@ -33,19 +44,52 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 5580,
+        "sold": 18,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.73
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 3150,
+        "sold": 13,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.11
+      },
+      {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2600,
+        "sold": 11,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.28
       }
     ]
   },
   "Manasantha Nuvve | Telugu": {
-    "shows": 1,
-    "gross": 172720,
-    "sold": 1208,
-    "totalSeats": 1216,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
+    "shows": 2,
+    "gross": 199775,
+    "sold": 1395,
+    "totalSeats": 1555,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 1,
     "housefull": 1,
-    "occupancy": 99.34,
+    "occupancy": 89.71,
     "details": [
       {
         "city": "Hyderabad",
@@ -57,6 +101,17 @@
         "fastfilling": 0,
         "housefull": 1,
         "occupancy": 99.34
+      },
+      {
+        "city": "Vizag",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 27055,
+        "sold": 187,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 55.16
       }
     ]
   },
@@ -65,6 +120,89 @@
     "gross": 0,
     "sold": 0,
     "totalSeats": 384,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Orange | Telugu": {
+    "shows": 2,
+    "gross": 10805,
+    "sold": 95,
+    "totalSeats": 1233,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.7,
+    "details": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "shows": 1,
+        "gross": 9005,
+        "sold": 83,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.82
+      },
+      {
+        "city": "Machilipatnam",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 1800,
+        "sold": 12,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.09
+      }
+    ]
+  },
+  "Tu Meri Main Tera Main Tera Tu Meri | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 25,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Tu Yaa Main | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 114,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
