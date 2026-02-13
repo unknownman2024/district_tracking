@@ -1,20 +1,20 @@
 {
   "Mardaani 3 | Hindi": {
     "summary": {
-      "shows": 39281.0,
+      "shows": 39282.0,
       "sold": 1016865.0,
-      "totalSeats": 7574742.0,
+      "totalSeats": 7575126.0,
       "gross": 244577346.88,
       "occupancy": 13.42
     },
     "cities": {
       "Mumbai": {
-        "shows": 3740.0,
+        "shows": 3741.0,
         "sold": 129669.0,
-        "totalSeats": 833983.0,
+        "totalSeats": 834367.0,
         "gross": 36262622.0,
         "state": "Maharashtra",
-        "occupancy": 15.55
+        "occupancy": 15.54
       },
       "New Delhi": {
         "shows": 2285.0,
@@ -91,9 +91,9 @@
     },
     "states": {
       "Maharashtra": {
-        "shows": 7667.0,
+        "shows": 7668.0,
         "sold": 245365.0,
-        "totalSeats": 1654251.0,
+        "totalSeats": 1654635.0,
         "gross": 64156255.0,
         "occupancy": 14.83
       },
@@ -317,6 +317,13 @@
         "totalSeats": 585155.0,
         "gross": 9366566.98,
         "occupancy": 7.31
+      },
+      "2026-02-13": {
+        "shows": 1.0,
+        "sold": 0.0,
+        "totalSeats": 384.0,
+        "gross": 0.0,
+        "occupancy": 0.0
       }
     }
   },
@@ -4549,20 +4556,20 @@
   },
   "Tu Meri Main Tera Main Tera Tu Meri | Hindi": {
     "summary": {
-      "shows": 44.0,
+      "shows": 46.0,
       "sold": 80.0,
-      "totalSeats": 750.0,
+      "totalSeats": 798.0,
       "gross": 37000.0,
-      "occupancy": 10.67
+      "occupancy": 10.03
     },
     "cities": {
       "Ahmedabad": {
-        "shows": 33.0,
+        "shows": 35.0,
         "sold": 60.0,
-        "totalSeats": 585.0,
+        "totalSeats": 633.0,
         "gross": 21000.0,
         "state": "Gujarat",
-        "occupancy": 10.26
+        "occupancy": 9.48
       },
       "Bengaluru": {
         "shows": 11.0,
@@ -4575,11 +4582,11 @@
     },
     "states": {
       "Gujarat": {
-        "shows": 33.0,
+        "shows": 35.0,
         "sold": 60.0,
-        "totalSeats": 585.0,
+        "totalSeats": 633.0,
         "gross": 21000.0,
-        "occupancy": 10.26
+        "occupancy": 9.48
       },
       "Karnataka": {
         "shows": 11.0,
@@ -4591,11 +4598,11 @@
     },
     "chains": {
       "Newfangled": {
-        "shows": 44.0,
+        "shows": 46.0,
         "sold": 80.0,
-        "totalSeats": 750.0,
+        "totalSeats": 798.0,
         "gross": 37000.0,
-        "occupancy": 10.67
+        "occupancy": 10.03
       }
     },
     "daily": {
@@ -4682,6 +4689,13 @@
         "totalSeats": 72.0,
         "gross": 2100.0,
         "occupancy": 9.72
+      },
+      "2026-02-13": {
+        "shows": 2.0,
+        "sold": 0.0,
+        "totalSeats": 48.0,
+        "gross": 0.0,
+        "occupancy": 0.0
       }
     }
   },
@@ -42949,38 +42963,119 @@
   },
   "O'Romeo | Hindi": {
     "summary": {
-      "shows": 6.0,
-      "sold": 479.0,
-      "totalSeats": 1176.0,
-      "gross": 72884.0,
-      "occupancy": 40.73
+      "shows": 18.0,
+      "sold": 620.0,
+      "totalSeats": 3412.0,
+      "gross": 101361.0,
+      "occupancy": 18.17
     },
     "cities": {
       "Mumbai": {
-        "shows": 6.0,
-        "sold": 479.0,
-        "totalSeats": 1176.0,
-        "gross": 72884.0,
+        "shows": 11.0,
+        "sold": 542.0,
+        "totalSeats": 2112.0,
+        "gross": 83691.0,
         "state": "Maharashtra",
-        "occupancy": 40.73
+        "occupancy": 25.66
+      },
+      "Nashik": {
+        "shows": 1.0,
+        "sold": 35.0,
+        "totalSeats": 202.0,
+        "gross": 7330.0,
+        "state": "Maharashtra",
+        "occupancy": 17.33
+      },
+      "Nagpur": {
+        "shows": 2.0,
+        "sold": 22.0,
+        "totalSeats": 514.0,
+        "gross": 4800.0,
+        "state": "Maharashtra",
+        "occupancy": 4.28
+      },
+      "Pune": {
+        "shows": 2.0,
+        "sold": 15.0,
+        "totalSeats": 535.0,
+        "gross": 3740.0,
+        "state": "Maharashtra",
+        "occupancy": 2.8
+      },
+      "Ahmedabad": {
+        "shows": 2.0,
+        "sold": 6.0,
+        "totalSeats": 49.0,
+        "gross": 1800.0,
+        "state": "Gujarat",
+        "occupancy": 12.24
       }
     },
     "states": {
       "Maharashtra": {
-        "shows": 6.0,
-        "sold": 479.0,
-        "totalSeats": 1176.0,
-        "gross": 72884.0,
-        "occupancy": 40.73
+        "shows": 16.0,
+        "sold": 614.0,
+        "totalSeats": 3363.0,
+        "gross": 99561.0,
+        "occupancy": 18.26
+      },
+      "Gujarat": {
+        "shows": 2.0,
+        "sold": 6.0,
+        "totalSeats": 49.0,
+        "gross": 1800.0,
+        "occupancy": 12.24
       }
     },
     "chains": {
       "MovieTime": {
-        "shows": 6.0,
-        "sold": 479.0,
-        "totalSeats": 1176.0,
-        "gross": 72884.0,
-        "occupancy": 40.73
+        "shows": 8.0,
+        "sold": 519.0,
+        "totalSeats": 1559.0,
+        "gross": 78574.0,
+        "occupancy": 33.29
+      },
+      "Cinemax": {
+        "shows": 1.0,
+        "sold": 35.0,
+        "totalSeats": 202.0,
+        "gross": 7330.0,
+        "occupancy": 17.33
+      },
+      "MovieMax": {
+        "shows": 3.0,
+        "sold": 28.0,
+        "totalSeats": 797.0,
+        "gross": 6180.0,
+        "occupancy": 3.51
+      },
+      "Maxus": {
+        "shows": 2.0,
+        "sold": 23.0,
+        "totalSeats": 517.0,
+        "gross": 5117.0,
+        "occupancy": 4.45
+      },
+      "INOX": {
+        "shows": 1.0,
+        "sold": 9.0,
+        "totalSeats": 252.0,
+        "gross": 2360.0,
+        "occupancy": 3.57
+      },
+      "Newfangled": {
+        "shows": 2.0,
+        "sold": 6.0,
+        "totalSeats": 49.0,
+        "gross": 1800.0,
+        "occupancy": 12.24
+      },
+      "Maison": {
+        "shows": 1.0,
+        "sold": 0.0,
+        "totalSeats": 36.0,
+        "gross": 0.0,
+        "occupancy": 0.0
       }
     },
     "daily": {
@@ -43004,6 +43099,13 @@
         "totalSeats": 392.0,
         "gross": 25000.0,
         "occupancy": 41.33
+      },
+      "2026-02-13": {
+        "shows": 12.0,
+        "sold": 141.0,
+        "totalSeats": 2236.0,
+        "gross": 28477.0,
+        "occupancy": 6.31
       }
     }
   },
@@ -43055,11 +43157,11 @@
   },
   "Tu Yaa Main | Hindi": {
     "summary": {
-      "shows": 7.0,
+      "shows": 8.0,
       "sold": 536.0,
-      "totalSeats": 1276.0,
+      "totalSeats": 1390.0,
       "gross": 22228.0,
-      "occupancy": 42.01
+      "occupancy": 38.56
     },
     "cities": {
       "Hyderabad": {
@@ -43071,12 +43173,12 @@
         "occupancy": 100.0
       },
       "Mumbai": {
-        "shows": 1.0,
+        "shows": 2.0,
         "sold": 4.0,
-        "totalSeats": 212.0,
+        "totalSeats": 326.0,
         "gross": 1000.0,
         "state": "Maharashtra",
-        "occupancy": 1.89
+        "occupancy": 1.23
       },
       "New Delhi": {
         "shows": 1.0,
@@ -43120,11 +43222,11 @@
         "occupancy": 100.0
       },
       "Maharashtra": {
-        "shows": 4.0,
+        "shows": 5.0,
         "sold": 81.0,
-        "totalSeats": 810.0,
+        "totalSeats": 924.0,
         "gross": 1077.0,
-        "occupancy": 10.0
+        "occupancy": 8.77
       },
       "Delhi": {
         "shows": 1.0,
@@ -43162,6 +43264,13 @@
         "totalSeats": 598.0,
         "gross": 77.0,
         "occupancy": 12.88
+      },
+      "Maxus": {
+        "shows": 1.0,
+        "sold": 0.0,
+        "totalSeats": 114.0,
+        "gross": 0.0,
+        "occupancy": 0.0
       }
     },
     "daily": {
@@ -43178,6 +43287,13 @@
         "totalSeats": 479.0,
         "gross": 1256.0,
         "occupancy": 54.28
+      },
+      "2026-02-13": {
+        "shows": 1.0,
+        "sold": 0.0,
+        "totalSeats": 114.0,
+        "gross": 0.0,
+        "occupancy": 0.0
       }
     }
   },
@@ -43641,5 +43757,51 @@
       }
     }
   },
-  "lastUpdated": "04:51 AM, 13 February 2026"
+  "Funky | Telugu": {
+    "summary": {
+      "shows": 1.0,
+      "sold": 75.0,
+      "totalSeats": 540.0,
+      "gross": 12441.0,
+      "occupancy": 13.89
+    },
+    "cities": {
+      "Anantapur": {
+        "shows": 1.0,
+        "sold": 75.0,
+        "totalSeats": 540.0,
+        "gross": 12441.0,
+        "state": "Andhra Pradesh",
+        "occupancy": 13.89
+      }
+    },
+    "states": {
+      "Andhra Pradesh": {
+        "shows": 1.0,
+        "sold": 75.0,
+        "totalSeats": 540.0,
+        "gross": 12441.0,
+        "occupancy": 13.89
+      }
+    },
+    "chains": {
+      "S2": {
+        "shows": 1.0,
+        "sold": 75.0,
+        "totalSeats": 540.0,
+        "gross": 12441.0,
+        "occupancy": 13.89
+      }
+    },
+    "daily": {
+      "2026-02-13": {
+        "shows": 1.0,
+        "sold": 75.0,
+        "totalSeats": 540.0,
+        "gross": 12441.0,
+        "occupancy": 13.89
+      }
+    }
+  },
+  "lastUpdated": "06:55 AM, 13 February 2026"
 }
