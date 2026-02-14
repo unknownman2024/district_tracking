@@ -1154,10 +1154,10 @@
       "time": "02:05 PM",
       "audi": "SCREEN 4",
       "totalSeats": 244,
-      "available": 242,
-      "sold": 2,
-      "gross": 400,
-      "occupancy": "0.82%"
+      "available": 244,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Vizag",
@@ -1912,7 +1912,7 @@
       "totalSeats": 178,
       "available": 173,
       "sold": 5,
-      "gross": 525,
+      "gross": 750,
       "occupancy": "2.81%"
     },
     {
@@ -3786,10 +3786,10 @@
       "time": "04:10 PM",
       "audi": "AUDI 04",
       "totalSeats": 381,
-      "available": 378,
-      "sold": 3,
-      "gross": 321.35,
-      "occupancy": "0.79%"
+      "available": 377,
+      "sold": 4,
+      "gross": 523.84,
+      "occupancy": "1.05%"
     },
     {
       "city": "Chennai",
@@ -9895,11 +9895,11 @@
       "chain": "PVR",
       "time": "10:00 PM",
       "audi": "Screen 4",
-      "totalSeats": 295,
-      "available": 295,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 310,
+      "available": 289,
+      "sold": 21,
+      "gross": 5700,
+      "occupancy": "6.77%"
     },
     {
       "city": "Hyderabad",
@@ -13874,10 +13874,10 @@
       "time": "06:15 PM",
       "audi": "AUDI 1",
       "totalSeats": 280,
-      "available": 280,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 278,
+      "sold": 2,
+      "gross": 440,
+      "occupancy": "0.71%"
     },
     {
       "city": "New Delhi",
@@ -14463,6 +14463,149 @@
       "sold": 27,
       "gross": 3035.21,
       "occupancy": "16.07%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "01:50 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 237,
+      "available": 231,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.53%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "10:30 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 237,
+      "available": 231,
+      "sold": 6,
+      "gross": 1440,
+      "occupancy": "2.53%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "12:20 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 257,
+      "available": 251,
+      "sold": 6,
+      "gross": 1560,
+      "occupancy": "2.33%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:00 AM",
+      "audi": "AUDI 06",
+      "totalSeats": 257,
+      "available": 251,
+      "sold": 6,
+      "gross": 1440,
+      "occupancy": "2.33%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "05:30 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 237,
+      "available": 231,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.53%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "07:40 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 257,
+      "available": 249,
+      "sold": 8,
+      "gross": 2240,
+      "occupancy": "3.11%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "04:00 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 257,
+      "available": 251,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.33%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "09:10 PM",
+      "audi": "AUDI 02",
+      "totalSeats": 237,
+      "available": 231,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.53%"
+    },
+    {
+      "city": "Navi Mumbai",
+      "state": "Maharashtra",
+      "venue": "Cinepolis Nexus Seawoods, Navi Mumbai",
+      "chain": "Cinepolis",
+      "time": "11:20 PM",
+      "audi": "AUDI 06",
+      "totalSeats": 257,
+      "available": 251,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.33%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "EGA Cinemas (RGB LASER | Dolby Audio | Couple Sofa), Kilpauk, Chennai",
+      "chain": "EGA Cinemas",
+      "time": "10:15 PM",
+      "audi": "ANUEGA - COUPLE SOFA | DOLBY Audio",
+      "totalSeats": 246,
+      "available": 221,
+      "sold": 25,
+      "gross": 1485.75,
+      "occupancy": "10.16%"
+    },
+    {
+      "city": "Bhusawal",
+      "state": "Maharashtra",
+      "venue": "Shree Mamaji Talkies, Bhusawal",
+      "chain": "Justickets",
+      "time": "09:15 PM",
+      "audi": "Screen 1",
+      "totalSeats": 372,
+      "available": 372,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Couple Friendly [2D | Tamil]": [
@@ -14693,6 +14836,19 @@
       "venue": "Sapphire Cineplex, Kommakkovil Puthur, Perundurai",
       "chain": "TicketNew",
       "time": "10:30 PM",
+      "audi": "SCREEN 2 BLUE",
+      "totalSeats": 154,
+      "available": 154,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Sapphire Cineplex, Kommakkovil Puthur, Perundurai",
+      "chain": "TicketNew",
+      "time": "06:38 PM",
       "audi": "SCREEN 2 BLUE",
       "totalSeats": 154,
       "available": 154,
@@ -15087,10 +15243,10 @@
       "time": "10:40 PM",
       "audi": "SCREEN 3",
       "totalSeats": 448,
-      "available": 359,
-      "sold": 89,
-      "gross": 10482,
-      "occupancy": "19.87%"
+      "available": 357,
+      "sold": 91,
+      "gross": 10848,
+      "occupancy": "20.31%"
     },
     {
       "city": "Chennai",
@@ -17210,6 +17366,71 @@
       "sold": 92,
       "gross": 5000.2,
       "occupancy": "10.02%"
+    },
+    {
+      "city": "Avinashi",
+      "state": "Tamil Nadu",
+      "venue": "Cosmo Cinemas A/C Dolby Atmos Laser, Avinashi, Tirupur",
+      "chain": "TicketNew",
+      "time": "10:45 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 111,
+      "available": 111,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Avinashi",
+      "state": "Tamil Nadu",
+      "venue": "Cosmo Cinemas A/C Dolby Atmos Laser, Avinashi, Tirupur",
+      "chain": "TicketNew",
+      "time": "06:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 111,
+      "available": 111,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Avinashi",
+      "state": "Tamil Nadu",
+      "venue": "Cosmo Cinemas A/C Dolby Atmos Laser, Avinashi, Tirupur",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 111,
+      "available": 111,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Devi Chitra Theatre A/C Atmos Cosmo Cinemas, Near Bus Stand, Perundurai",
+      "chain": "Cosmo Cinemas",
+      "time": "02:30 PM",
+      "audi": "Screen2",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Devi Chitra Theatre A/C Atmos Cosmo Cinemas, Near Bus Stand, Perundurai",
+      "chain": "Cosmo Cinemas",
+      "time": "10:45 AM",
+      "audi": "Screen2",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Pookie [2D | Tamil]": [
@@ -17992,6 +18213,71 @@
       "sold": 25,
       "gross": 1358.75,
       "occupancy": "10.16%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "11:00 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 230,
+      "available": 112,
+      "sold": 118,
+      "gross": 15600,
+      "occupancy": "51.30%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "06:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 230,
+      "available": 112,
+      "sold": 118,
+      "gross": 15600,
+      "occupancy": "51.30%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "02:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 230,
+      "available": 112,
+      "sold": 118,
+      "gross": 15600,
+      "occupancy": "51.30%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "09:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 249,
+      "available": 112,
+      "sold": 137,
+      "gross": 17880,
+      "occupancy": "55.02%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Devi Chitra Theatre A/C Atmos Cosmo Cinemas, Near Bus Stand, Perundurai",
+      "chain": "Cosmo Cinemas",
+      "time": "06:40 PM",
+      "audi": "Screen2",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Veeram [2D | Tamil]": [
@@ -18408,10 +18694,10 @@
       "time": "01:25 PM",
       "audi": "AUDI 01",
       "totalSeats": 424,
-      "available": 378,
-      "sold": 46,
-      "gross": 6383.6,
-      "occupancy": "10.85%"
+      "available": 376,
+      "sold": 48,
+      "gross": 6751.200000000001,
+      "occupancy": "11.32%"
     },
     {
       "city": "Chennai",
@@ -19682,10 +19968,10 @@
       "time": "11:45 AM",
       "audi": "Sangam 4K RGB Laser Dolby Atmos",
       "totalSeats": 887,
-      "available": 746,
-      "sold": 141,
-      "gross": 13584.800000000001,
-      "occupancy": "15.90%"
+      "available": 742,
+      "sold": 145,
+      "gross": 14320,
+      "occupancy": "16.35%"
     },
     {
       "city": "Chennai",
@@ -19816,6 +20102,97 @@
       "sold": 42,
       "gross": 3577.2,
       "occupancy": "12.69%"
+    },
+    {
+      "city": "Avinashi",
+      "state": "Tamil Nadu",
+      "venue": "Cosmo Cinemas A/C Dolby Atmos Laser, Avinashi, Tirupur",
+      "chain": "TicketNew",
+      "time": "10:30 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 320,
+      "available": 320,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Avinashi",
+      "state": "Tamil Nadu",
+      "venue": "Cosmo Cinemas A/C Dolby Atmos Laser, Avinashi, Tirupur",
+      "chain": "TicketNew",
+      "time": "10:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 320,
+      "available": 320,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Avinashi",
+      "state": "Tamil Nadu",
+      "venue": "Cosmo Cinemas A/C Dolby Atmos Laser, Avinashi, Tirupur",
+      "chain": "TicketNew",
+      "time": "02:30 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 320,
+      "available": 320,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "EGA Cinemas (RGB LASER | Dolby Audio | Couple Sofa), Kilpauk, Chennai",
+      "chain": "EGA Cinemas",
+      "time": "10:15 PM",
+      "audi": "EGA - COUPLE SOFA | RGB LASER | DOLBY AUDIO",
+      "totalSeats": 918,
+      "available": 826,
+      "sold": 92,
+      "gross": 5000.2,
+      "occupancy": "10.02%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Devi Chitra Theatre A/C Atmos Cosmo Cinemas, Near Bus Stand, Perundurai",
+      "chain": "Cosmo Cinemas",
+      "time": "10:00 PM",
+      "audi": "Screen1",
+      "totalSeats": 350,
+      "available": 350,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Devi Chitra Theatre A/C Atmos Cosmo Cinemas, Near Bus Stand, Perundurai",
+      "chain": "Cosmo Cinemas",
+      "time": "10:30 AM",
+      "audi": "Screen1",
+      "totalSeats": 350,
+      "available": 350,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Devi Chitra Theatre A/C Atmos Cosmo Cinemas, Near Bus Stand, Perundurai",
+      "chain": "Cosmo Cinemas",
+      "time": "02:30 PM",
+      "audi": "Screen1",
+      "totalSeats": 350,
+      "available": 350,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Minnale [2D | Tamil]": [
@@ -38435,7 +38812,7 @@
     }
   ],
   "date": "2026-02-16",
-  "lastUpdated": "08:42 AM, 14 February 2026",
+  "lastUpdated": "10:25 AM, 14 February 2026",
   "Kaa - The Forest [2D | Tamil]": [
     {
       "city": "Chennai",
@@ -40957,6 +41334,97 @@
       "sold": 40,
       "gross": 9200,
       "occupancy": "15.38%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "06:30 PM",
+      "audi": "Audi-1",
+      "totalSeats": 193,
+      "available": 157,
+      "sold": 36,
+      "gross": 5700,
+      "occupancy": "18.65%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "12:30 PM",
+      "audi": "Audi-1",
+      "totalSeats": 193,
+      "available": 157,
+      "sold": 36,
+      "gross": 5700,
+      "occupancy": "18.65%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "08:00 PM",
+      "audi": "Audi-2",
+      "totalSeats": 192,
+      "available": 156,
+      "sold": 36,
+      "gross": 5700,
+      "occupancy": "18.75%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "10:00 AM",
+      "audi": "Audi-1",
+      "totalSeats": 193,
+      "available": 157,
+      "sold": 36,
+      "gross": 3900,
+      "occupancy": "18.65%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "11:00 AM",
+      "audi": "Audi-2",
+      "totalSeats": 192,
+      "available": 156,
+      "sold": 36,
+      "gross": 5700,
+      "occupancy": "18.75%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "09:00 PM",
+      "audi": "Audi-1",
+      "totalSeats": 193,
+      "available": 157,
+      "sold": 36,
+      "gross": 5700,
+      "occupancy": "18.65%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "03:30 PM",
+      "audi": "Audi-1",
+      "totalSeats": 193,
+      "available": 157,
+      "sold": 36,
+      "gross": 5700,
+      "occupancy": "18.65%"
     }
   ],
   "Mardaani 3 [2D | Hindi]": [
@@ -45545,6 +46013,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "01:30 PM",
+      "audi": "Audi-2",
+      "totalSeats": 192,
+      "available": 156,
+      "sold": 36,
+      "gross": 3900,
+      "occupancy": "18.75%"
+    },
+    {
+      "city": "Bagha Purana",
+      "state": "Punjab",
+      "venue": "Suncity Cinemas, Baghapurana, Bagha Purana",
+      "chain": "Suncity Cinema",
+      "time": "04:00 PM",
+      "audi": "Audi-2",
+      "totalSeats": 192,
+      "available": 156,
+      "sold": 36,
+      "gross": 5700,
+      "occupancy": "18.75%"
     }
   ],
   "Kariya [2D | Kannada]": [
@@ -46069,6 +46563,58 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "venue": "Urvasi Complex, Rajahmundry",
+      "chain": "Urvasi Complex",
+      "time": "06:15 PM",
+      "audi": "MENAKA THEATRE",
+      "totalSeats": 557,
+      "available": 202,
+      "sold": 355,
+      "gross": 41675,
+      "occupancy": "63.73%"
+    },
+    {
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "venue": "Urvasi Complex, Rajahmundry",
+      "chain": "Urvasi Complex",
+      "time": "02:30 PM",
+      "audi": "MENAKA THEATRE",
+      "totalSeats": 557,
+      "available": 202,
+      "sold": 355,
+      "gross": 41675,
+      "occupancy": "63.73%"
+    },
+    {
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "venue": "Urvasi Complex, Rajahmundry",
+      "chain": "Urvasi Complex",
+      "time": "09:30 PM",
+      "audi": "MENAKA THEATRE",
+      "totalSeats": 557,
+      "available": 202,
+      "sold": 355,
+      "gross": 41675,
+      "occupancy": "63.73%"
+    },
+    {
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "venue": "Urvasi Complex, Rajahmundry",
+      "chain": "Urvasi Complex",
+      "time": "11:15 AM",
+      "audi": "MENAKA THEATRE",
+      "totalSeats": 557,
+      "available": 202,
+      "sold": 355,
+      "gross": 41675,
+      "occupancy": "63.73%"
     }
   ],
   "Sky [2D | Telugu]": [
@@ -46355,10 +46901,10 @@
       "time": "03:40 PM",
       "audi": "SCREEN 1",
       "totalSeats": 143,
-      "available": 143,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 141,
+      "sold": 2,
+      "gross": 210,
+      "occupancy": "1.40%"
     },
     {
       "city": "Hyderabad",
@@ -46528,6 +47074,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Anantapur",
+      "state": "Andhra Pradesh",
+      "venue": "V Mega Triveni Complex, Old Town, Anantapur",
+      "chain": "V Mega",
+      "time": "02:45 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 118,
+      "available": 86,
+      "sold": 32,
+      "gross": 4048,
+      "occupancy": "27.12%"
+    },
+    {
+      "city": "Anantapur",
+      "state": "Andhra Pradesh",
+      "venue": "V Mega Triveni Complex, Old Town, Anantapur",
+      "chain": "V Mega",
+      "time": "09:45 PM",
+      "audi": "SCREEN-3",
+      "totalSeats": 118,
+      "available": 86,
+      "sold": 32,
+      "gross": 4048,
+      "occupancy": "27.12%"
     }
   ],
   "Uyirullavarai Usha [2D | Tamil]": [
@@ -46855,6 +47427,32 @@
       "sold": 366,
       "gross": 47610,
       "occupancy": "77.22%"
+    },
+    {
+      "city": "Avinashi",
+      "state": "Tamil Nadu",
+      "venue": "Cosmo Cinemas A/C Dolby Atmos Laser, Avinashi, Tirupur",
+      "chain": "TicketNew",
+      "time": "10:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 111,
+      "available": 111,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Perundurai",
+      "state": "Tamil Nadu",
+      "venue": "Devi Chitra Theatre A/C Atmos Cosmo Cinemas, Near Bus Stand, Perundurai",
+      "chain": "Cosmo Cinemas",
+      "time": "10:30 PM",
+      "audi": "Screen2",
+      "totalSeats": 110,
+      "available": 110,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Om Shanti Shanti Shantihi [2D | Telugu]": [
@@ -46879,10 +47477,10 @@
       "time": "11:00 AM",
       "audi": "Sri Dwarakanatha",
       "totalSeats": 374,
-      "available": 50,
-      "sold": 324,
+      "available": 49,
+      "sold": 325,
       "gross": 0,
-      "occupancy": "86.63%"
+      "occupancy": "86.90%"
     },
     {
       "city": "B Kothakota",
@@ -47732,6 +48330,58 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "09:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 163,
+      "available": 77,
+      "sold": 86,
+      "gross": 10320,
+      "occupancy": "52.76%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "02:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 163,
+      "available": 77,
+      "sold": 86,
+      "gross": 10320,
+      "occupancy": "52.76%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "06:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 163,
+      "available": 77,
+      "sold": 86,
+      "gross": 10320,
+      "occupancy": "52.76%"
+    },
+    {
+      "city": "Kozhinjampara",
+      "state": "Kerala",
+      "venue": "Raviraj Complex A/C, Palakkad, Kozhinjampara",
+      "chain": "TicketNew",
+      "time": "11:00 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 163,
+      "available": 77,
+      "sold": 86,
+      "gross": 10320,
+      "occupancy": "52.76%"
     }
   ],
   "Bagavathi [2D | Tamil]": [
