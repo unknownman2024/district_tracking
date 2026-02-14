@@ -73,7 +73,7 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Crime-101_Poster-2a4b6c90-0720-11f1-8d00-51a804af89bc.jpg",
-    "city": "Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
+    "city": "Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Patna, Visakhapatnam",
     "cityCount": 17
   },
   {
@@ -99,17 +99,6 @@
     "cityCount": 16
   },
   {
-    "movie": "Saiyaara",
-    "language": "Hindi",
-    "movieCode": "K5ih5j~m7F",
-    "id": 196147,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Saiyaara-poster-1247ff90-9dc2-11f0-a5c5-c7a120984431.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Nagpur, Nashik, Surat",
-    "cityCount": 15
-  },
-  {
     "movie": "Spider-Man: Far From Home",
     "language": "English",
     "movieCode": "Bh7qE7cyUfl",
@@ -132,6 +121,17 @@
     "cityCount": 14
   },
   {
+    "movie": "Saiyaara",
+    "language": "Hindi",
+    "movieCode": "K5ih5j~m7F",
+    "id": 196147,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Saiyaara-poster-1247ff90-9dc2-11f0-a5c5-c7a120984431.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Mumbai, Nagpur, Nashik, Surat",
+    "cityCount": 14
+  },
+  {
     "movie": "Yeh Dil Aashiqanaa",
     "language": "Hindi",
     "movieCode": "uzX_fN20fO",
@@ -143,17 +143,6 @@
     "cityCount": 14
   },
   {
-    "movie": "Dhurandhar",
-    "language": "Hindi",
-    "movieCode": "2J8PR99VjK",
-    "id": 201380,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(11)-b0a9dbb0-ce76-11f0-bb7b-5b7813c7eeda.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Mumbai, Nagpur, Surat, Visakhapatnam",
-    "cityCount": 13
-  },
-  {
     "movie": "DP World Asia Cup 2025 (India vs Pakistan)",
     "language": "English",
     "movieCode": "4iPC1JR86c",
@@ -162,17 +151,6 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Asia-cup_Poster-61bddf30-9549-11f0-af85-4315c5ab9c31.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Kochi, Kolkata, Kota, Mumbai, Patna, Surat",
-    "cityCount": 13
-  },
-  {
-    "movie": "ICC Men's T20 Cricket World Cup 2026: India Vs Pakistan",
-    "language": "Hindi",
-    "movieCode": "EKc8NDHckh",
-    "id": 215095,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-046f6ce0-08da-11f1-878e-a50aac6da3f7.jpg",
-    "city": "Ahmedabad, Amritsar, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Nashik, Surat",
     "cityCount": 13
   },
   {
@@ -196,6 +174,28 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Vadh%202-8ef1e420-01bd-11f1-9a56-b347a882795d.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
     "cityCount": 13
+  },
+  {
+    "movie": "Dhurandhar",
+    "language": "Hindi",
+    "movieCode": "2J8PR99VjK",
+    "id": 201380,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(11)-b0a9dbb0-ce76-11f0-bb7b-5b7813c7eeda.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Mumbai, Nagpur, Surat, Visakhapatnam",
+    "cityCount": 12
+  },
+  {
+    "movie": "ICC Men's T20 Cricket World Cup 2026: India Vs Pakistan",
+    "language": "Hindi",
+    "movieCode": "EKc8NDHckh",
+    "id": 215095,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-046f6ce0-08da-11f1-878e-a50aac6da3f7.jpg",
+    "city": "Ahmedabad, Amritsar, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Kota, Nagpur, Nashik, Surat",
+    "cityCount": 12
   },
   {
     "movie": "Rangeela",
@@ -242,6 +242,17 @@
     "cityCount": 11
   },
   {
+    "movie": "Mohabbatein",
+    "language": "Hindi",
+    "movieCode": "g9TjB8GYB",
+    "id": 163623,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mohabbatein-App-poster-608x800-455fb5b2-c2a4-4b52-8b97-45e9334345a0.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Nagpur, Surat",
+    "cityCount": 10
+  },
+  {
     "movie": "Maharani",
     "language": "Gujarati",
     "movieCode": "Xl~talm_4l",
@@ -250,17 +261,6 @@
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Maharani-c27600a0-5732-11f0-b03a-f9f12779d145.jpg",
     "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Nagpur, Nashik, Surat",
-    "cityCount": 9
-  },
-  {
-    "movie": "Pennum Porattum",
-    "language": "Malayalam",
-    "movieCode": "dtfxDghSQT",
-    "id": 213064,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Pennum-Porattum_Poster-7fb1dc90-0898-11f1-8b6b-2b6dd936c084.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Hyderabad, Kochi, Mangaluru, Mumbai",
     "cityCount": 9
   },
   {
@@ -297,6 +297,17 @@
     "cityCount": 9
   },
   {
+    "movie": "Veer Zaara",
+    "language": "Hindi",
+    "movieCode": "WN7bmMt0I",
+    "id": 141251,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/veer-zara-608x800-0b004bd0-8d58-11ec-891d-751fcf51b961-ebe421b0-143a-11ef-88eb-e3fbc3ff1a45.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Nagpur",
+    "cityCount": 9
+  },
+  {
     "movie": "Crime 101",
     "language": "Hindi",
     "movieCode": "RDfTCKLZ~4x",
@@ -304,7 +315,7 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Crime-101_Poster-91a7d7c0-0720-11f1-976d-21fe99744dcd.jpg",
-    "city": "Ahmedabad, Amritsar, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
+    "city": "Ahmedabad, Amritsar, Delhi/NCR, Gandhinagar, Jaipur, Kota, Nagpur, Surat",
     "cityCount": 8
   },
   {
@@ -327,6 +338,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Minnale-608x800-3da20530-8c76-11eb-9b50-99e9f11989f6.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Gandhinagar, Madurai, Mumbai",
+    "cityCount": 8
+  },
+  {
+    "movie": "Pennum Porattum",
+    "language": "Malayalam",
+    "movieCode": "dtfxDghSQT",
+    "id": 213064,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Pennum-Porattum_Poster-7fb1dc90-0898-11f1-8b6b-2b6dd936c084.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Hyderabad, Kochi, Mumbai",
     "cityCount": 8
   },
   {
@@ -385,17 +407,6 @@
     "cityCount": 7
   },
   {
-    "movie": "Mohabbatein",
-    "language": "Hindi",
-    "movieCode": "g9TjB8GYB",
-    "id": 163623,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mohabbatein-App-poster-608x800-455fb5b2-c2a4-4b52-8b97-45e9334345a0.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Surat",
-    "cityCount": 7
-  },
-  {
     "movie": "My Lord",
     "language": "Tamil",
     "movieCode": "p5_9cHXyJY",
@@ -415,17 +426,6 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Godfather-Part-III_Poster-69221500-bfc1-11f0-ad34-b3e5f0e9b393.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Mumbai",
-    "cityCount": 7
-  },
-  {
-    "movie": "Veer Zaara",
-    "language": "Hindi",
-    "movieCode": "WN7bmMt0I",
-    "id": 141251,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/veer-zara-608x800-0b004bd0-8d58-11ec-891d-751fcf51b961-ebe421b0-143a-11ef-88eb-e3fbc3ff1a45.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Jaipur, Mumbai",
     "cityCount": 7
   },
   {
@@ -814,28 +814,6 @@
     "cityCount": 4
   },
   {
-    "movie": "Dsp Dev 2",
-    "language": "Punjabi",
-    "movieCode": "uOOQXPmAG_",
-    "id": 213235,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/DSP-Dev%20(1)-c5d9f5a0-f1d1-11f0-837a-ddce07b7faa6.jpg",
-    "city": "Amritsar, Chandigarh, Delhi/NCR, Jaipur",
-    "cityCount": 4
-  },
-  {
-    "movie": "Ek Deewane Ki Deewaniyat",
-    "language": "Hindi",
-    "movieCode": "Z~8gh372fG",
-    "id": 190438,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ek-Deewane-Ki-Deewaniyat-dc622de0-0678-11f1-a360-2180766c3529.jpg",
-    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Surat",
-    "cityCount": 4
-  },
-  {
     "movie": "Jugnuma",
     "language": "Hindi",
     "movieCode": "iPMu~JFMzW",
@@ -1155,6 +1133,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Dsp Dev 2",
+    "language": "Punjabi",
+    "movieCode": "uOOQXPmAG_",
+    "id": 213235,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/DSP-Dev%20(1)-c5d9f5a0-f1d1-11f0-837a-ddce07b7faa6.jpg",
+    "city": "Amritsar, Chandigarh, Delhi/NCR",
+    "cityCount": 3
+  },
+  {
     "movie": "Gatha Vaibhava",
     "language": "Telugu",
     "movieCode": "D9L_oqoZ_p",
@@ -1361,17 +1350,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/2%20(3)%20(1)-372613c0-eb87-11f0-ad2d-1bbc61323e3a.jpg",
     "city": "Chennai, Delhi/NCR, Surat",
-    "cityCount": 3
-  },
-  {
-    "movie": "Orange",
-    "language": "Telugu",
-    "movieCode": "J9i73008L",
-    "id": 160920,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Orange--8fe69ef0-fffd-11f0-be5e-d7d901fa8103.jpeg",
-    "city": "Chennai, Hyderabad, Visakhapatnam",
     "cityCount": 3
   },
   {
@@ -2738,6 +2716,17 @@
     "cityCount": 2
   },
   {
+    "movie": "ICC Men's T20 Cricket World Cup 2026: India Vs Pakistan",
+    "language": "English",
+    "movieCode": "dSCaT43nNp",
+    "id": 215095,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-ec8d1370-08d9-11f1-82ad-51a56f6e6fb8.jpg",
+    "city": "Mumbai, Patna",
+    "cityCount": 2
+  },
+  {
     "movie": "Ik Tere Kar K",
     "language": "Punjabi",
     "movieCode": "zsBWr_7cxk",
@@ -3769,6 +3758,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Ondimuniyum-Nallapadanum-17570cc0-c9e5-11f0-8b8a-e3b655be7158.jpg",
     "city": "Chennai, Coimbatore",
+    "cityCount": 2
+  },
+  {
+    "movie": "Orange",
+    "language": "Telugu",
+    "movieCode": "J9i73008L",
+    "id": 160920,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Orange--8fe69ef0-fffd-11f0-be5e-d7d901fa8103.jpeg",
+    "city": "Hyderabad, Visakhapatnam",
     "cityCount": 2
   },
   {
@@ -7699,6 +7699,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Ek Deewane Ki Deewaniyat",
+    "language": "Hindi",
+    "movieCode": "Z~8gh372fG",
+    "id": 190438,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ek-Deewane-Ki-Deewaniyat-dc622de0-0678-11f1-a360-2180766c3529.jpg",
+    "city": "Delhi/NCR",
+    "cityCount": 1
+  },
+  {
     "movie": "Ek Haseena Thi Ek Deewana Tha",
     "language": "Hindi",
     "movieCode": "luBStCoULwp8",
@@ -8565,17 +8576,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hridayapoorvam3-e8e68c80-8349-11f0-b51f-25082d062fce.jpg",
     "city": "Kochi",
-    "cityCount": 1
-  },
-  {
-    "movie": "ICC Men's T20 Cricket World Cup 2026: India Vs Pakistan",
-    "language": "English",
-    "movieCode": "dSCaT43nNp",
-    "id": 215095,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-ec8d1370-08d9-11f1-82ad-51a56f6e6fb8.jpg",
-    "city": "Patna",
     "cityCount": 1
   },
   {
@@ -11400,7 +11400,7 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/One-4--a9fff630-d4c7-11f0-8891-fd50295694f5.jpg",
-    "city": "Guntur",
+    "city": "Visakhapatnam",
     "cityCount": 1
   },
   {
