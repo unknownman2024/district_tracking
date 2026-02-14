@@ -9373,26 +9373,26 @@
   },
   "The Housemaid [2D | English]": {
     "shows": 1,
-    "gross": 0,
-    "sold": 0,
+    "gross": 350,
+    "sold": 1,
     "totalSeats": 199,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 0.5,
     "details": [
       {
         "city": "Hyderabad",
         "state": "Telangana",
         "venues": 1,
         "shows": 1,
-        "gross": 0,
-        "sold": 0,
+        "gross": 350,
+        "sold": 1,
         "totalSeats": 199,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 0.5
       }
     ],
     "Chain_details": [
@@ -9400,25 +9400,25 @@
         "chain": "PVR",
         "venues": 1,
         "shows": 1,
-        "gross": 0,
-        "sold": 0,
+        "gross": 350,
+        "sold": 1,
         "totalSeats": 199,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 0.5
       }
     ]
   },
   "With Love [2D | Tamil]": {
     "shows": 103,
-    "gross": 772815.9099999995,
-    "sold": 8696,
+    "gross": 773551.1099999994,
+    "sold": 8700,
     "totalSeats": 38687,
     "venues": 30,
     "cities": 16,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 22.48,
+    "occupancy": 22.49,
     "details": [
       {
         "city": "Hyderabad",
@@ -9461,12 +9461,12 @@
         "state": "Tamil Nadu",
         "venues": 12,
         "shows": 47,
-        "gross": 332865.9100000001,
-        "sold": 3079,
+        "gross": 333601.11000000016,
+        "sold": 3083,
         "totalSeats": 19364,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 15.9
+        "occupancy": 15.92
       },
       {
         "city": "Cuddalore",
@@ -9761,12 +9761,12 @@
         "chain": "Sangam",
         "venues": 1,
         "shows": 4,
-        "gross": 24179.2,
-        "sold": 342,
+        "gross": 24914.4,
+        "sold": 346,
         "totalSeats": 2706,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 12.64
+        "occupancy": 12.79
       },
       {
         "chain": "EGA Cinemas",
@@ -14992,12 +14992,12 @@
     ]
   },
   "Ashakal Aayiram [2D | Malayalam]": {
-    "shows": 7,
+    "shows": 11,
     "gross": 0,
     "sold": 0,
-    "totalSeats": 891,
-    "venues": 2,
-    "cities": 2,
+    "totalSeats": 2215,
+    "venues": 3,
+    "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 0,
@@ -15025,6 +15025,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Melattur",
+        "state": "Kerala",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1324,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -15046,6 +15058,17 @@
         "gross": 0,
         "sold": 0,
         "totalSeats": 435,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Chembakassery Cinemas",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1324,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -15559,5 +15582,5 @@
     ]
   },
   "date": "2026-02-18",
-  "lastUpdated": "03:22 AM, 14 February 2026"
+  "lastUpdated": "08:38 AM, 14 February 2026"
 }
