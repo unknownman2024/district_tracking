@@ -73,8 +73,8 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Crime-101_Poster-2a4b6c90-0720-11f1-8d00-51a804af89bc.jpg",
-    "city": "Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
-    "cityCount": 18
+    "city": "Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
+    "cityCount": 19
   },
   {
     "movie": "Spider-Man: No Way Home",
@@ -176,17 +176,6 @@
     "cityCount": 13
   },
   {
-    "movie": "Mohabbatein",
-    "language": "Hindi",
-    "movieCode": "g9TjB8GYB",
-    "id": 163623,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mohabbatein-App-poster-608x800-455fb5b2-c2a4-4b52-8b97-45e9334345a0.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Mumbai, Nagpur, Surat",
-    "cityCount": 12
-  },
-  {
     "movie": "Rangeela",
     "language": "Hindi",
     "movieCode": "La0az9N54B",
@@ -195,6 +184,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/1%20(2)-ead49130-c963-11f0-ac2f-d5eff8b115e5.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Mangaluru, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 12
+  },
+  {
+    "movie": "Vadh 2",
+    "language": "Hindi",
+    "movieCode": "mYDaM8njcO",
+    "id": 208459,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Vadh%202-8ef1e420-01bd-11f1-9a56-b347a882795d.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
     "cityCount": 12
   },
   {
@@ -242,15 +242,15 @@
     "cityCount": 11
   },
   {
-    "movie": "Vadh 2",
+    "movie": "Mohabbatein",
     "language": "Hindi",
-    "movieCode": "mYDaM8njcO",
-    "id": 208459,
+    "movieCode": "g9TjB8GYB",
+    "id": 163623,
     "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Vadh%202-8ef1e420-01bd-11f1-9a56-b347a882795d.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Kolkata, Mumbai, Surat",
-    "cityCount": 11
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Mohabbatein-App-poster-608x800-455fb5b2-c2a4-4b52-8b97-45e9334345a0.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Delhi/NCR, Gandhinagar, Hyderabad, Mumbai, Nagpur, Surat",
+    "cityCount": 10
   },
   {
     "movie": "Yeh Dil Aashiqanaa",
@@ -260,8 +260,8 @@
     "runtime": 134,
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Yeh-Dil-Aashiqanaa-(2002)_Poster-e8a250b0-05e4-11f1-9003-27c71ae4cb9a.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
-    "cityCount": 11
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Surat",
+    "cityCount": 10
   },
   {
     "movie": "Maharani",
@@ -352,17 +352,6 @@
     "cityCount": 7
   },
   {
-    "movie": "Couple Friendly",
-    "language": "Telugu",
-    "movieCode": "CuOAt8whiR",
-    "id": 204055,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Couple-Friendly_Poster-4b0a2a70-0586-11f1-ac1f-3391dbf045e5.jpg",
-    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Madurai, Mangaluru, Visakhapatnam",
-    "cityCount": 7
-  },
-  {
     "movie": "Minnale",
     "language": "Tamil",
     "movieCode": "dmfc2S6ML",
@@ -440,14 +429,14 @@
     "cityCount": 6
   },
   {
-    "movie": "Crime 101",
-    "language": "Hindi",
-    "movieCode": "RDfTCKLZ~4x",
-    "id": 208458,
+    "movie": "Couple Friendly",
+    "language": "Telugu",
+    "movieCode": "CuOAt8whiR",
+    "id": 204055,
     "runtime": 134,
     "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Crime-101_Poster-91a7d7c0-0720-11f1-976d-21fe99744dcd.jpg",
-    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Jaipur, Nagpur, Surat",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Couple-Friendly_Poster-4b0a2a70-0586-11f1-ac1f-3391dbf045e5.jpg",
+    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Mangaluru, Visakhapatnam",
     "cityCount": 6
   },
   {
@@ -770,6 +759,17 @@
     "cityCount": 4
   },
   {
+    "movie": "Crime 101",
+    "language": "Hindi",
+    "movieCode": "RDfTCKLZ~4x",
+    "id": 208458,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Crime-101_Poster-91a7d7c0-0720-11f1-976d-21fe99744dcd.jpg",
+    "city": "Ahmedabad, Gandhinagar, Jaipur, Surat",
+    "cityCount": 4
+  },
+  {
     "movie": "Devdas",
     "language": "Hindi",
     "movieCode": "eScnhjIAw",
@@ -800,17 +800,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Jugnuma-2da94e20-9b73-11f0-bbae-67eb76fc0e25.jpg",
     "city": "Bangalore, Bengaluru, Delhi/NCR, Mumbai",
-    "cityCount": 4
-  },
-  {
-    "movie": "Kaa -The Forest",
-    "language": "Tamil",
-    "movieCode": "w8tYI45mq",
-    "id": 171806,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Kaa---The-Forest-3ef8a1d0-0653-11f1-bbe4-9d6d5d7579a7.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore",
     "cityCount": 4
   },
   {
@@ -1089,6 +1078,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Couple Friendly",
+    "language": "Tamil",
+    "movieCode": "NdvKcF1ARE",
+    "id": 204055,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Couple-Friendly_Poster-4b0a2a70-0586-11f1-ac1f-3391dbf045e5-feeda020-05c8-11f1-9003-27c71ae4cb9a.jpg",
+    "city": "Chennai, Coimbatore, Madurai",
+    "cityCount": 3
+  },
+  {
     "movie": "Demon Slayer - Kimetsu no Yaiba - The Movie: Infinity Castle",
     "language": "English",
     "movieCode": "ioEr70uBcL",
@@ -1185,6 +1185,17 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(5)-3fda6180-b93f-11f0-b4b8-f1f07d33f7e1.jpg",
     "city": "Bangalore, Bengaluru, Mangaluru",
+    "cityCount": 3
+  },
+  {
+    "movie": "Kaa -The Forest",
+    "language": "Tamil",
+    "movieCode": "w8tYI45mq",
+    "id": 171806,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Kaa---The-Forest-3ef8a1d0-0653-11f1-bbe4-9d6d5d7579a7.jpg",
+    "city": "Bangalore, Bengaluru, Chennai",
     "cityCount": 3
   },
   {
@@ -1383,17 +1394,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Seetha-Payanam-poster-5b968290-05c6-11f1-9ae1-3392332622da.jpg",
     "city": "Bangalore, Bengaluru, Mangaluru",
-    "cityCount": 3
-  },
-  {
-    "movie": "Seetha Payanam",
-    "language": "Tamil",
-    "movieCode": "TCsAILuGGT",
-    "id": 195191,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Seetha-Payanam-poster-d777b790-05b6-11f1-81b3-cfe356404ea0.jpg",
-    "city": "Chennai, Coimbatore, Kochi",
     "cityCount": 3
   },
   {
@@ -2199,17 +2199,6 @@
     "cityCount": 2
   },
   {
-    "movie": "Couple Friendly",
-    "language": "Tamil",
-    "movieCode": "NdvKcF1ARE",
-    "id": 204055,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Couple-Friendly_Poster-4b0a2a70-0586-11f1-ac1f-3391dbf045e5-feeda020-05c8-11f1-9003-27c71ae4cb9a.jpg",
-    "city": "Chennai, Coimbatore",
-    "cityCount": 2
-  },
-  {
     "movie": "Cristina Kathirvelan",
     "language": "Tamil",
     "movieCode": "fJYYEd7sOX",
@@ -2350,6 +2339,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhinga-Masti_Poster-7980c060-9080-11f0-b268-1d63caffc89c.jpg",
     "city": "Ahmedabad, Gandhinagar",
+    "cityCount": 2
+  },
+  {
+    "movie": "Dhoom 2",
+    "language": "Hindi",
+    "movieCode": "Gi9q7P2pVgV5a",
+    "id": 159537,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom2-0385ba90-fb17-11ef-8434-f9ed39b3241b.jpg",
+    "city": "Chennai, Hyderabad",
     "cityCount": 2
   },
   {
@@ -4231,6 +4231,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/seetharam-67331e50-0a54-11f1-ba1a-13d49b1f1e60.jpeg",
     "city": "Bangalore, Bengaluru",
+    "cityCount": 2
+  },
+  {
+    "movie": "Seetha Payanam",
+    "language": "Tamil",
+    "movieCode": "TCsAILuGGT",
+    "id": 195191,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Seetha-Payanam-poster-d777b790-05b6-11f1-81b3-cfe356404ea0.jpg",
+    "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
   {
@@ -7413,17 +7424,6 @@
     "cityCount": 1
   },
   {
-    "movie": "Dhoom 2",
-    "language": "Hindi",
-    "movieCode": "Gi9q7P2pVgV5a",
-    "id": 159537,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom2-0385ba90-fb17-11ef-8434-f9ed39b3241b.jpg",
-    "city": "Chennai",
-    "cityCount": 1
-  },
-  {
     "movie": "Dhoom 3",
     "language": "Hindi",
     "movieCode": "69FTlsQsU",
@@ -8565,6 +8565,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hridayapoorvam3-e8e68c80-8349-11f0-b51f-25082d062fce.jpg",
     "city": "Kochi",
+    "cityCount": 1
+  },
+  {
+    "movie": "ICC Men's T20 Cricket World Cup 2026: India vs Netherlands",
+    "language": "Hindi",
+    "movieCode": "irvAMR_jzE1",
+    "id": 215376,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-468ed0b0-0b06-11f1-803c-0fa59886d5ee.jpg",
+    "city": "Delhi/NCR",
     "cityCount": 1
   },
   {
