@@ -902,15 +902,15 @@
     ]
   },
   "O'Romeo [2D | Hindi]": {
-    "shows": 3,
+    "shows": 7,
     "gross": 2640,
     "sold": 12,
-    "totalSeats": 132,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 1804,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 9.09,
+    "occupancy": 0.67,
     "details": [
       {
         "city": "Bakhrahat",
@@ -923,6 +923,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 9.09
+      },
+      {
+        "city": "Deoli",
+        "state": "Rajasthan",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1672,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -936,6 +948,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 9.09
+      },
+      {
+        "chain": "Kisan Talkies",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1672,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -1055,26 +1078,26 @@
   },
   "Ghilli [2D | Tamil]": {
     "shows": 7,
-    "gross": 284634.19999999995,
-    "sold": 2356,
+    "gross": 298874.19999999995,
+    "sold": 2460,
     "totalSeats": 4351,
     "venues": 3,
     "cities": 1,
-    "fastfilling": 3,
+    "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 54.15,
+    "occupancy": 56.54,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
         "venues": 3,
         "shows": 7,
-        "gross": 284634.19999999995,
-        "sold": 2356,
+        "gross": 298874.19999999995,
+        "sold": 2460,
         "totalSeats": 4351,
-        "fastfilling": 3,
+        "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 54.15
+        "occupancy": 56.54
       }
     ],
     "Chain_details": [
@@ -1104,12 +1127,12 @@
         "chain": "Vettri",
         "venues": 1,
         "shows": 1,
-        "gross": 41660,
-        "sold": 296,
+        "gross": 55900,
+        "sold": 400,
         "totalSeats": 676,
-        "fastfilling": 0,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 43.79
+        "occupancy": 59.17
       }
     ]
   },
@@ -1189,6 +1212,44 @@
       }
     ]
   },
+  "With Love [2D | Tamil]": {
+    "shows": 4,
+    "gross": 16120,
+    "sold": 124,
+    "totalSeats": 1660,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.47,
+    "details": [
+      {
+        "city": "Chinnasalem",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 16120,
+        "sold": 124,
+        "totalSeats": 1660,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.47
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Sri Rajarajeswari Theatre A/C 2K Dolby Atmos",
+        "venues": 1,
+        "shows": 4,
+        "gross": 16120,
+        "sold": 124,
+        "totalSeats": 1660,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.47
+      }
+    ]
+  },
   "date": "2026-02-20",
-  "lastUpdated": "10:37 AM, 17 February 2026"
+  "lastUpdated": "11:44 AM, 17 February 2026"
 }
