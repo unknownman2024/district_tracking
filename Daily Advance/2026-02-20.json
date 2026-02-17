@@ -902,15 +902,15 @@
     ]
   },
   "O'Romeo [2D | Hindi]": {
-    "shows": 7,
-    "gross": 2640,
-    "sold": 12,
-    "totalSeats": 1804,
-    "venues": 2,
-    "cities": 2,
+    "shows": 11,
+    "gross": 266640,
+    "sold": 952,
+    "totalSeats": 5252,
+    "venues": 3,
+    "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.67,
+    "occupancy": 18.13,
     "details": [
       {
         "city": "Bakhrahat",
@@ -935,6 +935,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "venues": 1,
+        "shows": 4,
+        "gross": 264000,
+        "sold": 940,
+        "totalSeats": 3448,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 27.26
       }
     ],
     "Chain_details": [
@@ -959,6 +971,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "Rajmandir",
+        "venues": 1,
+        "shows": 4,
+        "gross": 264000,
+        "sold": 940,
+        "totalSeats": 3448,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 27.26
       }
     ]
   },
@@ -1078,26 +1101,26 @@
   },
   "Ghilli [2D | Tamil]": {
     "shows": 7,
-    "gross": 298704.19999999995,
-    "sold": 2467,
+    "gross": 303904.19999999995,
+    "sold": 2507,
     "totalSeats": 4351,
     "venues": 3,
     "cities": 1,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 56.7,
+    "occupancy": 57.62,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
         "venues": 3,
         "shows": 7,
-        "gross": 298704.19999999995,
-        "sold": 2467,
+        "gross": 303904.19999999995,
+        "sold": 2507,
         "totalSeats": 4351,
         "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 56.7
+        "occupancy": 57.62
       }
     ],
     "Chain_details": [
@@ -1127,12 +1150,12 @@
         "chain": "Vettri",
         "venues": 1,
         "shows": 1,
-        "gross": 55730,
-        "sold": 407,
+        "gross": 60930,
+        "sold": 447,
         "totalSeats": 676,
         "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 60.21
+        "occupancy": 66.12
       }
     ]
   },
@@ -1250,6 +1273,44 @@
       }
     ]
   },
+  "Idhayakkani [2D | Tamil]": {
+    "shows": 4,
+    "gross": 7200,
+    "sold": 48,
+    "totalSeats": 2112,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.27,
+    "details": [
+      {
+        "city": "Erode",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 7200,
+        "sold": 48,
+        "totalSeats": 2112,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.27
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Royal Cinemas: Pallipalayam",
+        "venues": 1,
+        "shows": 4,
+        "gross": 7200,
+        "sold": 48,
+        "totalSeats": 2112,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.27
+      }
+    ]
+  },
   "date": "2026-02-20",
-  "lastUpdated": "01:00 PM, 17 February 2026"
+  "lastUpdated": "02:38 PM, 17 February 2026"
 }
