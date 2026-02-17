@@ -956,12 +956,12 @@
     ]
   },
   "Border 2 [2D | Hindi]": {
-    "shows": 4,
+    "shows": 5,
     "gross": 0,
     "sold": 0,
-    "totalSeats": 120,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 238,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 0,
@@ -974,6 +974,18 @@
         "gross": 0,
         "sold": 0,
         "totalSeats": 120,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 118,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -990,19 +1002,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 118,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
   "O'Romeo [2D | Hindi]": {
-    "shows": 69,
-    "gross": 344870,
-    "sold": 1277,
-    "totalSeats": 17776,
-    "venues": 16,
-    "cities": 14,
+    "shows": 74,
+    "gross": 355830,
+    "sold": 1321,
+    "totalSeats": 19257,
+    "venues": 18,
+    "cities": 16,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 7.18,
+    "occupancy": 6.86,
     "details": [
       {
         "city": "Bakhrahat",
@@ -1033,12 +1056,12 @@
         "state": "Rajasthan",
         "venues": 1,
         "shows": 4,
-        "gross": 264300,
-        "sold": 942,
+        "gross": 264000,
+        "sold": 940,
         "totalSeats": 3448,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 27.32
+        "occupancy": 27.26
       },
       {
         "city": "Vizag",
@@ -1069,12 +1092,12 @@
         "state": "Maharashtra",
         "venues": 2,
         "shows": 10,
-        "gross": 14300,
-        "sold": 62,
+        "gross": 14760,
+        "sold": 64,
         "totalSeats": 2175,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.85
+        "occupancy": 2.94
       },
       {
         "city": "Muzaffarpur",
@@ -1093,12 +1116,12 @@
         "state": "West Bengal",
         "venues": 2,
         "shows": 10,
-        "gross": 17330,
-        "sold": 65,
+        "gross": 18130,
+        "sold": 67,
         "totalSeats": 2670,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.43
+        "occupancy": 2.51
       },
       {
         "city": "Bengaluru",
@@ -1165,12 +1188,36 @@
         "state": "Uttar Pradesh",
         "venues": 1,
         "shows": 4,
-        "gross": 5700,
-        "sold": 24,
+        "gross": 6200,
+        "sold": 26,
         "totalSeats": 1028,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.33
+        "occupancy": 2.53
+      },
+      {
+        "city": "Patna",
+        "state": "Bihar",
+        "venues": 1,
+        "shows": 4,
+        "gross": 9500,
+        "sold": 40,
+        "totalSeats": 1300,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.08
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 181,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -1200,12 +1247,12 @@
         "chain": "Rajmandir",
         "venues": 1,
         "shows": 4,
-        "gross": 264300,
-        "sold": 942,
+        "gross": 264000,
+        "sold": 940,
         "totalSeats": 3448,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 27.32
+        "occupancy": 27.26
       },
       {
         "chain": "Asian Mukta A2",
@@ -1220,14 +1267,14 @@
       },
       {
         "chain": "Cinepolis",
-        "venues": 11,
-        "shows": 51,
-        "gross": 77930,
-        "sold": 323,
-        "totalSeats": 11709,
+        "venues": 12,
+        "shows": 55,
+        "gross": 89190,
+        "sold": 369,
+        "totalSeats": 13009,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.76
+        "occupancy": 2.84
       },
       {
         "chain": "New Fangled Miniplex",
@@ -1236,6 +1283,17 @@
         "gross": 0,
         "sold": 0,
         "totalSeats": 74,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 181,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -1281,15 +1339,15 @@
     ]
   },
   "My Lord [2D | Tamil]": {
-    "shows": 6,
-    "gross": 33887.45,
-    "sold": 289,
-    "totalSeats": 1140,
-    "venues": 3,
+    "shows": 10,
+    "gross": 38986.45,
+    "sold": 359,
+    "totalSeats": 1930,
+    "venues": 7,
     "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 25.35,
+    "occupancy": 18.6,
     "details": [
       {
         "city": "Ambur",
@@ -1306,14 +1364,14 @@
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 1,
-        "shows": 1,
-        "gross": 7140,
-        "sold": 51,
-        "totalSeats": 164,
+        "venues": 5,
+        "shows": 5,
+        "gross": 12239,
+        "sold": 121,
+        "totalSeats": 954,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 31.1
+        "occupancy": 12.68
       },
       {
         "city": "Coimbatore",
@@ -1353,39 +1411,39 @@
       },
       {
         "chain": "PVR",
-        "venues": 1,
-        "shows": 1,
-        "gross": 4307.450000000001,
-        "sold": 34,
-        "totalSeats": 184,
+        "venues": 5,
+        "shows": 5,
+        "gross": 9406.45,
+        "sold": 104,
+        "totalSeats": 974,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 18.48
+        "occupancy": 10.68
       }
     ]
   },
   "Thunivu [2D | Tamil]": {
-    "shows": 16,
-    "gross": 215510.46999999997,
-    "sold": 1898,
-    "totalSeats": 8974,
-    "venues": 8,
-    "cities": 2,
+    "shows": 40,
+    "gross": 297839.8700000001,
+    "sold": 2781,
+    "totalSeats": 14840,
+    "venues": 17,
+    "cities": 5,
     "fastfilling": 2,
     "housefull": 0,
-    "occupancy": 21.15,
+    "occupancy": 18.74,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 7,
-        "shows": 14,
-        "gross": 213879.96999999997,
-        "sold": 1868,
-        "totalSeats": 8626,
+        "venues": 13,
+        "shows": 32,
+        "gross": 281583.07000000007,
+        "sold": 2591,
+        "totalSeats": 12888,
         "fastfilling": 2,
         "housefull": 0,
-        "occupancy": 21.66
+        "occupancy": 20.1
       },
       {
         "city": "Coimbatore",
@@ -1398,6 +1456,42 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 8.62
+      },
+      {
+        "city": "Madurai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 2,
+        "gross": 4978.4,
+        "sold": 74,
+        "totalSeats": 580,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.76
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 660,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 2,
+        "gross": 9647.9,
+        "sold": 86,
+        "totalSeats": 364,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 23.63
       }
     ],
     "Chain_details": [
@@ -1458,63 +1552,63 @@
       },
       {
         "chain": "PVR",
-        "venues": 2,
-        "shows": 3,
-        "gross": 2989.25,
-        "sold": 55,
-        "totalSeats": 644,
+        "venues": 11,
+        "shows": 27,
+        "gross": 85318.64999999998,
+        "sold": 938,
+        "totalSeats": 6510,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.54
+        "occupancy": 14.41
       }
     ]
   },
   "Ghilli [2D | Tamil]": {
-    "shows": 22,
-    "gross": 555849.7999999999,
-    "sold": 4621,
-    "totalSeats": 13552,
-    "venues": 11,
+    "shows": 26,
+    "gross": 573122.36,
+    "sold": 4802,
+    "totalSeats": 14180,
+    "venues": 12,
     "cities": 3,
     "fastfilling": 6,
     "housefull": 2,
-    "occupancy": 34.1,
+    "occupancy": 33.86,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 9,
-        "shows": 17,
-        "gross": 526854.7999999999,
-        "sold": 4376,
-        "totalSeats": 9173,
+        "venues": 10,
+        "shows": 21,
+        "gross": 543862.36,
+        "sold": 4554,
+        "totalSeats": 9801,
         "fastfilling": 6,
         "housefull": 2,
-        "occupancy": 47.71
+        "occupancy": 46.46
       },
       {
         "city": "Hosur",
         "state": "Tamil Nadu",
         "venues": 1,
         "shows": 1,
-        "gross": -3150,
-        "sold": -30,
+        "gross": -2940,
+        "sold": -28,
         "totalSeats": 323,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": -9.29
+        "occupancy": -8.67
       },
       {
         "city": "Puducherry",
         "state": "Puducherry",
         "venues": 1,
         "shows": 4,
-        "gross": 32145,
-        "sold": 275,
+        "gross": 32200,
+        "sold": 276,
         "totalSeats": 4056,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 6.78
+        "occupancy": 6.8
       }
     ],
     "Chain_details": [
@@ -1544,12 +1638,12 @@
         "chain": "Vettri",
         "venues": 1,
         "shows": 2,
-        "gross": 97380,
-        "sold": 702,
+        "gross": 103570,
+        "sold": 745,
         "totalSeats": 1352,
         "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 51.92
+        "occupancy": 55.1
       },
       {
         "chain": "Varadaraja Cinemas",
@@ -1566,23 +1660,23 @@
         "chain": "Rakki Cinemas",
         "venues": 1,
         "shows": 1,
-        "gross": 3600,
-        "sold": 36,
+        "gross": 3900,
+        "sold": 39,
         "totalSeats": 658,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 5.47
+        "occupancy": 5.93
       },
       {
         "chain": "Kamala Theatre",
         "venues": 1,
         "shows": 2,
-        "gross": 141347.6,
-        "sold": 1210,
+        "gross": 141452.6,
+        "sold": 1211,
         "totalSeats": 1212,
         "fastfilling": 0,
         "housefull": 2,
-        "occupancy": 99.83
+        "occupancy": 99.92
       },
       {
         "chain": "Kannappa Cinemas",
@@ -1599,45 +1693,45 @@
         "chain": "Murugan Cinemas",
         "venues": 1,
         "shows": 1,
-        "gross": 12900,
-        "sold": 129,
+        "gross": 14200,
+        "sold": 142,
         "totalSeats": 520,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 24.81
+        "occupancy": 27.31
       },
       {
         "chain": "Grand Cinema",
         "venues": 1,
         "shows": 1,
-        "gross": -3150,
-        "sold": -30,
+        "gross": -2940,
+        "sold": -28,
         "totalSeats": 323,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": -9.29
+        "occupancy": -8.67
       },
       {
         "chain": "Raja Talkies",
         "venues": 1,
         "shows": 4,
-        "gross": 32145,
-        "sold": 275,
+        "gross": 32200,
+        "sold": 276,
         "totalSeats": 4056,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 6.78
+        "occupancy": 6.8
       },
       {
         "chain": "PVR",
-        "venues": 1,
-        "shows": 1,
-        "gross": 1353,
-        "sold": 25,
-        "totalSeats": 296,
+        "venues": 2,
+        "shows": 5,
+        "gross": 10465.56,
+        "sold": 143,
+        "totalSeats": 924,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.45
+        "occupancy": 15.48
       }
     ]
   },
@@ -1718,15 +1812,15 @@
     ]
   },
   "With Love [2D | Tamil]": {
-    "shows": 42,
-    "gross": 284221.6,
-    "sold": 2464,
-    "totalSeats": 19202,
-    "venues": 9,
-    "cities": 4,
+    "shows": 86,
+    "gross": 527454.9500000001,
+    "sold": 4518,
+    "totalSeats": 33174,
+    "venues": 19,
+    "cities": 7,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 12.83,
+    "occupancy": 13.62,
     "details": [
       {
         "city": "Chinnasalem",
@@ -1743,14 +1837,14 @@
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 5,
-        "shows": 22,
-        "gross": 200155.4,
-        "sold": 1868,
-        "totalSeats": 11902,
+        "venues": 12,
+        "shows": 54,
+        "gross": 356735.2000000002,
+        "sold": 3196,
+        "totalSeats": 22326,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 15.69
+        "occupancy": 14.32
       },
       {
         "city": "Kumbakonam",
@@ -1769,12 +1863,48 @@
         "state": "Tamil Nadu",
         "venues": 2,
         "shows": 12,
-        "gross": 28226.2,
-        "sold": 224,
-        "totalSeats": 2648,
+        "gross": 65111.75000000001,
+        "sold": 493,
+        "totalSeats": 2744,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.46
+        "occupancy": 17.97
+      },
+      {
+        "city": "Madurai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 13107.2,
+        "sold": 184,
+        "totalSeats": 1400,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 13.14
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 4,
+        "gross": 130,
+        "sold": 1,
+        "totalSeats": 1320,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.08
+      },
+      {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 36530.8,
+        "sold": 272,
+        "totalSeats": 732,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 37.16
       }
     ],
     "Chain_details": [
@@ -1815,12 +1945,12 @@
         "chain": "AGS Cinemas",
         "venues": 2,
         "shows": 12,
-        "gross": 143592,
-        "sold": 1178,
+        "gross": 143226,
+        "sold": 1176,
         "totalSeats": 5348,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 22.03
+        "occupancy": 21.99
       },
       {
         "chain": "Kasi Kalaiarangam",
@@ -1835,14 +1965,14 @@
       },
       {
         "chain": "PVR",
-        "venues": 3,
-        "shows": 16,
-        "gross": 35835.2,
-        "sold": 364,
-        "totalSeats": 4592,
+        "venues": 13,
+        "shows": 60,
+        "gross": 279434.54999999993,
+        "sold": 2420,
+        "totalSeats": 18564,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 7.93
+        "occupancy": 13.04
       }
     ]
   },
@@ -2272,27 +2402,27 @@
     ]
   },
   "Couple Friendly [2D | Tamil]": {
-    "shows": 1,
-    "gross": 10019,
-    "sold": 79,
-    "totalSeats": 401,
-    "venues": 1,
+    "shows": 6,
+    "gross": 16471.8,
+    "sold": 162,
+    "totalSeats": 1676,
+    "venues": 5,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 19.7,
+    "occupancy": 9.67,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 1,
-        "shows": 1,
-        "gross": 10019,
-        "sold": 79,
-        "totalSeats": 401,
+        "venues": 5,
+        "shows": 6,
+        "gross": 16471.8,
+        "sold": 162,
+        "totalSeats": 1676,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 19.7
+        "occupancy": 9.67
       }
     ],
     "Chain_details": [
@@ -2306,31 +2436,54 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 19.7
+      },
+      {
+        "chain": "PVR",
+        "venues": 4,
+        "shows": 5,
+        "gross": 6452.8,
+        "sold": 83,
+        "totalSeats": 1275,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.51
       }
     ]
   },
   "Minnale [2D | Tamil]": {
-    "shows": 2,
-    "gross": 12174,
-    "sold": 135,
-    "totalSeats": 595,
-    "venues": 2,
-    "cities": 1,
+    "shows": 5,
+    "gross": 14639,
+    "sold": 152,
+    "totalSeats": 1123,
+    "venues": 5,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 22.69,
+    "occupancy": 13.54,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 2,
-        "shows": 2,
-        "gross": 12174,
-        "sold": 135,
-        "totalSeats": 595,
+        "venues": 4,
+        "shows": 4,
+        "gross": 14639,
+        "sold": 152,
+        "totalSeats": 940,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 22.69
+        "occupancy": 16.17
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 183,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -2344,19 +2497,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 22.69
+      },
+      {
+        "chain": "PVR",
+        "venues": 3,
+        "shows": 3,
+        "gross": 2465,
+        "sold": 17,
+        "totalSeats": 528,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.22
       }
     ]
   },
   "Hey Balwanth [2D | Telugu]": {
-    "shows": 8,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 2180,
-    "venues": 2,
-    "cities": 2,
+    "shows": 12,
+    "gross": 15686.03,
+    "sold": 114,
+    "totalSeats": 3118,
+    "venues": 6,
+    "cities": 4,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 3.66,
     "details": [
       {
         "city": "Addanki",
@@ -2381,6 +2545,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 3,
+        "shows": 3,
+        "gross": 9006,
+        "sold": 69,
+        "totalSeats": 757,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.11
+      },
+      {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 6680.030000000001,
+        "sold": 45,
+        "totalSeats": 181,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 24.86
       }
     ],
     "Chain_details": [
@@ -2405,6 +2593,28 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "PVR",
+        "venues": 3,
+        "shows": 3,
+        "gross": 6680.030000000001,
+        "sold": 45,
+        "totalSeats": 602,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.48
+      },
+      {
+        "chain": "AGS Cinemas",
+        "venues": 1,
+        "shows": 1,
+        "gross": 9006,
+        "sold": 69,
+        "totalSeats": 336,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 20.54
       }
     ]
   },
@@ -2447,27 +2657,27 @@
     ]
   },
   "Pookie [2D | Tamil]": {
-    "shows": 1,
-    "gross": 5400,
-    "sold": 56,
-    "totalSeats": 194,
-    "venues": 1,
+    "shows": 2,
+    "gross": 8524.6,
+    "sold": 73,
+    "totalSeats": 301,
+    "venues": 2,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 28.87,
+    "occupancy": 24.25,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 1,
-        "shows": 1,
-        "gross": 5400,
-        "sold": 56,
-        "totalSeats": 194,
+        "venues": 2,
+        "shows": 2,
+        "gross": 8524.6,
+        "sold": 73,
+        "totalSeats": 301,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 28.87
+        "occupancy": 24.25
       }
     ],
     "Chain_details": [
@@ -2481,31 +2691,42 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 28.87
+      },
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 3124.6000000000004,
+        "sold": 17,
+        "totalSeats": 107,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.89
       }
     ]
   },
   "Goat [3D | English]": {
-    "shows": 9,
-    "gross": 89763.18,
-    "sold": 437,
-    "totalSeats": 1926,
-    "venues": 4,
-    "cities": 3,
+    "shows": 19,
+    "gross": 131749.03999999998,
+    "sold": 672,
+    "totalSeats": 3859,
+    "venues": 9,
+    "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 22.69,
+    "occupancy": 17.41,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 2,
-        "shows": 4,
-        "gross": 43800,
-        "sold": 250,
-        "totalSeats": 1060,
+        "venues": 4,
+        "shows": 8,
+        "gross": 56590.95999999999,
+        "sold": 302,
+        "totalSeats": 1908,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 23.58
+        "occupancy": 15.83
       },
       {
         "city": "Bengaluru",
@@ -2530,6 +2751,42 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 21.11
+      },
+      {
+        "city": "Madurai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 3,
+        "gross": 10654.98,
+        "sold": 87,
+        "totalSeats": 534,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 16.29
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 183,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 2,
+        "gross": 18539.92,
+        "sold": 96,
+        "totalSeats": 368,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 26.09
       }
     ],
     "Chain_details": [
@@ -2557,27 +2814,27 @@
       },
       {
         "chain": "PVR",
-        "venues": 1,
-        "shows": 3,
-        "gross": 33963.18,
-        "sold": 171,
-        "totalSeats": 810,
+        "venues": 6,
+        "shows": 13,
+        "gross": 75949.04000000001,
+        "sold": 406,
+        "totalSeats": 2743,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 21.11
+        "occupancy": 14.8
       }
     ]
   },
   "Shatak: Sangh Ke 100 Varsh [2D | Hindi]": {
-    "shows": 4,
-    "gross": 7200,
-    "sold": 8,
-    "totalSeats": 387,
-    "venues": 2,
-    "cities": 2,
+    "shows": 5,
+    "gross": 10642.33,
+    "sold": 25,
+    "totalSeats": 494,
+    "venues": 3,
+    "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 2.07,
+    "occupancy": 5.06,
     "details": [
       {
         "city": "Neemuch",
@@ -2602,6 +2859,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 25.81
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 3442.33,
+        "sold": 17,
+        "totalSeats": 107,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.89
       }
     ],
     "Chain_details": [
@@ -2626,19 +2895,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 25.81
+      },
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 3442.33,
+        "sold": 17,
+        "totalSeats": 107,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.89
       }
     ]
   },
   "Assi [2D | Hindi]": {
-    "shows": 7,
-    "gross": 4738.76,
-    "sold": 34,
-    "totalSeats": 343,
-    "venues": 2,
-    "cities": 2,
+    "shows": 12,
+    "gross": 17546.5,
+    "sold": 146,
+    "totalSeats": 1257,
+    "venues": 7,
+    "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 9.91,
+    "occupancy": 11.61,
     "details": [
       {
         "city": "Bengaluru",
@@ -2663,6 +2943,54 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 18.48
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 2,
+        "shows": 2,
+        "gross": 3688.94,
+        "sold": 38,
+        "totalSeats": 372,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.22
+      },
+      {
+        "city": "Madurai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 2438.77,
+        "sold": 29,
+        "totalSeats": 178,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 16.29
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 183,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 6680.030000000001,
+        "sold": 45,
+        "totalSeats": 181,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 24.86
       }
     ],
     "Chain_details": [
@@ -2679,27 +3007,27 @@
       },
       {
         "chain": "PVR",
-        "venues": 1,
-        "shows": 1,
-        "gross": 4738.76,
-        "sold": 34,
-        "totalSeats": 184,
+        "venues": 6,
+        "shows": 6,
+        "gross": 17546.5,
+        "sold": 146,
+        "totalSeats": 1098,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 18.48
+        "occupancy": 13.3
       }
     ]
   },
   "Do Deewane Seher Mein [2D | Hindi]": {
-    "shows": 3,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 61,
-    "venues": 1,
-    "cities": 1,
+    "shows": 7,
+    "gross": 12147.260000000002,
+    "sold": 72,
+    "totalSeats": 798,
+    "venues": 5,
+    "cities": 4,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 9.02,
     "details": [
       {
         "city": "Bengaluru",
@@ -2712,6 +3040,42 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 2,
+        "shows": 2,
+        "gross": 5467.2300000000005,
+        "sold": 27,
+        "totalSeats": 373,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.24
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 183,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 6680.030000000001,
+        "sold": 45,
+        "totalSeats": 181,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 24.86
       }
     ],
     "Chain_details": [
@@ -2725,6 +3089,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "PVR",
+        "venues": 4,
+        "shows": 4,
+        "gross": 12147.260000000002,
+        "sold": 72,
+        "totalSeats": 737,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.77
       }
     ]
   },
@@ -2804,6 +3179,284 @@
       }
     ]
   },
+  "Sirai [2D | Tamil]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 118,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 118,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 118,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Premam [2D | Malayalam]": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 350,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 167,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 183,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 2,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 350,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Good Luck, Have Fun, Don't Die [2D | English]": {
+    "shows": 1,
+    "gross": 3586.66,
+    "sold": 17,
+    "totalSeats": 107,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 15.89,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 3586.66,
+        "sold": 17,
+        "totalSeats": 107,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.89
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 3586.66,
+        "sold": 17,
+        "totalSeats": 107,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.89
+      }
+    ]
+  },
+  "Kadhalar Dhinam [2D | Tamil]": {
+    "shows": 2,
+    "gross": 1160,
+    "sold": 8,
+    "totalSeats": 282,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.84,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 2,
+        "shows": 2,
+        "gross": 1160,
+        "sold": 8,
+        "totalSeats": 282,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.84
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 2,
+        "shows": 2,
+        "gross": 1160,
+        "sold": 8,
+        "totalSeats": 282,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.84
+      }
+    ]
+  },
+  "Thalaivar Thambi Thalaimaiyil [2D | Tamil]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 118,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 118,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 118,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Mounam Pesiyadhe [2D | Tamil]": {
+    "shows": 1,
+    "gross": 3625,
+    "sold": 25,
+    "totalSeats": 167,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 14.97,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 3625,
+        "sold": 25,
+        "totalSeats": 167,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 14.97
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "PVR",
+        "venues": 1,
+        "shows": 1,
+        "gross": 3625,
+        "sold": 25,
+        "totalSeats": 167,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 14.97
+      }
+    ]
+  },
+  "My Dear Dolly [2D | Tamil]": {
+    "shows": 1,
+    "gross": 4998,
+    "sold": 51,
+    "totalSeats": 164,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 31.1,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 4998,
+        "sold": 51,
+        "totalSeats": 164,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 31.1
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "AGS Cinemas",
+        "venues": 1,
+        "shows": 1,
+        "gross": 4998,
+        "sold": 51,
+        "totalSeats": 164,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 31.1
+      }
+    ]
+  },
   "date": "2026-02-20",
-  "lastUpdated": "11:00 PM, 17 February 2026"
+  "lastUpdated": "12:57 AM, 18 February 2026"
 }
