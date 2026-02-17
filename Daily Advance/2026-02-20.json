@@ -971,15 +971,15 @@
     ]
   },
   "O'Romeo [2D | Hindi]": {
-    "shows": 33,
-    "gross": 284830,
-    "sold": 1031,
-    "totalSeats": 10406,
-    "venues": 8,
-    "cities": 8,
+    "shows": 47,
+    "gross": 302550,
+    "sold": 1111,
+    "totalSeats": 13215,
+    "venues": 11,
+    "cities": 10,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 9.91,
+    "occupancy": 8.41,
     "details": [
       {
         "city": "Bakhrahat",
@@ -1044,14 +1044,14 @@
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "venues": 1,
-        "shows": 5,
-        "gross": 6480,
-        "sold": 30,
-        "totalSeats": 940,
+        "venues": 2,
+        "shows": 10,
+        "gross": 13800,
+        "sold": 60,
+        "totalSeats": 2175,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.19
+        "occupancy": 2.76
       },
       {
         "city": "Muzaffarpur",
@@ -1076,6 +1076,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 1.77
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 159,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 5,
+        "gross": 10400,
+        "sold": 50,
+        "totalSeats": 1415,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.53
       }
     ],
     "Chain_details": [
@@ -1125,14 +1149,25 @@
       },
       {
         "chain": "Cinepolis",
-        "venues": 4,
-        "shows": 19,
-        "gross": 18190,
-        "sold": 79,
-        "totalSeats": 4413,
+        "venues": 6,
+        "shows": 29,
+        "gross": 35910,
+        "sold": 159,
+        "totalSeats": 7063,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 1.79
+        "occupancy": 2.25
+      },
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 159,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -1284,39 +1319,51 @@
     ]
   },
   "Ghilli [2D | Tamil]": {
-    "shows": 17,
-    "gross": 493907.44999999995,
-    "sold": 4092,
-    "totalSeats": 9200,
-    "venues": 9,
-    "cities": 2,
-    "fastfilling": 4,
+    "shows": 21,
+    "gross": 535980.5,
+    "sold": 4448,
+    "totalSeats": 13256,
+    "venues": 10,
+    "cities": 3,
+    "fastfilling": 5,
     "housefull": 2,
-    "occupancy": 44.48,
+    "occupancy": 33.55,
     "details": [
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
         "venues": 8,
         "shows": 16,
-        "gross": 498317.44999999995,
-        "sold": 4134,
+        "gross": 507675.49999999994,
+        "sold": 4211,
         "totalSeats": 8877,
-        "fastfilling": 4,
+        "fastfilling": 5,
         "housefull": 2,
-        "occupancy": 46.57
+        "occupancy": 47.44
       },
       {
         "city": "Hosur",
         "state": "Tamil Nadu",
         "venues": 1,
         "shows": 1,
-        "gross": -4410,
-        "sold": -42,
+        "gross": -3675,
+        "sold": -35,
         "totalSeats": 323,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": -13
+        "occupancy": -10.84
+      },
+      {
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "venues": 1,
+        "shows": 4,
+        "gross": 31980,
+        "sold": 272,
+        "totalSeats": 4056,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.71
       }
     ],
     "Chain_details": [
@@ -1335,12 +1382,12 @@
         "chain": "TicketNew",
         "venues": 1,
         "shows": 3,
-        "gross": 108030,
-        "sold": 831,
+        "gross": 115960,
+        "sold": 892,
         "totalSeats": 1686,
-        "fastfilling": 0,
+        "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 49.29
+        "occupancy": 52.91
       },
       {
         "chain": "Vettri",
@@ -1368,18 +1415,18 @@
         "chain": "Rakki Cinemas",
         "venues": 1,
         "shows": 1,
-        "gross": 1400,
-        "sold": 14,
+        "gross": 3000,
+        "sold": 30,
         "totalSeats": 658,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 2.13
+        "occupancy": 4.56
       },
       {
         "chain": "Kamala Theatre",
         "venues": 1,
         "shows": 2,
-        "gross": 139903.25,
+        "gross": 139731.3,
         "sold": 1197,
         "totalSeats": 1212,
         "fastfilling": 0,
@@ -1412,12 +1459,23 @@
         "chain": "Grand Cinema",
         "venues": 1,
         "shows": 1,
-        "gross": -4410,
-        "sold": -42,
+        "gross": -3675,
+        "sold": -35,
         "totalSeats": 323,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": -13
+        "occupancy": -10.84
+      },
+      {
+        "chain": "Raja Talkies",
+        "venues": 1,
+        "shows": 4,
+        "gross": 31980,
+        "sold": 272,
+        "totalSeats": 4056,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.71
       }
     ]
   },
@@ -1498,15 +1556,15 @@
     ]
   },
   "With Love [2D | Tamil]": {
-    "shows": 10,
-    "gross": 65074.399999999994,
-    "sold": 674,
-    "totalSeats": 6270,
-    "venues": 3,
+    "shows": 16,
+    "gross": 138478.4,
+    "sold": 1288,
+    "totalSeats": 9286,
+    "venues": 4,
     "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 10.75,
+    "occupancy": 13.87,
     "details": [
       {
         "city": "Chinnasalem",
@@ -1523,14 +1581,14 @@
       {
         "city": "Chennai",
         "state": "Tamil Nadu",
-        "venues": 2,
-        "shows": 6,
-        "gross": 48954.399999999994,
-        "sold": 550,
-        "totalSeats": 4610,
+        "venues": 3,
+        "shows": 12,
+        "gross": 122358.4,
+        "sold": 1164,
+        "totalSeats": 7626,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 11.93
+        "occupancy": 15.26
       }
     ],
     "Chain_details": [
@@ -1566,6 +1624,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 13.19
+      },
+      {
+        "chain": "AGS Cinemas",
+        "venues": 1,
+        "shows": 6,
+        "gross": 73404,
+        "sold": 614,
+        "totalSeats": 3016,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 20.36
       }
     ]
   },
@@ -1722,15 +1791,15 @@
     ]
   },
   "Mardaani 3 [2D | Hindi]": {
-    "shows": 7,
+    "shows": 8,
     "gross": 97000,
     "sold": 1820,
-    "totalSeats": 2156,
-    "venues": 2,
-    "cities": 1,
+    "totalSeats": 2256,
+    "venues": 3,
+    "cities": 2,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 84.42,
+    "occupancy": 80.67,
     "details": [
       {
         "city": "Agra",
@@ -1743,6 +1812,18 @@
         "fastfilling": 4,
         "housefull": 0,
         "occupancy": 84.42
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 100,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -1767,6 +1848,17 @@
         "fastfilling": 4,
         "housefull": 0,
         "occupancy": 91.55
+      },
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 100,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -1808,6 +1900,295 @@
       }
     ]
   },
+  "Dhurandhar [2D | Hindi]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 15,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 15,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 15,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Wuthering Heights [2D | English]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 28,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 28,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 28,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Tu Yaa Main [2D | Hindi]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 16,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 16,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 16,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Crime 101 [2D | English]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 28,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 28,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "New Fangled Miniplex",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 28,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Couple Friendly [2D | Tamil]": {
+    "shows": 1,
+    "gross": 10019,
+    "sold": 79,
+    "totalSeats": 401,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 19.7,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 10019,
+        "sold": 79,
+        "totalSeats": 401,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.7
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "AGS Cinemas",
+        "venues": 1,
+        "shows": 1,
+        "gross": 10019,
+        "sold": 79,
+        "totalSeats": 401,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.7
+      }
+    ]
+  },
+  "Minnale [2D | Tamil]": {
+    "shows": 1,
+    "gross": 6774,
+    "sold": 79,
+    "totalSeats": 401,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 19.7,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 6774,
+        "sold": 79,
+        "totalSeats": 401,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.7
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "AGS Cinemas",
+        "venues": 1,
+        "shows": 1,
+        "gross": 6774,
+        "sold": 79,
+        "totalSeats": 401,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.7
+      }
+    ]
+  },
+  "Hey Balwanth [2D | Telugu]": {
+    "shows": 8,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 2180,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Addanki",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1448,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Vizag",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 732,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Suresh Production",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1448,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Asian Mukta A2",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 732,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
   "date": "2026-02-20",
-  "lastUpdated": "07:12 PM, 17 February 2026"
+  "lastUpdated": "08:41 PM, 17 February 2026"
 }
