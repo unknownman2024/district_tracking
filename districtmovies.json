@@ -84,8 +84,8 @@
     "runtime": 134,
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a.jpeg",
-    "city": "Amritsar, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
-    "cityCount": 18
+    "city": "Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
+    "cityCount": 19
   },
   {
     "movie": "Wuthering Heights",
@@ -128,8 +128,8 @@
     "runtime": 134,
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Bambukat-2-fcef6190-fde5-11f0-a7dc-95ca58c8a6f8.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Surat",
-    "cityCount": 14
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mumbai",
+    "cityCount": 13
   },
   {
     "movie": "DP World Asia Cup 2025 (India vs Pakistan)",
@@ -149,8 +149,8 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Jaipur, Kochi, Kolkata, Mumbai, Surat",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Surat",
     "cityCount": 13
   },
   {
@@ -242,6 +242,17 @@
     "cityCount": 10
   },
   {
+    "movie": "Avatar: Fire and Ash",
+    "language": "English",
+    "movieCode": "ZijYCsa3f",
+    "id": 165236,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
+    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat",
+    "cityCount": 9
+  },
+  {
     "movie": "Crime 101",
     "language": "English",
     "movieCode": "ER0a6Z8I9P",
@@ -273,28 +284,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Taj-Story_Poster-345a4d40-a380-11f0-9e71-378784c47b3f.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Surat",
     "cityCount": 9
-  },
-  {
-    "movie": "Avatar: Fire and Ash",
-    "language": "English",
-    "movieCode": "ZijYCsa3f",
-    "id": 165236,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
-    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Kochi, Kolkata, Mumbai, Surat",
-    "cityCount": 8
-  },
-  {
-    "movie": "Goat",
-    "language": "Hindi",
-    "movieCode": "EOMrltlcSo",
-    "id": 204019,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a-b1b75710-0b5e-11f1-9fe0-89503caae6ad.jpeg",
-    "city": "Ahmedabad, Bhopal, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
-    "cityCount": 8
   },
   {
     "movie": "Hey Balwanth",
@@ -374,6 +363,17 @@
     "cityCount": 8
   },
   {
+    "movie": "Zootopia 2",
+    "language": "English",
+    "movieCode": "6iHdnxzpw_",
+    "id": 177299,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Zootopia-2--9aa43c80-c91b-11f0-93e8-ff3c1daa03c7.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kochi, Mumbai",
+    "cityCount": 8
+  },
+  {
     "movie": "Ashakal Aayiram",
     "language": "Malayalam",
     "movieCode": "qQjaZmZtd_",
@@ -382,6 +382,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Ashakal-Aayiram_Poster-ff7e8f20-00de-11f1-be9d-51e354f3cbc3.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi, Mangaluru, Mumbai",
+    "cityCount": 7
+  },
+  {
+    "movie": "Goat",
+    "language": "Hindi",
+    "movieCode": "EOMrltlcSo",
+    "id": 204019,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a-b1b75710-0b5e-11f1-9fe0-89503caae6ad.jpeg",
+    "city": "Ahmedabad, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
     "cityCount": 7
   },
   {
@@ -415,17 +426,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(5)-1d10b910-f78d-11f0-91f6-e3b1d7b4fde4.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi, Madurai, Mumbai",
-    "cityCount": 7
-  },
-  {
-    "movie": "Zootopia 2",
-    "language": "English",
-    "movieCode": "6iHdnxzpw_",
-    "id": 177299,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Zootopia-2--9aa43c80-c91b-11f0-93e8-ff3c1daa03c7.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Kochi, Mumbai",
     "cityCount": 7
   },
   {
@@ -646,17 +646,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Manasantha-Nuvve-07378600-0647-11f1-8a28-178d75c4578d.jpg",
     "city": "Bangalore, Bengaluru, Hyderabad, Visakhapatnam",
-    "cityCount": 4
-  },
-  {
-    "movie": "Minnale",
-    "language": "Tamil",
-    "movieCode": "dmfc2S6ML",
-    "id": 151567,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Minnale-608x800-3da20530-8c76-11eb-9b50-99e9f11989f6.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore",
     "cityCount": 4
   },
   {
@@ -2216,7 +2205,7 @@
     "id": 159537,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom-2--70458890-a37d-11f0-b879-3f04e713c2fa.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom2-0385ba90-fb17-11ef-8434-f9ed39b3241b.jpg",
     "city": "Chennai, Hyderabad",
     "cityCount": 2
   },
@@ -3417,6 +3406,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Middle-Class-Ramayana--697570f0-8e44-11f0-8800-7fa52f36b55f.jpg",
     "city": "Bangalore, Bengaluru",
+    "cityCount": 2
+  },
+  {
+    "movie": "Minnale",
+    "language": "Tamil",
+    "movieCode": "dmfc2S6ML",
+    "id": 151567,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Minnale-608x800-3da20530-8c76-11eb-9b50-99e9f11989f6.jpg",
+    "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
   {
@@ -5298,6 +5298,17 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/A-Wedding-Story--608x800-2-d75f3bb0-65ea-11ef-9f4b-f7813262cbfc.jpg",
     "city": "Kota",
+    "cityCount": 1
+  },
+  {
+    "movie": "Aadhi Naath",
+    "language": "Hindi",
+    "movieCode": "a3D085yQM",
+    "id": 174680,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Aadhi-Naath-608x800-aa272e00-2efe-11ef-9927-1914e90f50ee.jpg",
+    "city": "Delhi/NCR",
     "cityCount": 1
   },
   {
@@ -8926,7 +8937,7 @@
     "id": 159985,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/jab-we-met4-57cf1560-fb1c-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/jab-we-met1-238109d0-fb1c-11ef-8434-f9ed39b3241b.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
