@@ -77,17 +77,6 @@
     "cityCount": 20
   },
   {
-    "movie": "Goat",
-    "language": "English",
-    "movieCode": "uOpaN9bdBZ",
-    "id": 204019,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a.jpeg",
-    "city": "Amritsar, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
-    "cityCount": 18
-  },
-  {
     "movie": "Wuthering Heights",
     "language": "English",
     "movieCode": "Cg_Cs18HnB",
@@ -97,6 +86,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/WUTH_Intl-Alt_MAIN_BUILD_sRGB_W06-poster-546050d0-033e-11f1-a569-79ee780842a6.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Nagpur, Patna, Visakhapatnam",
     "cityCount": 18
+  },
+  {
+    "movie": "Goat",
+    "language": "English",
+    "movieCode": "uOpaN9bdBZ",
+    "id": 204019,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a.jpeg",
+    "city": "Amritsar, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
+    "cityCount": 16
   },
   {
     "movie": "Spider-Man: No Way Home",
@@ -242,6 +242,17 @@
     "cityCount": 10
   },
   {
+    "movie": "Goat",
+    "language": "Hindi",
+    "movieCode": "EOMrltlcSo",
+    "id": 204019,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a-b1b75710-0b5e-11f1-9fe0-89503caae6ad.jpeg",
+    "city": "Ahmedabad, Bhopal, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
+    "cityCount": 10
+  },
+  {
     "movie": "Avatar: Fire and Ash",
     "language": "English",
     "movieCode": "ZijYCsa3f",
@@ -295,17 +306,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Taj-Story_Poster-345a4d40-a380-11f0-9e71-378784c47b3f.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Surat",
     "cityCount": 9
-  },
-  {
-    "movie": "Goat",
-    "language": "Hindi",
-    "movieCode": "EOMrltlcSo",
-    "id": 204019,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a-b1b75710-0b5e-11f1-9fe0-89503caae6ad.jpeg",
-    "city": "Ahmedabad, Bhopal, Gandhinagar, Jaipur, Kota, Nagpur, Patna, Surat",
-    "cityCount": 8
   },
   {
     "movie": "Hey Balwanth",
@@ -635,17 +635,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Lagan-Laagii-Re-0c28a480-f13b-11f0-9a66-7b56b9e75148.jpg",
     "city": "Ahmedabad, Gandhinagar, Mumbai, Surat",
-    "cityCount": 4
-  },
-  {
-    "movie": "Manasantha Nuvve",
-    "language": "Telugu",
-    "movieCode": "iF9i8e9zlj",
-    "id": 214982,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Manasantha-Nuvve-07378600-0647-11f1-8a28-178d75c4578d.jpg",
-    "city": "Bangalore, Bengaluru, Hyderabad, Visakhapatnam",
     "cityCount": 4
   },
   {
@@ -1075,6 +1064,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mahayoddha-Rama_Poster%20(1)-27501d30-a805-11f0-9672-9fcd03a9cfc0.jpg",
     "city": "Ahmedabad, Chandigarh, Gandhinagar",
+    "cityCount": 3
+  },
+  {
+    "movie": "Manasantha Nuvve",
+    "language": "Telugu",
+    "movieCode": "iF9i8e9zlj",
+    "id": 214982,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Manasantha-Nuvve-07378600-0647-11f1-8a28-178d75c4578d.jpg",
+    "city": "Bangalore, Bengaluru, Hyderabad",
     "cityCount": 3
   },
   {
@@ -3659,6 +3659,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Non-Veg--985bf270-00fb-11f1-a9cd-47894e62cb0d.jpg",
     "city": "Bangalore, Bengaluru",
+    "cityCount": 2
+  },
+  {
+    "movie": "Nukkad Naatak",
+    "language": "Hindi",
+    "movieCode": "R16T7~mVEC",
+    "id": 214558,
+    "runtime": 134,
+    "rating": "TBA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nukkad-Naatak--6ba4ca40-0196-11f1-9a56-b347a882795d-19c8b000-0430-11f1-85d9-f183e8139dc4.jpg",
+    "city": "Delhi/NCR, Mumbai",
     "cityCount": 2
   },
   {
@@ -8271,6 +8282,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Glimpse of KH x RK Reunion",
+    "language": "Tamil",
+    "movieCode": "GSulxpHmru",
+    "id": 215689,
+    "runtime": 134,
+    "rating": "TBA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/KH-x-RK_Poster-c3976bd0-0e71-11f1-96ca-337173d5e619.jpg",
+    "city": "Chennai",
+    "cityCount": 1
+  },
+  {
     "movie": "God Father",
     "language": "Bhojpuri",
     "movieCode": "g3uWr_olWx",
@@ -8937,7 +8959,7 @@
     "id": 159985,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/jab-we-met1-238109d0-fb1c-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/jab-we-met4-57cf1560-fb1c-11ef-943b-b3723efa3f38.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
@@ -11456,17 +11478,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Now%20You%20See%20Me_Poster-0dac1f10-c14a-11f0-83cc-0594da99e4f8.jpg",
     "city": "Delhi/NCR",
-    "cityCount": 1
-  },
-  {
-    "movie": "Nukkad Naatak",
-    "language": "Hindi",
-    "movieCode": "R16T7~mVEC",
-    "id": 214558,
-    "runtime": 134,
-    "rating": "TBA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nukkad-Naatak--6ba4ca40-0196-11f1-9a56-b347a882795d-19c8b000-0430-11f1-85d9-f183e8139dc4.jpg",
-    "city": "Mumbai",
     "cityCount": 1
   },
   {
