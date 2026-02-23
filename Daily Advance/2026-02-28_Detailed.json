@@ -112,10 +112,10 @@
       "time": "04:00 PM",
       "audi": "AUDI 13",
       "totalSeats": 107,
-      "available": 107,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 105,
+      "sold": 2,
+      "gross": 398,
+      "occupancy": "1.87%"
     },
     {
       "city": "Jodhpur",
@@ -515,10 +515,10 @@
       "time": "02:10 PM",
       "audi": "AUDI-04",
       "totalSeats": 120,
-      "available": 118,
-      "sold": 2,
-      "gross": 398,
-      "occupancy": "1.67%"
+      "available": 117,
+      "sold": 3,
+      "gross": 597,
+      "occupancy": "2.50%"
     },
     {
       "city": "New Delhi",
@@ -580,10 +580,10 @@
       "time": "04:05 PM",
       "audi": "AUDI 01",
       "totalSeats": 105,
-      "available": 105,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 104,
+      "sold": 1,
+      "gross": 199,
+      "occupancy": "0.95%"
     },
     {
       "city": "Noida",
@@ -881,10 +881,10 @@
       "time": "07:00 PM",
       "audi": "AUDI2",
       "totalSeats": 164,
-      "available": 107,
-      "sold": 57,
-      "gross": 14250,
-      "occupancy": "34.76%"
+      "available": 105,
+      "sold": 59,
+      "gross": 14750,
+      "occupancy": "35.98%"
     },
     {
       "city": "New Delhi",
@@ -894,10 +894,10 @@
       "time": "07:40 PM",
       "audi": "SCREEN 3",
       "totalSeats": 148,
-      "available": 132,
-      "sold": 16,
-      "gross": 5120,
-      "occupancy": "10.81%"
+      "available": 131,
+      "sold": 17,
+      "gross": 5620,
+      "occupancy": "11.49%"
     },
     {
       "city": "Mumbai",
@@ -932,11 +932,11 @@
       "chain": "PVR",
       "time": "07:00 PM",
       "audi": "SCREEN 9",
-      "totalSeats": 164,
+      "totalSeats": 155,
       "available": 155,
-      "sold": 9,
-      "gross": 3380,
-      "occupancy": "5.49%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Salaar Part 1 – Ceasefire [2D | Telugu]": [
@@ -948,10 +948,10 @@
       "time": "07:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 130,
-      "available": 39,
-      "sold": 91,
-      "gross": 16107,
-      "occupancy": "70.00%"
+      "available": 36,
+      "sold": 94,
+      "gross": 16638,
+      "occupancy": "72.31%"
     },
     {
       "city": "Vizag",
@@ -1074,7 +1074,7 @@
     }
   ],
   "date": "2026-02-28",
-  "lastUpdated": "07:12 PM, 23 February 2026",
+  "lastUpdated": "09:35 PM, 23 February 2026",
   "Athadu [2D | Telugu]": [
     {
       "city": "Rajahmundry",
@@ -1250,6 +1250,246 @@
       "sold": 251,
       "gross": 27610,
       "occupancy": "100.00%"
+    }
+  ],
+  "The Kerala Story 2 [2D | Hindi]": [
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "12:55 PM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "10:45 AM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "09:30 PM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "03:30 PM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Meher Theater, Baluganj, Agra",
+      "chain": "Meher Cinema",
+      "time": "06:30 PM",
+      "audi": "MEHER CINEMAS",
+      "totalSeats": 584,
+      "available": 384,
+      "sold": 200,
+      "gross": 27360,
+      "occupancy": "34.25%"
+    },
+    {
+      "city": "Sonipat",
+      "state": "Haryana",
+      "venue": "Maxx Cinema, Mg Mall, Sector 14, Sonipat",
+      "chain": "Maxx Cinema",
+      "time": "08:00 PM",
+      "audi": "Screen 2",
+      "totalSeats": 186,
+      "available": 184,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "1.08%"
+    },
+    {
+      "city": "Sonipat",
+      "state": "Haryana",
+      "venue": "Maxx Cinema, Mg Mall, Sector 14, Sonipat",
+      "chain": "Maxx Cinema",
+      "time": "10:30 PM",
+      "audi": "Screen 2",
+      "totalSeats": 186,
+      "available": 184,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "1.08%"
+    },
+    {
+      "city": "Sonipat",
+      "state": "Haryana",
+      "venue": "Maxx Cinema, Mg Mall, Sector 14, Sonipat",
+      "chain": "Maxx Cinema",
+      "time": "10:00 AM",
+      "audi": "Screen 2",
+      "totalSeats": 186,
+      "available": 184,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "1.08%"
+    },
+    {
+      "city": "Sonipat",
+      "state": "Haryana",
+      "venue": "Maxx Cinema, Mg Mall, Sector 14, Sonipat",
+      "chain": "Maxx Cinema",
+      "time": "12:30 PM",
+      "audi": "Screen 2",
+      "totalSeats": 186,
+      "available": 184,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "1.08%"
+    },
+    {
+      "city": "Sonipat",
+      "state": "Haryana",
+      "venue": "Maxx Cinema, Mg Mall, Sector 14, Sonipat",
+      "chain": "Maxx Cinema",
+      "time": "03:00 PM",
+      "audi": "Screen 2",
+      "totalSeats": 186,
+      "available": 184,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "1.08%"
+    },
+    {
+      "city": "Sonipat",
+      "state": "Haryana",
+      "venue": "Maxx Cinema, Mg Mall, Sector 14, Sonipat",
+      "chain": "Maxx Cinema",
+      "time": "05:30 PM",
+      "audi": "Screen 2",
+      "totalSeats": 186,
+      "available": 184,
+      "sold": 2,
+      "gross": 500,
+      "occupancy": "1.08%"
+    }
+  ],
+  "The Academy of Fine Arts [2D | Bengali]": [
+    {
+      "city": "Midnapore",
+      "state": "West Bengal",
+      "venue": "Devleen Cinema, Ramjibanpur, Medinipur",
+      "chain": "TicketNew",
+      "time": "06:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 50,
+      "available": 50,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Midnapore",
+      "state": "West Bengal",
+      "venue": "Devleen Cinema, Ramjibanpur, Medinipur",
+      "chain": "TicketNew",
+      "time": "12:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 50,
+      "available": 50,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Midnapore",
+      "state": "West Bengal",
+      "venue": "Devleen Cinema, Ramjibanpur, Medinipur",
+      "chain": "TicketNew",
+      "time": "03:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 50,
+      "available": 50,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    }
+  ],
+  "Vishnu Vinyasam [2D | Telugu]": [
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Maruthi Movie Max, Srikakulam",
+      "chain": "Maruthi Movie Max",
+      "time": "11:00 AM",
+      "audi": "Maruthi Movie Max",
+      "totalSeats": 402,
+      "available": 171,
+      "sold": 231,
+      "gross": 31607,
+      "occupancy": "57.46%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Maruthi Movie Max, Srikakulam",
+      "chain": "Maruthi Movie Max",
+      "time": "02:30 PM",
+      "audi": "Maruthi Movie Max",
+      "totalSeats": 402,
+      "available": 171,
+      "sold": 231,
+      "gross": 31607,
+      "occupancy": "57.46%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Maruthi Movie Max, Srikakulam",
+      "chain": "Maruthi Movie Max",
+      "time": "09:45 PM",
+      "audi": "Maruthi Movie Max",
+      "totalSeats": 402,
+      "available": 171,
+      "sold": 231,
+      "gross": 31607,
+      "occupancy": "57.46%"
+    },
+    {
+      "city": "Srikakulam",
+      "state": "Andhra Pradesh",
+      "venue": "Maruthi Movie Max, Srikakulam",
+      "chain": "Maruthi Movie Max",
+      "time": "06:30 PM",
+      "audi": "Maruthi Movie Max",
+      "totalSeats": 402,
+      "available": 171,
+      "sold": 231,
+      "gross": 31607,
+      "occupancy": "57.46%"
     }
   ]
 }
