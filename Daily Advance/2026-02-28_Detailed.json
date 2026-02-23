@@ -125,10 +125,10 @@
       "time": "02:00 PM",
       "audi": "SCREEN 2",
       "totalSeats": 165,
-      "available": 160,
-      "sold": 5,
-      "gross": 745,
-      "occupancy": "3.03%"
+      "available": 162,
+      "sold": 3,
+      "gross": 447,
+      "occupancy": "1.82%"
     },
     {
       "city": "Lucknow",
@@ -229,10 +229,10 @@
       "time": "04:35 PM",
       "audi": "SCREEN 1",
       "totalSeats": 123,
-      "available": 123,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 120,
+      "sold": 3,
+      "gross": 540,
+      "occupancy": "2.44%"
     },
     {
       "city": "Mumbai",
@@ -385,10 +385,10 @@
       "time": "07:30 PM",
       "audi": "SCREEN 2",
       "totalSeats": 245,
-      "available": 245,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 244,
+      "sold": 1,
+      "gross": 199,
+      "occupancy": "0.41%"
     },
     {
       "city": "Mumbai",
@@ -697,10 +697,10 @@
       "time": "01:15 PM",
       "audi": "SCREEN 7",
       "totalSeats": 119,
-      "available": 119,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 117,
+      "sold": 2,
+      "gross": 798,
+      "occupancy": "1.68%"
     },
     {
       "city": "Mumbai",
@@ -710,10 +710,10 @@
       "time": "01:55 PM",
       "audi": "SCREEN 3",
       "totalSeats": 238,
-      "available": 238,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 228,
+      "sold": 10,
+      "gross": 1490,
+      "occupancy": "4.20%"
     },
     {
       "city": "Mumbai",
@@ -818,6 +818,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "venue": "Miraj Velocity III Indore, Ring Road, Near Radisson Hotel, Ring Road, Indore",
+      "chain": "Miraj",
+      "time": "08:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 200,
+      "available": 200,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "venue": "PVR ICON Pavillion Mall, Shivajinagar, Pune",
+      "chain": "PVR",
+      "time": "07:30 PM",
+      "audi": "AUDI 01",
+      "totalSeats": 233,
+      "available": 233,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Nukkad Naatak [2D | Hindi]": [
@@ -855,10 +881,10 @@
       "time": "08:35 PM",
       "audi": "AUDI 04",
       "totalSeats": 200,
-      "available": 160,
-      "sold": 40,
-      "gross": 12880,
-      "occupancy": "20.00%"
+      "available": 157,
+      "sold": 43,
+      "gross": 13780,
+      "occupancy": "21.50%"
     }
   ],
   "Salaar Part 1 – Ceasefire [2D | Telugu]": [
@@ -870,10 +896,10 @@
       "time": "07:00 PM",
       "audi": "SCREEN 3",
       "totalSeats": 130,
-      "available": 43,
-      "sold": 87,
-      "gross": 15399,
-      "occupancy": "66.92%"
+      "available": 39,
+      "sold": 91,
+      "gross": 16107,
+      "occupancy": "70.00%"
     }
   ],
   "Mana Shankara Varaprasad Garu [2D | Telugu]": [
@@ -983,5 +1009,20 @@
     }
   ],
   "date": "2026-02-28",
-  "lastUpdated": "08:50 AM, 23 February 2026"
+  "lastUpdated": "12:51 PM, 23 February 2026",
+  "Athadu [2D | Telugu]": [
+    {
+      "city": "Rajahmundry",
+      "state": "Andhra Pradesh",
+      "venue": "Apsara Laser RGB 4K Dolby Atmos, Rajahmundry",
+      "chain": "Justickets",
+      "time": "08:00 AM",
+      "audi": "Apsara",
+      "totalSeats": 613,
+      "available": 461,
+      "sold": 152,
+      "gross": 23020,
+      "occupancy": "24.80%"
+    }
+  ]
 }
