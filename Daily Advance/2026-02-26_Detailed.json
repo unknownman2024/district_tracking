@@ -1802,10 +1802,10 @@
       "time": "12:10 PM",
       "audi": "SCREEN 1",
       "totalSeats": 157,
-      "available": 151,
-      "sold": 6,
-      "gross": 1062,
-      "occupancy": "3.82%"
+      "available": 157,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Hyderabad",
@@ -1815,10 +1815,10 @@
       "time": "11:15 AM",
       "audi": "SVC Eeshwar",
       "totalSeats": 842,
-      "available": 492,
-      "sold": 350,
-      "gross": 45200,
-      "occupancy": "41.57%"
+      "available": 790,
+      "sold": 52,
+      "gross": 7800,
+      "occupancy": "6.18%"
     },
     {
       "city": "Hyderabad",
@@ -1828,10 +1828,10 @@
       "time": "06:15 PM",
       "audi": "SVC Eeshwar",
       "totalSeats": 842,
-      "available": 492,
-      "sold": 350,
-      "gross": 45200,
-      "occupancy": "41.57%"
+      "available": 790,
+      "sold": 52,
+      "gross": 7800,
+      "occupancy": "6.18%"
     },
     {
       "city": "Hyderabad",
@@ -1841,10 +1841,10 @@
       "time": "09:15 PM",
       "audi": "SVC Eeshwar",
       "totalSeats": 842,
-      "available": 492,
-      "sold": 350,
-      "gross": 45200,
-      "occupancy": "41.57%"
+      "available": 790,
+      "sold": 52,
+      "gross": 7800,
+      "occupancy": "6.18%"
     },
     {
       "city": "Hyderabad",
@@ -1854,10 +1854,10 @@
       "time": "02:15 PM",
       "audi": "SVC Eeshwar",
       "totalSeats": 842,
-      "available": 492,
-      "sold": 350,
-      "gross": 45200,
-      "occupancy": "41.57%"
+      "available": 790,
+      "sold": 52,
+      "gross": 7800,
+      "occupancy": "6.18%"
     },
     {
       "city": "Hyderabad",
@@ -4298,10 +4298,10 @@
       "time": "09:00 PM",
       "audi": "Geetha Annapurna",
       "totalSeats": 432,
-      "available": 165,
-      "sold": 267,
-      "gross": 12600,
-      "occupancy": "61.81%"
+      "available": 248,
+      "sold": 184,
+      "gross": 4300,
+      "occupancy": "42.59%"
     },
     {
       "city": "Palakol",
@@ -4311,10 +4311,10 @@
       "time": "06:00 PM",
       "audi": "Geetha Annapurna",
       "totalSeats": 432,
-      "available": 165,
-      "sold": 267,
-      "gross": 12600,
-      "occupancy": "61.81%"
+      "available": 248,
+      "sold": 184,
+      "gross": 4300,
+      "occupancy": "42.59%"
     },
     {
       "city": "Palakol",
@@ -4324,10 +4324,10 @@
       "time": "11:00 AM",
       "audi": "Geetha Annapurna",
       "totalSeats": 432,
-      "available": 165,
-      "sold": 267,
-      "gross": 12600,
-      "occupancy": "61.81%"
+      "available": 248,
+      "sold": 184,
+      "gross": 4300,
+      "occupancy": "42.59%"
     },
     {
       "city": "Palakol",
@@ -4337,10 +4337,62 @@
       "time": "02:00 PM",
       "audi": "Geetha Annapurna",
       "totalSeats": 432,
-      "available": 165,
-      "sold": 267,
-      "gross": 12600,
-      "occupancy": "61.81%"
+      "available": 248,
+      "sold": 184,
+      "gross": 4300,
+      "occupancy": "42.59%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "11:30 AM",
+      "audi": "Screen-1",
+      "totalSeats": 455,
+      "available": 423,
+      "sold": 32,
+      "gross": 4800,
+      "occupancy": "7.03%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "09:15 PM",
+      "audi": "Screen-1",
+      "totalSeats": 455,
+      "available": 423,
+      "sold": 32,
+      "gross": 4800,
+      "occupancy": "7.03%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "06:30 PM",
+      "audi": "Screen-1",
+      "totalSeats": 455,
+      "available": 423,
+      "sold": 32,
+      "gross": 4800,
+      "occupancy": "7.03%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "02:20 PM",
+      "audi": "Screen-1",
+      "totalSeats": 455,
+      "available": 423,
+      "sold": 32,
+      "gross": 4800,
+      "occupancy": "7.03%"
     }
   ],
   "Couple Friendly [2D | Telugu]": [
@@ -7177,6 +7229,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "11:20 AM",
+      "audi": "Screen-3",
+      "totalSeats": 70,
+      "available": 70,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "06:35 PM",
+      "audi": "Screen-3",
+      "totalSeats": 70,
+      "available": 70,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Funky [2D | Telugu]": [
@@ -10006,7 +10084,7 @@
       "totalSeats": 144,
       "available": 139,
       "sold": 5,
-      "gross": 800,
+      "gross": 750,
       "occupancy": "3.47%"
     },
     {
@@ -10019,7 +10097,7 @@
       "totalSeats": 144,
       "available": 139,
       "sold": 5,
-      "gross": 800,
+      "gross": 750,
       "occupancy": "3.47%"
     },
     {
@@ -10045,7 +10123,7 @@
       "totalSeats": 150,
       "available": 145,
       "sold": 5,
-      "gross": 800,
+      "gross": 750,
       "occupancy": "3.33%"
     },
     {
@@ -10706,10 +10784,10 @@
       "time": "06:00 PM",
       "audi": "AUDI 04",
       "totalSeats": 196,
-      "available": 190,
-      "sold": 6,
-      "gross": 1440,
-      "occupancy": "3.06%"
+      "available": 188,
+      "sold": 8,
+      "gross": 2440,
+      "occupancy": "4.08%"
     },
     {
       "city": "Bhubaneswar",
@@ -13073,6 +13151,71 @@
       "audi": "SCREEN 4",
       "totalSeats": 134,
       "available": 134,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "04:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 1820,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "11:00 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 1200,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "04:10 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "04:50 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 132,
+      "available": 128,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.03%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "10:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 475,
+      "available": 475,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -17784,7 +17927,7 @@
       "totalSeats": 254,
       "available": 247,
       "sold": 7,
-      "gross": 1120,
+      "gross": 1050,
       "occupancy": "2.76%"
     },
     {
@@ -17797,7 +17940,7 @@
       "totalSeats": 254,
       "available": 247,
       "sold": 7,
-      "gross": 1120,
+      "gross": 1050,
       "occupancy": "2.76%"
     },
     {
@@ -17823,7 +17966,7 @@
       "totalSeats": 254,
       "available": 247,
       "sold": 7,
-      "gross": 1120,
+      "gross": 1050,
       "occupancy": "2.76%"
     },
     {
@@ -17836,7 +17979,7 @@
       "totalSeats": 148,
       "available": 143,
       "sold": 5,
-      "gross": 800,
+      "gross": 750,
       "occupancy": "3.38%"
     },
     {
@@ -18029,10 +18172,10 @@
       "time": "01:55 PM",
       "audi": "SCREEN 1",
       "totalSeats": 198,
-      "available": 190,
-      "sold": 8,
-      "gross": 1200,
-      "occupancy": "4.04%"
+      "available": 192,
+      "sold": 6,
+      "gross": 900,
+      "occupancy": "3.03%"
     },
     {
       "city": "Lucknow",
@@ -19797,10 +19940,10 @@
       "time": "02:45 PM",
       "audi": "SCREEN 7",
       "totalSeats": 257,
-      "available": 251,
-      "sold": 6,
-      "gross": 1200,
-      "occupancy": "2.33%"
+      "available": 249,
+      "sold": 8,
+      "gross": 1600,
+      "occupancy": "3.11%"
     },
     {
       "city": "Noida",
@@ -29326,10 +29469,10 @@
       "time": "12:00 PM",
       "audi": "AUDI-2",
       "totalSeats": 216,
-      "available": 192,
-      "sold": 24,
-      "gross": 4320,
-      "occupancy": "11.11%"
+      "available": 194,
+      "sold": 22,
+      "gross": 3960,
+      "occupancy": "10.19%"
     },
     {
       "city": "Hajipur",
@@ -31237,10 +31380,10 @@
       "time": "10:15 AM",
       "audi": "AUDI 1",
       "totalSeats": 380,
-      "available": 366,
-      "sold": 14,
-      "gross": 2800,
-      "occupancy": "3.68%"
+      "available": 364,
+      "sold": 16,
+      "gross": 3200,
+      "occupancy": "4.21%"
     },
     {
       "city": "Varanasi",
@@ -33967,10 +34110,10 @@
       "time": "01:15 PM",
       "audi": "AUDI 5",
       "totalSeats": 102,
-      "available": 92,
-      "sold": 10,
-      "gross": 1800,
-      "occupancy": "9.80%"
+      "available": 90,
+      "sold": 12,
+      "gross": 2460,
+      "occupancy": "11.76%"
     },
     {
       "city": "Surat",
@@ -34530,6 +34673,461 @@
       "sold": 196,
       "gross": 21600,
       "occupancy": "21.17%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "06:20 PM",
+      "audi": "Audi 1",
+      "totalSeats": 118,
+      "available": 118,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "12:30 PM",
+      "audi": "Audi 3",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "04:00 PM",
+      "audi": "Audi 4",
+      "totalSeats": 109,
+      "available": 109,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "04:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 1680,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "08:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 1680,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "12:50 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 1820,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "10:30 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 218,
+      "available": 197,
+      "sold": 21,
+      "gross": 2100,
+      "occupancy": "9.63%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "09:20 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 2520,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "02:05 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 2520,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "05:45 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 2520,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "11:40 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 1800,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "03:05 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 2520,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "06:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 218,
+      "available": 200,
+      "sold": 18,
+      "gross": 2520,
+      "occupancy": "8.26%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "04:10 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 335,
+      "available": 335,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "07:40 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 296,
+      "available": 296,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "01:00 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 296,
+      "available": 296,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "06:00 PM",
+      "audi": "INSIGNIA 1",
+      "totalSeats": 73,
+      "available": 73,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "11:20 AM",
+      "audi": "INSIGNIA 1",
+      "totalSeats": 73,
+      "available": 73,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "Cinepolis Airia Mall, Sohna Road, Gurugram",
+      "chain": "Cinepolis",
+      "time": "02:25 PM",
+      "audi": "AUDI 7",
+      "totalSeats": 213,
+      "available": 203,
+      "sold": 10,
+      "gross": 2600,
+      "occupancy": "4.69%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "10:30 AM",
+      "audi": "Audi 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "07:25 PM",
+      "audi": "Audi 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "01:40 PM",
+      "audi": "Audi 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "04:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 131,
+      "available": 127,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.05%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "12:20 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 131,
+      "available": 127,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.05%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "10:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 131,
+      "available": 127,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.05%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "INOX Himalaya Mall, Drive In Road, Ahmedabad",
+      "chain": "PVR",
+      "time": "02:55 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 243,
+      "available": 243,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "INOX Himalaya Mall, Drive In Road, Ahmedabad",
+      "chain": "PVR",
+      "time": "11:15 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 243,
+      "available": 243,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Itarsi",
+      "state": "Madhya Pradesh",
+      "venue": "Goldmark Cinemas, Hoshangabad Road, Itarsi",
+      "chain": "Goldmark Cinema",
+      "time": "06:30 PM",
+      "audi": "Audi 2",
+      "totalSeats": 193,
+      "available": 187,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "3.11%"
+    },
+    {
+      "city": "Itarsi",
+      "state": "Madhya Pradesh",
+      "venue": "Goldmark Cinemas, Hoshangabad Road, Itarsi",
+      "chain": "Goldmark Cinema",
+      "time": "03:15 PM",
+      "audi": "Audi 2",
+      "totalSeats": 193,
+      "available": 187,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "3.11%"
+    },
+    {
+      "city": "Itarsi",
+      "state": "Madhya Pradesh",
+      "venue": "Goldmark Cinemas, Hoshangabad Road, Itarsi",
+      "chain": "Goldmark Cinema",
+      "time": "12:00 PM",
+      "audi": "Audi 2",
+      "totalSeats": 193,
+      "available": 187,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "3.11%"
+    },
+    {
+      "city": "Itarsi",
+      "state": "Madhya Pradesh",
+      "venue": "Goldmark Cinemas, Hoshangabad Road, Itarsi",
+      "chain": "Goldmark Cinema",
+      "time": "09:45 PM",
+      "audi": "Audi 2",
+      "totalSeats": 193,
+      "available": 187,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "3.11%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 268,
+      "available": 268,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "05:50 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 268,
+      "available": 268,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "02:10 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 268,
+      "available": 268,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Gold Cinema Sona, Borivali (E), Mumbai",
+      "chain": "Gold",
+      "time": "12:30 PM",
+      "audi": "Sona Cinema",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Master Mind [2D | Gujarati]": [
@@ -40555,6 +41153,45 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "07:30 PM",
+      "audi": "Audi 4",
+      "totalSeats": 109,
+      "available": 109,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "10:00 AM",
+      "audi": "Audi 4",
+      "totalSeats": 109,
+      "available": 109,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "09:50 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 131,
+      "available": 127,
+      "sold": 4,
+      "gross": 840,
+      "occupancy": "3.05%"
     }
   ],
   "Lagan Laagii Re [2D | Gujarati]": [
@@ -42520,7 +43157,7 @@
       "totalSeats": 148,
       "available": 143,
       "sold": 5,
-      "gross": 800,
+      "gross": 750,
       "occupancy": "3.38%"
     },
     {
@@ -42533,7 +43170,7 @@
       "totalSeats": 150,
       "available": 145,
       "sold": 5,
-      "gross": 800,
+      "gross": 750,
       "occupancy": "3.33%"
     },
     {
@@ -43142,10 +43779,10 @@
       "time": "05:55 PM",
       "audi": "AUDI1",
       "totalSeats": 171,
-      "available": 163,
-      "sold": 8,
-      "gross": 1600,
-      "occupancy": "4.68%"
+      "available": 165,
+      "sold": 6,
+      "gross": 1200,
+      "occupancy": "3.51%"
     },
     {
       "city": "Bhopal",
@@ -46123,6 +46760,97 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "06:30 PM",
+      "audi": "Audi 3",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "09:45 PM",
+      "audi": "Audi 4",
+      "totalSeats": 109,
+      "available": 109,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "12:15 PM",
+      "audi": "Audi 4",
+      "totalSeats": 109,
+      "available": 109,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "12:10 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "03:40 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 131,
+      "available": 127,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.05%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "12:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 289,
+      "available": 289,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "06:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 475,
+      "available": 475,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Assi [2D | Hindi]": [
@@ -47085,7 +47813,7 @@
       "totalSeats": 235,
       "available": 228,
       "sold": 7,
-      "gross": 1120,
+      "gross": 1050,
       "occupancy": "2.98%"
     },
     {
@@ -47098,7 +47826,7 @@
       "totalSeats": 235,
       "available": 228,
       "sold": 7,
-      "gross": 1120,
+      "gross": 1050,
       "occupancy": "2.98%"
     },
     {
@@ -47111,7 +47839,7 @@
       "totalSeats": 235,
       "available": 228,
       "sold": 7,
-      "gross": 1120,
+      "gross": 1050,
       "occupancy": "2.98%"
     },
     {
@@ -55433,6 +56161,175 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "10:05 AM",
+      "audi": "Audi 1",
+      "totalSeats": 118,
+      "available": 118,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "03:35 PM",
+      "audi": "Audi 1",
+      "totalSeats": 118,
+      "available": 118,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "09:35 PM",
+      "audi": "Audi 1",
+      "totalSeats": 118,
+      "available": 118,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "02:55 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1400,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "07:20 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 1820,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "12:00 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1000,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "07:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 192,
+      "available": 192,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "03:45 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "12:50 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "12:25 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 475,
+      "available": 475,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "03:20 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 475,
+      "available": 475,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Gold Cinema Sona, Borivali (E), Mumbai",
+      "chain": "Gold",
+      "time": "10:00 PM",
+      "audi": "Sona Cinema",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Gold Cinema Sona, Borivali (E), Mumbai",
+      "chain": "Gold",
+      "time": "04:00 PM",
+      "audi": "Sona Cinema",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Do Deewane Seher Mein [2D | Hindi]": [
@@ -55482,11 +56379,11 @@
       "chain": "Apple Multiplex, Gota",
       "time": "11:45 AM",
       "audi": "Screen 4",
-      "totalSeats": 300,
-      "available": 300,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "totalSeats": 122,
+      "available": 112,
+      "sold": 10,
+      "gross": 1000,
+      "occupancy": "8.20%"
     },
     {
       "city": "Ahmedabad",
@@ -56057,7 +56954,7 @@
       "totalSeats": 144,
       "available": 139,
       "sold": 5,
-      "gross": 800,
+      "gross": 750,
       "occupancy": "3.47%"
     },
     {
@@ -56536,10 +57433,10 @@
       "time": "12:15 PM",
       "audi": "AUDI2",
       "totalSeats": 248,
-      "available": 243,
-      "sold": 5,
-      "gross": 750,
-      "occupancy": "2.02%"
+      "available": 241,
+      "sold": 7,
+      "gross": 1050,
+      "occupancy": "2.82%"
     },
     {
       "city": "Ahmedabad",
@@ -57017,10 +57914,10 @@
       "time": "02:30 PM",
       "audi": "AUDI6",
       "totalSeats": 262,
-      "available": 252,
-      "sold": 10,
-      "gross": 2840,
-      "occupancy": "3.82%"
+      "available": 254,
+      "sold": 8,
+      "gross": 2320,
+      "occupancy": "3.05%"
     },
     {
       "city": "Noida",
@@ -62388,7 +63285,7 @@
       "totalSeats": 206,
       "available": 198,
       "sold": 8,
-      "gross": 1920,
+      "gross": 2500,
       "occupancy": "3.88%"
     },
     {
@@ -62494,6 +63391,214 @@
       "sold": 196,
       "gross": 21600,
       "occupancy": "21.17%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "12:50 PM",
+      "audi": "Audi 1",
+      "totalSeats": 118,
+      "available": 118,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "10:15 PM",
+      "audi": "Audi 3",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "03:45 PM",
+      "audi": "Audi 3",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Gold Cinema Ashok Cosmos Mall, Sanjay Place, Agra",
+      "chain": "Gold",
+      "time": "09:45 AM",
+      "audi": "Audi 3",
+      "totalSeats": 150,
+      "available": 150,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "05:50 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1400,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "08:50 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 124,
+      "available": 114,
+      "sold": 10,
+      "gross": 1400,
+      "occupancy": "8.06%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "01:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 145,
+      "available": 133,
+      "sold": 12,
+      "gross": 1680,
+      "occupancy": "8.28%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "07:50 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 335,
+      "available": 335,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "01:10 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 335,
+      "available": 335,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "04:40 PM",
+      "audi": "SCREEN 5",
+      "totalSeats": 296,
+      "available": 296,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "03:00 PM",
+      "audi": "INSIGNIA 1",
+      "totalSeats": 73,
+      "available": 73,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "Cinepolis Airia Mall, Sohna Road, Gurugram",
+      "chain": "Cinepolis",
+      "time": "11:25 AM",
+      "audi": "AUDI 7",
+      "totalSeats": 213,
+      "available": 203,
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "4.69%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "03:30 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 111,
+      "available": 111,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "12:30 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 111,
+      "available": 111,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "10:05 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 289,
+      "available": 289,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "04:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 289,
+      "available": 289,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Vadh 2 [2D | Hindi]": [
@@ -67187,10 +68292,10 @@
       "time": "10:00 AM",
       "audi": "AUDI 03",
       "totalSeats": 215,
-      "available": 215,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 210,
+      "sold": 5,
+      "gross": 900,
+      "occupancy": "2.33%"
     },
     {
       "city": "Khanna",
@@ -70709,11 +71814,11 @@
       "chain": "Cinepolis",
       "time": "11:00 AM",
       "audi": "AUDI 1",
-      "totalSeats": 260,
+      "totalSeats": 259,
       "available": 249,
-      "sold": 11,
-      "gross": 2130,
-      "occupancy": "4.23%"
+      "sold": 10,
+      "gross": 1800,
+      "occupancy": "3.86%"
     },
     {
       "city": "Amritsar",
@@ -70722,11 +71827,11 @@
       "chain": "Cinepolis",
       "time": "06:00 PM",
       "audi": "AUDI 1",
-      "totalSeats": 260,
+      "totalSeats": 259,
       "available": 249,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "4.23%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "3.86%"
     },
     {
       "city": "Amritsar",
@@ -70735,11 +71840,11 @@
       "chain": "Cinepolis",
       "time": "03:30 PM",
       "audi": "AUDI 2",
-      "totalSeats": 332,
+      "totalSeats": 331,
       "available": 321,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "3.31%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "3.02%"
     },
     {
       "city": "Amritsar",
@@ -70761,11 +71866,11 @@
       "chain": "Cinepolis",
       "time": "12:00 PM",
       "audi": "AUDI 2",
-      "totalSeats": 332,
+      "totalSeats": 331,
       "available": 321,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "3.31%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "3.02%"
     },
     {
       "city": "Amritsar",
@@ -70787,11 +71892,11 @@
       "chain": "Cinepolis",
       "time": "07:00 PM",
       "audi": "AUDI 2",
-      "totalSeats": 332,
+      "totalSeats": 331,
       "available": 321,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "3.31%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "3.02%"
     },
     {
       "city": "Amritsar",
@@ -70800,11 +71905,11 @@
       "chain": "Cinepolis",
       "time": "04:30 PM",
       "audi": "AUDI 3",
-      "totalSeats": 217,
+      "totalSeats": 216,
       "available": 206,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "5.07%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "4.63%"
     },
     {
       "city": "Amritsar",
@@ -70813,11 +71918,11 @@
       "chain": "Cinepolis",
       "time": "11:30 PM",
       "audi": "AUDI 3",
-      "totalSeats": 217,
+      "totalSeats": 216,
       "available": 206,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "5.07%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "4.63%"
     },
     {
       "city": "Amritsar",
@@ -70826,11 +71931,11 @@
       "chain": "Cinepolis",
       "time": "09:35 PM",
       "audi": "AUDI 1",
-      "totalSeats": 260,
+      "totalSeats": 259,
       "available": 249,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "4.23%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "3.86%"
     },
     {
       "city": "Amritsar",
@@ -70852,11 +71957,11 @@
       "chain": "Cinepolis",
       "time": "02:30 PM",
       "audi": "AUDI 1",
-      "totalSeats": 260,
+      "totalSeats": 259,
       "available": 249,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "4.23%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "3.86%"
     },
     {
       "city": "Amritsar",
@@ -70865,11 +71970,11 @@
       "chain": "Cinepolis",
       "time": "08:00 PM",
       "audi": "AUDI 3",
-      "totalSeats": 217,
+      "totalSeats": 216,
       "available": 206,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "5.07%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "4.63%"
     },
     {
       "city": "Amritsar",
@@ -70878,11 +71983,11 @@
       "chain": "Cinepolis",
       "time": "10:45 PM",
       "audi": "AUDI 2",
-      "totalSeats": 332,
+      "totalSeats": 331,
       "available": 321,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "3.31%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "3.02%"
     },
     {
       "city": "Amritsar",
@@ -70891,11 +71996,11 @@
       "chain": "Cinepolis",
       "time": "01:00 PM",
       "audi": "AUDI 3",
-      "totalSeats": 217,
+      "totalSeats": 216,
       "available": 206,
-      "sold": 11,
-      "gross": 2350,
-      "occupancy": "5.07%"
+      "sold": 10,
+      "gross": 2000,
+      "occupancy": "4.63%"
     },
     {
       "city": "Jalandhar",
@@ -70958,6 +72063,97 @@
       "audi": "AUDI 2",
       "totalSeats": 116,
       "available": 116,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "INOX Omaxe Connaught Place Mall, Greater Noida",
+      "chain": "PVR",
+      "time": "06:40 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "10:00 AM",
+      "audi": "Audi 01",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "10:20 PM",
+      "audi": "Audi 01",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "04:10 PM",
+      "audi": "Audi 01",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "01:05 PM",
+      "audi": "Audi 01",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "07:15 PM",
+      "audi": "Audi 01",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "10:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 127,
+      "available": 127,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -80943,6 +82139,19 @@
       "sold": 6,
       "gross": 600,
       "occupancy": "2.76%"
+    },
+    {
+      "city": "Tuticorin",
+      "state": "Tamil Nadu",
+      "venue": "Sri Balakrishna Talkies 4K Dolby Atmos, Thoothukudi, Tuticorin",
+      "chain": "Sri Balakrishna Talkies",
+      "time": "11:15 AM",
+      "audi": "TANI",
+      "totalSeats": 207,
+      "available": 197,
+      "sold": 10,
+      "gross": 1500,
+      "occupancy": "4.83%"
     }
   ],
   "Jockey [2D | Tamil]": [
@@ -81376,6 +82585,19 @@
       "sold": 552,
       "gross": 68670,
       "occupancy": "87.62%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "Vaibhav Digital 4K Dolby 7.1, SanjayNagar, Bengaluru",
+      "chain": "TicketNew",
+      "time": "09:30 PM",
+      "audi": "Vaibhav",
+      "totalSeats": 964,
+      "available": 129,
+      "sold": 835,
+      "gross": 109800,
+      "occupancy": "86.62%"
     }
   ],
   "Sarala Subbarao [2D | Kannada]": [
@@ -82199,6 +83421,19 @@
       "sold": 552,
       "gross": 68670,
       "occupancy": "87.62%"
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "venue": "Vaibhav Digital 4K Dolby 7.1, SanjayNagar, Bengaluru",
+      "chain": "TicketNew",
+      "time": "07:00 PM",
+      "audi": "Vaibhav",
+      "totalSeats": 964,
+      "available": 129,
+      "sold": 835,
+      "gross": 109800,
+      "occupancy": "86.62%"
     }
   ],
   "Alpha Men Love Vengeance [2D | Kannada]": [
@@ -83076,6 +84311,32 @@
       "sold": -20,
       "gross": -10640,
       "occupancy": "-15.63%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "09:20 PM",
+      "audi": "Screen-3",
+      "totalSeats": 70,
+      "available": 70,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "02:30 PM",
+      "audi": "Screen-3",
+      "totalSeats": 70,
+      "available": 70,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Couple Friendly [2D | Tamil]": [
@@ -83423,6 +84684,32 @@
       "venue": "Sri Balakrishna Talkies 4K Dolby Atmos, Thoothukudi, Tuticorin",
       "chain": "Sri Balakrishna Talkies",
       "time": "11:15 AM",
+      "audi": "TANI",
+      "totalSeats": 207,
+      "available": 197,
+      "sold": 10,
+      "gross": 1500,
+      "occupancy": "4.83%"
+    },
+    {
+      "city": "Tuticorin",
+      "state": "Tamil Nadu",
+      "venue": "Sri Balakrishna Talkies 4K Dolby Atmos, Thoothukudi, Tuticorin",
+      "chain": "Sri Balakrishna Talkies",
+      "time": "10:45 PM",
+      "audi": "TANI",
+      "totalSeats": 207,
+      "available": 197,
+      "sold": 10,
+      "gross": 1500,
+      "occupancy": "4.83%"
+    },
+    {
+      "city": "Tuticorin",
+      "state": "Tamil Nadu",
+      "venue": "Sri Balakrishna Talkies 4K Dolby Atmos, Thoothukudi, Tuticorin",
+      "chain": "Sri Balakrishna Talkies",
+      "time": "02:45 PM",
       "audi": "TANI",
       "totalSeats": 207,
       "available": 197,
@@ -85326,6 +86613,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "07:40 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 131,
+      "available": 127,
+      "sold": 4,
+      "gross": 1200,
+      "occupancy": "3.05%"
     }
   ],
   "The Raja Saab [2D | Telugu]": [
@@ -85698,6 +86998,45 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Mukkam",
+      "state": "Kerala",
+      "venue": "ARC Abhilash Cinemas 4K, Mukkam",
+      "chain": "Abhilash Cinemas 4K",
+      "time": "02:45 PM",
+      "audi": "ABHILASH 4K",
+      "totalSeats": 388,
+      "available": 362,
+      "sold": 26,
+      "gross": 3374.8,
+      "occupancy": "6.70%"
+    },
+    {
+      "city": "Mukkam",
+      "state": "Kerala",
+      "venue": "ARC Abhilash Cinemas 4K, Mukkam",
+      "chain": "Abhilash Cinemas 4K",
+      "time": "09:00 PM",
+      "audi": "ABHILASH 4K",
+      "totalSeats": 388,
+      "available": 362,
+      "sold": 26,
+      "gross": 3374.8,
+      "occupancy": "6.70%"
+    },
+    {
+      "city": "Mukkam",
+      "state": "Kerala",
+      "venue": "ARC Abhilash Cinemas 4K, Mukkam",
+      "chain": "Abhilash Cinemas 4K",
+      "time": "11:45 AM",
+      "audi": "ABHILASH 4K",
+      "totalSeats": 388,
+      "available": 362,
+      "sold": 26,
+      "gross": 3374.8,
+      "occupancy": "6.70%"
     }
   ],
   "Sri Jagannatha Dasaru: Part 2 [2D | Kannada]": [
@@ -87944,11 +89283,24 @@
       "chain": "Cinepolis",
       "time": "10:10 AM",
       "audi": "AUDI 3",
-      "totalSeats": 217,
+      "totalSeats": 216,
       "available": 206,
-      "sold": 11,
-      "gross": 1169,
-      "occupancy": "5.07%"
+      "sold": 10,
+      "gross": 920,
+      "occupancy": "4.63%"
+    },
+    {
+      "city": "Kashipur",
+      "state": "Uttarakhand",
+      "venue": "Suncity Cinemas, Priya Plaza Mall, Kashipur",
+      "chain": "Suncity Cinema",
+      "time": "05:00 PM",
+      "audi": "Audi 02",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Hoga Kya Ab [2D | Hindi]": [
@@ -89096,6 +90448,32 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "venue": "Cinepolis The Grand Venice Mall, Near Pari Chowk, Greater Noida",
+      "chain": "Cinepolis",
+      "time": "10:40 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 140,
+      "available": 127,
+      "sold": 13,
+      "gross": 1690,
+      "occupancy": "9.29%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "09:55 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Uyirullavarai Usha [2D | Tamil]": [
@@ -89680,6 +91058,19 @@
       "sold": 6,
       "gross": 900,
       "occupancy": "3.47%"
+    },
+    {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "venue": "Gold Cinema Sona, Borivali (E), Mumbai",
+      "chain": "Gold",
+      "time": "07:00 PM",
+      "audi": "Sona Cinema",
+      "totalSeats": 259,
+      "available": 259,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Handa [2D | Chhattisgarhi]": [
@@ -90351,6 +91742,58 @@
       "sold": -72,
       "gross": -10800,
       "occupancy": "-360.00%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "11:30 AM",
+      "audi": "Screen-2",
+      "totalSeats": 244,
+      "available": 222,
+      "sold": 22,
+      "gross": 3300,
+      "occupancy": "9.02%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "02:15 PM",
+      "audi": "Screen-2",
+      "totalSeats": 244,
+      "available": 222,
+      "sold": 22,
+      "gross": 3300,
+      "occupancy": "9.02%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "09:30 PM",
+      "audi": "Screen-2",
+      "totalSeats": 244,
+      "available": 222,
+      "sold": 22,
+      "gross": 3300,
+      "occupancy": "9.02%"
+    },
+    {
+      "city": "Mancherial",
+      "state": "Telangana",
+      "venue": "SVC Cinemas Gemini, Bellampally Road, Mancherial",
+      "chain": "SVC Sangeetha",
+      "time": "06:30 PM",
+      "audi": "Screen-2",
+      "totalSeats": 244,
+      "available": 222,
+      "sold": 22,
+      "gross": 3300,
+      "occupancy": "9.02%"
     }
   ],
   "With Love [2D | Telugu]": [
@@ -91342,7 +92785,7 @@
     }
   ],
   "date": "2026-02-26",
-  "lastUpdated": "02:40 PM, 23 February 2026",
+  "lastUpdated": "03:45 PM, 23 February 2026",
   "Billa [2D | Tamil]": [
     {
       "city": "Bengaluru",
@@ -91895,6 +93338,19 @@
       "sold": 10,
       "gross": 2600,
       "occupancy": "8.55%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "07:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 127,
+      "available": 127,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Tu Yaa Main [2D | Hindi]": [
@@ -93180,10 +94636,10 @@
       "time": "05:45 PM",
       "audi": "AUDI 10",
       "totalSeats": 217,
-      "available": 209,
-      "sold": 8,
-      "gross": 2160,
-      "occupancy": "3.69%"
+      "available": 211,
+      "sold": 6,
+      "gross": 1680,
+      "occupancy": "2.76%"
     },
     {
       "city": "Vadodara",
@@ -93194,6 +94650,97 @@
       "audi": "SCREEN 5",
       "totalSeats": 143,
       "available": 143,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "01:45 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 132,
+      "available": 128,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.03%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "10:40 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 132,
+      "available": 128,
+      "sold": 4,
+      "gross": 840,
+      "occupancy": "3.03%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "07:40 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 132,
+      "available": 128,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.03%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "10:45 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 132,
+      "available": 128,
+      "sold": 4,
+      "gross": 1040,
+      "occupancy": "3.03%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "INOX Himalaya Mall, Drive In Road, Ahmedabad",
+      "chain": "PVR",
+      "time": "11:30 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 243,
+      "available": 243,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "11:05 AM",
+      "audi": "SCREEN 4",
+      "totalSeats": 268,
+      "available": 268,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "07:00 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 289,
+      "available": 289,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -94678,6 +96225,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "12:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 131,
+      "available": 127,
+      "sold": 4,
+      "gross": 596,
+      "occupancy": "3.05%"
     }
   ],
   "Marmakaadu [2D | Tamil]": [
@@ -95208,11 +96768,11 @@
       "chain": "PVR",
       "time": "06:50 PM",
       "audi": "SCREEN 2",
-      "totalSeats": 219,
-      "available": 195,
-      "sold": 24,
-      "gross": 4800,
-      "occupancy": "10.96%"
+      "totalSeats": 206,
+      "available": 206,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Pune",
@@ -95249,6 +96809,58 @@
       "audi": "AUDI 04",
       "totalSeats": 232,
       "available": 232,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Thane",
+      "state": "Maharashtra",
+      "venue": "INOX Korum Mall, Mangal Pandey Road, Thane (W)",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 190,
+      "available": 190,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "PVR Elan Miracle, Sec 84, Gurugram",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "SCREEN 6",
+      "totalSeats": 111,
+      "available": 111,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "venue": "INOX Himalaya Mall, Drive In Road, Ahmedabad",
+      "chain": "PVR",
+      "time": "06:35 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 243,
+      "available": 243,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "venue": "INOX Race Course Circle, Ellora Park, Vadodara",
+      "chain": "PVR",
+      "time": "06:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 199,
+      "available": 199,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
