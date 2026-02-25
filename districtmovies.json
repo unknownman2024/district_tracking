@@ -88,17 +88,6 @@
     "cityCount": 20
   },
   {
-    "movie": "Goat",
-    "language": "English",
-    "movieCode": "uOpaN9bdBZ",
-    "id": 204019,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a.jpeg",
-    "city": "Amritsar, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
-    "cityCount": 18
-  },
-  {
     "movie": "Wuthering Heights",
     "language": "English",
     "movieCode": "Cg_Cs18HnB",
@@ -106,7 +95,18 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/WUTH_Intl-Alt_MAIN_BUILD_sRGB_W06-poster-546050d0-033e-11f1-a569-79ee780842a6.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Nagpur, Visakhapatnam",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Nagpur, Patna, Visakhapatnam",
+    "cityCount": 18
+  },
+  {
+    "movie": "Goat",
+    "language": "English",
+    "movieCode": "uOpaN9bdBZ",
+    "id": 204019,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a.jpeg",
+    "city": "Amritsar, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nashik, Visakhapatnam",
     "cityCount": 17
   },
   {
@@ -151,6 +151,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat",
+    "cityCount": 14
+  },
+  {
+    "movie": "Scream 7",
+    "language": "English",
+    "movieCode": "B9YmNXi_lm",
+    "id": 187299,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Scream-7_Poster-c5808660-fc16-11f0-bdd6-b9bab24e34fc.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Madurai, Mumbai, Surat, Visakhapatnam",
     "cityCount": 14
   },
   {
@@ -264,13 +275,24 @@
     "cityCount": 11
   },
   {
+    "movie": "EPiC: Elvis Presley in Concert",
+    "language": "English",
+    "movieCode": "Vs0bwVzWZU",
+    "id": 213096,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Epic-5cdb94f0-0bd5-11f1-9580-910c54bc4155.jpeg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Kochi, Kolkata, Mumbai, Surat",
+    "cityCount": 10
+  },
+  {
     "movie": "ICC Men's T20 Cricket World Cup 2026: India Vs Zimbabwe",
     "language": "Hindi",
     "movieCode": "PFX6froP32h",
     "id": 215617,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/worlscup-3a1ae590-0dbc-11f1-ae60-c5940a646084.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/ind-vs-zim-d67a65d0-122d-11f1-ac2c-a1523062cc6a.jpg",
     "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Nashik, Patna, Surat",
     "cityCount": 10
   },
@@ -286,17 +308,6 @@
     "cityCount": 9
   },
   {
-    "movie": "EPiC: Elvis Presley in Concert",
-    "language": "English",
-    "movieCode": "Vs0bwVzWZU",
-    "id": 213096,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Epic-5cdb94f0-0bd5-11f1-9580-910c54bc4155.jpeg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Kochi, Kolkata, Mumbai, Surat",
-    "cityCount": 9
-  },
-  {
     "movie": "Maharani",
     "language": "Gujarati",
     "movieCode": "Xl~talm_4l",
@@ -305,17 +316,6 @@
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Maharani-c27600a0-5732-11f0-b03a-f9f12779d145.jpg",
     "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Nagpur, Nashik, Surat",
-    "cityCount": 9
-  },
-  {
-    "movie": "Scream 7",
-    "language": "English",
-    "movieCode": "B9YmNXi_lm",
-    "id": 187299,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Scream-7_Poster-c5808660-fc16-11f0-bdd6-b9bab24e34fc.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Visakhapatnam",
     "cityCount": 9
   },
   {
@@ -385,15 +385,37 @@
     "cityCount": 8
   },
   {
-    "movie": "Zootopia 2",
-    "language": "English",
-    "movieCode": "6iHdnxzpw_",
-    "id": 177299,
+    "movie": "Tere Naam",
+    "language": "Hindi",
+    "movieCode": "ZGQcKAspfa",
+    "id": 215693,
     "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Zootopia-2--9aa43c80-c91b-11f0-93e8-ff3c1daa03c7.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kochi, Mumbai",
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tere-Naam_Poster-9c242290-0fe4-11f1-9273-0f625e93254f.jpg",
+    "city": "Ahmedabad, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Surat",
     "cityCount": 8
+  },
+  {
+    "movie": "Vishnu Vinyasam",
+    "language": "Telugu",
+    "movieCode": "AMDU6tsqVP",
+    "id": 215550,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Vishnu-Vinyasam--Main-Poster-beae2450-0cba-11f1-9131-e933d8c08fec-8789f030-109d-11f1-8f1d-97b5121f4c4d.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Guntur, Hyderabad, Madurai, Visakhapatnam",
+    "cityCount": 8
+  },
+  {
+    "movie": "Goat",
+    "language": "Hindi",
+    "movieCode": "EOMrltlcSo",
+    "id": 204019,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a-b1b75710-0b5e-11f1-9fe0-89503caae6ad.jpeg",
+    "city": "Ahmedabad, Bhopal, Bhubaneswar, Delhi/NCR, Gandhinagar, Nagpur, Surat",
+    "cityCount": 7
   },
   {
     "movie": "Hey Balwanth",
@@ -404,6 +426,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hey-Balwanth-d29aa490-0c90-11f1-b6b6-cfb45a924976.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 7
+  },
+  {
+    "movie": "Nukkad Naatak",
+    "language": "Hindi",
+    "movieCode": "R16T7~mVEC",
+    "id": 214558,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nukkad-Naatak--6ba4ca40-0196-11f1-9a56-b347a882795d-19c8b000-0430-11f1-85d9-f183e8139dc4.jpg",
+    "city": "Ahmedabad, Bhopal, Delhi/NCR, Gandhinagar, Kota, Mumbai, Surat",
     "cityCount": 7
   },
   {
@@ -448,6 +481,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(5)-1d10b910-f78d-11f0-91f6-e3b1d7b4fde4.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi, Madurai, Mumbai",
+    "cityCount": 7
+  },
+  {
+    "movie": "Zootopia 2",
+    "language": "English",
+    "movieCode": "6iHdnxzpw_",
+    "id": 177299,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Zootopia-2--9aa43c80-c91b-11f0-93e8-ff3c1daa03c7.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Kochi, Mumbai",
     "cityCount": 7
   },
   {
@@ -506,25 +550,14 @@
     "cityCount": 6
   },
   {
-    "movie": "Goat",
-    "language": "Hindi",
-    "movieCode": "EOMrltlcSo",
-    "id": 204019,
+    "movie": "JUJUTSU KAISEN: Shibuya Incident x The Culling Game",
+    "language": "Japanese",
+    "movieCode": "xWtwgp5JA8",
+    "id": 215506,
     "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a-b1b75710-0b5e-11f1-9fe0-89503caae6ad.jpeg",
-    "city": "Ahmedabad, Bhopal, Delhi/NCR, Gandhinagar, Nagpur, Surat",
-    "cityCount": 6
-  },
-  {
-    "movie": "ICC Men's T20 Cricket World Cup 2026: New Zealand vs Sri Lanka",
-    "language": "Hindi",
-    "movieCode": "XW7tQPTSL4u",
-    "id": 215623,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/worlscup-633de710-0dbc-11f1-99ab-45fb55c84ebd.jpg",
-    "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Mumbai, Surat",
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/JUJUTSU-KAISEN_Poster-ea212e20-0cab-11f1-8e64-93ea08b1d6c6-252e2650-0cc8-11f1-aff3-519a322748df.jpg",
+    "city": "Chennai, Coimbatore, Kochi, Kolkata, Madurai, Mumbai",
     "cityCount": 6
   },
   {
@@ -539,14 +572,14 @@
     "cityCount": 6
   },
   {
-    "movie": "Tere Naam",
-    "language": "Hindi",
-    "movieCode": "ZGQcKAspfa",
-    "id": 215693,
+    "movie": "Son Of",
+    "language": "Telugu",
+    "movieCode": "wL3ZxUBQ7n",
+    "id": 215807,
     "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tere-Naam_Poster-9c242290-0fe4-11f1-9273-0f625e93254f.jpg",
-    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Surat",
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/SON-OF_Poster-e5549210-1165-11f1-b577-770e0f3cec90.jpg",
+    "city": "Chennai, Coimbatore, Guntur, Hyderabad, Madurai, Visakhapatnam",
     "cityCount": 6
   },
   {
@@ -627,17 +660,6 @@
     "cityCount": 5
   },
   {
-    "movie": "JUJUTSU KAISEN: Shibuya Incident x The Culling Game",
-    "language": "Japanese",
-    "movieCode": "99aS~Z10Q6",
-    "id": 215506,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/JUJUTSU-KAISEN_Poster-ea212e20-0cab-11f1-8e64-93ea08b1d6c6-252e2650-0cc8-11f1-aff3-519a322748df-b006e020-10bd-11f1-9dc7-233f42960e8c.jpg",
-    "city": "Ahmedabad, Chennai, Coimbatore, Gandhinagar, Mumbai",
-    "cityCount": 5
-  },
-  {
     "movie": "Mahashivratri 2026: A Night with the Divine (Live Screening)",
     "language": "Hindi",
     "movieCode": "Jl31AXBPH_",
@@ -682,14 +704,14 @@
     "cityCount": 5
   },
   {
-    "movie": "Son Of",
-    "language": "Telugu",
-    "movieCode": "wL3ZxUBQ7n",
-    "id": 215807,
+    "movie": "Theri",
+    "language": "Tamil",
+    "movieCode": "gfY57WDfur",
+    "id": 154631,
     "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/SON-OF_Poster-e5549210-1165-11f1-b577-770e0f3cec90.jpg",
-    "city": "Chennai, Coimbatore, Guntur, Hyderabad, Visakhapatnam",
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Theri--cd3c5a30-f169-11f0-b4f1-83a2adee968d-69b17490-10d2-11f1-9dc7-233f42960e8c.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi",
     "cityCount": 5
   },
   {
@@ -701,17 +723,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Vadh%202-8ef1e420-01bd-11f1-9a56-b347a882795d.jpg",
     "city": "Bangalore, Bengaluru, Delhi/NCR, Kolkata, Mumbai",
-    "cityCount": 5
-  },
-  {
-    "movie": "Vishnu Vinyasam",
-    "language": "Telugu",
-    "movieCode": "AMDU6tsqVP",
-    "id": 215550,
-    "runtime": 134,
-    "rating": "TBA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Vishnu-Vinyasam--Main-Poster-beae2450-0cba-11f1-9131-e933d8c08fec-8789f030-109d-11f1-8f1d-97b5121f4c4d.jpg",
-    "city": "Chennai, Coimbatore, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 5
   },
   {
@@ -778,17 +789,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/NISHAANCHI-e05a2b60-9ab1-11f0-be0a-8909774f1565.jpg",
     "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Surat",
-    "cityCount": 4
-  },
-  {
-    "movie": "Nukkad Naatak",
-    "language": "Hindi",
-    "movieCode": "R16T7~mVEC",
-    "id": 214558,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Nukkad-Naatak--6ba4ca40-0196-11f1-9a56-b347a882795d-19c8b000-0430-11f1-85d9-f183e8139dc4.jpg",
-    "city": "Bhopal, Delhi/NCR, Kota, Mumbai",
     "cityCount": 4
   },
   {
@@ -877,6 +877,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/28-Years_Poster-35db3670-f128-11f0-bf66-2baf207d5f0f.jpg",
     "city": "Amritsar, Delhi/NCR, Patna",
+    "cityCount": 3
+  },
+  {
+    "movie": "Aazhi",
+    "language": "Tamil",
+    "movieCode": "kpgwuaSYxd",
+    "id": 213703,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Aazhi_Poster-0a9baa30-0efb-11f1-8179-b9416814cd04-d27d6810-1200-11f1-bc0f-4d06f04e42af.jpg",
+    "city": "Chennai, Coimbatore, Madurai",
     "cityCount": 3
   },
   {
@@ -1150,7 +1161,7 @@
     "id": 215617,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/worlscup-29fee760-0dbc-11f1-8a6a-932ffad1ae62.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/ind-vs-zim-c902d3b0-122d-11f1-8557-051ea5623ca4.jpg",
     "city": "Guntur, Kochi, Visakhapatnam",
     "cityCount": 3
   },
@@ -1636,17 +1647,6 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Aata-Kadara-Siva_Poster-d7cb4d70-bef7-11f0-9ece-9d8ae8c63ae0.jpg",
     "city": "Hyderabad, Visakhapatnam",
-    "cityCount": 2
-  },
-  {
-    "movie": "Aazhi",
-    "language": "Tamil",
-    "movieCode": "kpgwuaSYxd",
-    "id": 213703,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Aazhi_Poster-0a9baa30-0efb-11f1-8179-b9416814cd04-d27d6810-1200-11f1-bc0f-4d06f04e42af.jpg",
-    "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
   {
@@ -9102,7 +9102,7 @@
     "id": 159985,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/jab-we-met1-238109d0-fb1c-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jab-we-met2-3e3d5e40-fb1c-11ef-8434-f9ed39b3241b.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
@@ -14967,6 +14967,17 @@
     "cityCount": 5
   },
   {
+    "movie": "Viyaah Kartaare Da",
+    "language": "Punjabi",
+    "movieCode": "c8QkFdl1L1",
+    "id": 206369,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Viyaah-Kartaare-Da-6f8017a0-1208-11f1-ac23-4d2a8cbf9688.jpg",
+    "city": "Amritsar, Chandigarh, Chennai, Delhi/NCR, Mumbai",
+    "cityCount": 5
+  },
+  {
     "movie": "Band Baaja Baaraat",
     "language": "Hindi",
     "movieCode": "k3O4WoVs4",
@@ -15011,15 +15022,37 @@
     "cityCount": 4
   },
   {
-    "movie": "Theri",
+    "movie": "Masthishka Maranam",
+    "language": "Malayalam",
+    "movieCode": "6WajuVG0vtJ",
+    "id": 215096,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Masthishka-Maranam_Poster-78254540-0b25-11f1-a07e-23c6418916e6.jpg",
+    "city": "Chennai, Coimbatore, Kochi, Madurai",
+    "cityCount": 4
+  },
+  {
+    "movie": "Fourth Floor",
     "language": "Tamil",
-    "movieCode": "gfY57WDfur",
-    "id": 154631,
+    "movieCode": "04AR8O8ChA",
+    "id": 215069,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/FOURTH-fcf5f8f0-0d96-11f1-b554-073c41babb89.jpg",
+    "city": "Chennai, Coimbatore, Madurai",
+    "cityCount": 3
+  },
+  {
+    "movie": "Ka Kha Ga Gha",
+    "language": "Gujarati",
+    "movieCode": "qnEtS8vUrT",
+    "id": 215008,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Theri--cd3c5a30-f169-11f0-b4f1-83a2adee968d-69b17490-10d2-11f1-9dc7-233f42960e8c.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore",
-    "cityCount": 4
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ka-Kha-Ga-Gha_Poster-d0a1f7e0-0fbc-11f1-9588-2dd7f3505087.jpg",
+    "city": "Ahmedabad, Gandhinagar, Surat",
+    "cityCount": 3
   },
   {
     "movie": "Laagni No Melo",
@@ -15033,25 +15066,25 @@
     "cityCount": 3
   },
   {
-    "movie": "Masthishka Maranam",
-    "language": "Malayalam",
-    "movieCode": "6WajuVG0vtJ",
-    "id": 215096,
+    "movie": "Shakti",
+    "language": "Gujarati",
+    "movieCode": "ES5UUf8_oe",
+    "id": 215685,
     "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Masthishka-Maranam_Poster-78254540-0b25-11f1-a07e-23c6418916e6.jpg",
-    "city": "Chennai, Coimbatore, Kochi",
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Shakti-969a3480-122e-11f1-aade-1359edf51e76.jpg",
+    "city": "Ahmedabad, Gandhinagar, Surat",
     "cityCount": 3
   },
   {
-    "movie": "Viyaah Kartaare Da",
-    "language": "Punjabi",
-    "movieCode": "c8QkFdl1L1",
-    "id": 206369,
+    "movie": "Thaai Kizhavi",
+    "language": "Tamil",
+    "movieCode": "VDfa8k7vHR",
+    "id": 212782,
     "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Viyaah-Kartaare-Da-6f8017a0-1208-11f1-ac23-4d2a8cbf9688.jpg",
-    "city": "Amritsar, Chennai, Delhi/NCR",
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(8)-4487a990-11aa-11f1-b8e9-3913d9769fcc.jpg",
+    "city": "Chennai, Coimbatore, Madurai",
     "cityCount": 3
   },
   {
@@ -15077,17 +15110,6 @@
     "cityCount": 2
   },
   {
-    "movie": "Fourth Floor",
-    "language": "Tamil",
-    "movieCode": "04AR8O8ChA",
-    "id": 215069,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/FOURTH-fcf5f8f0-0d96-11f1-b554-073c41babb89.jpg",
-    "city": "Chennai, Coimbatore",
-    "cityCount": 2
-  },
-  {
     "movie": "Hayagrriva",
     "language": "Kannada",
     "movieCode": "C~jOZezxsU",
@@ -15096,28 +15118,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hayagrriva-0cdb6d90-1157-11f1-ab54-814f552493f2.jpg",
     "city": "Bangalore, Bengaluru",
-    "cityCount": 2
-  },
-  {
-    "movie": "Ka Kha Ga Gha",
-    "language": "Gujarati",
-    "movieCode": "qnEtS8vUrT",
-    "id": 215008,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ka-Kha-Ga-Gha_Poster-d0a1f7e0-0fbc-11f1-9588-2dd7f3505087.jpg",
-    "city": "Ahmedabad, Gandhinagar",
-    "cityCount": 2
-  },
-  {
-    "movie": "Thaai Kizhavi",
-    "language": "Tamil",
-    "movieCode": "VDfa8k7vHR",
-    "id": 212782,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(8)-4487a990-11aa-11f1-b8e9-3913d9769fcc.jpg",
-    "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
   {
@@ -15143,6 +15143,17 @@
     "cityCount": 2
   },
   {
+    "movie": "A Padam",
+    "language": "Tamil",
+    "movieCode": "EmN~lt~LVU",
+    "id": 215935,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/A-Padam-4ebeb340-1245-11f1-80e5-b9bd8d8309e9.jpg",
+    "city": "Chennai",
+    "cityCount": 1
+  },
+  {
     "movie": "Arco",
     "language": "French",
     "movieCode": "qDQwUZE0Sw",
@@ -15154,14 +15165,36 @@
     "cityCount": 1
   },
   {
+    "movie": "Chakranta",
+    "language": "Odia",
+    "movieCode": "fy3Wdl9hFxB",
+    "id": 214751,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chakranta-036ec830-120e-11f1-80ef-7d9628350e6c.jpg",
+    "city": "Bhubaneswar",
+    "cityCount": 1
+  },
+  {
     "movie": "Dhoom 2",
     "language": "Hindi",
     "movieCode": "Gi9q7P2pVgV5a",
     "id": 159537,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom2-4-2161c590-fb17-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom2-0385ba90-fb17-11ef-8434-f9ed39b3241b.jpg",
     "city": "Hyderabad",
+    "cityCount": 1
+  },
+  {
+    "movie": "ICC Men's T20 Cricket World Cup 2026: New Zealand vs Sri Lanka",
+    "language": "Hindi",
+    "movieCode": "XW7tQPTSL4u",
+    "id": 215623,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/worlscup-633de710-0dbc-11f1-99ab-45fb55c84ebd.jpg",
+    "city": "Delhi/NCR",
     "cityCount": 1
   },
   {
@@ -15184,6 +15217,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/L.S.S--75c0a860-0c85-11f1-aff3-519a322748df.jpg",
     "city": "Chennai",
+    "cityCount": 1
+  },
+  {
+    "movie": "Maya",
+    "language": "Marathi",
+    "movieCode": "_Qqhd80WRw",
+    "id": 215064,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Maya-528acc40-0659-11f1-8afc-c3bd46957b34-5930c850-10aa-11f1-9dc7-233f42960e8c.jpg",
+    "city": "Mumbai",
     "cityCount": 1
   },
   {
@@ -15216,6 +15260,28 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Porobasi--posgter-66aa7d70-0cb1-11f1-b6b6-cfb45a924976.jpg",
+    "city": "Kolkata",
+    "cityCount": 1
+  },
+  {
+    "movie": "Poyla Baishakh",
+    "language": "Bengali",
+    "movieCode": "3wL~YJyGH0",
+    "id": 215873,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Poyla-Baishakh_Poster-4d50a060-11ad-11f1-9fc4-abeaf381d523.jpg",
+    "city": "Kolkata",
+    "cityCount": 1
+  },
+  {
+    "movie": "Promoter Boudi",
+    "language": "Bengali",
+    "movieCode": "liuYkZul9eT",
+    "id": 215856,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Promoter-Boudi-a2508220-117f-11f1-9f75-2bf63690ac05.jpg",
     "city": "Kolkata",
     "cityCount": 1
   },
@@ -15294,6 +15360,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Rise-Of-Ashoka-4eb18110-10ca-11f1-a29d-7ff313f5db55.jpg",
     "city": "Hyderabad",
+    "cityCount": 1
+  },
+  {
+    "movie": "The Secret Agent",
+    "language": "Portuguese",
+    "movieCode": "DbxKRAbIme",
+    "id": 214117,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/secret-b42de1f0-00c1-11f1-9364-57ed19eb2585-788ee130-028d-11f1-bb0b-11436971d59b.jpg",
+    "city": "Chennai",
     "cityCount": 1
   },
   {
@@ -15470,6 +15547,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Tu-Bol-Na_Poster-70019a10-a9c5-11f0-9a6f-d15a8d24e092.jpg",
     "city": "Mumbai",
+    "cityCount": 1
+  },
+  {
+    "movie": "Tu Duniya Chhe Mari",
+    "language": "Gujarati",
+    "movieCode": "a_o2JZpf052",
+    "id": 215874,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Tu-Duniya-Chhe-Mari_Poster-d41afc90-122e-11f1-bda3-ab72a2d3666a.jpg",
+    "city": "Surat",
     "cityCount": 1
   },
   {
