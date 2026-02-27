@@ -297,6 +297,17 @@
     "cityCount": 12
   },
   {
+    "movie": "Rangeela",
+    "language": "Hindi",
+    "movieCode": "La0az9N54B",
+    "id": 209248,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/1%20(2)-ead49130-c963-11f0-ac2f-d5eff8b115e5.jpg",
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Mangaluru, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 12
+  },
+  {
     "movie": "Wuthering Heights",
     "language": "English",
     "movieCode": "Cg_Cs18HnB",
@@ -495,6 +506,17 @@
     "cityCount": 7
   },
   {
+    "movie": "Athadu",
+    "language": "Telugu",
+    "movieCode": "8ve8haOxO2",
+    "id": 202993,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Athadu%20(1)-78d72220-6f7f-11f0-81a2-95c24e20b386.jpg",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 6
+  },
+  {
     "movie": "Atmaharaam Live",
     "language": "Hindi",
     "movieCode": "JaZ6Dm~YFl",
@@ -536,28 +558,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/A-big-Bold-Beautiful-Journey_2_Poster-e4442730-993a-11f0-b24f-e1a7982f0626.jpg",
     "city": "Ahmedabad, Bhopal, Delhi/NCR, Gandhinagar, Mumbai",
-    "cityCount": 5
-  },
-  {
-    "movie": "Ashakal Aayiram",
-    "language": "Malayalam",
-    "movieCode": "qQjaZmZtd_",
-    "id": 213897,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ashakal-Aayiram_Poster-ff7e8f20-00de-11f1-be9d-51e354f3cbc3.jpg",
-    "city": "Bangalore, Bengaluru, Kochi, Mangaluru, Mumbai",
-    "cityCount": 5
-  },
-  {
-    "movie": "Athadu",
-    "language": "Telugu",
-    "movieCode": "8ve8haOxO2",
-    "id": 202993,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Athadu%20(1)-78d72220-6f7f-11f0-81a2-95c24e20b386.jpg",
-    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 5
   },
   {
@@ -8090,7 +8090,7 @@
     "id": 141422,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_-608x800%20(1)-d98eeff0-54b2-11ef-8ac1-097c7af7ce7e.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/dil-to-pagal-hai-ff6084f0-f9e4-11ef-8434-f9ed39b3241b.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
@@ -9498,7 +9498,7 @@
     "id": 159985,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jab-we-met2-3e3d5e40-fb1c-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/jab-we-met1-238109d0-fb1c-11ef-8434-f9ed39b3241b.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
@@ -15480,19 +15480,8 @@
     "runtime": 134,
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Masthishka-Maranam_Poster-78254540-0b25-11f1-a07e-23c6418916e6.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Coimbatore, Delhi/NCR, Guntur, Hyderabad, Kochi, Mangaluru, Mumbai, Visakhapatnam",
-    "cityCount": 12
-  },
-  {
-    "movie": "Rangeela",
-    "language": "Hindi",
-    "movieCode": "La0az9N54B",
-    "id": 209248,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/1%20(2)-ead49130-c963-11f0-ac2f-d5eff8b115e5.jpg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Mangaluru, Mumbai, Surat, Visakhapatnam",
-    "cityCount": 12
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Guntur, Hyderabad, Kochi, Mangaluru, Mumbai, Visakhapatnam",
+    "cityCount": 11
   },
   {
     "movie": "Vishnu Vinyasam",
@@ -15506,6 +15495,17 @@
     "cityCount": 11
   },
   {
+    "movie": "Ashakal Aayiram",
+    "language": "Malayalam",
+    "movieCode": "qQjaZmZtd_",
+    "id": 213897,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Ashakal-Aayiram_Poster-ff7e8f20-00de-11f1-be9d-51e354f3cbc3.jpg",
+    "city": "Bangalore, Bengaluru, Kochi, Mangaluru, Mumbai",
+    "cityCount": 5
+  },
+  {
     "movie": "Rebel",
     "language": "Telugu",
     "movieCode": "h8KZMVEtWET",
@@ -15514,17 +15514,6 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/rebel--608x800-d61dcb80-486f-11ed-ba93-b50956a15c38.jpg",
     "city": "Guntur, Visakhapatnam",
-    "cityCount": 2
-  },
-  {
-    "movie": "Sultan",
-    "language": "Hindi",
-    "movieCode": "YM1ciDvtk",
-    "id": 140087,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/SULTAN-0abd6e30-1f65-11f0-a524-07b7a1c242ef.jpg",
-    "city": "Hyderabad, Visakhapatnam",
     "cityCount": 2
   },
   {
@@ -15556,7 +15545,7 @@
     "id": 138898,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Queen-f9a5e2c0-f9e5-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Queen--0f58d910-f9e6-11ef-9252-6f3b98621b31.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
@@ -15613,6 +15602,17 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Soodhu-Kavvum_Poster-ffa39540-0c00-11f1-bbdd-d16956093387.jpg",
     "city": "Chennai",
+    "cityCount": 1
+  },
+  {
+    "movie": "Sultan",
+    "language": "Hindi",
+    "movieCode": "YM1ciDvtk",
+    "id": 140087,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/SULTAN-0abd6e30-1f65-11f0-a524-07b7a1c242ef.jpg",
+    "city": "Visakhapatnam",
     "cityCount": 1
   },
   {
