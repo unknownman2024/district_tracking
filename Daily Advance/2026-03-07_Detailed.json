@@ -8,10 +8,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN 6",
       "totalSeats": 116,
-      "available": 107,
-      "sold": 9,
-      "gross": 5150,
-      "occupancy": "7.76%"
+      "available": 105,
+      "sold": 11,
+      "gross": 5850,
+      "occupancy": "9.48%"
     },
     {
       "city": "Mumbai",
@@ -47,10 +47,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN 5",
       "totalSeats": 245,
-      "available": 221,
-      "sold": 24,
-      "gross": 8740,
-      "occupancy": "9.80%"
+      "available": 217,
+      "sold": 28,
+      "gross": 10220,
+      "occupancy": "11.43%"
     },
     {
       "city": "New Delhi",
@@ -60,10 +60,10 @@
       "time": "03:30 PM",
       "audi": "Screen 1",
       "totalSeats": 117,
-      "available": 117,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 115,
+      "sold": 2,
+      "gross": 780,
+      "occupancy": "1.71%"
     },
     {
       "city": "New Delhi",
@@ -74,6 +74,45 @@
       "audi": "AUDI-04",
       "totalSeats": 120,
       "available": 120,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Gurgaon",
+      "state": "Haryana",
+      "venue": "Pepsi PVR Ambience, Ambience Mall, Gurugram",
+      "chain": "PVR",
+      "time": "02:15 PM",
+      "audi": "AUDI 13",
+      "totalSeats": 107,
+      "available": 104,
+      "sold": 3,
+      "gross": 900,
+      "occupancy": "2.80%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "PVR Superplex Mall Of India, Sector 18, Noida",
+      "chain": "PVR",
+      "time": "02:40 PM",
+      "audi": "Screen 2",
+      "totalSeats": 236,
+      "available": 186,
+      "sold": 50,
+      "gross": 16920,
+      "occupancy": "21.19%"
+    },
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "PVR Superplex Logix, Sector 32, Noida",
+      "chain": "PVR",
+      "time": "03:15 PM",
+      "audi": "AUDI 10",
+      "totalSeats": 88,
+      "available": 88,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -486,7 +525,7 @@
     }
   ],
   "date": "2026-03-07",
-  "lastUpdated": "09:27 PM, 02 March 2026",
+  "lastUpdated": "12:37 AM, 03 March 2026",
   "Yaarra Antha Paiyan Nanthan Antha Paiyan [2D | Tamil]": [
     {
       "city": "Chennai",
@@ -716,6 +755,21 @@
       "sold": 18,
       "gross": 2700,
       "occupancy": "12.16%"
+    }
+  ],
+  "Batt Koch [2D | Kashmiri]": [
+    {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "venue": "PVR Superplex Mall Of India, Sector 18, Noida",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "Screen 5",
+      "totalSeats": 167,
+      "available": 167,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ]
 }
