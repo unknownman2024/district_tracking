@@ -1180,15 +1180,15 @@
     ]
   },
   "The Kerala Story 2 Goes Beyond [2D | Hindi]": {
-    "shows": 1,
+    "shows": 5,
     "gross": 35860,
     "sold": 206,
-    "totalSeats": 206,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 1270,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 1,
-    "occupancy": 100,
+    "occupancy": 16.22,
     "details": [
       {
         "city": "Surat",
@@ -1201,6 +1201,18 @@
         "fastfilling": 0,
         "housefull": 1,
         "occupancy": 100
+      },
+      {
+        "city": "Jaisalmer",
+        "state": "Rajasthan",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1064,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -1214,6 +1226,17 @@
         "fastfilling": 0,
         "housefull": 1,
         "occupancy": 100
+      },
+      {
+        "chain": "Justickets",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1064,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -1294,5 +1317,5 @@
     ]
   },
   "date": "2026-03-06",
-  "lastUpdated": "12:39 AM, 03 March 2026"
+  "lastUpdated": "01:24 AM, 03 March 2026"
 }
