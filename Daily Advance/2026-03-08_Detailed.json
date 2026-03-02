@@ -139,11 +139,11 @@
       "chain": "PVR",
       "time": "02:40 PM",
       "audi": "Screen 2",
-      "totalSeats": 194,
+      "totalSeats": 236,
       "available": 192,
-      "sold": 2,
-      "gross": 640,
-      "occupancy": "1.03%"
+      "sold": 44,
+      "gross": 14920,
+      "occupancy": "18.64%"
     },
     {
       "city": "Noida",
@@ -184,6 +184,32 @@
       "audi": "Screen 5",
       "totalSeats": 167,
       "available": 167,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Anupam Saket, New Delhi",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "AUDI 01",
+      "totalSeats": 228,
+      "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Vegas, Dwarka, New Delhi",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "AUDI-05",
+      "totalSeats": 184,
+      "available": 184,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -756,5 +782,5 @@
     }
   ],
   "date": "2026-03-08",
-  "lastUpdated": "12:38 AM, 03 March 2026"
+  "lastUpdated": "03:20 AM, 03 March 2026"
 }
