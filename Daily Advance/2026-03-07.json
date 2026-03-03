@@ -1,14 +1,14 @@
 {
   "Enhypen (Walk The Line Summer Edition) [2D | Korean]": {
     "shows": 9,
-    "gross": 49440,
-    "sold": 137,
+    "gross": 51180,
+    "sold": 142,
     "totalSeats": 1474,
     "venues": 9,
     "cities": 5,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 9.29,
+    "occupancy": 9.63,
     "details": [
       {
         "city": "Ahmedabad",
@@ -39,12 +39,12 @@
         "state": "Delhi",
         "venues": 2,
         "shows": 2,
-        "gross": 5160,
-        "sold": 16,
+        "gross": 6900,
+        "sold": 21,
         "totalSeats": 237,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 6.75
+        "occupancy": 8.86
       },
       {
         "city": "Gurgaon",
@@ -76,12 +76,12 @@
         "chain": "PVR",
         "venues": 9,
         "shows": 9,
-        "gross": 49440,
-        "sold": 137,
+        "gross": 51180,
+        "sold": 142,
         "totalSeats": 1474,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 9.29
+        "occupancy": 9.63
       }
     ]
   },
@@ -662,12 +662,12 @@
     ]
   },
   "Batt Koch [2D | Kashmiri]": {
-    "shows": 4,
+    "shows": 5,
     "gross": 0,
     "sold": 0,
-    "totalSeats": 759,
-    "venues": 4,
-    "cities": 3,
+    "totalSeats": 1022,
+    "venues": 5,
+    "cities": 4,
     "fastfilling": 0,
     "housefull": 0,
     "occupancy": 0,
@@ -707,22 +707,72 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Ghaziabad",
+        "state": "Uttar Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 263,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
       {
         "chain": "PVR",
-        "venues": 4,
-        "shows": 4,
+        "venues": 5,
+        "shows": 5,
         "gross": 0,
         "sold": 0,
-        "totalSeats": 759,
+        "totalSeats": 1022,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
       }
     ]
   },
+  "Agnipariksha [2D | Bhojpuri]": {
+    "shows": 4,
+    "gross": 96800,
+    "sold": 1816,
+    "totalSeats": 1988,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 4,
+    "housefull": 0,
+    "occupancy": 91.35,
+    "details": [
+      {
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 96800,
+        "sold": 1816,
+        "totalSeats": 1988,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 91.35
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Chitra Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 96800,
+        "sold": 1816,
+        "totalSeats": 1988,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 91.35
+      }
+    ]
+  },
   "date": "2026-03-07",
-  "lastUpdated": "08:44 AM, 03 March 2026"
+  "lastUpdated": "10:28 AM, 03 March 2026"
 }

@@ -60,10 +60,10 @@
       "time": "03:30 PM",
       "audi": "Screen 1",
       "totalSeats": 117,
-      "available": 112,
-      "sold": 5,
-      "gross": 1860,
-      "occupancy": "4.27%"
+      "available": 108,
+      "sold": 9,
+      "gross": 3300,
+      "occupancy": "7.69%"
     },
     {
       "city": "New Delhi",
@@ -73,10 +73,10 @@
       "time": "01:15 PM",
       "audi": "AUDI-04",
       "totalSeats": 120,
-      "available": 109,
-      "sold": 11,
-      "gross": 3300,
-      "occupancy": "9.17%"
+      "available": 108,
+      "sold": 12,
+      "gross": 3600,
+      "occupancy": "10.00%"
     },
     {
       "city": "Gurgaon",
@@ -525,7 +525,7 @@
     }
   ],
   "date": "2026-03-07",
-  "lastUpdated": "08:44 AM, 03 March 2026",
+  "lastUpdated": "10:28 AM, 03 March 2026",
   "Yaarra Antha Paiyan Nanthan Antha Paiyan [2D | Tamil]": [
     {
       "city": "Chennai",
@@ -809,6 +809,73 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "venue": "PVR Mahagun, Mahagun Metro Mall, Ghaziabad",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 263,
+      "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    }
+  ],
+  "Agnipariksha [2D | Bhojpuri]": [
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Chitra Cinema, Bagh Muzaffar Khan Road, Agra",
+      "chain": "Chitra Cinema",
+      "time": "09:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 497,
+      "available": 43,
+      "sold": 454,
+      "gross": 24200,
+      "occupancy": "91.35%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Chitra Cinema, Bagh Muzaffar Khan Road, Agra",
+      "chain": "Chitra Cinema",
+      "time": "06:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 497,
+      "available": 43,
+      "sold": 454,
+      "gross": 24200,
+      "occupancy": "91.35%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Chitra Cinema, Bagh Muzaffar Khan Road, Agra",
+      "chain": "Chitra Cinema",
+      "time": "12:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 497,
+      "available": 43,
+      "sold": 454,
+      "gross": 24200,
+      "occupancy": "91.35%"
+    },
+    {
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "venue": "Chitra Cinema, Bagh Muzaffar Khan Road, Agra",
+      "chain": "Chitra Cinema",
+      "time": "03:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 497,
+      "available": 43,
+      "sold": 454,
+      "gross": 24200,
+      "occupancy": "91.35%"
     }
   ]
 }
