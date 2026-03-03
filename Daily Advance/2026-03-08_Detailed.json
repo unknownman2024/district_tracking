@@ -49,10 +49,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN 6",
       "totalSeats": 116,
-      "available": 100,
-      "sold": 16,
-      "gross": 6340,
-      "occupancy": "13.79%"
+      "available": 97,
+      "sold": 19,
+      "gross": 7570,
+      "occupancy": "16.38%"
     },
     {
       "city": "Gurgaon",
@@ -62,10 +62,10 @@
       "time": "02:15 PM",
       "audi": "AUDI 13",
       "totalSeats": 107,
-      "available": 107,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 104,
+      "sold": 3,
+      "gross": 900,
+      "occupancy": "2.80%"
     },
     {
       "city": "Mumbai",
@@ -75,10 +75,10 @@
       "time": "02:15 PM",
       "audi": "SCREEN 2",
       "totalSeats": 218,
-      "available": 198,
-      "sold": 20,
-      "gross": 6920,
-      "occupancy": "9.17%"
+      "available": 194,
+      "sold": 24,
+      "gross": 8280,
+      "occupancy": "11.01%"
     },
     {
       "city": "Mumbai",
@@ -87,11 +87,11 @@
       "chain": "PVR",
       "time": "04:15 PM",
       "audi": "SCREEN 2",
-      "totalSeats": 227,
-      "available": 223,
-      "sold": 4,
-      "gross": 1600,
-      "occupancy": "1.76%"
+      "totalSeats": 237,
+      "available": 235,
+      "sold": 2,
+      "gross": 820,
+      "occupancy": "0.84%"
     },
     {
       "city": "Mumbai",
@@ -223,6 +223,19 @@
       "audi": "AUDI 02",
       "totalSeats": 263,
       "available": 263,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Faridabad",
+      "state": "Haryana",
+      "venue": "INOX Crown Interiorz Mall, Delhi Mathura Road, Faridabad",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 267,
+      "available": 267,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -516,6 +529,58 @@
       "sold": 70,
       "gross": 9714,
       "occupancy": "31.67%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "Ashok Theatre A/C 4K Dolby Atmos, Pondicherry",
+      "chain": "Ashok Theatre",
+      "time": "12:00 PM",
+      "audi": "Ashok",
+      "totalSeats": 471,
+      "available": 247,
+      "sold": 224,
+      "gross": 27510,
+      "occupancy": "47.56%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "Ashok Theatre A/C 4K Dolby Atmos, Pondicherry",
+      "chain": "Ashok Theatre",
+      "time": "06:45 PM",
+      "audi": "Ashok",
+      "totalSeats": 471,
+      "available": 247,
+      "sold": 224,
+      "gross": 27510,
+      "occupancy": "47.56%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "Ashok Theatre A/C 4K Dolby Atmos, Pondicherry",
+      "chain": "Ashok Theatre",
+      "time": "03:00 PM",
+      "audi": "Ashok",
+      "totalSeats": 471,
+      "available": 247,
+      "sold": 224,
+      "gross": 27510,
+      "occupancy": "47.56%"
+    },
+    {
+      "city": "Puducherry",
+      "state": "Puducherry",
+      "venue": "Ashok Theatre A/C 4K Dolby Atmos, Pondicherry",
+      "chain": "Ashok Theatre",
+      "time": "10:00 PM",
+      "audi": "Ashok",
+      "totalSeats": 471,
+      "available": 247,
+      "sold": 224,
+      "gross": 27510,
+      "occupancy": "47.56%"
     }
   ],
   "Munna [2D | Telugu]": [
@@ -812,6 +877,45 @@
       "sold": 121,
       "gross": 11374,
       "occupancy": "22.08%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "09:40 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 213,
+      "available": 214,
+      "sold": -1,
+      "gross": -295,
+      "occupancy": "-0.47%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "06:30 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 213,
+      "available": 214,
+      "sold": -1,
+      "gross": -295,
+      "occupancy": "-0.47%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "02:10 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 213,
+      "available": 214,
+      "sold": -1,
+      "gross": -295,
+      "occupancy": "-0.47%"
     }
   ],
   "Ravanaprabhu [2D | Malayalam]": [
@@ -860,7 +964,7 @@
     }
   ],
   "date": "2026-03-08",
-  "lastUpdated": "12:41 PM, 03 March 2026",
+  "lastUpdated": "03:31 PM, 03 March 2026",
   "Agnipariksha [2D | Bhojpuri]": [
     {
       "city": "Agra",
@@ -913,6 +1017,183 @@
       "sold": 455,
       "gross": 24250,
       "occupancy": "91.55%"
+    }
+  ],
+  "The Kerala Story 2 Goes Beyond [2D | Telugu]": [
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "10:05 PM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 386,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "11:25 AM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 386,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "06:45 PM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 386,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Kavali",
+      "state": "Andhra Pradesh",
+      "venue": "Manasa Cinemas, Vaddipalem - Theatre Road, Kavali",
+      "chain": "Manasa Cinema",
+      "time": "02:45 PM",
+      "audi": "Screen 1",
+      "totalSeats": 386,
+      "available": 386,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    }
+  ],
+  "Mrithyunjay [2D | Telugu]": [
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "02:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "09:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "11:30 AM",
+      "audi": "SCREEN 2",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "06:00 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 183,
+      "available": 183,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    }
+  ],
+  "Saraswathi [2D | Telugu]": [
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "03:05 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 249,
+      "available": 249,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "11:00 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 213,
+      "available": 214,
+      "sold": -1,
+      "gross": -295,
+      "occupancy": "-0.47%"
+    }
+  ],
+  "Sampradayini Suppini Suddapoosani [2D | Telugu]": [
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "12:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 249,
+      "available": 249,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "09:20 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 249,
+      "available": 249,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Vizag",
+      "state": "Andhra Pradesh",
+      "venue": "Asian Mukta A2 Cinemas, VMR Mall, Laser 4K Dolby Atmos,  Aganampudi, Gajuwaka",
+      "chain": "Asian Mukta A2",
+      "time": "06:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 249,
+      "available": 249,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ]
 }
