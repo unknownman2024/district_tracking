@@ -110,17 +110,6 @@
     "cityCount": 17
   },
   {
-    "movie": "JUJUTSU KAISEN: Shibuya Incident x The Culling Game",
-    "language": "Japanese",
-    "movieCode": "xWtwgp5JA8",
-    "id": 215506,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/JUJUTSU-KAISEN_Poster-ea212e20-0cab-11f1-8e64-93ea08b1d6c6-252e2650-0cc8-11f1-aff3-519a322748df-b006e020-10bd-11f1-9dc7-233f42960e8c.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat, Visakhapatnam",
-    "cityCount": 17
-  },
-  {
     "movie": "Spider-Man: No Way Home",
     "language": "English",
     "movieCode": "WIrYX8Ep1",
@@ -130,6 +119,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Spiderman-No-way-Home%20(1)-ba612930-cb4f-11f0-84e9-df82ccf1b4c4.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai, Nashik, Surat",
     "cityCount": 16
+  },
+  {
+    "movie": "JUJUTSU KAISEN: Shibuya Incident x The Culling Game",
+    "language": "Japanese",
+    "movieCode": "xWtwgp5JA8",
+    "id": 215506,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/JUJUTSU-KAISEN_Poster-ea212e20-0cab-11f1-8e64-93ea08b1d6c6-252e2650-0cc8-11f1-aff3-519a322748df-b006e020-10bd-11f1-9dc7-233f42960e8c.jpg",
+    "city": "Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Guntur, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 15
   },
   {
     "movie": "Spider-Man: Far From Home",
@@ -226,20 +226,9 @@
     "id": 216211,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-00284410-1611-11f1-875f-6dc9c362a700.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/f-T20-World-Cup-2026-poster-07034850-16ea-11f1-afd8-67c7e941a04b.jpg",
     "city": "Ahmedabad, Amritsar, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Nagpur, Nashik, Patna, Surat",
     "cityCount": 13
-  },
-  {
-    "movie": "Dhurandhar",
-    "language": "Hindi",
-    "movieCode": "2J8PR99VjK",
-    "id": 201380,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(11)-b0a9dbb0-ce76-11f0-bb7b-5b7813c7eeda.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nagpur, Visakhapatnam",
-    "cityCount": 12
   },
   {
     "movie": "F1 The Movie",
@@ -248,7 +237,7 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Surat",
     "cityCount": 12
   },
@@ -262,6 +251,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/1%20(2)-ead49130-c963-11f0-ac2f-d5eff8b115e5.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Mangaluru, Mumbai, Surat, Visakhapatnam",
     "cityCount": 12
+  },
+  {
+    "movie": "Dhurandhar",
+    "language": "Hindi",
+    "movieCode": "2J8PR99VjK",
+    "id": 201380,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(11)-b0a9dbb0-ce76-11f0-bb7b-5b7813c7eeda.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Visakhapatnam",
+    "cityCount": 11
   },
   {
     "movie": "ICC Men's T20 Cricket World Cup 2026: India vs South Africa",
@@ -348,7 +348,7 @@
     "runtime": 134,
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/secret-b42de1f0-00c1-11f1-9364-57ed19eb2585-788ee130-028d-11f1-bb0b-11436971d59b.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Mumbai",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai",
     "cityCount": 10
   },
   {
@@ -462,17 +462,6 @@
     "cityCount": 8
   },
   {
-    "movie": "Zootopia 2",
-    "language": "English",
-    "movieCode": "6iHdnxzpw_",
-    "id": 177299,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Zootopia-2--9aa43c80-c91b-11f0-93e8-ff3c1daa03c7.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kochi, Mumbai",
-    "cityCount": 8
-  },
-  {
     "movie": "Avatar: Fire and Ash",
     "language": "English",
     "movieCode": "ZijYCsa3f",
@@ -501,7 +490,7 @@
     "id": 216212,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-2afc29e0-1611-11f1-89fc-fb7303ddd8a9.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/NZ-vs-SA-7da338c0-16fa-11f1-b7e5-b766ca28d2b1.jpg",
     "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Surat",
     "cityCount": 7
   },
@@ -514,6 +503,17 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/The-Godfather-Part-III_Poster-69221500-bfc1-11f0-ad34-b3e5f0e9b393.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Mumbai",
+    "cityCount": 7
+  },
+  {
+    "movie": "Zootopia 2",
+    "language": "English",
+    "movieCode": "6iHdnxzpw_",
+    "id": 177299,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Zootopia-2--9aa43c80-c91b-11f0-93e8-ff3c1daa03c7.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Hyderabad, Jaipur, Mumbai",
     "cityCount": 7
   },
   {
@@ -578,7 +578,7 @@
     "id": 216212,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-1ea8f380-1611-11f1-b8b2-ef5332c0a08b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/NZ-vs-SA-6f166610-16fa-11f1-b14a-6f2af85e2fd8.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Kochi, Mangaluru, Visakhapatnam",
     "cityCount": 6
   },
@@ -589,7 +589,7 @@
     "id": 216211,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/ICC-T20-WC-Screening-02_06.02.2026_Disctrict-600x800-f3418040-1610-11f1-9436-b7e6dc10ed85.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/f-T20-World-Cup-2026-poster-f75dd9b0-16e9-11f1-b7e5-b766ca28d2b1.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Kochi, Mangaluru, Visakhapatnam",
     "cityCount": 6
   },
@@ -4707,6 +4707,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Sonu Ke Titu Ki Sweety",
+    "language": "Hindi",
+    "movieCode": "lgLc0Yt8ncJT",
+    "id": 193,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sonu-Ke-Titu-Ki-Sweety-608-cc54e534-5500-4b8c-8c1a-073de726fb0a.jpg",
+    "city": "Ahmedabad, Gandhinagar",
+    "cityCount": 2
+  },
+  {
     "movie": "Soul Mates",
     "language": "Kannada",
     "movieCode": "rM3CqifvCI",
@@ -7156,7 +7167,7 @@
     "runtime": 134,
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Boong-5fc56ef0-92f6-11f0-a78a-8d832aef27c5.jpg",
-    "city": "Delhi/NCR",
+    "city": "Hyderabad",
     "cityCount": 1
   },
   {
@@ -8068,7 +8079,7 @@
     "id": 159537,
     "runtime": 134,
     "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom2-4-2161c590-fb17-11ef-943b-b3723efa3f38.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Dhoom2-0385ba90-fb17-11ef-8434-f9ed39b3241b.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
@@ -8762,6 +8773,17 @@
     "runtime": 134,
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait%20(17)-a47445e0-d02b-11f0-a3f2-691f9f083e23.jpg",
+    "city": "Delhi/NCR",
+    "cityCount": 1
+  },
+  {
+    "movie": "Ghangtaul",
+    "language": "Garhwali",
+    "movieCode": "sgPZvjOOs6",
+    "id": 216216,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Gantaul%20(1)-347facf0-16aa-11f1-bfec-43b33ee645f2.jpg",
     "city": "Delhi/NCR",
     "cityCount": 1
   },
@@ -9511,6 +9533,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Iravin-Vizhigal-poster-ac005d40-bed2-11f0-a8b9-0dd967240a7f-1a75c730-c52a-11f0-9fe0-fd62732c26d2.jpg",
     "city": "Chennai",
+    "cityCount": 1
+  },
+  {
+    "movie": "Ishqa'n De Lekhe",
+    "language": "Punjabi",
+    "movieCode": "1R7wnpGKWX",
+    "id": 212931,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(6)-deb3bd90-f857-11f0-8620-8df8f5aa41d0.jpg",
+    "city": "Chandigarh",
     "cityCount": 1
   },
   {
@@ -13758,6 +13791,17 @@
     "cityCount": 1
   },
   {
+    "movie": "Salaam Venky",
+    "language": "Hindi",
+    "movieCode": "7RlCXcwPw",
+    "id": 156978,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Salaam-Venky-608x800-a1298590-591d-11ed-9323-73fadb398182.jpg",
+    "city": "Mumbai",
+    "cityCount": 1
+  },
+  {
     "movie": "Salaar Part 1 – Ceasefire",
     "language": "Telugu",
     "movieCode": "Z3VlhUWAy",
@@ -15590,8 +15634,8 @@
     "runtime": 134,
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Eternal-Sunshine-of-the-Spotless-Mind--eba04710-121c-11f1-a167-83106f645576.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Nashik, Visakhapatnam",
-    "cityCount": 14
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Nashik, Visakhapatnam",
+    "cityCount": 13
   },
   {
     "movie": "Masthishka Maranam",
@@ -15644,7 +15688,7 @@
     "id": 138898,
     "runtime": 134,
     "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/queen_041715033245-23ffdda0-f9e6-11ef-9252-6f3b98621b31.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Queen--0f58d910-f9e6-11ef-9252-6f3b98621b31.jpg",
     "city": "Hyderabad",
     "cityCount": 1
   },
