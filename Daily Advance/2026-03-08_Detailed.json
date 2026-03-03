@@ -49,10 +49,10 @@
       "time": "01:30 PM",
       "audi": "SCREEN 6",
       "totalSeats": 116,
-      "available": 104,
-      "sold": 12,
-      "gross": 4500,
-      "occupancy": "10.34%"
+      "available": 100,
+      "sold": 16,
+      "gross": 6340,
+      "occupancy": "13.79%"
     },
     {
       "city": "Gurgaon",
@@ -75,10 +75,10 @@
       "time": "02:15 PM",
       "audi": "SCREEN 2",
       "totalSeats": 218,
-      "available": 200,
-      "sold": 18,
-      "gross": 6260,
-      "occupancy": "8.26%"
+      "available": 198,
+      "sold": 20,
+      "gross": 6920,
+      "occupancy": "9.17%"
     },
     {
       "city": "Mumbai",
@@ -210,6 +210,19 @@
       "audi": "AUDI-05",
       "totalSeats": 184,
       "available": 184,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "venue": "PVR Mahagun, Mahagun Metro Mall, Ghaziabad",
+      "chain": "PVR",
+      "time": "11:00 AM",
+      "audi": "AUDI 02",
+      "totalSeats": 263,
+      "available": 263,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -438,6 +451,71 @@
       "sold": 4,
       "gross": 600,
       "occupancy": "0.94%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "AGS Cinemas, T. Nagar, Chennai",
+      "chain": "AGS Cinemas",
+      "time": "07:50 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 221,
+      "available": 151,
+      "sold": 70,
+      "gross": 9714,
+      "occupancy": "31.67%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "AGS Cinemas, T. Nagar, Chennai",
+      "chain": "AGS Cinemas",
+      "time": "11:10 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 221,
+      "available": 151,
+      "sold": 70,
+      "gross": 9714,
+      "occupancy": "31.67%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "AGS Cinemas, T. Nagar, Chennai",
+      "chain": "AGS Cinemas",
+      "time": "01:15 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 221,
+      "available": 151,
+      "sold": 70,
+      "gross": 9714,
+      "occupancy": "31.67%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "AGS Cinemas, T. Nagar, Chennai",
+      "chain": "AGS Cinemas",
+      "time": "04:35 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 221,
+      "available": 151,
+      "sold": 70,
+      "gross": 9714,
+      "occupancy": "31.67%"
+    },
+    {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "venue": "AGS Cinemas, T. Nagar, Chennai",
+      "chain": "AGS Cinemas",
+      "time": "10:10 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 221,
+      "available": 151,
+      "sold": 70,
+      "gross": 9714,
+      "occupancy": "31.67%"
     }
   ],
   "Munna [2D | Telugu]": [
@@ -782,7 +860,7 @@
     }
   ],
   "date": "2026-03-08",
-  "lastUpdated": "10:28 AM, 03 March 2026",
+  "lastUpdated": "12:41 PM, 03 March 2026",
   "Agnipariksha [2D | Bhojpuri]": [
     {
       "city": "Agra",
@@ -792,10 +870,10 @@
       "time": "03:00 PM",
       "audi": "SCREEN 1",
       "totalSeats": 497,
-      "available": 43,
-      "sold": 454,
-      "gross": 24200,
-      "occupancy": "91.35%"
+      "available": 42,
+      "sold": 455,
+      "gross": 24250,
+      "occupancy": "91.55%"
     },
     {
       "city": "Agra",
@@ -805,10 +883,10 @@
       "time": "09:00 PM",
       "audi": "SCREEN 1",
       "totalSeats": 497,
-      "available": 43,
-      "sold": 454,
-      "gross": 24200,
-      "occupancy": "91.35%"
+      "available": 42,
+      "sold": 455,
+      "gross": 24250,
+      "occupancy": "91.55%"
     },
     {
       "city": "Agra",
@@ -818,10 +896,10 @@
       "time": "12:00 PM",
       "audi": "SCREEN 1",
       "totalSeats": 497,
-      "available": 43,
-      "sold": 454,
-      "gross": 24200,
-      "occupancy": "91.35%"
+      "available": 42,
+      "sold": 455,
+      "gross": 24250,
+      "occupancy": "91.55%"
     },
     {
       "city": "Agra",
@@ -831,10 +909,10 @@
       "time": "06:00 PM",
       "audi": "SCREEN 1",
       "totalSeats": 497,
-      "available": 43,
-      "sold": 454,
-      "gross": 24200,
-      "occupancy": "91.35%"
+      "available": 42,
+      "sold": 455,
+      "gross": 24250,
+      "occupancy": "91.55%"
     }
   ]
 }
