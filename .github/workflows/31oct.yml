@@ -2,7 +2,7 @@ name: 31 Oct Auto Tracker
 
 on:
   schedule:
-    - cron: "25 * * * *"  # Runs at the 30th minute of every hour (UTC)
+    - cron: "25 */2 * * *"
   workflow_dispatch:         # Manual trigger if needed
 
 jobs:
