@@ -123,7 +123,7 @@ def process_month(year, month, include_future):
 
     # Apply future buffer only to current month
     if include_future:
-        end_date = min(month_end, today + timedelta(days=5))
+        end_date = min(month_end, today + timedelta(days=15))
     else:
         end_date = month_end
 
