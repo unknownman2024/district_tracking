@@ -5002,10 +5002,10 @@
       "time": "04:05 PM",
       "audi": "SCREEN 3",
       "totalSeats": 268,
-      "available": 268,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 265,
+      "sold": 3,
+      "gross": 450,
+      "occupancy": "1.12%"
     },
     {
       "city": "Bengaluru",
@@ -5612,11 +5612,11 @@
       "chain": "PVR",
       "time": "07:05 PM",
       "audi": "AUDI 05",
-      "totalSeats": 143,
-      "available": 128,
-      "sold": 15,
-      "gross": 815.25,
-      "occupancy": "10.49%"
+      "totalSeats": 144,
+      "available": 126,
+      "sold": 18,
+      "gross": 2531.7000000000003,
+      "occupancy": "12.50%"
     },
     {
       "city": "Coimbatore",
@@ -5638,11 +5638,11 @@
       "chain": "PVR",
       "time": "04:00 PM",
       "audi": "AUDI 04",
-      "totalSeats": 152,
-      "available": 137,
-      "sold": 15,
-      "gross": 1074.15,
-      "occupancy": "9.87%"
+      "totalSeats": 157,
+      "available": 134,
+      "sold": 23,
+      "gross": 3580.15,
+      "occupancy": "14.65%"
     },
     {
       "city": "Coimbatore",
@@ -5651,11 +5651,11 @@
       "chain": "PVR",
       "time": "12:30 PM",
       "audi": "AUDI 04",
-      "totalSeats": 152,
-      "available": 133,
-      "sold": 19,
-      "gross": 1679.9,
-      "occupancy": "12.50%"
+      "totalSeats": 157,
+      "available": 131,
+      "sold": 26,
+      "gross": 4131.55,
+      "occupancy": "16.56%"
     },
     {
       "city": "Coimbatore",
@@ -11219,6 +11219,19 @@
       "audi": "SCREEN 4",
       "totalSeats": 145,
       "available": 145,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "09:45 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 252,
+      "available": 252,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -36484,10 +36497,10 @@
       "time": "08:40 PM",
       "audi": "AUDI 04",
       "totalSeats": 197,
-      "available": 191,
-      "sold": 6,
-      "gross": 1800,
-      "occupancy": "3.05%"
+      "available": 189,
+      "sold": 8,
+      "gross": 2400,
+      "occupancy": "4.06%"
     },
     {
       "city": "Navi Mumbai",
@@ -38460,10 +38473,10 @@
       "time": "01:40 PM",
       "audi": "SCREEN 1",
       "totalSeats": 400,
-      "available": 394,
-      "sold": 6,
-      "gross": 900,
-      "occupancy": "1.50%"
+      "available": 392,
+      "sold": 8,
+      "gross": 1200,
+      "occupancy": "2.00%"
     },
     {
       "city": "New Delhi",
@@ -43322,10 +43335,10 @@
       "time": "11:00 AM",
       "audi": "AUDI2",
       "totalSeats": 248,
-      "available": 237,
-      "sold": 11,
-      "gross": 1089,
-      "occupancy": "4.44%"
+      "available": 243,
+      "sold": 5,
+      "gross": 495,
+      "occupancy": "2.02%"
     },
     {
       "city": "Kanpur",
@@ -47066,10 +47079,10 @@
       "time": "12:30 PM",
       "audi": "Audi 05",
       "totalSeats": 195,
-      "available": 195,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 193,
+      "sold": 2,
+      "gross": 298,
+      "occupancy": "1.03%"
     },
     {
       "city": "Dehradun",
@@ -56651,10 +56664,75 @@
       "sold": 20,
       "gross": 3400,
       "occupancy": "9.76%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "10:50 AM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "06:55 PM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "01:45 PM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "09:30 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 312,
+      "available": 312,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "03:05 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 29,
+      "available": 29,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "date": "2026-03-09",
-  "lastUpdated": "03:12 AM, 08 March 2026",
+  "lastUpdated": "04:16 AM, 08 March 2026",
   "99/66 [2D | Tamil]": [
     {
       "city": "Chennai",
@@ -58723,11 +58801,11 @@
       "chain": "PVR",
       "time": "10:20 PM",
       "audi": "AUDI 05",
-      "totalSeats": 143,
-      "available": 130,
-      "sold": 13,
-      "gross": 706.5500000000001,
-      "occupancy": "9.09%"
+      "totalSeats": 144,
+      "available": 126,
+      "sold": 18,
+      "gross": 2531.7000000000003,
+      "occupancy": "12.50%"
     },
     {
       "city": "Chennai",
@@ -64197,6 +64275,32 @@
       "audi": "AUDI 05",
       "totalSeats": 105,
       "available": 105,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "06:25 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 312,
+      "available": 312,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "12:40 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 312,
+      "available": 312,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -69806,11 +69910,11 @@
       "chain": "PVR",
       "time": "08:35 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 34,
+      "totalSeats": 28,
       "available": 28,
-      "sold": 6,
-      "gross": 2994,
-      "occupancy": "17.65%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -69873,6 +69977,58 @@
       "audi": "SCREEN2",
       "totalSeats": 142,
       "available": 142,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "05:35 PM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "02:40 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "07:55 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "12:40 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 29,
+      "available": 29,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -70485,10 +70641,10 @@
       "time": "07:50 PM",
       "audi": "AUDI 06",
       "totalSeats": 300,
-      "available": 300,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 299,
+      "sold": 1,
+      "gross": 190,
+      "occupancy": "0.33%"
     },
     {
       "city": "Kochi",
@@ -75389,6 +75545,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "08:30 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 29,
+      "available": 29,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "The Bride! [2D | English]": [
@@ -75907,10 +76076,10 @@
       "time": "09:25 PM",
       "audi": "AUDI04",
       "totalSeats": 163,
-      "available": 160,
-      "sold": 3,
-      "gross": 450,
-      "occupancy": "1.84%"
+      "available": 163,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Hyderabad",
@@ -79975,11 +80144,11 @@
       "chain": "PVR",
       "time": "01:45 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 34,
+      "totalSeats": 28,
       "available": 28,
-      "sold": 6,
-      "gross": 2394,
-      "occupancy": "17.65%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     },
     {
       "city": "Bengaluru",
@@ -80029,6 +80198,58 @@
       "audi": "SCREEN 5",
       "totalSeats": 144,
       "available": 144,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "10:55 AM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "05:05 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "10:20 PM",
+      "audi": "SCREEN 3",
+      "totalSeats": 278,
+      "available": 278,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "11:50 AM",
+      "audi": "SCREEN 3",
+      "totalSeats": 278,
+      "available": 278,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -83633,10 +83854,10 @@
       "time": "10:25 AM",
       "audi": "AUDI 4",
       "totalSeats": 135,
-      "available": 117,
-      "sold": 18,
-      "gross": 2884,
-      "occupancy": "13.33%"
+      "available": 119,
+      "sold": 16,
+      "gross": 2586,
+      "occupancy": "11.85%"
     },
     {
       "city": "Amritsar",
@@ -84699,10 +84920,10 @@
       "time": "11:00 AM",
       "audi": "AUDI 3",
       "totalSeats": 246,
-      "available": 234,
-      "sold": 12,
-      "gross": 1560,
-      "occupancy": "4.88%"
+      "available": 236,
+      "sold": 10,
+      "gross": 1300,
+      "occupancy": "4.07%"
     },
     {
       "city": "Ludhiana",
@@ -87495,6 +87716,123 @@
       "audi": "SCREEN 3",
       "totalSeats": 30,
       "available": 30,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "08:00 PM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "07:30 PM",
+      "audi": "AUDI-06",
+      "totalSeats": 74,
+      "available": 74,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "04:35 PM",
+      "audi": "AUDI-06",
+      "totalSeats": 74,
+      "available": 74,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "02:40 PM",
+      "audi": "AUDI-01",
+      "totalSeats": 139,
+      "available": 139,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "11:45 AM",
+      "audi": "AUDI-01",
+      "totalSeats": 139,
+      "available": 139,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "01:40 PM",
+      "audi": "AUDI-06",
+      "totalSeats": 74,
+      "available": 74,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "10:45 AM",
+      "audi": "AUDI-06",
+      "totalSeats": 74,
+      "available": 74,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "08:30 PM",
+      "audi": "AUDI-01",
+      "totalSeats": 139,
+      "available": 139,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "05:35 PM",
+      "audi": "AUDI-01",
+      "totalSeats": 139,
+      "available": 139,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -97661,11 +97999,11 @@
       "chain": "PVR",
       "time": "09:15 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 343,
+      "totalSeats": 418,
       "available": 343,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": 75,
+      "gross": 10431,
+      "occupancy": "17.94%"
     },
     {
       "city": "Gandhinagar",
@@ -97674,11 +98012,11 @@
       "chain": "PVR",
       "time": "11:05 AM",
       "audi": "SCREEN 3",
-      "totalSeats": 343,
+      "totalSeats": 418,
       "available": 343,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "sold": 75,
+      "gross": 10431,
+      "occupancy": "17.94%"
     },
     {
       "city": "Thane",
@@ -106990,11 +107328,24 @@
       "chain": "PVR",
       "time": "11:20 AM",
       "audi": "SCREEN 5",
-      "totalSeats": 34,
+      "totalSeats": 28,
       "available": 28,
-      "sold": 6,
-      "gross": 2994,
-      "occupancy": "17.65%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "11:05 AM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Assi [2D | Hindi]": [
@@ -116031,11 +116382,24 @@
       "chain": "PVR",
       "time": "04:30 PM",
       "audi": "SCREEN 5",
-      "totalSeats": 34,
+      "totalSeats": 28,
       "available": 28,
-      "sold": 6,
-      "gross": 2394,
-      "occupancy": "17.65%"
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "AUDI-03",
+      "totalSeats": 77,
+      "available": 77,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "The Academy of Fine Arts [2D | Bengali]": [
@@ -121472,6 +121836,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "04:05 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 252,
+      "available": 252,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Behadd [2D | Gujarati]": [
@@ -126073,6 +126450,71 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "06:25 PM",
+      "audi": "AUDI-04",
+      "totalSeats": 144,
+      "available": 144,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "03:50 PM",
+      "audi": "AUDI-04",
+      "totalSeats": 144,
+      "available": 144,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "01:15 PM",
+      "audi": "AUDI-04",
+      "totalSeats": 144,
+      "available": 144,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "10:40 AM",
+      "audi": "AUDI-04",
+      "totalSeats": 144,
+      "available": 144,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "09:00 PM",
+      "audi": "AUDI-04",
+      "totalSeats": 144,
+      "available": 144,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Faces [2D | Malayalam]": [
@@ -129199,10 +129641,10 @@
       "time": "11:10 AM",
       "audi": "AUDI 05",
       "totalSeats": 151,
-      "available": 151,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 147,
+      "sold": 4,
+      "gross": 420,
+      "occupancy": "2.65%"
     },
     {
       "city": "Bengaluru",
@@ -129407,10 +129849,10 @@
       "time": "08:50 PM",
       "audi": "AUDI-06",
       "totalSeats": 184,
-      "available": 184,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 183,
+      "sold": 1,
+      "gross": 149,
+      "occupancy": "0.54%"
     },
     {
       "city": "New Delhi",
@@ -132124,6 +132566,45 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "05:05 PM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "01:40 PM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "08:30 PM",
+      "audi": "AUDI-02",
+      "totalSeats": 80,
+      "available": 80,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Guardians: The Superheroes (Hindi) [2D | Hindi]": [
@@ -132706,6 +133187,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "02:50 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 130,
+      "available": 130,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Shesha 2016 [2D | Kannada]": [
@@ -132913,6 +133407,19 @@
       "audi": "AUDI 05",
       "totalSeats": 105,
       "available": 105,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "01:30 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 252,
+      "available": 252,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -134541,6 +135048,19 @@
       "audi": "AUDI 08",
       "totalSeats": 201,
       "available": 201,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "07:00 PM",
+      "audi": "SCREEN 1",
+      "totalSeats": 252,
+      "available": 252,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -138124,10 +138644,10 @@
       "time": "08:00 PM",
       "audi": "Screen 7",
       "totalSeats": 146,
-      "available": 146,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 144,
+      "sold": 2,
+      "gross": 298,
+      "occupancy": "1.37%"
     }
   ],
   "Wuthering Heights [2D | English]": [
@@ -142069,6 +142589,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "07:50 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 130,
+      "available": 130,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "ChaariKaandha [2D | Odia]": [
@@ -143987,6 +144520,58 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "03:45 PM",
+      "audi": "SCREEN 2",
+      "totalSeats": 312,
+      "available": 312,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "12:05 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 130,
+      "available": 130,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "05:50 PM",
+      "audi": "INSIGNIA 5",
+      "totalSeats": 29,
+      "available": 29,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "10:00 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 130,
+      "available": 130,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Second Case of Seetharam [2D | Kannada]": [
@@ -145327,6 +145912,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Jalandhar",
+      "state": "Punjab",
+      "venue": "PVR Friends, Jalandhar",
+      "chain": "PVR",
+      "time": "04:35 PM",
+      "audi": "AUDI-05",
+      "totalSeats": 102,
+      "available": 102,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Theri [2D | Tamil]": [
@@ -145339,6 +145937,21 @@
       "audi": "AUDI 6",
       "totalSeats": 228,
       "available": 228,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    }
+  ],
+  "Jayakrishna [2D | Kannada]": [
+    {
+      "city": "Tumakuru",
+      "state": "Karnataka",
+      "venue": "INOX S Mall, Sira Road, Tumakuru",
+      "chain": "PVR",
+      "time": "05:25 PM",
+      "audi": "SCREEN 4",
+      "totalSeats": 130,
+      "available": 130,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
