@@ -1,13 +1,4 @@
 [
-    {
-    "movie": "Dhurandhar: The Revenge",
-    "language": "Hindi",
-    "id": 211577,
-    "runtime": 134,
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/dhurandar-2-poster-1-2005a5a0-00ce-11f1-a70b-e7d8705d67bf.jpeg",
-    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat",
-    "cityCount": 1000
-  },
   {
     "movie": "The Bride!",
     "language": "English",
@@ -20,6 +11,17 @@
     "cityCount": 25
   },
   {
+    "movie": "Dhurandhar: The Revenge",
+    "language": "Hindi",
+    "movieCode": "V833gYZof7",
+    "id": 211577,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/dhurandar-2-poster-(1)-60ccc9a0-00cf-11f1-b8b0-2b577ac181d3.jpg",
+    "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat",
+    "cityCount": 24
+  },
+  {
     "movie": "The Kerala Story 2: Goes Beyond",
     "language": "Hindi",
     "movieCode": "TCQXhNG~WY",
@@ -30,7 +32,6 @@
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Jaipur, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat",
     "cityCount": 23
   },
-
   {
     "movie": "Demon Slayer - Kimetsu no Yaiba - The Movie: Infinity Castle",
     "language": "Japanese",
@@ -76,28 +77,6 @@
     "cityCount": 17
   },
   {
-    "movie": "Charak: Fair of Faith",
-    "language": "Hindi",
-    "movieCode": "QcnT8suZ~T",
-    "id": 211773,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Charak-9d327400-eaf2-11f0-9564-3ffad3b170d8.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
-    "cityCount": 17
-  },
-  {
-    "movie": "Hasee Toh Phasee",
-    "language": "Hindi",
-    "movieCode": "b6iI4z47wG",
-    "id": 138884,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Hasee-Toh-Phasee-45e68bf0-16fd-11f1-bcf8-ab18fbaf2c04.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Nashik, Patna, Surat",
-    "cityCount": 17
-  },
-  {
     "movie": "Hoppers",
     "language": "English",
     "movieCode": "~j7VCRgm3C",
@@ -105,7 +84,7 @@
     "runtime": 134,
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hoppers_Poster%20(1)-c4f6c5c0-13f8-11f1-ae4f-7f58f1a219c2.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Visakhapatnam",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Chennai, Coimbatore, Goa, Guntur, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Visakhapatnam",
     "cityCount": 17
   },
   {
@@ -131,6 +110,17 @@
     "cityCount": 17
   },
   {
+    "movie": "Charak: Fair of Faith",
+    "language": "Hindi",
+    "movieCode": "QcnT8suZ~T",
+    "id": 211773,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Charak-9d327400-eaf2-11f0-9564-3ffad3b170d8.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
+    "cityCount": 16
+  },
+  {
     "movie": "Do Deewane Seher Mein",
     "language": "Hindi",
     "movieCode": "IfULA420i2O",
@@ -138,6 +128,17 @@
     "runtime": 134,
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Do-Deewane-Seher-Mein_Poster-d3e10b70-c82d-11f0-9699-a316b2b9fdd5.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
+    "cityCount": 16
+  },
+  {
+    "movie": "Hasee Toh Phasee",
+    "language": "Hindi",
+    "movieCode": "b6iI4z47wG",
+    "id": 138884,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Hasee-Toh-Phasee-45e68bf0-16fd-11f1-bcf8-ab18fbaf2c04.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Patna, Surat",
     "cityCount": 16
   },
@@ -162,17 +163,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Tu-Yaa-Main_Poster-e79bbd00-071f-11f1-89d1-59113cf5f61f.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Mumbai, Nagpur, Nashik, Surat",
     "cityCount": 16
-  },
-  {
-    "movie": "Goat",
-    "language": "English",
-    "movieCode": "uOpaN9bdBZ",
-    "id": 204019,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a.jpeg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Nagpur, Nashik",
-    "cityCount": 15
   },
   {
     "movie": "ICC Men's T20 World Cup Final 2026 : India Vs New Zealand",
@@ -219,17 +209,6 @@
     "cityCount": 14
   },
   {
-    "movie": "Return to Silent Hill",
-    "language": "English",
-    "movieCode": "3RwBhyq~bR",
-    "id": 210903,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Return%20To%20slient%20hill-0763c310-1843-11f1-8149-97bd0c841aa8.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nagpur, Patna",
-    "cityCount": 14
-  },
-  {
     "movie": "Sambhavam Adhyayam Onnu",
     "language": "Malayalam",
     "movieCode": "trWDydSjVW",
@@ -263,6 +242,17 @@
     "cityCount": 13
   },
   {
+    "movie": "Goat",
+    "language": "English",
+    "movieCode": "uOpaN9bdBZ",
+    "id": 204019,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goat-7f0191d0-0b29-11f1-a988-c38524b34d4a.jpeg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Kolkata, Mumbai, Nagpur",
+    "cityCount": 13
+  },
+  {
     "movie": "ICC Men's T20 Cricket World Cup 2026: India Vs Pakistan",
     "language": "Hindi",
     "movieCode": "EKc8NDHckh",
@@ -282,6 +272,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Ind-vs-WI-0de30aa0-13a9-11f1-8a9b-67d5d8e1e293.jpg",
     "city": "Ahmedabad, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Kota, Mumbai, Nagpur, Nashik, Patna, Surat",
+    "cityCount": 13
+  },
+  {
+    "movie": "Return to Silent Hill",
+    "language": "English",
+    "movieCode": "3RwBhyq~bR",
+    "id": 210903,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Return%20To%20slient%20hill-0763c310-1843-11f1-8149-97bd0c841aa8.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Nagpur",
     "cityCount": 13
   },
   {
@@ -335,7 +336,7 @@
     "id": 175956,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/f1----bf5df720-4dae-11f0-bdae-31cf0cb4d840.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/F1-e8821860-41ed-11f0-aa9f-8fefdb33bbbf.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat",
     "cityCount": 12
   },
@@ -424,7 +425,7 @@
     "runtime": 134,
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Hoppers_Poster-ff579060-e4a9-11f0-9d8b-976c178b22aa-702faae0-1621-11f1-b59c-f9d011e9ffe4.jpg",
-    "city": "Ahmedabad, Amritsar, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kota, Surat",
+    "city": "Ahmedabad, Amritsar, Bhopal, Delhi/NCR, Gandhinagar, Jaipur, Kota, Patna, Surat",
     "cityCount": 9
   },
   {
@@ -516,6 +517,17 @@
     "cityCount": 8
   },
   {
+    "movie": "Avatar: Fire and Ash",
+    "language": "English",
+    "movieCode": "ZijYCsa3f",
+    "id": 165236,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
+    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Jaipur, Kochi, Mumbai",
+    "cityCount": 7
+  },
+  {
     "movie": "Marty Supreme",
     "language": "English",
     "movieCode": "~MARajPYis",
@@ -538,14 +550,14 @@
     "cityCount": 7
   },
   {
-    "movie": "Sampradayini Suppini Suddapoosani",
-    "language": "Telugu",
-    "movieCode": "yb_6NllOYL",
-    "id": 215828,
+    "movie": "Sinners",
+    "language": "English",
+    "movieCode": "51tlGHjbh",
+    "id": 178434,
     "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sampradayini-Suppini-Suddapoosani-poster-12350c60-1148-11f1-a57b-5bff48fad14c-3eb336e0-1616-11f1-a370-552901dd49f2.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Guntur, Hyderabad, Mumbai, Visakhapatnam",
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sinners--1da20680-19b8-11f0-ab4a-67800b48f84f.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur",
     "cityCount": 7
   },
   {
@@ -579,17 +591,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/portrait-Recovered%20(1)-dcba8170-c9fb-11f0-9414-21b2dff05f05.jpg",
     "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Surat",
-    "cityCount": 6
-  },
-  {
-    "movie": "Avatar: Fire and Ash",
-    "language": "English",
-    "movieCode": "ZijYCsa3f",
-    "id": 165236,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-58ded950-d8e7-11f0-9662-475bebf1544b.jpg",
-    "city": "Bangalore, Bengaluru, Delhi/NCR, Hyderabad, Kochi, Mumbai",
     "cityCount": 6
   },
   {
@@ -681,14 +682,14 @@
     "cityCount": 6
   },
   {
-    "movie": "Sinners",
-    "language": "English",
-    "movieCode": "51tlGHjbh",
-    "id": 178434,
+    "movie": "Sampradayini Suppini Suddapoosani",
+    "language": "Telugu",
+    "movieCode": "yb_6NllOYL",
+    "id": 215828,
     "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sinners--1da20680-19b8-11f0-ab4a-67800b48f84f.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Hyderabad",
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Sampradayini-Suppini-Suddapoosani-poster-12350c60-1148-11f1-a57b-5bff48fad14c-3eb336e0-1616-11f1-a370-552901dd49f2.jpg",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 6
   },
   {
@@ -810,6 +811,17 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Eternal-Sunshine-of-the-Spotless-Mind--eba04710-121c-11f1-a167-83106f645576.jpg",
     "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Kolkata, Mumbai",
+    "cityCount": 5
+  },
+  {
+    "movie": "Lagan Laagii Re",
+    "language": "Gujarati",
+    "movieCode": "2BTkFx1QtS",
+    "id": 213262,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lagan-Laagii-Re-0c28a480-f13b-11f0-9a66-7b56b9e75148.jpg",
+    "city": "Ahmedabad, Gandhinagar, Kolkata, Mumbai, Surat",
     "cityCount": 5
   },
   {
@@ -945,17 +957,6 @@
     "cityCount": 4
   },
   {
-    "movie": "Avatar: Fire and Ash",
-    "language": "Hindi",
-    "movieCode": "9wmMB4IePt",
-    "id": 165236,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-35674ce0-d8e8-11f0-b537-3559512aba67.jpg",
-    "city": "Ahmedabad, Gandhinagar, Jaipur, Surat",
-    "cityCount": 4
-  },
-  {
     "movie": "Band Baaja Baaraat",
     "language": "Hindi",
     "movieCode": "k3O4WoVs4",
@@ -1044,6 +1045,17 @@
     "cityCount": 4
   },
   {
+    "movie": "Kanchana",
+    "language": "Telugu",
+    "movieCode": "MerF23XLFb",
+    "id": 216577,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kanchana%20(2011)-00008840-18b8-11f1-83b2-a15e9fd5a2b4.jpg",
+    "city": "Bangalore, Bengaluru, Guntur, Hyderabad",
+    "cityCount": 4
+  },
+  {
     "movie": "Laagni No Melo",
     "language": "Gujarati",
     "movieCode": "I75TzhwUcL",
@@ -1051,17 +1063,6 @@
     "runtime": 134,
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Untitled-1Laagi-No-Melo-2b9192e0-096a-11f1-9391-574c79a47ab2-8206fed0-10a9-11f1-8f1d-97b5121f4c4d.jpg",
-    "city": "Ahmedabad, Gandhinagar, Mumbai, Surat",
-    "cityCount": 4
-  },
-  {
-    "movie": "Lagan Laagii Re",
-    "language": "Gujarati",
-    "movieCode": "2BTkFx1QtS",
-    "id": 213262,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Lagan-Laagii-Re-0c28a480-f13b-11f0-9a66-7b56b9e75148.jpg",
     "city": "Ahmedabad, Gandhinagar, Mumbai, Surat",
     "cityCount": 4
   },
@@ -1209,6 +1210,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Avatar: Fire and Ash",
+    "language": "Hindi",
+    "movieCode": "9wmMB4IePt",
+    "id": 165236,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Avatar_Poster-35674ce0-d8e8-11f0-b537-3559512aba67.jpg",
+    "city": "Ahmedabad, Gandhinagar, Surat",
+    "cityCount": 3
+  },
+  {
     "movie": "Baahubali The Epic",
     "language": "Hindi",
     "movieCode": "lqtI~RnAcu",
@@ -1239,17 +1251,6 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Bambukat-2-fcef6190-fde5-11f0-a7dc-95ca58c8a6f8.jpg",
     "city": "Amritsar, Chandigarh, Delhi/NCR",
-    "cityCount": 3
-  },
-  {
-    "movie": "Batt Koch",
-    "language": "Kashmiri",
-    "movieCode": "Jqo~oOg~pG",
-    "id": 215362,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Gemini_Generated_Image_5sjar05sjar05sja1-f88efa90-0a4f-11f1-93b7-dfebd93b5e1b.jpeg",
-    "city": "Chandigarh, Delhi/NCR, Hyderabad",
     "cityCount": 3
   },
   {
@@ -1528,6 +1529,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Batt Koch",
+    "language": "Kashmiri",
+    "movieCode": "Jqo~oOg~pG",
+    "id": 215362,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Gemini_Generated_Image_5sjar05sjar05sja1-f88efa90-0a4f-11f1-93b7-dfebd93b5e1b.jpeg",
+    "city": "Delhi/NCR, Hyderabad",
+    "cityCount": 2
+  },
+  {
     "movie": "Ravanaprabhu",
     "language": "Malayalam",
     "movieCode": "5t4S8x5A23",
@@ -1602,6 +1614,17 @@
     "rating": "TBA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/dhurandar-2-poster-(1)-40d30ec0-00cf-11f1-8848-9390cc6bf8a5.jpg",
     "city": "Coimbatore",
+    "cityCount": 1
+  },
+  {
+    "movie": "Premikudu",
+    "language": "Telugu",
+    "movieCode": "UaMNyj_DN",
+    "id": 172870,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Premikudu--608x800-549462f0-046a-11ef-90dc-a7ba56aa725d.jpg",
+    "city": "Guntur",
     "cityCount": 1
   },
   {
@@ -4310,17 +4333,6 @@
     "cityCount": 3
   },
   {
-    "movie": "Kanchana",
-    "language": "Telugu",
-    "movieCode": "MerF23XLFb",
-    "id": 216577,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Kanchana%20(2011)-00008840-18b8-11f1-83b2-a15e9fd5a2b4.jpg",
-    "city": "Bangalore, Bengaluru, Hyderabad",
-    "cityCount": 3
-  },
-  {
     "movie": "Laalo - Krishna Sada Sahaayate",
     "language": "Gujarati",
     "movieCode": "1je04xQI1c",
@@ -4483,17 +4495,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Rippan-Swaamy-35ffb170-8266-11f0-83ad-4b9786be9938.jpg",
     "city": "Bangalore, Bengaluru, Mangaluru",
-    "cityCount": 3
-  },
-  {
-    "movie": "Shakti",
-    "language": "Gujarati",
-    "movieCode": "ES5UUf8_oe",
-    "id": 215685,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Shakti-969a3480-122e-11f1-aade-1359edf51e76.jpg",
-    "city": "Ahmedabad, Gandhinagar, Surat",
     "cityCount": 3
   },
   {
@@ -7694,6 +7695,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/September-10_Poster-a9171480-8d44-11f0-b1dc-6d97de8b9575.jpg",
     "city": "Bangalore, Bengaluru",
+    "cityCount": 2
+  },
+  {
+    "movie": "Shakti",
+    "language": "Gujarati",
+    "movieCode": "ES5UUf8_oe",
+    "id": 215685,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Shakti-969a3480-122e-11f1-aade-1359edf51e76.jpg",
+    "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
   },
   {
