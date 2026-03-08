@@ -1,38 +1,38 @@
 {
   "Kanchana [2D | Telugu]": {
-    "shows": 46,
-    "gross": 947700,
-    "sold": 7103,
-    "totalSeats": 23249,
-    "venues": 12,
-    "cities": 7,
-    "fastfilling": 4,
+    "shows": 50,
+    "gross": 1091278,
+    "sold": 8150,
+    "totalSeats": 24857,
+    "venues": 13,
+    "cities": 8,
+    "fastfilling": 8,
     "housefull": 5,
-    "occupancy": 30.55,
+    "occupancy": 32.79,
     "details": [
       {
         "city": "Hyderabad",
         "state": "Telangana",
         "venues": 4,
         "shows": 17,
-        "gross": 845290,
-        "sold": 6205,
+        "gross": 847240,
+        "sold": 6223,
         "totalSeats": 11032,
         "fastfilling": 4,
         "housefull": 5,
-        "occupancy": 56.25
+        "occupancy": 56.41
       },
       {
         "city": "Guntur",
         "state": "Andhra Pradesh",
         "venues": 3,
         "shows": 13,
-        "gross": 3540,
-        "sold": 20,
+        "gross": 3940,
+        "sold": 24,
         "totalSeats": 4530,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.44
+        "occupancy": 0.53
       },
       {
         "city": "Vijayawada",
@@ -93,6 +93,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 7.84
+      },
+      {
+        "city": "Srikakulam",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 141228,
+        "sold": 1025,
+        "totalSeats": 1608,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 63.74
       }
     ],
     "Chain_details": [
@@ -122,34 +134,34 @@
         "chain": "TicketNew",
         "venues": 2,
         "shows": 8,
-        "gross": 28800,
-        "sold": 192,
+        "gross": 29000,
+        "sold": 194,
         "totalSeats": 4308,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 4.46
+        "occupancy": 4.5
       },
       {
         "chain": "Justickets",
         "venues": 4,
         "shows": 12,
-        "gross": 409432,
-        "sold": 3287,
+        "gross": 409632,
+        "sold": 3290,
         "totalSeats": 6863,
         "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 47.89
+        "occupancy": 47.94
       },
       {
         "chain": "SVC Sangeetha",
         "venues": 1,
         "shows": 4,
-        "gross": 192350,
-        "sold": 1532,
+        "gross": 194100,
+        "sold": 1547,
         "totalSeats": 3368,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 45.49
+        "occupancy": 45.93
       },
       {
         "chain": "Mohan Theatre",
@@ -177,12 +189,23 @@
         "chain": "Sri Saraswathi Picture Palace",
         "venues": 1,
         "shows": 4,
-        "gross": 0,
-        "sold": 0,
+        "gross": 200,
+        "sold": 2,
         "totalSeats": 1540,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 0.13
+      },
+      {
+        "chain": "Maruthi Movie Max",
+        "venues": 1,
+        "shows": 4,
+        "gross": 141228,
+        "sold": 1025,
+        "totalSeats": 1608,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 63.74
       }
     ]
   },
@@ -388,5 +411,5 @@
     ]
   },
   "date": "2026-03-13",
-  "lastUpdated": "12:32 PM, 08 March 2026"
+  "lastUpdated": "03:15 PM, 08 March 2026"
 }
