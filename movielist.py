@@ -136,12 +136,19 @@ def build_movielist(start_date="2025-09-01"):
 
             else:
 
-                if not movie_dict[dict_key].get("customstart"):
+                start_existing = movie_dict[dict_key]["start"]
+
+                # If custom start date → ignore earlier server dates
+                if movie_dict[dict_key].get("customstart"):
+                    if date_str < start_existing:
+                        continue
+                else:
                     movie_dict[dict_key]["start"] = min(
-                        movie_dict[dict_key]["start"],
+                        start_existing,
                         date_str
                     )
 
+                # End date should update normally
                 movie_dict[dict_key]["end"] = max(
                     movie_dict[dict_key]["end"],
                     date_str
