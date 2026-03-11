@@ -1,6 +1,7 @@
 import json
 import requests
 import os
+import re
 from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
@@ -13,15 +14,25 @@ OUTPUT_FILE = "movielist.json"
 IST = timezone(timedelta(hours=5, minutes=30))
 
 # =====================================================
-# TIME HELPERS
+# TIME
 # =====================================================
 def today_ist():
     return datetime.now(IST).date()
 
 # =====================================================
-# FETCH JSON
+# NORMALIZE MOVIE NAME (REMOVE PUNCTUATION)
+# =====================================================
+def normalize_movie(name):
+    name = name.lower()
+    name = re.sub(r'[:\-]', '', name)
+    name = re.sub(r'\s+', ' ', name)
+    return name.strip()
+
+# =====================================================
+# FETCH DAILY JSON
 # =====================================================
 def fetch_daily_json(date_str):
+
     url = f"{BASE_URL}/{quote(date_str)}.json"
 
     try:
@@ -34,13 +45,12 @@ def fetch_daily_json(date_str):
     return None
 
 # =====================================================
-# MOVIE KEY PARSER
+# PARSE MOVIE KEY
 # =====================================================
 def parse_movie_key(key):
 
     key = key.strip()
 
-    # New format → Movie [Format | Language]
     if "[" in key and "]" in key:
         base = key.split("[", 1)[0].strip()
         inside = key.split("[", 1)[1].split("]", 1)[0]
@@ -48,7 +58,6 @@ def parse_movie_key(key):
         lang = parts[-1]
         return base, lang
 
-    # Old format → Movie | Language
     if "|" in key:
         base, lang = [p.strip() for p in key.split("|", 1)]
         return base, lang
@@ -62,12 +71,13 @@ def build_movielist(start_date="2025-09-01"):
 
     movie_dict = {}
 
-    # -------------------------------------------------
-    # LOAD EXISTING FILE (SAFE MERGE)
-    # -------------------------------------------------
+    # ---------------------------------------------
+    # LOAD EXISTING
+    # ---------------------------------------------
     if os.path.exists(OUTPUT_FILE):
 
         try:
+
             with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
 
                 old = json.load(f)
@@ -87,9 +97,9 @@ def build_movielist(start_date="2025-09-01"):
         except Exception:
             pass
 
-    # -------------------------------------------------
+    # ---------------------------------------------
     # DATE RANGE
-    # -------------------------------------------------
+    # ---------------------------------------------
     start = datetime.strptime(start_date, "%Y-%m-%d").date()
     end = today_ist() + timedelta(days=5)
 
@@ -114,9 +124,6 @@ def build_movielist(start_date="2025-09-01"):
 
             dict_key = f"{movie}__{lang}"
 
-            # -----------------------------------------
-            # NEW MOVIE
-            # -----------------------------------------
             if dict_key not in movie_dict:
 
                 movie_dict[dict_key] = {
@@ -127,20 +134,14 @@ def build_movielist(start_date="2025-09-01"):
                     "customstart": False
                 }
 
-            # -----------------------------------------
-            # UPDATE EXISTING
-            # -----------------------------------------
             else:
 
-                # update start only if NOT custom
                 if not movie_dict[dict_key].get("customstart"):
-
                     movie_dict[dict_key]["start"] = min(
                         movie_dict[dict_key]["start"],
                         date_str
                     )
 
-                # end always updates
                 movie_dict[dict_key]["end"] = max(
                     movie_dict[dict_key]["end"],
                     date_str
@@ -149,11 +150,32 @@ def build_movielist(start_date="2025-09-01"):
         current += timedelta(days=1)
 
     # -------------------------------------------------
+    # DEDUPLICATE MOVIES (REMOVE COLON DUPLICATES)
+    # -------------------------------------------------
+    grouped = {}
+
+    for info in movie_dict.values():
+
+        norm = normalize_movie(info["movie"])
+        lang_key = ",".join(sorted(info["languages"]))
+        group_key = f"{norm}__{lang_key}"
+
+        if group_key not in grouped:
+            grouped[group_key] = info
+        else:
+
+            existing = grouped[group_key]
+
+            # prefer version WITHOUT colon
+            if ":" in existing["movie"] and ":" not in info["movie"]:
+                grouped[group_key] = info
+
+    # -------------------------------------------------
     # FINAL LIST
     # -------------------------------------------------
     movies = []
 
-    for info in movie_dict.values():
+    for info in grouped.values():
 
         item = {
             "movie": info["movie"],
@@ -167,7 +189,7 @@ def build_movielist(start_date="2025-09-01"):
         movies.append(item)
 
     # -------------------------------------------------
-    # SORTING
+    # SORT
     # -------------------------------------------------
     def sort_key(item):
 
