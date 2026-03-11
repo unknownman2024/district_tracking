@@ -1,7 +1,6 @@
 import json
 import requests
 import os
-import re
 from datetime import datetime, timedelta, timezone
 from urllib.parse import quote
 
@@ -24,24 +23,20 @@ def today_ist():
 # =====================================================
 def fetch_daily_json(date_str):
     url = f"{BASE_URL}/{quote(date_str)}.json"
+
     try:
         r = requests.get(url, timeout=15)
         if r.status_code == 200:
             return r.json()
     except Exception:
         pass
+
     return None
 
 # =====================================================
-# MOVIE KEY PARSER (OLD + NEW)
+# MOVIE KEY PARSER
 # =====================================================
 def parse_movie_key(key):
-    """
-    Supports:
-    1) Dhurandhar | Hindi
-    2) Avatar: Fire and Ash [3D | Hindi]
-    3) Movie [Hindi]
-    """
 
     key = key.strip()
 
@@ -50,7 +45,7 @@ def parse_movie_key(key):
         base = key.split("[", 1)[0].strip()
         inside = key.split("[", 1)[1].split("]", 1)[0]
         parts = [p.strip() for p in inside.split("|")]
-        lang = parts[-1]  # always LAST → ignore format
+        lang = parts[-1]
         return base, lang
 
     # Old format → Movie | Language
@@ -65,82 +60,120 @@ def parse_movie_key(key):
 # =====================================================
 def build_movielist(start_date="2025-09-01"):
 
-    # ---------------------------------------------
-    # LOAD EXISTING FILE (SAFE MERGE)
-    # ---------------------------------------------
     movie_dict = {}
 
+    # -------------------------------------------------
+    # LOAD EXISTING FILE (SAFE MERGE)
+    # -------------------------------------------------
     if os.path.exists(OUTPUT_FILE):
+
         try:
             with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+
                 old = json.load(f)
+
                 for m in old.get("movies", []):
+
                     key = f'{m["movie"]}__{",".join(m["languages"])}'
+
                     movie_dict[key] = {
                         "movie": m["movie"],
                         "languages": set(m["languages"]),
                         "start": m["dates"][0],
                         "end": m["dates"][1],
+                        "customstart": m.get("customstartdate", False)
                     }
+
         except Exception:
             pass
 
-    # ---------------------------------------------
+    # -------------------------------------------------
     # DATE RANGE
-    # ---------------------------------------------
+    # -------------------------------------------------
     start = datetime.strptime(start_date, "%Y-%m-%d").date()
     end = today_ist() + timedelta(days=5)
 
     current = start
+
     while current <= end:
+
         date_str = current.isoformat()
 
         data = fetch_daily_json(date_str)
+
         if not data:
             current += timedelta(days=1)
             continue
 
         for raw_key in data.keys():
+
             if raw_key in ("date", "lastUpdated"):
                 continue
 
             movie, lang = parse_movie_key(raw_key)
+
             dict_key = f"{movie}__{lang}"
 
+            # -----------------------------------------
+            # NEW MOVIE
+            # -----------------------------------------
             if dict_key not in movie_dict:
+
                 movie_dict[dict_key] = {
                     "movie": movie,
                     "languages": {lang},
                     "start": date_str,
                     "end": date_str,
+                    "customstart": False
                 }
+
+            # -----------------------------------------
+            # UPDATE EXISTING
+            # -----------------------------------------
             else:
-                movie_dict[dict_key]["start"] = min(
-                    movie_dict[dict_key]["start"], date_str
-                )
+
+                # update start only if NOT custom
+                if not movie_dict[dict_key].get("customstart"):
+
+                    movie_dict[dict_key]["start"] = min(
+                        movie_dict[dict_key]["start"],
+                        date_str
+                    )
+
+                # end always updates
                 movie_dict[dict_key]["end"] = max(
-                    movie_dict[dict_key]["end"], date_str
+                    movie_dict[dict_key]["end"],
+                    date_str
                 )
 
         current += timedelta(days=1)
 
-    # ---------------------------------------------
+    # -------------------------------------------------
     # FINAL LIST
-    # ---------------------------------------------
+    # -------------------------------------------------
     movies = []
+
     for info in movie_dict.values():
-        movies.append({
+
+        item = {
             "movie": info["movie"],
             "languages": sorted(info["languages"]),
             "dates": [info["start"], info["end"]],
-        })
+        }
 
-    # ---------------------------------------------
-    # SORTING (SMART)
-    # ---------------------------------------------
+        if info.get("customstart"):
+            item["customstartdate"] = True
+
+        movies.append(item)
+
+    # -------------------------------------------------
+    # SORTING
+    # -------------------------------------------------
     def sort_key(item):
+
         first = datetime.strptime(item["dates"][0], "%Y-%m-%d")
         last = datetime.strptime(item["dates"][1], "%Y-%m-%d")
+
         return (
             -first.year,
             -first.month,
@@ -150,9 +183,9 @@ def build_movielist(start_date="2025-09-01"):
 
     movies.sort(key=sort_key)
 
-    # ---------------------------------------------
+    # -------------------------------------------------
     # SAVE
-    # ---------------------------------------------
+    # -------------------------------------------------
     final = {
         "last_updated": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
         "movies": movies
