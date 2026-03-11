@@ -1,0 +1,14 @@
+/images/*
+  Cache-Control: public, max-age=2592000
+
+/js/*
+  Cache-Control: public, max-age=32000
+
+/css/*
+  Cache-Control: public, max-age=432000
+
+/fonts/*
+  Cache-Control: public, max-age=432000
+
+/*
+  Cache-Control: public, max-age=60
