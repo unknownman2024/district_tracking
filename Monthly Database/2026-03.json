@@ -2,10 +2,10 @@
   "Tere Naam | Hindi": {
     "summary": {
       "shows": 3904.0,
-      "sold": 115062.0,
+      "sold": 115139.0,
       "totalSeats": 787905.0,
-      "gross": 14921614.5,
-      "occupancy": 14.6
+      "gross": 14930523.5,
+      "occupancy": 14.61
     },
     "cities": {
       "Jaipur": {
@@ -24,6 +24,14 @@
         "state": "Uttar Pradesh",
         "occupancy": 63.3
       },
+      "Mumbai": {
+        "shows": 343.0,
+        "sold": 7223.0,
+        "totalSeats": 70916.0,
+        "gross": 1162686.5,
+        "state": "Maharashtra",
+        "occupancy": 10.19
+      },
       "Jodhpur": {
         "shows": 66.0,
         "sold": 10005.0,
@@ -31,14 +39,6 @@
         "gross": 1161410.0,
         "state": "Rajasthan",
         "occupancy": 44.29
-      },
-      "Mumbai": {
-        "shows": 343.0,
-        "sold": 7196.0,
-        "totalSeats": 70916.0,
-        "gross": 1158831.5,
-        "state": "Maharashtra",
-        "occupancy": 10.15
       },
       "Agra": {
         "shows": 58.0,
@@ -50,11 +50,11 @@
       },
       "Pune": {
         "shows": 264.0,
-        "sold": 5585.0,
+        "sold": 5594.0,
         "totalSeats": 44191.0,
-        "gross": 864939.0,
+        "gross": 865767.0,
         "state": "Maharashtra",
-        "occupancy": 12.64
+        "occupancy": 12.66
       },
       "New Delhi": {
         "shows": 253.0,
@@ -92,10 +92,10 @@
     "states": {
       "Maharashtra": {
         "shows": 1104.0,
-        "sold": 26500.0,
+        "sold": 26561.0,
         "totalSeats": 239368.0,
-        "gross": 3970345.5,
-        "occupancy": 11.07
+        "gross": 3977440.5,
+        "occupancy": 11.1
       },
       "Uttar Pradesh": {
         "shows": 504.0,
@@ -120,10 +120,10 @@
       },
       "Gujarat": {
         "shows": 344.0,
-        "sold": 4512.0,
+        "sold": 4528.0,
         "totalSeats": 61924.0,
-        "gross": 661038.0,
-        "occupancy": 7.29
+        "gross": 662852.0,
+        "occupancy": 7.31
       },
       "Madhya Pradesh": {
         "shows": 332.0,
@@ -164,17 +164,17 @@
     "chains": {
       "INOX": {
         "shows": 987.0,
-        "sold": 18561.0,
+        "sold": 18610.0,
         "totalSeats": 181633.0,
-        "gross": 2677194.5,
-        "occupancy": 10.22
+        "gross": 2682564.5,
+        "occupancy": 10.25
       },
       "PVR": {
         "shows": 1013.0,
-        "sold": 16708.0,
+        "sold": 16736.0,
         "totalSeats": 170766.0,
-        "gross": 2583193.0,
-        "occupancy": 9.78
+        "gross": 2586732.0,
+        "occupancy": 9.8
       },
       "Paras": {
         "shows": 44.0,
@@ -306,217 +306,217 @@
       },
       "2026-03-11": {
         "shows": 182.0,
-        "sold": 2631.0,
+        "sold": 2708.0,
         "totalSeats": 35271.0,
-        "gross": 310758.0,
-        "occupancy": 7.46
+        "gross": 319667.0,
+        "occupancy": 7.68
       }
     }
   },
   "The Kerala Story 2 Goes Beyond | Hindi": {
     "summary": {
-      "shows": 47116.0,
-      "sold": 1330046.0,
-      "totalSeats": 10986350.0,
-      "gross": 251279139.24,
-      "occupancy": 12.11
+      "shows": 47117.0,
+      "sold": 1331558.0,
+      "totalSeats": 10986655.0,
+      "gross": 251497146.24,
+      "occupancy": 12.12
     },
     "cities": {
       "Mumbai": {
         "shows": 4140.0,
-        "sold": 139955.0,
-        "totalSeats": 1051061.0,
-        "gross": 29830187.0,
+        "sold": 140514.0,
+        "totalSeats": 1051173.0,
+        "gross": 29911060.0,
         "state": "Maharashtra",
-        "occupancy": 13.32
+        "occupancy": 13.37
       },
       "Bengaluru": {
-        "shows": 1815.0,
-        "sold": 124560.0,
-        "totalSeats": 422203.0,
-        "gross": 23668889.0,
+        "shows": 1816.0,
+        "sold": 124678.0,
+        "totalSeats": 422252.0,
+        "gross": 23691752.0,
         "state": "Karnataka",
-        "occupancy": 29.5
+        "occupancy": 29.53
       },
       "New Delhi": {
         "shows": 2011.0,
-        "sold": 72990.0,
+        "sold": 73034.0,
         "totalSeats": 462303.0,
-        "gross": 17251962.64,
+        "gross": 17257264.64,
         "state": "Delhi",
-        "occupancy": 15.79
+        "occupancy": 15.8
       },
       "Pune": {
         "shows": 1879.0,
-        "sold": 58468.0,
-        "totalSeats": 444106.0,
-        "gross": 12713658.0,
+        "sold": 58647.0,
+        "totalSeats": 444133.0,
+        "gross": 12742802.0,
         "state": "Maharashtra",
-        "occupancy": 13.17
+        "occupancy": 13.2
       },
       "Ahmedabad": {
         "shows": 2125.0,
-        "sold": 46160.0,
-        "totalSeats": 384120.0,
-        "gross": 8802810.0,
+        "sold": 46253.0,
+        "totalSeats": 384161.0,
+        "gross": 8815215.0,
         "state": "Gujarat",
-        "occupancy": 12.02
+        "occupancy": 12.04
       },
       "Surat": {
         "shows": 2191.0,
-        "sold": 44475.0,
-        "totalSeats": 484863.0,
-        "gross": 7691485.0,
+        "sold": 44544.0,
+        "totalSeats": 484899.0,
+        "gross": 7692223.0,
         "state": "Gujarat",
-        "occupancy": 9.17
+        "occupancy": 9.19
       },
       "Ghaziabad": {
         "shows": 995.0,
-        "sold": 39529.0,
+        "sold": 39539.0,
         "totalSeats": 282384.0,
-        "gross": 6221564.0,
+        "gross": 6223050.0,
         "state": "Uttar Pradesh",
         "occupancy": 14.0
       },
       "Indore": {
         "shows": 1055.0,
-        "sold": 33175.0,
+        "sold": 33184.0,
         "totalSeats": 218823.0,
-        "gross": 5902783.0,
+        "gross": 5906374.0,
         "state": "Madhya Pradesh",
         "occupancy": 15.16
       },
       "Jaipur": {
         "shows": 1066.0,
-        "sold": 29237.0,
+        "sold": 29293.0,
         "totalSeats": 294293.0,
-        "gross": 5888108.0,
+        "gross": 5895665.0,
         "state": "Rajasthan",
-        "occupancy": 9.93
+        "occupancy": 9.95
       },
       "Hyderabad": {
         "shows": 1118.0,
-        "sold": 22685.0,
-        "totalSeats": 246188.0,
-        "gross": 5537900.0,
+        "sold": 22715.0,
+        "totalSeats": 246207.0,
+        "gross": 5545900.0,
         "state": "Telangana",
-        "occupancy": 9.21
+        "occupancy": 9.23
       }
     },
     "states": {
       "Maharashtra": {
         "shows": 9769.0,
-        "sold": 321833.0,
-        "totalSeats": 2525666.0,
-        "gross": 64601739.0,
-        "occupancy": 12.74
+        "sold": 322810.0,
+        "totalSeats": 2525805.0,
+        "gross": 64733859.0,
+        "occupancy": 12.78
       },
       "Gujarat": {
         "shows": 9644.0,
-        "sold": 176443.0,
-        "totalSeats": 2082653.0,
-        "gross": 31323690.0,
-        "occupancy": 8.47
+        "sold": 176711.0,
+        "totalSeats": 2082730.0,
+        "gross": 31350008.0,
+        "occupancy": 8.48
       },
       "Uttar Pradesh": {
         "shows": 5843.0,
-        "sold": 184899.0,
+        "sold": 184655.0,
         "totalSeats": 1502883.0,
-        "gross": 29025855.0,
-        "occupancy": 12.3
+        "gross": 29002314.0,
+        "occupancy": 12.29
       },
       "Karnataka": {
-        "shows": 2631.0,
-        "sold": 146065.0,
-        "totalSeats": 636534.0,
-        "gross": 27123512.0,
-        "occupancy": 22.95
+        "shows": 2632.0,
+        "sold": 146193.0,
+        "totalSeats": 636583.0,
+        "gross": 27148275.0,
+        "occupancy": 22.97
       },
       "Delhi": {
         "shows": 2011.0,
-        "sold": 72990.0,
+        "sold": 73034.0,
         "totalSeats": 462303.0,
-        "gross": 17251962.64,
-        "occupancy": 15.79
+        "gross": 17257264.64,
+        "occupancy": 15.8
       },
       "Rajasthan": {
         "shows": 2899.0,
-        "sold": 79635.0,
-        "totalSeats": 720531.0,
-        "gross": 14693795.1,
-        "occupancy": 11.05
+        "sold": 79838.0,
+        "totalSeats": 720536.0,
+        "gross": 14717415.1,
+        "occupancy": 11.08
       },
       "Madhya Pradesh": {
         "shows": 2809.0,
-        "sold": 66766.0,
+        "sold": 66768.0,
         "totalSeats": 608519.0,
-        "gross": 11650376.0,
+        "gross": 11652852.0,
         "occupancy": 10.97
       },
       "Haryana": {
         "shows": 2584.0,
-        "sold": 62549.0,
-        "totalSeats": 507998.0,
-        "gross": 11412158.0,
-        "occupancy": 12.31
+        "sold": 62575.0,
+        "totalSeats": 507994.0,
+        "gross": 11415519.0,
+        "occupancy": 12.32
       },
       "West Bengal": {
         "shows": 1157.0,
-        "sold": 32978.0,
-        "totalSeats": 318037.0,
-        "gross": 6694074.0,
+        "sold": 32990.0,
+        "totalSeats": 318053.0,
+        "gross": 6697548.0,
         "occupancy": 10.37
       },
       "Telangana": {
         "shows": 1235.0,
-        "sold": 24178.0,
-        "totalSeats": 280649.0,
-        "gross": 5830840.0,
-        "occupancy": 8.62
+        "sold": 24214.0,
+        "totalSeats": 280668.0,
+        "gross": 5839740.0,
+        "occupancy": 8.63
       }
     },
     "chains": {
       "PVR": {
         "shows": 8381.0,
-        "sold": 279292.0,
-        "totalSeats": 1827308.0,
-        "gross": 64187824.5,
-        "occupancy": 15.28
+        "sold": 279761.0,
+        "totalSeats": 1827477.0,
+        "gross": 64275893.5,
+        "occupancy": 15.31
       },
       "INOX": {
-        "shows": 8513.0,
-        "sold": 242705.0,
-        "totalSeats": 1986231.0,
-        "gross": 49677919.19,
-        "occupancy": 12.22
+        "shows": 8514.0,
+        "sold": 243442.0,
+        "totalSeats": 1986371.0,
+        "gross": 49783275.19,
+        "occupancy": 12.26
       },
       "Cinepolis": {
         "shows": 4266.0,
-        "sold": 112238.0,
+        "sold": 112243.0,
         "totalSeats": 917045.0,
-        "gross": 23403380.79,
+        "gross": 23401294.79,
         "occupancy": 12.24
       },
       "Miraj": {
         "shows": 2842.0,
-        "sold": 70393.0,
+        "sold": 70746.0,
         "totalSeats": 694463.0,
-        "gross": 11615766.8,
-        "occupancy": 10.14
+        "gross": 11650392.8,
+        "occupancy": 10.19
       },
       "Rajhans": {
         "shows": 2296.0,
-        "sold": 57509.0,
+        "sold": 57497.0,
         "totalSeats": 580220.0,
-        "gross": 9913818.0,
+        "gross": 9905778.0,
         "occupancy": 9.91
       },
       "MovieMax": {
         "shows": 1970.0,
-        "sold": 38159.0,
+        "sold": 38017.0,
         "totalSeats": 565589.0,
-        "gross": 6668548.0,
-        "occupancy": 6.75
+        "gross": 6652952.0,
+        "occupancy": 6.72
       },
       "Abhinay": {
         "shows": 51.0,
@@ -619,11 +619,11 @@
         "occupancy": 13.83
       },
       "2026-03-11": {
-        "shows": 3842.0,
-        "sold": 95662.0,
-        "totalSeats": 887322.0,
-        "gross": 13760700.829999998,
-        "occupancy": 10.78
+        "shows": 3843.0,
+        "sold": 97174.0,
+        "totalSeats": 887627.0,
+        "gross": 13978707.829999998,
+        "occupancy": 10.95
       }
     }
   },
@@ -867,19 +867,19 @@
   "Do Deewane Seher Mein | Hindi": {
     "summary": {
       "shows": 2532.0,
-      "sold": 36863.0,
+      "sold": 36937.0,
       "totalSeats": 389827.0,
-      "gross": 9032813.37,
-      "occupancy": 9.46
+      "gross": 9043825.37,
+      "occupancy": 9.48
     },
     "cities": {
       "Bengaluru": {
         "shows": 157.0,
-        "sold": 3223.0,
+        "sold": 3227.0,
         "totalSeats": 21100.0,
-        "gross": 1110932.0,
+        "gross": 1112128.0,
         "state": "Karnataka",
-        "occupancy": 15.27
+        "occupancy": 15.29
       },
       "New Delhi": {
         "shows": 174.0,
@@ -891,19 +891,19 @@
       },
       "Mumbai": {
         "shows": 198.0,
-        "sold": 3234.0,
+        "sold": 3249.0,
         "totalSeats": 26356.0,
-        "gross": 905075.0,
+        "gross": 907610.0,
         "state": "Maharashtra",
-        "occupancy": 12.27
+        "occupancy": 12.33
       },
       "Pune": {
         "shows": 145.0,
-        "sold": 2721.0,
+        "sold": 2725.0,
         "totalSeats": 20803.0,
-        "gross": 647365.0,
+        "gross": 647947.0,
         "state": "Maharashtra",
-        "occupancy": 13.08
+        "occupancy": 13.1
       },
       "Gurgaon": {
         "shows": 186.0,
@@ -915,11 +915,11 @@
       },
       "Ahmedabad": {
         "shows": 204.0,
-        "sold": 1829.0,
+        "sold": 1844.0,
         "totalSeats": 15133.0,
-        "gross": 504070.0,
+        "gross": 506848.0,
         "state": "Gujarat",
-        "occupancy": 12.09
+        "occupancy": 12.19
       },
       "Surat": {
         "shows": 85.0,
@@ -931,11 +931,11 @@
       },
       "Jaipur": {
         "shows": 132.0,
-        "sold": 1518.0,
+        "sold": 1530.0,
         "totalSeats": 19589.0,
-        "gross": 317267.0,
+        "gross": 318467.0,
         "state": "Rajasthan",
-        "occupancy": 7.75
+        "occupancy": 7.81
       },
       "Kolkata": {
         "shows": 91.0,
@@ -957,10 +957,10 @@
     "states": {
       "Maharashtra": {
         "shows": 435.0,
-        "sold": 7594.0,
+        "sold": 7613.0,
         "totalSeats": 62676.0,
-        "gross": 1918253.0,
-        "occupancy": 12.12
+        "gross": 1921370.0,
+        "occupancy": 12.15
       },
       "Uttar Pradesh": {
         "shows": 358.0,
@@ -971,17 +971,17 @@
       },
       "Karnataka": {
         "shows": 157.0,
-        "sold": 3223.0,
+        "sold": 3227.0,
         "totalSeats": 21100.0,
-        "gross": 1110932.0,
-        "occupancy": 15.27
+        "gross": 1112128.0,
+        "occupancy": 15.29
       },
       "Gujarat": {
         "shows": 397.0,
-        "sold": 4121.0,
+        "sold": 4136.0,
         "totalSeats": 49566.0,
-        "gross": 1045336.0,
-        "occupancy": 8.31
+        "gross": 1048114.0,
+        "occupancy": 8.34
       },
       "Delhi": {
         "shows": 174.0,
@@ -999,17 +999,17 @@
       },
       "Madhya Pradesh": {
         "shows": 202.0,
-        "sold": 2892.0,
+        "sold": 2901.0,
         "totalSeats": 30290.0,
-        "gross": 569434.0,
-        "occupancy": 9.55
+        "gross": 570775.0,
+        "occupancy": 9.58
       },
       "Rajasthan": {
         "shows": 199.0,
-        "sold": 2087.0,
+        "sold": 2108.0,
         "totalSeats": 31762.0,
-        "gross": 426905.0,
-        "occupancy": 6.57
+        "gross": 428933.0,
+        "occupancy": 6.64
       },
       "West Bengal": {
         "shows": 102.0,
@@ -1020,33 +1020,33 @@
       },
       "Chhattisgarh": {
         "shows": 70.0,
-        "sold": 983.0,
+        "sold": 989.0,
         "totalSeats": 13113.0,
-        "gross": 191142.0,
-        "occupancy": 7.5
+        "gross": 191694.0,
+        "occupancy": 7.54
       }
     },
     "chains": {
       "PVR": {
         "shows": 906.0,
-        "sold": 14603.0,
+        "sold": 14637.0,
         "totalSeats": 139219.0,
-        "gross": 3896083.3699999996,
-        "occupancy": 10.49
+        "gross": 3901978.3699999996,
+        "occupancy": 10.51
       },
       "INOX": {
         "shows": 748.0,
-        "sold": 9713.0,
+        "sold": 9741.0,
         "totalSeats": 119556.0,
-        "gross": 2385078.0,
-        "occupancy": 8.12
+        "gross": 2388995.0,
+        "occupancy": 8.15
       },
       "Cinepolis": {
         "shows": 305.0,
-        "sold": 5586.0,
+        "sold": 5598.0,
         "totalSeats": 50867.0,
-        "gross": 1237285.0,
-        "occupancy": 10.98
+        "gross": 1238485.0,
+        "occupancy": 11.01
       },
       "Rajhans": {
         "shows": 28.0,
@@ -1171,29 +1171,29 @@
       },
       "2026-03-11": {
         "shows": 181.0,
-        "sold": 1644.0,
+        "sold": 1718.0,
         "totalSeats": 29241.0,
-        "gross": 286520.0,
-        "occupancy": 5.62
+        "gross": 297532.0,
+        "occupancy": 5.88
       }
     }
   },
   "Assi | Hindi": {
     "summary": {
       "shows": 5704.0,
-      "sold": 102108.0,
-      "totalSeats": 959194.0,
-      "gross": 22640564.150000002,
-      "occupancy": 10.65
+      "sold": 102292.0,
+      "totalSeats": 959208.0,
+      "gross": 22670424.17,
+      "occupancy": 10.66
     },
     "cities": {
       "Mumbai": {
         "shows": 727.0,
-        "sold": 12411.0,
-        "totalSeats": 119818.0,
-        "gross": 3304940.0,
+        "sold": 12492.0,
+        "totalSeats": 119822.0,
+        "gross": 3319590.0,
         "state": "Maharashtra",
-        "occupancy": 10.36
+        "occupancy": 10.43
       },
       "New Delhi": {
         "shows": 438.0,
@@ -1205,11 +1205,11 @@
       },
       "Bengaluru": {
         "shows": 305.0,
-        "sold": 6211.0,
+        "sold": 6221.0,
         "totalSeats": 39342.0,
-        "gross": 1879428.0,
+        "gross": 1881448.0,
         "state": "Karnataka",
-        "occupancy": 15.79
+        "occupancy": 15.81
       },
       "Kolkata": {
         "shows": 291.0,
@@ -1221,11 +1221,11 @@
       },
       "Pune": {
         "shows": 340.0,
-        "sold": 6874.0,
+        "sold": 6910.0,
         "totalSeats": 53368.0,
-        "gross": 1497993.0,
+        "gross": 1503474.0,
         "state": "Maharashtra",
-        "occupancy": 12.88
+        "occupancy": 12.95
       },
       "Gurgaon": {
         "shows": 368.0,
@@ -1237,11 +1237,11 @@
       },
       "Ahmedabad": {
         "shows": 196.0,
-        "sold": 2910.0,
+        "sold": 2933.0,
         "totalSeats": 29312.0,
-        "gross": 706385.0,
+        "gross": 709813.0,
         "state": "Gujarat",
-        "occupancy": 9.93
+        "occupancy": 10.01
       },
       "Lucknow": {
         "shows": 194.0,
@@ -1253,11 +1253,11 @@
       },
       "Noida": {
         "shows": 179.0,
-        "sold": 2232.0,
+        "sold": 2242.0,
         "totalSeats": 27943.0,
-        "gross": 600016.0,
+        "gross": 601016.0,
         "state": "Uttar Pradesh",
-        "occupancy": 7.99
+        "occupancy": 8.02
       },
       "Surat": {
         "shows": 217.0,
@@ -1271,10 +1271,10 @@
     "states": {
       "Maharashtra": {
         "shows": 1400.0,
-        "sold": 23445.0,
-        "totalSeats": 236203.0,
-        "gross": 5760137.0,
-        "occupancy": 9.93
+        "sold": 23582.0,
+        "totalSeats": 236222.0,
+        "gross": 5783178.0,
+        "occupancy": 9.98
       },
       "Delhi": {
         "shows": 438.0,
@@ -1285,9 +1285,9 @@
       },
       "Uttar Pradesh": {
         "shows": 797.0,
-        "sold": 11781.0,
+        "sold": 11791.0,
         "totalSeats": 144284.0,
-        "gross": 2468267.0,
+        "gross": 2469267.0,
         "occupancy": 8.17
       },
       "West Bengal": {
@@ -1299,17 +1299,17 @@
       },
       "Karnataka": {
         "shows": 316.0,
-        "sold": 6307.0,
+        "sold": 6317.0,
         "totalSeats": 42285.0,
-        "gross": 1892515.0,
-        "occupancy": 14.92
+        "gross": 1894535.0,
+        "occupancy": 14.94
       },
       "Gujarat": {
         "shows": 578.0,
-        "sold": 7678.0,
+        "sold": 7705.0,
         "totalSeats": 93268.0,
-        "gross": 1666013.0,
-        "occupancy": 8.23
+        "gross": 1670023.0,
+        "occupancy": 8.26
       },
       "Haryana": {
         "shows": 454.0,
@@ -1320,17 +1320,17 @@
       },
       "Madhya Pradesh": {
         "shows": 376.0,
-        "sold": 5858.0,
-        "totalSeats": 54690.0,
-        "gross": 854875.0,
-        "occupancy": 10.71
+        "sold": 5861.0,
+        "totalSeats": 54685.0,
+        "gross": 855151.0,
+        "occupancy": 10.72
       },
       "Rajasthan": {
         "shows": 175.0,
-        "sold": 2612.0,
+        "sold": 2615.0,
         "totalSeats": 27872.0,
-        "gross": 534055.0,
-        "occupancy": 9.37
+        "gross": 534631.0,
+        "occupancy": 9.38
       },
       "Chhattisgarh": {
         "shows": 127.0,
@@ -1343,23 +1343,23 @@
     "chains": {
       "PVR": {
         "shows": 1625.0,
-        "sold": 33595.0,
+        "sold": 33675.0,
         "totalSeats": 251827.0,
-        "gross": 8637493.13,
-        "occupancy": 13.34
+        "gross": 8650832.15,
+        "occupancy": 13.37
       },
       "INOX": {
         "shows": 1442.0,
-        "sold": 23212.0,
-        "totalSeats": 247661.0,
-        "gross": 5746319.02,
-        "occupancy": 9.37
+        "sold": 23297.0,
+        "totalSeats": 247680.0,
+        "gross": 5760438.02,
+        "occupancy": 9.41
       },
       "Cinepolis": {
         "shows": 882.0,
-        "sold": 16912.0,
+        "sold": 16913.0,
         "totalSeats": 152556.0,
-        "gross": 3651664.0,
+        "gross": 3651814.0,
         "occupancy": 11.09
       },
       "Lali": {
@@ -1392,17 +1392,17 @@
       },
       "Miraj": {
         "shows": 122.0,
-        "sold": 1618.0,
+        "sold": 1624.0,
         "totalSeats": 27644.0,
-        "gross": 318123.0,
-        "occupancy": 5.85
+        "gross": 318675.0,
+        "occupancy": 5.87
       },
       "Wave": {
         "shows": 177.0,
-        "sold": 1636.0,
+        "sold": 1646.0,
         "totalSeats": 42007.0,
-        "gross": 303097.0,
-        "occupancy": 3.89
+        "gross": 304097.0,
+        "occupancy": 3.92
       },
       "MovieTime": {
         "shows": 83.0,
@@ -1485,10 +1485,10 @@
       },
       "2026-03-11": {
         "shows": 477.0,
-        "sold": 6345.0,
-        "totalSeats": 83101.0,
-        "gross": 915212.5399999999,
-        "occupancy": 7.64
+        "sold": 6529.0,
+        "totalSeats": 83115.0,
+        "gross": 945072.5599999999,
+        "occupancy": 7.86
       }
     }
   },
@@ -1809,35 +1809,35 @@
   "Mardaani 3 | Hindi": {
     "summary": {
       "shows": 4050.0,
-      "sold": 86561.0,
-      "totalSeats": 701074.0,
-      "gross": 16414733.749999998,
-      "occupancy": 12.35
+      "sold": 86644.0,
+      "totalSeats": 701090.0,
+      "gross": 16426177.749999998,
+      "occupancy": 12.36
     },
     "cities": {
       "Kolkata": {
         "shows": 345.0,
-        "sold": 6970.0,
+        "sold": 6973.0,
         "totalSeats": 73706.0,
-        "gross": 1608541.0,
+        "gross": 1608486.0,
         "state": "West Bengal",
         "occupancy": 9.46
       },
       "Mumbai": {
         "shows": 333.0,
-        "sold": 4799.0,
+        "sold": 4803.0,
         "totalSeats": 55152.0,
-        "gross": 1224984.0,
+        "gross": 1226280.0,
         "state": "Maharashtra",
-        "occupancy": 8.7
+        "occupancy": 8.71
       },
       "New Delhi": {
         "shows": 230.0,
-        "sold": 4807.0,
+        "sold": 4811.0,
         "totalSeats": 35349.0,
-        "gross": 1216450.0,
+        "gross": 1216875.0,
         "state": "Delhi",
-        "occupancy": 13.6
+        "occupancy": 13.61
       },
       "Agra": {
         "shows": 61.0,
@@ -1881,28 +1881,28 @@
       },
       "Pune": {
         "shows": 193.0,
-        "sold": 3151.0,
+        "sold": 3160.0,
         "totalSeats": 27484.0,
-        "gross": 667704.0,
+        "gross": 670082.0,
         "state": "Maharashtra",
-        "occupancy": 11.46
+        "occupancy": 11.5
       },
       "Ahmedabad": {
         "shows": 215.0,
-        "sold": 3181.0,
-        "totalSeats": 31894.0,
-        "gross": 631376.0,
+        "sold": 3203.0,
+        "totalSeats": 31910.0,
+        "gross": 635366.0,
         "state": "Gujarat",
-        "occupancy": 9.97
+        "occupancy": 10.04
       }
     },
     "states": {
       "Maharashtra": {
         "shows": 726.0,
-        "sold": 17586.0,
+        "sold": 17616.0,
         "totalSeats": 127666.0,
-        "gross": 3329890.0,
-        "occupancy": 13.78
+        "gross": 3335185.0,
+        "occupancy": 13.8
       },
       "Uttar Pradesh": {
         "shows": 545.0,
@@ -1913,24 +1913,24 @@
       },
       "Gujarat": {
         "shows": 1044.0,
-        "sold": 14627.0,
-        "totalSeats": 168733.0,
-        "gross": 2655982.0,
-        "occupancy": 8.67
+        "sold": 14678.0,
+        "totalSeats": 168749.0,
+        "gross": 2662811.0,
+        "occupancy": 8.7
       },
       "West Bengal": {
         "shows": 438.0,
-        "sold": 12189.0,
+        "sold": 12192.0,
         "totalSeats": 92310.0,
-        "gross": 2512494.0,
-        "occupancy": 13.2
+        "gross": 2512439.0,
+        "occupancy": 13.21
       },
       "Delhi": {
         "shows": 230.0,
-        "sold": 4807.0,
+        "sold": 4811.0,
         "totalSeats": 35349.0,
-        "gross": 1216450.0,
-        "occupancy": 13.6
+        "gross": 1216875.0,
+        "occupancy": 13.61
       },
       "Chhattisgarh": {
         "shows": 83.0,
@@ -1941,10 +1941,10 @@
       },
       "Rajasthan": {
         "shows": 187.0,
-        "sold": 2680.0,
+        "sold": 2675.0,
         "totalSeats": 31708.0,
-        "gross": 494451.1,
-        "occupancy": 8.45
+        "gross": 493401.1,
+        "occupancy": 8.44
       },
       "Madhya Pradesh": {
         "shows": 163.0,
@@ -1971,23 +1971,23 @@
     "chains": {
       "PVR": {
         "shows": 1080.0,
-        "sold": 19770.0,
-        "totalSeats": 181112.0,
-        "gross": 4463760.74,
-        "occupancy": 10.92
+        "sold": 19823.0,
+        "totalSeats": 181128.0,
+        "gross": 4471449.74,
+        "occupancy": 10.94
       },
       "INOX": {
         "shows": 1146.0,
-        "sold": 19879.0,
+        "sold": 19901.0,
         "totalSeats": 198832.0,
-        "gross": 4112872.0100000002,
-        "occupancy": 10.0
+        "gross": 4115338.0100000002,
+        "occupancy": 10.01
       },
       "Cinepolis": {
         "shows": 528.0,
-        "sold": 10720.0,
+        "sold": 10723.0,
         "totalSeats": 91401.0,
-        "gross": 2206064.0,
+        "gross": 2206514.0,
         "occupancy": 11.73
       },
       "Dipti": {
@@ -2113,37 +2113,37 @@
       },
       "2026-03-11": {
         "shows": 379.0,
-        "sold": 6501.0,
-        "totalSeats": 67591.0,
-        "gross": 931591.1,
-        "occupancy": 9.62
+        "sold": 6584.0,
+        "totalSeats": 67607.0,
+        "gross": 943035.1,
+        "occupancy": 9.74
       }
     }
   },
   "O'Romeo | Hindi": {
     "summary": {
       "shows": 16091.0,
-      "sold": 280361.0,
-      "totalSeats": 3036973.0,
-      "gross": 54023939.07,
+      "sold": 280441.0,
+      "totalSeats": 3036988.0,
+      "gross": 54035512.07,
       "occupancy": 9.23
     },
     "cities": {
       "New Delhi": {
         "shows": 887.0,
-        "sold": 20407.0,
+        "sold": 20410.0,
         "totalSeats": 164766.0,
-        "gross": 5180776.0,
+        "gross": 5181373.0,
         "state": "Delhi",
         "occupancy": 12.39
       },
       "Mumbai": {
         "shows": 952.0,
-        "sold": 15412.0,
-        "totalSeats": 170294.0,
-        "gross": 3658675.0,
+        "sold": 15445.0,
+        "totalSeats": 170309.0,
+        "gross": 3665262.0,
         "state": "Maharashtra",
-        "occupancy": 9.05
+        "occupancy": 9.07
       },
       "Surat": {
         "shows": 744.0,
@@ -2155,11 +2155,11 @@
       },
       "Pune": {
         "shows": 540.0,
-        "sold": 11210.0,
+        "sold": 11221.0,
         "totalSeats": 103969.0,
-        "gross": 2271296.0,
+        "gross": 2272629.0,
         "state": "Maharashtra",
-        "occupancy": 10.78
+        "occupancy": 10.79
       },
       "Jaipur": {
         "shows": 519.0,
@@ -2171,27 +2171,27 @@
       },
       "Ahmedabad": {
         "shows": 661.0,
-        "sold": 9393.0,
+        "sold": 9405.0,
         "totalSeats": 96906.0,
-        "gross": 1936067.0,
+        "gross": 1938322.0,
         "state": "Gujarat",
-        "occupancy": 9.69
+        "occupancy": 9.71
       },
       "Lucknow": {
         "shows": 627.0,
-        "sold": 10928.0,
+        "sold": 10903.0,
         "totalSeats": 123095.0,
-        "gross": 1920788.0,
+        "gross": 1914208.0,
         "state": "Uttar Pradesh",
-        "occupancy": 8.88
+        "occupancy": 8.86
       },
       "Indore": {
         "shows": 419.0,
-        "sold": 9750.0,
+        "sold": 9761.0,
         "totalSeats": 75641.0,
-        "gross": 1724688.0,
+        "gross": 1726327.0,
         "state": "Madhya Pradesh",
-        "occupancy": 12.89
+        "occupancy": 12.9
       },
       "Gurgaon": {
         "shows": 638.0,
@@ -2213,45 +2213,45 @@
     "states": {
       "Maharashtra": {
         "shows": 2529.0,
-        "sold": 45559.0,
-        "totalSeats": 494326.0,
-        "gross": 9486580.0,
-        "occupancy": 9.22
+        "sold": 45611.0,
+        "totalSeats": 494341.0,
+        "gross": 9495764.0,
+        "occupancy": 9.23
       },
       "Uttar Pradesh": {
         "shows": 2910.0,
-        "sold": 48616.0,
+        "sold": 48591.0,
         "totalSeats": 577936.0,
-        "gross": 8468596.0,
+        "gross": 8462016.0,
         "occupancy": 8.41
       },
       "Gujarat": {
         "shows": 2953.0,
-        "sold": 41085.0,
+        "sold": 41097.0,
         "totalSeats": 495005.0,
-        "gross": 7979677.0,
+        "gross": 7981932.0,
         "occupancy": 8.3
       },
       "Delhi": {
         "shows": 887.0,
-        "sold": 20407.0,
+        "sold": 20410.0,
         "totalSeats": 164766.0,
-        "gross": 5180776.0,
+        "gross": 5181373.0,
         "occupancy": 12.39
       },
       "Rajasthan": {
         "shows": 1438.0,
-        "sold": 28567.0,
+        "sold": 28590.0,
         "totalSeats": 303980.0,
-        "gross": 4859368.5600000005,
-        "occupancy": 9.4
+        "gross": 4861484.5600000005,
+        "occupancy": 9.41
       },
       "Madhya Pradesh": {
         "shows": 1358.0,
-        "sold": 28756.0,
+        "sold": 28779.0,
         "totalSeats": 260513.0,
-        "gross": 4716553.0,
-        "occupancy": 11.04
+        "gross": 4719296.0,
+        "occupancy": 11.05
       },
       "Haryana": {
         "shows": 1114.0,
@@ -2269,10 +2269,10 @@
       },
       "Chhattisgarh": {
         "shows": 315.0,
-        "sold": 7225.0,
+        "sold": 7217.0,
         "totalSeats": 64956.0,
-        "gross": 1399518.0,
-        "occupancy": 11.12
+        "gross": 1400776.0,
+        "occupancy": 11.11
       },
       "Bihar": {
         "shows": 435.0,
@@ -2285,17 +2285,17 @@
     "chains": {
       "PVR": {
         "shows": 2974.0,
-        "sold": 59686.0,
-        "totalSeats": 536303.0,
-        "gross": 13771254.510000002,
+        "sold": 59702.0,
+        "totalSeats": 536318.0,
+        "gross": 13777050.510000002,
         "occupancy": 11.13
       },
       "INOX": {
         "shows": 2994.0,
-        "sold": 55132.0,
+        "sold": 55201.0,
         "totalSeats": 560785.0,
-        "gross": 11073366.56,
-        "occupancy": 9.83
+        "gross": 11081883.56,
+        "occupancy": 9.84
       },
       "Cinepolis": {
         "shows": 1460.0,
@@ -2327,9 +2327,9 @@
       },
       "Miraj": {
         "shows": 532.0,
-        "sold": 7275.0,
+        "sold": 7282.0,
         "totalSeats": 105801.0,
-        "gross": 1123239.0,
+        "gross": 1124618.0,
         "occupancy": 6.88
       },
       "Fun": {
@@ -2341,10 +2341,10 @@
       },
       "Wave": {
         "shows": 384.0,
-        "sold": 5844.0,
+        "sold": 5819.0,
         "totalSeats": 89395.0,
-        "gross": 946107.0,
-        "occupancy": 6.54
+        "gross": 939527.0,
+        "occupancy": 6.51
       },
       "City": {
         "shows": 74.0,
@@ -2427,37 +2427,37 @@
       },
       "2026-03-11": {
         "shows": 1332.0,
-        "sold": 16630.0,
-        "totalSeats": 257217.0,
-        "gross": 2417199.29,
-        "occupancy": 6.47
+        "sold": 16710.0,
+        "totalSeats": 257232.0,
+        "gross": 2428772.29,
+        "occupancy": 6.5
       }
     }
   },
   "Scream 7 | English": {
     "summary": {
       "shows": 3136.0,
-      "sold": 29101.0,
-      "totalSeats": 521014.0,
-      "gross": 7805040.659999998,
+      "sold": 29102.0,
+      "totalSeats": 521008.0,
+      "gross": 7804039.659999998,
       "occupancy": 5.59
     },
     "cities": {
       "Bengaluru": {
         "shows": 564.0,
-        "sold": 4413.0,
+        "sold": 4419.0,
         "totalSeats": 92436.0,
-        "gross": 1459414.0,
+        "gross": 1460408.0,
         "state": "Karnataka",
-        "occupancy": 4.77
+        "occupancy": 4.78
       },
       "Mumbai": {
         "shows": 422.0,
-        "sold": 3600.0,
-        "totalSeats": 74300.0,
-        "gross": 1201249.0,
+        "sold": 3595.0,
+        "totalSeats": 74294.0,
+        "gross": 1199254.0,
         "state": "Maharashtra",
-        "occupancy": 4.85
+        "occupancy": 4.84
       },
       "Chennai": {
         "shows": 164.0,
@@ -2527,16 +2527,16 @@
     "states": {
       "Maharashtra": {
         "shows": 652.0,
-        "sold": 5991.0,
-        "totalSeats": 116620.0,
-        "gross": 1868584.0,
-        "occupancy": 5.14
+        "sold": 5986.0,
+        "totalSeats": 116614.0,
+        "gross": 1866589.0,
+        "occupancy": 5.13
       },
       "Karnataka": {
         "shows": 712.0,
-        "sold": 5186.0,
+        "sold": 5192.0,
         "totalSeats": 117409.0,
-        "gross": 1585873.0,
+        "gross": 1586867.0,
         "occupancy": 4.42
       },
       "Tamil Nadu": {
@@ -2599,10 +2599,10 @@
     "chains": {
       "PVR": {
         "shows": 1280.0,
-        "sold": 13226.0,
+        "sold": 13232.0,
         "totalSeats": 197570.0,
-        "gross": 3837034.1799999992,
-        "occupancy": 6.69
+        "gross": 3838028.1799999992,
+        "occupancy": 6.7
       },
       "INOX": {
         "shows": 895.0,
@@ -2627,10 +2627,10 @@
       },
       "Maison": {
         "shows": 20.0,
-        "sold": 252.0,
-        "totalSeats": 1526.0,
-        "gross": 148983.0,
-        "occupancy": 16.51
+        "sold": 247.0,
+        "totalSeats": 1520.0,
+        "gross": 146988.0,
+        "occupancy": 16.25
       },
       "Rajhans": {
         "shows": 18.0,
@@ -2741,53 +2741,53 @@
       },
       "2026-03-11": {
         "shows": 54.0,
-        "sold": 435.0,
-        "totalSeats": 6954.0,
-        "gross": 96962.2,
-        "occupancy": 6.26
+        "sold": 436.0,
+        "totalSeats": 6948.0,
+        "gross": 95961.2,
+        "occupancy": 6.28
       }
     }
   },
   "Thaai Kizhavi | Tamil": {
     "summary": {
       "shows": 13707.0,
-      "sold": 1012474.0,
-      "totalSeats": 4778086.0,
-      "gross": 148209575.54,
-      "occupancy": 21.19
+      "sold": 1012798.0,
+      "totalSeats": 4778106.0,
+      "gross": 148273298.24,
+      "occupancy": 21.2
     },
     "cities": {
       "Chennai": {
         "shows": 3623.0,
-        "sold": 455218.0,
-        "totalSeats": 1471259.0,
-        "gross": 64335212.29999999,
+        "sold": 455362.0,
+        "totalSeats": 1471279.0,
+        "gross": 64363427.79999999,
         "state": "Tamil Nadu",
-        "occupancy": 30.94
+        "occupancy": 30.95
       },
       "Bengaluru": {
         "shows": 1687.0,
-        "sold": 55683.0,
+        "sold": 55705.0,
         "totalSeats": 340554.0,
-        "gross": 14361991.0,
+        "gross": 14366572.0,
         "state": "Karnataka",
-        "occupancy": 16.35
+        "occupancy": 16.36
       },
       "Coimbatore": {
         "shows": 638.0,
-        "sold": 57782.0,
+        "sold": 57861.0,
         "totalSeats": 165642.0,
-        "gross": 8911866.3,
+        "gross": 8931564.500000002,
         "state": "Tamil Nadu",
-        "occupancy": 34.88
+        "occupancy": 34.93
       },
       "Puducherry": {
         "shows": 273.0,
-        "sold": 47858.0,
+        "sold": 47875.0,
         "totalSeats": 149510.0,
-        "gross": 7169540.0,
+        "gross": 7172030.0,
         "state": "Puducherry",
-        "occupancy": 32.01
+        "occupancy": 32.02
       },
       "Vellore": {
         "shows": 390.0,
@@ -2807,11 +2807,11 @@
       },
       "Tuticorin": {
         "shows": 195.0,
-        "sold": 15513.0,
+        "sold": 15538.0,
         "totalSeats": 65722.0,
-        "gross": 2377850.0,
+        "gross": 2381600.0,
         "state": "Tamil Nadu",
-        "occupancy": 23.6
+        "occupancy": 23.64
       },
       "Salem": {
         "shows": 194.0,
@@ -2823,11 +2823,11 @@
       },
       "Mumbai": {
         "shows": 350.0,
-        "sold": 9219.0,
+        "sold": 9232.0,
         "totalSeats": 77437.0,
-        "gross": 1810544.0,
+        "gross": 1812624.0,
         "state": "Maharashtra",
-        "occupancy": 11.91
+        "occupancy": 11.92
       },
       "Aruppukkottai": {
         "shows": 88.0,
@@ -2841,38 +2841,38 @@
     "states": {
       "Tamil Nadu": {
         "shows": 10097.0,
-        "sold": 863596.0,
-        "totalSeats": 3956839.0,
-        "gross": 118018765.30000001,
+        "sold": 863856.0,
+        "totalSeats": 3956859.0,
+        "gross": 118071709.0,
         "occupancy": 21.83
       },
       "Karnataka": {
         "shows": 1804.0,
-        "sold": 58082.0,
+        "sold": 58104.0,
         "totalSeats": 365206.0,
-        "gross": 14778161.0,
-        "occupancy": 15.9
+        "gross": 14782742.0,
+        "occupancy": 15.91
       },
       "Puducherry": {
         "shows": 273.0,
-        "sold": 47858.0,
+        "sold": 47875.0,
         "totalSeats": 149510.0,
-        "gross": 7169540.0,
-        "occupancy": 32.01
+        "gross": 7172030.0,
+        "occupancy": 32.02
       },
       "Maharashtra": {
         "shows": 616.0,
-        "sold": 15877.0,
+        "sold": 15890.0,
         "totalSeats": 129369.0,
-        "gross": 3261104.0,
-        "occupancy": 12.27
+        "gross": 3263184.0,
+        "occupancy": 12.28
       },
       "Kerala": {
         "shows": 257.0,
-        "sold": 6712.0,
+        "sold": 6735.0,
         "totalSeats": 45895.0,
-        "gross": 1212748.24,
-        "occupancy": 14.62
+        "gross": 1217568.24,
+        "occupancy": 14.67
       },
       "Unknown": {
         "shows": 57.0,
@@ -2883,10 +2883,10 @@
       },
       "Telangana": {
         "shows": 211.0,
-        "sold": 4202.0,
+        "sold": 4187.0,
         "totalSeats": 39359.0,
-        "gross": 812370.0,
-        "occupancy": 10.68
+        "gross": 808470.0,
+        "occupancy": 10.64
       },
       "Andaman And Nicobar Islands": {
         "shows": 65.0,
@@ -2904,33 +2904,33 @@
       },
       "Andhra Pradesh": {
         "shows": 119.0,
-        "sold": 1778.0,
+        "sold": 1782.0,
         "totalSeats": 30788.0,
-        "gross": 288859.0,
-        "occupancy": 5.77
+        "gross": 289567.0,
+        "occupancy": 5.79
       }
     },
     "chains": {
       "PVR": {
         "shows": 2762.0,
-        "sold": 233527.0,
-        "totalSeats": 711362.0,
-        "gross": 40074418.04,
-        "occupancy": 32.83
+        "sold": 233736.0,
+        "totalSeats": 711382.0,
+        "gross": 40112607.69,
+        "occupancy": 32.86
       },
       "INOX": {
         "shows": 1505.0,
-        "sold": 92895.0,
+        "sold": 92957.0,
         "totalSeats": 357152.0,
-        "gross": 16219246.05,
-        "occupancy": 26.01
+        "gross": 16232903.05,
+        "occupancy": 26.03
       },
       "Sri": {
         "shows": 1005.0,
-        "sold": 64603.0,
+        "sold": 64628.0,
         "totalSeats": 412151.0,
-        "gross": 8630485.0,
-        "occupancy": 15.67
+        "gross": 8634235.0,
+        "occupancy": 15.68
       },
       "Cinepolis": {
         "shows": 1037.0,
@@ -2976,10 +2976,10 @@
       },
       "SRK": {
         "shows": 161.0,
-        "sold": 14248.0,
+        "sold": 14237.0,
         "totalSeats": 52270.0,
-        "gross": 2105227.35,
-        "occupancy": 27.26
+        "gross": 2106441.8000000003,
+        "occupancy": 27.24
       }
     },
     "daily": {
@@ -3055,19 +3055,19 @@
       },
       "2026-03-11": {
         "shows": 1143.0,
-        "sold": 55709.0,
-        "totalSeats": 404177.0,
-        "gross": 7137050.229999998,
-        "occupancy": 13.78
+        "sold": 56033.0,
+        "totalSeats": 404197.0,
+        "gross": 7200772.929999999,
+        "occupancy": 13.86
       }
     }
   },
   "Couple Friendly | Telugu": {
     "summary": {
       "shows": 1884.0,
-      "sold": 82527.0,
+      "sold": 82545.0,
       "totalSeats": 517049.0,
-      "gross": 10899320.180000002,
+      "gross": 10902725.180000002,
       "occupancy": 15.96
     },
     "cities": {
@@ -3081,9 +3081,9 @@
       },
       "Hyderabad": {
         "shows": 617.0,
-        "sold": 14814.0,
+        "sold": 14819.0,
         "totalSeats": 148333.0,
-        "gross": 2399900.0,
+        "gross": 2400650.0,
         "state": "Telangana",
         "occupancy": 9.99
       },
@@ -3121,11 +3121,11 @@
       },
       "Vijayawada": {
         "shows": 160.0,
-        "sold": 2062.0,
+        "sold": 2075.0,
         "totalSeats": 37725.0,
-        "gross": 391346.0,
+        "gross": 394001.0,
         "state": "Andhra Pradesh",
-        "occupancy": 5.47
+        "occupancy": 5.5
       },
       "Vizag": {
         "shows": 140.0,
@@ -3155,17 +3155,17 @@
     "states": {
       "Andhra Pradesh": {
         "shows": 926.0,
-        "sold": 59864.0,
+        "sold": 59877.0,
         "totalSeats": 281642.0,
-        "gross": 7364102.0,
+        "gross": 7366757.0,
         "occupancy": 21.26
       },
       "Telangana": {
         "shows": 739.0,
-        "sold": 18698.0,
+        "sold": 18703.0,
         "totalSeats": 199692.0,
-        "gross": 2749530.0,
-        "occupancy": 9.36
+        "gross": 2750280.0,
+        "occupancy": 9.37
       },
       "Karnataka": {
         "shows": 181.0,
@@ -3192,10 +3192,10 @@
       },
       "PVR": {
         "shows": 358.0,
-        "sold": 6905.0,
+        "sold": 6913.0,
         "totalSeats": 63231.0,
-        "gross": 1233262.22,
-        "occupancy": 10.92
+        "gross": 1234897.22,
+        "occupancy": 10.93
       },
       "Sri": {
         "shows": 56.0,
@@ -3213,10 +3213,10 @@
       },
       "INOX": {
         "shows": 347.0,
-        "sold": 5268.0,
+        "sold": 5278.0,
         "totalSeats": 69630.0,
-        "gross": 931077.0999999999,
-        "occupancy": 7.57
+        "gross": 932847.0999999999,
+        "occupancy": 7.58
       },
       "Cinepolis": {
         "shows": 308.0,
@@ -3327,27 +3327,27 @@
       },
       "2026-03-11": {
         "shows": 69.0,
-        "sold": 2215.0,
+        "sold": 2233.0,
         "totalSeats": 14596.0,
-        "gross": 303816.38999999996,
-        "occupancy": 15.18
+        "gross": 307221.38999999996,
+        "occupancy": 15.3
       }
     }
   },
   "Vishnu Vinyasam | Telugu": {
     "summary": {
       "shows": 7302.0,
-      "sold": 628097.0,
+      "sold": 628201.0,
       "totalSeats": 2665630.0,
-      "gross": 79391551.79,
-      "occupancy": 23.56
+      "gross": 79414210.79,
+      "occupancy": 23.57
     },
     "cities": {
       "Hyderabad": {
         "shows": 1924.0,
-        "sold": 154342.0,
+        "sold": 154383.0,
         "totalSeats": 693493.0,
-        "gross": 24445715.0,
+        "gross": 24456565.0,
         "state": "Telangana",
         "occupancy": 22.26
       },
@@ -3361,19 +3361,19 @@
       },
       "Vizag": {
         "shows": 546.0,
-        "sold": 31062.0,
+        "sold": 31091.0,
         "totalSeats": 164085.0,
-        "gross": 3979272.0,
+        "gross": 3984405.0,
         "state": "Andhra Pradesh",
-        "occupancy": 18.93
+        "occupancy": 18.95
       },
       "Warangal": {
         "shows": 119.0,
-        "sold": 26274.0,
+        "sold": 26288.0,
         "totalSeats": 41537.0,
-        "gross": 3502915.0,
+        "gross": 3506415.0,
         "state": "Telangana",
-        "occupancy": 63.25
+        "occupancy": 63.29
       },
       "Karimnagar": {
         "shows": 79.0,
@@ -3393,11 +3393,11 @@
       },
       "Vijayawada": {
         "shows": 340.0,
-        "sold": 7664.0,
+        "sold": 7652.0,
         "totalSeats": 86749.0,
-        "gross": 1590264.0,
+        "gross": 1587668.0,
         "state": "Andhra Pradesh",
-        "occupancy": 8.83
+        "occupancy": 8.82
       },
       "Secunderabad": {
         "shows": 19.0,
@@ -3427,16 +3427,16 @@
     "states": {
       "Telangana": {
         "shows": 2848.0,
-        "sold": 293254.0,
+        "sold": 293309.0,
         "totalSeats": 1140916.0,
-        "gross": 39676010.0,
-        "occupancy": 25.7
+        "gross": 39690360.0,
+        "occupancy": 25.71
       },
       "Andhra Pradesh": {
         "shows": 3585.0,
-        "sold": 263715.0,
+        "sold": 263764.0,
         "totalSeats": 1298387.0,
-        "gross": 29500345.0,
+        "gross": 29508654.0,
         "occupancy": 20.31
       },
       "Karnataka": {
@@ -3520,10 +3520,10 @@
       },
       "PVR": {
         "shows": 905.0,
-        "sold": 22849.0,
+        "sold": 22903.0,
         "totalSeats": 199402.0,
-        "gross": 5151728.9,
-        "occupancy": 11.46
+        "gross": 5165052.9,
+        "occupancy": 11.49
       },
       "Sree": {
         "shows": 103.0,
@@ -3534,16 +3534,16 @@
       },
       "INOX": {
         "shows": 836.0,
-        "sold": 17497.0,
+        "sold": 17548.0,
         "totalSeats": 202579.0,
-        "gross": 3878371.98,
-        "occupancy": 8.64
+        "gross": 3887756.98,
+        "occupancy": 8.66
       },
       "Cinepolis": {
         "shows": 626.0,
-        "sold": 13632.0,
+        "sold": 13631.0,
         "totalSeats": 127773.0,
-        "gross": 3088100.9099999997,
+        "gross": 3088050.9099999997,
         "occupancy": 10.67
       },
       "Annapurna": {
@@ -3641,10 +3641,10 @@
       },
       "2026-03-11": {
         "shows": 417.0,
-        "sold": 23753.0,
+        "sold": 23857.0,
         "totalSeats": 142217.0,
-        "gross": 2931328.9799999995,
-        "occupancy": 16.7
+        "gross": 2953987.9799999995,
+        "occupancy": 16.78
       }
     }
   },
@@ -3977,19 +3977,19 @@
   "Viyaah Kartaare Da | Punjabi": {
     "summary": {
       "shows": 6512.0,
-      "sold": 128300.0,
-      "totalSeats": 1200432.0,
-      "gross": 24469727.08,
+      "sold": 128352.0,
+      "totalSeats": 1200449.0,
+      "gross": 24477022.08,
       "occupancy": 10.69
     },
     "cities": {
       "New Delhi": {
         "shows": 457.0,
-        "sold": 11250.0,
+        "sold": 11255.0,
         "totalSeats": 78103.0,
-        "gross": 2529965.0,
+        "gross": 2530425.0,
         "state": "Delhi",
-        "occupancy": 14.4
+        "occupancy": 14.41
       },
       "Ludhiana": {
         "shows": 423.0,
@@ -4067,10 +4067,10 @@
     "states": {
       "Punjab": {
         "shows": 3582.0,
-        "sold": 68848.0,
+        "sold": 68872.0,
         "totalSeats": 660630.0,
-        "gross": 13219010.0,
-        "occupancy": 10.42
+        "gross": 13221218.0,
+        "occupancy": 10.43
       },
       "Haryana": {
         "shows": 1289.0,
@@ -4081,17 +4081,17 @@
       },
       "Delhi": {
         "shows": 457.0,
-        "sold": 11250.0,
+        "sold": 11255.0,
         "totalSeats": 78103.0,
-        "gross": 2529965.0,
-        "occupancy": 14.4
+        "gross": 2530425.0,
+        "occupancy": 14.41
       },
       "Jammu And Kashmir": {
         "shows": 151.0,
-        "sold": 4476.0,
+        "sold": 4470.0,
         "totalSeats": 33118.0,
-        "gross": 679595.0,
-        "occupancy": 13.52
+        "gross": 679001.0,
+        "occupancy": 13.5
       },
       "Uttar Pradesh": {
         "shows": 281.0,
@@ -4109,10 +4109,10 @@
       },
       "Chandigarh": {
         "shows": 114.0,
-        "sold": 2152.0,
-        "totalSeats": 27557.0,
-        "gross": 516026.0,
-        "occupancy": 7.81
+        "sold": 2181.0,
+        "totalSeats": 27574.0,
+        "gross": 521247.0,
+        "occupancy": 7.91
       },
       "Himachal Pradesh": {
         "shows": 178.0,
@@ -4139,10 +4139,10 @@
     "chains": {
       "PVR": {
         "shows": 1540.0,
-        "sold": 37732.0,
-        "totalSeats": 274701.0,
-        "gross": 8010698.08,
-        "occupancy": 13.74
+        "sold": 37761.0,
+        "totalSeats": 274718.0,
+        "gross": 8015919.08,
+        "occupancy": 13.75
       },
       "Cinepolis": {
         "shows": 378.0,
@@ -4281,10 +4281,10 @@
       },
       "2026-03-11": {
         "shows": 333.0,
-        "sold": 5986.0,
-        "totalSeats": 59307.0,
-        "gross": 874862.0,
-        "occupancy": 10.09
+        "sold": 6038.0,
+        "totalSeats": 59324.0,
+        "gross": 882157.0,
+        "occupancy": 10.18
       }
     }
   },
@@ -5641,19 +5641,19 @@
   "Tu Yaa Main | Hindi": {
     "summary": {
       "shows": 2322.0,
-      "sold": 33455.0,
-      "totalSeats": 367868.0,
-      "gross": 7960523.529999999,
-      "occupancy": 9.09
+      "sold": 33539.0,
+      "totalSeats": 367872.0,
+      "gross": 7978473.529999999,
+      "occupancy": 9.12
     },
     "cities": {
       "Mumbai": {
         "shows": 477.0,
-        "sold": 7320.0,
-        "totalSeats": 85498.0,
-        "gross": 1908953.0,
+        "sold": 7377.0,
+        "totalSeats": 85502.0,
+        "gross": 1923678.0,
         "state": "Maharashtra",
-        "occupancy": 8.56
+        "occupancy": 8.63
       },
       "New Delhi": {
         "shows": 173.0,
@@ -5665,11 +5665,11 @@
       },
       "Pune": {
         "shows": 157.0,
-        "sold": 3000.0,
+        "sold": 3014.0,
         "totalSeats": 25434.0,
-        "gross": 730679.0,
+        "gross": 732537.0,
         "state": "Maharashtra",
-        "occupancy": 11.8
+        "occupancy": 11.85
       },
       "Bengaluru": {
         "shows": 100.0,
@@ -5731,10 +5731,10 @@
     "states": {
       "Maharashtra": {
         "shows": 737.0,
-        "sold": 12186.0,
-        "totalSeats": 127954.0,
-        "gross": 3105114.0,
-        "occupancy": 9.52
+        "sold": 12257.0,
+        "totalSeats": 127958.0,
+        "gross": 3121697.0,
+        "occupancy": 9.58
       },
       "Uttar Pradesh": {
         "shows": 294.0,
@@ -5759,10 +5759,10 @@
       },
       "Gujarat": {
         "shows": 166.0,
-        "sold": 2025.0,
+        "sold": 2028.0,
         "totalSeats": 26999.0,
-        "gross": 450220.0,
-        "occupancy": 7.5
+        "gross": 450496.0,
+        "occupancy": 7.51
       },
       "Himachal Pradesh": {
         "shows": 123.0,
@@ -5787,10 +5787,10 @@
       },
       "Telangana": {
         "shows": 103.0,
-        "sold": 1185.0,
+        "sold": 1193.0,
         "totalSeats": 16657.0,
-        "gross": 201050.0,
-        "occupancy": 7.11
+        "gross": 201850.0,
+        "occupancy": 7.16
       },
       "Madhya Pradesh": {
         "shows": 82.0,
@@ -5803,17 +5803,17 @@
     "chains": {
       "PVR": {
         "shows": 1026.0,
-        "sold": 15258.0,
+        "sold": 15299.0,
         "totalSeats": 162614.0,
-        "gross": 3911524.5300000007,
-        "occupancy": 9.38
+        "gross": 3918196.5300000007,
+        "occupancy": 9.41
       },
       "INOX": {
         "shows": 728.0,
-        "sold": 9096.0,
-        "totalSeats": 125170.0,
-        "gross": 2229518.0,
-        "occupancy": 7.27
+        "sold": 9136.0,
+        "totalSeats": 125174.0,
+        "gross": 2240496.0,
+        "occupancy": 7.3
       },
       "Cinepolis": {
         "shows": 220.0,
@@ -5852,10 +5852,10 @@
       },
       "MovieTime": {
         "shows": 17.0,
-        "sold": 377.0,
+        "sold": 380.0,
         "totalSeats": 2187.0,
-        "gross": 47370.0,
-        "occupancy": 17.24
+        "gross": 47670.0,
+        "occupancy": 17.38
       },
       "Cinemax": {
         "shows": 10.0,
@@ -5945,20 +5945,20 @@
       },
       "2026-03-11": {
         "shows": 157.0,
-        "sold": 1479.0,
-        "totalSeats": 23264.0,
-        "gross": 267348.43,
-        "occupancy": 6.36
+        "sold": 1563.0,
+        "totalSeats": 23268.0,
+        "gross": 285298.43,
+        "occupancy": 6.72
       }
     }
   },
   "Lagan Laagii Re | Gujarati": {
     "summary": {
       "shows": 997.0,
-      "sold": 21031.0,
+      "sold": 21053.0,
       "totalSeats": 163894.0,
-      "gross": 3551933.0,
-      "occupancy": 12.83
+      "gross": 3554413.0,
+      "occupancy": 12.85
     },
     "cities": {
       "Mumbai": {
@@ -5971,11 +5971,11 @@
       },
       "Ahmedabad": {
         "shows": 228.0,
-        "sold": 4000.0,
+        "sold": 4015.0,
         "totalSeats": 28946.0,
-        "gross": 713563.0,
+        "gross": 715399.0,
         "state": "Gujarat",
-        "occupancy": 13.82
+        "occupancy": 13.87
       },
       "Vadodara": {
         "shows": 287.0,
@@ -6011,11 +6011,11 @@
       },
       "Jamnagar": {
         "shows": 20.0,
-        "sold": 965.0,
+        "sold": 972.0,
         "totalSeats": 3345.0,
-        "gross": 151070.0,
+        "gross": 151714.0,
         "state": "Gujarat",
-        "occupancy": 28.85
+        "occupancy": 29.06
       },
       "Junagadh": {
         "shows": 44.0,
@@ -6045,10 +6045,10 @@
     "states": {
       "Gujarat": {
         "shows": 897.0,
-        "sold": 16603.0,
+        "sold": 16625.0,
         "totalSeats": 142065.0,
-        "gross": 2757911.0,
-        "occupancy": 11.69
+        "gross": 2760391.0,
+        "occupancy": 11.7
       },
       "Maharashtra": {
         "shows": 98.0,
@@ -6068,17 +6068,17 @@
     "chains": {
       "INOX": {
         "shows": 135.0,
-        "sold": 5569.0,
+        "sold": 5576.0,
         "totalSeats": 27128.0,
-        "gross": 940182.0,
-        "occupancy": 20.53
+        "gross": 940826.0,
+        "occupancy": 20.55
       },
       "PVR": {
         "shows": 117.0,
-        "sold": 3860.0,
+        "sold": 3875.0,
         "totalSeats": 18057.0,
-        "gross": 681517.0,
-        "occupancy": 21.38
+        "gross": 683353.0,
+        "occupancy": 21.46
       },
       "Rajhans": {
         "shows": 79.0,
@@ -6210,19 +6210,19 @@
       },
       "2026-03-11": {
         "shows": 94.0,
-        "sold": 930.0,
+        "sold": 952.0,
         "totalSeats": 15755.0,
-        "gross": 115364.0,
-        "occupancy": 5.9
+        "gross": 117844.0,
+        "occupancy": 6.04
       }
     }
   },
   "Bambukat 2 | Punjabi": {
     "summary": {
       "shows": 3362.0,
-      "sold": 67439.0,
-      "totalSeats": 582061.0,
-      "gross": 12780582.0,
+      "sold": 67474.0,
+      "totalSeats": 582074.0,
+      "gross": 12784678.0,
       "occupancy": 11.59
     },
     "cities": {
@@ -6236,11 +6236,11 @@
       },
       "Ludhiana": {
         "shows": 353.0,
-        "sold": 5956.0,
+        "sold": 5963.0,
         "totalSeats": 68224.0,
-        "gross": 1328139.0,
+        "gross": 1329609.0,
         "state": "Punjab",
-        "occupancy": 8.73
+        "occupancy": 8.74
       },
       "Kotkapura": {
         "shows": 92.0,
@@ -6310,10 +6310,10 @@
     "states": {
       "Punjab": {
         "shows": 2638.0,
-        "sold": 52593.0,
+        "sold": 52600.0,
         "totalSeats": 454789.0,
-        "gross": 10108313.0,
-        "occupancy": 11.56
+        "gross": 10109783.0,
+        "occupancy": 11.57
       },
       "Haryana": {
         "shows": 409.0,
@@ -6338,10 +6338,10 @@
       },
       "Rajasthan": {
         "shows": 79.0,
-        "sold": 1338.0,
-        "totalSeats": 11821.0,
-        "gross": 247250.0,
-        "occupancy": 11.32
+        "sold": 1366.0,
+        "totalSeats": 11834.0,
+        "gross": 249876.0,
+        "occupancy": 11.54
       },
       "Jammu And Kashmir": {
         "shows": 34.0,
@@ -6382,10 +6382,10 @@
     "chains": {
       "PVR": {
         "shows": 915.0,
-        "sold": 20425.0,
-        "totalSeats": 149243.0,
-        "gross": 4332256.0,
-        "occupancy": 13.69
+        "sold": 20453.0,
+        "totalSeats": 149256.0,
+        "gross": 4334882.0,
+        "occupancy": 13.7
       },
       "Cinepolis": {
         "shows": 317.0,
@@ -6431,10 +6431,10 @@
       },
       "Wave": {
         "shows": 102.0,
-        "sold": 2257.0,
+        "sold": 2264.0,
         "totalSeats": 20787.0,
-        "gross": 403440.0,
-        "occupancy": 10.86
+        "gross": 404910.0,
+        "occupancy": 10.89
       },
       "Dimple": {
         "shows": 29.0,
@@ -6524,10 +6524,10 @@
       },
       "2026-03-11": {
         "shows": 208.0,
-        "sold": 3332.0,
-        "totalSeats": 36027.0,
-        "gross": 514982.0,
-        "occupancy": 9.25
+        "sold": 3367.0,
+        "totalSeats": 36040.0,
+        "gross": 519078.0,
+        "occupancy": 9.34
       }
     }
   },
@@ -6729,10 +6729,10 @@
   "Hayagrriva | Kannada": {
     "summary": {
       "shows": 1326.0,
-      "sold": 305608.0,
+      "sold": 305619.0,
       "totalSeats": 529069.0,
-      "gross": 41034026.0,
-      "occupancy": 57.76
+      "gross": 41035626.0,
+      "occupancy": 57.77
     },
     "cities": {
       "Bengaluru": {
@@ -6785,11 +6785,11 @@
       },
       "Mysuru": {
         "shows": 104.0,
-        "sold": 2300.0,
+        "sold": 2311.0,
         "totalSeats": 19313.0,
-        "gross": 377872.0,
+        "gross": 379472.0,
         "state": "Karnataka",
-        "occupancy": 11.91
+        "occupancy": 11.97
       },
       "Mudhol": {
         "shows": 44.0,
@@ -6819,10 +6819,10 @@
     "states": {
       "Karnataka": {
         "shows": 1326.0,
-        "sold": 305608.0,
+        "sold": 305619.0,
         "totalSeats": 529069.0,
-        "gross": 41034026.0,
-        "occupancy": 57.76
+        "gross": 41035626.0,
+        "occupancy": 57.77
       }
     },
     "chains": {
@@ -6970,10 +6970,10 @@
       },
       "2026-03-11": {
         "shows": 100.0,
-        "sold": 27434.0,
+        "sold": 27445.0,
         "totalSeats": 44431.0,
-        "gross": 3616623.0,
-        "occupancy": 61.75
+        "gross": 3618223.0,
+        "occupancy": 61.77
       }
     }
   },
@@ -7622,10 +7622,10 @@
   "Avatar: Fire and Ash | English": {
     "summary": {
       "shows": 260.0,
-      "sold": 5891.0,
+      "sold": 5893.0,
       "totalSeats": 31939.0,
-      "gross": 1648577.0,
-      "occupancy": 18.44
+      "gross": 1648975.0,
+      "occupancy": 18.45
     },
     "cities": {
       "Bengaluru": {
@@ -7654,11 +7654,11 @@
       },
       "Mumbai": {
         "shows": 11.0,
-        "sold": 646.0,
+        "sold": 648.0,
         "totalSeats": 876.0,
-        "gross": 142154.0,
+        "gross": 142552.0,
         "state": "Maharashtra",
-        "occupancy": 73.74
+        "occupancy": 73.97
       },
       "Noida": {
         "shows": 17.0,
@@ -7719,10 +7719,10 @@
       },
       "Maharashtra": {
         "shows": 32.0,
-        "sold": 1051.0,
+        "sold": 1053.0,
         "totalSeats": 3783.0,
-        "gross": 289090.0,
-        "occupancy": 27.78
+        "gross": 289488.0,
+        "occupancy": 27.84
       },
       "Telangana": {
         "shows": 43.0,
@@ -7791,10 +7791,10 @@
       },
       "INOX": {
         "shows": 81.0,
-        "sold": 2136.0,
+        "sold": 2138.0,
         "totalSeats": 12494.0,
-        "gross": 596865.0,
-        "occupancy": 17.1
+        "gross": 597263.0,
+        "occupancy": 17.11
       },
       "Cinepolis": {
         "shows": 18.0,
@@ -7884,10 +7884,10 @@
       },
       "2026-03-11": {
         "shows": 19.0,
-        "sold": 321.0,
+        "sold": 323.0,
         "totalSeats": 2367.0,
-        "gross": 69426.0,
-        "occupancy": 13.56
+        "gross": 69824.0,
+        "occupancy": 13.65
       }
     }
   },
@@ -8103,10 +8103,10 @@
   "Hamnet | English": {
     "summary": {
       "shows": 692.0,
-      "sold": 14498.0,
+      "sold": 14524.0,
       "totalSeats": 81713.0,
-      "gross": 4531581.9399999995,
-      "occupancy": 17.74
+      "gross": 4536589.9399999995,
+      "occupancy": 17.77
     },
     "cities": {
       "Bengaluru": {
@@ -8119,11 +8119,11 @@
       },
       "Mumbai": {
         "shows": 99.0,
-        "sold": 2624.0,
+        "sold": 2641.0,
         "totalSeats": 13905.0,
-        "gross": 822273.0,
+        "gross": 824685.0,
         "state": "Maharashtra",
-        "occupancy": 18.87
+        "occupancy": 18.99
       },
       "New Delhi": {
         "shows": 117.0,
@@ -8159,19 +8159,19 @@
       },
       "Kolkata": {
         "shows": 28.0,
-        "sold": 665.0,
+        "sold": 669.0,
         "totalSeats": 4526.0,
-        "gross": 190758.0,
+        "gross": 192354.0,
         "state": "West Bengal",
-        "occupancy": 14.69
+        "occupancy": 14.78
       },
       "Hyderabad": {
         "shows": 38.0,
-        "sold": 714.0,
+        "sold": 719.0,
         "totalSeats": 5635.0,
-        "gross": 146350.0,
+        "gross": 147350.0,
         "state": "Telangana",
-        "occupancy": 12.67
+        "occupancy": 12.76
       },
       "Noida": {
         "shows": 49.0,
@@ -8200,10 +8200,10 @@
       },
       "Maharashtra": {
         "shows": 159.0,
-        "sold": 3509.0,
+        "sold": 3526.0,
         "totalSeats": 18365.0,
-        "gross": 1134274.0,
-        "occupancy": 19.11
+        "gross": 1136686.0,
+        "occupancy": 19.2
       },
       "Delhi": {
         "shows": 117.0,
@@ -8235,17 +8235,17 @@
       },
       "West Bengal": {
         "shows": 28.0,
-        "sold": 665.0,
+        "sold": 669.0,
         "totalSeats": 4526.0,
-        "gross": 190758.0,
-        "occupancy": 14.69
+        "gross": 192354.0,
+        "occupancy": 14.78
       },
       "Telangana": {
         "shows": 38.0,
-        "sold": 714.0,
+        "sold": 719.0,
         "totalSeats": 5635.0,
-        "gross": 146350.0,
-        "occupancy": 12.67
+        "gross": 147350.0,
+        "occupancy": 12.76
       },
       "Gujarat": {
         "shows": 17.0,
@@ -8265,17 +8265,17 @@
     "chains": {
       "PVR": {
         "shows": 463.0,
-        "sold": 9742.0,
+        "sold": 9764.0,
         "totalSeats": 51864.0,
-        "gross": 3155151.4599999995,
-        "occupancy": 18.78
+        "gross": 3158563.4599999995,
+        "occupancy": 18.83
       },
       "INOX": {
         "shows": 148.0,
-        "sold": 3084.0,
+        "sold": 3088.0,
         "totalSeats": 17833.0,
-        "gross": 948223.48,
-        "occupancy": 17.29
+        "gross": 949819.48,
+        "occupancy": 17.32
       },
       "Cinepolis": {
         "shows": 61.0,
@@ -8365,20 +8365,20 @@
       },
       "2026-03-11": {
         "shows": 51.0,
-        "sold": 790.0,
+        "sold": 816.0,
         "totalSeats": 6073.0,
-        "gross": 201814.96,
-        "occupancy": 13.01
+        "gross": 206822.96,
+        "occupancy": 13.44
       }
     }
   },
   "F1 The Movie | English": {
     "summary": {
       "shows": 605.0,
-      "sold": 19245.0,
+      "sold": 19328.0,
       "totalSeats": 115983.0,
-      "gross": 5125557.09,
-      "occupancy": 16.59
+      "gross": 5142893.09,
+      "occupancy": 16.66
     },
     "cities": {
       "Bengaluru": {
@@ -8391,11 +8391,19 @@
       },
       "Pune": {
         "shows": 105.0,
-        "sold": 2897.0,
+        "sold": 2923.0,
         "totalSeats": 19298.0,
-        "gross": 772335.0,
+        "gross": 776309.0,
         "state": "Maharashtra",
-        "occupancy": 15.01
+        "occupancy": 15.15
+      },
+      "Mumbai": {
+        "shows": 63.0,
+        "sold": 2208.0,
+        "totalSeats": 11090.0,
+        "gross": 516749.0,
+        "state": "Maharashtra",
+        "occupancy": 19.91
       },
       "Chennai": {
         "shows": 29.0,
@@ -8405,21 +8413,13 @@
         "state": "Tamil Nadu",
         "occupancy": 29.73
       },
-      "Mumbai": {
-        "shows": 63.0,
-        "sold": 2185.0,
-        "totalSeats": 11090.0,
-        "gross": 510572.0,
-        "state": "Maharashtra",
-        "occupancy": 19.7
-      },
       "Ahmedabad": {
         "shows": 30.0,
-        "sold": 1419.0,
+        "sold": 1424.0,
         "totalSeats": 4697.0,
-        "gross": 486482.0,
+        "gross": 488977.0,
         "state": "Gujarat",
-        "occupancy": 30.21
+        "occupancy": 30.32
       },
       "New Delhi": {
         "shows": 54.0,
@@ -8465,10 +8465,10 @@
     "states": {
       "Maharashtra": {
         "shows": 210.0,
-        "sold": 5853.0,
+        "sold": 5902.0,
         "totalSeats": 37986.0,
-        "gross": 1582887.0,
-        "occupancy": 15.41
+        "gross": 1593038.0,
+        "occupancy": 15.54
       },
       "Karnataka": {
         "shows": 76.0,
@@ -8479,10 +8479,10 @@
       },
       "Gujarat": {
         "shows": 66.0,
-        "sold": 1809.0,
+        "sold": 1832.0,
         "totalSeats": 9621.0,
-        "gross": 578227.0,
-        "occupancy": 18.8
+        "gross": 583062.0,
+        "occupancy": 19.04
       },
       "Tamil Nadu": {
         "shows": 34.0,
@@ -8528,26 +8528,26 @@
       },
       "Telangana": {
         "shows": 11.0,
-        "sold": 340.0,
+        "sold": 347.0,
         "totalSeats": 2579.0,
-        "gross": 77550.0,
-        "occupancy": 13.18
+        "gross": 78500.0,
+        "occupancy": 13.45
       }
     },
     "chains": {
       "PVR": {
         "shows": 277.0,
-        "sold": 10031.0,
+        "sold": 10078.0,
         "totalSeats": 50680.0,
-        "gross": 2698442.670000001,
-        "occupancy": 19.79
+        "gross": 2707610.670000001,
+        "occupancy": 19.89
       },
       "INOX": {
         "shows": 142.0,
-        "sold": 4691.0,
+        "sold": 4727.0,
         "totalSeats": 28897.0,
-        "gross": 1134894.0,
-        "occupancy": 16.23
+        "gross": 1143062.0,
+        "occupancy": 16.36
       },
       "Cinepolis": {
         "shows": 156.0,
@@ -8651,10 +8651,10 @@
       },
       "2026-03-11": {
         "shows": 54.0,
-        "sold": 1143.0,
+        "sold": 1226.0,
         "totalSeats": 7862.0,
-        "gross": 242165.26,
-        "occupancy": 14.54
+        "gross": 259501.26,
+        "occupancy": 15.59
       }
     }
   },
@@ -8735,19 +8735,19 @@
   "Rakkasapuradhol | Kannada": {
     "summary": {
       "shows": 379.0,
-      "sold": 6709.0,
+      "sold": 6720.0,
       "totalSeats": 72359.0,
-      "gross": 1377214.0,
-      "occupancy": 9.27
+      "gross": 1378853.0,
+      "occupancy": 9.29
     },
     "cities": {
       "Bengaluru": {
         "shows": 243.0,
-        "sold": 4940.0,
+        "sold": 4951.0,
         "totalSeats": 45363.0,
-        "gross": 1084784.0,
+        "gross": 1086423.0,
         "state": "Karnataka",
-        "occupancy": 10.89
+        "occupancy": 10.91
       },
       "Mysuru": {
         "shows": 33.0,
@@ -8793,10 +8793,10 @@
     "states": {
       "Karnataka": {
         "shows": 379.0,
-        "sold": 6709.0,
+        "sold": 6720.0,
         "totalSeats": 72359.0,
-        "gross": 1377214.0,
-        "occupancy": 9.27
+        "gross": 1378853.0,
+        "occupancy": 9.29
       }
     },
     "chains": {
@@ -8809,10 +8809,10 @@
       },
       "INOX": {
         "shows": 110.0,
-        "sold": 2077.0,
+        "sold": 2088.0,
         "totalSeats": 19530.0,
-        "gross": 422001.0,
-        "occupancy": 10.63
+        "gross": 423640.0,
+        "occupancy": 10.69
       },
       "Cinepolis": {
         "shows": 96.0,
@@ -8909,10 +8909,10 @@
       },
       "2026-03-11": {
         "shows": 27.0,
-        "sold": 294.0,
+        "sold": 305.0,
         "totalSeats": 5085.0,
-        "gross": 42257.0,
-        "occupancy": 5.78
+        "gross": 43896.0,
+        "occupancy": 6.0
       }
     }
   },
@@ -10840,27 +10840,27 @@
   "Masthishka Maranam | Malayalam": {
     "summary": {
       "shows": 1556.0,
-      "sold": 37970.0,
+      "sold": 37996.0,
       "totalSeats": 314081.0,
-      "gross": 7293433.11,
-      "occupancy": 12.09
+      "gross": 7298010.11,
+      "occupancy": 12.1
     },
     "cities": {
       "Kochi": {
         "shows": 258.0,
-        "sold": 10083.0,
+        "sold": 10096.0,
         "totalSeats": 46271.0,
-        "gross": 2218379.84,
+        "gross": 2221049.84,
         "state": "Kerala",
-        "occupancy": 21.79
+        "occupancy": 21.82
       },
       "Bengaluru": {
         "shows": 185.0,
-        "sold": 5069.0,
+        "sold": 5074.0,
         "totalSeats": 29562.0,
-        "gross": 1233103.0,
+        "gross": 1233848.0,
         "state": "Karnataka",
-        "occupancy": 17.15
+        "occupancy": 17.16
       },
       "Kozhikode": {
         "shows": 121.0,
@@ -10904,11 +10904,11 @@
       },
       "Thrissur": {
         "shows": 37.0,
-        "sold": 642.0,
+        "sold": 650.0,
         "totalSeats": 9693.0,
-        "gross": 130330.64,
+        "gross": 131492.64,
         "state": "Kerala",
-        "occupancy": 6.62
+        "occupancy": 6.71
       },
       "New Delhi": {
         "shows": 31.0,
@@ -10930,17 +10930,17 @@
     "states": {
       "Kerala": {
         "shows": 1103.0,
-        "sold": 26839.0,
+        "sold": 26860.0,
         "totalSeats": 239965.0,
-        "gross": 5010356.7,
-        "occupancy": 11.18
+        "gross": 5014188.7,
+        "occupancy": 11.19
       },
       "Karnataka": {
         "shows": 218.0,
-        "sold": 5534.0,
+        "sold": 5539.0,
         "totalSeats": 36412.0,
-        "gross": 1308491.0,
-        "occupancy": 15.2
+        "gross": 1309236.0,
+        "occupancy": 15.21
       },
       "Tamil Nadu": {
         "shows": 77.0,
@@ -11002,10 +11002,10 @@
     "chains": {
       "PVR": {
         "shows": 378.0,
-        "sold": 14377.0,
+        "sold": 14395.0,
         "totalSeats": 66244.0,
-        "gross": 3096006.32,
-        "occupancy": 21.7
+        "gross": 3099421.32,
+        "occupancy": 21.73
       },
       "Cinepolis": {
         "shows": 434.0,
@@ -11016,10 +11016,10 @@
       },
       "INOX": {
         "shows": 144.0,
-        "sold": 3494.0,
+        "sold": 3502.0,
         "totalSeats": 26310.0,
-        "gross": 757564.2300000001,
-        "occupancy": 13.28
+        "gross": 758726.2300000001,
+        "occupancy": 13.31
       },
       "Magic": {
         "shows": 68.0,
@@ -11144,10 +11144,10 @@
       },
       "2026-03-11": {
         "shows": 74.0,
-        "sold": 1296.0,
+        "sold": 1322.0,
         "totalSeats": 14036.0,
-        "gross": 193331.41999999998,
-        "occupancy": 9.23
+        "gross": 197908.41999999998,
+        "occupancy": 9.42
       }
     }
   },
@@ -11286,19 +11286,19 @@
   "Wuthering Heights | English": {
     "summary": {
       "shows": 615.0,
-      "sold": 9131.0,
+      "sold": 9136.0,
       "totalSeats": 71224.0,
-      "gross": 3526874.54,
-      "occupancy": 12.82
+      "gross": 3528768.54,
+      "occupancy": 12.83
     },
     "cities": {
       "Mumbai": {
         "shows": 151.0,
-        "sold": 2024.0,
+        "sold": 2030.0,
         "totalSeats": 18078.0,
-        "gross": 868495.0,
+        "gross": 870889.0,
         "state": "Maharashtra",
-        "occupancy": 11.2
+        "occupancy": 11.23
       },
       "New Delhi": {
         "shows": 73.0,
@@ -11310,11 +11310,11 @@
       },
       "Bengaluru": {
         "shows": 82.0,
-        "sold": 1186.0,
+        "sold": 1185.0,
         "totalSeats": 4591.0,
-        "gross": 740444.0,
+        "gross": 739944.0,
         "state": "Karnataka",
-        "occupancy": 25.83
+        "occupancy": 25.81
       },
       "Gurgaon": {
         "shows": 74.0,
@@ -11376,10 +11376,10 @@
     "states": {
       "Maharashtra": {
         "shows": 226.0,
-        "sold": 2745.0,
+        "sold": 2751.0,
         "totalSeats": 28479.0,
-        "gross": 1125177.0,
-        "occupancy": 9.64
+        "gross": 1127571.0,
+        "occupancy": 9.66
       },
       "Delhi": {
         "shows": 73.0,
@@ -11390,10 +11390,10 @@
       },
       "Karnataka": {
         "shows": 82.0,
-        "sold": 1186.0,
+        "sold": 1185.0,
         "totalSeats": 4591.0,
-        "gross": 740444.0,
-        "occupancy": 25.83
+        "gross": 739944.0,
+        "occupancy": 25.81
       },
       "Haryana": {
         "shows": 74.0,
@@ -11448,10 +11448,10 @@
     "chains": {
       "PVR": {
         "shows": 332.0,
-        "sold": 5920.0,
+        "sold": 5926.0,
         "totalSeats": 38860.0,
-        "gross": 2162058.54,
-        "occupancy": 15.23
+        "gross": 2164452.54,
+        "occupancy": 15.25
       },
       "INOX": {
         "shows": 154.0,
@@ -11462,10 +11462,10 @@
       },
       "Newfangled": {
         "shows": 29.0,
-        "sold": 397.0,
+        "sold": 396.0,
         "totalSeats": 825.0,
-        "gross": 311100.0,
-        "occupancy": 48.12
+        "gross": 310600.0,
+        "occupancy": 48.0
       },
       "Maison": {
         "shows": 15.0,
@@ -11590,10 +11590,10 @@
       },
       "2026-03-11": {
         "shows": 43.0,
-        "sold": 471.0,
+        "sold": 476.0,
         "totalSeats": 4179.0,
-        "gross": 119038.0,
-        "occupancy": 11.27
+        "gross": 120932.0,
+        "occupancy": 11.39
       }
     }
   },
@@ -11865,10 +11865,10 @@
   "With Love | Tamil": {
     "summary": {
       "shows": 1133.0,
-      "sold": 47698.0,
+      "sold": 47706.0,
       "totalSeats": 249027.0,
-      "gross": 6456840.44,
-      "occupancy": 19.15
+      "gross": 6460252.59,
+      "occupancy": 19.16
     },
     "cities": {
       "Chennai": {
@@ -11881,11 +11881,11 @@
       },
       "Coimbatore": {
         "shows": 129.0,
-        "sold": 4403.0,
+        "sold": 4411.0,
         "totalSeats": 26637.0,
-        "gross": 567588.25,
+        "gross": 571000.4,
         "state": "Tamil Nadu",
-        "occupancy": 16.53
+        "occupancy": 16.56
       },
       "Bengaluru": {
         "shows": 113.0,
@@ -11955,10 +11955,10 @@
     "states": {
       "Tamil Nadu": {
         "shows": 983.0,
-        "sold": 44746.0,
+        "sold": 44754.0,
         "totalSeats": 223802.0,
-        "gross": 5827773.62,
-        "occupancy": 19.99
+        "gross": 5831185.77,
+        "occupancy": 20.0
       },
       "Karnataka": {
         "shows": 113.0,
@@ -11985,10 +11985,10 @@
     "chains": {
       "PVR": {
         "shows": 392.0,
-        "sold": 20162.0,
+        "sold": 20170.0,
         "totalSeats": 79655.0,
-        "gross": 2884911.090000001,
-        "occupancy": 25.31
+        "gross": 2888323.2400000007,
+        "occupancy": 25.32
       },
       "INOX": {
         "shows": 154.0,
@@ -12127,10 +12127,10 @@
       },
       "2026-03-11": {
         "shows": 36.0,
-        "sold": 1386.0,
+        "sold": 1394.0,
         "totalSeats": 8025.0,
-        "gross": 154295.82000000004,
-        "occupancy": 17.27
+        "gross": 157707.97000000003,
+        "occupancy": 17.37
       }
     }
   },
@@ -12681,10 +12681,10 @@
   "Crime 101 | English": {
     "summary": {
       "shows": 269.0,
-      "sold": 4819.0,
-      "totalSeats": 24362.0,
-      "gross": 1850675.3800000001,
-      "occupancy": 19.78
+      "sold": 4824.0,
+      "totalSeats": 24378.0,
+      "gross": 1852420.38,
+      "occupancy": 19.79
     },
     "cities": {
       "Mumbai": {
@@ -12713,11 +12713,11 @@
       },
       "New Delhi": {
         "shows": 21.0,
-        "sold": 401.0,
-        "totalSeats": 2309.0,
-        "gross": 161847.0,
+        "sold": 406.0,
+        "totalSeats": 2325.0,
+        "gross": 163592.0,
         "state": "Delhi",
-        "occupancy": 17.37
+        "occupancy": 17.46
       },
       "Chennai": {
         "shows": 16.0,
@@ -12785,10 +12785,10 @@
       },
       "Delhi": {
         "shows": 21.0,
-        "sold": 401.0,
-        "totalSeats": 2309.0,
-        "gross": 161847.0,
-        "occupancy": 17.37
+        "sold": 406.0,
+        "totalSeats": 2325.0,
+        "gross": 163592.0,
+        "occupancy": 17.46
       },
       "Tamil Nadu": {
         "shows": 16.0,
@@ -12836,10 +12836,10 @@
     "chains": {
       "PVR": {
         "shows": 172.0,
-        "sold": 3116.0,
-        "totalSeats": 15290.0,
-        "gross": 1141275.38,
-        "occupancy": 20.38
+        "sold": 3121.0,
+        "totalSeats": 15306.0,
+        "gross": 1143020.38,
+        "occupancy": 20.39
       },
       "INOX": {
         "shows": 59.0,
@@ -12950,10 +12950,10 @@
       },
       "2026-03-11": {
         "shows": 20.0,
-        "sold": 236.0,
-        "totalSeats": 1876.0,
-        "gross": 64944.62,
-        "occupancy": 12.58
+        "sold": 241.0,
+        "totalSeats": 1892.0,
+        "gross": 66689.62,
+        "occupancy": 12.74
       }
     }
   },
@@ -13416,19 +13416,19 @@
   "Avatar: Fire and Ash | Hindi": {
     "summary": {
       "shows": 112.0,
-      "sold": 2012.0,
-      "totalSeats": 16359.0,
-      "gross": 501737.0,
-      "occupancy": 12.3
+      "sold": 2044.0,
+      "totalSeats": 16369.0,
+      "gross": 505961.0,
+      "occupancy": 12.49
     },
     "cities": {
       "Pune": {
         "shows": 41.0,
-        "sold": 1181.0,
-        "totalSeats": 4561.0,
-        "gross": 311847.0,
+        "sold": 1213.0,
+        "totalSeats": 4571.0,
+        "gross": 316071.0,
         "state": "Maharashtra",
-        "occupancy": 25.89
+        "occupancy": 26.54
       },
       "Lucknow": {
         "shows": 29.0,
@@ -13466,10 +13466,10 @@
     "states": {
       "Maharashtra": {
         "shows": 41.0,
-        "sold": 1181.0,
-        "totalSeats": 4561.0,
-        "gross": 311847.0,
-        "occupancy": 25.89
+        "sold": 1213.0,
+        "totalSeats": 4571.0,
+        "gross": 316071.0,
+        "occupancy": 26.54
       },
       "Uttar Pradesh": {
         "shows": 29.0,
@@ -13503,10 +13503,10 @@
       },
       "INOX": {
         "shows": 37.0,
-        "sold": 712.0,
-        "totalSeats": 4045.0,
-        "gross": 160834.0,
-        "occupancy": 17.6
+        "sold": 744.0,
+        "totalSeats": 4055.0,
+        "gross": 165058.0,
+        "occupancy": 18.35
       },
       "Cinepolis": {
         "shows": 7.0,
@@ -13603,10 +13603,10 @@
       },
       "2026-03-11": {
         "shows": 10.0,
-        "sold": 190.0,
-        "totalSeats": 2169.0,
-        "gross": 32761.0,
-        "occupancy": 8.76
+        "sold": 222.0,
+        "totalSeats": 2179.0,
+        "gross": 36985.0,
+        "occupancy": 10.19
       }
     }
   },
@@ -15952,10 +15952,10 @@
   "Dhurandhar | Hindi": {
     "summary": {
       "shows": 894.0,
-      "sold": 29764.0,
-      "totalSeats": 174222.0,
-      "gross": 3963456.19,
-      "occupancy": 17.08
+      "sold": 29770.0,
+      "totalSeats": 174235.0,
+      "gross": 3965154.19,
+      "occupancy": 17.09
     },
     "cities": {
       "Durgapur": {
@@ -15984,11 +15984,11 @@
       },
       "Mumbai": {
         "shows": 43.0,
-        "sold": 680.0,
-        "totalSeats": 7028.0,
-        "gross": 190848.0,
+        "sold": 686.0,
+        "totalSeats": 7041.0,
+        "gross": 192546.0,
         "state": "Maharashtra",
-        "occupancy": 9.68
+        "occupancy": 9.74
       },
       "Hyderabad": {
         "shows": 55.0,
@@ -16056,10 +16056,10 @@
       },
       "Maharashtra": {
         "shows": 112.0,
-        "sold": 2039.0,
-        "totalSeats": 16701.0,
-        "gross": 441571.0,
-        "occupancy": 12.21
+        "sold": 2045.0,
+        "totalSeats": 16714.0,
+        "gross": 443269.0,
+        "occupancy": 12.24
       },
       "Uttar Pradesh": {
         "shows": 121.0,
@@ -16135,10 +16135,10 @@
       },
       "INOX": {
         "shows": 275.0,
-        "sold": 3651.0,
-        "totalSeats": 47051.0,
-        "gross": 661131.0,
-        "occupancy": 7.76
+        "sold": 3657.0,
+        "totalSeats": 47064.0,
+        "gross": 662829.0,
+        "occupancy": 7.77
       },
       "Cinepolis": {
         "shows": 29.0,
@@ -16256,10 +16256,10 @@
       },
       "2026-03-11": {
         "shows": 181.0,
-        "sold": 4992.0,
-        "totalSeats": 35518.0,
-        "gross": 609162.73,
-        "occupancy": 14.05
+        "sold": 4998.0,
+        "totalSeats": 35531.0,
+        "gross": 610860.73,
+        "occupancy": 14.07
       }
     }
   },
@@ -18734,10 +18734,10 @@
   "Nilave | Telugu": {
     "summary": {
       "shows": 334.0,
-      "sold": 12923.0,
+      "sold": 12930.0,
       "totalSeats": 87535.0,
-      "gross": 1542386.0,
-      "occupancy": 14.76
+      "gross": 1543636.0,
+      "occupancy": 14.77
     },
     "cities": {
       "Srikakulam": {
@@ -18750,11 +18750,11 @@
       },
       "Hyderabad": {
         "shows": 124.0,
-        "sold": 1959.0,
+        "sold": 1966.0,
         "totalSeats": 21512.0,
-        "gross": 301035.0,
+        "gross": 302285.0,
         "state": "Telangana",
-        "occupancy": 9.11
+        "occupancy": 9.14
       },
       "Palakonda": {
         "shows": 24.0,
@@ -18831,10 +18831,10 @@
       },
       "Telangana": {
         "shows": 134.0,
-        "sold": 2024.0,
+        "sold": 2031.0,
         "totalSeats": 23177.0,
-        "gross": 309325.0,
-        "occupancy": 8.73
+        "gross": 310575.0,
+        "occupancy": 8.76
       }
     },
     "chains": {
@@ -18847,10 +18847,10 @@
       },
       "PVR": {
         "shows": 99.0,
-        "sold": 1553.0,
+        "sold": 1560.0,
         "totalSeats": 16335.0,
-        "gross": 223782.0,
-        "occupancy": 9.51
+        "gross": 225032.0,
+        "occupancy": 9.55
       },
       "STBL": {
         "shows": 20.0,
@@ -18975,10 +18975,10 @@
       },
       "2026-03-11": {
         "shows": 18.0,
-        "sold": 1029.0,
+        "sold": 1036.0,
         "totalSeats": 5595.0,
-        "gross": 113774.0,
-        "occupancy": 18.39
+        "gross": 115024.0,
+        "occupancy": 18.52
       }
     }
   },
@@ -19833,10 +19833,10 @@
   "Prakambanam | Malayalam": {
     "summary": {
       "shows": 496.0,
-      "sold": 10643.0,
+      "sold": 10809.0,
       "totalSeats": 90274.0,
-      "gross": 1871569.36,
-      "occupancy": 11.79
+      "gross": 1910529.36,
+      "occupancy": 11.97
     },
     "cities": {
       "Kochi": {
@@ -19857,11 +19857,11 @@
       },
       "Kozhikode": {
         "shows": 77.0,
-        "sold": 1524.0,
+        "sold": 1690.0,
         "totalSeats": 11442.0,
-        "gross": 296142.0,
+        "gross": 335102.0,
         "state": "Kerala",
-        "occupancy": 13.32
+        "occupancy": 14.77
       },
       "Thrissur": {
         "shows": 35.0,
@@ -19923,10 +19923,10 @@
     "states": {
       "Kerala": {
         "shows": 486.0,
-        "sold": 10409.0,
+        "sold": 10575.0,
         "totalSeats": 88708.0,
-        "gross": 1832301.1700000002,
-        "occupancy": 11.73
+        "gross": 1871261.1700000002,
+        "occupancy": 11.92
       },
       "Karnataka": {
         "shows": 5.0,
@@ -19960,10 +19960,10 @@
       },
       "Miraj": {
         "shows": 31.0,
-        "sold": 697.0,
+        "sold": 863.0,
         "totalSeats": 4656.0,
-        "gross": 162440.0,
-        "occupancy": 14.97
+        "gross": 201400.0,
+        "occupancy": 18.54
       },
       "INOX": {
         "shows": 35.0,
@@ -20088,10 +20088,10 @@
       },
       "2026-03-11": {
         "shows": 27.0,
-        "sold": 400.0,
+        "sold": 566.0,
         "totalSeats": 4125.0,
-        "gross": 61091.0,
-        "occupancy": 9.7
+        "gross": 100051.0,
+        "occupancy": 13.72
       }
     }
   },
@@ -24230,19 +24230,19 @@
   "Spa | Malayalam": {
     "summary": {
       "shows": 75.0,
-      "sold": 1204.0,
+      "sold": 1216.0,
       "totalSeats": 11316.0,
-      "gross": 205895.91,
-      "occupancy": 10.64
+      "gross": 207583.91,
+      "occupancy": 10.75
     },
     "cities": {
       "Kochi": {
         "shows": 37.0,
-        "sold": 947.0,
+        "sold": 959.0,
         "totalSeats": 6459.0,
-        "gross": 170102.8,
+        "gross": 171790.8,
         "state": "Kerala",
-        "occupancy": 14.66
+        "occupancy": 14.85
       },
       "Trivandrum": {
         "shows": 11.0,
@@ -24272,19 +24272,19 @@
     "states": {
       "Kerala": {
         "shows": 75.0,
-        "sold": 1204.0,
+        "sold": 1216.0,
         "totalSeats": 11316.0,
-        "gross": 205895.91,
-        "occupancy": 10.64
+        "gross": 207583.91,
+        "occupancy": 10.75
       }
     },
     "chains": {
       "PVR": {
         "shows": 48.0,
-        "sold": 1064.0,
+        "sold": 1076.0,
         "totalSeats": 7669.0,
-        "gross": 191895.91,
-        "occupancy": 13.87
+        "gross": 193583.91,
+        "occupancy": 14.03
       },
       "Vismaya": {
         "shows": 8.0,
@@ -24374,10 +24374,10 @@
       },
       "2026-03-11": {
         "shows": 5.0,
-        "sold": 46.0,
+        "sold": 58.0,
         "totalSeats": 686.0,
-        "gross": 9008.0,
-        "occupancy": 6.71
+        "gross": 10696.0,
+        "occupancy": 8.45
       }
     }
   },
@@ -24726,9 +24726,9 @@
   "The Secret Agent | Portuguese": {
     "summary": {
       "shows": 285.0,
-      "sold": 2745.0,
+      "sold": 2746.0,
       "totalSeats": 33676.0,
-      "gross": 861655.4,
+      "gross": 861804.4,
       "occupancy": 8.15
     },
     "cities": {
@@ -24750,11 +24750,11 @@
       },
       "Bengaluru": {
         "shows": 61.0,
-        "sold": 467.0,
+        "sold": 468.0,
         "totalSeats": 6854.0,
-        "gross": 170706.0,
+        "gross": 170855.0,
         "state": "Karnataka",
-        "occupancy": 6.81
+        "occupancy": 6.83
       },
       "Chennai": {
         "shows": 15.0,
@@ -24830,10 +24830,10 @@
       },
       "Karnataka": {
         "shows": 61.0,
-        "sold": 467.0,
+        "sold": 468.0,
         "totalSeats": 6854.0,
-        "gross": 170706.0,
-        "occupancy": 6.81
+        "gross": 170855.0,
+        "occupancy": 6.83
       },
       "Tamil Nadu": {
         "shows": 15.0,
@@ -24895,10 +24895,10 @@
       },
       "INOX": {
         "shows": 82.0,
-        "sold": 492.0,
+        "sold": 493.0,
         "totalSeats": 9625.0,
-        "gross": 143775.94,
-        "occupancy": 5.11
+        "gross": 143924.94,
+        "occupancy": 5.12
       },
       "Maison": {
         "shows": 16.0,
@@ -25002,10 +25002,10 @@
       },
       "2026-03-11": {
         "shows": 9.0,
-        "sold": 20.0,
+        "sold": 21.0,
         "totalSeats": 677.0,
-        "gross": 6430.0,
-        "occupancy": 2.95
+        "gross": 6579.0,
+        "occupancy": 3.1
       }
     }
   },
@@ -25463,19 +25463,19 @@
   "Eternal Sunshine of the Spotless Mind | English": {
     "summary": {
       "shows": 293.0,
-      "sold": 6050.0,
+      "sold": 6052.0,
       "totalSeats": 39002.0,
-      "gross": 1289391.1,
-      "occupancy": 15.51
+      "gross": 1289268.1,
+      "occupancy": 15.52
     },
     "cities": {
       "Mumbai": {
         "shows": 70.0,
-        "sold": 1157.0,
+        "sold": 1156.0,
         "totalSeats": 9767.0,
-        "gross": 352658.0,
+        "gross": 352259.0,
         "state": "Maharashtra",
-        "occupancy": 11.85
+        "occupancy": 11.84
       },
       "Pune": {
         "shows": 38.0,
@@ -25535,11 +25535,11 @@
       },
       "Gurgaon": {
         "shows": 23.0,
-        "sold": 322.0,
+        "sold": 325.0,
         "totalSeats": 3373.0,
-        "gross": 48546.0,
+        "gross": 48822.0,
         "state": "Haryana",
-        "occupancy": 9.55
+        "occupancy": 9.64
       },
       "Coimbatore": {
         "shows": 5.0,
@@ -25553,10 +25553,10 @@
     "states": {
       "Maharashtra": {
         "shows": 125.0,
-        "sold": 1822.0,
+        "sold": 1821.0,
         "totalSeats": 15272.0,
-        "gross": 524679.0,
-        "occupancy": 11.93
+        "gross": 524280.0,
+        "occupancy": 11.92
       },
       "Tamil Nadu": {
         "shows": 24.0,
@@ -25602,10 +25602,10 @@
       },
       "Haryana": {
         "shows": 23.0,
-        "sold": 322.0,
+        "sold": 325.0,
         "totalSeats": 3373.0,
-        "gross": 48546.0,
-        "occupancy": 9.55
+        "gross": 48822.0,
+        "occupancy": 9.64
       },
       "Kerala": {
         "shows": 9.0,
@@ -25625,10 +25625,10 @@
     "chains": {
       "PVR": {
         "shows": 163.0,
-        "sold": 3942.0,
+        "sold": 3945.0,
         "totalSeats": 23287.0,
-        "gross": 842797.89,
-        "occupancy": 16.93
+        "gross": 843073.89,
+        "occupancy": 16.94
       },
       "INOX": {
         "shows": 106.0,
@@ -25639,10 +25639,10 @@
       },
       "Maison": {
         "shows": 11.0,
-        "sold": 148.0,
+        "sold": 147.0,
         "totalSeats": 366.0,
-        "gross": 78775.0,
-        "occupancy": 40.44
+        "gross": 78376.0,
+        "occupancy": 40.16
       },
       "Pepsi": {
         "shows": 8.0,
@@ -25732,10 +25732,10 @@
       },
       "2026-03-11": {
         "shows": 12.0,
-        "sold": 181.0,
+        "sold": 183.0,
         "totalSeats": 1422.0,
-        "gross": 53149.0,
-        "occupancy": 12.73
+        "gross": 53026.0,
+        "occupancy": 12.87
       }
     }
   },
@@ -27078,19 +27078,19 @@
   "Good Luck, Have Fun, Don't Die | English": {
     "summary": {
       "shows": 65.0,
-      "sold": 799.0,
+      "sold": 801.0,
       "totalSeats": 4924.0,
-      "gross": 318850.64,
-      "occupancy": 16.23
+      "gross": 319648.64,
+      "occupancy": 16.27
     },
     "cities": {
       "Bengaluru": {
         "shows": 32.0,
-        "sold": 480.0,
+        "sold": 482.0,
         "totalSeats": 2733.0,
-        "gross": 168033.0,
+        "gross": 168831.0,
         "state": "Karnataka",
-        "occupancy": 17.56
+        "occupancy": 17.64
       },
       "Mumbai": {
         "shows": 11.0,
@@ -27128,10 +27128,10 @@
     "states": {
       "Karnataka": {
         "shows": 32.0,
-        "sold": 480.0,
+        "sold": 482.0,
         "totalSeats": 2733.0,
-        "gross": 168033.0,
-        "occupancy": 17.56
+        "gross": 168831.0,
+        "occupancy": 17.64
       },
       "Maharashtra": {
         "shows": 11.0,
@@ -27165,10 +27165,10 @@
     "chains": {
       "PVR": {
         "shows": 49.0,
-        "sold": 650.0,
+        "sold": 652.0,
         "totalSeats": 4267.0,
-        "gross": 234455.64,
-        "occupancy": 15.23
+        "gross": 235253.64,
+        "occupancy": 15.28
       },
       "Maison": {
         "shows": 11.0,
@@ -27258,10 +27258,10 @@
       },
       "2026-03-11": {
         "shows": 4.0,
-        "sold": 31.0,
+        "sold": 33.0,
         "totalSeats": 147.0,
-        "gross": 12975.0,
-        "occupancy": 21.09
+        "gross": 13773.0,
+        "occupancy": 22.45
       }
     }
   },
@@ -27892,19 +27892,19 @@
   "Valathu Vashathe Kallan | Malayalam": {
     "summary": {
       "shows": 31.0,
-      "sold": 756.0,
+      "sold": 760.0,
       "totalSeats": 5088.0,
-      "gross": 146269.06,
-      "occupancy": 14.86
+      "gross": 146785.06,
+      "occupancy": 14.94
     },
     "cities": {
       "Kochi": {
         "shows": 14.0,
-        "sold": 416.0,
+        "sold": 420.0,
         "totalSeats": 3144.0,
-        "gross": 74922.36,
+        "gross": 75438.36,
         "state": "Kerala",
-        "occupancy": 13.23
+        "occupancy": 13.36
       },
       "Trivandrum": {
         "shows": 11.0,
@@ -27926,19 +27926,19 @@
     "states": {
       "Kerala": {
         "shows": 31.0,
-        "sold": 756.0,
+        "sold": 760.0,
         "totalSeats": 5088.0,
-        "gross": 146269.06,
-        "occupancy": 14.86
+        "gross": 146785.06,
+        "occupancy": 14.94
       }
     },
     "chains": {
       "PVR": {
         "shows": 25.0,
-        "sold": 739.0,
+        "sold": 743.0,
         "totalSeats": 4236.0,
-        "gross": 143719.06,
-        "occupancy": 17.45
+        "gross": 144235.06,
+        "occupancy": 17.54
       },
       "ST": {
         "shows": 6.0,
@@ -28021,10 +28021,10 @@
       },
       "2026-03-11": {
         "shows": 3.0,
-        "sold": 27.0,
+        "sold": 31.0,
         "totalSeats": 464.0,
-        "gross": 5609.0,
-        "occupancy": 5.82
+        "gross": 6125.0,
+        "occupancy": 6.68
       }
     }
   },
@@ -29981,10 +29981,10 @@
   "Koodothram | Malayalam": {
     "summary": {
       "shows": 23.0,
-      "sold": 465.0,
+      "sold": 473.0,
       "totalSeats": 2938.0,
-      "gross": 64535.47,
-      "occupancy": 15.83
+      "gross": 65647.47,
+      "occupancy": 16.1
     },
     "cities": {
       "Kochi": {
@@ -29995,6 +29995,14 @@
         "state": "Kerala",
         "occupancy": 18.84
       },
+      "Thrissur": {
+        "shows": 5.0,
+        "sold": 127.0,
+        "totalSeats": 655.0,
+        "gross": 15332.0,
+        "state": "Kerala",
+        "occupancy": 19.39
+      },
       "Trivandrum": {
         "shows": 5.0,
         "sold": 82.0,
@@ -30002,14 +30010,6 @@
         "gross": 14882.47,
         "state": "Kerala",
         "occupancy": 16.94
-      },
-      "Thrissur": {
-        "shows": 5.0,
-        "sold": 119.0,
-        "totalSeats": 655.0,
-        "gross": 14220.0,
-        "state": "Kerala",
-        "occupancy": 18.17
       },
       "Kakkattil": {
         "shows": 2.0,
@@ -30023,10 +30023,10 @@
     "states": {
       "Kerala": {
         "shows": 23.0,
-        "sold": 465.0,
+        "sold": 473.0,
         "totalSeats": 2938.0,
-        "gross": 64535.47,
-        "occupancy": 15.83
+        "gross": 65647.47,
+        "occupancy": 16.1
       }
     },
     "chains": {
@@ -30039,10 +30039,10 @@
       },
       "INOX": {
         "shows": 5.0,
-        "sold": 119.0,
+        "sold": 127.0,
         "totalSeats": 655.0,
-        "gross": 14220.0,
-        "occupancy": 18.17
+        "gross": 15332.0,
+        "occupancy": 19.39
       },
       "Ajantha": {
         "shows": 2.0,
@@ -30125,10 +30125,10 @@
       },
       "2026-03-11": {
         "shows": 3.0,
-        "sold": 39.0,
+        "sold": 47.0,
         "totalSeats": 447.0,
-        "gross": 5160.0,
-        "occupancy": 8.72
+        "gross": 6272.0,
+        "occupancy": 10.51
       }
     }
   },
@@ -31854,10 +31854,10 @@
   "Anomie - The Equation of Death | Tamil": {
     "summary": {
       "shows": 439.0,
-      "sold": 15083.0,
+      "sold": 15099.0,
       "totalSeats": 113063.0,
-      "gross": 1796732.06,
-      "occupancy": 13.34
+      "gross": 1798583.11,
+      "occupancy": 13.35
     },
     "cities": {
       "Tirupur": {
@@ -31870,11 +31870,11 @@
       },
       "Chennai": {
         "shows": 77.0,
-        "sold": 1830.0,
+        "sold": 1844.0,
         "totalSeats": 12570.0,
-        "gross": 237011.26,
+        "gross": 238678.31,
         "state": "Tamil Nadu",
-        "occupancy": 14.56
+        "occupancy": 14.67
       },
       "Karimangalam": {
         "shows": 8.0,
@@ -31944,10 +31944,10 @@
     "states": {
       "Tamil Nadu": {
         "shows": 414.0,
-        "sold": 14665.0,
+        "sold": 14679.0,
         "totalSeats": 108757.0,
-        "gross": 1732883.06,
-        "occupancy": 13.48
+        "gross": 1734550.11,
+        "occupancy": 13.5
       },
       "Unknown": {
         "shows": 9.0,
@@ -31958,10 +31958,10 @@
       },
       "Karnataka": {
         "shows": 16.0,
-        "sold": 34.0,
+        "sold": 36.0,
         "totalSeats": 2506.0,
-        "gross": 6249.0,
-        "occupancy": 1.36
+        "gross": 6433.0,
+        "occupancy": 1.44
       }
     },
     "chains": {
@@ -32016,10 +32016,10 @@
       },
       "INOX": {
         "shows": 30.0,
-        "sold": 449.0,
+        "sold": 465.0,
         "totalSeats": 4574.0,
-        "gross": 59987.23000000001,
-        "occupancy": 9.82
+        "gross": 61838.28000000001,
+        "occupancy": 10.17
       },
       "TPV": {
         "shows": 9.0,
@@ -32081,10 +32081,10 @@
       },
       "2026-03-11": {
         "shows": 64.0,
-        "sold": 2003.0,
+        "sold": 2019.0,
         "totalSeats": 15921.0,
-        "gross": 237963.28,
-        "occupancy": 12.58
+        "gross": 239814.33,
+        "occupancy": 12.68
       }
     }
   },
@@ -33001,10 +33001,10 @@
   "Boong | Manipuri": {
     "summary": {
       "shows": 657.0,
-      "sold": 22138.0,
+      "sold": 22151.0,
       "totalSeats": 110909.0,
-      "gross": 4002422.9099999997,
-      "occupancy": 19.96
+      "gross": 4004423.8499999996,
+      "occupancy": 19.97
     },
     "cities": {
       "New Delhi": {
@@ -33017,11 +33017,11 @@
       },
       "Bengaluru": {
         "shows": 165.0,
-        "sold": 4481.0,
+        "sold": 4488.0,
         "totalSeats": 25361.0,
-        "gross": 684374.0,
+        "gross": 685424.0,
         "state": "Karnataka",
-        "occupancy": 17.67
+        "occupancy": 17.7
       },
       "Guwahati": {
         "shows": 67.0,
@@ -33112,10 +33112,10 @@
       },
       "Karnataka": {
         "shows": 165.0,
-        "sold": 4481.0,
+        "sold": 4488.0,
         "totalSeats": 25361.0,
-        "gross": 684374.0,
-        "occupancy": 17.67
+        "gross": 685424.0,
+        "occupancy": 17.7
       },
       "West Bengal": {
         "shows": 38.0,
@@ -33156,24 +33156,24 @@
         "shows": 6.0,
         "sold": 438.0,
         "totalSeats": 1190.0,
-        "gross": 71731.11,
+        "gross": 71588.05,
         "occupancy": 36.81
       }
     },
     "chains": {
       "PVR": {
         "shows": 327.0,
-        "sold": 13426.0,
+        "sold": 13432.0,
         "totalSeats": 55407.0,
-        "gross": 2350498.8000000003,
-        "occupancy": 24.23
+        "gross": 2351592.8000000003,
+        "occupancy": 24.24
       },
       "INOX": {
         "shows": 182.0,
-        "sold": 4932.0,
+        "sold": 4939.0,
         "totalSeats": 29951.0,
-        "gross": 907500.11,
-        "occupancy": 16.47
+        "gross": 908407.05,
+        "occupancy": 16.49
       },
       "Cinepolis": {
         "shows": 101.0,
@@ -33270,29 +33270,29 @@
       },
       "2026-03-11": {
         "shows": 143.0,
-        "sold": 2865.0,
+        "sold": 2878.0,
         "totalSeats": 24178.0,
-        "gross": 486865.58,
-        "occupancy": 11.85
+        "gross": 488866.52,
+        "occupancy": 11.9
       }
     }
   },
   "Hoppers | English": {
     "summary": {
       "shows": 5099.0,
-      "sold": 89679.0,
+      "sold": 89689.0,
       "totalSeats": 888905.0,
-      "gross": 28313464.48,
+      "gross": 28318230.400000002,
       "occupancy": 10.09
     },
     "cities": {
       "Bengaluru": {
         "shows": 821.0,
-        "sold": 17173.0,
+        "sold": 17181.0,
         "totalSeats": 131157.0,
-        "gross": 6264626.0,
+        "gross": 6267518.0,
         "state": "Karnataka",
-        "occupancy": 13.09
+        "occupancy": 13.1
       },
       "Mumbai": {
         "shows": 578.0,
@@ -33306,7 +33306,7 @@
         "shows": 248.0,
         "sold": 10169.0,
         "totalSeats": 51813.0,
-        "gross": 2344702.3,
+        "gross": 2345896.2199999997,
         "state": "Tamil Nadu",
         "occupancy": 19.63
       },
@@ -33377,16 +33377,16 @@
       },
       "Karnataka": {
         "shows": 994.0,
-        "sold": 19083.0,
+        "sold": 19091.0,
         "totalSeats": 165904.0,
-        "gross": 6634990.0,
-        "occupancy": 11.5
+        "gross": 6637882.0,
+        "occupancy": 11.51
       },
       "Tamil Nadu": {
         "shows": 360.0,
         "sold": 13427.0,
         "totalSeats": 73642.0,
-        "gross": 2922894.48,
+        "gross": 2924088.4,
         "occupancy": 18.23
       },
       "Delhi": {
@@ -33426,10 +33426,10 @@
       },
       "Kerala": {
         "shows": 196.0,
-        "sold": 3206.0,
+        "sold": 3208.0,
         "totalSeats": 31932.0,
-        "gross": 879787.0,
-        "occupancy": 10.04
+        "gross": 880467.0,
+        "occupancy": 10.05
       },
       "West Bengal": {
         "shows": 161.0,
@@ -33442,9 +33442,9 @@
     "chains": {
       "PVR": {
         "shows": 1889.0,
-        "sold": 41764.0,
+        "sold": 41774.0,
         "totalSeats": 295848.0,
-        "gross": 14159143.04,
+        "gross": 14163908.96,
         "occupancy": 14.12
       },
       "INOX": {
@@ -33556,10 +33556,10 @@
       },
       "2026-03-11": {
         "shows": 799.0,
-        "sold": 8936.0,
+        "sold": 8946.0,
         "totalSeats": 138780.0,
-        "gross": 2197566.559999999,
-        "occupancy": 6.44
+        "gross": 2202332.479999999,
+        "occupancy": 6.45
       }
     }
   },
@@ -33612,19 +33612,19 @@
   "Sampradayini Suppini Suddapoosani | Telugu": {
     "summary": {
       "shows": 2267.0,
-      "sold": 96506.0,
-      "totalSeats": 665544.0,
-      "gross": 10943867.0,
-      "occupancy": 14.5
+      "sold": 96589.0,
+      "totalSeats": 665568.0,
+      "gross": 10957195.0,
+      "occupancy": 14.51
     },
     "cities": {
       "Hyderabad": {
         "shows": 560.0,
-        "sold": 17464.0,
+        "sold": 17477.0,
         "totalSeats": 152135.0,
-        "gross": 1987925.0,
+        "gross": 1989870.0,
         "state": "Telangana",
-        "occupancy": 11.48
+        "occupancy": 11.49
       },
       "Secunderabad": {
         "shows": 17.0,
@@ -33644,19 +33644,19 @@
       },
       "Vijayawada": {
         "shows": 177.0,
-        "sold": 7434.0,
+        "sold": 7441.0,
         "totalSeats": 46206.0,
-        "gross": 967448.0,
+        "gross": 968687.0,
         "state": "Andhra Pradesh",
-        "occupancy": 16.09
+        "occupancy": 16.1
       },
       "Bengaluru": {
         "shows": 236.0,
-        "sold": 4984.0,
+        "sold": 4996.0,
         "totalSeats": 40932.0,
-        "gross": 964674.0,
+        "gross": 966641.0,
         "state": "Karnataka",
-        "occupancy": 12.18
+        "occupancy": 12.21
       },
       "Palasa": {
         "shows": 23.0,
@@ -33692,34 +33692,34 @@
       },
       "Vizag": {
         "shows": 172.0,
-        "sold": 2003.0,
-        "totalSeats": 43652.0,
-        "gross": 341652.0,
+        "sold": 2021.0,
+        "totalSeats": 43676.0,
+        "gross": 345428.0,
         "state": "Andhra Pradesh",
-        "occupancy": 4.59
+        "occupancy": 4.63
       }
     },
     "states": {
       "Andhra Pradesh": {
         "shows": 1332.0,
-        "sold": 59028.0,
-        "totalSeats": 430610.0,
-        "gross": 5946453.0,
-        "occupancy": 13.71
+        "sold": 59066.0,
+        "totalSeats": 430634.0,
+        "gross": 5953769.0,
+        "occupancy": 13.72
       },
       "Telangana": {
         "shows": 675.0,
-        "sold": 31253.0,
+        "sold": 31286.0,
         "totalSeats": 187071.0,
-        "gross": 3862715.0,
-        "occupancy": 16.71
+        "gross": 3866760.0,
+        "occupancy": 16.72
       },
       "Karnataka": {
         "shows": 253.0,
-        "sold": 6159.0,
+        "sold": 6171.0,
         "totalSeats": 46631.0,
-        "gross": 1120449.0,
-        "occupancy": 13.21
+        "gross": 1122416.0,
+        "occupancy": 13.23
       },
       "Maharashtra": {
         "shows": 5.0,
@@ -33767,17 +33767,17 @@
       },
       "INOX": {
         "shows": 313.0,
-        "sold": 4099.0,
-        "totalSeats": 73718.0,
-        "gross": 766167.0,
-        "occupancy": 5.56
+        "sold": 4144.0,
+        "totalSeats": 73742.0,
+        "gross": 774553.0,
+        "occupancy": 5.62
       },
       "PVR": {
         "shows": 341.0,
-        "sold": 4615.0,
+        "sold": 4641.0,
         "totalSeats": 67121.0,
-        "gross": 706615.0,
-        "occupancy": 6.88
+        "gross": 709433.0,
+        "occupancy": 6.91
       },
       "Sushma": {
         "shows": 12.0,
@@ -33853,29 +33853,29 @@
       },
       "2026-03-11": {
         "shows": 351.0,
-        "sold": 13002.0,
-        "totalSeats": 103024.0,
-        "gross": 1348717.0,
-        "occupancy": 12.62
+        "sold": 13085.0,
+        "totalSeats": 103048.0,
+        "gross": 1362045.0,
+        "occupancy": 12.7
       }
     }
   },
   "Munna | Telugu": {
     "summary": {
       "shows": 858.0,
-      "sold": 58200.0,
+      "sold": 58183.0,
       "totalSeats": 318670.0,
-      "gross": 6921426.0,
+      "gross": 6917126.0,
       "occupancy": 18.26
     },
     "cities": {
       "Hyderabad": {
         "shows": 207.0,
-        "sold": 13625.0,
+        "sold": 13608.0,
         "totalSeats": 71980.0,
-        "gross": 1898290.0,
+        "gross": 1893990.0,
         "state": "Telangana",
-        "occupancy": 18.93
+        "occupancy": 18.91
       },
       "Rajahmundry": {
         "shows": 24.0,
@@ -33953,10 +33953,10 @@
     "states": {
       "Telangana": {
         "shows": 331.0,
-        "sold": 28725.0,
+        "sold": 28708.0,
         "totalSeats": 146364.0,
-        "gross": 3436090.0,
-        "occupancy": 19.63
+        "gross": 3431790.0,
+        "occupancy": 19.61
       },
       "Andhra Pradesh": {
         "shows": 353.0,
@@ -34039,10 +34039,10 @@
       },
       "PVR": {
         "shows": 118.0,
-        "sold": 1027.0,
+        "sold": 1010.0,
         "totalSeats": 20162.0,
-        "gross": 185947.0,
-        "occupancy": 5.09
+        "gross": 181647.0,
+        "occupancy": 5.01
       }
     },
     "daily": {
@@ -34083,20 +34083,20 @@
       },
       "2026-03-11": {
         "shows": 112.0,
-        "sold": 5606.0,
+        "sold": 5589.0,
         "totalSeats": 39999.0,
-        "gross": 639892.0,
-        "occupancy": 14.02
+        "gross": 635592.0,
+        "occupancy": 13.97
       }
     }
   },
   "Sonu Ke Titu Ki Sweety | Hindi": {
     "summary": {
       "shows": 1352.0,
-      "sold": 20270.0,
+      "sold": 20279.0,
       "totalSeats": 228213.0,
-      "gross": 2881970.0,
-      "occupancy": 8.88
+      "gross": 2883136.0,
+      "occupancy": 8.89
     },
     "cities": {
       "Shivpuri": {
@@ -34109,19 +34109,19 @@
       },
       "Indore": {
         "shows": 83.0,
-        "sold": 1889.0,
+        "sold": 1893.0,
         "totalSeats": 14236.0,
-        "gross": 277704.0,
+        "gross": 278124.0,
         "state": "Madhya Pradesh",
-        "occupancy": 13.27
+        "occupancy": 13.3
       },
       "Bengaluru": {
         "shows": 102.0,
-        "sold": 690.0,
+        "sold": 692.0,
         "totalSeats": 15616.0,
-        "gross": 131588.0,
+        "gross": 131886.0,
         "state": "Karnataka",
-        "occupancy": 4.42
+        "occupancy": 4.43
       },
       "Gurgaon": {
         "shows": 54.0,
@@ -34141,11 +34141,11 @@
       },
       "Mumbai": {
         "shows": 73.0,
-        "sold": 453.0,
+        "sold": 455.0,
         "totalSeats": 12595.0,
-        "gross": 72084.0,
+        "gross": 72382.0,
         "state": "Maharashtra",
-        "occupancy": 3.6
+        "occupancy": 3.61
       },
       "Ahmedabad": {
         "shows": 69.0,
@@ -34183,10 +34183,10 @@
     "states": {
       "Madhya Pradesh": {
         "shows": 249.0,
-        "sold": 12093.0,
+        "sold": 12097.0,
         "totalSeats": 46741.0,
-        "gross": 1503612.0,
-        "occupancy": 25.87
+        "gross": 1504032.0,
+        "occupancy": 25.88
       },
       "Uttar Pradesh": {
         "shows": 186.0,
@@ -34197,10 +34197,10 @@
       },
       "Maharashtra": {
         "shows": 152.0,
-        "sold": 1290.0,
+        "sold": 1292.0,
         "totalSeats": 25887.0,
-        "gross": 205674.0,
-        "occupancy": 4.98
+        "gross": 205972.0,
+        "occupancy": 4.99
       },
       "Haryana": {
         "shows": 83.0,
@@ -34211,10 +34211,10 @@
       },
       "Karnataka": {
         "shows": 158.0,
-        "sold": 994.0,
+        "sold": 996.0,
         "totalSeats": 25054.0,
-        "gross": 178562.0,
-        "occupancy": 3.97
+        "gross": 178860.0,
+        "occupancy": 3.98
       },
       "Gujarat": {
         "shows": 131.0,
@@ -34262,17 +34262,17 @@
       },
       "PVR": {
         "shows": 366.0,
-        "sold": 3005.0,
+        "sold": 3008.0,
         "totalSeats": 61809.0,
-        "gross": 504917.0,
-        "occupancy": 4.86
+        "gross": 505365.0,
+        "occupancy": 4.87
       },
       "INOX": {
         "shows": 377.0,
-        "sold": 2972.0,
+        "sold": 2978.0,
         "totalSeats": 66194.0,
-        "gross": 487960.0,
-        "occupancy": 4.49
+        "gross": 488678.0,
+        "occupancy": 4.5
       },
       "Fundore": {
         "shows": 10.0,
@@ -34362,53 +34362,53 @@
       },
       "2026-03-11": {
         "shows": 189.0,
-        "sold": 2807.0,
+        "sold": 2816.0,
         "totalSeats": 31224.0,
-        "gross": 351391.0,
-        "occupancy": 8.99
+        "gross": 352557.0,
+        "occupancy": 9.02
       }
     }
   },
   "Mrithyunjay | Telugu": {
     "summary": {
       "shows": 4367.0,
-      "sold": 319775.0,
-      "totalSeats": 1667458.0,
-      "gross": 39856805.74,
+      "sold": 319866.0,
+      "totalSeats": 1667446.0,
+      "gross": 39882978.95,
       "occupancy": 19.18
     },
     "cities": {
       "Hyderabad": {
         "shows": 1130.0,
-        "sold": 69918.0,
+        "sold": 70000.0,
         "totalSeats": 430693.0,
-        "gross": 11039684.0,
+        "gross": 11057960.0,
         "state": "Telangana",
-        "occupancy": 16.23
+        "occupancy": 16.25
       },
       "Bengaluru": {
         "shows": 276.0,
-        "sold": 33208.0,
-        "totalSeats": 85356.0,
-        "gross": 5163343.0,
+        "sold": 33236.0,
+        "totalSeats": 85365.0,
+        "gross": 5170123.0,
         "state": "Karnataka",
-        "occupancy": 38.91
+        "occupancy": 38.93
       },
       "Vizag": {
         "shows": 244.0,
-        "sold": 15897.0,
+        "sold": 15910.0,
         "totalSeats": 65472.0,
-        "gross": 2238448.0,
+        "gross": 2239805.0,
         "state": "Andhra Pradesh",
-        "occupancy": 24.28
+        "occupancy": 24.3
       },
       "Vijayawada": {
         "shows": 223.0,
-        "sold": 11973.0,
+        "sold": 11985.0,
         "totalSeats": 62326.0,
-        "gross": 1884379.0,
+        "gross": 1887211.0,
         "state": "Andhra Pradesh",
-        "occupancy": 19.21
+        "occupancy": 19.23
       },
       "Jangareddygudem": {
         "shows": 24.0,
@@ -34462,30 +34462,30 @@
     "states": {
       "Andhra Pradesh": {
         "shows": 2107.0,
-        "sold": 153109.0,
-        "totalSeats": 775018.0,
-        "gross": 17191095.0,
-        "occupancy": 19.76
+        "sold": 153082.0,
+        "totalSeats": 774997.0,
+        "gross": 17191780.0,
+        "occupancy": 19.75
       },
       "Telangana": {
         "shows": 1730.0,
-        "sold": 119282.0,
+        "sold": 119373.0,
         "totalSeats": 739721.0,
-        "gross": 15571749.0,
-        "occupancy": 16.13
+        "gross": 15591375.0,
+        "occupancy": 16.14
       },
       "Karnataka": {
         "shows": 374.0,
-        "sold": 41991.0,
-        "totalSeats": 111317.0,
-        "gross": 6258366.0,
-        "occupancy": 37.72
+        "sold": 42019.0,
+        "totalSeats": 111326.0,
+        "gross": 6265146.0,
+        "occupancy": 37.74
       },
       "Tamil Nadu": {
         "shows": 107.0,
-        "sold": 4583.0,
+        "sold": 4582.0,
         "totalSeats": 20159.0,
-        "gross": 658383.74,
+        "gross": 657465.9500000001,
         "occupancy": 22.73
       },
       "Maharashtra": {
@@ -34520,17 +34520,17 @@
       },
       "PVR": {
         "shows": 612.0,
-        "sold": 21157.0,
-        "totalSeats": 143887.0,
-        "gross": 4513738.609999999,
-        "occupancy": 14.7
+        "sold": 21134.0,
+        "totalSeats": 143875.0,
+        "gross": 4515638.609999999,
+        "occupancy": 14.69
       },
       "INOX": {
         "shows": 483.0,
-        "sold": 14891.0,
+        "sold": 14992.0,
         "totalSeats": 115482.0,
-        "gross": 3068402.69,
-        "occupancy": 12.89
+        "gross": 3088175.9,
+        "occupancy": 12.98
       },
       "Bhoomika": {
         "shows": 24.0,
@@ -34562,10 +34562,10 @@
       },
       "Cinepolis": {
         "shows": 260.0,
-        "sold": 6528.0,
+        "sold": 6545.0,
         "totalSeats": 60120.0,
-        "gross": 1322754.44,
-        "occupancy": 10.86
+        "gross": 1326954.44,
+        "occupancy": 10.89
       },
       "Vyjayanthi": {
         "shows": 23.0,
@@ -34620,20 +34620,20 @@
       },
       "2026-03-11": {
         "shows": 711.0,
-        "sold": 44066.0,
-        "totalSeats": 270102.0,
-        "gross": 5222241.080000001,
-        "occupancy": 16.31
+        "sold": 44157.0,
+        "totalSeats": 270090.0,
+        "gross": 5248414.290000001,
+        "occupancy": 16.35
       }
     }
   },
   "Mension House Mallesh | Telugu": {
     "summary": {
       "shows": 1227.0,
-      "sold": 81387.0,
+      "sold": 81545.0,
       "totalSeats": 394451.0,
-      "gross": 9009748.0,
-      "occupancy": 20.63
+      "gross": 9035674.0,
+      "occupancy": 20.67
     },
     "cities": {
       "Bengaluru": {
@@ -34646,11 +34646,11 @@
       },
       "Hyderabad": {
         "shows": 349.0,
-        "sold": 10857.0,
+        "sold": 10957.0,
         "totalSeats": 94890.0,
-        "gross": 1482925.0,
+        "gross": 1499125.0,
         "state": "Telangana",
-        "occupancy": 11.44
+        "occupancy": 11.55
       },
       "Bhainsa": {
         "shows": 23.0,
@@ -34720,24 +34720,24 @@
     "states": {
       "Telangana": {
         "shows": 665.0,
-        "sold": 60634.0,
+        "sold": 60734.0,
         "totalSeats": 240244.0,
-        "gross": 6320545.0,
-        "occupancy": 25.24
+        "gross": 6336745.0,
+        "occupancy": 25.28
       },
       "Karnataka": {
         "shows": 107.0,
-        "sold": 12365.0,
+        "sold": 12385.0,
         "totalSeats": 29104.0,
-        "gross": 1656821.0,
-        "occupancy": 42.49
+        "gross": 1659821.0,
+        "occupancy": 42.55
       },
       "Andhra Pradesh": {
         "shows": 455.0,
-        "sold": 8388.0,
+        "sold": 8426.0,
         "totalSeats": 125103.0,
-        "gross": 1032382.0,
-        "occupancy": 6.7
+        "gross": 1039108.0,
+        "occupancy": 6.74
       }
     },
     "chains": {
@@ -34799,10 +34799,10 @@
       },
       "PVR": {
         "shows": 133.0,
-        "sold": 3175.0,
+        "sold": 3203.0,
         "totalSeats": 21311.0,
-        "gross": 499480.0,
-        "occupancy": 14.9
+        "gross": 502880.0,
+        "occupancy": 15.03
       },
       "Venkataramana": {
         "shows": 24.0,
@@ -34850,10 +34850,10 @@
       },
       "2026-03-11": {
         "shows": 200.0,
-        "sold": 11987.0,
+        "sold": 12145.0,
         "totalSeats": 64003.0,
-        "gross": 1301395.0,
-        "occupancy": 18.73
+        "gross": 1327321.0,
+        "occupancy": 18.98
       }
     }
   },
@@ -34941,9 +34941,9 @@
   "Hoppers | Hindi": {
     "summary": {
       "shows": 4950.0,
-      "sold": 59187.0,
+      "sold": 59183.0,
       "totalSeats": 948624.0,
-      "gross": 11506356.0,
+      "gross": 11505836.0,
       "occupancy": 6.24
     },
     "cities": {
@@ -34957,11 +34957,11 @@
       },
       "Ghaziabad": {
         "shows": 231.0,
-        "sold": 5390.0,
+        "sold": 5386.0,
         "totalSeats": 54610.0,
-        "gross": 832978.0,
+        "gross": 832458.0,
         "state": "Uttar Pradesh",
-        "occupancy": 9.87
+        "occupancy": 9.86
       },
       "New Delhi": {
         "shows": 314.0,
@@ -35031,9 +35031,9 @@
     "states": {
       "Uttar Pradesh": {
         "shows": 1024.0,
-        "sold": 18158.0,
+        "sold": 18154.0,
         "totalSeats": 215216.0,
-        "gross": 3260537.0,
+        "gross": 3260017.0,
         "occupancy": 8.44
       },
       "Gujarat": {
@@ -35166,10 +35166,10 @@
       },
       "Wave": {
         "shows": 209.0,
-        "sold": 1941.0,
+        "sold": 1937.0,
         "totalSeats": 41347.0,
-        "gross": 346900.0,
-        "occupancy": 4.69
+        "gross": 346380.0,
+        "occupancy": 4.68
       }
     },
     "daily": {
@@ -35210,9 +35210,9 @@
       },
       "2026-03-11": {
         "shows": 714.0,
-        "sold": 8163.0,
+        "sold": 8159.0,
         "totalSeats": 135069.0,
-        "gross": 1343881.0,
+        "gross": 1343361.0,
         "occupancy": 6.04
       }
     }
@@ -35220,10 +35220,10 @@
   "Charak : Fair of Faith | Hindi": {
     "summary": {
       "shows": 1457.0,
-      "sold": 14497.0,
-      "totalSeats": 254049.0,
-      "gross": 2720490.4699999997,
-      "occupancy": 5.71
+      "sold": 14525.0,
+      "totalSeats": 254061.0,
+      "gross": 2725187.4699999997,
+      "occupancy": 5.72
     },
     "cities": {
       "Asansol": {
@@ -35260,11 +35260,11 @@
       },
       "Mumbai": {
         "shows": 87.0,
-        "sold": 636.0,
+        "sold": 641.0,
         "totalSeats": 14093.0,
-        "gross": 140832.0,
+        "gross": 142327.0,
         "state": "Maharashtra",
-        "occupancy": 4.51
+        "occupancy": 4.55
       },
       "Bengaluru": {
         "shows": 47.0,
@@ -35276,11 +35276,11 @@
       },
       "Ahmedabad": {
         "shows": 127.0,
-        "sold": 548.0,
-        "totalSeats": 16645.0,
-        "gross": 93155.0,
+        "sold": 566.0,
+        "totalSeats": 16657.0,
+        "gross": 95723.0,
         "state": "Gujarat",
-        "occupancy": 3.29
+        "occupancy": 3.4
       },
       "Nagpur": {
         "shows": 7.0,
@@ -35331,17 +35331,17 @@
       },
       "Maharashtra": {
         "shows": 192.0,
-        "sold": 1453.0,
+        "sold": 1460.0,
         "totalSeats": 36233.0,
-        "gross": 290402.0,
-        "occupancy": 4.01
+        "gross": 292081.0,
+        "occupancy": 4.03
       },
       "Gujarat": {
         "shows": 288.0,
-        "sold": 1184.0,
-        "totalSeats": 42722.0,
-        "gross": 219043.0,
-        "occupancy": 2.77
+        "sold": 1202.0,
+        "totalSeats": 42734.0,
+        "gross": 221611.0,
+        "occupancy": 2.81
       },
       "Tamil Nadu": {
         "shows": 31.0,
@@ -35373,10 +35373,10 @@
       },
       "Telangana": {
         "shows": 43.0,
-        "sold": 370.0,
+        "sold": 373.0,
         "totalSeats": 5814.0,
-        "gross": 61200.0,
-        "occupancy": 6.36
+        "gross": 61650.0,
+        "occupancy": 6.42
       }
     },
     "chains": {
@@ -35389,10 +35389,10 @@
       },
       "PVR": {
         "shows": 271.0,
-        "sold": 2270.0,
-        "totalSeats": 40457.0,
-        "gross": 517394.01999999996,
-        "occupancy": 5.61
+        "sold": 2291.0,
+        "totalSeats": 40469.0,
+        "gross": 520412.01999999996,
+        "occupancy": 5.66
       },
       "INOX": {
         "shows": 257.0,
@@ -35445,10 +35445,10 @@
       },
       "Miraj": {
         "shows": 139.0,
-        "sold": 336.0,
+        "sold": 343.0,
         "totalSeats": 26160.0,
-        "gross": 51230.0,
-        "occupancy": 1.28
+        "gross": 52909.0,
+        "occupancy": 1.31
       }
     },
     "daily": {
@@ -35489,45 +35489,45 @@
       },
       "2026-03-11": {
         "shows": 166.0,
-        "sold": 1823.0,
-        "totalSeats": 28244.0,
-        "gross": 282379.26,
-        "occupancy": 6.45
+        "sold": 1851.0,
+        "totalSeats": 28256.0,
+        "gross": 287076.26,
+        "occupancy": 6.55
       }
     }
   },
   "Ishqa'n De Lekhe | Punjabi": {
     "summary": {
       "shows": 4442.0,
-      "sold": 144386.0,
+      "sold": 144824.0,
       "totalSeats": 853369.0,
-      "gross": 27283587.0,
-      "occupancy": 16.92
+      "gross": 27347484.0,
+      "occupancy": 16.97
     },
     "cities": {
       "New Delhi": {
         "shows": 330.0,
-        "sold": 15761.0,
+        "sold": 15787.0,
         "totalSeats": 68161.0,
-        "gross": 3009516.0,
+        "gross": 3013390.0,
         "state": "Delhi",
-        "occupancy": 23.12
+        "occupancy": 23.16
       },
       "Mohali": {
         "shows": 264.0,
-        "sold": 8736.0,
+        "sold": 8753.0,
         "totalSeats": 47143.0,
-        "gross": 2137017.0,
+        "gross": 2140097.0,
         "state": "Punjab",
-        "occupancy": 18.53
+        "occupancy": 18.57
       },
       "Ludhiana": {
         "shows": 299.0,
-        "sold": 10230.0,
+        "sold": 10253.0,
         "totalSeats": 71576.0,
-        "gross": 2074006.0,
+        "gross": 2078836.0,
         "state": "Punjab",
-        "occupancy": 14.29
+        "occupancy": 14.32
       },
       "Jalandhar": {
         "shows": 186.0,
@@ -35547,19 +35547,19 @@
       },
       "Karnal": {
         "shows": 87.0,
-        "sold": 6967.0,
+        "sold": 6981.0,
         "totalSeats": 13378.0,
-        "gross": 1101896.0,
+        "gross": 1103996.0,
         "state": "Haryana",
-        "occupancy": 52.08
+        "occupancy": 52.18
       },
       "Gurgaon": {
         "shows": 134.0,
-        "sold": 4910.0,
+        "sold": 4943.0,
         "totalSeats": 19619.0,
-        "gross": 975744.0,
+        "gross": 980034.0,
         "state": "Haryana",
-        "occupancy": 25.03
+        "occupancy": 25.19
       },
       "Yamunanagar": {
         "shows": 66.0,
@@ -35579,62 +35579,62 @@
       },
       "Chandigarh": {
         "shows": 147.0,
-        "sold": 4009.0,
+        "sold": 4074.0,
         "totalSeats": 36764.0,
-        "gross": 829918.0,
+        "gross": 840353.0,
         "state": "Chandigarh",
-        "occupancy": 10.9
+        "occupancy": 11.08
       }
     },
     "states": {
       "Punjab": {
         "shows": 2431.0,
-        "sold": 66727.0,
+        "sold": 66767.0,
         "totalSeats": 471517.0,
-        "gross": 12955095.0,
-        "occupancy": 14.15
+        "gross": 12963005.0,
+        "occupancy": 14.16
       },
       "Haryana": {
         "shows": 954.0,
-        "sold": 39449.0,
+        "sold": 39537.0,
         "totalSeats": 179246.0,
-        "gross": 7360880.0,
-        "occupancy": 22.01
+        "gross": 7373420.0,
+        "occupancy": 22.06
       },
       "Delhi": {
         "shows": 330.0,
-        "sold": 15761.0,
+        "sold": 15787.0,
         "totalSeats": 68161.0,
-        "gross": 3009516.0,
-        "occupancy": 23.12
+        "gross": 3013390.0,
+        "occupancy": 23.16
       },
       "Rajasthan": {
         "shows": 199.0,
-        "sold": 6474.0,
+        "sold": 6628.0,
         "totalSeats": 30627.0,
-        "gross": 1022102.0,
-        "occupancy": 21.14
+        "gross": 1041669.0,
+        "occupancy": 21.64
       },
       "Chandigarh": {
         "shows": 147.0,
-        "sold": 4009.0,
+        "sold": 4074.0,
         "totalSeats": 36764.0,
-        "gross": 829918.0,
-        "occupancy": 10.9
+        "gross": 840353.0,
+        "occupancy": 11.08
       },
       "Uttar Pradesh": {
         "shows": 64.0,
-        "sold": 3713.0,
+        "sold": 3742.0,
         "totalSeats": 10229.0,
-        "gross": 699256.0,
-        "occupancy": 36.3
+        "gross": 703577.0,
+        "occupancy": 36.58
       },
       "Jammu And Kashmir": {
         "shows": 107.0,
-        "sold": 4462.0,
+        "sold": 4484.0,
         "totalSeats": 24139.0,
-        "gross": 687770.0,
-        "occupancy": 18.48
+        "gross": 691048.0,
+        "occupancy": 18.58
       },
       "Uttarakhand": {
         "shows": 54.0,
@@ -35645,10 +35645,10 @@
       },
       "Maharashtra": {
         "shows": 63.0,
-        "sold": 938.0,
+        "sold": 952.0,
         "totalSeats": 12041.0,
-        "gross": 191713.0,
-        "occupancy": 7.79
+        "gross": 193685.0,
+        "occupancy": 7.91
       },
       "Himachal Pradesh": {
         "shows": 61.0,
@@ -35661,31 +35661,31 @@
     "chains": {
       "PVR": {
         "shows": 1254.0,
-        "sold": 57804.0,
+        "sold": 57936.0,
         "totalSeats": 244459.0,
-        "gross": 11509941.0,
-        "occupancy": 23.65
+        "gross": 11528022.0,
+        "occupancy": 23.7
       },
       "Cinepolis": {
         "shows": 470.0,
-        "sold": 13493.0,
+        "sold": 13586.0,
         "totalSeats": 100773.0,
-        "gross": 2754791.0,
-        "occupancy": 13.39
+        "gross": 2768461.0,
+        "occupancy": 13.48
       },
       "INOX": {
         "shows": 356.0,
-        "sold": 12212.0,
+        "sold": 12296.0,
         "totalSeats": 68583.0,
-        "gross": 2317119.0,
-        "occupancy": 17.81
+        "gross": 2328586.0,
+        "occupancy": 17.93
       },
       "Miraj": {
         "shows": 215.0,
-        "sold": 9264.0,
+        "sold": 9334.0,
         "totalSeats": 45420.0,
-        "gross": 1557984.0,
-        "occupancy": 20.4
+        "gross": 1568455.0,
+        "occupancy": 20.55
       },
       "Fun": {
         "shows": 154.0,
@@ -35703,17 +35703,17 @@
       },
       "Wave": {
         "shows": 87.0,
-        "sold": 3647.0,
+        "sold": 3670.0,
         "totalSeats": 23938.0,
-        "gross": 702321.0,
-        "occupancy": 15.24
+        "gross": 707151.0,
+        "occupancy": 15.33
       },
       "Movietime": {
         "shows": 164.0,
-        "sold": 4410.0,
+        "sold": 4436.0,
         "totalSeats": 26294.0,
-        "gross": 675815.0,
-        "occupancy": 16.77
+        "gross": 679703.0,
+        "occupancy": 16.87
       },
       "JR": {
         "shows": 52.0,
@@ -35768,45 +35768,45 @@
       },
       "2026-03-11": {
         "shows": 923.0,
-        "sold": 26378.0,
+        "sold": 26816.0,
         "totalSeats": 174997.0,
-        "gross": 4412681.0,
-        "occupancy": 15.07
+        "gross": 4476578.0,
+        "occupancy": 15.32
       }
     }
   },
   "The Bride! | English": {
     "summary": {
       "shows": 4568.0,
-      "sold": 36112.0,
+      "sold": 36189.0,
       "totalSeats": 805933.0,
-      "gross": 9535413.36,
-      "occupancy": 4.48
+      "gross": 9554309.02,
+      "occupancy": 4.49
     },
     "cities": {
       "Bengaluru": {
         "shows": 735.0,
-        "sold": 5152.0,
+        "sold": 5186.0,
         "totalSeats": 125605.0,
-        "gross": 1777615.0,
+        "gross": 1785597.0,
         "state": "Karnataka",
-        "occupancy": 4.1
+        "occupancy": 4.13
       },
       "Mumbai": {
         "shows": 459.0,
-        "sold": 3871.0,
+        "sold": 3880.0,
         "totalSeats": 89547.0,
-        "gross": 1329691.0,
+        "gross": 1331932.0,
         "state": "Maharashtra",
-        "occupancy": 4.32
+        "occupancy": 4.33
       },
       "New Delhi": {
         "shows": 220.0,
-        "sold": 2586.0,
+        "sold": 2588.0,
         "totalSeats": 38365.0,
-        "gross": 832140.0,
+        "gross": 832538.0,
         "state": "Delhi",
-        "occupancy": 6.74
+        "occupancy": 6.75
       },
       "Chennai": {
         "shows": 161.0,
@@ -35818,9 +35818,9 @@
       },
       "Hyderabad": {
         "shows": 463.0,
-        "sold": 2661.0,
+        "sold": 2667.0,
         "totalSeats": 69934.0,
-        "gross": 601714.0,
+        "gross": 603553.0,
         "state": "Telangana",
         "occupancy": 3.81
       },
@@ -35842,25 +35842,25 @@
       },
       "Kolkata": {
         "shows": 193.0,
-        "sold": 1243.0,
+        "sold": 1246.0,
         "totalSeats": 42772.0,
-        "gross": 382283.0,
+        "gross": 382880.0,
         "state": "West Bengal",
         "occupancy": 2.91
       },
       "Noida": {
         "shows": 103.0,
-        "sold": 1143.0,
+        "sold": 1147.0,
         "totalSeats": 19422.0,
-        "gross": 356374.0,
+        "gross": 357210.0,
         "state": "Uttar Pradesh",
-        "occupancy": 5.89
+        "occupancy": 5.91
       },
       "Gurgaon": {
         "shows": 202.0,
-        "sold": 1074.0,
+        "sold": 1075.0,
         "totalSeats": 27057.0,
-        "gross": 341464.0,
+        "gross": 341713.0,
         "state": "Haryana",
         "occupancy": 3.97
       }
@@ -35868,66 +35868,66 @@
     "states": {
       "Maharashtra": {
         "shows": 817.0,
-        "sold": 8946.0,
+        "sold": 8955.0,
         "totalSeats": 159320.0,
-        "gross": 2552009.0,
+        "gross": 2554250.0,
         "occupancy": 5.62
       },
       "Karnataka": {
         "shows": 889.0,
-        "sold": 5875.0,
+        "sold": 5923.0,
         "totalSeats": 157858.0,
-        "gross": 1898605.0,
-        "occupancy": 3.72
+        "gross": 1907932.0,
+        "occupancy": 3.75
       },
       "Delhi": {
         "shows": 220.0,
-        "sold": 2586.0,
+        "sold": 2588.0,
         "totalSeats": 38365.0,
-        "gross": 832140.0,
-        "occupancy": 6.74
+        "gross": 832538.0,
+        "occupancy": 6.75
       },
       "Tamil Nadu": {
         "shows": 220.0,
-        "sold": 5038.0,
+        "sold": 5021.0,
         "totalSeats": 43670.0,
-        "gross": 766958.9600000002,
-        "occupancy": 11.54
+        "gross": 766028.6200000001,
+        "occupancy": 11.5
       },
       "Telangana": {
         "shows": 493.0,
-        "sold": 2685.0,
+        "sold": 2691.0,
         "totalSeats": 73584.0,
-        "gross": 605314.0,
-        "occupancy": 3.65
+        "gross": 607153.0,
+        "occupancy": 3.66
       },
       "Uttar Pradesh": {
         "shows": 196.0,
-        "sold": 1993.0,
+        "sold": 1997.0,
         "totalSeats": 34891.0,
-        "gross": 560630.0,
-        "occupancy": 5.71
+        "gross": 561466.0,
+        "occupancy": 5.72
       },
       "West Bengal": {
         "shows": 203.0,
-        "sold": 1293.0,
+        "sold": 1296.0,
         "totalSeats": 44952.0,
-        "gross": 393621.0,
+        "gross": 394218.0,
         "occupancy": 2.88
       },
       "Haryana": {
         "shows": 223.0,
-        "sold": 1120.0,
+        "sold": 1121.0,
         "totalSeats": 29947.0,
-        "gross": 351655.0,
+        "gross": 351904.0,
         "occupancy": 3.74
       },
       "Gujarat": {
         "shows": 280.0,
-        "sold": 1167.0,
+        "sold": 1179.0,
         "totalSeats": 49469.0,
-        "gross": 309460.0,
-        "occupancy": 2.36
+        "gross": 312127.0,
+        "occupancy": 2.38
       },
       "Kerala": {
         "shows": 103.0,
@@ -35940,17 +35940,17 @@
     "chains": {
       "PVR": {
         "shows": 1867.0,
-        "sold": 15137.0,
+        "sold": 15177.0,
         "totalSeats": 292843.0,
-        "gross": 4073153.5799999996,
-        "occupancy": 5.17
+        "gross": 4084217.5799999996,
+        "occupancy": 5.18
       },
       "INOX": {
         "shows": 1452.0,
-        "sold": 9825.0,
+        "sold": 9858.0,
         "totalSeats": 282414.0,
-        "gross": 2722812.96,
-        "occupancy": 3.48
+        "gross": 2729948.6199999996,
+        "occupancy": 3.49
       },
       "Cinepolis": {
         "shows": 637.0,
@@ -35982,10 +35982,10 @@
       },
       "Pepsi": {
         "shows": 28.0,
-        "sold": 294.0,
+        "sold": 295.0,
         "totalSeats": 5109.0,
-        "gross": 90621.0,
-        "occupancy": 5.75
+        "gross": 90870.0,
+        "occupancy": 5.77
       },
       "MovieTime": {
         "shows": 47.0,
@@ -35994,19 +35994,19 @@
         "gross": 85030.0,
         "occupancy": 6.01
       },
+      "Maison": {
+        "shows": 21.0,
+        "sold": 126.0,
+        "totalSeats": 3212.0,
+        "gross": 63514.0,
+        "occupancy": 3.92
+      },
       "Wave": {
         "shows": 48.0,
         "sold": 364.0,
         "totalSeats": 8952.0,
         "gross": 63486.0,
         "occupancy": 4.07
-      },
-      "Maison": {
-        "shows": 21.0,
-        "sold": 123.0,
-        "totalSeats": 3212.0,
-        "gross": 63067.0,
-        "occupancy": 3.83
       }
     },
     "daily": {
@@ -36047,29 +36047,29 @@
       },
       "2026-03-11": {
         "shows": 574.0,
-        "sold": 2784.0,
+        "sold": 2861.0,
         "totalSeats": 99852.0,
-        "gross": 519030.77999999985,
-        "occupancy": 2.79
+        "gross": 537926.4399999998,
+        "occupancy": 2.87
       }
     }
   },
   "Kadhal Reset Repeat | Tamil": {
     "summary": {
       "shows": 1266.0,
-      "sold": 26169.0,
+      "sold": 26264.0,
       "totalSeats": 264922.0,
-      "gross": 3493313.88,
-      "occupancy": 9.88
+      "gross": 3509698.13,
+      "occupancy": 9.91
     },
     "cities": {
       "Chennai": {
         "shows": 330.0,
-        "sold": 14327.0,
+        "sold": 14382.0,
         "totalSeats": 73179.0,
-        "gross": 1804491.8199999998,
+        "gross": 1813953.5699999998,
         "state": "Tamil Nadu",
-        "occupancy": 19.58
+        "occupancy": 19.65
       },
       "Bengaluru": {
         "shows": 221.0,
@@ -36081,11 +36081,11 @@
       },
       "Coimbatore": {
         "shows": 65.0,
-        "sold": 1904.0,
+        "sold": 1926.0,
         "totalSeats": 12084.0,
-        "gross": 228919.45,
+        "gross": 233221.95,
         "state": "Tamil Nadu",
-        "occupancy": 15.76
+        "occupancy": 15.94
       },
       "Kozhinjampara": {
         "shows": 20.0,
@@ -36111,6 +36111,14 @@
         "state": "Tamil Nadu",
         "occupancy": 42.53
       },
+      "Puducherry": {
+        "shows": 12.0,
+        "sold": 609.0,
+        "totalSeats": 2242.0,
+        "gross": 98730.0,
+        "state": "Puducherry",
+        "occupancy": 27.16
+      },
       "Tenkasi": {
         "shows": 12.0,
         "sold": 748.0,
@@ -36118,14 +36126,6 @@
         "gross": 97240.0,
         "state": "Tamil Nadu",
         "occupancy": 15.7
-      },
-      "Puducherry": {
-        "shows": 12.0,
-        "sold": 591.0,
-        "totalSeats": 2242.0,
-        "gross": 96110.0,
-        "state": "Puducherry",
-        "occupancy": 26.36
       },
       "Palani": {
         "shows": 24.0,
@@ -36147,10 +36147,10 @@
     "states": {
       "Tamil Nadu": {
         "shows": 860.0,
-        "sold": 21865.0,
+        "sold": 21942.0,
         "totalSeats": 194136.0,
-        "gross": 2712233.8799999994,
-        "occupancy": 11.26
+        "gross": 2725998.1299999994,
+        "occupancy": 11.3
       },
       "Karnataka": {
         "shows": 261.0,
@@ -36168,10 +36168,10 @@
       },
       "Puducherry": {
         "shows": 12.0,
-        "sold": 591.0,
+        "sold": 609.0,
         "totalSeats": 2242.0,
-        "gross": 96110.0,
-        "occupancy": 26.36
+        "gross": 98730.0,
+        "occupancy": 27.16
       },
       "Maharashtra": {
         "shows": 27.0,
@@ -36219,10 +36219,10 @@
     "chains": {
       "PVR": {
         "shows": 372.0,
-        "sold": 10438.0,
+        "sold": 10511.0,
         "totalSeats": 66565.0,
-        "gross": 1499447.5,
-        "occupancy": 15.68
+        "gross": 1511529.25,
+        "occupancy": 15.79
       },
       "INOX": {
         "shows": 208.0,
@@ -36326,29 +36326,29 @@
       },
       "2026-03-11": {
         "shows": 181.0,
-        "sold": 3562.0,
+        "sold": 3657.0,
         "totalSeats": 38260.0,
-        "gross": 431976.23,
-        "occupancy": 9.31
+        "gross": 448360.48000000004,
+        "occupancy": 9.56
       }
     }
   },
   "Mustafa Mustafa | Tamil": {
     "summary": {
       "shows": 885.0,
-      "sold": 46167.0,
-      "totalSeats": 235339.0,
-      "gross": 4990454.74,
+      "sold": 46171.0,
+      "totalSeats": 235347.0,
+      "gross": 4997167.1899999995,
       "occupancy": 19.62
     },
     "cities": {
       "Chennai": {
         "shows": 272.0,
-        "sold": 12330.0,
-        "totalSeats": 69461.0,
-        "gross": 1460861.8800000001,
+        "sold": 12373.0,
+        "totalSeats": 69475.0,
+        "gross": 1466435.1800000002,
         "state": "Tamil Nadu",
-        "occupancy": 17.75
+        "occupancy": 17.81
       },
       "Komarapalayam": {
         "shows": 24.0,
@@ -36376,11 +36376,11 @@
       },
       "Coimbatore": {
         "shows": 63.0,
-        "sold": 1925.0,
-        "totalSeats": 11863.0,
-        "gross": 236533.30000000002,
+        "sold": 1944.0,
+        "totalSeats": 11884.0,
+        "gross": 239766.60000000003,
         "state": "Tamil Nadu",
-        "occupancy": 16.23
+        "occupancy": 16.36
       },
       "Tirupattur": {
         "shows": 24.0,
@@ -36392,19 +36392,19 @@
       },
       "Bengaluru": {
         "shows": 68.0,
-        "sold": 482.0,
+        "sold": 492.0,
         "totalSeats": 10849.0,
-        "gross": 123619.0,
+        "gross": 125609.0,
         "state": "Karnataka",
-        "occupancy": 4.44
+        "occupancy": 4.53
       },
       "Cuddalore": {
         "shows": 24.0,
-        "sold": 1198.0,
+        "sold": 1179.0,
         "totalSeats": 8910.0,
-        "gross": 120596.78000000001,
+        "gross": 119564.13,
         "state": "Tamil Nadu",
-        "occupancy": 13.45
+        "occupancy": 13.23
       },
       "Dharmapuri": {
         "shows": 24.0,
@@ -36426,17 +36426,17 @@
     "states": {
       "Tamil Nadu": {
         "shows": 780.0,
-        "sold": 39715.0,
-        "totalSeats": 212798.0,
-        "gross": 4226575.74,
+        "sold": 39709.0,
+        "totalSeats": 212806.0,
+        "gross": 4231298.19,
         "occupancy": 18.66
       },
       "Karnataka": {
         "shows": 86.0,
-        "sold": 6254.0,
+        "sold": 6264.0,
         "totalSeats": 19579.0,
-        "gross": 731539.0,
-        "occupancy": 31.94
+        "gross": 733529.0,
+        "occupancy": 31.99
       },
       "Puducherry": {
         "shows": 12.0,
@@ -36463,10 +36463,10 @@
       },
       "PVR": {
         "shows": 235.0,
-        "sold": 8209.0,
-        "totalSeats": 45520.0,
-        "gross": 1031203.5700000001,
-        "occupancy": 18.03
+        "sold": 8262.0,
+        "totalSeats": 45555.0,
+        "gross": 1040967.52,
+        "occupancy": 18.14
       },
       "MPS": {
         "shows": 9.0,
@@ -36484,10 +36484,10 @@
       },
       "INOX": {
         "shows": 109.0,
-        "sold": 2902.0,
-        "totalSeats": 22192.0,
-        "gross": 367875.23000000004,
-        "occupancy": 13.08
+        "sold": 2853.0,
+        "totalSeats": 22165.0,
+        "gross": 364823.73000000004,
+        "occupancy": 12.87
       },
       "Golden": {
         "shows": 12.0,
@@ -36563,10 +36563,10 @@
       },
       "2026-03-11": {
         "shows": 119.0,
-        "sold": 6312.0,
-        "totalSeats": 31086.0,
-        "gross": 649450.4,
-        "occupancy": 20.3
+        "sold": 6316.0,
+        "totalSeats": 31094.0,
+        "gross": 656162.8500000001,
+        "occupancy": 20.31
       }
     }
   },
@@ -37049,19 +37049,19 @@
   "S. SARASWATHI | Telugu": {
     "summary": {
       "shows": 1383.0,
-      "sold": 75298.0,
+      "sold": 75328.0,
       "totalSeats": 407100.0,
-      "gross": 9669658.0,
+      "gross": 9673833.0,
       "occupancy": 18.5
     },
     "cities": {
       "Hyderabad": {
         "shows": 441.0,
-        "sold": 17771.0,
+        "sold": 17791.0,
         "totalSeats": 110647.0,
-        "gross": 2380635.0,
+        "gross": 2383040.0,
         "state": "Telangana",
-        "occupancy": 16.06
+        "occupancy": 16.08
       },
       "Rajahmundry": {
         "shows": 24.0,
@@ -37139,17 +37139,17 @@
     "states": {
       "Andhra Pradesh": {
         "shows": 670.0,
-        "sold": 49752.0,
+        "sold": 49762.0,
         "totalSeats": 227965.0,
-        "gross": 5909307.0,
-        "occupancy": 21.82
+        "gross": 5911077.0,
+        "occupancy": 21.83
       },
       "Telangana": {
         "shows": 542.0,
-        "sold": 19865.0,
+        "sold": 19885.0,
         "totalSeats": 134913.0,
-        "gross": 2693085.0,
-        "occupancy": 14.72
+        "gross": 2695490.0,
+        "occupancy": 14.74
       },
       "Odisha": {
         "shows": 24.0,
@@ -37239,10 +37239,10 @@
       },
       "PVR": {
         "shows": 139.0,
-        "sold": 4275.0,
+        "sold": 4278.0,
         "totalSeats": 25553.0,
-        "gross": 670517.0,
-        "occupancy": 16.73
+        "gross": 670967.0,
+        "occupancy": 16.74
       },
       "Sushma": {
         "shows": 11.0,
@@ -37253,10 +37253,10 @@
       },
       "INOX": {
         "shows": 171.0,
-        "sold": 3514.0,
+        "sold": 3540.0,
         "totalSeats": 30491.0,
-        "gross": 605845.0,
-        "occupancy": 11.52
+        "gross": 610115.0,
+        "occupancy": 11.61
       },
       "Kameswari": {
         "shows": 22.0,
@@ -37318,37 +37318,37 @@
       },
       "2026-03-11": {
         "shows": 212.0,
-        "sold": 11132.0,
+        "sold": 11162.0,
         "totalSeats": 63145.0,
-        "gross": 1382922.0,
-        "occupancy": 17.63
+        "gross": 1387097.0,
+        "occupancy": 17.68
       }
     }
   },
   "Hasee Toh Phasee | Hindi": {
     "summary": {
       "shows": 613.0,
-      "sold": 6879.0,
+      "sold": 6900.0,
       "totalSeats": 103738.0,
-      "gross": 1243069.0,
-      "occupancy": 6.63
+      "gross": 1247230.0,
+      "occupancy": 6.65
     },
     "cities": {
       "Mumbai": {
         "shows": 98.0,
-        "sold": 1286.0,
+        "sold": 1302.0,
         "totalSeats": 17283.0,
-        "gross": 240810.0,
+        "gross": 243176.0,
         "state": "Maharashtra",
-        "occupancy": 7.44
+        "occupancy": 7.53
       },
       "Bengaluru": {
         "shows": 69.0,
-        "sold": 821.0,
+        "sold": 826.0,
         "totalSeats": 10200.0,
-        "gross": 170916.0,
+        "gross": 172711.0,
         "state": "Karnataka",
-        "occupancy": 8.05
+        "occupancy": 8.1
       },
       "New Delhi": {
         "shows": 51.0,
@@ -37418,17 +37418,17 @@
     "states": {
       "Maharashtra": {
         "shows": 160.0,
-        "sold": 2645.0,
+        "sold": 2661.0,
         "totalSeats": 28530.0,
-        "gross": 460138.0,
-        "occupancy": 9.27
+        "gross": 462504.0,
+        "occupancy": 9.33
       },
       "Karnataka": {
         "shows": 70.0,
-        "sold": 821.0,
+        "sold": 826.0,
         "totalSeats": 10476.0,
-        "gross": 170916.0,
-        "occupancy": 7.84
+        "gross": 172711.0,
+        "occupancy": 7.88
       },
       "Uttar Pradesh": {
         "shows": 116.0,
@@ -37490,17 +37490,17 @@
     "chains": {
       "PVR": {
         "shows": 282.0,
-        "sold": 3065.0,
+        "sold": 3074.0,
         "totalSeats": 45050.0,
-        "gross": 580736.0,
-        "occupancy": 6.8
+        "gross": 582899.0,
+        "occupancy": 6.82
       },
       "INOX": {
         "shows": 183.0,
-        "sold": 2111.0,
+        "sold": 2116.0,
         "totalSeats": 33527.0,
-        "gross": 340662.0,
-        "occupancy": 6.3
+        "gross": 341407.0,
+        "occupancy": 6.31
       },
       "Cinepolis": {
         "shows": 117.0,
@@ -37523,6 +37523,13 @@
         "gross": 13530.0,
         "occupancy": 8.11
       },
+      "Metro": {
+        "shows": 6.0,
+        "sold": 56.0,
+        "totalSeats": 255.0,
+        "gross": 9871.0,
+        "occupancy": 21.96
+      },
       "Fun": {
         "shows": 8.0,
         "sold": 60.0,
@@ -37536,13 +37543,6 @@
         "totalSeats": 389.0,
         "gross": 9154.0,
         "occupancy": 11.83
-      },
-      "Metro": {
-        "shows": 6.0,
-        "sold": 49.0,
-        "totalSeats": 255.0,
-        "gross": 8618.0,
-        "occupancy": 19.22
       },
       "Maison": {
         "shows": 4.0,
@@ -37590,10 +37590,10 @@
       },
       "2026-03-11": {
         "shows": 74.0,
-        "sold": 650.0,
+        "sold": 671.0,
         "totalSeats": 12149.0,
-        "gross": 96698.0,
-        "occupancy": 5.35
+        "gross": 100859.0,
+        "occupancy": 5.52
       }
     }
   },
@@ -38103,9 +38103,9 @@
   "Na Jaane Kaun Aa Gaya | Hindi": {
     "summary": {
       "shows": 557.0,
-      "sold": 5488.0,
+      "sold": 5490.0,
       "totalSeats": 96284.0,
-      "gross": 1112802.0,
+      "gross": 1113100.0,
       "occupancy": 5.7
     },
     "cities": {
@@ -38242,10 +38242,10 @@
       },
       "Rajasthan": {
         "shows": 25.0,
-        "sold": 275.0,
+        "sold": 277.0,
         "totalSeats": 3903.0,
-        "gross": 36974.0,
-        "occupancy": 7.05
+        "gross": 37272.0,
+        "occupancy": 7.1
       },
       "Gujarat": {
         "shows": 31.0,
@@ -38265,10 +38265,10 @@
     "chains": {
       "PVR": {
         "shows": 140.0,
-        "sold": 2300.0,
+        "sold": 2302.0,
         "totalSeats": 21427.0,
-        "gross": 536054.0,
-        "occupancy": 10.73
+        "gross": 536352.0,
+        "occupancy": 10.74
       },
       "INOX": {
         "shows": 97.0,
@@ -38372,69 +38372,69 @@
       },
       "2026-03-11": {
         "shows": 84.0,
-        "sold": 1163.0,
+        "sold": 1165.0,
         "totalSeats": 15765.0,
-        "gross": 183712.0,
-        "occupancy": 7.38
+        "gross": 184010.0,
+        "occupancy": 7.39
       }
     }
   },
   "Sambhavam Adhyam Onnu | Malayalam": {
     "summary": {
       "shows": 1379.0,
-      "sold": 41819.0,
-      "totalSeats": 308192.0,
-      "gross": 8260781.26,
-      "occupancy": 13.57
+      "sold": 42119.0,
+      "totalSeats": 308201.0,
+      "gross": 8315144.67,
+      "occupancy": 13.67
     },
     "cities": {
       "Kochi": {
         "shows": 140.0,
-        "sold": 9224.0,
+        "sold": 9288.0,
         "totalSeats": 25007.0,
-        "gross": 2159630.0,
+        "gross": 2177040.0,
         "state": "Kerala",
-        "occupancy": 36.89
+        "occupancy": 37.14
       },
       "Bengaluru": {
         "shows": 153.0,
-        "sold": 5910.0,
+        "sold": 5977.0,
         "totalSeats": 23676.0,
-        "gross": 1303992.0,
+        "gross": 1314869.0,
         "state": "Karnataka",
-        "occupancy": 24.96
+        "occupancy": 25.24
       },
       "Trivandrum": {
         "shows": 105.0,
-        "sold": 4524.0,
+        "sold": 4572.0,
         "totalSeats": 22257.0,
-        "gross": 978860.0,
+        "gross": 985580.0,
         "state": "Kerala",
-        "occupancy": 20.33
+        "occupancy": 20.54
       },
       "Kozhikode": {
         "shows": 75.0,
-        "sold": 4429.0,
+        "sold": 4463.0,
         "totalSeats": 30469.0,
-        "gross": 917960.0,
+        "gross": 925640.0,
         "state": "Kerala",
-        "occupancy": 14.54
+        "occupancy": 14.65
       },
       "Chennai": {
         "shows": 61.0,
-        "sold": 2666.0,
-        "totalSeats": 10458.0,
-        "gross": 404374.68000000005,
+        "sold": 2703.0,
+        "totalSeats": 10467.0,
+        "gross": 410150.09,
         "state": "Tamil Nadu",
-        "occupancy": 25.49
+        "occupancy": 25.82
       },
       "Thrissur": {
         "shows": 32.0,
-        "sold": 1092.0,
+        "sold": 1125.0,
         "totalSeats": 10282.0,
-        "gross": 235180.0,
+        "gross": 241660.0,
         "state": "Kerala",
-        "occupancy": 10.62
+        "occupancy": 10.94
       },
       "Chalakudy": {
         "shows": 24.0,
@@ -38460,36 +38460,36 @@
         "state": "Kerala",
         "occupancy": 26.27
       },
-      "Hyderabad": {
-        "shows": 46.0,
-        "sold": 725.0,
-        "totalSeats": 9648.0,
-        "gross": 151605.0,
-        "state": "Telangana",
-        "occupancy": 7.51
+      "Coimbatore": {
+        "shows": 27.0,
+        "sold": 992.0,
+        "totalSeats": 4868.0,
+        "gross": 149654.6,
+        "state": "Tamil Nadu",
+        "occupancy": 20.38
       }
     },
     "states": {
       "Kerala": {
         "shows": 800.0,
-        "sold": 27518.0,
+        "sold": 27697.0,
         "totalSeats": 203562.0,
-        "gross": 5450579.979999999,
-        "occupancy": 13.52
+        "gross": 5488869.979999999,
+        "occupancy": 13.61
       },
       "Karnataka": {
         "shows": 191.0,
-        "sold": 6814.0,
+        "sold": 6910.0,
         "totalSeats": 30989.0,
-        "gross": 1435489.0,
-        "occupancy": 21.99
+        "gross": 1449237.0,
+        "occupancy": 22.3
       },
       "Tamil Nadu": {
         "shows": 103.0,
-        "sold": 3766.0,
-        "totalSeats": 18347.0,
-        "gross": 570229.28,
-        "occupancy": 20.53
+        "sold": 3803.0,
+        "totalSeats": 18356.0,
+        "gross": 576004.69,
+        "occupancy": 20.72
       },
       "Maharashtra": {
         "shows": 115.0,
@@ -38500,10 +38500,10 @@
       },
       "Telangana": {
         "shows": 46.0,
-        "sold": 725.0,
+        "sold": 713.0,
         "totalSeats": 9648.0,
-        "gross": 151605.0,
-        "occupancy": 7.51
+        "gross": 148155.0,
+        "occupancy": 7.39
       },
       "Andaman And Nicobar Islands": {
         "shows": 6.0,
@@ -38544,10 +38544,10 @@
     "chains": {
       "PVR": {
         "shows": 335.0,
-        "sold": 17126.0,
-        "totalSeats": 63105.0,
-        "gross": 3730417.22,
-        "occupancy": 27.14
+        "sold": 17347.0,
+        "totalSeats": 63114.0,
+        "gross": 3768494.63,
+        "occupancy": 27.49
       },
       "Cinepolis": {
         "shows": 256.0,
@@ -38558,10 +38558,10 @@
       },
       "INOX": {
         "shows": 159.0,
-        "sold": 4397.0,
+        "sold": 4433.0,
         "totalSeats": 30067.0,
-        "gross": 911966.6200000001,
-        "occupancy": 14.62
+        "gross": 919222.6200000001,
+        "occupancy": 14.74
       },
       "Magic": {
         "shows": 139.0,
@@ -38572,10 +38572,10 @@
       },
       "Miraj": {
         "shows": 55.0,
-        "sold": 1771.0,
+        "sold": 1805.0,
         "totalSeats": 12142.0,
-        "gross": 385233.0,
-        "occupancy": 14.59
+        "gross": 392913.0,
+        "occupancy": 14.87
       },
       "Surabhi": {
         "shows": 24.0,
@@ -38651,10 +38651,10 @@
       },
       "2026-03-11": {
         "shows": 243.0,
-        "sold": 5885.0,
-        "totalSeats": 54011.0,
-        "gross": 1082201.5699999998,
-        "occupancy": 10.9
+        "sold": 6185.0,
+        "totalSeats": 54020.0,
+        "gross": 1136564.98,
+        "occupancy": 11.45
       }
     }
   },
@@ -39135,19 +39135,19 @@
   "Vadam | Tamil": {
     "summary": {
       "shows": 1854.0,
-      "sold": 68834.0,
+      "sold": 68798.0,
       "totalSeats": 553052.0,
-      "gross": 8265293.03,
-      "occupancy": 12.45
+      "gross": 8261783.03,
+      "occupancy": 12.44
     },
     "cities": {
       "Chennai": {
         "shows": 385.0,
-        "sold": 21073.0,
+        "sold": 21037.0,
         "totalSeats": 142682.0,
-        "gross": 2707950.2,
+        "gross": 2704440.2,
         "state": "Tamil Nadu",
-        "occupancy": 14.77
+        "occupancy": 14.74
       },
       "Srivilliputhur": {
         "shows": 24.0,
@@ -39225,10 +39225,10 @@
     "states": {
       "Tamil Nadu": {
         "shows": 1576.0,
-        "sold": 58576.0,
+        "sold": 58540.0,
         "totalSeats": 486107.0,
-        "gross": 7013709.629999999,
-        "occupancy": 12.05
+        "gross": 7010199.629999999,
+        "occupancy": 12.04
       },
       "Karnataka": {
         "shows": 96.0,
@@ -39269,10 +39269,10 @@
     "chains": {
       "PVR": {
         "shows": 205.0,
-        "sold": 7098.0,
+        "sold": 7062.0,
         "totalSeats": 41475.0,
-        "gross": 897406.29,
-        "occupancy": 17.11
+        "gross": 893896.29,
+        "occupancy": 17.03
       },
       "Revathi": {
         "shows": 45.0,
@@ -39376,10 +39376,10 @@
       },
       "2026-03-11": {
         "shows": 272.0,
-        "sold": 9897.0,
+        "sold": 9861.0,
         "totalSeats": 83997.0,
-        "gross": 1159375.0999999999,
-        "occupancy": 11.78
+        "gross": 1155865.0999999999,
+        "occupancy": 11.74
       }
     }
   },
@@ -40705,10 +40705,10 @@
   "Eric | Malayalam": {
     "summary": {
       "shows": 43.0,
-      "sold": 415.0,
+      "sold": 424.0,
       "totalSeats": 7627.0,
-      "gross": 69657.41,
-      "occupancy": 5.44
+      "gross": 71367.41,
+      "occupancy": 5.56
     },
     "cities": {
       "Trivandrum": {
@@ -40721,11 +40721,11 @@
       },
       "Kochi": {
         "shows": 6.0,
-        "sold": 139.0,
+        "sold": 148.0,
         "totalSeats": 587.0,
-        "gross": 25430.0,
+        "gross": 27140.0,
         "state": "Kerala",
-        "occupancy": 23.68
+        "occupancy": 25.21
       },
       "Perinthalmanna": {
         "shows": 6.0,
@@ -40779,19 +40779,19 @@
     "states": {
       "Kerala": {
         "shows": 43.0,
-        "sold": 415.0,
+        "sold": 424.0,
         "totalSeats": 7627.0,
-        "gross": 69657.41,
-        "occupancy": 5.44
+        "gross": 71367.41,
+        "occupancy": 5.56
       }
     },
     "chains": {
       "PVR": {
         "shows": 12.0,
-        "sold": 309.0,
+        "sold": 318.0,
         "totalSeats": 1178.0,
-        "gross": 57727.41,
-        "occupancy": 26.23
+        "gross": 59437.41,
+        "occupancy": 26.99
       },
       "Vismaya": {
         "shows": 6.0,
@@ -40867,10 +40867,10 @@
       },
       "2026-03-11": {
         "shows": 2.0,
-        "sold": 68.0,
+        "sold": 77.0,
         "totalSeats": 203.0,
-        "gross": 13840.0,
-        "occupancy": 33.5
+        "gross": 15550.0,
+        "occupancy": 37.93
       }
     }
   },
@@ -44495,27 +44495,27 @@
   "Return to Silent Hill | English": {
     "summary": {
       "shows": 237.0,
-      "sold": 2345.0,
+      "sold": 2360.0,
       "totalSeats": 33914.0,
-      "gross": 536391.92,
-      "occupancy": 6.91
+      "gross": 539134.1799999999,
+      "occupancy": 6.96
     },
     "cities": {
       "Chennai": {
         "shows": 28.0,
-        "sold": 792.0,
+        "sold": 805.0,
         "totalSeats": 4382.0,
-        "gross": 116292.92000000001,
+        "gross": 118737.18000000001,
         "state": "Tamil Nadu",
-        "occupancy": 18.07
+        "occupancy": 18.37
       },
       "Mumbai": {
         "shows": 58.0,
-        "sold": 250.0,
+        "sold": 252.0,
         "totalSeats": 8747.0,
-        "gross": 81530.0,
+        "gross": 81828.0,
         "state": "Maharashtra",
-        "occupancy": 2.86
+        "occupancy": 2.88
       },
       "Bengaluru": {
         "shows": 20.0,
@@ -44585,17 +44585,17 @@
     "states": {
       "Maharashtra": {
         "shows": 100.0,
-        "sold": 641.0,
+        "sold": 643.0,
         "totalSeats": 15052.0,
-        "gross": 170472.0,
-        "occupancy": 4.26
+        "gross": 170770.0,
+        "occupancy": 4.27
       },
       "Tamil Nadu": {
         "shows": 28.0,
-        "sold": 792.0,
+        "sold": 805.0,
         "totalSeats": 4382.0,
-        "gross": 116292.92000000001,
-        "occupancy": 18.07
+        "gross": 118737.18000000001,
+        "occupancy": 18.37
       },
       "Karnataka": {
         "shows": 20.0,
@@ -44655,6 +44655,13 @@
       }
     },
     "chains": {
+      "PVR": {
+        "shows": 80.0,
+        "sold": 960.0,
+        "totalSeats": 10109.0,
+        "gross": 215435.62000000002,
+        "occupancy": 9.5
+      },
       "Cinepolis": {
         "shows": 78.0,
         "sold": 936.0,
@@ -44662,19 +44669,12 @@
         "gross": 213578.52000000002,
         "occupancy": 7.45
       },
-      "PVR": {
-        "shows": 80.0,
-        "sold": 947.0,
-        "totalSeats": 10109.0,
-        "gross": 212991.36000000002,
-        "occupancy": 9.37
-      },
       "INOX": {
         "shows": 67.0,
-        "sold": 397.0,
+        "sold": 399.0,
         "totalSeats": 8971.0,
-        "gross": 92270.04,
-        "occupancy": 4.43
+        "gross": 92568.04,
+        "occupancy": 4.45
       },
       "Pepsi": {
         "shows": 3.0,
@@ -44736,10 +44736,10 @@
       },
       "2026-03-11": {
         "shows": 27.0,
-        "sold": 176.0,
+        "sold": 191.0,
         "totalSeats": 3556.0,
-        "gross": 27618.18,
-        "occupancy": 4.95
+        "gross": 30360.440000000002,
+        "occupancy": 5.37
       }
     }
   },
@@ -46938,10 +46938,10 @@
   "Gangubai Kathiawadi | Hindi": {
     "summary": {
       "shows": 100.0,
-      "sold": 255.0,
+      "sold": 258.0,
       "totalSeats": 23209.0,
-      "gross": 27461.0,
-      "occupancy": 1.1
+      "gross": 28058.0,
+      "occupancy": 1.11
     },
     "cities": {
       "Mumbai": {
@@ -46954,11 +46954,11 @@
       },
       "Jaipur": {
         "shows": 5.0,
-        "sold": 30.0,
+        "sold": 33.0,
         "totalSeats": 2366.0,
-        "gross": 5099.0,
+        "gross": 5696.0,
         "state": "Rajasthan",
-        "occupancy": 1.27
+        "occupancy": 1.39
       },
       "Bengaluru": {
         "shows": 6.0,
@@ -47035,10 +47035,10 @@
       },
       "Rajasthan": {
         "shows": 8.0,
-        "sold": 32.0,
+        "sold": 35.0,
         "totalSeats": 2861.0,
-        "gross": 5283.0,
-        "occupancy": 1.12
+        "gross": 5880.0,
+        "occupancy": 1.22
       },
       "Karnataka": {
         "shows": 6.0,
@@ -47100,10 +47100,10 @@
       },
       "Entertainment": {
         "shows": 5.0,
-        "sold": 30.0,
+        "sold": 33.0,
         "totalSeats": 2366.0,
-        "gross": 5099.0,
-        "occupancy": 1.27
+        "gross": 5696.0,
+        "occupancy": 1.39
       },
       "Chand": {
         "shows": 6.0,
@@ -47151,10 +47151,10 @@
       },
       "2026-03-11": {
         "shows": 15.0,
-        "sold": 37.0,
+        "sold": 40.0,
         "totalSeats": 3560.0,
-        "gross": 3404.0,
-        "occupancy": 1.04
+        "gross": 4001.0,
+        "occupancy": 1.12
       }
     }
   },
@@ -48956,5 +48956,5 @@
       }
     }
   },
-  "lastUpdated": "10:12 PM, 11 March 2026"
+  "lastUpdated": "11:14 PM, 11 March 2026"
 }
