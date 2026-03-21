@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -19,9 +20,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      # 🔥 INSTALL EVERYTHING (IMPORTANT)
       - name: Install dependencies
         run: |
-          pip install requests pytz
+          pip install requests pytz playwright
+          playwright install --with-deps
 
       - name: Run update script
         run: python bangladesh.py
