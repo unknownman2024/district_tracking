@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 
 def get_seat_token():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)  # keep visible first
+        browser = p.chromium.launch(headless=True)  # keep visible first
         context = browser.new_context()
         page = context.new_page()
 
