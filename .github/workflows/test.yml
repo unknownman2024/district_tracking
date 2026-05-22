@@ -1,0 +1,33 @@
+name: One-Time Summary AutoCorrect
+
+on:
+  workflow_dispatch:   # 🔴 Manual trigger only
+
+jobs:
+  autocorrect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✅ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Verify Python
+        run: python --version
+
+      - name: 🚀 Run Autocorrect Script
+        run: |
+          python test.py
+
+      - name: 📤 Commit & Push Corrected Files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add "Daily Boxoffice/*.json"
+          git commit -m "One-time autocorrect: rebuild summaries from detailed files"
+          git push
