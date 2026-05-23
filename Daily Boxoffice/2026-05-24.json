@@ -1,55 +1,64 @@
 {
   "date": "2026-05-24",
-  "lastUpdated": "03:42 AM, 24 May 2026",
+  "lastUpdated": "04:45 AM, 24 May 2026",
   "Deool Band 2 | Marathi": {
-    "shows": 3,
-    "gross": 38780,
-    "sold": 183,
-    "totalSeats": 588,
-    "venues": 3,
-    "cities": 2,
-    "fastfilling": 1,
+    "shows": 13,
+    "gross": 221260,
+    "sold": 950,
+    "totalSeats": 3019,
+    "venues": 12,
+    "cities": 5,
+    "fastfilling": 6,
     "housefull": 0,
-    "occupancy": 31.12,
+    "occupancy": 31.47,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 2,
+        "shows": 4,
         "gross": 15740,
         "sold": 60,
-        "venues": 2,
+        "venues": 4,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 14.67
+        "occupancy": 6.26
       },
       {
         "city": "Pune",
         "state": "Maharashtra",
-        "shows": 1,
-        "gross": 23040,
-        "sold": 123,
-        "venues": 1,
-        "fastfilling": 1,
+        "shows": 5,
+        "gross": 143710,
+        "sold": 631,
+        "venues": 5,
+        "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 68.72
-      }
-    ]
-  },
-  "Raja Shivaji | Hindi": {
-    "shows": 1,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 100,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 0,
-    "details": [
+        "occupancy": 65.46
+      },
       {
-        "city": "Giridih",
-        "state": "Jharkhand",
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 3290,
+        "sold": 17,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.69
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 58520,
+        "sold": 242,
+        "venues": 1,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 62.21
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
         "shows": 1,
         "gross": 0,
         "sold": 0,
@@ -60,27 +69,51 @@
       }
     ]
   },
+  "Raja Shivaji | Hindi": {
+    "shows": 1,
+    "gross": 17800,
+    "sold": 100,
+    "totalSeats": 100,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 1,
+    "occupancy": 100,
+    "details": [
+      {
+        "city": "Giridih",
+        "state": "Jharkhand",
+        "shows": 1,
+        "gross": 17800,
+        "sold": 100,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
+      }
+    ]
+  },
   "Drishyam 3 | Malayalam": {
-    "shows": 5,
-    "gross": 90090,
-    "sold": 331,
-    "totalSeats": 1376,
-    "venues": 5,
-    "cities": 4,
-    "fastfilling": 2,
+    "shows": 28,
+    "gross": 670630,
+    "sold": 2263,
+    "totalSeats": 5546,
+    "venues": 25,
+    "cities": 9,
+    "fastfilling": 11,
     "housefull": 0,
-    "occupancy": 24.06,
+    "occupancy": 40.8,
     "details": [
       {
         "city": "Bengaluru",
         "state": "Karnataka",
-        "shows": 2,
-        "gross": 66300,
-        "sold": 194,
-        "venues": 2,
+        "shows": 13,
+        "gross": 172280,
+        "sold": 544,
+        "venues": 13,
         "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 27.67
+        "occupancy": 22.86
       },
       {
         "city": "Mangalore",
@@ -107,13 +140,68 @@
       {
         "city": "Kozhikode",
         "state": "Kerala",
+        "shows": 3,
+        "gross": 53010,
+        "sold": 245,
+        "venues": 2,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 56.19
+      },
+      {
+        "city": "Kochi",
+        "state": "Kerala",
+        "shows": 5,
+        "gross": 212270,
+        "sold": 730,
+        "venues": 3,
+        "fastfilling": 5,
+        "housefull": 0,
+        "occupancy": 80.04
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 162390,
+        "sold": 401,
+        "venues": 2,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 61.98
+      },
+      {
+        "city": "Alappuzha",
+        "state": "Kerala",
         "shows": 1,
-        "gross": 19440,
-        "sold": 108,
+        "gross": 25990,
+        "sold": 137,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 42.68
+      },
+      {
+        "city": "Arakkunnam",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 19040,
+        "sold": 104,
         "venues": 1,
         "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 61.02
+        "occupancy": 60.47
+      },
+      {
+        "city": "Kannur",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 21300,
+        "sold": 73,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 40.56
       }
     ]
   },
@@ -138,6 +226,113 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 3.93
+      }
+    ]
+  },
+  "Pati Patni Aur Woh Do | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 48,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Hokum | English": {
+    "shows": 1,
+    "gross": 1590,
+    "sold": 6,
+    "totalSeats": 143,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 4.2,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 1,
+        "gross": 1590,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.2
+      }
+    ]
+  },
+  "Chand Mera Dil | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 545,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Raja Shivaji | Marathi": {
+    "shows": 2,
+    "gross": 36078,
+    "sold": 154,
+    "totalSeats": 678,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 22.71,
+    "details": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 4800,
+        "sold": 32,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.23
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 31278,
+        "sold": 122,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 31.04
       }
     ]
   }
