@@ -84,15 +84,15 @@
     ]
   },
   "Kattalan [2D | Telugu]": {
-    "shows": 4,
-    "gross": 119180,
-    "sold": 1044,
-    "totalSeats": 1784,
-    "venues": 1,
-    "cities": 1,
+    "shows": 8,
+    "gross": 220140,
+    "sold": 1732,
+    "totalSeats": 3356,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 58.52,
+    "occupancy": 51.61,
     "details": [
       {
         "city": "Rajahmundry",
@@ -105,19 +105,31 @@
         "fastfilling": 4,
         "housefull": 0,
         "occupancy": 58.52
+      },
+      {
+        "city": "Vizag (Visakhapatnam)",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 4,
+        "gross": 100960,
+        "sold": 688,
+        "totalSeats": 1572,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 43.77
       }
     ],
     "Chain_details": [
       {
         "chain": "TicketNew",
-        "venues": 1,
-        "shows": 4,
-        "gross": 119180,
-        "sold": 1044,
-        "totalSeats": 1784,
+        "venues": 2,
+        "shows": 8,
+        "gross": 220140,
+        "sold": 1732,
+        "totalSeats": 3356,
         "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 58.52
+        "occupancy": 51.61
       }
     ]
   },
@@ -258,15 +270,15 @@
     ]
   },
   "Karuppu [2D | Tamil]": {
-    "shows": 20,
-    "gross": 293500,
-    "sold": 1942,
-    "totalSeats": 11228,
-    "venues": 5,
-    "cities": 5,
+    "shows": 28,
+    "gross": 410968.78,
+    "sold": 2666,
+    "totalSeats": 17896,
+    "venues": 7,
+    "cities": 7,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 17.3,
+    "occupancy": 14.9,
     "details": [
       {
         "city": "Chinnamanur",
@@ -327,6 +339,30 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 49.63
+      },
+      {
+        "city": "Aranthangi",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 28400,
+        "sold": 168,
+        "totalSeats": 2016,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.33
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 89068.78,
+        "sold": 556,
+        "totalSeats": 4652,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.95
       }
     ],
     "Chain_details": [
@@ -373,6 +409,28 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 31.16
+      },
+      {
+        "chain": "Subbiah Chettiar",
+        "venues": 1,
+        "shows": 4,
+        "gross": 28400,
+        "sold": 168,
+        "totalSeats": 2016,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.33
+      },
+      {
+        "chain": "Woodlands Cinemas",
+        "venues": 1,
+        "shows": 4,
+        "gross": 89068.78,
+        "sold": 556,
+        "totalSeats": 4652,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.95
       }
     ]
   },
@@ -453,5 +511,5 @@
     ]
   },
   "date": "2026-05-30",
-  "lastUpdated": "01:11 AM, 25 May 2026"
+  "lastUpdated": "03:41 AM, 25 May 2026"
 }
