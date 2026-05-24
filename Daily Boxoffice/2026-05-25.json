@@ -1,46 +1,162 @@
 {
   "date": "2026-05-25",
-  "lastUpdated": "03:58 AM, 25 May 2026",
+  "lastUpdated": "05:02 AM, 25 May 2026",
   "Deool Band 2 | Marathi": {
-    "shows": 2,
-    "gross": 17520,
-    "sold": 80,
-    "totalSeats": 383,
-    "venues": 2,
-    "cities": 2,
+    "shows": 13,
+    "gross": 62000,
+    "sold": 305,
+    "totalSeats": 3455,
+    "venues": 13,
+    "cities": 4,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 20.89,
+    "occupancy": 8.83,
     "details": [
       {
         "city": "Pune",
         "state": "Maharashtra",
+        "shows": 6,
+        "gross": 44210,
+        "sold": 217,
+        "venues": 6,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.92
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 5,
+        "gross": 11870,
+        "sold": 55,
+        "venues": 5,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.48
+      },
+      {
+        "city": "Kolhapur",
+        "state": "Maharashtra",
         "shows": 1,
-        "gross": 8280,
-        "sold": 38,
+        "gross": 1370,
+        "sold": 8,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 15.77
+        "occupancy": 3.62
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 4550,
+        "sold": 25,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 13.51
+      }
+    ]
+  },
+  "Chand Mera Dil | Hindi": {
+    "shows": 2,
+    "gross": 693,
+    "sold": 7,
+    "totalSeats": 304,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.3,
+    "details": [
+      {
+        "city": "Mathura",
+        "state": "Uttar Pradesh",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       },
       {
         "city": "Mumbai",
         "state": "Maharashtra",
         "shows": 1,
-        "gross": 9240,
-        "sold": 42,
+        "gross": 693,
+        "sold": 7,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 29.58
+        "occupancy": 6.14
       }
     ]
   },
-  "Chand Mera Dil | Hindi": {
+  "Pati Patni Aur Woh Do | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 48,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Star Wars: The Mandalorian and Grogu | English": {
+    "shows": 2,
+    "gross": 680,
+    "sold": 2,
+    "totalSeats": 692,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.29,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 1,
+        "gross": 680,
+        "sold": 2,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.66
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Raja Shivaji | Hindi": {
     "shows": 1,
     "gross": 0,
     "sold": 0,
-    "totalSeats": 190,
+    "totalSeats": 238,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
@@ -48,8 +164,102 @@
     "occupancy": 0,
     "details": [
       {
-        "city": "Mathura",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Drishyam 3 | Malayalam": {
+    "shows": 3,
+    "gross": 20710,
+    "sold": 64,
+    "totalSeats": 786,
+    "venues": 3,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 8.14,
+    "details": [
+      {
+        "city": "Kochi",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 15490,
+        "sold": 39,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 13.68
+      },
+      {
+        "city": "Alappuzha",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 1800,
+        "sold": 10,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.12
+      },
+      {
+        "city": "Kannur",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 3420,
+        "sold": 15,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.33
+      }
+    ]
+  },
+  "Bhooth Bangla | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 30,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Kanpur",
         "state": "Uttar Pradesh",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Krishnavataram Part 1: The Heart [Hridayam] | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 183,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
         "shows": 1,
         "gross": 0,
         "sold": 0,
