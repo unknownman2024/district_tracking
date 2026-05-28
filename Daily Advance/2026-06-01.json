@@ -6554,15 +6554,15 @@
     ]
   },
   "Deool Band 2 [2D | Marathi]": {
-    "shows": 60,
+    "shows": 64,
     "gross": 116850,
     "sold": 600,
-    "totalSeats": 12153,
-    "venues": 16,
-    "cities": 11,
+    "totalSeats": 12793,
+    "venues": 17,
+    "cities": 12,
     "fastfilling": 0,
     "housefull": 4,
-    "occupancy": 4.94,
+    "occupancy": 4.69,
     "details": [
       {
         "city": "Khopoli",
@@ -6695,6 +6695,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Rahuri",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 640,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -6815,6 +6827,17 @@
         "gross": 0,
         "sold": 0,
         "totalSeats": 432,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Dnyaneshwar Chitra",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 640,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -12060,15 +12083,15 @@
     ]
   },
   "War of Shera [2D | Punjabi]": {
-    "shows": 19,
+    "shows": 23,
     "gross": 170420,
     "sold": 1015,
-    "totalSeats": 2807,
-    "venues": 4,
-    "cities": 4,
+    "totalSeats": 3407,
+    "venues": 5,
+    "cities": 5,
     "fastfilling": 5,
     "housefull": 0,
-    "occupancy": 36.16,
+    "occupancy": 29.79,
     "details": [
       {
         "city": "Baddi",
@@ -12117,6 +12140,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 18.06
+      },
+      {
+        "city": "Abohar",
+        "state": "Punjab",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 600,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -12163,6 +12198,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 18.06
+      },
+      {
+        "chain": "City Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 600,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -12608,5 +12654,5 @@
     ]
   },
   "date": "2026-06-01",
-  "lastUpdated": "02:10 AM, 29 May 2026"
+  "lastUpdated": "04:20 AM, 29 May 2026"
 }
