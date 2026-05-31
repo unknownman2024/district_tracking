@@ -76,15 +76,15 @@
     ]
   },
   "Peddi [2D | Telugu]": {
-    "shows": 4,
-    "gross": 7600,
-    "sold": 40,
-    "totalSeats": 1104,
-    "venues": 1,
-    "cities": 1,
+    "shows": 5,
+    "gross": 16630,
+    "sold": 107,
+    "totalSeats": 1728,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 3.62,
+    "occupancy": 6.19,
     "details": [
       {
         "city": "Pallipattu",
@@ -97,6 +97,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 3.62
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 9030,
+        "sold": 67,
+        "totalSeats": 624,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.74
       }
     ],
     "Chain_details": [
@@ -110,9 +122,96 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 3.62
+      },
+      {
+        "chain": "Vidya Theatre",
+        "venues": 1,
+        "shows": 1,
+        "gross": 9030,
+        "sold": 67,
+        "totalSeats": 624,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.74
+      }
+    ]
+  },
+  "Karuppu [2D | Tamil]": {
+    "shows": 1,
+    "gross": 9030,
+    "sold": 67,
+    "totalSeats": 624,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.74,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 1,
+        "gross": 9030,
+        "sold": 67,
+        "totalSeats": 624,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.74
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Vidya Theatre",
+        "venues": 1,
+        "shows": 1,
+        "gross": 9030,
+        "sold": 67,
+        "totalSeats": 624,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.74
+      }
+    ]
+  },
+  "Parimala and Co [2D | Tamil]": {
+    "shows": 3,
+    "gross": 27090,
+    "sold": 201,
+    "totalSeats": 1872,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.74,
+    "details": [
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 3,
+        "gross": 27090,
+        "sold": 201,
+        "totalSeats": 1872,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.74
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Vidya Theatre",
+        "venues": 1,
+        "shows": 3,
+        "gross": 27090,
+        "sold": 201,
+        "totalSeats": 1872,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.74
       }
     ]
   },
   "date": "2026-06-05",
-  "lastUpdated": "03:44 AM, 31 May 2026"
+  "lastUpdated": "10:22 AM, 31 May 2026"
 }
