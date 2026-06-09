@@ -1,27 +1,533 @@
 {
   "date": "2026-06-10",
-  "lastUpdated": "03:30 AM, 10 June 2026",
+  "lastUpdated": "05:17 AM, 10 June 2026",
   "Samarasimha Reddy | Telugu": {
-    "shows": 1,
-    "gross": 49950,
-    "sold": 333,
-    "totalSeats": 486,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 1,
-    "housefull": 0,
-    "occupancy": 68.52,
+    "shows": 7,
+    "gross": 341908,
+    "sold": 2248,
+    "totalSeats": 4082,
+    "venues": 7,
+    "cities": 6,
+    "fastfilling": 2,
+    "housefull": 1,
+    "occupancy": 55.07,
     "details": [
       {
         "city": "Bengaluru",
         "state": "Karnataka",
+        "shows": 2,
+        "gross": 121050,
+        "sold": 851,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 1,
+        "occupancy": 84.42
+      },
+      {
+        "city": "Ongole",
+        "state": "Andhra Pradesh",
         "shows": 1,
-        "gross": 49950,
-        "sold": 333,
+        "gross": 4810,
+        "sold": 27,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.6
+      },
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "shows": 1,
+        "gross": 188450,
+        "sold": 1177,
         "venues": 1,
         "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 68.52
+        "occupancy": 96.79
+      },
+      {
+        "city": "Chirala",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 2520,
+        "sold": 24,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.92
+      },
+      {
+        "city": "Anantapur",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 20558,
+        "sold": 125,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 25.41
+      },
+      {
+        "city": "Srikalahasti",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 4520,
+        "sold": 44,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.19
+      }
+    ]
+  },
+  "Peddi | Telugu": {
+    "shows": 10,
+    "gross": 42280,
+    "sold": 218,
+    "totalSeats": 2128,
+    "venues": 9,
+    "cities": 6,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 10.24,
+    "details": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 5300,
+        "sold": 33,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.84
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 640,
+        "sold": 4,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.3
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 700,
+        "sold": 2,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.38
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 4,
+        "gross": 3700,
+        "sold": 13,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.66
+      },
+      {
+        "city": "Jajpur Road",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 31940,
+        "sold": 166,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 80.58
+      }
+    ]
+  },
+  "Narasimha Naidu | Telugu": {
+    "shows": 4,
+    "gross": 217465,
+    "sold": 1520,
+    "totalSeats": 3156,
+    "venues": 4,
+    "cities": 3,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 48.16,
+    "details": [
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "shows": 2,
+        "gross": 185110,
+        "sold": 1224,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 57.9
+      },
+      {
+        "city": "Kadapa",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 18750,
+        "sold": 125,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 20.26
+      },
+      {
+        "city": "Nandigama",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 13605,
+        "sold": 171,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 40.24
+      }
+    ]
+  },
+  "Pati Patni Aur Woh Do | Hindi": {
+    "shows": 3,
+    "gross": 1500,
+    "sold": 5,
+    "totalSeats": 162,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 3.09,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 1500,
+        "sold": 5,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.42
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Chand Mera Dil | Hindi": {
+    "shows": 2,
+    "gross": 600,
+    "sold": 2,
+    "totalSeats": 30,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 6.67,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 600,
+        "sold": 2,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.67
+      }
+    ]
+  },
+  "Obsession | English": {
+    "shows": 4,
+    "gross": 11571,
+    "sold": 60,
+    "totalSeats": 631,
+    "venues": 4,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 9.51,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 2,
+        "gross": 7790,
+        "sold": 41,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 13.31
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 3781,
+        "sold": 19,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.88
+      }
+    ]
+  },
+  "Peddi | Hindi": {
+    "shows": 4,
+    "gross": 14270,
+    "sold": 108,
+    "totalSeats": 1009,
+    "venues": 4,
+    "cities": 3,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.7,
+    "details": [
+      {
+        "city": "Goa",
+        "state": "Goa",
+        "shows": 1,
+        "gross": 6910,
+        "sold": 41,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 19.43
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 7360,
+        "sold": 67,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 26.59
+      }
+    ]
+  },
+  "Hai Jawani Toh Ishq Hona Hai | Hindi": {
+    "shows": 9,
+    "gross": 3600,
+    "sold": 16,
+    "totalSeats": 2046,
+    "venues": 9,
+    "cities": 4,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.78,
+    "details": [
+      {
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 5,
+        "gross": 3600,
+        "sold": 16,
+        "venues": 5,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.31
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "The Devil Wears Prada 2 | English": {
+    "shows": 1,
+    "gross": 6750,
+    "sold": 13,
+    "totalSeats": 24,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 54.17,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 6750,
+        "sold": 13,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 54.17
+      }
+    ]
+  },
+  "Deool Band 2 | Marathi": {
+    "shows": 6,
+    "gross": 4265,
+    "sold": 27,
+    "totalSeats": 1956,
+    "venues": 6,
+    "cities": 4,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 1.38,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 3,
+        "gross": 0,
+        "sold": 0,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 3320,
+        "sold": 18,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.65
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 945,
+        "sold": 9,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.89
+      },
+      {
+        "city": "Nandurbar",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Dharpakad | Gujarati": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 166,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Bandar | Hindi": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 204,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Sambalpur",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   }
