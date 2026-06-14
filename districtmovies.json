@@ -221,17 +221,6 @@
     "cityCount": 15
   },
   {
-    "movie": "Bandar",
-    "language": "Hindi",
-    "movieCode": "UT9Ncboaf~",
-    "id": 203149,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/17793709143506696%20(1)-ef24e1f0-5fe4-11f1-a281-314b52e14b6c.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat",
-    "cityCount": 14
-  },
-  {
     "movie": "Ikkis",
     "language": "Indian Sign Language",
     "movieCode": "wdxDFef~_k",
@@ -252,6 +241,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Krishnavataram-93c57b90-3bad-11f1-9fb0-c3228bcca857.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Mumbai, Nagpur, Patna, Surat",
     "cityCount": 14
+  },
+  {
+    "movie": "Bandar",
+    "language": "Hindi",
+    "movieCode": "UT9Ncboaf~",
+    "id": 203149,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/17793709143506696%20(1)-ef24e1f0-5fe4-11f1-a281-314b52e14b6c.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kochi, Kolkata, Mumbai, Surat",
+    "cityCount": 13
   },
   {
     "movie": "DP World Asia Cup 2025 (India vs Pakistan)",
@@ -342,6 +342,17 @@
     "cityCount": 12
   },
   {
+    "movie": "He-Man and the Masters of the Universe",
+    "language": "English",
+    "movieCode": "FSsHmTJcT_c",
+    "id": 203073,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/17802941375749383-d2605c40-5d85-11f1-97ed-9bbc155be9ee.jpg",
+    "city": "Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai",
+    "cityCount": 11
+  },
+  {
     "movie": "ICC Men's T20 Cricket World Cup 2026: India vs South Africa",
     "language": "Hindi",
     "movieCode": "~M1bUT4YUb",
@@ -383,17 +394,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/chand-mera-dil-poster-c8365d00-5349-11f1-a500-f9a96364ca0e.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Surat",
-    "cityCount": 10
-  },
-  {
-    "movie": "He-Man and the Masters of the Universe",
-    "language": "English",
-    "movieCode": "FSsHmTJcT_c",
-    "id": 203073,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/17802941375749383-d2605c40-5d85-11f1-97ed-9bbc155be9ee.jpg",
-    "city": "Bangalore, Bengaluru, Chandigarh, Chennai, Hyderabad, Jaipur, Kochi, Kolkata, Mangaluru, Mumbai",
     "cityCount": 10
   },
   {
@@ -449,17 +449,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/badhu-a98d6050-63f8-11f1-8422-57f9133910ab.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Gandhinagar, Hyderabad, Mumbai, Surat",
-    "cityCount": 8
-  },
-  {
-    "movie": "Blast",
-    "language": "Tamil",
-    "movieCode": "S9byceSLRp",
-    "id": 220517,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/17789139490052683-ed88b740-5274-11f1-9190-99e7de5c3b9a.jpeg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Kochi, Madurai, Mumbai",
     "cityCount": 8
   },
   {
@@ -524,7 +513,7 @@
     "id": 192354,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/LAGAAAAN-a56e3fc0-ff05-11ef-bb0c-59cbdd996a2c.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/LAGAAN2-bd7deac0-ff05-11ef-bb0c-59cbdd996a2c.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Mumbai",
     "cityCount": 8
   },
@@ -573,6 +562,17 @@
     "cityCount": 8
   },
   {
+    "movie": "Blast",
+    "language": "Tamil",
+    "movieCode": "S9byceSLRp",
+    "id": 220517,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/17789139490052683-ed88b740-5274-11f1-9190-99e7de5c3b9a.jpeg",
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi, Madurai, Mumbai",
+    "cityCount": 7
+  },
+  {
     "movie": "Rajni Ki Baraat",
     "language": "Hindi",
     "movieCode": "T4HLaq51e2",
@@ -617,14 +617,14 @@
     "cityCount": 6
   },
   {
-    "movie": "Chhaki Suna",
-    "language": "Odia",
-    "movieCode": "Ns74YLd6Mf",
-    "id": 220955,
+    "movie": "Bhooth Bangla",
+    "language": "Hindi",
+    "movieCode": "v2D7iqhi7Y",
+    "id": 177766,
     "runtime": 134,
     "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chhaki-Suna-b6a0f1d0-633a-11f1-81c8-41f202f55c4b.jpg",
-    "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Hyderabad, Kochi",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bhooth-235a2dc0-3706-11f1-9c5b-6bf254b5f8b5.jpg",
+    "city": "Ahmedabad, Amritsar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur",
     "cityCount": 6
   },
   {
@@ -782,17 +782,6 @@
     "cityCount": 5
   },
   {
-    "movie": "Bhooth Bangla",
-    "language": "Hindi",
-    "movieCode": "v2D7iqhi7Y",
-    "id": 177766,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bhooth-235a2dc0-3706-11f1-9c5b-6bf254b5f8b5.jpg",
-    "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur",
-    "cityCount": 5
-  },
-  {
     "movie": "Blast Zone",
     "language": "Telugu",
     "movieCode": "5_qGfMDyJc",
@@ -801,6 +790,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Blastz%20(1)-08877af0-585f-11f1-8880-0f9eb3f8b291.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 5
+  },
+  {
+    "movie": "Chhaki Suna",
+    "language": "Odia",
+    "movieCode": "Ns74YLd6Mf",
+    "id": 220955,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chhaki-Suna-b6a0f1d0-633a-11f1-81c8-41f202f55c4b.jpg",
+    "city": "Bangalore, Bengaluru, Bhubaneswar, Chennai, Hyderabad",
     "cityCount": 5
   },
   {
@@ -933,17 +933,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mithra-Mandalip-ece30e10-a5f1-11f0-8776-218d5db63e1b.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 5
-  },
-  {
-    "movie": "Oye Bhole Oye 2",
-    "language": "Punjabi",
-    "movieCode": "xW75x3TzF6",
-    "id": 220126,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/oye-bhole2_Poster-788e9b70-41f9-11f1-9464-dfcf31194b51-fef6ac90-42ec-11f1-b9c0-4f9a888ec570.jpg",
-    "city": "Amritsar, Chandigarh, Delhi/NCR, Jaipur, Surat",
     "cityCount": 5
   },
   {
@@ -1145,17 +1134,6 @@
     "cityCount": 4
   },
   {
-    "movie": "He-Man and the Masters of the Universe",
-    "language": "Hindi",
-    "movieCode": "wuEl5JAnaJ",
-    "id": 203073,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/17802941375749383-46ab2c60-5d86-11f1-8b09-ff74ad8a14c2.jpg",
-    "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Surat",
-    "cityCount": 4
-  },
-  {
     "movie": "Jalebi Rocks",
     "language": "Hindi",
     "movieCode": "H8htiwZbUP",
@@ -1219,6 +1197,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/NISHAANCHI-e05a2b60-9ab1-11f0-be0a-8909774f1565.jpg",
     "city": "Ahmedabad, Delhi/NCR, Gandhinagar, Surat",
+    "cityCount": 4
+  },
+  {
+    "movie": "Oye Bhole Oye 2",
+    "language": "Punjabi",
+    "movieCode": "xW75x3TzF6",
+    "id": 220126,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/oye-bhole2_Poster-788e9b70-41f9-11f1-9464-dfcf31194b51-fef6ac90-42ec-11f1-b9c0-4f9a888ec570.jpg",
+    "city": "Amritsar, Chandigarh, Delhi/NCR, Jaipur",
     "cityCount": 4
   },
   {
@@ -1585,6 +1574,17 @@
     "cityCount": 3
   },
   {
+    "movie": "He-Man and the Masters of the Universe",
+    "language": "Hindi",
+    "movieCode": "wuEl5JAnaJ",
+    "id": 203073,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/17802941375749383-46ab2c60-5d86-11f1-8b09-ff74ad8a14c2.jpg",
+    "city": "Ahmedabad, Gandhinagar, Surat",
+    "cityCount": 3
+  },
+  {
     "movie": "Hey Balwanth",
     "language": "Telugu",
     "movieCode": "bRtl_S~g1g",
@@ -1857,17 +1857,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/2%20(3)%20(1)-372613c0-eb87-11f0-ad2d-1bbc61323e3a.jpg",
     "city": "Chennai, Delhi/NCR, Surat",
-    "cityCount": 3
-  },
-  {
-    "movie": "Phool Pishi O Edward",
-    "language": "Bengali",
-    "movieCode": "m52TJBECZk",
-    "id": 217230,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Phool-Pishi-O-Edward-79f67210-39a4-11f1-bb7f-09b624909c48.jpg",
-    "city": "Delhi/NCR, Kolkata, Mumbai",
     "cityCount": 3
   },
   {
@@ -5706,6 +5695,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/PhaphePH-77df4770-7e8f-11f0-aa21-2f361b147769.jpg",
     "city": "Amritsar, Chandigarh",
+    "cityCount": 2
+  },
+  {
+    "movie": "Phool Pishi O Edward",
+    "language": "Bengali",
+    "movieCode": "m52TJBECZk",
+    "id": 217230,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Phool-Pishi-O-Edward-79f67210-39a4-11f1-bb7f-09b624909c48.jpg",
+    "city": "Kolkata, Mumbai",
     "cityCount": 2
   },
   {
@@ -9939,7 +9939,7 @@
     "id": 144007,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye--edca1f30-1b77-11f0-b2bf-d9c854ed10fa.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye-app-poster-2-4353f31f-3c50-46a4-a32b-a0342bc62323.jpg",
     "city": "Surat",
     "cityCount": 1
   },
