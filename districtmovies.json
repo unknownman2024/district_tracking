@@ -105,7 +105,7 @@
     "movieCode": "wqTV0rrECb",
     "id": 213788,
     "runtime": 134,
-    "rating": "TBA",
+    "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Cocktail-2-0feaab20-6753-11f1-9e97-2d0de83fe7ee.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Jaipur, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Nashik, Patna, Surat",
     "cityCount": 20
@@ -375,17 +375,6 @@
     "cityCount": 11
   },
   {
-    "movie": "Chand Mera Dil",
-    "language": "Hindi",
-    "movieCode": "gXUMsC6cdY",
-    "id": 182354,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/chand-mera-dil-poster-c8365d00-5349-11f1-a500-f9a96364ca0e.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Surat",
-    "cityCount": 10
-  },
-  {
     "movie": "He-Man and the Masters of the Universe",
     "language": "English",
     "movieCode": "FSsHmTJcT_c",
@@ -417,6 +406,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/THe-odyssey-504353e0-6288-11f1-836e-9fd1f1c5b5a2.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Delhi/NCR, Gandhinagar, Kochi, Kolkata, Mumbai, Surat",
     "cityCount": 10
+  },
+  {
+    "movie": "Chand Mera Dil",
+    "language": "Hindi",
+    "movieCode": "gXUMsC6cdY",
+    "id": 182354,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/chand-mera-dil-poster-c8365d00-5349-11f1-a500-f9a96364ca0e.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Surat",
+    "cityCount": 9
   },
   {
     "movie": "Maharani",
@@ -1574,6 +1574,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Goutham Nanda",
+    "language": "Telugu",
+    "movieCode": "lQ7QlLDPSHu",
+    "id": 18,
+    "runtime": 134,
+    "rating": "UA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goutham-Nanda-82e371f0-6665-11f1-91d6-b71602099988.jpg",
+    "city": "Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 3
+  },
+  {
     "movie": "Hamnet",
     "language": "English",
     "movieCode": "qSm1ejyGsZL",
@@ -1824,17 +1835,6 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Misri_Poster-ebd3d930-b2f0-11f0-aa78-472990ae9578.jpg",
     "city": "Ahmedabad, Gandhinagar, Mumbai",
-    "cityCount": 3
-  },
-  {
-    "movie": "Moondram Kan",
-    "language": "Tamil",
-    "movieCode": "FBWjdzRHOz",
-    "id": 223784,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/MoondramKan--aa92a0d0-5da1-11f1-98c3-4f7283f481c9-e8d20fd0-6345-11f1-a949-ab2035753def.jpg",
-    "city": "Chennai, Coimbatore, Madurai",
     "cityCount": 3
   },
   {
@@ -15960,28 +15960,6 @@
     "cityCount": 4
   },
   {
-    "movie": "Charukesi",
-    "language": "Tamil",
-    "movieCode": "E4WF7V1AzL",
-    "id": 220340,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Charukesi-f5cde0f0-6242-11f1-aff5-ffb8a49c3986.jpg",
-    "city": "Chennai, Coimbatore, Madurai",
-    "cityCount": 3
-  },
-  {
-    "movie": "Goutham Nanda",
-    "language": "Telugu",
-    "movieCode": "lQ7QlLDPSHu",
-    "id": 18,
-    "runtime": 134,
-    "rating": "UA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Goutham-Nanda-82e371f0-6665-11f1-91d6-b71602099988.jpg",
-    "city": "Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 3
-  },
-  {
     "movie": "I'm Handsome(Since 2009)",
     "language": "Telugu",
     "movieCode": "YoBUKad89H",
@@ -16015,6 +15993,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Charukesi",
+    "language": "Tamil",
+    "movieCode": "E4WF7V1AzL",
+    "id": 220340,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Charukesi-f5cde0f0-6242-11f1-aff5-ffb8a49c3986.jpg",
+    "city": "Chennai, Coimbatore",
+    "cityCount": 2
+  },
+  {
     "movie": "Ghabadkund",
     "language": "Marathi",
     "movieCode": "OnoV7r6Lwh",
@@ -16045,6 +16034,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Maddane-poster-401f47a0-5f20-11f1-89d2-b36746ab91e1-027bbfb0-63de-11f1-b221-4ddcbed6daa7.jpg",
     "city": "Bangalore, Bengaluru",
+    "cityCount": 2
+  },
+  {
+    "movie": "Moondram Kan",
+    "language": "Tamil",
+    "movieCode": "FBWjdzRHOz",
+    "id": 223784,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/MoondramKan--aa92a0d0-5da1-11f1-98c3-4f7283f481c9-e8d20fd0-6345-11f1-a949-ab2035753def.jpg",
+    "city": "Chennai, Coimbatore",
     "cityCount": 2
   },
   {
@@ -16177,6 +16177,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Bhagyan_Poster-09ce5460-64f8-11f1-91db-8b8568c8575d.jpg",
     "city": "Delhi/NCR",
+    "cityCount": 1
+  },
+  {
+    "movie": "Coco",
+    "language": "English",
+    "movieCode": "BJbRamKeM",
+    "id": 115,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Coco--608x800-8bf7c690-fad6-11ed-899d-29f42d9b8230.jpg",
+    "city": "Kolkata",
     "cityCount": 1
   },
   {
