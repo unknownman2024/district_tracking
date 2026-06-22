@@ -76,27 +76,27 @@
     ]
   },
   "Okkadu [2003] [2D | Telugu]": {
-    "shows": 23,
-    "gross": 813134,
-    "sold": 5739,
-    "totalSeats": 12175,
-    "venues": 12,
-    "cities": 9,
-    "fastfilling": 7,
+    "shows": 28,
+    "gross": 1021519,
+    "sold": 7498,
+    "totalSeats": 15221,
+    "venues": 14,
+    "cities": 10,
+    "fastfilling": 11,
     "housefull": 1,
-    "occupancy": 47.14,
+    "occupancy": 49.26,
     "details": [
       {
         "city": "Guntur",
         "state": "Andhra Pradesh",
         "venues": 1,
         "shows": 4,
-        "gross": 350,
-        "sold": 2,
+        "gross": 875,
+        "sold": 5,
         "totalSeats": 956,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.21
+        "occupancy": 0.52
       },
       {
         "city": "Hyderabad",
@@ -137,14 +137,14 @@
       {
         "city": "Rajahmundry",
         "state": "Andhra Pradesh",
-        "venues": 1,
-        "shows": 1,
-        "gross": 31235,
-        "sold": 267,
-        "totalSeats": 613,
-        "fastfilling": 0,
+        "venues": 2,
+        "shows": 5,
+        "gross": 239095,
+        "sold": 2023,
+        "totalSeats": 3273,
+        "fastfilling": 4,
         "housefull": 0,
-        "occupancy": 43.56
+        "occupancy": 61.81
       },
       {
         "city": "Vizag (Visakhapatnam)",
@@ -193,6 +193,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Kavali",
+        "state": "Andhra Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 386,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -200,12 +212,12 @@
         "chain": "Plateno Cinemas",
         "venues": 1,
         "shows": 4,
-        "gross": 350,
-        "sold": 2,
+        "gross": 875,
+        "sold": 5,
         "totalSeats": 956,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.21
+        "occupancy": 0.52
       },
       {
         "chain": "Sudarshan",
@@ -272,6 +284,28 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 30.89
+      },
+      {
+        "chain": "Manasa Cinema",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 386,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Urvasi Complex",
+        "venues": 1,
+        "shows": 4,
+        "gross": 207860,
+        "sold": 1756,
+        "totalSeats": 2660,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 66.02
       }
     ]
   },
@@ -765,6 +799,44 @@
       }
     ]
   },
+  "Happy Be Happy [2D | Malayalam]": {
+    "shows": 1,
+    "gross": 9000,
+    "sold": 60,
+    "totalSeats": 100,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 60,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "venues": 1,
+        "shows": 1,
+        "gross": 9000,
+        "sold": 60,
+        "totalSeats": 100,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 60
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Galaxy Paradise",
+        "venues": 1,
+        "shows": 1,
+        "gross": 9000,
+        "sold": 60,
+        "totalSeats": 100,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 60
+      }
+    ]
+  },
   "date": "2026-06-26",
-  "lastUpdated": "04:06 AM, 22 June 2026"
+  "lastUpdated": "11:01 AM, 22 June 2026"
 }
