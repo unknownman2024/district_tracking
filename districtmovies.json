@@ -177,17 +177,6 @@
     "cityCount": 15
   },
   {
-    "movie": "Con City",
-    "language": "Tamil",
-    "movieCode": "ppq2wzxxbww",
-    "id": 213702,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://b.zmtcdn.com/data/edition_assets/17821256461086645.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Madurai, Mangaluru, Mumbai, Surat",
-    "cityCount": 14
-  },
-  {
     "movie": "Ikkis",
     "language": "Indian Sign Language",
     "movieCode": "wdxDFef~_k",
@@ -208,6 +197,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/SUPERGRIL-a02c0ea0-6adb-11f1-ae1e-25cd3b6e754f-ef086f30-6beb-11f1-b1f6-7368625ce5ed.jpg",
     "city": "Bangalore, Bengaluru, Bhubaneswar, Chandigarh, Goa, Hyderabad, Kochi, Kolkata, Madurai, Mangaluru, Mumbai, Nagpur, Nashik, Visakhapatnam",
     "cityCount": 14
+  },
+  {
+    "movie": "Con City",
+    "language": "Tamil",
+    "movieCode": "ppq2wzxxbww",
+    "id": 213702,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://b.zmtcdn.com/data/edition_assets/17821256461086645.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Hyderabad, Kochi, Madurai, Mangaluru, Mumbai, Surat",
+    "cityCount": 13
   },
   {
     "movie": "DP World Asia Cup 2025 (India vs Pakistan)",
@@ -581,6 +581,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/IPL-db723f00-580e-11f1-90d5-91520fe4b5f3.jpg",
     "city": "Ahmedabad, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Patna, Surat",
+    "cityCount": 7
+  },
+  {
+    "movie": "Tera Mera Nata",
+    "language": "hindi",
+    "movieCode": "7kjg8mjddwp",
+    "id": 226244,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://b.zmtcdn.com/data/edition_assets/17821329376123909.jpg",
+    "city": "Ahmedabad, Bhopal, Delhi/NCR, Gandhinagar, Kolkata, Mumbai, Surat",
     "cityCount": 7
   },
   {
@@ -12161,19 +12172,8 @@
     "runtime": 134,
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Angikaran-d276c4b0-6bce-11f1-bcc5-113829f49755.jpg",
-    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi, Madurai, Mangaluru",
-    "cityCount": 7
-  },
-  {
-    "movie": "Tera Mera Nata",
-    "language": "hindi",
-    "movieCode": "7kjg8mjddwp",
-    "id": 226244,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://b.zmtcdn.com/data/edition_assets/17821329376123909.jpg",
-    "city": "Ahmedabad, Bhopal, Delhi/NCR, Gandhinagar, Kolkata, Mumbai, Surat",
-    "cityCount": 7
+    "city": "Bangalore, Bengaluru, Chennai, Coimbatore, Kochi, Mangaluru",
+    "cityCount": 6
   },
   {
     "movie": "ICC Women's T20 Cricket World Cup 2026: India vs Australia",
@@ -12250,28 +12250,6 @@
     "rating": "UA7+",
     "poster": "https://b.zmtcdn.com/data/edition_assets/17822058206507307.jpg",
     "city": "Bangalore, Bengaluru, Mangaluru",
-    "cityCount": 3
-  },
-  {
-    "movie": "Andharan",
-    "language": "Tamil",
-    "movieCode": "jg5he7do5kr",
-    "id": 226247,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://b.zmtcdn.com/data/edition_assets/17822165765455394.jpg",
-    "city": "Chennai, Coimbatore, Madurai",
-    "cityCount": 3
-  },
-  {
-    "movie": "Bharat Bhhagya Viddhaata",
-    "language": "Hindi",
-    "movieCode": "SI3L0qZKEB",
-    "id": 221285,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bharat-Bhhagya-Viddhaata-(1)-db59ae40-6551-11f1-916d-010e1e137c5f.jpg",
-    "city": "Jaipur, Mumbai, Surat",
     "cityCount": 3
   },
   {
@@ -12385,6 +12363,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Andharan",
+    "language": "Tamil",
+    "movieCode": "jg5he7do5kr",
+    "id": 226247,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://b.zmtcdn.com/data/edition_assets/17822165765455394.jpg",
+    "city": "Chennai, Coimbatore",
+    "cityCount": 2
+  },
+  {
     "movie": "Bhamardo",
     "language": "Gujarati",
     "movieCode": "1kcNN2qCdG",
@@ -12393,6 +12382,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Bhamardo---0c6476f0-5391-11f1-869e-b73d54e9e5af.jpg",
     "city": "Mumbai, Surat",
+    "cityCount": 2
+  },
+  {
+    "movie": "Bharat Bhhagya Viddhaata",
+    "language": "Hindi",
+    "movieCode": "SI3L0qZKEB",
+    "id": 221285,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Bharat-Bhhagya-Viddhaata-(1)-db59ae40-6551-11f1-916d-010e1e137c5f.jpg",
+    "city": "Jaipur, Mumbai",
     "cityCount": 2
   },
   {
@@ -18055,7 +18055,7 @@
     "id": 144007,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye--edca1f30-1b77-11f0-b2bf-d9c854ed10fa.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye-app-poster-2-4353f31f-3c50-46a4-a32b-a0342bc62323.jpg",
     "city": "Surat",
     "cityCount": 1
   },
