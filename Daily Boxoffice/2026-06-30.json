@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "lastUpdated": "03:18 AM, 30 June 2026",
+  "lastUpdated": "05:00 AM, 30 June 2026",
   "Cocktail 2 | Hindi": {
     "shows": 1,
     "gross": 0,
@@ -26,15 +26,15 @@
     ]
   },
   "Welcome To The Jungle | Hindi": {
-    "shows": 1,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 175,
-    "venues": 1,
-    "cities": 1,
+    "shows": 12,
+    "gross": 7124,
+    "sold": 38,
+    "totalSeats": 1626,
+    "venues": 11,
+    "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 2.34,
     "details": [
       {
         "city": "Alwar",
@@ -46,6 +46,144 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Patiala",
+        "state": "Punjab",
+        "shows": 1,
+        "gross": 796,
+        "sold": 4,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.16
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 5,
+        "gross": 5776,
+        "sold": 28,
+        "venues": 4,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.91
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 552,
+        "sold": 6,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.65
+      },
+      {
+        "city": "Kanpur",
+        "state": "Uttar Pradesh",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Obsession | English": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 114,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Main Vaapas Aaunga | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 352,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Rajkot",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Bharat Bhhagya Viddhaata | Hindi": {
+    "shows": 2,
+    "gross": 43800,
+    "sold": 219,
+    "totalSeats": 219,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 2,
+    "occupancy": 100,
+    "details": [
+      {
+        "city": "Safidon",
+        "state": "Haryana",
+        "shows": 2,
+        "gross": 43800,
+        "sold": 219,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 2,
+        "occupancy": 100
       }
     ]
   }
