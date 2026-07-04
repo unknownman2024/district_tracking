@@ -177,17 +177,6 @@
     "cityCount": 16
   },
   {
-    "movie": "Toy Story 5",
-    "language": "English",
-    "movieCode": "uCYo7VtNgqa",
-    "id": 178238,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/17801165227319230-f86ec150-65b5-11f1-802d-095c9ae2eb3b.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Gandhinagar, Goa, Guntur, Hyderabad, Kochi, Kolkata, Mumbai, Nagpur, Nashik, Visakhapatnam",
-    "cityCount": 16
-  },
-  {
     "movie": "BTS World Tour Arirang In Goyang: Re-Broadcast",
     "language": "Korean",
     "movieCode": "75pUDuX8ME",
@@ -251,6 +240,17 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/SUPERGRIL-a02c0ea0-6adb-11f1-ae1e-25cd3b6e754f-ef086f30-6beb-11f1-b1f6-7368625ce5ed.jpg",
     "city": "Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Delhi/NCR, Guntur, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Surat, Visakhapatnam",
+    "cityCount": 14
+  },
+  {
+    "movie": "Toy Story 5",
+    "language": "English",
+    "movieCode": "uCYo7VtNgqa",
+    "id": 178238,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/17801165227319230-f86ec150-65b5-11f1-802d-095c9ae2eb3b.jpg",
+    "city": "Bangalore, Bengaluru, Chandigarh, Chennai, Delhi/NCR, Goa, Guntur, Hyderabad, Kochi, Kolkata, Mumbai, Nagpur, Nashik, Visakhapatnam",
     "cityCount": 14
   },
   {
@@ -848,17 +848,6 @@
     "cityCount": 5
   },
   {
-    "movie": "Jindagi Once More",
-    "language": "Gujarati",
-    "movieCode": "i7FzfJh287",
-    "id": 222582,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jindgi-once-more%20(1)-344c2750-62fd-11f1-88b6-4769d594dd86.jpg",
-    "city": "Ahmedabad, Chennai, Gandhinagar, Mumbai, Surat",
-    "cityCount": 5
-  },
-  {
     "movie": "Kanchana",
     "language": "Telugu",
     "movieCode": "MerF23XLFb",
@@ -921,17 +910,6 @@
     "runtime": 134,
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Okkadu-550ecef0-6caa-11f1-b059-0d4b6ffba3fc.jpg",
-    "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 5
-  },
-  {
-    "movie": "Raghuvaran B.Tech",
-    "language": "Telugu",
-    "movieCode": "pUwYiSQQ5vj",
-    "id": 165245,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://b.zmtcdn.com/data/edition_assets/17829698219960151.jpg",
     "city": "Bangalore, Bengaluru, Guntur, Hyderabad, Visakhapatnam",
     "cityCount": 5
   },
@@ -1032,6 +1010,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Tighee-456fc480-17dd-11f1-9b5e-ebea1902cfa1.jpg",
     "city": "Bangalore, Bengaluru, Mumbai, Nagpur, Nashik",
+    "cityCount": 5
+  },
+  {
+    "movie": "Toy Story 5",
+    "language": "Hindi",
+    "movieCode": "6Y7xGT9hZa",
+    "id": 178238,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/17801165227319230-f86ec150-65b5-11f1-802d-095c9ae2eb3b-c927ad60-667a-11f1-860e-7160312d1b17-a1563930-67da-11f1-8d42-f17d279f70ed.jpg",
+    "city": "Ahmedabad, Bhopal, Gandhinagar, Jaipur, Surat",
     "cityCount": 5
   },
   {
@@ -1208,6 +1197,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Jilla%202014_Poster-634696b0-628c-11f1-9ba7-99850c0ce3b4.jpg",
     "city": "Bangalore, Bengaluru, Chennai, Coimbatore",
+    "cityCount": 4
+  },
+  {
+    "movie": "Jindagi Once More",
+    "language": "Gujarati",
+    "movieCode": "i7FzfJh287",
+    "id": 222582,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Jindgi-once-more%20(1)-344c2750-62fd-11f1-88b6-4769d594dd86.jpg",
+    "city": "Ahmedabad, Gandhinagar, Mumbai, Surat",
     "cityCount": 4
   },
   {
@@ -2080,6 +2080,17 @@
     "cityCount": 3
   },
   {
+    "movie": "Raghuvaran B.Tech",
+    "language": "Telugu",
+    "movieCode": "pUwYiSQQ5vj",
+    "id": 165245,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://b.zmtcdn.com/data/edition_assets/17829698219960151.jpg",
+    "city": "Guntur, Hyderabad, Visakhapatnam",
+    "cityCount": 3
+  },
+  {
     "movie": "Repu Udayam 10 Gantalaku",
     "language": "Telugu",
     "movieCode": "ywBmHNlB6E",
@@ -2242,17 +2253,6 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/they%20wll%20kil%20you%20poster-89f65220-21fd-11f1-8524-bd390bef3afd.jpg",
     "city": "Chennai, Delhi/NCR, Mumbai",
-    "cityCount": 3
-  },
-  {
-    "movie": "Toy Story 5",
-    "language": "Hindi",
-    "movieCode": "6Y7xGT9hZa",
-    "id": 178238,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/17801165227319230-f86ec150-65b5-11f1-802d-095c9ae2eb3b-c927ad60-667a-11f1-860e-7160312d1b17-a1563930-67da-11f1-8d42-f17d279f70ed.jpg",
-    "city": "Bhopal, Jaipur, Surat",
     "cityCount": 3
   },
   {
@@ -10818,7 +10818,7 @@
     "id": 144007,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye-app-poster-2-4353f31f-3c50-46a4-a32b-a0342bc62323.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Chaal-Jeevi-Laiye--edca1f30-1b77-11f0-b2bf-d9c854ed10fa.jpg",
     "city": "Surat",
     "cityCount": 1
   },
