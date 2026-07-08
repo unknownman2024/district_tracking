@@ -111,15 +111,15 @@
     ]
   },
   "Dhamaal 4 [2D | Hindi]": {
-    "shows": 346,
+    "shows": 356,
     "gross": 3371586,
     "sold": 25228,
-    "totalSeats": 112451,
-    "venues": 81,
+    "totalSeats": 114199,
+    "venues": 82,
     "cities": 64,
     "fastfilling": 54,
     "housefull": 16,
-    "occupancy": 22.43,
+    "occupancy": 22.09,
     "details": [
       {
         "city": "Amravati",
@@ -209,13 +209,13 @@
         "city": "Ahmedabad",
         "state": "Gujarat",
         "venues": 3,
-        "shows": 21,
+        "shows": 27,
         "gross": 2160,
         "sold": 12,
-        "totalSeats": 2398,
+        "totalSeats": 2694,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.5
+        "occupancy": 0.45
       },
       {
         "city": "Hyderabad",
@@ -472,14 +472,14 @@
       {
         "city": "Deesa",
         "state": "Gujarat",
-        "venues": 1,
-        "shows": 4,
+        "venues": 2,
+        "shows": 8,
         "gross": 48000,
         "sold": 120,
-        "totalSeats": 2032,
+        "totalSeats": 3484,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 5.91
+        "occupancy": 3.44
       },
       {
         "city": "Nagpur",
@@ -1202,13 +1202,13 @@
       {
         "chain": "Apple Multiplex, Gota",
         "venues": 1,
-        "shows": 6,
+        "shows": 12,
         "gross": 2160,
         "sold": 12,
-        "totalSeats": 732,
+        "totalSeats": 1028,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 1.64
+        "occupancy": 1.17
       },
       {
         "chain": "Gold Cinema",
@@ -1558,6 +1558,17 @@
         "gross": 0,
         "sold": 0,
         "totalSeats": 1198,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Shree Ram Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1452,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -4921,11 +4932,11 @@
     ]
   },
   "State of Ramadhani: Dharyu Dhani Nu Thay [2D | Gujarati]": {
-    "shows": 4,
+    "shows": 5,
     "gross": 0,
     "sold": 0,
-    "totalSeats": 392,
-    "venues": 1,
+    "totalSeats": 432,
+    "venues": 2,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
@@ -4934,11 +4945,11 @@
       {
         "city": "Ahmedabad",
         "state": "Gujarat",
-        "venues": 1,
-        "shows": 4,
+        "venues": 2,
+        "shows": 5,
         "gross": 0,
         "sold": 0,
-        "totalSeats": 392,
+        "totalSeats": 432,
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
@@ -4955,31 +4966,42 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "Apple Multiplex, Gota",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 40,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
   "Welcome To The Jungle [2D | Hindi]": {
-    "shows": 11,
-    "gross": 36920,
-    "sold": 342,
-    "totalSeats": 1566,
-    "venues": 5,
+    "shows": 19,
+    "gross": 38150,
+    "sold": 346,
+    "totalSeats": 2157,
+    "venues": 7,
     "cities": 5,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 21.84,
+    "occupancy": 16.04,
     "details": [
       {
         "city": "Ahmedabad",
         "state": "Gujarat",
-        "venues": 1,
-        "shows": 4,
-        "gross": 0,
-        "sold": 0,
-        "totalSeats": 350,
+        "venues": 3,
+        "shows": 12,
+        "gross": 1230,
+        "sold": 4,
+        "totalSeats": 941,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 0.43
       },
       {
         "city": "Burhar",
@@ -5085,31 +5107,53 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "Apple Multiplex, Gota",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 411,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "chain": "Apple Cinema",
+        "venues": 1,
+        "shows": 4,
+        "gross": 1230,
+        "sold": 4,
+        "totalSeats": 180,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.22
       }
     ]
   },
   "Alpha [2D | Hindi]": {
-    "shows": 17,
-    "gross": 97000,
-    "sold": 1820,
-    "totalSeats": 3418,
-    "venues": 6,
+    "shows": 26,
+    "gross": 97760,
+    "sold": 1823,
+    "totalSeats": 4256,
+    "venues": 8,
     "cities": 6,
     "fastfilling": 4,
     "housefull": 0,
-    "occupancy": 53.25,
+    "occupancy": 42.83,
     "details": [
       {
         "city": "Ahmedabad",
         "state": "Gujarat",
-        "venues": 1,
-        "shows": 2,
-        "gross": 0,
-        "sold": 0,
-        "totalSeats": 250,
+        "venues": 3,
+        "shows": 11,
+        "gross": 760,
+        "sold": 3,
+        "totalSeats": 1088,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 0.28
       },
       {
         "city": "Khopoli",
@@ -5238,6 +5282,28 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "chain": "Apple Multiplex, Gota",
+        "venues": 1,
+        "shows": 6,
+        "gross": 160,
+        "sold": 1,
+        "totalSeats": 642,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.16
+      },
+      {
+        "chain": "Apple Cinema",
+        "venues": 1,
+        "shows": 3,
+        "gross": 600,
+        "sold": 2,
+        "totalSeats": 196,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.02
       }
     ]
   },
@@ -6502,6 +6568,120 @@
       }
     ]
   },
+  "Nagabandham: The Secret Treasure [2D | Hindi]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 123,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 123,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Apple Multiplex, Gota",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 123,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Rangaaa [2D | Gujarati]": {
+    "shows": 1,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 96,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 96,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Apple Multiplex, Gota",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 96,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Evil Dead Burn [2D | Hindi]": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 246,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 246,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "Apple Multiplex, Gota",
+        "venues": 1,
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 246,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
   "date": "2026-07-13",
-  "lastUpdated": "01:26 AM, 09 July 2026"
+  "lastUpdated": "03:47 AM, 09 July 2026"
 }
