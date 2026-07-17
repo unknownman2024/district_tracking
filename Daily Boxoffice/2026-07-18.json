@@ -1,49 +1,262 @@
 {
   "date": "2026-07-18",
-  "lastUpdated": "02:42 AM, 18 July 2026",
+  "lastUpdated": "03:40 AM, 18 July 2026",
   "The Odyssey | English": {
-    "shows": 8,
-    "gross": 1211230,
-    "sold": 1284,
-    "totalSeats": 2372,
-    "venues": 8,
-    "cities": 3,
-    "fastfilling": 5,
+    "shows": 58,
+    "gross": 5622740,
+    "sold": 6093,
+    "totalSeats": 15406,
+    "venues": 46,
+    "cities": 17,
+    "fastfilling": 20,
     "housefull": 0,
-    "occupancy": 54.13,
+    "occupancy": 39.55,
     "details": [
       {
         "city": "Kochi",
         "state": "Kerala",
-        "shows": 1,
-        "gross": 268800,
-        "sold": 163,
+        "shows": 2,
+        "gross": 507000,
+        "sold": 343,
         "venues": 1,
-        "fastfilling": 1,
+        "fastfilling": 2,
         "housefull": 0,
-        "occupancy": 71.18
+        "occupancy": 74.89
       },
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 5,
-        "gross": 603360,
-        "sold": 602,
-        "venues": 5,
-        "fastfilling": 2,
+        "shows": 18,
+        "gross": 2449710,
+        "sold": 2399,
+        "venues": 13,
+        "fastfilling": 8,
         "housefull": 0,
-        "occupancy": 43.62
+        "occupancy": 44.87
       },
       {
         "city": "New Delhi",
         "state": "Delhi",
-        "shows": 2,
-        "gross": 339070,
-        "sold": 519,
-        "venues": 2,
-        "fastfilling": 2,
+        "shows": 10,
+        "gross": 1072970,
+        "sold": 1421,
+        "venues": 9,
+        "fastfilling": 5,
         "housefull": 0,
-        "occupancy": 68.02
+        "occupancy": 53.46
+      },
+      {
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "shows": 1,
+        "gross": 3320,
+        "sold": 18,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.73
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 5,
+        "gross": 274150,
+        "sold": 324,
+        "venues": 3,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 37.28
+      },
+      {
+        "city": "Gurgaon",
+        "state": "Haryana",
+        "shows": 2,
+        "gross": 275370,
+        "sold": 370,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 82.96
+      },
+      {
+        "city": "Guwahati",
+        "state": "Assam",
+        "shows": 1,
+        "gross": 2740,
+        "sold": 13,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.22
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 1,
+        "gross": 200220,
+        "sold": 228,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 71.47
+      },
+      {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 25170,
+        "sold": 66,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 32.2
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 3,
+        "gross": 146300,
+        "sold": 125,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.98
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 5,
+        "gross": 219190,
+        "sold": 240,
+        "venues": 4,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 16.33
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 3900,
+        "sold": 26,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 5.71
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 206720,
+        "sold": 191,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 29.43
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 207840,
+        "sold": 226,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 66.47
+      },
+      {
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 6040,
+        "sold": 26,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.08
+      },
+      {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 16210,
+        "sold": 58,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 49.57
+      },
+      {
+        "city": "Goa",
+        "state": "Goa",
+        "shows": 1,
+        "gross": 5890,
+        "sold": 19,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.93
+      }
+    ]
+  },
+  "The Odyssey | Hindi": {
+    "shows": 2,
+    "gross": 1500,
+    "sold": 5,
+    "totalSeats": 92,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 5.43,
+    "details": [
+      {
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 1500,
+        "sold": 5,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.35
+      }
+    ]
+  },
+  "Nagabandham: The Secret Treasure | Hindi": {
+    "shows": 1,
+    "gross": 3181,
+    "sold": 19,
+    "totalSeats": 183,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 10.38,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 3181,
+        "sold": 19,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.38
       }
     ]
   }
