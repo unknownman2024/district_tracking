@@ -144,17 +144,6 @@
     "cityCount": 18
   },
   {
-    "movie": "Minions & Monsters",
-    "language": "English",
-    "movieCode": "hUrPyzW06Q",
-    "id": 189476,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Minions-%26-Monsters-65870ab0-6ba9-11f1-84fa-05ff8282b7b2.jpg",
-    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Nashik, Surat",
-    "cityCount": 17
-  },
-  {
     "movie": "Moana",
     "language": "English",
     "movieCode": "TVLx3cNI6t",
@@ -174,6 +163,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Haunted-3D--Echoes-of-the-Past-poste-47f1b9b0-42f9-11f1-ac3f-370be4dfc807-d9c512d0-60e3-11f1-a434-b9b9499b68f1.jpg",
     "city": "Ahmedabad, Amritsar, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Jaipur, Kolkata, Kota, Mangaluru, Mumbai, Nagpur, Surat",
+    "cityCount": 16
+  },
+  {
+    "movie": "Minions & Monsters",
+    "language": "English",
+    "movieCode": "hUrPyzW06Q",
+    "id": 189476,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Minions-%26-Monsters-65870ab0-6ba9-11f1-84fa-05ff8282b7b2.jpg",
+    "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Chennai, Coimbatore, Delhi/NCR, Gandhinagar, Goa, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Nashik",
     "cityCount": 16
   },
   {
@@ -331,6 +331,17 @@
     "cityCount": 13
   },
   {
+    "movie": "Evil Dead Burn",
+    "language": "Hindi",
+    "movieCode": "Yu_ME7uYL7",
+    "id": 207239,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Evil-Dead-Burn_Poster-0eb5e430-49d1-11f1-a8aa-ef664b57e8ad-bcec1460-5e7c-11f1-bb0a-07766384fec6.jpg",
+    "city": "Ahmedabad, Amritsar, Bhopal, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Kota, Nagpur, Patna, Surat",
+    "cityCount": 12
+  },
+  {
     "movie": "FIFA World Cup 2026: Argentina vs Egypt",
     "language": "English",
     "movieCode": "9yd7bf33smg",
@@ -362,28 +373,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/IPL-2026-69dcac40-573c-11f1-825c-372bf41a6c5b.jpg",
     "city": "Ahmedabad, Amritsar, Bhubaneswar, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Kota, Mumbai, Patna, Surat",
     "cityCount": 12
-  },
-  {
-    "movie": "Evil Dead Burn",
-    "language": "Hindi",
-    "movieCode": "Yu_ME7uYL7",
-    "id": 207239,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Evil-Dead-Burn_Poster-0eb5e430-49d1-11f1-a8aa-ef664b57e8ad-bcec1460-5e7c-11f1-bb0a-07766384fec6.jpg",
-    "city": "Ahmedabad, Bhopal, Bhubaneswar, Delhi/NCR, Gandhinagar, Jaipur, Kolkata, Kota, Nagpur, Patna, Surat",
-    "cityCount": 11
-  },
-  {
-    "movie": "Evil Dead Burn",
-    "language": "English",
-    "movieCode": "B7g7uQTHvGE",
-    "id": 207239,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://b.zmtcdn.com/data/edition_assets/17833362123847753.jpg",
-    "city": "Amritsar, Bangalore, Bengaluru, Chandigarh, Goa, Hyderabad, Kochi, Mangaluru, Mumbai, Nashik, Visakhapatnam",
-    "cityCount": 11
   },
   {
     "movie": "FIFA World Cup 2026: France vs Spain (Semi - Finals)",
@@ -449,6 +438,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Cocktail-2-0feaab20-6753-11f1-9e97-2d0de83fe7ee.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhopal, Chandigarh, Delhi/NCR, Gandhinagar, Hyderabad, Mumbai, Surat",
+    "cityCount": 10
+  },
+  {
+    "movie": "Evil Dead Burn",
+    "language": "English",
+    "movieCode": "B7g7uQTHvGE",
+    "id": 207239,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://b.zmtcdn.com/data/edition_assets/17833362123847753.jpg",
+    "city": "Bangalore, Bengaluru, Chandigarh, Goa, Hyderabad, Kochi, Mangaluru, Mumbai, Nashik, Visakhapatnam",
     "cityCount": 10
   },
   {
@@ -958,6 +958,16 @@
     "cityCount": 5
   },
   {
+    "movie": "Jana Nayagan",
+    "language": "Tamil",
+    "id": 188681,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/2_Poster%20(6)-dbe766f0-803a-11f1-bb55-33bed1b57141.jpg",
+    "city": "Bangalore, Bengaluru, Chennai, Delhi/NCR, Kochi",
+    "cityCount": 5
+  },
+  {
     "movie": "Kanchana",
     "language": "Telugu",
     "movieCode": "MerF23XLFb",
@@ -1340,16 +1350,6 @@
     "rating": "UA",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Jalebi-Rocks-poster-7b83d420-21cf-11f1-834a-a116eeeed22f.jpg",
     "city": "Amritsar, Bangalore, Bengaluru, Chandigarh",
-    "cityCount": 4
-  },
-  {
-    "movie": "Jana Nayagan",
-    "language": "Tamil",
-    "id": 188681,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/2_Poster%20(6)-dbe766f0-803a-11f1-bb55-33bed1b57141.jpg",
-    "city": "Bangalore, Bengaluru, Delhi/NCR, Kochi",
     "cityCount": 4
   },
   {
@@ -2365,6 +2365,17 @@
     "cityCount": 2
   },
   {
+    "movie": "Minions & Monsters",
+    "language": "Hindi",
+    "movieCode": "vkrytjFDy1",
+    "id": 189476,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Minions-b357f300-245d-11f1-9820-4755dd5aefee.jpg",
+    "city": "Jaipur, Surat",
+    "cityCount": 2
+  },
+  {
     "movie": "Moana",
     "language": "Hindi",
     "movieCode": "~eO9y~Q3U0",
@@ -2803,17 +2814,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Vash-Level-2-6a3375b0-824f-11f0-9f3a-a179e177c069.jpg",
     "city": "Ahmedabad, Gandhinagar",
     "cityCount": 2
-  },
-  {
-    "movie": "Minions & Monsters",
-    "language": "Hindi",
-    "movieCode": "vkrytjFDy1",
-    "id": 189476,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Minions-b357f300-245d-11f1-9820-4755dd5aefee.jpg",
-    "city": "Jaipur",
-    "cityCount": 1
   },
   {
     "movie": "Veer Zaara",
@@ -18744,7 +18744,7 @@
     "id": 170054,
     "runtime": 134,
     "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Moana-2-e99952c0-fb36-11ef-8434-f9ed39b3241b.jpg",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Moana-23-69832470-fb37-11ef-8434-f9ed39b3241b.jpg",
     "city": "Mumbai",
     "cityCount": 1
   },
