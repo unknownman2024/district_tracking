@@ -1,51 +1,84 @@
 {
   "date": "2026-07-25",
-  "lastUpdated": "01:22 AM, 25 July 2026",
+  "lastUpdated": "03:04 AM, 25 July 2026",
   "The Odyssey | English": {
-    "shows": 3,
-    "gross": 536590,
-    "sold": 510,
-    "totalSeats": 1128,
-    "venues": 3,
-    "cities": 1,
-    "fastfilling": 1,
+    "shows": 7,
+    "gross": 1120410,
+    "sold": 1220,
+    "totalSeats": 2542,
+    "venues": 7,
+    "cities": 3,
+    "fastfilling": 3,
     "housefull": 0,
-    "occupancy": 45.21,
+    "occupancy": 47.99,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 3,
-        "gross": 536590,
-        "sold": 510,
-        "venues": 3,
+        "shows": 4,
+        "gross": 717740,
+        "sold": 680,
+        "venues": 4,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 47.26
+      },
+      {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "shows": 2,
+        "gross": 201540,
+        "sold": 322,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 42.2
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 201130,
+        "sold": 218,
+        "venues": 1,
         "fastfilling": 1,
         "housefull": 0,
-        "occupancy": 45.21
+        "occupancy": 64.12
       }
     ]
   },
   "Jana Nayagan | Tamil": {
-    "shows": 1,
-    "gross": 15120,
-    "sold": 84,
-    "totalSeats": 350,
-    "venues": 1,
-    "cities": 1,
-    "fastfilling": 0,
+    "shows": 5,
+    "gross": 70760,
+    "sold": 387,
+    "totalSeats": 1234,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 1,
     "housefull": 0,
-    "occupancy": 24,
+    "occupancy": 31.36,
     "details": [
       {
         "city": "Hosur",
         "state": "Tamil Nadu",
+        "shows": 4,
+        "gross": 65520,
+        "sold": 364,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 33.77
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
         "shows": 1,
-        "gross": 15120,
-        "sold": 84,
+        "gross": 5240,
+        "sold": 23,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 24
+        "occupancy": 14.74
       }
     ]
   },
