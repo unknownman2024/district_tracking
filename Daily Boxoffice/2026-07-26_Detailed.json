@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "lastUpdated": "01:10 AM, 26 July 2026",
+  "lastUpdated": "02:43 AM, 26 July 2026",
   "The Odyssey | English": [
     {
       "city": "Kochi",
@@ -26,7 +26,7 @@
       "sold": 220,
       "gross": 185750,
       "occupancy": "53.40%",
-      "minsLeft": 139
+      "minsLeft": 46
     },
     {
       "city": "Mumbai",
@@ -48,11 +48,11 @@
       "time": "03:10 AM",
       "audi": "IMAX",
       "totalSeats": 342,
-      "available": 251,
-      "sold": 91,
-      "gross": 164600,
-      "occupancy": "26.61%",
-      "minsLeft": 119
+      "available": 244,
+      "sold": 98,
+      "gross": 175600,
+      "occupancy": "28.65%",
+      "minsLeft": 26
     },
     {
       "city": "Mumbai",
@@ -61,11 +61,11 @@
       "time": "03:30 AM",
       "audi": "IMAX",
       "totalSeats": 497,
-      "available": 170,
-      "sold": 327,
-      "gross": 385800,
-      "occupancy": "65.79%",
-      "minsLeft": 139
+      "available": 162,
+      "sold": 335,
+      "gross": 396400,
+      "occupancy": "67.40%",
+      "minsLeft": 46
     },
     {
       "city": "Mumbai",
@@ -74,11 +74,37 @@
       "time": "03:10 AM",
       "audi": "SCREEN 1",
       "totalSeats": 370,
-      "available": 130,
-      "sold": 240,
-      "gross": 171170,
-      "occupancy": "64.86%",
-      "minsLeft": 119
+      "available": 114,
+      "sold": 256,
+      "gross": 182610,
+      "occupancy": "69.19%",
+      "minsLeft": 26
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "PVR Vegas, Dwarka, New Delhi",
+      "time": "06:00 AM",
+      "audi": "AUDI 03",
+      "totalSeats": 410,
+      "available": 169,
+      "sold": 241,
+      "gross": 189530,
+      "occupancy": "58.78%",
+      "minsLeft": 196
+    },
+    {
+      "city": "New Delhi",
+      "state": "Delhi",
+      "venue": "INOX COCA - COLA IMAX Paras, Nehru Place, Delhi",
+      "time": "06:00 AM",
+      "audi": "SCREEN 1",
+      "totalSeats": 353,
+      "available": 84,
+      "sold": 269,
+      "gross": 127580,
+      "occupancy": "76.20%",
+      "minsLeft": 196
     }
   ],
   "Evil Dead Burn | English": [
@@ -108,7 +134,7 @@
       "sold": 221,
       "gross": 39780,
       "occupancy": "60.22%",
-      "minsLeft": 184
+      "minsLeft": 91
     },
     {
       "city": "Hosur",
@@ -121,7 +147,33 @@
       "sold": 219,
       "gross": 39420,
       "occupancy": "61.17%",
-      "minsLeft": 169
+      "minsLeft": 76
+    },
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "time": "04:35 AM",
+      "audi": "SCREEN4",
+      "totalSeats": 204,
+      "available": 79,
+      "sold": 125,
+      "gross": 22500,
+      "occupancy": "61.27%",
+      "minsLeft": 111
+    },
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "time": "04:50 AM",
+      "audi": "SCREEN3",
+      "totalSeats": 203,
+      "available": 81,
+      "sold": 122,
+      "gross": 21960,
+      "occupancy": "60.10%",
+      "minsLeft": 126
     }
   ]
 }
