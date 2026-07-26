@@ -1,16 +1,16 @@
 {
   "date": "2026-07-27",
-  "lastUpdated": "03:56 AM, 27 July 2026",
+  "lastUpdated": "04:56 AM, 27 July 2026",
   "The Odyssey | English": {
-    "shows": 8,
-    "gross": 276830,
-    "sold": 318,
-    "totalSeats": 2398,
-    "venues": 8,
-    "cities": 6,
+    "shows": 21,
+    "gross": 572496,
+    "sold": 656,
+    "totalSeats": 4656,
+    "venues": 17,
+    "cities": 9,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 13.26,
+    "occupancy": 14.09,
     "details": [
       {
         "city": "Kochi",
@@ -26,13 +26,13 @@
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 3,
-        "gross": 67700,
-        "sold": 86,
-        "venues": 3,
+        "shows": 8,
+        "gross": 69870,
+        "sold": 91,
+        "venues": 6,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 8.33
+        "occupancy": 7.21
       },
       {
         "city": "Kolkata",
@@ -48,24 +48,24 @@
       {
         "city": "Navi Mumbai",
         "state": "Maharashtra",
-        "shows": 1,
-        "gross": 8550,
-        "sold": 9,
+        "shows": 2,
+        "gross": 12283,
+        "sold": 26,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 3.96
+        "occupancy": 5.6
       },
       {
         "city": "Thane",
         "state": "Maharashtra",
-        "shows": 1,
-        "gross": 18500,
-        "sold": 35,
+        "shows": 2,
+        "gross": 20150,
+        "sold": 50,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 10.94
+        "occupancy": 7.7
       },
       {
         "city": "Trivandrum",
@@ -77,19 +77,52 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 9.71
+      },
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 3,
+        "gross": 265600,
+        "sold": 235,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 25.13
+      },
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "shows": 1,
+        "gross": 16520,
+        "sold": 28,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 35
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 5993,
+        "sold": 38,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.48
       }
     ]
   },
   "Dhamaal 4 | Hindi": {
-    "shows": 3,
-    "gross": 380,
-    "sold": 2,
-    "totalSeats": 901,
-    "venues": 3,
+    "shows": 4,
+    "gross": 564,
+    "sold": 4,
+    "totalSeats": 1113,
+    "venues": 4,
     "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.22,
+    "occupancy": 0.36,
     "details": [
       {
         "city": "Ahmedabad",
@@ -105,6 +138,30 @@
       {
         "city": "Mumbai",
         "state": "Maharashtra",
+        "shows": 3,
+        "gross": 184,
+        "sold": 2,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.22
+      }
+    ]
+  },
+  "Cocktail 2 | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 33,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
         "shows": 2,
         "gross": 0,
         "sold": 0,
@@ -112,6 +169,157 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      }
+    ]
+  },
+  "Welcome To The Jungle | Hindi": {
+    "shows": 2,
+    "gross": 0,
+    "sold": 0,
+    "totalSeats": 48,
+    "venues": 2,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "Jana Nayagan | Tamil": {
+    "shows": 16,
+    "gross": 128622.4,
+    "sold": 704,
+    "totalSeats": 4236,
+    "venues": 16,
+    "cities": 5,
+    "fastfilling": 0,
+    "housefull": 1,
+    "occupancy": 16.62,
+    "details": [
+      {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "shows": 6,
+        "gross": 15550,
+        "sold": 59,
+        "venues": 6,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.67
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 7,
+        "gross": 3746,
+        "sold": 25,
+        "venues": 7,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 1.71
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2086,
+        "sold": 14,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 6.9
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "shows": 1,
+        "gross": 107240.4,
+        "sold": 606,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      }
+    ]
+  },
+  "The Odyssey | Hindi": {
+    "shows": 1,
+    "gross": 198,
+    "sold": 2,
+    "totalSeats": 399,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.5,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 198,
+        "sold": 2,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.5
+      }
+    ]
+  },
+  "Jan Neta | Hindi": {
+    "shows": 3,
+    "gross": 23983,
+    "sold": 117,
+    "totalSeats": 814,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 14.37,
+    "details": [
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 23089,
+        "sold": 111,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 17.59
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 894,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.28
       }
     ]
   }
