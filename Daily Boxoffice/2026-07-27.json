@@ -1,16 +1,16 @@
 {
   "date": "2026-07-27",
-  "lastUpdated": "02:55 AM, 27 July 2026",
+  "lastUpdated": "03:56 AM, 27 July 2026",
   "The Odyssey | English": {
-    "shows": 2,
-    "gross": 121900,
-    "sold": 110,
-    "totalSeats": 476,
-    "venues": 2,
-    "cities": 2,
+    "shows": 8,
+    "gross": 276830,
+    "sold": 318,
+    "totalSeats": 2398,
+    "venues": 8,
+    "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 23.11,
+    "occupancy": 13.26,
     "details": [
       {
         "city": "Kochi",
@@ -26,26 +26,70 @@
       {
         "city": "Mumbai",
         "state": "Maharashtra",
+        "shows": 3,
+        "gross": 67700,
+        "sold": 86,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.33
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
         "shows": 1,
-        "gross": 23900,
-        "sold": 36,
+        "gross": 55200,
+        "sold": 81,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 14.57
+        "occupancy": 32.53
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 8550,
+        "sold": 9,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.96
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 18500,
+        "sold": 35,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.94
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 28880,
+        "sold": 33,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.71
       }
     ]
   },
   "Dhamaal 4 | Hindi": {
-    "shows": 1,
+    "shows": 3,
     "gross": 380,
     "sold": 2,
-    "totalSeats": 200,
-    "venues": 1,
-    "cities": 1,
+    "totalSeats": 901,
+    "venues": 3,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 1,
+    "occupancy": 0.22,
     "details": [
       {
         "city": "Ahmedabad",
@@ -57,6 +101,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 1
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   }
