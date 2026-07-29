@@ -1,4 +1,531 @@
 {
   "date": "2026-07-30",
-  "lastUpdated": "01:22 AM, 30 July 2026"
+  "lastUpdated": "02:54 AM, 30 July 2026",
+  "Spider-Man: Brand New Day | Tamil": {
+    "shows": 6,
+    "gross": 158230,
+    "sold": 857,
+    "totalSeats": 2138,
+    "venues": 6,
+    "cities": 5,
+    "fastfilling": 2,
+    "housefull": 0,
+    "occupancy": 40.08,
+    "details": [
+      {
+        "city": "Kozhinjampara",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 14880,
+        "sold": 93,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 50.54
+      },
+      {
+        "city": "Alangulam",
+        "state": "Tamil Nadu",
+        "shows": 1,
+        "gross": 31600,
+        "sold": 158,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 47.59
+      },
+      {
+        "city": "Hosur",
+        "state": "Tamil Nadu",
+        "shows": 1,
+        "gross": 47300,
+        "sold": 215,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 60.06
+      },
+      {
+        "city": "Tirunelveli",
+        "state": "Tamil Nadu",
+        "shows": 1,
+        "gross": 21600,
+        "sold": 120,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 26.32
+      },
+      {
+        "city": "Tuticorin",
+        "state": "Tamil Nadu",
+        "shows": 2,
+        "gross": 42850,
+        "sold": 271,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 33.54
+      }
+    ]
+  },
+  "Spider-Man: Brand New Day | English": {
+    "shows": 61,
+    "gross": 3289750,
+    "sold": 7349,
+    "totalSeats": 15182,
+    "venues": 58,
+    "cities": 23,
+    "fastfilling": 30,
+    "housefull": 0,
+    "occupancy": 48.41,
+    "details": [
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 89400,
+        "sold": 192,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 40.34
+      },
+      {
+        "city": "Kozhikode",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 42060,
+        "sold": 249,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 24.83
+      },
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 2,
+        "gross": 137740,
+        "sold": 315,
+        "venues": 2,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 67.45
+      },
+      {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "shows": 4,
+        "gross": 227210,
+        "sold": 528,
+        "venues": 4,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 45.56
+      },
+      {
+        "city": "Goa",
+        "state": "Goa",
+        "shows": 2,
+        "gross": 140510,
+        "sold": 373,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 52.61
+      },
+      {
+        "city": "Guwahati",
+        "state": "Assam",
+        "shows": 3,
+        "gross": 94360,
+        "sold": 244,
+        "venues": 3,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 38.73
+      },
+      {
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 52490,
+        "sold": 141,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 58.02
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 4,
+        "gross": 285300,
+        "sold": 591,
+        "venues": 3,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 48.24
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 16,
+        "gross": 1007870,
+        "sold": 1852,
+        "venues": 16,
+        "fastfilling": 8,
+        "housefull": 0,
+        "occupancy": 52.41
+      },
+      {
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 74450,
+        "sold": 147,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 81.22
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 46520,
+        "sold": 122,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 60.4
+      },
+      {
+        "city": "Navi Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 50700,
+        "sold": 124,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 64.58
+      },
+      {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "shows": 2,
+        "gross": 169860,
+        "sold": 328,
+        "venues": 2,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 62.12
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 8,
+        "gross": 547810,
+        "sold": 1054,
+        "venues": 8,
+        "fastfilling": 4,
+        "housefull": 0,
+        "occupancy": 48.33
+      },
+      {
+        "city": "Surat",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 13950,
+        "sold": 39,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 25.49
+      },
+      {
+        "city": "Trivandrum",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 33650,
+        "sold": 89,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 83.18
+      },
+      {
+        "city": "Ulhasnagar",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 10440,
+        "sold": 36,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.19
+      },
+      {
+        "city": "Vadodara",
+        "state": "Gujarat",
+        "shows": 3,
+        "gross": 98180,
+        "sold": 286,
+        "venues": 3,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 48.23
+      },
+      {
+        "city": "Hosur",
+        "state": "Tamil Nadu",
+        "shows": 2,
+        "gross": 48430,
+        "sold": 224,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 42.5
+      },
+      {
+        "city": "Kochi",
+        "state": "Kerala",
+        "shows": 2,
+        "gross": 54060,
+        "sold": 215,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 71.43
+      },
+      {
+        "city": "Cuttack",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 31260,
+        "sold": 75,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 36.76
+      },
+      {
+        "city": "Vapi",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 25300,
+        "sold": 74,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 34.1
+      },
+      {
+        "city": "Alappuzha",
+        "state": "Kerala",
+        "shows": 1,
+        "gross": 8200,
+        "sold": 51,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 45.13
+      }
+    ]
+  },
+  "Srinivasa Mangapuram | Telugu": {
+    "shows": 1,
+    "gross": 4600,
+    "sold": 23,
+    "totalSeats": 505,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 4.55,
+    "details": [
+      {
+        "city": "Kadapa",
+        "state": "Andhra Pradesh",
+        "shows": 1,
+        "gross": 4600,
+        "sold": 23,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 4.55
+      }
+    ]
+  },
+  "Spider-Man: Brand New Day | Hindi": {
+    "shows": 15,
+    "gross": 522720,
+    "sold": 1481,
+    "totalSeats": 3765,
+    "venues": 15,
+    "cities": 11,
+    "fastfilling": 4,
+    "housefull": 1,
+    "occupancy": 39.34,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 3,
+        "gross": 140410,
+        "sold": 304,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 52.96
+      },
+      {
+        "city": "Bhilai",
+        "state": "Chhattisgarh",
+        "shows": 1,
+        "gross": 56470,
+        "sold": 169,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 60.14
+      },
+      {
+        "city": "Bilaspur (Chhattisgarh)",
+        "state": "Chhattisgarh",
+        "shows": 1,
+        "gross": 38370,
+        "sold": 107,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 56.32
+      },
+      {
+        "city": "Bokaro",
+        "state": "Jharkhand",
+        "shows": 1,
+        "gross": 26560,
+        "sold": 83,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 29.54
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 3,
+        "gross": 130010,
+        "sold": 373,
+        "venues": 3,
+        "fastfilling": 2,
+        "housefull": 0,
+        "occupancy": 44.89
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 15860,
+        "sold": 53,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 37.32
+      },
+      {
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "shows": 1,
+        "gross": 42480,
+        "sold": 130,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 45.3
+      },
+      {
+        "city": "Howrah",
+        "state": "West Bengal",
+        "shows": 1,
+        "gross": 49100,
+        "sold": 168,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 47.86
+      },
+      {
+        "city": "Nanded",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 4930,
+        "sold": 22,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 9.44
+      },
+      {
+        "city": "Nashik",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 12400,
+        "sold": 51,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 15.27
+      },
+      {
+        "city": "Thane",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 6130,
+        "sold": 21,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 8.05
+      }
+    ]
+  },
+  "The Odyssey | English": {
+    "shows": 3,
+    "gross": 106160,
+    "sold": 217,
+    "totalSeats": 925,
+    "venues": 3,
+    "cities": 2,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 23.46,
+    "details": [
+      {
+        "city": "Ahmedabad",
+        "state": "Gujarat",
+        "shows": 1,
+        "gross": 98080,
+        "sold": 197,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 65.45
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 8080,
+        "sold": 20,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.21
+      }
+    ]
+  }
 }
