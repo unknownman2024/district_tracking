@@ -138,10 +138,10 @@
       "time": "05:00 PM",
       "audi": "SCREEN 1",
       "totalSeats": 388,
-      "available": 388,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 385,
+      "sold": 3,
+      "gross": 1035,
+      "occupancy": "0.77%"
     },
     {
       "city": "Hyderabad",
@@ -285,6 +285,19 @@
       "sold": 55,
       "gross": 10450,
       "occupancy": "17.86%"
+    },
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "chain": "Grand Cinema",
+      "time": "03:15 PM",
+      "audi": "SCREEN2",
+      "totalSeats": 350,
+      "available": 358,
+      "sold": -8,
+      "gross": -1440,
+      "occupancy": "-2.29%"
     }
   ],
   "Srinivasa Mangapuram [2D | Telugu]": [
@@ -666,10 +679,10 @@
       "time": "06:45 PM",
       "audi": "KARTHIK CINEMAS LOTUS",
       "totalSeats": 618,
-      "available": 616,
-      "sold": 2,
-      "gross": 360,
-      "occupancy": "0.32%"
+      "available": 606,
+      "sold": 12,
+      "gross": 2160,
+      "occupancy": "1.94%"
     },
     {
       "city": "Kumbakonam",
@@ -691,11 +704,11 @@
       "chain": "Sree Murugan Cinema",
       "time": "09:45 PM",
       "audi": "THIRUMAGAL THEATRE",
-      "totalSeats": 1542,
+      "totalSeats": 514,
       "available": 502,
-      "sold": 1040,
-      "gross": 156000,
-      "occupancy": "67.44%"
+      "sold": 12,
+      "gross": 1800,
+      "occupancy": "2.33%"
     },
     {
       "city": "Tirupattur",
@@ -704,11 +717,11 @@
       "chain": "Sree Murugan Cinema",
       "time": "11:00 AM",
       "audi": "THIRUMAGAL THEATRE",
-      "totalSeats": 1542,
+      "totalSeats": 514,
       "available": 502,
-      "sold": 1040,
-      "gross": 156000,
-      "occupancy": "67.44%"
+      "sold": 12,
+      "gross": 1800,
+      "occupancy": "2.33%"
     },
     {
       "city": "Tirupattur",
@@ -954,7 +967,7 @@
     }
   ],
   "date": "2026-08-07",
-  "lastUpdated": "02:07 PM, 02 August 2026",
+  "lastUpdated": "04:21 PM, 02 August 2026",
   "Lenin [2D | Telugu]": [
     {
       "city": "Adoni",
@@ -1007,6 +1020,47 @@
       "sold": 30,
       "gross": 3150,
       "occupancy": "14.63%"
+    }
+  ],
+  "Spider-Man: Brand New Day [3D | Tamil]": [
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "chain": "Grand Cinema",
+      "time": "10:45 AM",
+      "audi": "SCREEN2",
+      "totalSeats": 350,
+      "available": 358,
+      "sold": -8,
+      "gross": -1440,
+      "occupancy": "-2.29%"
+    },
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "chain": "Grand Cinema",
+      "time": "07:05 PM",
+      "audi": "SCREEN2",
+      "totalSeats": 350,
+      "available": 358,
+      "sold": -8,
+      "gross": -1440,
+      "occupancy": "-2.29%"
+    },
+    {
+      "city": "Hosur",
+      "state": "Tamil Nadu",
+      "venue": "Grand Cinemas, Karnur Bus Stop, Hosur",
+      "chain": "Grand Cinema",
+      "time": "10:20 PM",
+      "audi": "SCREEN2",
+      "totalSeats": 350,
+      "available": 358,
+      "sold": -8,
+      "gross": -1440,
+      "occupancy": "-2.29%"
     }
   ]
 }
