@@ -351,15 +351,15 @@
     ]
   },
   "Awarapan 2 [2D | Hindi]": {
-    "shows": 4,
-    "gross": 78800,
-    "sold": 576,
-    "totalSeats": 1380,
-    "venues": 1,
-    "cities": 1,
+    "shows": 8,
+    "gross": 94050,
+    "sold": 637,
+    "totalSeats": 1892,
+    "venues": 2,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 41.74,
+    "occupancy": 33.67,
     "details": [
       {
         "city": "Gwalior",
@@ -372,6 +372,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 41.74
+      },
+      {
+        "city": "Veraval",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 4,
+        "gross": 15250,
+        "sold": 61,
+        "totalSeats": 512,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.91
       }
     ],
     "Chain_details": [
@@ -385,6 +397,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 41.74
+      },
+      {
+        "chain": "SACHI ENTERTAINMENT",
+        "venues": 1,
+        "shows": 4,
+        "gross": 15250,
+        "sold": 61,
+        "totalSeats": 512,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.91
       }
     ]
   },
@@ -428,26 +451,26 @@
   },
   "Jana Nayagan [2D | Tamil]": {
     "shows": 4,
-    "gross": 1440,
-    "sold": 8,
+    "gross": 1890,
+    "sold": 11,
     "totalSeats": 2472,
     "venues": 1,
     "cities": 1,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0.32,
+    "occupancy": 0.44,
     "details": [
       {
         "city": "Kumbakonam",
         "state": "Tamil Nadu",
         "venues": 1,
         "shows": 4,
-        "gross": 1440,
-        "sold": 8,
+        "gross": 1890,
+        "sold": 11,
         "totalSeats": 2472,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.32
+        "occupancy": 0.44
       }
     ],
     "Chain_details": [
@@ -455,15 +478,53 @@
         "chain": "TicketNew",
         "venues": 1,
         "shows": 4,
-        "gross": 1440,
-        "sold": 8,
+        "gross": 1890,
+        "sold": 11,
         "totalSeats": 2472,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0.32
+        "occupancy": 0.44
+      }
+    ]
+  },
+  "Batwara 1947 [2D | Hindi]": {
+    "shows": 4,
+    "gross": 15000,
+    "sold": 60,
+    "totalSeats": 512,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 11.72,
+    "details": [
+      {
+        "city": "Veraval",
+        "state": "Gujarat",
+        "venues": 1,
+        "shows": 4,
+        "gross": 15000,
+        "sold": 60,
+        "totalSeats": 512,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.72
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "SACHI ENTERTAINMENT",
+        "venues": 1,
+        "shows": 4,
+        "gross": 15000,
+        "sold": 60,
+        "totalSeats": 512,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 11.72
       }
     ]
   },
   "date": "2026-08-14",
-  "lastUpdated": "03:27 PM, 09 August 2026"
+  "lastUpdated": "06:46 PM, 09 August 2026"
 }
