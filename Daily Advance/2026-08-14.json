@@ -1,17 +1,41 @@
 {
   "120 Bahadur [2D | Hindi]": {
-    "shows": 1,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 94,
-    "venues": 1,
-    "cities": 1,
+    "shows": 3,
+    "gross": 7760,
+    "sold": 97,
+    "totalSeats": 285,
+    "venues": 3,
+    "cities": 3,
     "fastfilling": 0,
-    "housefull": 0,
-    "occupancy": 0,
+    "housefull": 1,
+    "occupancy": 34.04,
     "details": [
       {
         "city": "Chandrapur",
+        "state": "Maharashtra",
+        "venues": 1,
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 94,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Seoni",
+        "state": "Madhya Pradesh",
+        "venues": 1,
+        "shows": 1,
+        "gross": 7760,
+        "sold": 97,
+        "totalSeats": 97,
+        "fastfilling": 0,
+        "housefull": 1,
+        "occupancy": 100
+      },
+      {
+        "city": "Bhandara",
         "state": "Maharashtra",
         "venues": 1,
         "shows": 1,
@@ -26,14 +50,14 @@
     "Chain_details": [
       {
         "chain": "Chhotu Maharaj",
-        "venues": 1,
-        "shows": 1,
-        "gross": 0,
-        "sold": 0,
-        "totalSeats": 94,
+        "venues": 3,
+        "shows": 3,
+        "gross": 7760,
+        "sold": 97,
+        "totalSeats": 285,
         "fastfilling": 0,
-        "housefull": 0,
-        "occupancy": 0
+        "housefull": 1,
+        "occupancy": 34.04
       }
     ]
   },
@@ -402,6 +426,44 @@
       }
     ]
   },
+  "Jana Nayagan [2D | Tamil]": {
+    "shows": 4,
+    "gross": 1440,
+    "sold": 8,
+    "totalSeats": 2472,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 0.32,
+    "details": [
+      {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 1440,
+        "sold": 8,
+        "totalSeats": 2472,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.32
+      }
+    ],
+    "Chain_details": [
+      {
+        "chain": "TicketNew",
+        "venues": 1,
+        "shows": 4,
+        "gross": 1440,
+        "sold": 8,
+        "totalSeats": 2472,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0.32
+      }
+    ]
+  },
   "date": "2026-08-14",
-  "lastUpdated": "12:47 PM, 09 August 2026"
+  "lastUpdated": "03:27 PM, 09 August 2026"
 }
