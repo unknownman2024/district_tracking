@@ -1,27 +1,121 @@
 {
   "date": "2026-08-10",
-  "lastUpdated": "02:28 AM, 10 August 2026",
+  "lastUpdated": "03:25 AM, 10 August 2026",
   "Spider-Man: Brand New Day | English": {
-    "shows": 1,
-    "gross": 0,
-    "sold": 0,
-    "totalSeats": 200,
-    "venues": 1,
-    "cities": 1,
+    "shows": 3,
+    "gross": 17020,
+    "sold": 53,
+    "totalSeats": 879,
+    "venues": 3,
+    "cities": 2,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 0,
+    "occupancy": 6.03,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
+        "shows": 2,
+        "gross": 16580,
+        "sold": 51,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 10.67
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
         "shows": 1,
-        "gross": 0,
-        "sold": 0,
+        "gross": 440,
+        "sold": 2,
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 0
+        "occupancy": 0.5
+      }
+    ]
+  },
+  "The Great Punjab Robbery | Punjabi": {
+    "shows": 1,
+    "gross": 9200,
+    "sold": 19,
+    "totalSeats": 249,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.63,
+    "details": [
+      {
+        "city": "Moga",
+        "state": "Punjab",
+        "shows": 1,
+        "gross": 9200,
+        "sold": 19,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 7.63
+      }
+    ]
+  },
+  "Ohh My Dog | Hindi": {
+    "shows": 2,
+    "gross": 9600,
+    "sold": 192,
+    "totalSeats": 400,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 1,
+    "housefull": 0,
+    "occupancy": 48,
+    "details": [
+      {
+        "city": "Razole",
+        "state": "Andhra Pradesh",
+        "shows": 2,
+        "gross": 9600,
+        "sold": 192,
+        "venues": 1,
+        "fastfilling": 1,
+        "housefull": 0,
+        "occupancy": 48
+      }
+    ]
+  },
+  "The Odyssey | English": {
+    "shows": 2,
+    "gross": 14270,
+    "sold": 39,
+    "totalSeats": 548,
+    "venues": 2,
+    "cities": 2,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 7.12,
+    "details": [
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 1,
+        "gross": 11850,
+        "sold": 32,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 12.85
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 2420,
+        "sold": 7,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.34
       }
     ]
   }
