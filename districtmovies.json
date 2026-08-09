@@ -34,17 +34,6 @@
     "cityCount": 21
   },
   {
-    "movie": "Hanuman Ansh",
-    "language": "Hindi",
-    "movieCode": "mkm8o9qs7et",
-    "id": 225612,
-    "runtime": 134,
-    "rating": "U",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Hanuman-Ansh-3199a900-6975-11f1-a51b-91d242246b61.jpg",
-    "city": "Ahmedabad, Bangalore, Guntur, Bhopal, Chandigarh, Delhi/NCR, Hyderabad, Jaipur, Kolkata, Kota, Mangaluru, Mumbai, Patna, Surat, Nashik, Chennai, Nagpur, Goa, Visakhapatnam, Bhubaneswar, Gandhinagar",
-    "cityCount": 21
-  },
-  {
     "movie": "Ohh My Dog",
     "language": "Hindi",
     "movieCode": "yp40akxs3bu",
@@ -54,6 +43,17 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/2_Poster%20(7)-7de88560-8b49-11f1-a0bf-b3d1a88b4bbe.jpg",
     "city": "Ahmedabad, Bangalore, Amritsar, Bhopal, Chandigarh, Delhi/NCR, Hyderabad, Jaipur, Kochi, Kolkata, Kota, Mumbai, Patna, Surat, Nashik, Chennai, Nagpur, Goa, Visakhapatnam, Bhubaneswar, Gandhinagar",
     "cityCount": 21
+  },
+  {
+    "movie": "Hanuman Ansh",
+    "language": "Hindi",
+    "movieCode": "mkm8o9qs7et",
+    "id": 225612,
+    "runtime": 134,
+    "rating": "U",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Hanuman-Ansh-3199a900-6975-11f1-a51b-91d242246b61.jpg",
+    "city": "Ahmedabad, Bangalore, Guntur, Bhopal, Chandigarh, Delhi/NCR, Hyderabad, Jaipur, Kolkata, Kota, Mangaluru, Mumbai, Patna, Surat, Nashik, Chennai, Nagpur, Visakhapatnam, Bhubaneswar, Gandhinagar",
+    "cityCount": 20
   },
   {
     "movie": "The Odyssey",
@@ -221,17 +221,6 @@
     "cityCount": 14
   },
   {
-    "movie": "G.D.N",
-    "language": "Tamil",
-    "movieCode": "89MyO88efI",
-    "id": 222898,
-    "runtime": 134,
-    "rating": "UA7+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Poster-6ac60d10-55d7-11f1-9206-63f34336a044.jpg",
-    "city": "Ahmedabad, Bangalore, Bhopal, Chandigarh, Coimbatore, Delhi/NCR, Jaipur, Kochi, Mangaluru, Mumbai, Surat, Chennai, Madurai, Gandhinagar",
-    "cityCount": 14
-  },
-  {
     "movie": "Ikkis",
     "language": "Indian Sign Language",
     "movieCode": "wdxDFef~_k",
@@ -240,6 +229,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/ikkis-a6466da0-d4e8-11f0-a7a6-3bbc1cc6b738-bcdc2b10-0254-11f1-a39a-4fabd59af716.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Delhi/NCR, Gandhinagar, Guntur, Hyderabad, Kochi, Kolkata, Mumbai, Nagpur, Nashik, Surat, Visakhapatnam",
+    "cityCount": 14
+  },
+  {
+    "movie": "Spider-Man: Brand New Day",
+    "language": "English",
+    "movieCode": "RRFdpndyPD",
+    "id": 194537,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/image-(29)-598ac6b0-6a24-11f1-8579-1756095b1930.jpg",
+    "city": "Bangalore, Bhopal, Delhi/NCR, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Chennai, Nagpur, Goa, Visakhapatnam, Bhubaneswar, Madurai",
     "cityCount": 14
   },
   {
@@ -276,28 +276,6 @@
     "cityCount": 13
   },
   {
-    "movie": "Jan Neta",
-    "language": "Hindi",
-    "movieCode": "VerR0SuFaj",
-    "id": 212360,
-    "runtime": 134,
-    "rating": "A",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/3_Poster%20(2)-a1e0d180-803a-11f1-bbd0-b599e2fe4a9c.jpg",
-    "city": "Ahmedabad, Bangalore, Bhopal, Delhi/NCR, Hyderabad, Jaipur, Kolkata, Mumbai, Patna, Surat, Goa, Bhubaneswar, Gandhinagar",
-    "cityCount": 13
-  },
-  {
-    "movie": "Spider-Man: Brand New Day",
-    "language": "English",
-    "movieCode": "RRFdpndyPD",
-    "id": 194537,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/image-(29)-598ac6b0-6a24-11f1-8579-1756095b1930.jpg",
-    "city": "Bangalore, Delhi/NCR, Hyderabad, Kochi, Kolkata, Mangaluru, Mumbai, Chennai, Nagpur, Goa, Visakhapatnam, Bhubaneswar, Madurai",
-    "cityCount": 13
-  },
-  {
     "movie": "Spider-Man: Homecoming",
     "language": "English",
     "movieCode": "k3qJ3c5YnMb3",
@@ -328,6 +306,28 @@
     "rating": "U",
     "poster": "https://b.zmtcdn.com/data/edition_assets/17831834246797392.jpg",
     "city": "Ahmedabad, Bangalore, Bengaluru, Bhubaneswar, Delhi/NCR, Gandhinagar, Goa, Jaipur, Kochi, Kolkata, Mumbai, Patna",
+    "cityCount": 12
+  },
+  {
+    "movie": "G.D.N",
+    "language": "Tamil",
+    "movieCode": "89MyO88efI",
+    "id": 222898,
+    "runtime": 134,
+    "rating": "UA7+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Poster-6ac60d10-55d7-11f1-9206-63f34336a044.jpg",
+    "city": "Ahmedabad, Bangalore, Coimbatore, Delhi/NCR, Jaipur, Kochi, Mangaluru, Mumbai, Surat, Chennai, Madurai, Gandhinagar",
+    "cityCount": 12
+  },
+  {
+    "movie": "Jan Neta",
+    "language": "Hindi",
+    "movieCode": "VerR0SuFaj",
+    "id": 212360,
+    "runtime": 134,
+    "rating": "A",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/3_Poster%20(2)-a1e0d180-803a-11f1-bbd0-b599e2fe4a9c.jpg",
+    "city": "Ahmedabad, Bangalore, Delhi/NCR, Hyderabad, Jaipur, Kolkata, Mumbai, Patna, Surat, Goa, Bhubaneswar, Gandhinagar",
     "cityCount": 12
   },
   {
@@ -430,17 +430,6 @@
     "cityCount": 10
   },
   {
-    "movie": "Spider-Man: Brand New Day",
-    "language": "Hindi",
-    "movieCode": "_rAh_Ttvat",
-    "id": 194537,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/image-(29)-598ac6b0-6a24-11f1-8579-1756095b1930.jpg",
-    "city": "Ahmedabad, Amritsar, Bhopal, Chandigarh, Jaipur, Kota, Patna, Surat, Nashik, Gandhinagar",
-    "cityCount": 10
-  },
-  {
     "movie": "TATA IPL Finals 2026",
     "language": "Hindi",
     "movieCode": "DmCdEKsVX~",
@@ -460,6 +449,17 @@
     "rating": "UA7+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/P%20Maharani-c27600a0-5732-11f0-b03a-f9f12779d145.jpg",
     "city": "Ahmedabad, Chandigarh, Delhi/NCR, Gandhinagar, Jaipur, Mumbai, Nagpur, Nashik, Surat",
+    "cityCount": 9
+  },
+  {
+    "movie": "Spider-Man: Brand New Day",
+    "language": "Hindi",
+    "movieCode": "_rAh_Ttvat",
+    "id": 194537,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/image-(29)-598ac6b0-6a24-11f1-8579-1756095b1930.jpg",
+    "city": "Ahmedabad, Amritsar, Chandigarh, Jaipur, Kota, Patna, Surat, Nashik, Gandhinagar",
     "cityCount": 9
   },
   {
@@ -846,17 +846,6 @@
     "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-e9861e80-79f7-11f1-92c0-3fe6bd48cdb7.jpg",
     "city": "Bangalore, Coimbatore, Hyderabad, Chennai, Madurai",
     "cityCount": 5
-  },
-  {
-    "movie": "Amma Naku aa Abbayi Kavali",
-    "language": "Telugu",
-    "movieCode": "7ru22gnn1lg",
-    "id": 229398,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-0e4d95f0-89ce-11f1-832b-cf4d5d01b943.jpg",
-    "city": "Bangalore, Guntur, Hyderabad, Visakhapatnam",
-    "cityCount": 4
   },
   {
     "movie": "Ishqnama",
@@ -15529,17 +15518,6 @@
     "cityCount": 4
   },
   {
-    "movie": "120 Bahadur",
-    "language": "Indian Sign Language",
-    "movieCode": "h8nsmiygmmx",
-    "id": 177733,
-    "runtime": 134,
-    "rating": "UA13+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/120-Bahadur_Poster-76112130-9d1a-11f0-add8-51fdebe7f173.jpg",
-    "city": "Ahmedabad, Surat, Gandhinagar",
-    "cityCount": 3
-  },
-  {
     "movie": "28 Years Later: The Bone Temple",
     "language": "Hindi",
     "movieCode": "H9ltTOB9GC",
@@ -15592,6 +15570,17 @@
     "rating": "A",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Afterburn_1_Poster-503d5690-993c-11f0-afd7-1529129546b3.jpg",
     "city": "Bangalore, Bengaluru, Delhi/NCR",
+    "cityCount": 3
+  },
+  {
+    "movie": "Amma Naku aa Abbayi Kavali",
+    "language": "Telugu",
+    "movieCode": "7ru22gnn1lg",
+    "id": 229398,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster-0e4d95f0-89ce-11f1-832b-cf4d5d01b943.jpg",
+    "city": "Bangalore, Guntur, Hyderabad",
     "cityCount": 3
   },
   {
@@ -16035,17 +16024,6 @@
     "cityCount": 3
   },
   {
-    "movie": "Karavali",
-    "language": "Kannada",
-    "movieCode": "cgFQfs8w0R",
-    "id": 186838,
-    "runtime": 134,
-    "rating": "UA16+",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/Karavali--d5880240-73a3-11f1-a913-31ae2954aa08.jpg",
-    "city": "Bangalore, Mangaluru, Mumbai",
-    "cityCount": 3
-  },
-  {
     "movie": "Karma Nu Rahasyam",
     "language": "Gujarati",
     "movieCode": "Wd8SZXXEKo",
@@ -16153,17 +16131,6 @@
     "rating": "UA16+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Masthishka-Maranam_Poster-78254540-0b25-11f1-a07e-23c6418916e6.jpg",
     "city": "Bangalore, Bengaluru, Kochi",
-    "cityCount": 3
-  },
-  {
-    "movie": "Mein To Palavade Bandhi Preet",
-    "language": "Gujarati",
-    "movieCode": "samqh43pydw",
-    "id": 228164,
-    "runtime": 134,
-    "rating": "TBA",
-    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(45)-5991c150-7eb9-11f1-a528-014a9cae0eca.jpg",
-    "city": "Ahmedabad, Surat, Gandhinagar",
     "cityCount": 3
   },
   {
@@ -16530,6 +16497,17 @@
     "cityCount": 2
   },
   {
+    "movie": "120 Bahadur",
+    "language": "Indian Sign Language",
+    "movieCode": "h8nsmiygmmx",
+    "id": 177733,
+    "runtime": 134,
+    "rating": "UA13+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/120-Bahadur_Poster-76112130-9d1a-11f0-add8-51fdebe7f173.jpg",
+    "city": "Ahmedabad, Gandhinagar",
+    "cityCount": 2
+  },
+  {
     "movie": "28 Years Later",
     "language": "Hindi",
     "movieCode": "Je8GmPakFp",
@@ -16813,6 +16791,17 @@
     "rating": "U",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Kaano-poster-72d0d160-7923-11f1-abda-6f72461935f1.jpg",
     "city": "Ahmedabad, Gandhinagar",
+    "cityCount": 2
+  },
+  {
+    "movie": "Karavali",
+    "language": "Kannada",
+    "movieCode": "cgFQfs8w0R",
+    "id": 186838,
+    "runtime": 134,
+    "rating": "UA16+",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/Karavali--d5880240-73a3-11f1-a913-31ae2954aa08.jpg",
+    "city": "Bangalore, Mangaluru",
     "cityCount": 2
   },
   {
@@ -20817,6 +20806,17 @@
     "rating": "UA13+",
     "poster": "https://cdn.district.in/movies-assets/images/cinema/Mehermunda-poster-2884a150-4ed4-11f1-9cd6-3b1f3a517e9b.jpg",
     "city": "Bhubaneswar",
+    "cityCount": 1
+  },
+  {
+    "movie": "Mein To Palavade Bandhi Preet",
+    "language": "Gujarati",
+    "movieCode": "samqh43pydw",
+    "id": 228164,
+    "runtime": 134,
+    "rating": "TBA",
+    "poster": "https://cdn.district.in/movies-assets/images/cinema/_Poster%20(45)-5991c150-7eb9-11f1-a528-014a9cae0eca.jpg",
+    "city": "Surat",
     "cityCount": 1
   },
   {
