@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "lastUpdated": "03:35 AM, 11 August 2026",
+  "lastUpdated": "04:33 AM, 11 August 2026",
   "The Odyssey | English": {
     "shows": 1,
     "gross": 14650,
@@ -26,29 +26,73 @@
     ]
   },
   "Spider-Man: Brand New Day | English": {
-    "shows": 2,
-    "gross": 11097,
-    "sold": 33,
-    "totalSeats": 679,
-    "venues": 2,
-    "cities": 2,
+    "shows": 14,
+    "gross": 68907,
+    "sold": 248,
+    "totalSeats": 3272,
+    "venues": 11,
+    "cities": 6,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 4.86,
+    "occupancy": 7.58,
     "details": [
       {
         "city": "Mumbai",
         "state": "Maharashtra",
-        "shows": 1,
-        "gross": 9963,
-        "sold": 27,
-        "venues": 1,
+        "shows": 7,
+        "gross": 59549,
+        "sold": 201,
+        "venues": 4,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 9.71
+        "occupancy": 13.36
       },
       {
         "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 3,
+        "gross": 5745,
+        "sold": 30,
+        "venues": 3,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.95
+      },
+      {
+        "city": "Goa",
+        "state": "Goa",
+        "shows": 1,
+        "gross": 945,
+        "sold": 5,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.38
+      },
+      {
+        "city": "Kolhapur",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "shows": 1,
+        "gross": 1534,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 3.02
+      },
+      {
+        "city": "Nashik",
         "state": "Maharashtra",
         "shows": 1,
         "gross": 1134,
@@ -56,7 +100,88 @@
         "venues": 1,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 1.5
+        "occupancy": 3.24
+      }
+    ]
+  },
+  "Spider-Man: Brand New Day | Hindi": {
+    "shows": 6,
+    "gross": 3969,
+    "sold": 21,
+    "totalSeats": 1651,
+    "venues": 6,
+    "cities": 4,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 1.27,
+    "details": [
+      {
+        "city": "Bhilwara",
+        "state": "Rajasthan",
+        "shows": 1,
+        "gross": 0,
+        "sold": 0,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Indore",
+        "state": "Madhya Pradesh",
+        "shows": 1,
+        "gross": 1134,
+        "sold": 6,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.06
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 0,
+        "sold": 0,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 2,
+        "gross": 2835,
+        "sold": 15,
+        "venues": 2,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.75
+      }
+    ]
+  },
+  "Dookudu | Telugu": {
+    "shows": 1,
+    "gross": 525,
+    "sold": 5,
+    "totalSeats": 170,
+    "venues": 1,
+    "cities": 1,
+    "fastfilling": 0,
+    "housefull": 0,
+    "occupancy": 2.94,
+    "details": [
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "shows": 1,
+        "gross": 525,
+        "sold": 5,
+        "venues": 1,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 2.94
       }
     ]
   }
