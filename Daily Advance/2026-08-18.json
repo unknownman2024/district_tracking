@@ -1,14 +1,14 @@
 {
   "Vishwanath and Sons [2D | Tamil]": {
-    "shows": 163,
+    "shows": 167,
     "gross": 1310287.02,
     "sold": 9234,
-    "totalSeats": 71814,
-    "venues": 35,
-    "cities": 26,
+    "totalSeats": 73118,
+    "venues": 36,
+    "cities": 27,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 12.86,
+    "occupancy": 12.63,
     "details": [
       {
         "city": "Kollengode",
@@ -321,6 +321,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 0
+      },
+      {
+        "city": "Kalakad",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 1304,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -392,14 +404,14 @@
       },
       {
         "chain": "TicketNew",
-        "venues": 13,
-        "shows": 52,
+        "venues": 14,
+        "shows": 56,
         "gross": 386040,
         "sold": 2672,
-        "totalSeats": 22392,
+        "totalSeats": 23696,
         "fastfilling": 0,
         "housefull": 0,
-        "occupancy": 11.93
+        "occupancy": 11.28
       },
       {
         "chain": "PVR",
@@ -5546,15 +5558,15 @@
     ]
   },
   "Magudam [2D | Tamil]": {
-    "shows": 5,
+    "shows": 9,
     "gross": 47097.04,
     "sold": 485,
-    "totalSeats": 3173,
-    "venues": 2,
-    "cities": 2,
+    "totalSeats": 3921,
+    "venues": 3,
+    "cities": 3,
     "fastfilling": 0,
     "housefull": 0,
-    "occupancy": 15.29,
+    "occupancy": 12.37,
     "details": [
       {
         "city": "Chennai",
@@ -5579,6 +5591,18 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 13.86
+      },
+      {
+        "city": "Surandai",
+        "state": "Tamil Nadu",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 748,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ],
     "Chain_details": [
@@ -5603,6 +5627,17 @@
         "fastfilling": 0,
         "housefull": 0,
         "occupancy": 13.86
+      },
+      {
+        "chain": "TicketNew",
+        "venues": 1,
+        "shows": 4,
+        "gross": 0,
+        "sold": 0,
+        "totalSeats": 748,
+        "fastfilling": 0,
+        "housefull": 0,
+        "occupancy": 0
       }
     ]
   },
@@ -5977,5 +6012,5 @@
     ]
   },
   "date": "2026-08-18",
-  "lastUpdated": "12:52 AM, 13 August 2026"
+  "lastUpdated": "03:34 AM, 13 August 2026"
 }
