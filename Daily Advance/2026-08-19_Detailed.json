@@ -320,10 +320,10 @@
       "time": "07:30 PM",
       "audi": "SCREEN 8",
       "totalSeats": 147,
-      "available": 147,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 145,
+      "sold": 2,
+      "gross": 108.7,
+      "occupancy": "1.36%"
     },
     {
       "city": "Chennai",
@@ -398,10 +398,10 @@
       "time": "09:00 AM",
       "audi": "SCREEN 1",
       "totalSeats": 510,
-      "available": 447,
-      "sold": 63,
-      "gross": 3812.4,
-      "occupancy": "12.35%"
+      "available": 427,
+      "sold": 83,
+      "gross": 7488.400000000001,
+      "occupancy": "16.27%"
     },
     {
       "city": "Chennai",
@@ -424,10 +424,10 @@
       "time": "11:15 PM",
       "audi": "SCREEN 1",
       "totalSeats": 510,
-      "available": 450,
-      "sold": 60,
-      "gross": 3261,
-      "occupancy": "11.76%"
+      "available": 430,
+      "sold": 80,
+      "gross": 6937,
+      "occupancy": "15.69%"
     },
     {
       "city": "Alangayam",
@@ -1996,11 +1996,11 @@
       "chain": "PVR",
       "time": "03:55 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 296,
+      "totalSeats": 316,
       "available": 272,
-      "sold": 24,
-      "gross": 1304.4,
-      "occupancy": "8.11%"
+      "sold": 44,
+      "gross": 4980.4,
+      "occupancy": "13.92%"
     },
     {
       "city": "Coimbatore",
@@ -2061,11 +2061,11 @@
       "chain": "PVR",
       "time": "09:20 AM",
       "audi": "SCREEN 9",
-      "totalSeats": 270,
+      "totalSeats": 289,
       "available": 250,
-      "sold": 20,
-      "gross": 1087,
-      "occupancy": "7.41%"
+      "sold": 39,
+      "gross": 4579.200000000001,
+      "occupancy": "13.49%"
     },
     {
       "city": "Coimbatore",
@@ -2074,11 +2074,11 @@
       "chain": "PVR",
       "time": "03:30 PM",
       "audi": "SCREEN 8",
-      "totalSeats": 266,
+      "totalSeats": 286,
       "available": 244,
-      "sold": 22,
-      "gross": 1195.7,
-      "occupancy": "8.27%"
+      "sold": 42,
+      "gross": 5907.3,
+      "occupancy": "14.69%"
     },
     {
       "city": "Coimbatore",
@@ -2087,11 +2087,11 @@
       "chain": "PVR",
       "time": "10:40 PM",
       "audi": "SCREEN 8",
-      "totalSeats": 266,
+      "totalSeats": 286,
       "available": 244,
-      "sold": 22,
-      "gross": 1195.7,
-      "occupancy": "8.27%"
+      "sold": 42,
+      "gross": 5648.400000000001,
+      "occupancy": "14.69%"
     },
     {
       "city": "Coimbatore",
@@ -2100,11 +2100,11 @@
       "chain": "PVR",
       "time": "12:25 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 296,
+      "totalSeats": 316,
       "available": 272,
-      "sold": 24,
-      "gross": 1304.4,
-      "occupancy": "8.11%"
+      "sold": 44,
+      "gross": 4980.4,
+      "occupancy": "13.92%"
     },
     {
       "city": "Coimbatore",
@@ -2113,11 +2113,11 @@
       "chain": "PVR",
       "time": "07:25 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 296,
+      "totalSeats": 316,
       "available": 272,
-      "sold": 24,
-      "gross": 1304.4,
-      "occupancy": "8.11%"
+      "sold": 44,
+      "gross": 4980.4,
+      "occupancy": "13.92%"
     },
     {
       "city": "Coimbatore",
@@ -2126,11 +2126,11 @@
       "chain": "PVR",
       "time": "10:55 PM",
       "audi": "SCREEN 3",
-      "totalSeats": 296,
+      "totalSeats": 316,
       "available": 272,
-      "sold": 24,
-      "gross": 1304.4,
-      "occupancy": "8.11%"
+      "sold": 44,
+      "gross": 4980.4,
+      "occupancy": "13.92%"
     },
     {
       "city": "Coimbatore",
@@ -16842,6 +16842,45 @@
       "sold": 312,
       "gross": 41800,
       "occupancy": "76.85%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "05:20 PM",
+      "audi": "AUDI 2",
+      "totalSeats": 205,
+      "available": 205,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "02:40 PM",
+      "audi": "AUDI 2",
+      "totalSeats": 205,
+      "available": 205,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "10:35 PM",
+      "audi": "AUDI 2",
+      "totalSeats": 205,
+      "available": 205,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Awarapan 2 [2D | Hindi]": [
@@ -22486,6 +22525,19 @@
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "08:00 PM",
+      "audi": "AUDI 2",
+      "totalSeats": 205,
+      "available": 205,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
     }
   ],
   "Maya Ke Jadu Chalge [2D | Chhattisgarhi]": [
@@ -22874,10 +22926,10 @@
       "time": "07:45 PM",
       "audi": "SCREEN 3",
       "totalSeats": 342,
-      "available": 267,
-      "sold": 75,
-      "gross": 9210,
-      "occupancy": "21.93%"
+      "available": 265,
+      "sold": 77,
+      "gross": 9576,
+      "occupancy": "22.51%"
     },
     {
       "city": "Chennai",
@@ -22951,11 +23003,11 @@
       "chain": "PVR",
       "time": "12:50 PM",
       "audi": "SCREEN 9",
-      "totalSeats": 270,
+      "totalSeats": 289,
       "available": 250,
-      "sold": 20,
-      "gross": 1087,
-      "occupancy": "7.41%"
+      "sold": 39,
+      "gross": 4579.200000000001,
+      "occupancy": "13.49%"
     },
     {
       "city": "Coimbatore",
@@ -22977,11 +23029,11 @@
       "chain": "PVR",
       "time": "07:20 PM",
       "audi": "SCREEN 9",
-      "totalSeats": 270,
+      "totalSeats": 289,
       "available": 250,
-      "sold": 20,
-      "gross": 1087,
-      "occupancy": "7.41%"
+      "sold": 39,
+      "gross": 4579.200000000001,
+      "occupancy": "13.49%"
     },
     {
       "city": "Coimbatore",
@@ -22990,11 +23042,11 @@
       "chain": "PVR",
       "time": "10:30 PM",
       "audi": "SCREEN 9",
-      "totalSeats": 270,
+      "totalSeats": 289,
       "available": 250,
-      "sold": 20,
-      "gross": 1087,
-      "occupancy": "7.41%"
+      "sold": 39,
+      "gross": 4579.200000000001,
+      "occupancy": "13.49%"
     },
     {
       "city": "Dharmapuri",
@@ -30543,10 +30595,10 @@
       "time": "09:30 AM",
       "audi": "AUDI 3",
       "totalSeats": 147,
-      "available": 147,
-      "sold": 0,
-      "gross": 0,
-      "occupancy": "0.00%"
+      "available": 137,
+      "sold": 10,
+      "gross": 3000,
+      "occupancy": "6.80%"
     },
     {
       "city": "Ludhiana",
@@ -30609,6 +30661,58 @@
       "audi": "AUDI 2",
       "totalSeats": 139,
       "available": 139,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "10:00 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "12:45 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "06:55 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 147,
+      "available": 147,
+      "sold": 0,
+      "gross": 0,
+      "occupancy": "0.00%"
+    },
+    {
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "venue": "Nirmal Cineplex, Daba Road, Ludhiana",
+      "chain": "Nirmal Palace",
+      "time": "03:50 PM",
+      "audi": "AUDI 3",
+      "totalSeats": 147,
+      "available": 147,
       "sold": 0,
       "gross": 0,
       "occupancy": "0.00%"
@@ -31707,5 +31811,5 @@
     }
   ],
   "date": "2026-08-19",
-  "lastUpdated": "01:06 AM, 14 August 2026"
+  "lastUpdated": "03:39 AM, 14 August 2026"
 }
