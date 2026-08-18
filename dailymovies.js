@@ -3,7 +3,11 @@ const fetch = require("node-fetch");
 
 const OUTPUT_FILE = "districtmovies.json";
 const BACKUP_FILE = `backup_districtmovies_${Date.now()}.json`;
-const API_URL = "https://paytmmovies.text2024mail.workers.dev";
+
+// Firecrawl configuration (use the provided token)
+const FIRECRAWL_URL = "https://api.firecrawl.dev/v2/scrape";
+const FIRECRAWL_TOKEN = "fc-51a30586f6b44777a717092ff6eea2a4";
+const TARGET_URL = "https://paytmmovies.text2024mail.workers.dev/";
 
 // Parse city string into unique sorted array
 function parseCities(cityString) {
@@ -81,12 +85,66 @@ function sortMovies(movies) {
   });
 }
 
+/**
+ * Fetch data using Firecrawl as a proxy.
+ * Firecrawl returns the page content as markdown. We expect the target URL
+ * to return plain JSON, so the markdown will either be the raw JSON string
+ * or a code block containing it. This function extracts and parses the JSON.
+ */
+async function fetchDataFromFirecrawl() {
+  const options = {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${FIRECRAWL_TOKEN}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      url: TARGET_URL,
+      onlyMainContent: true,
+      maxAge: 172800000, // 2 days
+      parsers: ["pdf"],
+      formats: ["markdown"],
+    }),
+  };
+
+  console.log("🌐 Fetching data via Firecrawl proxy...");
+  const response = await fetch(FIRECRAWL_URL, options);
+  if (!response.ok) {
+    throw new Error(`Firecrawl API error: ${response.status} ${response.statusText}`);
+  }
+
+  const result = await response.json();
+  if (!result.success) {
+    throw new Error(`Firecrawl returned error: ${result.error || "Unknown error"}`);
+  }
+
+  // Extract markdown content
+  const markdown = result.data?.markdown || "";
+  if (!markdown) {
+    throw new Error("No markdown content returned from Firecrawl");
+  }
+
+  // Try to parse the markdown as JSON directly (if it's plain text)
+  try {
+    return JSON.parse(markdown);
+  } catch {
+    // If that fails, attempt to extract JSON from a markdown code block
+    const codeBlockMatch = markdown.match(/```(?:json)?\s*([\s\S]*?)```/);
+    if (codeBlockMatch && codeBlockMatch[1]) {
+      try {
+        return JSON.parse(codeBlockMatch[1].trim());
+      } catch (innerErr) {
+        throw new Error("Failed to parse JSON from markdown code block");
+      }
+    }
+    throw new Error("Could not extract JSON from markdown response");
+  }
+}
+
 async function main() {
   try {
-    console.log("🌐 Fetching data from API...");
-    const res = await fetch(API_URL);
-    if (!res.ok) throw new Error(`API fetch failed: ${res.status}`);
-    const freshData = await res.json();
+    // Get fresh data via Firecrawl
+    const freshData = await fetchDataFromFirecrawl();
 
     console.log("📂 Loading existing movies...");
     const existingData = loadExistingData();
